@@ -1,0 +1,160 @@
+TASK: Build the data model + home screen + category picker for Renegade, 
+a Jeopardy-style cultural trivia party game. This is step 1 of a 
+multi-step build. DO NOT BUILD ANYTHING OUTSIDE THIS SCOPE.
+
+STACK:
+- Expo + expo-router (file-based routing under /app)
+- TypeScript strict mode
+- pnpm
+- React Context for state
+- AsyncStorage for persistence
+- Fresh repo — there are no existing files to preserve or migrate
+
+DO NOT BUILD IN THIS PROMPT:
+- Team setup screen
+- Board screen (the 6×3×2 grid)
+- Question screen
+- Aids logic or aid selection UI
+- Results or scoring screen
+- Any backend, auth, or analytics
+- Any image assets (text-only for v1)
+- Settings screen (create the route but leave it as a placeholder)
+
+---
+
+WHAT TO BUILD:
+
+1. DATA MODEL — create types/game.ts with these exact interfaces, 
+no additions:
+
+interface Question {
+  id: string;
+  categoryId: string;
+  tier: 200 | 400 | 600;
+  prompt: string;
+  answer: string;
+  acceptableAnswers?: string[];
+  explanation?: string;
+  source?: string;
+}
+
+interface Category {
+  id: string;
+  name: string;
+  culture: "circassian" | "jordanian" | "arabic" | "american" 
+    | "islamic" | "universal";
+  description: string;
+  questions: Question[];
+}
+
+type AidId = 
+  | "skip" 
+  | "split" 
+  | "steal" 
+  | "phone" 
+  | "double" 
+  | "veto" 
+  | "insider";
+
+interface GameConfig {
+  team1Name: string;
+  team2Name: string;
+  team1Categories: string[];
+  team2Categories: string[];
+  team1Aids: AidId[];
+  team2Aids: AidId[];
+  numPlayers: number;
+}
+
+---
+
+2. SEED DATA — create constants/categories.ts with 11 Category 
+objects, each with questions: [] for now. Do not invent questions.
+
+Categories (id, name, culture):
+- circassian_culture / "Circassian Culture" / circassian
+- jordanian_culture / "Jordanian Culture" / jordanian
+- arabic_heritage / "Arabic Heritage" / arabic
+- american_culture / "American Culture" / american
+- islamic / "Islamic" / islamic
+- movies / "Movies" / universal
+- music_artists / "Music Artists" / universal
+- food / "Food" / universal
+- sports / "Sports" / universal
+- anime / "Anime" / universal
+- video_games / "Video Games" / universal
+
+Write a one-sentence description for each. Factual, not 
+marketing-speak.
+
+---
+
+3. CONTEXT — create context/RenegadeContext.tsx:
+- Holds GameConfig (null if no game in progress)
+- Exposes: setTeamNames, addCategoryToTeam(team, categoryId), 
+  removeCategoryFromTeam(team, categoryId), setAids, resetGame
+- Persists GameConfig to AsyncStorage under key "renegade:current_game"
+- Loads persisted state on mount
+
+---
+
+4. HOME SCREEN — app/index.tsx:
+- Title: "Renegade"
+- Tagline: "A trivia game for the table"
+- Three buttons, stacked vertically:
+  - "New Game" → routes to /create-game/categories
+  - "Continue Game" → disabled if no saved game in context, 
+    otherwise routes to /create-game/categories with saved state
+  - "Settings" → routes to /settings (placeholder screen, 
+    just render the word "Settings")
+- Clean layout, readable on iPhone, no animations
+
+---
+
+5. CATEGORY PICKER — app/create-game/categories.tsx:
+
+Rules:
+- Team 1 picks first, then Team 2, alternating until each 
+  has 3. Pick order: T1, T2, T1, T2, T1, T2.
+- Tapping a card claims it for the current picking team.
+- Tapping an already-claimed card by the current team 
+  unclaims it (only if total picks < 6).
+- Once 6 total are claimed, no more changes.
+- "Continue" button only enables when T1 has exactly 3 
+  and T2 has exactly 3.
+- On Continue: write GameConfig to context and 
+  AsyncStorage, then navigate to /create-game/teams 
+  (which does not exist yet — the 404 is expected).
+
+UI:
+- Header shows whose turn it is: "Team 1 — pick a category" 
+  or "Team 2 — pick a category" or "All done" when 6 claimed.
+- 2-column grid of category cards on phone.
+- Each card shows: name, one-line description, culture tag 
+  (small label: "Circassian", "Jordanian", "Arabic", 
+  "American", "Islamic", "Universal").
+- Unclaimed cards: neutral style.
+- Team 1 claimed: distinct color A.
+- Team 2 claimed: distinct color B.
+- Use 2 colors that are readable on both light and dark 
+  backgrounds — your choice, but they must be visually distinct.
+
+---
+
+VERIFICATION — confirm all of these before stopping:
+1. App builds and runs with zero errors or warnings.
+2. "New Game" routes to category picker.
+3. Picker enforces T1/T2 alternation correctly.
+4. Cannot claim more than 3 per team.
+5. Unclaim works before 6 total are claimed.
+6. Continue is disabled until exactly 3+3 claimed.
+7. GameConfig persists to AsyncStorage — force-quit 
+   and reopen, "Continue Game" on home should be enabled.
+
+CODE QUALITY:
+- TypeScript strict, no `any`
+- No new dependencies beyond what expo-router and 
+  AsyncStorage require
+- No premature abstraction
+- If genuinely ambiguous, ask before building — 
+  do not guess and build the wrong thing
