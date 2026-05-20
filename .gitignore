@@ -1,0 +1,8 @@
+node_modules/
+.local/
+.cache/
+dist/
+*.tsbuildinfo
+.expo/
+.DS_Store
+Thumbs.db
