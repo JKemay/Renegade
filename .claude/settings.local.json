@@ -1,0 +1,34 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm typecheck:*)",
+      "Bash(node_modules/.bin/tsc -p tsconfig.json --noEmit)",
+      "Bash(node_modules/.bin/tsc --build)",
+      "Bash(find C:/Users/janti/downloads/Data-Model-Home/Data-Model-Home/artifacts/renegade/app -name *.tsx -o -name *.ts)",
+      "Bash(find /c/Users/janti/downloads/Data-Model-Home/Data-Model-Home/packages -type f -name *.tsx)",
+      "Bash(find /c/Users/janti/downloads/Data-Model-Home/Data-Model-Home/artifacts/renegade -type f -name *.ts)",
+      "Bash(npx tsc:*)",
+      "Bash(./node_modules/.bin/tsc -p tsconfig.json --noEmit)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(node -e \":*)",
+      "Bash(grep -c \"id: \"\"\" \"/c/Users/janti/downloads/Data-Model-Home/Data-Model-Home/artifacts/renegade/constants/categories.ts\")",
+      "Bash(python3:*)",
+      "WebSearch",
+      "WebFetch(domain:apps.apple.com)",
+      "WebFetch(domain:spark.mwm.ai)",
+      "WebFetch(domain:mwm.ai)",
+      "WebFetch(domain:seenjeemkw.com)",
+      "WebFetch(domain:www.almaany.com)",
+      "WebFetch(domain:s2000.yoo7.com)",
+      "Bash(grep -c '\"\"id\"\":' \"C:\\\\Users\\\\janti\\\\downloads\\\\Data-Model-Home\\\\Data-Model-Home\\\\artifacts\\\\renegade\\\\constants\\\\categories.ts\")",
+      "Bash(xargs -I {} basename {})",
+      "Bash(grep -E '^\\\\s*\\\\{$' -A 5)",
+      "Bash(__NEW_LINE_ea42510d30c20d9a__ file=\"C:\\\\Users\\\\janti\\\\DOWNLOADS\\\\Data-Model-Home\\\\Data-Model-Home\\\\artifacts\\\\renegade\\\\constants\\\\categories.ts\" __NEW_LINE_ea42510d30c20d9a__ echo \"=== 4. DUPLICATE QUESTION IDs ===\" echo \"\" __NEW_LINE_ea42510d30c20d9a__ cat \"$file\")",
+      "Bash(__NEW_LINE_3a8f3b4438c8b32b__ echo:*)",
+      "Bash(python:*)",
+      "Bash(grep 'categoryId: \"\"\"\"circassian_culture\"\"\"\"' categories.ts)",
+      "Bash(chcp 65001)",
+      "Bash(pnpm exec:*)"
+    ]
+  }
+}
