@@ -108,8 +108,8 @@ export default function BoardScreen() {
             ...prev.tileStatuses,
             [key]: anyoneScored ? "played_won" : "played_lost",
           },
-          team1Score: prev.team1Score + result.team1ScoreDelta,
-          team2Score: prev.team2Score + result.team2ScoreDelta,
+          team1Score: Math.max(0, prev.team1Score + result.team1ScoreDelta),
+          team2Score: Math.max(0, prev.team2Score + result.team2ScoreDelta),
           currentTurn: nextTurnAfter(prev.currentTurn, result.skipTurnFor),
           usedAids: getUsedAidsSnapshot(),
         };
