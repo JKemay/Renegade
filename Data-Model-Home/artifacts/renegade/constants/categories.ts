@@ -9166,6 +9166,9 @@ const CATEGORIES: Category[] = [
         explanation:
           "G-Eazy attended Loyola University New Orleans before leaving to focus on his career.",
       },
+      { id: "ge_200_03", categoryId: "mu_geazy", tier: 200, prompt: "G-Eazy's debut major-label album — featuring 'Me, Myself & I' with Bebe Rexha — is titled what?", answer: "When It's Dark Out", acceptableAnswers: ["When It's Dark Out"] },
+      { id: "ge_400_03", categoryId: "mu_geazy", tier: 400, prompt: "G-Eazy famously sampled which classic Nina Simone song for his breakout hit 'Marilyn' — creating a haunting contrast between vintage soul and modern rap?", answer: "I Put a Spell on You", acceptableAnswers: ["I Put a Spell on You", "Nina Simone I Put a Spell on You"] },
+      { id: "ge_600_03", categoryId: "mu_geazy", tier: 600, prompt: "G-Eazy's 2017 album 'The Beautiful & Damned' takes its title from which F. Scott Fitzgerald novel — a nod to G-Eazy's literary influences?", answer: "The Beautiful and Damned", acceptableAnswers: ["The Beautiful and Damned", "F. Scott Fitzgerald's The Beautiful and Damned"] },
     ],
   },
   {
@@ -32338,6 +32341,9 @@ const CATEGORIES: Category[] = [
           "Andrés Iniesta",
         ],
       },
+      { id: "bar2_200_03", categoryId: "sp_barcelona_2", tier: 200, prompt: "Lionel Messi wore the same Barcelona squad number for his entire career at the club. What number?", answer: "10", acceptableAnswers: ["number 10", "#10"] },
+      { id: "bar2_400_03", categoryId: "sp_barcelona_2", tier: 400, prompt: "Barcelona's famous positional play system — built on short passes, triangles, and pressing without the ball — is commonly called what in football?", answer: "Tiki-taka", acceptableAnswers: ["tiki taka", "tiqui-taca"] },
+      { id: "bar2_600_03", categoryId: "sp_barcelona_2", tier: 600, prompt: "In the 2009 UCL Final against Manchester United, Barça won 2-0. Who scored both goals — including an unusual headed goal despite being only 5'7\"?", answer: "Samuel Eto'o and Lionel Messi", acceptableAnswers: ["Eto'o and Messi", "Samuel Eto'o Lionel Messi", "Etoo and Messi"] },
     ],
   },
 
@@ -32404,6 +32410,9 @@ const CATEGORIES: Category[] = [
         answer: "Bob Paisley",
         acceptableAnswers: ["Bob Paisley", "Paisley"],
       },
+      { id: "lvp2_200_03", categoryId: "sp_liverpool_2", tier: 200, prompt: "Liverpool's iconic anthem — sung by fans before every match — is called what?", answer: "You'll Never Walk Alone", acceptableAnswers: ["YNWA", "You Never Walk Alone"] },
+      { id: "lvp2_400_03", categoryId: "sp_liverpool_2", tier: 400, prompt: "In 2019, Liverpool came back from 3-0 down in the UCL semi-final second leg against Barcelona to win 4-0 at Anfield. Which substitute scored twice to complete the comeback?", answer: "Divock Origi", acceptableAnswers: ["Origi", "divock"] },
+      { id: "lvp2_600_03", categoryId: "sp_liverpool_2", tier: 600, prompt: "Jürgen Klopp's 'gegenpressing' system is the tactical identity of his Liverpool. What does gegenpressing literally mean, and what makes it different from traditional high pressing?", answer: "Gegenpressing means 'counter-pressing' — the team immediately presses after losing the ball (within 5 seconds) to win it back high up the pitch rather than retreating to shape", acceptableAnswers: ["counter pressing", "pressing immediately after losing ball", "counter-press after losing possession"] },
     ],
   },
 
