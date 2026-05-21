@@ -27480,6 +27480,9 @@ const CATEGORIES: Category[] = [
         explanation:
           "AC Milan have won the European Cup/UCL seven times: 1963, 1969, 1989, 1990, 1994, 2003, and 2007.",
       },
+      { id: "acm_200_03", categoryId: "sp_ac_milan", tier: 200, prompt: "AC Milan's fierce city rivals — with whom they share the San Siro stadium — are called what?", answer: "Inter Milan (FC Internazionale)", acceptableAnswers: ["Inter Milan", "Internazionale", "Inter"] },
+      { id: "acm_400_03", categoryId: "sp_ac_milan", tier: 400, prompt: "The AC Milan team of the late 1980s-early 90s — with Sacchi's pressing tactics and the Dutch trio — is considered one of the greatest club sides ever. Name the three Dutch players.", answer: "Ruud Gullit, Marco van Basten, and Frank Rijkaard", acceptableAnswers: ["Gullit, Van Basten, Rijkaard", "Ruud Gullit Marco van Basten Frank Rijkaard", "the Dutch trio"] },
+      { id: "acm_600_03", categoryId: "sp_ac_milan", tier: 600, prompt: "The 2005 UCL Final is one of football's most dramatic comebacks — not for Milan but against them. They led 3-0 at halftime against Liverpool. What happened, and why is it particularly painful for Milan fans?", answer: "Liverpool scored 3 goals in 6 minutes in the second half to equalize, then won on penalties — it's known as 'The Miracle of Istanbul' and denied Milan what would have been their 8th European Cup", acceptableAnswers: ["Liverpool came back from 3-0 down", "Miracle of Istanbul", "Liverpool equalized then won on penalties", "3-0 to 3-3 comeback"] },
     ],
   },
   {
@@ -29268,6 +29271,9 @@ const CATEGORIES: Category[] = [
         answer: "Camila Elizondro",
         acceptableAnswers: ["Camila", "Camila Elizondro", "Camila Elizondo"],
       },
+      { id: "ozk2_200_03", categoryId: "mv_ozark_2", tier: 200, prompt: "What legitimate business does Marty Byrde open in the Ozarks as his primary money laundering front?", answer: "The Blue Cat Lodge (and later the Byrde Foundation)", acceptableAnswers: ["Blue Cat Lodge", "strip club", "Missouri Belle casino", "the casino"] },
+      { id: "ozk2_400_03", categoryId: "mv_ozark_2", tier: 400, prompt: "Wendy Byrde (played by Laura Linney) transforms over the series from a reluctant participant to arguably the most dangerous Byrde. What specific action in the later seasons proves her willingness to sacrifice family over power?", answer: "She orchestrates her own brother Ben's death — allowing him to be killed by cartel fixers because his mental illness made him a liability that threatened the family's empire", acceptableAnswers: ["orchestrated Ben's death", "let Ben be killed", "sacrificed her brother Ben", "Ben's murder"] },
+      { id: "ozk2_600_03", categoryId: "mv_ozark_2", tier: 600, prompt: "The 'Missouri Belle' casino the Byrdes build becomes central to their operation. Why is a riverboat casino specifically important to their laundering scheme?", answer: "Riverboat casinos in Missouri have a specific regulatory loophole — cash volume is high and fluctuating, making it ideal for laundering because inflated gambling 'wins' are hard to trace", acceptableAnswers: ["cash volume makes laundering easy", "riverboat casino loophole", "high cash volume hard to trace", "Missouri riverboat gambling regulations"] },
     ],
   },
 
