@@ -23645,6 +23645,9 @@ const CATEGORIES: Category[] = [
         answer: "San Francisco",
         acceptableAnswers: ["San Francisco", "SF", "San Francisco California"],
       },
+      { id: "him_200_03", categoryId: "mv_himym", tier: 200, prompt: "The show's central mystery — who is the Mother — is finally revealed in the penultimate season. What is her name?", answer: "Tracy McConnell", acceptableAnswers: ["Tracy McConnell", "Tracy"] },
+      { id: "him_400_03", categoryId: "mv_himym", tier: 400, prompt: "Barney Stinson's signature catchphrase and the name of his extensive playbook of dating strategies is what?", answer: "The Playbook (and 'Legen... wait for it... dary!')", acceptableAnswers: ["The Playbook", "Legendary", "Legen-dary"] },
+      { id: "him_600_03", categoryId: "mv_himym", tier: 600, prompt: "The HIMYM finale is one of the most divisive in TV history. What specifically made fans furious — and what did the alternate ending on the DVD reveal?", answer: "Ted immediately pursues Robin after revealing the Mother died — undoing 9 seasons of Ted 'moving on'; the alternate DVD ending cuts this and lets the Tracy reveal stand as the true ending", acceptableAnswers: ["Ted pursues Robin after Tracy dies", "Mother died then Ted chased Robin", "undid 9 seasons in one scene", "alternate ending shows Tracy alive"] },
     ],
   },
   {
@@ -27819,6 +27822,9 @@ const CATEGORIES: Category[] = [
         answer: "Chuck Lorre",
         acceptableAnswers: ["Chuck Lorre"],
       },
+      { id: "thm_200_03", categoryId: "mv_two_half_men", tier: 200, prompt: "What was Charlie Sheen's real-life controversy that led to his firing from the show in 2011?", answer: "Public meltdown, substance abuse, and a very public feud with creator Chuck Lorre — leading to his termination and the famous 'winning' media tour", acceptableAnswers: ["public meltdown and feud with Chuck Lorre", "substance abuse and Lorre feud", "winning tour", "Charlie Sheen meltdown 2011"] },
+      { id: "thm_400_03", categoryId: "mv_two_half_men", tier: 400, prompt: "After Charlie Sheen's exit, which comedian replaced him — playing a character named Walden Schmidt?", answer: "Ashton Kutcher", acceptableAnswers: ["Ashton Kutcher", "Kutcher"] },
+      { id: "thm_600_03", categoryId: "mv_two_half_men", tier: 600, prompt: "The series finale shows Charlie Harper (Sheen) returning but never being seen — instead he's killed by a falling piano. What made this finale a meta cultural moment?", answer: "Chuck Lorre used the finale to have the last word on the feud — the piano drop referenced Sheen's public threats; the final shot shows Lorre himself about to be dropped on, then smash-cut to credits", acceptableAnswers: ["Chuck Lorre's last word on Sheen", "piano kills Charlie as Lorre's revenge", "meta commentary on Sheen feud", "Lorre himself in the final shot"] },
     ],
   },
   {
@@ -29328,6 +29334,9 @@ const CATEGORIES: Category[] = [
         answer: "His right hand / fingers on his right hand",
         acceptableAnswers: ["right hand", "his right hand", "right"],
       },
+      { id: "hod_200_03", categoryId: "mv_house_of_dragon", tier: 200, prompt: "House of the Dragon is set approximately how many years before the events of Game of Thrones?", answer: "About 200 years (172 years before GoT)", acceptableAnswers: ["200 years", "172 years", "about 200 years before"] },
+      { id: "hod_400_03", categoryId: "mv_house_of_dragon", tier: 400, prompt: "The Dance of the Dragons — the civil war the show builds toward — is a war between which two factions of House Targaryen?", answer: "The Blacks (Rhaenyra's faction) versus the Greens (Alicent/Aegon II's faction)", acceptableAnswers: ["Blacks vs Greens", "Rhaenyra vs Aegon", "Blacks and Greens", "Rhaenyra's faction vs Alicent's"] },
+      { id: "hod_600_03", categoryId: "mv_house_of_dragon", tier: 600, prompt: "Daemon Targaryen's dragon — arguably the most fearsome in the show — is named what, and what makes this dragon's history particularly significant in Targaryen lore?", answer: "Caraxes ('the Blood Wyrm') — a lean, serpentine dragon who survives the Dance of the Dragons, notably battling Aemond's Vhagar in a famous dual-rider battle that kills both", acceptableAnswers: ["Caraxes", "the Blood Wyrm", "Caraxes the Blood Wyrm"] },
     ],
   },
 
@@ -29398,6 +29407,9 @@ const CATEGORIES: Category[] = [
         answer: "Joe Driscoll",
         acceptableAnswers: ["Joe Driscoll", "Driscoll"],
       },
+      { id: "dex_200_03", categoryId: "mv_dexter", tier: 200, prompt: "Dexter's moral code — which only allows him to kill murderers who escaped justice — was created by his adoptive father. What is his father's name?", answer: "Harry Morgan", acceptableAnswers: ["Harry Morgan", "Harry"] },
+      { id: "dex_400_03", categoryId: "mv_dexter", tier: 400, prompt: "The Trinity Killer — widely considered Dexter's greatest adversary — is played by which Emmy-winning actor?", answer: "John Lithgow", acceptableAnswers: ["John Lithgow", "Lithgow"] },
+      { id: "dex_600_03", categoryId: "mv_dexter", tier: 600, prompt: "The Season 4 finale of Dexter is considered one of TV's most devastating moments. What happens — and why was the Rita twist so shocking?", answer: "Trinity kills Rita (Dexter's wife) in the bathtub while Dexter is busy killing Trinity — Dexter arrives home to find baby Harrison crying in her blood; it's shocking because viewers expected Dexter's vigilante success to protect his family", acceptableAnswers: ["Trinity kills Rita", "Rita dies in the bathtub", "Dexter kills Trinity but Rita still dies", "Season 4 Rita death"] },
     ],
   },
 
@@ -31611,6 +31623,9 @@ const CATEGORIES: Category[] = [
         answer: "The Office",
         acceptableAnswers: ["The Office", "The US Office"],
       },
+      { id: "par_200_03", categoryId: "mv_parks_rec", tier: 200, prompt: "What is the fictional date in April celebrated by the citizens of Pawnee — modeled after Valentine's Day but dedicated to friendship with your platonic soulmate?", answer: "Galentine's Day (February 13th — though the show set it as a thing Leslie celebrates)", acceptableAnswers: ["Galentine's Day", "Galentines Day"] },
+      { id: "par_400_03", categoryId: "mv_parks_rec", tier: 400, prompt: "Season 1 of Parks & Rec is widely considered the weakest — why, and what specifically changed for Season 2 that made the show become great?", answer: "Season 1 presented Leslie as a Michael Scott-type oblivious buffoon — for Season 2, creators Michael Schur and Greg Daniels refocused her as competent and earnest rather than clueless", acceptableAnswers: ["Leslie was reworked as competent not clueless", "Season 1 Leslie was too similar to Michael Scott", "tone shift in Season 2", "Leslie's character reinvention"] },
+      { id: "par_600_03", categoryId: "mv_parks_rec", tier: 600, prompt: "Ben Wyatt — introduced in Season 2 as an antagonist — becomes one of the show's best characters and eventually marries Leslie. He's famously obsessed with which niche interest that spawns multiple episodes?", answer: "Game of Thrones board games and calzones — but specifically his obsession with the fictional board game 'Cones of Dunshire' which he actually invented", acceptableAnswers: ["Cones of Dunshire", "he invented Cones of Dunshire", "board games / Cones of Dunshire"] },
     ],
   },
 
@@ -31677,6 +31692,9 @@ const CATEGORIES: Category[] = [
         answer: "Delphine LaLaurie",
         acceptableAnswers: ["Delphine LaLaurie", "LaLaurie", "Madame LaLaurie"],
       },
+      { id: "ahs_200_03", categoryId: "mv_ahs", tier: 200, prompt: "AHS: Murder House's most shocking twist is that the main family's house is full of ghosts. What happens to ghosts who die inside the house?", answer: "They are trapped there forever — they can never leave the property", acceptableAnswers: ["trapped in the house forever", "can't leave the property", "stuck there for eternity"] },
+      { id: "ahs_400_03", categoryId: "mv_ahs", tier: 400, prompt: "The AHS season 'Freak Show' (Season 4) features a real-world phobia as a central horror. Dandy Mott and Twisty the Clown embody what fear — and who played Twisty?", answer: "Coulrophobia (fear of clowns) — Twisty was played by John Carroll Lynch", acceptableAnswers: ["fear of clowns", "coulrophobia", "John Carroll Lynch as Twisty"] },
+      { id: "ahs_600_03", categoryId: "mv_ahs", tier: 600, prompt: "AHS: Apocalypse (Season 8) is a crossover of which two previous seasons — and what major character returns in it?", answer: "It crosses over Murder House and Coven — Michael Langdon (the Antichrist born in Murder House) is the villain, and the Coven witches return to battle the apocalypse", acceptableAnswers: ["Murder House and Coven crossover", "Michael Langdon returns", "Coven witches vs Antichrist"] },
     ],
   },
 
