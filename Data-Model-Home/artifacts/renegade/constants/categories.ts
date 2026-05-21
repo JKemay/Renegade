@@ -11162,6 +11162,9 @@ const CATEGORIES: Category[] = [
         explanation:
           "Future called himself Pluto because Pluto was demoted from planet status — it's on the outside, considered an outcast. He saw himself similarly as an underdog outsider.",
       },
+      { id: "fut_200_03", categoryId: "mu_future", tier: 200, prompt: "Future's 2017 self-titled album debuted at #1 — followed one week later by another album that also debuted at #1. What was the second album called?", answer: "HNDRXX", acceptableAnswers: ["HNDRXX"] },
+      { id: "fut_400_03", categoryId: "mu_future", tier: 400, prompt: "Future's breakup with Ciara — which included a public custody dispute — is widely credited with inspiring his most emotionally raw period of music. Which project best represents this era?", answer: "DS2 (Dirty Sprite 2, 2015) — often considered his masterpiece, filled with heartbreak under trap hedonism", acceptableAnswers: ["DS2", "Dirty Sprite 2", "DS2 2015"] },
+      { id: "fut_600_03", categoryId: "mu_future", tier: 600, prompt: "Future's production style — particularly on Monster mixtape (2014) — largely established the 'trap ballad' genre. What specific vocal and production technique defines his sound on that tape?", answer: "Auto-Tune as an emotional instrument rather than a pitch corrector — combined with Metro Boomin's sparse, ominous 808-heavy production; Future pioneered using distorted Auto-Tune to convey heartbreak", acceptableAnswers: ["Auto-Tune as an emotional tool", "emotional Auto-Tune", "Auto-Tune for heartbreak", "Metro Boomin sparse 808s"] },
     ],
   },
   {
@@ -11301,6 +11304,9 @@ const CATEGORIES: Category[] = [
         explanation:
           "Her first mixtape 'Playtime Is Over' (2007) established her skills. She followed with 'Sucka Free' (2008) and 'Beam Me Up Scotty' (2009) before signing to Young Money.",
       },
+      { id: "nk_200_03", categoryId: "mu_nicki", tier: 200, prompt: "Nicki Minaj is from which island nation — born there before her family moved to Queens, New York?", answer: "Trinidad and Tobago", acceptableAnswers: ["Trinidad", "Trinidad and Tobago"] },
+      { id: "nk_400_03", categoryId: "mu_nicki", tier: 400, prompt: "The 2018 Nicki Minaj vs. Cardi B fight at a Harper's Bazaar Icons party became legendary. What specifically triggered the physical altercation?", answer: "Cardi B threw a shoe at Nicki — after Nicki allegedly made a comment about Cardi's parenting of her daughter Kulture at an earlier event", acceptableAnswers: ["Cardi threw a shoe", "shoe throwing at Harper's Bazaar", "comment about Kulture/Cardi's baby"] },
+      { id: "nk_600_03", categoryId: "mu_nicki", tier: 600, prompt: "Nicki Minaj's verse on Kanye West's 'Monster' (2010) is widely considered one of the greatest rap verses of the 2010s. What makes it technically remarkable?", answer: "She switches between multiple distinct characters/personalities with different accents and flows mid-verse — demonstrating range that most male rappers couldn't match on the same record", acceptableAnswers: ["multiple personalities/accents", "character switching mid-verse", "multiple flows on same verse", "distinct character voices"] },
     ],
   },
   {
@@ -11458,6 +11464,9 @@ const CATEGORIES: Category[] = [
           "North Philly",
         ],
       },
+      { id: "uzi_200_03", categoryId: "mu_lil_uzi", tier: 200, prompt: "Lil Uzi Vert surgically implanted a rare pink diamond in their forehead in 2021. What happened to it later the same year at a concert?", answer: "A fan ripped it out of their forehead during a Lollapalooza set, causing bleeding", acceptableAnswers: ["ripped out by a fan", "torn out at concert", "fan pulled it out at Lollapalooza"] },
+      { id: "uzi_400_03", categoryId: "mu_lil_uzi", tier: 400, prompt: "XO TOUR Llif3 (2017) was Lil Uzi's breakthrough moment — what personal event inspired the song's dark themes?", answer: "A breakup with his girlfriend Brittany Byrd — the song is about emotional manipulation and codependency in the relationship", acceptableAnswers: ["breakup with Brittany Byrd", "relationship with Brittany", "breakup inspiration", "relationship breakup"] },
+      { id: "uzi_600_03", categoryId: "mu_lil_uzi", tier: 600, prompt: "Lil Uzi Vert's 'The Pink Tape' (2023) took years to complete partly due to a reported standoff with their label. What is the label, and what was the reported core dispute?", answer: "Generation Now / Atlantic Records — Uzi claimed the label held their music hostage and refused to allow releases without contractual concessions; they publicly begged for their freedom", acceptableAnswers: ["Generation Now", "Atlantic Records", "label held music hostage", "Generation Now label dispute"] },
     ],
   },
   {
@@ -14769,6 +14778,9 @@ const CATEGORIES: Category[] = [
         answer: "Rihanna",
         acceptableAnswers: ["Rihanna", "Robyn Rihanna Fenty"],
       },
+      { id: "arap_200_03", categoryId: "mu_asap_rocky", tier: 200, prompt: "A$AP Rocky's debut mixtape 'LIVE.LOVE.A$AP' dropped in 2011 and blew up online before any major label deal. What made his sound immediately distinct from mainstream rap at the time?", answer: "He blended Houston chopped-and-screwed aesthetics with New York lyricism and cloud rap — a dreamy, hazy production style popularized by Clams Casino", acceptableAnswers: ["cloud rap", "chopped and screwed New York blend", "Clams Casino production", "dreamy hazy sound"] },
+      { id: "arap_400_03", categoryId: "mu_asap_rocky", tier: 400, prompt: "In 2019, A$AP Rocky was arrested in Sweden while on tour. Which US president personally called the Swedish PM to try to secure his release?", answer: "Donald Trump", acceptableAnswers: ["Donald Trump", "Trump"] },
+      { id: "arap_600_03", categoryId: "mu_asap_rocky", tier: 600, prompt: "A$AP Rocky was the first major rapper to openly wear skirts, nail polish, and high fashion women's pieces as part of his daily wardrobe. How did the A$AP Mob's founding ideology relate to this?", answer: "The A$AP Mob (founded by A$AP Yams) was built around rejecting traditional hip-hop masculinity — they were the first rap collective to normalize mixing high fashion, luxury goods, and gender-fluid aesthetics as core to rap identity", acceptableAnswers: ["rejected hip-hop masculinity", "A$AP Yams' fashion ideology", "gender-fluid high fashion in rap", "challenging rap masculinity norms"] },
     ],
   },
   {
@@ -14834,6 +14846,9 @@ const CATEGORIES: Category[] = [
         answer: "Dominique Armani Jones",
         acceptableAnswers: ["Dominique Armani Jones", "Dominique Jones"],
       },
+      { id: "lb_200_03", categoryId: "mu_lil_baby", tier: 200, prompt: "Lil Baby signed to Quality Control Music — which other major Atlanta rap duo also came from Quality Control?", answer: "Migos", acceptableAnswers: ["Migos"] },
+      { id: "lb_400_03", categoryId: "mu_lil_baby", tier: 400, prompt: "Lil Baby was reportedly serving prison time and dealing with addiction before his music career began. What change did Gunna and Young Thug reportedly encourage that launched his rap career?", answer: "Gunna and Young Thug convinced him to seriously pursue rap — he began making music essentially while on house arrest, recording 'Perfect Timing' in 2017 as his debut", acceptableAnswers: ["Gunna and Young Thug convinced him", "rap career started on house arrest", "Gunna pushed him to rap"] },
+      { id: "lb_600_03", categoryId: "mu_lil_baby", tier: 600, prompt: "Lil Baby's biggest critical album — My Turn (2020) — has a specific production characteristic that defines its sound. What producer/sound defined it?", answer: "Wheezy and Go Grizzly's ice-cold Atlanta trap production — high hats, ominous keys, and deep 808 patterns that Lil Baby uses to create emotional space rather than hype", acceptableAnswers: ["Wheezy production", "ominous trap production", "Go Grizzly beats", "Wheezy and Go Grizzly"] },
     ],
   },
   {
@@ -23691,6 +23706,9 @@ const CATEGORIES: Category[] = [
           "social media star",
         ],
       },
+      { id: "b99_200_03", categoryId: "mv_brooklyn99", tier: 200, prompt: "Jake Peralta's obsession with which 1998 Bruce Willis film — that he references constantly throughout the show — becomes a running gag?", answer: "Die Hard", acceptableAnswers: ["Die Hard"] },
+      { id: "b99_400_03", categoryId: "mv_brooklyn99", tier: 400, prompt: "Brooklyn Nine-Nine was cancelled by Fox after Season 5 — then renewed by NBC within 31 hours. What caused the unusually fast turnaround?", answer: "Fan outcry on social media was so immediate and massive that NBC was able to jump on the rights quickly — it became a landmark moment for fan-driven renewal", acceptableAnswers: ["fan outcry on social media", "NBC jumped on fan reaction", "viral fan response saved it", "31-hour renewal due to fan pressure"] },
+      { id: "b99_600_03", categoryId: "mv_brooklyn99", tier: 600, prompt: "The show's Season 8 premiere was rewritten after real-world events forced the creators to change their original story. What was the original plan, and what forced the change?", answer: "The original S8 premiere was about police brutality — the George Floyd protests and Black Lives Matter movement in 2020 forced creators Michael Schur and Dan Goor to scrap two episodes and rethink the season's approach", acceptableAnswers: ["George Floyd protests forced rewrite", "police brutality storyline scrapped after BLM", "Black Lives Matter changed the season"] },
     ],
   },
   {
@@ -24520,6 +24538,9 @@ const CATEGORIES: Category[] = [
         answer: "Rip Wheeler",
         acceptableAnswers: ["Rip Wheeler", "Rip"],
       },
+      { id: "yel_200_03", categoryId: "mv_yellowstone", tier: 200, prompt: "Which streaming platform originally aired Yellowstone — making it one of the most-watched shows on cable/streaming in modern TV history?", answer: "Paramount Network (not Netflix or HBO)", acceptableAnswers: ["Paramount Network", "Paramount"] },
+      { id: "yel_400_03", categoryId: "mv_yellowstone", tier: 400, prompt: "Beth Dutton is arguably the most dangerous character on Yellowstone — not through physical violence but through what?", answer: "Corporate and psychological warfare — she's a ruthless Wall Street investor who destroys people's careers, finances, and livelihoods with information and business leverage", acceptableAnswers: ["corporate warfare", "business and psychological manipulation", "financial destruction", "uses business leverage to destroy people"] },
+      { id: "yel_600_03", categoryId: "mv_yellowstone", tier: 600, prompt: "The Dutton ranch's '6666' (Four Sixes) — introduced in Yellowstone's spinoff '1883' — is based on what real Texas ranch that was actually acquired for the show's universe?", answer: "The Four Sixes Ranch in Guthrie, Texas — a real 350,000-acre working ranch that Taylor Sheridan actually purchased as part of the show's development", acceptableAnswers: ["Four Sixes Ranch in Texas", "real Texas ranch", "Taylor Sheridan bought the Four Sixes", "Guthrie Texas ranch"] },
     ],
   },
   {
@@ -24660,6 +24681,9 @@ const CATEGORIES: Category[] = [
         answer: "Vietnam War",
         acceptableAnswers: ["Vietnam War", "Vietnam"],
       },
+      { id: "cob_200_03", categoryId: "mv_cobra_kai", tier: 200, prompt: "What is Hawk's real name — the geeky, bullied kid who gets a makeover and becomes one of Cobra Kai's most aggressive fighters?", answer: "Eli Moskowitz", acceptableAnswers: ["Eli Moskowitz", "Eli"] },
+      { id: "cob_400_03", categoryId: "mv_cobra_kai", tier: 400, prompt: "Terry Silver — introduced as the real villain of Karate Kid III — returns in Season 4 and 5 as the ultimate antagonist. What makes him especially dangerous compared to Kreese?", answer: "He's wealthy, charming, and politically sophisticated — he funds the Cobra Kai expansion professionally and can undermine Daniel from within the system, unlike Kreese's brute force", acceptableAnswers: ["wealthy and politically savvy", "uses money and charm", "Terry Silver's business approach", "more sophisticated than Kreese"] },
+      { id: "cob_600_03", categoryId: "mv_cobra_kai", tier: 600, prompt: "The iconic crane kick that Daniel used to win the All Valley tournament in the original film is debated throughout Cobra Kai — why do some characters argue it was illegal?", answer: "Under tournament rules, a strike to the face while the opponent is downed or defenseless might be questionable — Johnny spent 34 years convinced the point shouldn't have counted, believing he was cheated", acceptableAnswers: ["Johnny believed it was illegal", "kick to the face controversy", "34 years of Johnny's resentment", "tournament rules controversy"] },
     ],
   },
   // ── ANIME WAVE 6 ─────────────────────────────────────────────────────────
@@ -27852,6 +27876,9 @@ const CATEGORIES: Category[] = [
           "meta",
         ],
       },
+      { id: "com_200_03", categoryId: "mv_community", tier: 200, prompt: "What is the name of the study group's college — the community college where they all meet?", answer: "Greendale Community College", acceptableAnswers: ["Greendale", "Greendale Community College"] },
+      { id: "com_400_03", categoryId: "mv_community", tier: 400, prompt: "The paintball episodes of Community are legendary. 'Modern Warfare' (Season 1) became a phenomenon — what was the prize that turned the whole school into a war zone?", answer: "Priority registration for next semester's classes", acceptableAnswers: ["priority registration", "early class registration", "priority enrollment"] },
+      { id: "com_600_03", categoryId: "mv_community", tier: 600, prompt: "Season 4 — produced without Dan Harmon — is referred to by fans as 'Gas Leak Year.' What is the significance of this nickname?", answer: "In the Season 5 premiere, Abed suggests the weird Season 4 events might be explained by a gas leak — it's the show's in-universe way of dismissing/retconning the quality drop without acknowledging it directly", acceptableAnswers: ["in-universe retcon of Season 4", "gas leak explains Season 4", "Abed's gas leak comment", "dismisses Season 4 as a gas leak"] },
     ],
   },
   {
@@ -27924,6 +27951,9 @@ const CATEGORIES: Category[] = [
           "same as pilot",
         ],
       },
+      { id: "soa_200_03", categoryId: "mv_sons_of_anarchy", tier: 200, prompt: "Jax Teller is played by which British actor — who had to learn a convincing American accent for the role?", answer: "Charlie Hunnam", acceptableAnswers: ["Charlie Hunnam", "Hunnam"] },
+      { id: "soa_400_03", categoryId: "mv_sons_of_anarchy", tier: 400, prompt: "Gemma Teller-Morrow's lie about Tara's murder — which she falsely blames on the Mayans — triggers what chain reaction that ultimately destroys SAMCRO from within?", answer: "It starts a war with the Mayans and Lin Triad that kills multiple SAMCRO members and culminates in Jax discovering the truth and killing Gemma himself", acceptableAnswers: ["war with Mayans and Lin Triad", "Jax kills Gemma over the lie", "false blame causes SAMCRO war"] },
+      { id: "soa_600_03", categoryId: "mv_sons_of_anarchy", tier: 600, prompt: "The 'John Teller Manuscripts' — referred to as the memento mori throughout the show — serve what narrative function beyond plot device?", answer: "They represent Jax's internal moral conflict — John Teller's writings document his disillusionment with the club's violent path, and Jax keeps reading them while following the exact path his father warned against", acceptableAnswers: ["Jax's moral conflict", "John's warning that Jax ignores", "documents the path Jax follows despite warnings", "the irony of Jax repeating his father's mistakes"] },
     ],
   },
   // ── ANIME WAVE 8 ─────────────────────────────────────────────────────────
