@@ -24448,6 +24448,9 @@ const CATEGORIES: Category[] = [
           "화양연화",
         ],
       },
+      { id: "bts_200_03", categoryId: "mu_bts", tier: 200, prompt: "What does BTS stand for in Korean — and what is the official English translation the group adopted in 2017?", answer: "Bangtan Sonyeondan (Bulletproof Boy Scouts) — English version became 'Beyond the Scene'", acceptableAnswers: ["Bangtan Sonyeondan", "Bulletproof Boy Scouts", "Beyond the Scene"] },
+      { id: "bts_400_03", categoryId: "mu_bts", tier: 400, prompt: "BTS's 'Dynamite' (2020) was their first song recorded entirely in English. What made its chart performance historically significant?", answer: "It debuted at #1 on the Billboard Hot 100 — the first Korean act to debut at #1 on the chart", acceptableAnswers: ["first Korean act at #1 Billboard Hot 100", "debuted #1 Billboard", "first #1 on Hot 100 for Korean act"] },
+      { id: "bts_600_03", categoryId: "mu_bts", tier: 600, prompt: "HYBE (formerly Big Hit Entertainment) pioneered a unique K-pop business model around BTS. What is the 'Weverse' platform and why is it strategically significant beyond just social media?", answer: "Weverse is HYBE's proprietary fan platform — it internalizes fan community engagement, merchandise, content subscriptions, and direct artist communication, keeping all monetization in-house rather than on third-party platforms", acceptableAnswers: ["proprietary fan platform", "keeps fan monetization in-house", "fan community and merch platform owned by HYBE"] },
     ],
   },
   // ── SHOWS WAVE 7 ─────────────────────────────────────────────────────────
@@ -25991,6 +25994,9 @@ const CATEGORIES: Category[] = [
         answer: "Country music",
         acceptableAnswers: ["Country music", "country"],
       },
+      { id: "bey_200_03", categoryId: "mu_beyonce", tier: 200, prompt: "Beyoncé's visual album 'Lemonade' (2016) featured what recurring symbol — a bat — and which other celebrity cameo made it culturally explosive?", answer: "Serena Williams twerked in the 'Hold Up' segment — the bat + Serena moment became one of the most discussed visual album scenes", acceptableAnswers: ["Serena Williams", "Serena Williams cameo", "Serena twerked in Lemonade"] },
+      { id: "bey_400_03", categoryId: "mu_beyonce", tier: 400, prompt: "Beyoncé's Renaissance album paid direct homage to Black queer ballroom culture. Which specific subculture/movement within Black LGBTQ+ history is most heavily referenced?", answer: "Ball culture / Vogue / Harlem ballroom scene — specifically the House music and 'voguing' tradition from the 1980s-90s Black and Latinx queer underground", acceptableAnswers: ["ball culture", "ballroom culture", "voguing", "House music ballroom"] },
+      { id: "bey_600_03", categoryId: "mu_beyonce", tier: 600, prompt: "Beyoncé's Coachella 2018 headlining set — nicknamed 'Beychella' — was record-breaking in a specific demographic first. What was it?", answer: "She was the first Black woman to headline Coachella — the set became a cultural touchstone with its HBCU tribute, alumni, and full marching band", acceptableAnswers: ["first Black woman to headline Coachella", "first Black woman headliner", "HBCU tribute at Coachella"] },
     ],
   },
   {
@@ -26054,6 +26060,9 @@ const CATEGORIES: Category[] = [
         answer: "Ariana Grande-Butera",
         acceptableAnswers: ["Ariana Grande-Butera"],
       },
+      { id: "ari_200_03", categoryId: "mu_ariana", tier: 200, prompt: "Ariana Grande's 2018 hit 'Thank U, Next' references four of her ex-boyfriends by name. Which former fiancé's death made the song especially poignant?", answer: "Mac Miller — who died of an accidental overdose in September 2018, weeks before the song released", acceptableAnswers: ["Mac Miller", "Mac Miller's death"] },
+      { id: "ari_400_03", categoryId: "mu_ariana", tier: 400, prompt: "The One Love Manchester benefit concert (2017) was Ariana's response to what — and how much did it raise?", answer: "The Manchester Arena bombing that killed 22 people at her own concert — the benefit raised over £2 million for victims", acceptableAnswers: ["Manchester Arena bombing", "Manchester attack at her concert", "bombing at her show", "response to the Manchester attack"] },
+      { id: "ari_600_03", categoryId: "mu_ariana", tier: 600, prompt: "Ariana Grande's vocal range is exceptional — what specific technique does she employ that gives her that signature powerful sound in her upper register?", answer: "Whistle register combined with a highly developed mixed voice — she blends her chest and head voice seamlessly while using whistle notes at the extremes", acceptableAnswers: ["whistle register", "mixed voice", "whistle register and mixed voice", "blend of chest and head voice"] },
     ],
   },
   {
@@ -28287,6 +28296,9 @@ const CATEGORIES: Category[] = [
         answer: "2015",
         acceptableAnswers: ["2015"],
       },
+      { id: "sp2_200_03", categoryId: "sci_space", tier: 200, prompt: "What is the name of the nearest star to Earth — other than the Sun?", answer: "Proxima Centauri", acceptableAnswers: ["Proxima Centauri"] },
+      { id: "sp2_400_03", categoryId: "sci_space", tier: 400, prompt: "The Voyager 1 probe was launched in 1977 — what milestone did it cross in 2012 that made it historically significant?", answer: "It crossed into interstellar space — the first human-made object to leave the heliosphere", acceptableAnswers: ["entered interstellar space", "left the solar system", "exited the heliosphere"] },
+      { id: "sp2_600_03", categoryId: "sci_space", tier: 600, prompt: "The Hubble Deep Field image (1995) was groundbreaking not for what it showed — but for what it implied. What was the conclusion?", answer: "That almost every single point of light in the image was an entire galaxy — implying there are hundreds of billions of galaxies in the observable universe", acceptableAnswers: ["every dot was a galaxy", "implied billions of galaxies", "scale of the universe revealed", "billions of galaxies from one tiny patch of sky"] },
     ],
   },
   // ── CULTURE ───────────────────────────────────────────────────────────────
@@ -28355,6 +28367,9 @@ const CATEGORIES: Category[] = [
         answer: "1963",
         acceptableAnswers: ["1963"],
       },
+      { id: "car_200_03", categoryId: "cul_cars", tier: 200, prompt: "The Nissan GT-R earned which nickname that made it iconic in car culture — partially from its dominance in video games like Gran Turismo?", answer: "Godzilla", acceptableAnswers: ["Godzilla"] },
+      { id: "car_400_03", categoryId: "cul_cars", tier: 400, prompt: "The Bugatti Veyron shattered the production car speed record when launched in 2005. What was the engine configuration that produced its 1,001 horsepower?", answer: "8.0-litre W16 engine with four turbochargers", acceptableAnswers: ["W16", "W16 with four turbos", "quad-turbo W16", "8.0L W16"] },
+      { id: "car_600_03", categoryId: "cul_cars", tier: 600, prompt: "JDM (Japanese Domestic Market) cars like the Skyline GT-R, Supra, and NSX became legendary in the West partly via one specific cultural moment — what was it?", answer: "The Fast and the Furious (2001) — the film featured these cars and introduced an entire generation of Western audiences to Japanese performance cars", acceptableAnswers: ["Fast and Furious", "The Fast and the Furious (2001)", "Fast and the Furious film"] },
     ],
   },
   {
@@ -28646,6 +28661,9 @@ const CATEGORIES: Category[] = [
         answer: "Books",
         acceptableAnswers: ["Books", "books online"],
       },
+      { id: "tec_200_03", categoryId: "cul_tech_business", tier: 200, prompt: "Apple's iconic '1984' Super Bowl ad — directed by Ridley Scott — was only aired once. What product did it launch?", answer: "The Macintosh computer", acceptableAnswers: ["Macintosh", "Apple Macintosh", "the Mac"] },
+      { id: "tec_400_03", categoryId: "cul_tech_business", tier: 400, prompt: "Google's original name — used by Larry Page and Sergey Brin at Stanford — was what, before they settled on 'Google'?", answer: "BackRub (their search engine was originally called BackRub)", acceptableAnswers: ["BackRub", "Back Rub"] },
+      { id: "tec_600_03", categoryId: "cul_tech_business", tier: 600, prompt: "The 'pivot to mobile' that nearly destroyed and then saved Twitter — now X — is associated with which executive turnaround, and what specific product decision defined it?", answer: "Jack Dorsey's return as CEO in 2015 — the defining decision was the algorithmic timeline replacing chronological feeds, which split users but dramatically increased engagement metrics", acceptableAnswers: ["Jack Dorsey's return", "algorithmic timeline", "Dorsey replaced chronological feed", "Jack Dorsey 2015"] },
     ],
   },
   // ── MOVIES: CLASSICS ─────────────────────────────────────────────────────
@@ -30606,6 +30624,9 @@ const CATEGORIES: Category[] = [
         answer: "The Stapes",
         acceptableAnswers: ["stapes", "the stapes", "stirrup"],
       },
+      { id: "hb_200_03", categoryId: "sci_human_body", tier: 200, prompt: "The human body has approximately how many bones as an adult — compared to roughly 300 at birth?", answer: "206 bones", acceptableAnswers: ["206", "206 bones"] },
+      { id: "hb_400_03", categoryId: "sci_human_body", tier: 400, prompt: "The blood-brain barrier prevents most substances in the bloodstream from entering the brain. Why does alcohol bypass this barrier so easily?", answer: "Alcohol is a small, fat-soluble molecule — it easily crosses lipid cell membranes, including those of the blood-brain barrier", acceptableAnswers: ["fat-soluble", "lipid soluble", "small fat-soluble molecule", "crosses lipid membranes"] },
+      { id: "hb_600_03", categoryId: "sci_human_body", tier: 600, prompt: "The appendix was considered useless for decades. What function have modern researchers proposed it actually serves?", answer: "It may serve as a 'safe house' for beneficial gut bacteria — repopulating the gut with good bacteria after severe diarrheal illness", acceptableAnswers: ["reservoir for gut bacteria", "safe house for good bacteria", "helps repopulate gut bacteria", "backup for gut microbiome"] },
     ],
   },
 
@@ -30680,6 +30701,9 @@ const CATEGORIES: Category[] = [
         answer: "Guy Savoy",
         acceptableAnswers: ["Guy Savoy", "Savoy"],
       },
+      { id: "gr_200_03", categoryId: "cul_gordon_ramsay", tier: 200, prompt: "Gordon Ramsay's most famous catchphrase — shouted at contestants who make a terrible dish — is what?", answer: "It's raw! / This is raw! / This food is raw!", acceptableAnswers: ["it's raw", "this is raw", "raw"] },
+      { id: "gr_400_03", categoryId: "cul_gordon_ramsay", tier: 400, prompt: "Which Ramsay show features him visiting struggling restaurants and overhauling them — often clashing with delusional owners?", answer: "Kitchen Nightmares", acceptableAnswers: ["Kitchen Nightmares"] },
+      { id: "gr_600_03", categoryId: "cul_gordon_ramsay", tier: 600, prompt: "Ramsay's obsession with a specific technique — getting a perfect crust on pan-seared proteins — requires what? What does he insist on that most home cooks skip?", answer: "A screaming hot pan with clarified butter/oil — and NOT moving the protein after placing it, letting the Maillard reaction form a crust before flipping", acceptableAnswers: ["hot pan", "don't move the protein", "Maillard reaction", "screaming hot pan and patience"] },
     ],
   },
 
@@ -30747,6 +30771,9 @@ const CATEGORIES: Category[] = [
         answer: "Pacific Ocean",
         acceptableAnswers: ["Pacific", "Pacific Ocean"],
       },
+      { id: "geo_200_03", categoryId: "cul_geography", tier: 200, prompt: "What is the capital city of Australia — often incorrectly thought to be Sydney?", answer: "Canberra", acceptableAnswers: ["Canberra"] },
+      { id: "geo_400_03", categoryId: "cul_geography", tier: 400, prompt: "Vatican City is the world's smallest country. What is the second smallest, and where is it located?", answer: "Monaco — located on the French Riviera between France and Italy", acceptableAnswers: ["Monaco"] },
+      { id: "geo_600_03", categoryId: "cul_geography", tier: 600, prompt: "The Dead Sea — located between Jordan and Israel — is so salty that humans float effortlessly. Why exactly does it have such extreme salinity compared to other bodies of water?", answer: "It has no outlet — water flows in from the Jordan River but can only leave via evaporation, concentrating salts over thousands of years to roughly 10x normal ocean salinity", acceptableAnswers: ["no outlet so water evaporates leaving salt", "no outlet causes concentration", "evaporation without outflow", "water can only leave by evaporation"] },
     ],
   },
 
@@ -32448,6 +32475,9 @@ const CATEGORIES: Category[] = [
           "a cat can be both alive and dead until observed",
         ],
       },
+      { id: "phy_200_03", categoryId: "sci_physics", tier: 200, prompt: "What force keeps planets orbiting the Sun — and was first mathematically described by Isaac Newton?", answer: "Gravity", acceptableAnswers: ["gravity", "gravitational force"] },
+      { id: "phy_400_03", categoryId: "sci_physics", tier: 400, prompt: "Dark matter makes up about 27% of the universe — yet we've never directly detected it. Why do physicists believe it exists?", answer: "Galaxies rotate too fast at their edges for the visible matter to hold them together — the extra gravitational pull implies invisible mass", acceptableAnswers: ["galaxies rotate too fast", "galaxy rotation curves", "gravitational effects without visible matter", "explains galaxy rotation"] },
+      { id: "phy_600_03", categoryId: "sci_physics", tier: 600, prompt: "Time dilation — from Einstein's theory of relativity — means time passes slower near massive objects or at high speeds. What real-world technology must constantly correct for this effect to function accurately?", answer: "GPS satellites — without relativistic corrections, GPS would drift by about 10 km per day due to time passing differently in orbit vs on Earth", acceptableAnswers: ["GPS", "GPS satellites", "satellite navigation", "GPS needs relativistic corrections"] },
     ],
   },
 
@@ -32796,6 +32826,9 @@ const CATEGORIES: Category[] = [
         answer: "The Eminem Show",
         acceptableAnswers: ["The Eminem Show"],
       },
+      { id: "em2_200_03", categoryId: "mu_eminem_2", tier: 200, prompt: "Eminem's alter ego — a sinister, bleach-blonde version of himself that appeared on The Slim Shady LP — is named what?", answer: "Slim Shady", acceptableAnswers: ["Slim Shady"] },
+      { id: "em2_400_03", categoryId: "mu_eminem_2", tier: 400, prompt: "The 2009 Eminem vs. Mariah Carey beef escalated to one of the most vicious diss tracks of the 2000s. What was Eminem's diss track called?", answer: "The Warning — Eminem threatened to release alleged voicemails from Mariah", acceptableAnswers: ["The Warning", "Bagpipes from Baghdad", "We Made You"] },
+      { id: "em2_600_03", categoryId: "mu_eminem_2", tier: 600, prompt: "Eminem's Battle of the Sexes diss of Benzino in 2003 was part of a broader feud with The Source magazine. What specifically did The Source and Benzino try to use to destroy Eminem's career?", answer: "An old tape of teenage Eminem rapping racist lyrics about a Black ex-girlfriend — Eminem publicly apologized and it didn't derail his career, but The Source published it as a cover story", acceptableAnswers: ["racist lyrics tape", "tape of racist teenage lyrics", "old racist rap tape", "The Source published racist teenage lyrics"] },
     ],
   },
 
@@ -33132,6 +33165,9 @@ const CATEGORIES: Category[] = [
         answer: "Colombia",
         acceptableAnswers: ["Colombia"],
       },
+      { id: "bbn2_200_03", categoryId: "mu_bad_bunny_2", tier: 200, prompt: "Bad Bunny's breakout year was 2018 — which single with Drake became an international smash and introduced him to mainstream English-speaking audiences?", answer: "MIA (with Drake)", acceptableAnswers: ["MIA", "MIA with Drake"] },
+      { id: "bbn2_400_03", categoryId: "mu_bad_bunny_2", tier: 400, prompt: "Un Verano Sin Ti incorporated specifically Puerto Rican genres beyond reggaeton. Name two of the distinctive Puerto Rican styles featured on the album.", answer: "Plena, Bomba, Dembow, and Mambo — the album is specifically a celebration of Puerto Rican musical heritage", acceptableAnswers: ["Plena", "Bomba", "Dembow", "Mambo", "plena and bomba", "Puerto Rican folk music"] },
+      { id: "bbn2_600_03", categoryId: "mu_bad_bunny_2", tier: 600, prompt: "Bad Bunny's album YHLQMDLG (2020) is an acronym — what does it stand for in Spanish, and why is the phrase significant in Puerto Rican slang?", answer: "Yo Hago Lo Que Me Da La Gana ('I do whatever I want') — it's a phrase of radical self-expression and rejection of industry/societal expectations, aligning with his refusal to follow music industry rules", acceptableAnswers: ["Yo Hago Lo Que Me Da La Gana", "I do whatever I want", "I do what I feel like"] },
     ],
   },
 
@@ -34191,6 +34227,9 @@ const CATEGORIES: Category[] = [
         answer: "Guardians of the Galaxy",
         acceptableAnswers: ["Guardians of the Galaxy"],
       },
+      { id: "mcu_200_03", categoryId: "cul_mcu", tier: 200, prompt: "Which MCU villain is widely considered the franchise's best — the purple-skinned warlord who believes he's saving the universe by eliminating half of all life?", answer: "Thanos", acceptableAnswers: ["Thanos"] },
+      { id: "mcu_400_03", categoryId: "cul_mcu", tier: 400, prompt: "The Sokovia Accords — which split the Avengers in Civil War — required superheroes to do what that they previously didn't?", answer: "Register with and operate under UN/government oversight rather than act unilaterally", acceptableAnswers: ["register with the government", "operate under government oversight", "submit to UN control", "sign the Accords to operate legally"] },
+      { id: "mcu_600_03", categoryId: "cul_mcu", tier: 600, prompt: "The MCU's famous 'snap' in Endgame differs mechanically from the one in Infinity War — why does Hulk snap instead of Tony first, and what does Hulk's snap do differently?", answer: "Hulk snaps first because gamma radiation matches the Stones' energy (he can survive it) — his snap undoes only the Thanos snap's deaths, not restoring those who died before it", acceptableAnswers: ["gamma radiation compatibility", "Hulk can survive gamma energy", "only reverses the snap deaths", "gamma matches the stones"] },
     ],
   },
 
