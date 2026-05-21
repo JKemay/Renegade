@@ -15134,6 +15134,9 @@ const CATEGORIES: Category[] = [
         answer: "Houston",
         acceptableAnswers: ["Houston", "Houston, Texas"],
       },
+      { id: "dt_200_03", categoryId: "mu_don_toliver", tier: 200, prompt: "Don Toliver's debut studio album — released through Cactus Jack Records in 2020 — is called what?", answer: "Heaven or Hell", acceptableAnswers: ["Heaven or Hell"] },
+      { id: "dt_400_03", categoryId: "mu_don_toliver", tier: 400, prompt: "Don Toliver's vocal style blends singing and rapping with a distinctive technique. How does he describe his approach to melody — making him stand out from traditional R&B and rap?", answer: "He uses a whispery falsetto-to-full-voice transition and melodic ad-libs that create an ethereal, psychedelic R&B sound — closer to cloud rap than traditional R&B", acceptableAnswers: ["falsetto transitions", "ethereal/psychedelic R&B", "whisper to full voice", "melodic cloud rap"] },
+      { id: "dt_600_03", categoryId: "mu_don_toliver", tier: 600, prompt: "Don Toliver first broke through on Travis Scott's ASTROWORLD album (2018). Which specific track featured him — and what made his appearance there memorable?", answer: "'Can't Say' — he delivered a standout falsetto hook that prompted massive fan interest in who was singing, as his name wasn't widely known yet", acceptableAnswers: ["Can't Say", "ASTROWORLD Can't Say", "falsetto hook on Can't Say"] },
     ],
   },
   {
@@ -15205,6 +15208,9 @@ const CATEGORIES: Category[] = [
         ],
         explanation: "'Exchange' samples 'In My Bedroom' by Dru Hill (1996).",
       },
+      { id: "bry_200_03", categoryId: "mu_bryson", tier: 200, prompt: "Bryson Tiller's debut album — which created the 'Trapsoul' genre name — is called what?", answer: "T R A P S O U L (2015)", acceptableAnswers: ["TRAPSOUL", "T R A P S O U L"] },
+      { id: "bry_400_03", categoryId: "mu_bryson", tier: 400, prompt: "Bryson Tiller blew up when he posted a SoundCloud track that went viral without label backing. What was the track?", answer: "Don't (2015) — posted on SoundCloud and went viral, landing him a deal with RCA Records", acceptableAnswers: ["Don't", "Don't on SoundCloud"] },
+      { id: "bry_600_03", categoryId: "mu_bryson", tier: 600, prompt: "Trapsoul (the genre Tiller pioneered) is defined by what specific combination of production elements that separates it from regular R&B or trap?", answer: "Hi-hat patterns and 808s from trap music layered beneath melodic, confessional R&B vocals — especially slow-burning, minimal production with falsetto mixing over trap drums", acceptableAnswers: ["trap drums under R&B vocals", "808s and hi-hats with R&B", "trap production with R&B singing", "slow burn trap R&B"] },
     ],
   },
 
@@ -19314,6 +19320,9 @@ const CATEGORIES: Category[] = [
           "Spotify single day record",
         ],
       },
+      { id: "cb2_200_03", categoryId: "mu_cardi_b", tier: 200, prompt: "Cardi B's 2018 debut album — the first by a female rapper to go platinum certified with multiple #1 singles — is called what?", answer: "Invasion of Privacy", acceptableAnswers: ["Invasion of Privacy"] },
+      { id: "cb2_400_03", categoryId: "mu_cardi_b", tier: 400, prompt: "Before her music career, Cardi B gained fame through which platform — where her candid personality made her a viral star?", answer: "Instagram — her unfiltered video rants and personality made her a social media celebrity before music", acceptableAnswers: ["Instagram", "social media", "Instagram videos"] },
+      { id: "cb2_600_03", categoryId: "mu_cardi_b", tier: 600, prompt: "Cardi B's marriage to Offset has included multiple public separations and reconciliations. What made their December 2018 split particularly explosive for hip-hop culture?", answer: "She announced it publicly on Instagram Live on Christmas Day — Offset crashed her Rolling Loud performance with a flower apology on stage, which she rejected publicly; the whole reconciliation played out entirely in the public eye", acceptableAnswers: ["Instagram Live Christmas announcement", "Offset crashed Rolling Loud with flowers", "public separation on Christmas", "Rolling Loud on-stage apology"] },
     ],
   },
   {
@@ -23558,6 +23567,9 @@ const CATEGORIES: Category[] = [
         explanation:
           "Central Cee released '6 for 6' to mark that every track from his Drippy mixtape charted in the UK Top 6 simultaneously.",
       },
+      { id: "cen_200_03", categoryId: "mu_central_cee", tier: 200, prompt: "Central Cee is from which part of London — the area that also produced artists like Skepta and Stormzy?", answer: "West London (Shepherd's Bush / Ladbroke Grove area)", acceptableAnswers: ["West London", "Shepherd's Bush", "Ladbroke Grove"] },
+      { id: "cen_400_03", categoryId: "mu_central_cee", tier: 400, prompt: "Central Cee dated which American rapper — a relationship that generated enormous tabloid coverage and boosted both their profiles in 2023-24?", answer: "Doja Cat", acceptableAnswers: ["Doja Cat"] },
+      { id: "cen_600_03", categoryId: "mu_central_cee", tier: 600, prompt: "Central Cee's UK drill flow is technically complex — what distinguishes his cadence from older UK drill artists like Pop Smoke's New York drill influence?", answer: "He blends classic UK grime/road rap cadence with melodic hooks over UK drill beats — rather than the monotone New York drill delivery; his punchlines and wordplay are closer to UK garage and grime tradition", acceptableAnswers: ["grime cadence over drill beats", "melodic with wordplay", "grime/road rap influence over drill production", "UK grime tradition in drill"] },
     ],
   },
   // ── SHOWS WAVE 6 ─────────────────────────────────────────────────────────
@@ -24063,6 +24075,9 @@ const CATEGORIES: Category[] = [
         answer: "Aaliyah",
         acceptableAnswers: ["Aaliyah"],
       },
+      { id: "cbr_200_03", categoryId: "mu_chris_brown", tier: 200, prompt: "Chris Brown signed to Jive Records at age 15 after which producer discovered him in 2004?", answer: "Hitmission Records / Scott Storch produced his early hits — but he was discovered by Tina Davis at Def Jam before signing to Jive", acceptableAnswers: ["Jive Records", "age 15 Jive Records", "Tina Davis discovered him"] },
+      { id: "cbr_400_03", categoryId: "mu_chris_brown", tier: 400, prompt: "The 2009 incident with Rihanna occurred on the night before the Grammy Awards. What were the criminal charges Chris Brown pleaded guilty to?", answer: "Felony assault — he was sentenced to community service, 5 years probation, and domestic violence counseling", acceptableAnswers: ["felony assault", "felony assault charge", "assault charge guilty plea"] },
+      { id: "cbr_600_03", categoryId: "mu_chris_brown", tier: 600, prompt: "Chris Brown's dance style is most directly compared to Michael Jackson's. What specific MJ technique does Brown most frequently replicate and is credited with modernizing?", answer: "The Michael Jackson glide/moonwalk and body isolation — Brown updated it with contemporary footwork and incorporated breaking/popping elements into a commercial choreography style", acceptableAnswers: ["moonwalk and body isolation", "MJ glide/moonwalk", "body isolation", "updated MJ's footwork"] },
     ],
   },
   {
@@ -26625,6 +26640,9 @@ const CATEGORIES: Category[] = [
         answer: "Radical Optimism",
         acceptableAnswers: ["Radical Optimism"],
       },
+      { id: "dua_200_03", categoryId: "mu_dua_lipa", tier: 200, prompt: "Future Nostalgia was recorded and finished just before COVID-19 lockdowns began — meaning Dua couldn't tour it initially. How did she instead perform the album's launch?", answer: "Studio 2054 — a massive livestreamed virtual concert watched by millions globally, specifically designed to compensate for no physical tour", acceptableAnswers: ["Studio 2054", "virtual concert", "livestream concert 2054"] },
+      { id: "dua_400_03", categoryId: "mu_dua_lipa", tier: 400, prompt: "The Future Nostalgia era featured Dua Lipa performing a cameo on which animated film's soundtrack — bridging her pop profile into animated feature territory?", answer: "Barbie (2023) — 'Dance the Night' was her contribution and became a global hit", acceptableAnswers: ["Barbie", "Barbie 2023", "Dance the Night for Barbie"] },
+      { id: "dua_600_03", categoryId: "mu_dua_lipa", tier: 600, prompt: "Future Nostalgia was inspired by a specific retro sound — what specific decade and genre acts did Dua cite as influences for the album's aesthetic?", answer: "70s and 80s disco and synth-pop — specifically citing influences like Blondie, Kylie Minogue, Madonna, and the Bee Gees; she described wanting to make music you could 'drive fast or dance to'", acceptableAnswers: ["70s and 80s disco", "disco and synth-pop", "Blondie/Kylie/Madonna influences", "retro 70s-80s disco"] },
     ],
   },
   // ── ANIME WAVE 7 ─────────────────────────────────────────────────────────
@@ -28966,6 +28984,9 @@ const CATEGORIES: Category[] = [
         answer: "Lucenzo",
         acceptableAnswers: ["Lucenzo"],
       },
+      { id: "dom_200_03", categoryId: "mu_don_omar", tier: 200, prompt: "Don Omar's nickname 'El Rey' means what in English — reflecting his status in Latin music?", answer: "The King", acceptableAnswers: ["The King", "El Rey means The King"] },
+      { id: "dom_400_03", categoryId: "mu_don_omar", tier: 400, prompt: "In the early 2000s, Don Omar and Daddy Yankee had a highly publicized rivalry that defined the reggaeton era. What helped cement the rivalry in public perception?", answer: "Both were releasing massive albums simultaneously (The Last Don vs. Barrio Fino), and media framed them as competing for the 'King of Reggaeton' title — though they later collaborated and reconciled", acceptableAnswers: ["competing for King of Reggaeton", "rivalry over biggest reggaeton album", "The Last Don vs Barrio Fino", "King of Reggaeton rivalry"] },
+      { id: "dom_600_03", categoryId: "mu_don_omar", tier: 600, prompt: "Don Omar's background before music is unusual for a reggaeton star — what did he study and what religious path was he on before fame?", answer: "He studied theology and was training to become a pastor/reverend before music took over — his religious background influenced his early persona and lyrical themes", acceptableAnswers: ["theology", "training to be a pastor", "studying to be a reverend", "religious background in theology"] },
     ],
   },
 
