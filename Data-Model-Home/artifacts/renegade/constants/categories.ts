@@ -3096,6 +3096,15 @@ const CATEGORIES: Category[] = [
         explanation:
           "Pickling is one of humanity's oldest food preservation methods, used across nearly every food culture. The acidic environment inhibits bacterial growth and extends shelf life.",
       },
+      {
+        id: "fo_600_14",
+        categoryId: "food",
+        tier: 600,
+        prompt:
+          "Saffron, the world's most expensive spice by weight, is derived from the dried stigmas of which specific type of flower?",
+        answer: "Crocus (Crocus sativus)",
+        acceptableAnswers: ["Crocus", "Crocus sativus", "Saffron crocus"],
+      },
     ],
   },
   {
@@ -21243,7 +21252,7 @@ const CATEGORIES: Category[] = [
       },
       { id: "sui_200_03", categoryId: "mv_suits", tier: 200, prompt: "In Suits, Harvey Specter's secretary — who knows all his secrets and keeps the firm running — is named what?", answer: "Donna Paulsen", acceptableAnswers: ["Donna", "Donna Paulsen"] },
       { id: "sui_400_03", categoryId: "mv_suits", tier: 400, prompt: "Louis Litt is known for his obsession with mud baths and which other distinctive personal habit?", answer: "Ballet / wearing ballet gear to the office", acceptableAnswers: ["ballet", "ballet dancing", "mud baths and ballet"] },
-      { id: "sui_400_04", categoryId: "mv_suits", tier: 400, prompt: "In Suits, what is the name of Harvey Specter's mentor — the original senior partner who trained him and whose approval Harvey still seeks throughout the series?", answer: "Gordon Schmidt (actually it's Jessica Pearson who championed him, but his original mentor is implied to be Gordon... the direct answer is Jessica Pearson)", answer: "Jessica Pearson", acceptableAnswers: ["Jessica Pearson", "Jessica"] },
+      { id: "sui_400_04", categoryId: "mv_suits", tier: 400, prompt: "In Suits, what is the name of Harvey Specter's mentor — the original senior partner who trained him and whose approval Harvey still seeks throughout the series?", answer: "Jessica Pearson", acceptableAnswers: ["Jessica Pearson", "Jessica"] },
       { id: "sui_600_03", categoryId: "mv_suits", tier: 600, prompt: "The Suits revival (2023) is set in Los Angeles and features entirely new characters except for one returning original cast member. Who came back?", answer: "Gabriel Macht as Harvey Specter (and Sarah Rafferty as Donna)", acceptableAnswers: ["Harvey Specter", "Gabriel Macht", "Harvey and Donna", "Harvey"] },
       { id: "sui_600_04", categoryId: "mv_suits", tier: 600, prompt: "Harvey Specter famously closes cases without going to trial — his philosophy being that trials are for people who aren't prepared. His mentor philosophy comes down to one concept: what does Harvey say he does instead of hope?", answer: "He makes things happen / he acts — 'I don't have dreams, I have goals'", acceptableAnswers: ["he makes things happen", "sets goals not dreams", "I don't have dreams I have goals", "takes action"] },
     ],
@@ -25706,7 +25715,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       { id: "haa_200_03", categoryId: "sp_haaland", tier: 200, prompt: "Erling Haaland is from which Scandinavian country?", answer: "Norway", acceptableAnswers: ["Norway"] },
-      { id: "haa_400_03", categoryId: "sp_haaland", tier: 400, prompt: "Haaland scored a hat-trick in his first 45 minutes of Champions League football for RB Salzburg. Against which Portuguese club?", answer: "Red Bull Salzburg vs Genk — actually his CL hat-trick debut was vs Genk; his most famous was a stunning hat-trick vs Red Bull Liverpool... the answer is KRC Genk", answer: "KRC Genk", acceptableAnswers: ["Genk", "KRC Genk"] },
+      { id: "haa_400_03", categoryId: "sp_haaland", tier: 400, prompt: "Haaland scored a hat-trick in his first 45 minutes of Champions League football for RB Salzburg. Against which Portuguese club?", answer: "KRC Genk", acceptableAnswers: ["Genk", "KRC Genk"] },
       { id: "haa_400_04", categoryId: "sp_haaland", tier: 400, prompt: "Haaland's goal-scoring rate at Man City in his debut Premier League season was historically unprecedented. What was his goals-to-games ratio that season?", answer: "36 goals in 35 games — roughly 1 goal per game", acceptableAnswers: ["36 in 35", "1 per game", "one goal per game", "36 goals"] },
       { id: "haa_600_03", categoryId: "sp_haaland", tier: 600, prompt: "Erling Haaland scored four goals in 24 minutes at the 2019 U20 World Cup in a match that put him on the global radar. Against which team?", answer: "Honduras", acceptableAnswers: ["Honduras"] },
       { id: "haa_600_04", categoryId: "sp_haaland", tier: 600, prompt: "Haaland famously tracks detailed personal data about his sleep, diet, and performance. He mentioned in interviews wearing which type of device to optimize sleep quality?", answer: "Blue light blocking glasses (to improve sleep before bed)", acceptableAnswers: ["blue light glasses", "blue light blocking glasses", "orange glasses", "sleep tracking glasses"] },
@@ -34381,6 +34390,83 @@ const CATEGORIES: Category[] = [
           "Snapchat was created at Stanford University by which founder — who famously rejected a $3 billion acquisition offer from Facebook?",
         answer: "Evan Spiegel",
         acceptableAnswers: ["Evan Spiegel", "Spiegel"],
+      },
+    ],
+  },
+
+  // ── ARAB MEDIA CLASSICS ───────────────────────────────────────────────────
+  {
+    id: "arab_media_classics",
+    group: "Movies & TV",
+    name: "Arab Media Classics",
+    culture: "arabic",
+    description: "Deep cuts from iconic regional cinema, theatre, and literature.",
+    questions: [
+      {
+        id: "amc_200_01",
+        categoryId: "arab_media_classics",
+        tier: 200,
+        prompt:
+          "Who is the legendary Egyptian actor known as 'El Zaeem' (The Boss), famous for his record-breaking plays and iconic comedy films?",
+        answer: "Adel Emam",
+        acceptableAnswers: ["Adel Emam", "Adel Imam"],
+      },
+      {
+        id: "amc_200_02",
+        categoryId: "arab_media_classics",
+        tier: 200,
+        prompt:
+          "Which iconic Egyptian singer, known as 'The Star of the East' (Kawkab al-Sharq), used to have her monthly concerts broadcast live across the entire Arab world?",
+        answer: "Umm Kulthum",
+        acceptableAnswers: ["Umm Kulthum", "Om Kalthoum", "Oum Kalthoum"],
+      },
+      {
+        id: "amc_600_01",
+        categoryId: "arab_media_classics",
+        tier: 600,
+        prompt:
+          "In the classic 1973 Egyptian play 'Madrast Al-Mushaghibeen' (The School of Mischief), which actor played the defiant but charismatic student Bahjat El-Abasiri?",
+        answer: "Adel Emam",
+        acceptableAnswers: ["Adel Emam", "Adel Imam"],
+      },
+    ],
+  },
+
+  // ── SCIENCE & SPACE ───────────────────────────────────────────────────────
+  {
+    id: "science_space",
+    group: "General Knowledge",
+    name: "Science & Space",
+    culture: "universal",
+    description: "Astronomy, physics laws, and the intricate workings of the universe.",
+    questions: [
+      {
+        id: "sci_200_01",
+        categoryId: "science_space",
+        tier: 200,
+        prompt:
+          "What is the name of the theoretical boundary around a black hole beyond which no light or other radiation can escape?",
+        answer: "Event Horizon",
+        acceptableAnswers: ["Event Horizon", "The Event Horizon"],
+      },
+      {
+        id: "sci_400_01",
+        categoryId: "science_space",
+        tier: 400,
+        prompt:
+          "Which specific element was actually discovered by astronomers observing the sun's spectrum during a solar eclipse before it was found on Earth?",
+        answer: "Helium",
+        acceptableAnswers: ["Helium", "He"],
+        explanation: "Helium is named after 'Helios', the Greek god of the sun.",
+      },
+      {
+        id: "sci_600_01",
+        categoryId: "science_space",
+        tier: 600,
+        prompt:
+          "In astrophysics, what is the maximum mass a stable white dwarf star can have before it collapses into a neutron star or black hole, calculated as approximately 1.4 solar masses?",
+        answer: "The Chandrasekhar limit",
+        acceptableAnswers: ["Chandrasekhar limit", "Chandrasekhar"],
       },
     ],
   },
