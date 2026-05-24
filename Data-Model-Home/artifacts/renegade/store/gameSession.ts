@@ -15,6 +15,7 @@ export type BoardSession = {
   currentTurn: TeamKey;
   usedAids: Record<TeamKey, AidId[]>;
   questionSeed: number;
+  seenQuestionIds: string[];
 };
 
 export type QuestionResult = {
@@ -46,6 +47,7 @@ export function createEmptyBoardSession(): BoardSession {
       team2: [],
     },
     questionSeed: Math.floor(Math.random() * 100000),
+    seenQuestionIds: [],
   };
 }
 
@@ -118,4 +120,8 @@ export function isQuestionSeen(id: string): boolean {
 
 export function addSeenQuestion(id: string): void {
   seenQuestions.add(id);
+}
+
+export function getSeenQuestionsSnapshot(): string[] {
+  return Array.from(seenQuestions);
 }
