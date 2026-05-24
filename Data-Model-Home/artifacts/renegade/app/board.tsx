@@ -23,6 +23,7 @@ import {
   consumePendingResult,
   createEmptyBoardSession,
   getUsedAidsSnapshot,
+  getSeenQuestionsSnapshot,
   hydrateUsedAids,
   hydrateSeenQuestions,
   loadBoardSession,
@@ -72,11 +73,13 @@ export default function BoardScreen() {
         if (!active) return;
         const next = saved ?? createEmptyBoardSession();
         hydrateUsedAids(next);
-        hydrateSeenQuestions(seenIds);
+        // Merge Supabase seen IDs with any locally-cached seen IDs from the
+        // saved session so we survive crashes mid-question.
+        hydrateSeenQuestions([...seenIds, ...(saved?.seenQuestionIds ?? [])]);
         setSession(next);
         if (!saved) saveBoardSession(next).catch(console.error);
       },
-    );
+    ).catch(console.error);
 
     return () => {
       active = false;
@@ -112,6 +115,7 @@ export default function BoardScreen() {
           team2Score: Math.max(0, prev.team2Score + result.team2ScoreDelta),
           currentTurn: nextTurnAfter(prev.currentTurn, result.skipTurnFor),
           usedAids: getUsedAidsSnapshot(),
+          seenQuestionIds: getSeenQuestionsSnapshot(),
         };
       });
     }, [updateSession]),

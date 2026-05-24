@@ -41,7 +41,8 @@ export default function HomeScreen() {
           played: data.length,
           wins: data.filter((g: { winner: string }) => g.winner !== "tie").length,
         });
-      });
+      })
+      .catch(() => {});
   }, []);
 
   const dismissIntro = async () => {

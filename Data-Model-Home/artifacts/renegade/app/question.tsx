@@ -20,6 +20,7 @@ import { getTimerSeconds } from "@/store/settings";
 import {
   TeamKey,
   Tier,
+  addSeenQuestion,
   isAidUsed,
   isQuestionSeen,
   markAidUsed,
@@ -114,6 +115,12 @@ export default function QuestionScreen() {
   const pool = unseenQuestions.length > 0 ? unseenQuestions : tierQuestions;
   const question =
     pool.length > 0 ? pool[(slotIndex + questionSeed) % pool.length] : null;
+
+  // Mark the question seen immediately so the in-memory Set and AsyncStorage
+  // snapshot stay consistent even if the user force-quits before scoring.
+  useEffect(() => {
+    if (question?.id) addSeenQuestion(question.id);
+  }, [question?.id]);
 
   // --- Timer ---
   const [timeLeft, setTimeLeft] = useState(() => getBaseSeconds());
