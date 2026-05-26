@@ -3508,7 +3508,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Anime (Mix)",
     culture: "universal",
     description:
@@ -4283,7 +4283,7 @@ const CATEGORIES: Category[] = [
   // ---------------------------------------------------------------------------
   {
     id: "anime_naruto",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Naruto",
     culture: "universal",
     description:
@@ -4444,7 +4444,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_aot",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Attack on Titan",
     culture: "universal",
     description:
@@ -4644,7 +4644,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_death_note",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Death Note",
     culture: "universal",
     description:
@@ -10632,7 +10632,7 @@ const CATEGORIES: Category[] = [
   // ---------------------------------------------------------------------------
   {
     id: "anime_one_piece",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "One Piece",
     culture: "universal",
     description:
@@ -10750,7 +10750,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_demon_slayer",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Demon Slayer",
     culture: "universal",
     description: "Tanjiro Kamado, the Hashira, and the fight to cure Nezuko.",
@@ -10891,7 +10891,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_jjk",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Jujutsu Kaisen",
     culture: "universal",
     description:
@@ -11017,7 +11017,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_dbz",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Dragon Ball Z",
     culture: "universal",
     description:
@@ -14123,7 +14123,7 @@ const CATEGORIES: Category[] = [
   // ---------------------------------------------------------------------------
   {
     id: "anime_bleach",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Bleach",
     culture: "universal",
     description:
@@ -14211,7 +14211,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_hxh",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Hunter x Hunter",
     culture: "universal",
     description: "Nen, the Phantom Troupe, Meruem — Togashi's masterpiece.",
@@ -14291,7 +14291,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_fmab",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Fullmetal Alchemist: Brotherhood",
     culture: "universal",
     description:
@@ -14385,7 +14385,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_blue_lock",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Blue Lock",
     culture: "universal",
     description:
@@ -18082,7 +18082,7 @@ const CATEGORIES: Category[] = [
   // ---------------------------------------------------------------------------
   {
     id: "anime_mha",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "My Hero Academia",
     culture: "universal",
     description: "Plus Ultra, Quirks, and Deku's journey from zero to hero.",
@@ -18165,7 +18165,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_opm",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "One Punch Man",
     culture: "universal",
     description:
@@ -18246,7 +18246,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_chainsaw",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Chainsaw Man",
     culture: "universal",
     description:
@@ -18328,7 +18328,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_spy_family",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Spy × Family",
     culture: "universal",
     description:
@@ -18403,7 +18403,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_haikyuu",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Haikyuu!!",
     culture: "universal",
     description:
@@ -18486,7 +18486,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_code_geass",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Code Geass",
     culture: "universal",
     description:
@@ -19435,7 +19435,7 @@ const CATEGORIES: Category[] = [
   // ── SHOWS WAVE 4 ─────────────────────────────────────────────────────────
   {
     id: "mv_the_office",
-    group: "Shows",
+    group: "Movies & TV",
     name: "The Office",
     culture: "universal",
     description:
@@ -19624,7 +19624,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "mv_sopranos",
-    group: "Shows",
+    group: "Movies & TV",
     name: "The Sopranos",
     culture: "universal",
     description:
@@ -19848,7 +19848,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "mv_the_wire",
-    group: "Shows",
+    group: "Movies & TV",
     name: "The Wire",
     culture: "universal",
     description:
@@ -19930,7 +19930,7 @@ const CATEGORIES: Category[] = [
   // ── GAMING WAVE 4 ─────────────────────────────────────────────────────────
   {
     id: "gm_halo",
-    group: "Gaming",
+    group: "Video Games",
     name: "Halo",
     culture: "universal",
     description:
@@ -20117,7 +20117,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "gm_assassins_creed",
-    group: "Gaming",
+    group: "Video Games",
     name: "Assassin's Creed",
     culture: "universal",
     description:
@@ -20312,7 +20312,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "gm_tekken",
-    group: "Gaming",
+    group: "Video Games",
     name: "Tekken",
     culture: "universal",
     description:
@@ -20513,7 +20513,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "gm_street_fighter",
-    group: "Gaming",
+    group: "Video Games",
     name: "Street Fighter",
     culture: "universal",
     description:
@@ -21208,7 +21208,7 @@ const CATEGORIES: Category[] = [
   // ── SHOWS WAVE 5 ─────────────────────────────────────────────────────────
   {
     id: "mv_suits",
-    group: "Shows",
+    group: "Movies & TV",
     name: "Suits",
     culture: "universal",
     description:
@@ -21287,7 +21287,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "mv_euphoria",
-    group: "Shows",
+    group: "Movies & TV",
     name: "Euphoria",
     culture: "universal",
     description:
@@ -21473,7 +21473,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "mv_succession",
-    group: "Shows",
+    group: "Movies & TV",
     name: "Succession",
     culture: "universal",
     description:
@@ -21701,7 +21701,7 @@ const CATEGORIES: Category[] = [
   // ── ANIME WAVE 4 ─────────────────────────────────────────────────────────
   {
     id: "anime_tokyo_revengers",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Tokyo Revengers",
     culture: "universal",
     description: "Time leaps, Toman, and the fight to save everyone you love.",
@@ -21777,7 +21777,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_vinland_saga",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Vinland Saga",
     culture: "universal",
     description:
@@ -21860,7 +21860,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_mob_psycho",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Mob Psycho 100",
     culture: "universal",
     description:
@@ -21939,7 +21939,7 @@ const CATEGORIES: Category[] = [
   // ── GAMING WAVE 5 ─────────────────────────────────────────────────────────
   {
     id: "gm_zelda",
-    group: "Gaming",
+    group: "Video Games",
     name: "Legend of Zelda",
     culture: "universal",
     description: "Link, Ganon, and the greatest adventure games ever made.",
@@ -23615,7 +23615,7 @@ const CATEGORIES: Category[] = [
   // ── SHOWS WAVE 6 ─────────────────────────────────────────────────────────
   {
     id: "mv_himym",
-    group: "Shows",
+    group: "Movies & TV",
     name: "How I Met Your Mother",
     culture: "universal",
     description:
@@ -23692,7 +23692,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "mv_brooklyn99",
-    group: "Shows",
+    group: "Movies & TV",
     name: "Brooklyn Nine-Nine",
     culture: "universal",
     description:
@@ -23768,7 +23768,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "mv_ertugrul",
-    group: "Shows",
+    group: "Movies & TV",
     name: "Diriliş: Ertuğrul",
     culture: "arabic",
     description: "The Kayi tribe, Ertuğrul Bey, and the birth of an empire.",
@@ -23836,7 +23836,7 @@ const CATEGORIES: Category[] = [
   // ── ANIME WAVE 5 ─────────────────────────────────────────────────────────
   {
     id: "anime_cowboy_bebop",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Cowboy Bebop",
     culture: "universal",
     description:
@@ -23905,7 +23905,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_evangelion",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Neon Genesis Evangelion",
     culture: "universal",
     description:
@@ -23983,7 +23983,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_berserk",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Berserk",
     culture: "universal",
     description:
@@ -24532,7 +24532,7 @@ const CATEGORIES: Category[] = [
   // ── SHOWS WAVE 7 ─────────────────────────────────────────────────────────
   {
     id: "mv_yellowstone",
-    group: "Shows",
+    group: "Movies & TV",
     name: "Yellowstone",
     culture: "universal",
     description:
@@ -24603,7 +24603,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "mv_greys_anatomy",
-    group: "Shows",
+    group: "Movies & TV",
     name: "Grey's Anatomy",
     culture: "universal",
     description:
@@ -24677,7 +24677,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "mv_cobra_kai",
-    group: "Shows",
+    group: "Movies & TV",
     name: "Cobra Kai",
     culture: "universal",
     description:
@@ -24747,7 +24747,7 @@ const CATEGORIES: Category[] = [
   // ── ANIME WAVE 6 ─────────────────────────────────────────────────────────
   {
     id: "anime_rezero",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Re:Zero",
     culture: "universal",
     description: "Subaru, Return by Death, and the emotional gut-punch of Rem.",
@@ -24824,7 +24824,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_steins_gate",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Steins;Gate",
     culture: "universal",
     description:
@@ -24901,7 +24901,7 @@ const CATEGORIES: Category[] = [
   // ── GAMING WAVE 6 ─────────────────────────────────────────────────────────
   {
     id: "gm_dark_souls",
-    group: "Gaming",
+    group: "Video Games",
     name: "Dark Souls",
     culture: "universal",
     description:
@@ -25101,7 +25101,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "gm_gta_san_andreas",
-    group: "Gaming",
+    group: "Video Games",
     name: "GTA San Andreas",
     culture: "universal",
     description:
@@ -26691,7 +26691,7 @@ const CATEGORIES: Category[] = [
   // ── ANIME WAVE 7 ─────────────────────────────────────────────────────────
   {
     id: "anime_jojo",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "JoJo's Bizarre Adventure",
     culture: "universal",
     description:
@@ -26769,7 +26769,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_sao",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Sword Art Online",
     culture: "universal",
     description: "Kirito, Aincrad, and 10,000 players trapped in a death game.",
@@ -26840,7 +26840,7 @@ const CATEGORIES: Category[] = [
   // ── GAMING WAVE 7 ─────────────────────────────────────────────────────────
   {
     id: "gm_witcher3",
-    group: "Gaming",
+    group: "Video Games",
     name: "The Witcher 3",
     culture: "universal",
     description: "Geralt, Ciri, the Bloody Baron — the greatest RPG ever made.",
@@ -27022,7 +27022,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "gm_sekiro",
-    group: "Gaming",
+    group: "Video Games",
     name: "Sekiro: Shadows Die Twice",
     culture: "universal",
     description:
@@ -27805,7 +27805,7 @@ const CATEGORIES: Category[] = [
   // ── SHOWS WAVE 8 ─────────────────────────────────────────────────────────
   {
     id: "mv_two_half_men",
-    group: "Shows",
+    group: "Movies & TV",
     name: "Two and a Half Men",
     culture: "universal",
     description:
@@ -27872,7 +27872,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "mv_community",
-    group: "Shows",
+    group: "Movies & TV",
     name: "Community",
     culture: "universal",
     description:
@@ -27950,7 +27950,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "mv_sons_of_anarchy",
-    group: "Shows",
+    group: "Movies & TV",
     name: "Sons of Anarchy",
     culture: "universal",
     description: "SAMCRO, Charming, and Hamlet on motorcycles.",
@@ -28026,7 +28026,7 @@ const CATEGORIES: Category[] = [
   // ── ANIME WAVE 8 ─────────────────────────────────────────────────────────
   {
     id: "anime_dbs",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Dragon Ball Super",
     culture: "universal",
     description:
@@ -28114,7 +28114,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_overlord",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Overlord",
     culture: "universal",
     description:
@@ -28401,7 +28401,7 @@ const CATEGORIES: Category[] = [
   // ── CULTURE ───────────────────────────────────────────────────────────────
   {
     id: "cul_cars",
-    group: "Culture",
+    group: "History",
     name: "Supercars & JDM",
     culture: "universal",
     description:
@@ -28471,7 +28471,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "cul_streetwear",
-    group: "Culture",
+    group: "History",
     name: "Streetwear & Sneakers",
     culture: "universal",
     description:
@@ -28544,7 +28544,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "cul_internet",
-    group: "Culture",
+    group: "History",
     name: "Internet Culture",
     culture: "universal",
     description:
@@ -28619,7 +28619,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "cul_standup",
-    group: "Culture",
+    group: "History",
     name: "Stand-Up Comedy",
     culture: "universal",
     description:
@@ -28687,7 +28687,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "cul_tech_business",
-    group: "Culture",
+    group: "History",
     name: "Tech & Business",
     culture: "universal",
     description:
@@ -28766,7 +28766,7 @@ const CATEGORIES: Category[] = [
   // ── MOVIES: CLASSICS ─────────────────────────────────────────────────────
   {
     id: "mv_classic_cinema",
-    group: "Shows",
+    group: "Movies & TV",
     name: "Classic Cinema",
     culture: "universal",
     description:
@@ -29177,7 +29177,7 @@ const CATEGORIES: Category[] = [
   // ── SHOWS: SEINFELD ───────────────────────────────────────────────────────
   {
     id: "mv_seinfeld",
-    group: "Shows",
+    group: "Movies & TV",
     name: "Seinfeld",
     culture: "universal",
     description:
@@ -29246,7 +29246,7 @@ const CATEGORIES: Category[] = [
   // ── SHOWS: OZARK ──────────────────────────────────────────────────────────
   {
     id: "mv_ozark_2",
-    group: "Shows",
+    group: "Movies & TV",
     name: "Ozark II",
     culture: "universal",
     description:
@@ -29320,7 +29320,7 @@ const CATEGORIES: Category[] = [
   // ── SHOWS: HOUSE OF DRAGON ────────────────────────────────────────────────
   {
     id: "mv_house_of_dragon",
-    group: "Shows",
+    group: "Movies & TV",
     name: "House of the Dragon",
     culture: "universal",
     description:
@@ -29389,7 +29389,7 @@ const CATEGORIES: Category[] = [
   // ── SHOWS: DEXTER ─────────────────────────────────────────────────────────
   {
     id: "mv_dexter",
-    group: "Shows",
+    group: "Movies & TV",
     name: "Dexter",
     culture: "universal",
     description:
@@ -29462,7 +29462,7 @@ const CATEGORIES: Category[] = [
   // ── GAMING: MINECRAFT ─────────────────────────────────────────────────────
   {
     id: "gm_minecraft",
-    group: "Gaming",
+    group: "Video Games",
     name: "Minecraft",
     culture: "universal",
     description:
@@ -29653,7 +29653,7 @@ const CATEGORIES: Category[] = [
   // ── GAMING: SKYRIM ────────────────────────────────────────────────────────
   {
     id: "gm_skyrim",
-    group: "Gaming",
+    group: "Video Games",
     name: "Skyrim",
     culture: "universal",
     description:
@@ -29840,7 +29840,7 @@ const CATEGORIES: Category[] = [
   // ── GAMING: BLOODBORNE ────────────────────────────────────────────────────
   {
     id: "gm_bloodborne",
-    group: "Gaming",
+    group: "Video Games",
     name: "Bloodborne",
     culture: "universal",
     description:
@@ -30037,7 +30037,7 @@ const CATEGORIES: Category[] = [
   // ── GAMING: MASS EFFECT ───────────────────────────────────────────────────
   {
     id: "gm_mass_effect",
-    group: "Gaming",
+    group: "Video Games",
     name: "Mass Effect",
     culture: "universal",
     description:
@@ -30742,7 +30742,7 @@ const CATEGORIES: Category[] = [
   // ── CULTURE: FOOD & GORDON RAMSAY ─────────────────────────────────────────
   {
     id: "cul_gordon_ramsay",
-    group: "Culture",
+    group: "History",
     name: "Gordon Ramsay",
     culture: "universal",
     description:
@@ -30819,7 +30819,7 @@ const CATEGORIES: Category[] = [
   // ── CULTURE: GEOGRAPHY ────────────────────────────────────────────────────
   {
     id: "cul_geography",
-    group: "Culture",
+    group: "History",
     name: "World Geography",
     culture: "universal",
     description:
@@ -30889,7 +30889,7 @@ const CATEGORIES: Category[] = [
   // ── ANIME: FAIRY TAIL ─────────────────────────────────────────────────────
   {
     id: "anime_fairy_tail",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Fairy Tail",
     culture: "universal",
     description:
@@ -30962,7 +30962,7 @@ const CATEGORIES: Category[] = [
   // ── ANIME: DR. STONE ──────────────────────────────────────────────────────
   {
     id: "anime_dr_stone",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Dr. Stone",
     culture: "universal",
     description:
@@ -31042,7 +31042,7 @@ const CATEGORIES: Category[] = [
   // ── ANIME: STUDIO GHIBLI ──────────────────────────────────────────────────
   {
     id: "anime_ghibli",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Studio Ghibli",
     culture: "universal",
     description:
@@ -31456,7 +31456,7 @@ const CATEGORIES: Category[] = [
   // ── SHOWS: PEAKY BLINDERS ─────────────────────────────────────────────────
   {
     id: "mv_peaky_blinders_2",
-    group: "Shows",
+    group: "Movies & TV",
     name: "Peaky Blinders II",
     culture: "universal",
     description:
@@ -31530,7 +31530,7 @@ const CATEGORIES: Category[] = [
   // ── SHOWS: THE BOYS ───────────────────────────────────────────────────────
   {
     id: "mv_the_boys_2",
-    group: "Shows",
+    group: "Movies & TV",
     name: "The Boys II",
     culture: "universal",
     description:
@@ -31609,7 +31609,7 @@ const CATEGORIES: Category[] = [
   // ── SHOWS: PARKS AND RECREATION ───────────────────────────────────────────
   {
     id: "mv_parks_rec",
-    group: "Shows",
+    group: "Movies & TV",
     name: "Parks and Recreation",
     culture: "universal",
     description:
@@ -31678,7 +31678,7 @@ const CATEGORIES: Category[] = [
   // ── SHOWS: AMERICAN HORROR STORY ──────────────────────────────────────────
   {
     id: "mv_ahs",
-    group: "Shows",
+    group: "Movies & TV",
     name: "American Horror Story",
     culture: "universal",
     description:
@@ -31747,7 +31747,7 @@ const CATEGORIES: Category[] = [
   // ── GAMING: LEAGUE OF LEGENDS ─────────────────────────────────────────────
   {
     id: "gm_league",
-    group: "Gaming",
+    group: "Video Games",
     name: "League of Legends",
     culture: "universal",
     description:
@@ -31931,7 +31931,7 @@ const CATEGORIES: Category[] = [
   // ── GAMING: HOLLOW KNIGHT ─────────────────────────────────────────────────
   {
     id: "gm_hollow_knight",
-    group: "Gaming",
+    group: "Video Games",
     name: "Hollow Knight",
     culture: "universal",
     description:
@@ -32118,7 +32118,7 @@ const CATEGORIES: Category[] = [
   // ── GAMING: FORTNITE ──────────────────────────────────────────────────────
   {
     id: "gm_fortnite",
-    group: "Gaming",
+    group: "Video Games",
     name: "Fortnite",
     culture: "universal",
     description:
@@ -32605,7 +32605,7 @@ const CATEGORIES: Category[] = [
   // ── CULTURE: PSYCHOLOGY ───────────────────────────────────────────────────
   {
     id: "cul_psychology",
-    group: "Culture",
+    group: "History",
     name: "Psychology",
     culture: "universal",
     description:
@@ -32681,7 +32681,7 @@ const CATEGORIES: Category[] = [
   // ── ANIME: BLACK CLOVER ───────────────────────────────────────────────────
   {
     id: "anime_black_clover",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Black Clover",
     culture: "universal",
     description:
@@ -32751,7 +32751,7 @@ const CATEGORIES: Category[] = [
   // ── ANIME: HUNTER X HUNTER ───────────────────────────────────────────────
   {
     id: "anime_hxh_deep",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Hunter x Hunter",
     culture: "universal",
     description:
@@ -33295,7 +33295,7 @@ const CATEGORIES: Category[] = [
   // ── SHOWS: MONEY HEIST ────────────────────────────────────────────────────
   {
     id: "mv_money_heist_2",
-    group: "Shows",
+    group: "Movies & TV",
     name: "Money Heist II",
     culture: "universal",
     description:
@@ -33370,7 +33370,7 @@ const CATEGORIES: Category[] = [
   // ── SHOWS: NARCOS ─────────────────────────────────────────────────────────
   {
     id: "mv_narcos_2",
-    group: "Shows",
+    group: "Movies & TV",
     name: "Narcos II",
     culture: "universal",
     description:
@@ -33444,7 +33444,7 @@ const CATEGORIES: Category[] = [
   // ── SHOWS: STRANGER THINGS ────────────────────────────────────────────────
   {
     id: "mv_stranger_things_2",
-    group: "Shows",
+    group: "Movies & TV",
     name: "Stranger Things II",
     culture: "universal",
     description:
@@ -33513,7 +33513,7 @@ const CATEGORIES: Category[] = [
   // ── SHOWS: RICK AND MORTY ─────────────────────────────────────────────────
   {
     id: "mv_rick_morty_2",
-    group: "Shows",
+    group: "Movies & TV",
     name: "Rick and Morty II",
     culture: "universal",
     description:
@@ -33598,7 +33598,7 @@ const CATEGORIES: Category[] = [
   // ── GAMING: POKEMON ───────────────────────────────────────────────────────
   {
     id: "gm_pokemon",
-    group: "Gaming",
+    group: "Video Games",
     name: "Pokémon",
     culture: "universal",
     description:
@@ -33777,7 +33777,7 @@ const CATEGORIES: Category[] = [
   // ── GAMING: RED DEAD REDEMPTION 2 ────────────────────────────────────────
   {
     id: "gm_rdr2",
-    group: "Gaming",
+    group: "Video Games",
     name: "Red Dead Redemption 2",
     culture: "universal",
     description:
@@ -34280,7 +34280,7 @@ const CATEGORIES: Category[] = [
   // ── CULTURE: MCU / MARVEL ─────────────────────────────────────────────────
   {
     id: "cul_mcu",
-    group: "Culture",
+    group: "History",
     name: "Marvel Cinematic Universe",
     culture: "universal",
     description:
@@ -34357,7 +34357,7 @@ const CATEGORIES: Category[] = [
   // ── CULTURE: SOCIAL MEDIA ─────────────────────────────────────────────────
   {
     id: "cul_social_media",
-    group: "Culture",
+    group: "History",
     name: "Social Media",
     culture: "universal",
     description:
@@ -34726,43 +34726,6 @@ const CATEGORIES: Category[] = [
           "What is the name of the legendary Arabic/Persian mythological bird, similar to the phoenix, that is said to be large enough to carry off elephants?",
         answer: "The Roc (or Rukh)",
         acceptableAnswers: ["Roc", "Rukh"],
-      },
-    ],
-  },
-  {
-    id: "anime_evangelion",
-    group: "Anime",
-    name: "Neon Genesis Evangelion",
-    culture: "universal",
-    description: "Mechs, angels, and existential dread.",
-    questions: [
-      {
-        id: "nge_400_01",
-        categoryId: "anime_evangelion",
-        tier: 400,
-        prompt:
-          "What is the name of the mysterious, giant entities that periodically attack Tokyo-3, which the Evas are built to fight?",
-        answer: "Angels",
-        acceptableAnswers: ["Angels", "The Angels"],
-      },
-      {
-        id: "nge_600_01",
-        categoryId: "anime_evangelion",
-        tier: 600,
-        prompt:
-          "What is the name of the absolute, impenetrable forcefield projected by both Angels and Evangelions that separates their physical and spiritual existence?",
-        answer: "A.T. Field (Absolute Terror Field)",
-        acceptableAnswers: ["AT Field", "A.T. Field", "Absolute Terror Field"],
-      },
-      {
-        id: "nge_600_02",
-        categoryId: "anime_evangelion",
-        tier: 600,
-        prompt:
-          "SEELE's ultimate goal is a forced evolutionary process that would merge all human souls into a single, collective consciousness. What is this project called?",
-        answer: "The Human Instrumentality Project",
-        acceptableAnswers: ["Human Instrumentality Project", "Human Instrumentality"],
-        explanation: "The HIP is the core driving conspiracy of the series, aiming to erase the boundaries (A.T. Fields) between individuals to end human loneliness and pain.",
       },
     ],
   },
@@ -36430,7 +36393,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_deep_lore",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Anime Deep Lore",
     culture: "universal",
     description: "Mangakas, studios, and hyper-specific trivia.",
@@ -36687,7 +36650,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "ani_creators_music",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Anime Origins & Music",
     culture: "universal",
     description: "Mangakas, soundtracks, and early drafts.",
@@ -36872,7 +36835,7 @@ const CATEGORIES: Category[] = [
   // ── MASSIVE EXPANSION WAVE 19: CORE SPORTS LORE ────────────────────
   {
     id: 'soccer_history',
-    group: 'Sports',
+    group: "Sports",
     name: 'Football / Soccer History',
     culture: 'universal',
     description: 'World Cups, iconic goals, and historic clubs.',
@@ -36905,7 +36868,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: 'nfl_superbowl',
-    group: 'Sports',
+    group: "Sports",
     name: 'NFL & Super Bowl Lore',
     culture: 'universal',
     description: 'Gridiron legends, massive upsets, and historic plays.',
@@ -36940,7 +36903,7 @@ const CATEGORIES: Category[] = [
   // ── MASSIVE EXPANSION WAVE 20: MOVIES & GAMING HISTORY ────────────────────
   {
     id: 'horror_classics',
-    group: 'Movies & TV',
+    group: "Movies & TV",
     name: 'Classic Horror Films',
     culture: 'universal',
     description: 'Scream queens, practical effects, and terror.',
@@ -36973,7 +36936,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: 'vg_obscure_hardware',
-    group: 'Video Games',
+    group: "Video Games",
     name: 'Obscure Console Add-ons',
     culture: 'universal',
     description: 'Disk drives, power gloves, and weird peripherals.',
@@ -37008,7 +36971,7 @@ const CATEGORIES: Category[] = [
   // ── MASSIVE EXPANSION WAVE 21: ADVANCED ANIME & MECHA ──────────────────
   {
     id: "anime_mecha_lore",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Mecha History",
     culture: "universal",
     description: "Gundams, Eva units, and giant robots.",
@@ -37041,7 +37004,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_studio_trigger",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Studio Trigger Lore",
     culture: "universal",
     description: "Over-the-top animation and saving anime.",
@@ -37485,7 +37448,7 @@ const CATEGORIES: Category[] = [
   // ── MASSIVE EXPANSION WAVE 28: ANIME VOICE ACTING & STUDIOS ────────────────────
   {
     id: "ani_seiyuu_legends",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Voice Actor (Seiyuu) Lore",
     culture: "universal",
     description: "The legendary voices behind the characters.",
@@ -37518,7 +37481,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "ani_studio_madhouse",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Studio Madhouse Lore",
     culture: "universal",
     description: "The studio behind Death Note and Hunter x Hunter.",
@@ -37867,7 +37830,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "ani_kyoto_animation",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Kyoto Animation Lore",
     culture: "universal",
     description: "Masterpiece animation and KyoAni history.",
@@ -38139,7 +38102,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "ani_retro_classics",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Retro Anime Classics",
     culture: "universal",
     description: "80s and 90s OVA deep cuts.",
@@ -38207,7 +38170,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "bks_obscure_adaptations",
-    group: "Books",
+    group: "Literature",
     name: "Obscure Book Adaptations",
     culture: "universal",
     description: "Movies you didn't know were based on books.",
@@ -38787,7 +38750,7 @@ const CATEGORIES: Category[] = [
   // ── MASSIVE EXPANSION WAVE 47: LITERARY SECRETS & WEIRD GEOGRAPHY ──────────
   {
     id: "bks_literary_secrets",
-    group: "Books",
+    group: "Literature",
     name: "Literary Secrets",
     culture: "universal",
     description: "Pseudonyms, lost manuscripts, and author lore.",
@@ -40085,7 +40048,7 @@ const CATEGORIES: Category[] = [
   // ── MASSIVE EXPANSION WAVE 66: DEEP ANIME LORE & OLYMPIC ODDITIES ──────────
   {
     id: "ani_ghibli_lore",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Studio Ghibli Deep Cuts",
     culture: "universal",
     description: "Miyazaki, Takahata, and obscure facts.",
@@ -40426,7 +40389,7 @@ const CATEGORIES: Category[] = [
   // ── MASSIVE EXPANSION WAVE 71: ANIME SPIN-OFFS & VINTAGE CS ──────────────────
   {
     id: "ani_obscure_spinoffs",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Anime Spin-offs",
     culture: "universal",
     description: "The side stories that time forgot.",
@@ -44204,7 +44167,7 @@ const CATEGORIES: Category[] = [
   // ===================== WAVE 8: ANIME — STUDIO MAPPA =====================
   {
     id: "ani_studio_mappa",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "MAPPA: Studio Deep Cuts",
     culture: "universal",
     description: "The productions, behind-the-scenes decisions, and creative choices of MAPPA — modern anime's most scrutinized studio.",
@@ -44561,7 +44524,7 @@ const CATEGORIES: Category[] = [
   // ===================== WAVE 8: SEINEN ANIME =====================
   {
     id: "ani_seinen_deep",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Seinen Anime: Deep Cuts",
     culture: "universal",
     description: "The mature, complex anime aimed at adult audiences — the ones that haunt you long after.",
@@ -45772,24 +45735,6 @@ const CATEGORIES: Category[] = [
     ],
   },
   {
-    id: "world_geography",
-    group: "Cultural",
-    name: "World Geography: Deep",
-    culture: "universal",
-    description: "Countries, capitals, rivers, mountains — but only the knowledge that requires real study.",
-    questions: [
-      { id: "wgd_200_01", categoryId: "world_geography", tier: 200, prompt: "Which country has the largest land area in the world?", answer: "Russia", acceptableAnswers: [] },
-      { id: "wgd_200_02", categoryId: "world_geography", tier: 200, prompt: "What is the capital city of Australia?", answer: "Canberra", acceptableAnswers: [] },
-      { id: "wgd_200_03", categoryId: "world_geography", tier: 200, prompt: "The Amazon River flows through which continent?", answer: "South America", acceptableAnswers: [] },
-      { id: "wgd_400_01", categoryId: "world_geography", tier: 400, prompt: "Which African country has more ancient pyramids than Egypt — primarily the Nubian pyramids of Meroe?", answer: "Sudan", acceptableAnswers: ["Nubia / Sudan", "Nubia"] },
-      { id: "wgd_400_02", categoryId: "world_geography", tier: 400, prompt: "The Strait of Malacca — one of the world's most important shipping lanes — separates the Malay Peninsula from which large island?", answer: "Sumatra", acceptableAnswers: ["Sumatra / Indonesia"] },
-      { id: "wgd_400_03", categoryId: "world_geography", tier: 400, prompt: "Lake Baikal in Russia holds approximately what percentage of the world's unfrozen surface freshwater?", answer: "20%", acceptableAnswers: ["about 20 percent", "one-fifth"] },
-      { id: "wgd_600_01", categoryId: "world_geography", tier: 600, prompt: "Which country is home to the Namib Desert — considered the world's oldest desert, estimated to be 55–80 million years old?", answer: "Namibia", acceptableAnswers: [] },
-      { id: "wgd_600_02", categoryId: "world_geography", tier: 600, prompt: "The Wakhan Corridor is a narrow strip of Afghan territory that was historically maintained as a buffer between Russia and which empire's territory?", answer: "British Empire (British India)", acceptableAnswers: ["British India", "British Empire"] },
-      { id: "wgd_600_03", categoryId: "world_geography", tier: 600, prompt: "What is the name of the UN-enforced buffer zone that divides Northern and Southern Cyprus — still in place since 1974?", answer: "Green Line", acceptableAnswers: ["the Green Line", "UN buffer zone"] },
-    ],
-  },
-  {
     id: "breaking_bad_deep",
     group: "Movies & TV",
     name: "Breaking Bad: Deep Cuts",
@@ -45972,7 +45917,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_classics",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Anime Classics: Deep Lore",
     culture: "universal",
     description: "Classic anime series from the 90s and 2000s — Cowboy Bebop, Evangelion, Samurai Champloo, and more.",
@@ -46004,24 +45949,6 @@ const CATEGORIES: Category[] = [
       { id: "cwd_600_01", categoryId: "cold_war_deep", tier: 600, prompt: "The Soviet nuclear submarine K-19 suffered a reactor accident in 1961. What was its NATO nickname that became a film title?", answer: "K-19: The Widowmaker", acceptableAnswers: ["the Widowmaker", "K-19"] },
       { id: "cwd_600_02", categoryId: "cold_war_deep", tier: 600, prompt: "Which Soviet defector in 1963 gave the CIA detailed information about KGB operations, and was later assassinated in London in 1978 by a poisoned pellet shot from an umbrella?", answer: "Georgi Markov", acceptableAnswers: ["Markov"] },
       { id: "cwd_600_03", categoryId: "cold_war_deep", tier: 600, prompt: "The 'Able Archer 83' NATO military exercise nearly triggered a Soviet nuclear strike because the Soviets believed it was cover for a real attack. Under which US President did this occur?", answer: "Ronald Reagan", acceptableAnswers: ["Reagan"] },
-    ],
-  },
-  {
-    id: "science_discoveries",
-    group: "Cultural",
-    name: "Science: Eureka Moments II",
-    culture: "universal",
-    description: "The discoveries that changed everything — from penicillin to quantum mechanics to CRISPR.",
-    questions: [
-      { id: "scd_200_01", categoryId: "science_discoveries", tier: 200, prompt: "Alexander Fleming discovered penicillin accidentally in 1928 when he noticed that a mold was killing bacteria in his petri dish. What species of mold was it?", answer: "Penicillium notatum", acceptableAnswers: ["Penicillium", "penicillium mold"] },
-      { id: "scd_200_02", categoryId: "science_discoveries", tier: 200, prompt: "Marie Curie was the first woman to win a Nobel Prize and the first person to win it twice. She won in Physics and which other field?", answer: "Chemistry", acceptableAnswers: [] },
-      { id: "scd_200_03", categoryId: "science_discoveries", tier: 200, prompt: "Albert Einstein's famous equation E=mc² relates energy to mass. What does the 'c' in the equation represent?", answer: "Speed of light", acceptableAnswers: ["the speed of light", "light speed"] },
-      { id: "scd_400_01", categoryId: "science_discoveries", tier: 400, prompt: "The discovery of the structure of DNA in 1953 was credited to Watson and Crick, but which female scientist's X-ray crystallography work was crucial to their breakthrough?", answer: "Rosalind Franklin", acceptableAnswers: ["Franklin"] },
-      { id: "scd_400_02", categoryId: "science_discoveries", tier: 400, prompt: "CRISPR-Cas9 — a revolutionary gene-editing tool — was adapted from which natural system found in bacteria as a defense against viruses?", answer: "Bacterial immune system", acceptableAnswers: ["bacteria's immune defense", "prokaryotic immune system", "bacterial CRISPR system"] },
-      { id: "scd_400_03", categoryId: "science_discoveries", tier: 400, prompt: "The Higgs boson — the so-called 'God particle' — was confirmed in 2012 at which European physics laboratory?", answer: "CERN", acceptableAnswers: ["CERN (Large Hadron Collider)", "LHC"] },
-      { id: "scd_600_01", categoryId: "science_discoveries", tier: 600, prompt: "Edwin Hubble's 1929 discovery that the universe is expanding led to which cosmological theory about the origin of the universe?", answer: "Big Bang Theory", acceptableAnswers: ["Big Bang", "the Big Bang"] },
-      { id: "scd_600_02", categoryId: "science_discoveries", tier: 600, prompt: "The first image of a black hole was captured in 2019 by the Event Horizon Telescope. In which galaxy is this black hole located?", answer: "Messier 87 (M87)", acceptableAnswers: ["M87", "Messier 87"] },
-      { id: "scd_600_03", categoryId: "science_discoveries", tier: 600, prompt: "Which 1953 experiment by Miller and Urey tested the origin of life by showing that organic molecules could form spontaneously from which conditions?", answer: "Early Earth's atmosphere (methane, ammonia, hydrogen, water + electricity)", acceptableAnswers: ["primordial soup conditions", "early Earth atmosphere", "amino acids from simple chemicals"] },
     ],
   },
   {
@@ -46189,7 +46116,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_shonen_deep",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Shonen Anime: Deep Cuts",
     culture: "universal",
     description: "Deep knowledge of the biggest shonen anime — power systems, lore, and hidden details.",
@@ -46387,24 +46314,6 @@ const CATEGORIES: Category[] = [
     ],
   },
   {
-    id: "chemistry_deep",
-    group: "Cultural",
-    name: "Chemistry: Deep Cuts",
-    culture: "universal",
-    description: "The elements, reactions, and discoveries that make chemistry the central science.",
-    questions: [
-      { id: "chm_200_01", categoryId: "chemistry_deep", tier: 200, prompt: "What is the chemical symbol for gold?", answer: "Au", acceptableAnswers: [] },
-      { id: "chm_200_02", categoryId: "chemistry_deep", tier: 200, prompt: "The Periodic Table was organized by which Russian chemist in 1869 — who also predicted the existence of undiscovered elements?", answer: "Dmitri Mendeleev", acceptableAnswers: ["Mendeleev"] },
-      { id: "chm_200_03", categoryId: "chemistry_deep", tier: 200, prompt: "What is the chemical formula for water?", answer: "H₂O", acceptableAnswers: ["H2O"] },
-      { id: "chm_400_01", categoryId: "chemistry_deep", tier: 400, prompt: "The process of splitting a heavy atomic nucleus to release energy is called nuclear fission. The first controlled nuclear chain reaction was achieved in which US city in 1942?", answer: "Chicago", acceptableAnswers: ["Chicago, Illinois", "University of Chicago"] },
-      { id: "chm_400_02", categoryId: "chemistry_deep", tier: 400, prompt: "Which element has the atomic number 6 and is the basis for all known life on Earth?", answer: "Carbon", acceptableAnswers: [] },
-      { id: "chm_400_03", categoryId: "chemistry_deep", tier: 400, prompt: "Avogadro's number (6.022 × 10²³) represents how many particles are in one 'mole' of a substance. What is a 'mole' in chemistry?", answer: "A unit of measurement equal to 6.022 × 10²³ particles (atoms, molecules, etc.)", acceptableAnswers: ["Avogadro's number of particles", "6.022×10^23 atoms"] },
-      { id: "chm_600_01", categoryId: "chemistry_deep", tier: 600, prompt: "Graphene — a single layer of carbon atoms arranged in a honeycomb lattice — was first isolated in 2004. Which two scientists won the Nobel Prize for this discovery?", answer: "Andre Geim and Konstantin Novoselov", acceptableAnswers: ["Geim and Novoselov"] },
-      { id: "chm_600_02", categoryId: "chemistry_deep", tier: 600, prompt: "What is the 'Aufbau principle' in chemistry — the rule that governs how electrons fill atomic orbitals?", answer: "Electrons fill orbitals from the lowest energy level first, before occupying higher energy levels", acceptableAnswers: ["electrons fill lowest energy orbitals first", "build-up principle"] },
-      { id: "chm_600_03", categoryId: "chemistry_deep", tier: 600, prompt: "Which chemical element — number 43 on the periodic table — was the first element to be artificially produced, and has no stable isotopes?", answer: "Technetium", acceptableAnswers: [] },
-    ],
-  },
-  {
     id: "football_tactics",
     group: "Sports",
     name: "Football: Tactics & Formations",
@@ -46587,7 +46496,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_studios_deep",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Anime: Studios & Directors",
     culture: "universal",
     description: "The studios, auteurs, and production houses that define anime — from Ghibli to Trigger to MAPPA.",
@@ -46876,24 +46785,6 @@ const CATEGORIES: Category[] = [
     ],
   },
   {
-    id: "africa_history_deep",
-    group: "Cultural",
-    name: "African Empires: Hidden History",
-    culture: "universal",
-    description: "The great African civilizations that textbooks often skip — Mali, Songhai, Great Zimbabwe, Mansa Musa.",
-    questions: [
-      { id: "afh_200_01", categoryId: "africa_history_deep", tier: 200, prompt: "Mansa Musa — often called the richest person in history — was the emperor of which West African empire in the 14th century?", answer: "Mali Empire", acceptableAnswers: ["Mali"] },
-      { id: "afh_200_02", categoryId: "africa_history_deep", tier: 200, prompt: "Timbuktu — a city in modern Mali — was famous in medieval times as a center of what?", answer: "Islamic scholarship and trade", acceptableAnswers: ["scholarship", "learning", "trade and education"] },
-      { id: "afh_200_03", categoryId: "africa_history_deep", tier: 200, prompt: "The Kingdom of Kush — in modern Sudan — was one of the earliest civilizations on the African continent and at one point ruled which neighboring kingdom?", answer: "Egypt", acceptableAnswers: ["Ancient Egypt"] },
-      { id: "afh_400_01", categoryId: "africa_history_deep", tier: 400, prompt: "The Songhai Empire — which replaced the Mali Empire as the dominant West African power — reached its peak under which ruler in the late 15th century?", answer: "Askia the Great (Askia Muhammad I)", acceptableAnswers: ["Askia Muhammad", "Askia the Great"] },
-      { id: "afh_400_02", categoryId: "africa_history_deep", tier: 400, prompt: "Great Zimbabwe — the stone city that gave Zimbabwe its name — was built without mortar. What was the primary reason for its construction and what did its massive walls symbolize?", answer: "Political power and status — walls symbolized the king's authority", acceptableAnswers: ["royal power", "political authority", "symbol of kingship"] },
-      { id: "afh_400_03", categoryId: "africa_history_deep", tier: 400, prompt: "Mansa Musa's pilgrimage to Mecca in 1324–1325 was so lavish that he gave away so much gold that he caused severe inflation in which region?", answer: "North Africa and Egypt (caused gold devaluation for a decade)", acceptableAnswers: ["Egypt", "North Africa", "Cairo"] },
-      { id: "afh_600_01", categoryId: "africa_history_deep", tier: 600, prompt: "The Oyo Empire — one of the most powerful states in West African history — was known for its cavalry and political system. In which modern country was it located?", answer: "Nigeria", acceptableAnswers: [] },
-      { id: "afh_600_02", categoryId: "africa_history_deep", tier: 600, prompt: "The Kingdom of Aksum — in modern Ethiopia and Eritrea — was one of the first states to officially adopt Christianity. In which century did this occur?", answer: "4th century AD (around 330 AD under King Ezana)", acceptableAnswers: ["4th century", "330 AD", "300s AD"] },
-      { id: "afh_600_03", categoryId: "africa_history_deep", tier: 600, prompt: "The Berlin Conference of 1884–1885 — where European powers divided Africa without African input — was organized by which European leader?", answer: "Otto von Bismarck (of Germany)", acceptableAnswers: ["Bismarck", "Otto von Bismarck"] },
-    ],
-  },
-  {
     id: "food_culture_world",
     group: "Cultural",
     name: "World Food: Deep Cuts",
@@ -46982,24 +46873,6 @@ const CATEGORIES: Category[] = [
       { id: "rug_600_01", categoryId: "rugby_deep", tier: 600, prompt: "The 1995 Rugby World Cup in South Africa — won by the Springboks — is famous for the role of which political figure who used the tournament to unite a post-apartheid nation?", answer: "Nelson Mandela", acceptableAnswers: ["Mandela"] },
       { id: "rug_600_02", categoryId: "rugby_deep", tier: 600, prompt: "Rugby is said to have been invented when William Webb Ellis picked up the ball during a football game and ran with it at which English school in 1823?", answer: "Rugby School", acceptableAnswers: ["Rugby School, Warwickshire"] },
       { id: "rug_600_03", categoryId: "rugby_deep", tier: 600, prompt: "What does a 'yellow card' mean in rugby union — and how long must the player leave the field?", answer: "Temporary suspension — the player must spend 10 minutes in the sin bin", acceptableAnswers: ["10-minute suspension", "sin bin for 10 minutes"] },
-    ],
-  },
-  {
-    id: "internet_history",
-    group: "Cultural",
-    name: "Internet History: Origins",
-    culture: "universal",
-    description: "How the internet was built — ARPANET, the Web, the dot-com era, and the pioneers who shaped it.",
-    questions: [
-      { id: "inh_200_01", categoryId: "internet_history", tier: 200, prompt: "The World Wide Web was invented in 1989 by which British scientist — who gave it away for free?", answer: "Tim Berners-Lee", acceptableAnswers: ["Berners-Lee"] },
-      { id: "inh_200_02", categoryId: "internet_history", tier: 200, prompt: "What does 'URL' stand for in web terminology?", answer: "Uniform Resource Locator", acceptableAnswers: ["Uniform Resource Locator"] },
-      { id: "inh_200_03", categoryId: "internet_history", tier: 200, prompt: "ARPANET — the precursor to the internet — was created in 1969 by the US Department of Defense. What was its original purpose?", answer: "To allow multiple computers to share information and remain functional even if part of the network was destroyed", acceptableAnswers: ["defense communication network", "decentralized computer communication"] },
-      { id: "inh_400_01", categoryId: "internet_history", tier: 400, prompt: "The dot-com bubble burst in 2000–2001, wiping out trillions in market value. Which company — once valued at $400 billion — became the symbol of the bubble's excess?", answer: "Pets.com (or Cisco, AOL-Time Warner)", acceptableAnswers: ["Pets.com", "Cisco", "AOL Time Warner"] },
-      { id: "inh_400_02", categoryId: "internet_history", tier: 400, prompt: "The first web browser — which made the World Wide Web accessible to the public — was released in 1993. What was it called?", answer: "Mosaic", acceptableAnswers: [] },
-      { id: "inh_400_03", categoryId: "internet_history", tier: 400, prompt: "Wikipedia was founded in 2001. The site is funded by the Wikimedia Foundation through donations — but who writes its articles?", answer: "Volunteers from the public (crowdsourced editing)", acceptableAnswers: ["volunteers", "anyone can edit", "crowdsourced"] },
-      { id: "inh_600_01", categoryId: "internet_history", tier: 600, prompt: "Aaron Swartz — the programmer and activist who committed suicide in 2013 — was prosecuted for downloading millions of academic articles from which database, with the intent to make them freely available?", answer: "JSTOR", acceptableAnswers: [] },
-      { id: "inh_600_02", categoryId: "internet_history", tier: 600, prompt: "The 'Eternal September' describes the moment in 1993 when AOL's mass market internet access flooded which early internet community with newbies who never learned its norms?", answer: "Usenet", acceptableAnswers: [] },
-      { id: "inh_600_03", categoryId: "internet_history", tier: 600, prompt: "What is 'net neutrality' — the principle that internet providers must treat all traffic equally — and which US agency tried to repeal it in 2017?", answer: "The FCC (Federal Communications Commission) attempted to repeal net neutrality rules under Chairman Ajit Pai", acceptableAnswers: ["FCC", "Federal Communications Commission"] },
     ],
   },
   {
@@ -47166,24 +47039,6 @@ const CATEGORIES: Category[] = [
     ],
   },
   {
-    id: "architecture_deep",
-    group: "Cultural",
-    name: "Architecture: Design & History",
-    culture: "universal",
-    description: "The buildings, styles, and architects that shaped human civilization — from the Parthenon to Zaha Hadid.",
-    questions: [
-      { id: "arc_200_01", categoryId: "architecture_deep", tier: 200, prompt: "The Eiffel Tower was built for the 1889 World's Fair in Paris. It was designed by which engineer?", answer: "Gustave Eiffel", acceptableAnswers: ["Eiffel"] },
-      { id: "arc_200_02", categoryId: "architecture_deep", tier: 200, prompt: "The Gothic architectural style — characterized by pointed arches, ribbed vaults, and flying buttresses — is most associated with which type of building?", answer: "Medieval cathedrals", acceptableAnswers: ["cathedrals", "churches", "European churches"] },
-      { id: "arc_200_03", categoryId: "architecture_deep", tier: 200, prompt: "Which Spanish architect designed the still-unfinished Sagrada Família basilica in Barcelona — which has been under construction since 1882?", answer: "Antoni Gaudí", acceptableAnswers: ["Gaudi"] },
-      { id: "arc_400_01", categoryId: "architecture_deep", tier: 400, prompt: "The Bauhaus school — founded in Weimar, Germany in 1919 — was enormously influential in modern design. What was its core philosophy?", answer: "Combining fine arts with functional design and craftsmanship — 'form follows function'", acceptableAnswers: ["form follows function", "art and function combined", "functional design"] },
-      { id: "arc_400_02", categoryId: "architecture_deep", tier: 400, prompt: "Frank Lloyd Wright's 'Fallingwater' house (1935) in Pennsylvania is famous for being built over what natural feature?", answer: "A waterfall (Bear Run waterfall)", acceptableAnswers: ["a waterfall", "over a stream and waterfall"] },
-      { id: "arc_400_03", categoryId: "architecture_deep", tier: 400, prompt: "The Dome of the Rock in Jerusalem — built in 691 AD — is one of the oldest surviving Islamic structures. It stands over a rock sacred to both Muslims and Jews. What is significant about this rock for Muslims?", answer: "It is believed to be where the Prophet Muhammad (PBUH) ascended to heaven during the Night Journey (Isra and Mi'raj)", acceptableAnswers: ["site of Isra and Mi'raj", "Prophet's ascension point", "Night Journey site"] },
-      { id: "arc_600_01", categoryId: "architecture_deep", tier: 600, prompt: "Zaha Hadid — the first woman to win the Pritzker Architecture Prize — was known for her 'parametric design' style. She was born in which Arab country?", answer: "Iraq", acceptableAnswers: ["Iraqi"] },
-      { id: "arc_600_02", categoryId: "architecture_deep", tier: 600, prompt: "The Pantheon in Rome — built around 125 AD — has a concrete dome with an open hole at the top called the 'oculus.' For nearly 1,300 years, it held which record?", answer: "The world's largest unreinforced concrete dome (still standing)", acceptableAnswers: ["largest unreinforced dome", "largest concrete dome for 1300 years"] },
-      { id: "arc_600_03", categoryId: "architecture_deep", tier: 600, prompt: "What is the 'Bilbao Effect' — a concept in urban planning named after a museum?", answer: "The phenomenon where a single iconic cultural building can revitalize an entire city's economy and tourism (Frank Gehry's Guggenheim Bilbao)", acceptableAnswers: ["iconic building revitalizes a city", "Guggenheim Bilbao economic effect"] },
-    ],
-  },
-  {
     id: "psychology_relationships",
     group: "Cultural",
     name: "Psychology: Love & Relationships",
@@ -47240,7 +47095,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_isekai",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Isekai Anime: Deep Cuts",
     culture: "universal",
     description: "The genre where characters get transported to fantasy worlds — Re:Zero, Sword Art Online, Overlord, and more.",
@@ -47529,7 +47384,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "korean_cinema",
-    group: "Film & TV",
+    group: "Movies & TV",
     name: "Korean Cinema",
     culture: "universal",
     description: "From the Korean New Wave to global domination — directors, films, and the industry.",
@@ -47709,7 +47564,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "bollywood_cinema",
-    group: "Film & TV",
+    group: "Movies & TV",
     name: "Bollywood & Indian Cinema",
     culture: "universal",
     description: "The world's largest film industry — its stars, classics, and cultural reach.",
@@ -47889,7 +47744,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "british_comedy",
-    group: "Film & TV",
+    group: "Movies & TV",
     name: "British Comedy",
     culture: "universal",
     description: "Blackadder to Fawlty Towers — the wit, absurdity, and genius of British comedy.",
@@ -47943,7 +47798,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "western_philosophy",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Western Philosophy",
     culture: "universal",
     description: "From Socrates to Nietzsche — the ideas that broke minds and built civilizations.",
@@ -47979,7 +47834,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "space_exploration",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Space Exploration",
     culture: "universal",
     description: "From Sputnik to Mars — the missions, disasters, and discoveries that defined the space age.",
@@ -48069,7 +47924,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "psychology_mind",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Psychology & The Mind",
     culture: "universal",
     description: "How humans actually think, decide, and fall apart — from Freud to behavioral economics.",
@@ -48123,7 +47978,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "world_cinema",
-    group: "Film & TV",
+    group: "Movies & TV",
     name: "World Cinema",
     culture: "universal",
     description: "Kurosawa, Fellini, Wong Kar-wai — the films that defined cinema outside Hollywood.",
@@ -48177,7 +48032,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "science_history",
-    group: "Science & Ideas",
+    group: "Science",
     name: "History of Science",
     culture: "universal",
     description: "The discoveries, rivalries, and paradigm shifts that changed how we understand reality.",
@@ -48195,7 +48050,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "environmental_science",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Climate & Environment",
     culture: "universal",
     description: "The science of Earth's systems — from the ozone layer to ocean acidification.",
@@ -48213,7 +48068,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "mathematics_wonders",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Mathematics",
     culture: "universal",
     description: "Euclid's proofs to Gödel's incompleteness — the most beautiful ideas in mathematics.",
@@ -48231,7 +48086,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "world_architecture",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Architecture",
     culture: "universal",
     description: "The buildings that defined civilizations — Gothic cathedrals, Bauhaus, and brutalism.",
@@ -48281,24 +48136,6 @@ const CATEGORIES: Category[] = [
       { id: "jdc_600_01", categoryId: "jordan_deep_cuts", tier: 600, prompt: "The 1994 Wadi Araba Treaty (Jordan-Israel Peace Treaty) was the second Arab-Israeli peace treaty after Egypt (1979). What were Jordan's key negotiating gains — and what provisions remain controversial domestically?", answer: "Gains: restoration of territory (Baqura/Naharayim and Ghumar, leased back to Israel but under Jordanian sovereignty); Israel recognized the Hashemite Kingdom's special custodianship of Islamic holy sites in Jerusalem (Al-Aqsa and the Haram al-Sharif) — a provision that complicates Palestinian Authority's claims to be Jerusalem's future sovereign. Controversial domestically: the 'warm peace' that never became warm; water allocation provisions (Jordan needed water Israel provides); and the broader context of normalizing with Israel while Palestinian statehood remains unresolved — the treaty is unpopular among Jordan's Palestinian majority.", acceptableAnswers: ["territory restored", "Islamic custodianship of Jerusalem", "Al-Aqsa custodianship", "water allocation"] },
       { id: "jdc_600_02", categoryId: "jordan_deep_cuts", tier: 600, prompt: "Jordan's economy has several structural peculiarities. What are the three main features that make Jordan economically unusual compared to regional neighbors — and what is the 'Dutch Disease' risk it specifically does NOT face?", answer: "(1) No oil — Jordan has almost no hydrocarbon resources, making it entirely dependent on foreign aid, remittances, and services (a structural vulnerability). (2) Remittances from Jordanians in Gulf states are a major income source (~20% of GDP). (3) Foreign aid dependency — Jordan receives large US, Gulf, and EU aid packages tied to its geopolitical role (hosting refugees, peace with Israel, stability). Dutch Disease (when natural resource wealth destroys other economic sectors by appreciating currency) doesn't apply. Instead, Jordan faces the inverse: chronic current account deficits, subsidized energy imports, and a currency pegged to the dollar requiring large reserves.", acceptableAnswers: ["no oil", "remittance dependent", "foreign aid dependent", "no Dutch Disease but structural deficit"] },
       { id: "jdc_600_03", categoryId: "jordan_deep_cuts", tier: 600, prompt: "Black September (September 1970) was a civil war within Jordan between the Jordanian military and Palestinian militant organizations (the PLO and fedayeen). What triggered it — and what were the consequences for the Palestinian national movement?", answer: "Trigger: Palestinian armed factions (fedayeen) had effectively created a 'state within a state' in Jordan — openly carrying weapons, challenging state authority, assassinating officials, and hijacking international aircraft (Dawson's Field hijackings of September 6–9). King Hussein saw his regime as existential threat and ordered the army to crush them. The fighting killed thousands (PLO claims 10,000+; Jordan estimates much lower). Consequences: the PLO was expelled from Jordan and relocated to Lebanon — which then became the base for Palestinian militancy that ultimately contributed to the Lebanese Civil War (1975).", acceptableAnswers: ["PLO state within a state", "Dawson's Field hijackings triggered it", "PLO expelled to Lebanon", "thousands killed"] },
-    ],
-  },
-  {
-    id: "circassian_history_deep",
-    group: "Cultural",
-    name: "Circassian History",
-    culture: "circassian",
-    description: "The Caucasian homeland, the 1864 genocide, and the diaspora that built communities across the Middle East.",
-    questions: [
-      { id: "cirh_200_01", categoryId: "circassian_history_deep", tier: 200, prompt: "The Circassian homeland in the Northwest Caucasus had a specific geographic setting. Name the key rivers, the mountain range, and the historical name for the western shore they called home.", answer: "The Kuban River (to the north), the Caucasus Mountains (to the east and south), and the Black Sea coast — the Circassians called their homeland Adygea/Adyghe (in Circassian: Адыгэ Хэку). The coastal region from the Taman Peninsula to the Abkhazian border was the core of densely populated Circassian settlement. The Russian term 'Cherkesskoe' (Cherkess) was applied to multiple Caucasian peoples.", acceptableAnswers: ["Kuban River", "Caucasus Mountains", "Black Sea coast", "Adygea", "Northwest Caucasus"] },
-      { id: "cirh_200_02", categoryId: "circassian_history_deep", tier: 200, prompt: "The Circassian Resistance to Russian conquest lasted approximately how long — and who was its most famous military leader from among the Circassians themselves?", answer: "The Caucasian War between Russia and the Circassians lasted approximately 50 years (conventionally 1817–1864, though resistance began in the 1790s). The most famous leader specifically of Circassian resistance was Sheikh Mansur (late 18th century), though the broader resistance figure Imam Shamil was a Chechen/Avar leader in Dagestan — not Circassian. Many Circassian princes (pshi) led tribal confederations; there was no single Circassian commander.", acceptableAnswers: ["50 years", "1817-1864", "Sheikh Mansur", "no single leader tribal confederations"] },
-      { id: "cirh_200_03", categoryId: "circassian_history_deep", tier: 200, prompt: "After the 1864 defeat, most Circassians were exiled to the Ottoman Empire. Which specific countries today have significant Circassian communities — and where is the largest diaspora population?", answer: "Turkey has the largest Circassian diaspora (estimated 1.5–7 million, depending on how 'Circassian identity' is defined). Significant communities also in: Jordan (~180,000–200,000 — the Wadi al-Sir and Wadi al-Seer communities around Amman; also Zarqa, Jerash), Syria (~100,000 before the civil war), Israel (~4,000 in Kfar Kama and Rehaniya), and the historical homeland areas now in Russia (Republic of Adygea, Kabardino-Balkaria, Karachay-Cherkessia).", acceptableAnswers: ["Turkey largest", "Jordan", "Syria", "Israel", "Russia homeland areas"] },
-      { id: "cirh_400_01", categoryId: "circassian_history_deep", tier: 400, prompt: "The Circassian cavalry served the Ottoman Empire with distinction for centuries. In Jordan specifically, the Circassian Royal Guard (Haras al-Malaki) played a historically specific role. What was it — and when was it established?", answer: "The Circassian Royal Guard has protected the Hashemite royal family since the founding of Transjordan — when Emir Abdullah I arrived in Amman in 1921, the Circassian community provided his personal guard. They continue to serve in ceremonial capacity at the Raghadan Palace and other royal functions today. The Circassians' loyalty was earned through their historical experience as Ottoman military settlers — they had reason to support the Hashemite project of state-building and receive protection in return.", acceptableAnswers: ["protected Hashemite royal family since 1921", "Abdullah I", "Raghadan Palace ceremony", "established at founding of Transjordan"] },
-      { id: "cirh_400_02", categoryId: "circassian_history_deep", tier: 400, prompt: "The Circassian genocide of 1864 has specific dates and geography. On what date did the final battle occur — and what happened to the survivors in the aftermath?", answer: "The final Russian conquest was completed on May 21, 1864 (now Circassian Genocide Remembrance Day — May 21st). The Battle of Kbaada (Krasnaya Polyana, now the site of Sochi Olympic venues) was the final Russian military victory. Survivors were given a choice: move to lowland Russia and assimilate, or exile to the Ottoman Empire. The vast majority chose exile — loaded onto ships in the Black Sea, many of which were overcrowded and sank. Survivors arrived destitute on Ottoman shores, with entire villages dying of disease in refugee camps.", acceptableAnswers: ["May 21 1864", "Battle of Kbaada", "Krasnaya Polyana/Sochi", "ship crossings many died", "exile to Ottoman Empire"] },
-      { id: "cirh_400_03", categoryId: "circassian_history_deep", tier: 400, prompt: "The Circassian language family has two main literary languages recognized in Russia today. Name them — and explain the linguistic relationship between the major Circassian dialects.", answer: "Kabardian (East Circassian/Kabardino-Cherkess) and Adyghe (West Circassian) are the two literary/standard languages. Kabardian is spoken in Kabardino-Balkaria and Karachay-Cherkessia (Russia); Adyghe is the standard in the Republic of Adygea. Dialectal diversity is high — Bzhedzugh, Shapsug, Abzakh, Besleney, Bzhedug, and others, some with limited mutual intelligibility. The diaspora in Turkey and Jordan often preserved archaic dialects that diverged from Soviet-standardized literary forms.", acceptableAnswers: ["Kabardian and Adyghe", "East and West Circassian", "dialectal diversity", "diaspora preserved archaic dialects"] },
-      { id: "cirh_600_01", categoryId: "circassian_history_deep", tier: 600, prompt: "Circassians played an unexpected role in the founding of several modern Middle Eastern armies. Detail their military role in Syria and Jordan in the early 20th century.", answer: "In Jordan: Circassians formed the core of Abdullah I's initial security forces (1921) and the Jordanian Arab Army's ceremonial and palace guard units. They were trusted precisely because they had no Palestinian, Bedouin, or East Bank tribal allegiance — their loyalty was personal and historical. In Syria: Circassians served the French Mandate forces (the Troupes Spéciales du Levant) and the early Syrian Arab Army; several senior officers were Circassian. After Syrian independence, Circassians held positions in early Ba'ath Party military structures before being marginalized as Arab nationalist identity politics intensified.", acceptableAnswers: ["core of Abdullah's security forces 1921", "trusted because no tribal loyalties", "French Mandate forces in Syria", "Troupes Spéciales"] },
-      { id: "cirh_600_02", categoryId: "circassian_history_deep", tier: 600, prompt: "Adyghe Xabze (Circassian code of ethics) is sometimes compared to Japanese Bushido or Pashtunwali. What are its core principles — and how does it specifically govern hospitality, gender relations, and conflict?", answer: "Xabze principles include: Hospitality (Xabze demands that a guest be fed, housed, and protected — even an enemy arriving at your home must be hosted for three days before conflict resumes); Respect for elders and women (men stand when a woman enters, do not use crude language, women have specific protected social roles); Restraint and dignity (outward emotional control — public weeping or anger is considered loss of dignity); Mediation over violence (councils of elders mediate disputes; blood feuds must follow specific protocols). In conflict: xabze requires warning before attack; killing a guest or a man who is eating is forbidden. Women could stop a fight by removing their headscarf and throwing it between combatants.", acceptableAnswers: ["hospitality requires hosting even enemies 3 days", "women can stop fights with headscarf", "emotional restraint as dignity", "elder council mediation"] },
-      { id: "cirh_600_03", categoryId: "circassian_history_deep", tier: 600, prompt: "The 2014 Sochi Winter Olympics sparked significant Circassian protest internationally. What was the controversy — and what did Russia do in response to Circassian demands?", answer: "Sochi and the surrounding region (Krasnaya Polyana, where the mountain events were held) is the exact location of the 1864 massacre and final deportation — essentially Russia hosted an international celebration on the site of the Circassian genocide 150 years later. Circassian groups worldwide (and in Jordan, Turkey, and Russia) called for a boycott and international recognition of the genocide. Russia categorically rejected genocide recognition. The Sochi controversy renewed global awareness of Circassian history and led to a significant increase in diaspora youth interest in Circassian identity — sometimes called the 'Sochi effect' by diaspora scholars.", acceptableAnswers: ["Sochi built on genocide site", "Krasnaya Polyana final massacre location", "boycott calls", "Russia rejected genocide recognition", "Sochi effect renewed identity"] },
     ],
   },
   {
@@ -48357,7 +48194,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "genetics_evolution",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Genetics & Evolution",
     culture: "universal",
     description: "DNA, natural selection, and the mechanisms that explain the diversity of life.",
@@ -48447,7 +48284,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "astronomy_cosmos",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Astronomy & Cosmology",
     culture: "universal",
     description: "Black holes, the Big Bang, and the scale of the universe that makes everything else feel small.",
@@ -48483,7 +48320,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "game_theory",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Game Theory & Economics",
     culture: "universal",
     description: "Prisoner's Dilemma to Nash Equilibrium — the mathematics of strategic decisions.",
@@ -48501,7 +48338,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "television_history",
-    group: "Film & TV",
+    group: "Movies & TV",
     name: "Television History",
     culture: "universal",
     description: "From I Love Lucy to The Wire — how TV became the dominant storytelling form of the 20th century.",
@@ -48533,42 +48370,6 @@ const CATEGORIES: Category[] = [
       { id: "korh_600_01", categoryId: "korean_history", tier: 600, prompt: "The Gwangju Uprising (May 1980) is South Korea's Tiananmen equivalent — a pro-democracy uprising suppressed by the military. What happened — and what was the US role that remains controversial?", answer: "When General Chun Doo-hwan seized power in a coup (December 1979), pro-democracy protests erupted across South Korea. Gwangju (a major city in the southwest) refused martial law — citizens armed themselves and briefly controlled the city. Chun sent paratroopers who killed an estimated 200–2,000 people (official count is 144; survivors say much higher). Controversial US role: the US military command in Korea technically commanded the Korean troops used — and appears to have approved their release for domestic use. The US government denied knowledge of the scale; declassified documents suggest US officials knew. This still affects Korean attitudes toward the US alliance.", acceptableAnswers: ["Chun Doo-hwan suppressed democracy protests", "paratroopers killed 144 officially more claimed", "US command approved troop release", "still affects Korea-US relations"] },
       { id: "korh_600_02", categoryId: "korean_history", tier: 600, prompt: "North Korea's Juche ideology is sometimes described as just 'communism.' What does Juche actually mean — and how does it differ from Marxism-Leninism in ways that explain North Korean behavior?", answer: "Juche (주체, 'self-reliance') was developed by Kim Il-sung from the 1950s–1970s as the state ideology. Unlike Marxism-Leninism: it subordinates class struggle to national independence; positions the Korean nation (and specifically the Kim family) as the unique vehicle of its own destiny; rejects dependence on the Soviet Union or China. The Suryong (supreme leader) concept makes the leader the 'brain' of the nation-organism. In practice, Juche has provided ideological cover for total personalist dictatorship while framing it as nationalist self-reliance — making it resistant to outside pressure (because any concession to foreigners is ideologically illegitimate).", acceptableAnswers: ["self-reliance not Marxism", "rejects Soviet or Chinese dependence", "Suryong leader as national brain", "nationalist not class-based", "makes outside pressure ideologically illegitimate"] },
       { id: "korh_600_03", categoryId: "korean_history", tier: 600, prompt: "The 2016 impeachment of South Korean President Park Geun-hye over her relationship with Choi Soon-sil is described as stranger than fiction. What actually happened?", answer: "Park Geun-hye (daughter of dictator Park Chung-hee) allowed her friend Choi Soon-sil — who had no government position, had never been elected, and had no security clearance — to edit presidential speeches, choose cabinet members, and operate a network of foundations that extorted money from major corporations (including Samsung's $36 million 'donation' to Choi's daughter's equestrian training fund). Choi's influence was attributed in public discourse partly to a shamanistic/cult-like relationship. Park was impeached by the National Assembly (234–56), removed by the Constitutional Court, and sentenced to 24 years in prison (later pardoned in 2021 for 'national unity').", acceptableAnswers: ["Choi Soon-sil ran Korea through Park", "no official position or clearance", "extorted Samsung for equestrian training", "Park impeached and sentenced 24 years then pardoned"] },
-    ],
-  },
-  {
-    id: "music_theory_deep",
-    group: "Music",
-    name: "Music Theory",
-    culture: "universal",
-    description: "Why music works — from scales and harmony to the mathematics behind great songs.",
-    questions: [
-      { id: "mth_200_01", categoryId: "music_theory_deep", tier: 200, prompt: "The Western musical scale has 12 notes in an octave. Why 12 — and what is 'equal temperament,' the tuning system used on virtually all modern instruments?", answer: "12 notes because: 12 divides into 2, 3, 4, and 6 — allowing major, minor, diminished, and augmented chord structures. Equal temperament: each of the 12 semitones is exactly the same frequency ratio (the 12th root of 2, ~1.0595). This is a mathematical compromise — pure intervals (perfect fifths, thirds) in 'just intonation' sound perfectly harmonious but can't be used in all keys. Equal temperament is slightly 'out of tune' in every key but equally out of tune in all keys — enabling musicians to play in all 12 keys without retuning.", acceptableAnswers: ["equal temperament divides octave equally", "12th root of 2", "compromise enabling all keys", "pure intervals are key-specific"] },
-      { id: "mth_200_02", categoryId: "music_theory_deep", tier: 200, prompt: "The 'circle of fifths' is a fundamental tool in music theory. What is it — and what practical use does it serve for musicians?", answer: "A circular diagram arranging all 12 major keys (and their relative minor keys) so that adjacent keys are a perfect fifth apart. Moving clockwise: each key adds one sharp. Moving counterclockwise: each key adds one flat. Practical uses: (1) easily identify which chords naturally occur in any key; (2) find the relative minor of any major key; (3) understand chord progressions (keys next to each other on the circle have the closest relationship — easy to modulate between). Almost all functional chord progressions move around the circle (V → I is the most common resolution).", acceptableAnswers: ["12 keys arranged by fifths", "clockwise adds sharps", "find related keys and chords", "V to I movement around circle"] },
-      { id: "mth_200_03", categoryId: "music_theory_deep", tier: 200, prompt: "What is the tritone — and why was it called 'diabolus in musica' (the devil in music) in medieval church music?", answer: "The tritone is an interval of exactly three whole tones (augmented fourth / diminished fifth — e.g., C to F#). It is exactly halfway between an octave — the most harmonically unstable interval in Western music. Medieval church composers forbade it because its sound is inherently tense, unresolved, and uncomfortable to the ear (particularly jarring in a context of otherwise consonant plainchant). Composers from Wagner to Jimi Hendrix to Black Sabbath have deliberately used it for discomfort, menace, or tension.", acceptableAnswers: ["three whole tones", "augmented fourth", "most harmonically unstable interval", "forbidden in medieval church music"] },
-      { id: "mth_400_01", categoryId: "music_theory_deep", tier: 400, prompt: "The ii-V-I chord progression is the backbone of jazz harmony. Explain why it works — and why jazz musicians spend years mastering it.", answer: "ii-V-I (e.g., Dm7 → G7 → Cmaj7 in C major): the ii chord creates mild tension; the V7 chord creates strong tension through the tritone between the 3rd and 7th; the I chord resolves it. The V7 → I resolution is the strongest harmonic pull in tonal music — the leading tone (7th degree) pulls up a half-step to the tonic, while the 7th of the V7 pulls down a half-step. Jazz musicians master it because it occurs constantly in jazz standards (often cycling through multiple keys in a single tune) and improvising over the V7 chord requires sophisticated navigation of chromatic tensions and resolutions.", acceptableAnswers: ["creates and resolves tension", "V7 tritone resolves to I", "leading tone pulls to tonic", "occurs constantly in jazz standards"] },
-      { id: "mth_400_02", categoryId: "music_theory_deep", tier: 400, prompt: "The I-V-vi-IV chord progression appears in hundreds of famous pop songs. Name five songs that use it — and explain why it is so effective psychologically.", answer: "Songs: Let It Be (Beatles), Someone Like You (Adele), Don't Stop Believin' (Journey), No Woman No Cry (Bob Marley), With or Without You (U2), Pachelbel's Canon, Every Breath You Take (Police), and many more. Why it works: the progression creates a cyclical emotional motion — stability (I), tension away (V), contemplative (vi minor creates emotional depth), and yearning return (IV) — before resolving back to I. The vi minor in the middle provides emotional darkness within an otherwise positive frame, giving the listener a satisfying emotional journey.", acceptableAnswers: ["Let It Be", "Someone Like You", "Don't Stop Believin", "With or Without You", "creates cyclical emotional journey", "vi adds emotional depth"] },
-      { id: "mth_400_03", categoryId: "music_theory_deep", tier: 400, prompt: "Polyrhythm is central to African music traditions but alien to most Western ears. What is it — and how do West African musical traditions use it differently from Western rhythmic systems?", answer: "Polyrhythm: two or more contrasting rhythmic patterns played simultaneously (e.g., 3 beats against 2 beats — a hemiola — or 4 against 3). West African traditions (Ewe, Yoruba, Fon drumming): multiple drummers play interlocking patterns that don't share the same downbeat — the 'groove' emerges from the interaction of contrasting rhythms, with no single master pulse. Western music anchors everything to a shared downbeat. African polyrhythm treats each rhythm as equally valid — the listener's brain chooses which pattern to follow. This system traveled to the Americas via the slave trade and became the rhythmic foundation of blues, jazz, samba, and Afrobeat.", acceptableAnswers: ["contrasting rhythms simultaneously", "3 against 2 or 4 against 3", "African traditions have no shared downbeat", "basis of jazz blues samba"] },
-      { id: "mth_600_01", categoryId: "music_theory_deep", tier: 600, prompt: "John Cage's 4'33\" (1952) consists of four minutes and thirty-three seconds of silence. What is it actually arguing — and why is it considered a legitimate musical work?", answer: "4'33\" is not silence — it is everything the audience hears during that time (rustling, coughing, air conditioning, outdoor sounds). Cage's argument: all sound is music if attended to musically; the composer's role is to direct attention, not to impose sound. Influenced by Zen Buddhism and chance operations, Cage challenged the Western notion that music requires intentional organized sound from a composer. It is a legitimate work because: it defines a performance frame, duration, and context; it produces different 'music' at every performance; and it forces the audience to reconsider what they're listening to and where sound comes from.", acceptableAnswers: ["all sounds during the silence are the music", "challenges what music requires", "Zen Buddhism influence", "different at every performance", "directs attention not imposes sound"] },
-      { id: "mth_600_02", categoryId: "music_theory_deep", tier: 600, prompt: "The mathematical structure of Bach's Goldberg Variations (BWV 988, 1741) is extraordinary. Describe the governing plan — and what feature of Canon No. 9 is a mathematical curiosity.", answer: "30 variations on a 32-bar bass line (sarabande). Every third variation is a canon — at the unison (Canon I), then at the second (Canon II), up to Canon IX (at the ninth). The intervening pairs are free variations, dances, or character pieces. The final 'variation' (No. 30) is a quodlibet — a humorous combination of folk songs. Canon IX (at the ninth) is a mathematical curiosity: it is an infinite canon (modulating canon) — if you follow it to its logical conclusion, it keeps modulating through all five keys and eventually returns to the starting point, like a musical Möbius strip. Gödel, Escher, Bach (Douglas Hofstadter) uses this structure to discuss strange loops.", acceptableAnswers: ["every third is a canon", "canons at increasing intervals", "Canon IX is infinite modulating canon", "quodlibet as final variation", "Gödel Escher Bach reference"] },
-      { id: "mth_600_03", categoryId: "music_theory_deep", tier: 600, prompt: "The concept of 'the blue note' in blues and jazz refers to notes that fall between standard Western semitones. What are these notes — and how do they challenge equal temperament?", answer: "Blue notes are typically the flattened third, flattened fifth (the tritone, giving tension), and flattened seventh — sung or played between the tempered 'major' and 'minor' positions. They derive from West African vocal tradition where notes slide between pitches rather than landing on fixed points. In equal temperament, the piano literally cannot play a 'true' blue note — a blue E-flat in blues is between E-flat and E, not exactly either. Singers and guitarists (who bend strings) can hit these microtonal positions; pianists approximate them. This is why blues piano sounds different from blues guitar — the guitar can express pitch ambiguity the piano cannot.", acceptableAnswers: ["flatted third fifth seventh", "between semitones not fixed pitch", "piano cannot play true blue notes", "guitar bending approximates microtones", "derives from West African vocal tradition"] },
-    ],
-  },
-  {
-    id: "food_science",
-    group: "Science & Ideas",
-    name: "Food Science",
-    culture: "universal",
-    description: "The chemistry of cooking — why eggs scramble, bread rises, and meat tastes like anything.",
-    questions: [
-      { id: "fsci_200_01", categoryId: "food_science", tier: 200, prompt: "The Maillard reaction is responsible for the flavors of browned meat, toast, coffee, and chocolate. What is it — and why does it matter for cooking?", answer: "The Maillard reaction is a chemical reaction between amino acids and reducing sugars when heated (~140–165°C / 285–330°F) — producing hundreds of different flavor compounds and brown color. It is NOT caramelization (which is pure sugar). It requires a dry surface (wet meat steams instead of browning) and high heat. This is why: patting meat dry before searing is essential; bread crusts taste different from bread interiors; coffee beans develop complexity during roasting.", acceptableAnswers: ["amino acids react with sugars at high heat", "produces hundreds of flavor compounds", "not the same as caramelization", "requires dry surface and high heat"] },
-      { id: "fsci_200_02", categoryId: "food_science", tier: 200, prompt: "Gluten is the protein network that gives bread its structure. What is it made of — and why does bread flour produce different texture than cake flour?", answer: "Gluten forms when two proteins (glutenin and gliadin) in wheat flour are hydrated and physically worked (kneaded) — they link into an elastic network that traps CO2 from yeast. Bread flour has higher protein content (~12–14%) → more gluten → stronger, chewier structure needed to hold yeast gas. Cake flour has lower protein (~7–9%) → less gluten → tender, crumbly texture. Overworking cake batter develops unwanted gluten — making cakes tough.", acceptableAnswers: ["glutenin and gliadin link when hydrated", "bread flour has more protein", "cake flour less protein less gluten", "kneading develops gluten network"] },
-      { id: "fsci_200_03", categoryId: "food_science", tier: 200, prompt: "Why does onion make you cry — and what happens when you cook onion that changes its flavor completely?", answer: "Raw onion contains precursor chemicals (amino acid sulfoxides) separated from enzymes. When you cut an onion, the enzyme alliinase is released and reacts with the sulfoxides — producing propanethial S-oxide gas that reacts with the water in your eyes to form sulfuric acid. Cooking deactivates alliinase (the enzyme is heat-sensitive) and also caramelizes the onion's sugars — transforming its sharp, pungent flavor into sweet and complex. This is why sautéed onion tastes so different from raw onion.", acceptableAnswers: ["alliinase enzyme reacts with sulfoxides to make sulfuric acid", "cooking deactivates alliinase", "heat caramelizes sugars", "enzyme separated from precursor until cut"] },
-      { id: "fsci_400_01", categoryId: "food_science", tier: 400, prompt: "Sous vide cooking — immersing food in a precisely temperature-controlled water bath — achieves results conventional cooking cannot. What specifically can it do — and why does the precise temperature matter?", answer: "Sous vide holds protein exactly at the target temperature for an extended time — producing edge-to-edge even doneness (no grey overcooked ring around a perfectly pink center). For meat: proteins denature at specific temperatures — myosin coagulates at ~50°C (makes meat firmer), collagen converts to gelatin around 70°C (making tough cuts tender with time). A conventional steak overcooked exterior is unavoidable when cooking with surface heat; sous vide bypasses this. Pasteurization is also achievable at lower temperatures with time (55°C for 2 hours pasteurizes chicken — without drying it to 74°C).", acceptableAnswers: ["edge-to-edge even doneness", "proteins denature at specific temperatures", "pasteurization at lower temp with time", "no grey overcooked ring"] },
-      { id: "fsci_400_02", categoryId: "food_science", tier: 400, prompt: "Fermentation is responsible for bread, beer, wine, cheese, yogurt, kimchi, and coffee. What is actually happening chemically — and why do different microorganisms produce such different results?", answer: "Fermentation: microorganisms (yeast, bacteria) consume sugars anaerobically (without oxygen) and produce byproducts. Yeast: consume glucose → produce ethanol and CO2 (leavening bread and making alcohol). Lactic acid bacteria: consume sugars → produce lactic acid (yogurt, sourdough, kimchi, cheese — sourness and preservation). Acetobacter: convert ethanol → acetic acid (vinegar). Different results because: different organisms, different substrates, different temperatures, different durations produce radically different profiles. Coffee fermentation: removing mucilage from coffee cherries with lactobacillus bacteria produces fruity, wine-like flavors in 'natural process' coffees.", acceptableAnswers: ["yeast make ethanol and CO2", "bacteria make lactic acid", "different organisms different results", "anaerobic sugar consumption"] },
-      { id: "fsci_400_03", categoryId: "food_science", tier: 400, prompt: "Emulsification allows oil and water to mix — essential for mayonnaise, vinaigrette, and hollandaise. What is an emulsifier — and why does lecithin in egg yolk make mayonnaise possible?", answer: "An emulsifier is a molecule with one end that bonds with oil (hydrophobic) and one end that bonds with water (hydrophilic) — it surrounds oil droplets and keeps them suspended in water (or vice versa). Egg yolk contains lecithin — a phospholipid that is the ideal emulsifier: its phosphate group bonds with water, its fatty acid tail bonds with oil. This is why mayo is stable (the lecithin surrounds each tiny oil droplet, preventing them from coalescing). Without emulsifier, oil and water separate immediately. Mustard contains mucilage that also acts as an emulsifier — explaining why Dijon helps vinaigrette stay mixed.", acceptableAnswers: ["emulsifier has hydrophobic and hydrophilic ends", "lecithin surrounds oil droplets", "prevents oil droplets from coalescing", "mustard is also an emulsifier"] },
-      { id: "fsci_600_01", categoryId: "food_science", tier: 600, prompt: "The Maillard reaction and caramelization both produce brown color and complex flavors — but they are chemically distinct. What is caramelization actually — and at what specific temperature do different sugars caramelize?", answer: "Caramelization is the pyrolysis (thermal decomposition) of sugars without the presence of amino acids. Pure sugar, when heated, decomposes into hundreds of different compounds through a cascade of chemical reactions. Different sugars have different caramelization temperatures: fructose (~110°C/230°F — lowest, burns easily); glucose (~160°C/320°F); sucrose (~160–186°C/320–370°F, first inverts to glucose+fructose, then caramelizes); lactose (~203°C/397°F — highest, why milk browns more slowly than sugar). This is why caramel sauce made from glucose syrup behaves differently from sucrose caramel.", acceptableAnswers: ["pyrolysis of sugars without amino acids", "fructose 110°C lowest", "sucrose 160-186°C", "lactose 203°C highest", "different sugars different temperatures"] },
-      { id: "fsci_600_02", categoryId: "food_science", tier: 600, prompt: "Heston Blumenthal's 'Fat Duck' restaurant and Ferran Adrià's 'elBulli' pioneered molecular gastronomy. Name three specific molecular gastronomy techniques — and explain the chemistry behind one of them.", answer: "Techniques: (1) Spherification: sodium alginate + calcium chloride forms a gel membrane around liquid — making spheres that burst (Adrià's 'olive oil caviar'). The alginate reacts with calcium ions to form calcium alginate gel. (2) Transglutaminase ('meat glue'): an enzyme that cross-links proteins — allowing different proteins to fuse seamlessly. (3) Sous vide (widespread after elBulli). (4) Nitrous oxide foams/espumas: charging cream/liquid with N2O gas to create light-as-air foams with intense concentrated flavor. (5) Liquid nitrogen flash-freezing: instantly freezes surface while interior remains unfrozen — creating texture impossible with slow freezing.", acceptableAnswers: ["spherification", "transglutaminase meat glue", "liquid nitrogen freezing", "sous vide", "nitrous oxide foams", "alginate reacts with calcium ions"] },
-      { id: "fsci_600_03", categoryId: "food_science", tier: 600, prompt: "The 'umami' taste was identified as a fifth basic taste in 1908 by Japanese chemist Kikunae Ikeda. What is it chemically — and why do MSG, Parmesan cheese, soy sauce, dried mushrooms, and anchovies all trigger it so strongly?", answer: "Ikeda identified glutamate as the compound producing umami from kelp (dashi). Umami (うま味 — 'delicious taste') is triggered by glutamate (an amino acid) and nucleotides (IMP from meat/fish, GMP from mushrooms) binding to specific taste receptors (T1R1+T1R3). Glutamate + nucleotides synergize — glutamate alone is 1x; with IMP, it's up to 30x more intense. High-glutamate foods: aged cheeses (protein breakdown releases glutamate); fermented soy sauce; dried tomatoes; miso; fish sauce; dried mushrooms; cured meats. MSG is just crystallized sodium glutamate — chemically identical to naturally occurring glutamate in aged foods.", acceptableAnswers: ["glutamate triggers umami receptors", "synergy with nucleotides IMP and GMP", "Ikeda discovered from kelp 1908", "MSG is sodium glutamate identical to natural", "fermentation releases glutamate from proteins"] },
     ],
   },
   {
@@ -48609,7 +48410,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "quantum_physics",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Quantum Physics",
     culture: "universal",
     description: "The deeply strange rules of the very small — superposition, entanglement, and the measurement problem.",
@@ -48662,24 +48463,6 @@ const CATEGORIES: Category[] = [
     ],
   },
   {
-    id: "cryptography_history",
-    group: "Science & Ideas",
-    name: "Cryptography",
-    culture: "universal",
-    description: "The secret history of codes, ciphers, and the mathematicians who broke them.",
-    questions: [
-      { id: "crypt_200_01", categoryId: "cryptography_history", tier: 200, prompt: "The Caesar Cipher is history's simplest and most famous encryption method. How does it work — and what broke it?", answer: "Julius Caesar shifted each letter in his messages by a fixed number (e.g., shift 3: A→D, B→E, C→F). To decrypt, shift back by the same number. It was broken by Arab mathematician Al-Kindi (~9th century) who developed frequency analysis: in any language, certain letters appear more frequently than others (in English: E, T, A, O, I, N). By analyzing the most common letters in the ciphertext, you can identify the shift. Caesar Cipher and all simple substitution ciphers are vulnerable to frequency analysis.", acceptableAnswers: ["shift each letter by fixed amount", "Al-Kindi broke it with frequency analysis", "frequent letters reveal the shift"] },
-      { id: "crypt_200_02", categoryId: "cryptography_history", tier: 200, prompt: "Public key cryptography — used in HTTPS, email encryption, and banking — allows two strangers to communicate securely without ever exchanging a secret key. What is the basic mathematical concept that makes this possible?", answer: "The concept of a 'one-way function' — it is easy to multiply two large prime numbers together, but extremely difficult to factor the product back into the primes. RSA (Rivest, Shamir, Adleman, 1977): your public key is the product of two large primes; anyone can encrypt with it (easy multiplication). Only you, who know the two primes, can decrypt (hard factoring). The Diffie-Hellman key exchange (1976) used the discrete logarithm problem similarly. The security of most internet encryption rests on the assumption that factoring large numbers is computationally infeasible.", acceptableAnswers: ["one-way function of prime multiplication", "easy to multiply hard to factor", "RSA uses product of two primes", "factoring large numbers is hard"] },
-      { id: "crypt_200_03", categoryId: "cryptography_history", tier: 200, prompt: "The Zimmermann Telegram (1917) is credited with bringing the US into WWI. What was it — and how was it decoded?", answer: "A diplomatic telegram from German Foreign Secretary Arthur Zimmermann to Mexico's president, proposing that if the US entered WWI, Germany would support Mexico in reclaiming Texas, New Mexico, and Arizona. British Naval Intelligence (Room 40) had intercepted and decoded it using captured German codebooks. They faced a dilemma: revealing it would expose that they had broken German codes. They obtained a copy of the telegram through Mexican channels, suggesting it was stolen by a spy rather than decoded — allowing them to share it with the US without compromising their intelligence capability.", acceptableAnswers: ["Germany promised Mexico Texas and Arizona", "British Room 40 decoded it", "used captured codebooks", "revealed cleverly to hide their decryption"] },
-      { id: "crypt_400_01", categoryId: "cryptography_history", tier: 400, prompt: "The Venona Project was a US signals intelligence operation that ran for decades (1943–1980). What was it — and what famous American did it expose?", answer: "Venona: the US Army Signal Intelligence Service's project to decrypt Soviet intelligence communications sent during WWII. The Soviets had made a critical error — reusing one-time pads (theoretically unbreakable single-use encryption) which allowed partial decryption. Over decades, analysts decoded enough to identify Soviet agents in the US government. Famous exposures: Julius and Ethel Rosenberg (convicted and executed for passing nuclear secrets — Venona confirmed Julius as a spy but Ethel's involvement was more limited); Alger Hiss (State Department official); Harry Dexter White (Treasury). Venona was classified until 1995 — meaning the Rosenbergs couldn't use the evidence in their defense.", acceptableAnswers: ["decrypted Soviet WWII communications", "Rosenbergs exposed", "one-time pads reused making decryption possible", "classified until 1995"] },
-      { id: "crypt_400_02", categoryId: "cryptography_history", tier: 400, prompt: "PGP (Pretty Good Privacy) — the encryption software Phil Zimmermann created in 1991 — led to a federal criminal investigation of its creator. Why — and what legal theory did the US government use?", answer: "Zimmermann released PGP (military-grade encryption) freely on the internet — making it internationally available. The US State Department classified cryptography as a 'munition' under the Arms Export Control Act — exporting military-grade crypto without a license was illegal. Zimmermann was investigated for 'exporting' arms by posting software online. The investigation lasted 3 years and was dropped in 1996 without charges — by which point the absurdity of criminalizing mathematical software had become apparent. The 'munitions' classification of cryptography was gradually dropped in the late 1990s as internet commerce required it.", acceptableAnswers: ["US classified crypto as a munition", "Arms Export Control Act", "posting online was 'export'", "investigated for 3 years then dropped", "PGP made military encryption public"] },
-      { id: "crypt_400_03", categoryId: "cryptography_history", tier: 400, prompt: "The NSA's global surveillance programs revealed by Edward Snowden (2013) showed that the NSA had deliberately weakened an encryption standard. Which one — and how?", answer: "The Dual EC DRBG (Dual Elliptic Curve Deterministic Random Bit Generator) — an elliptic curve random number generator standardized by NIST in 2006. Snowden documents and subsequent mathematical analysis (by Bernstein et al.) showed NSA had inserted a backdoor: the constants in the algorithm were chosen to give NSA (who knew the secret 'trapdoor' numbers) the ability to predict the random numbers generated — and thus decrypt communications using the standard. RSA Security was paid $10 million to make it the default in their security products. This was the first confirmed case of a standards body being compromised to insert a government backdoor.", acceptableAnswers: ["Dual EC DRBG backdoor", "NSA chose constants with trapdoor", "NIST standard was compromised", "RSA Security paid $10 million", "first confirmed standards backdoor"] },
-      { id: "crypt_600_01", categoryId: "cryptography_history", tier: 600, prompt: "The One-Time Pad is provably mathematically unbreakable — yet it is rarely used. Why is it unbreakable — and what practical constraints make it essentially unusable at scale?", answer: "The OTP XORs each plaintext character with a truly random key character — producing ciphertext with no statistical relationship to the plaintext. If the key is truly random, at least as long as the message, and used only once (never reused), it is information-theoretically secure — Shannon proved in 1949 that without the key, all plaintexts of the same length are equally probable. Unusable at scale: (1) key must be as long as the message — a 1GB encrypted file requires 1GB of random key material; (2) key must be shared via a secure channel — but if you have a secure channel, why encrypt?; (3) keys must never be reused — managing this for many communicants is logistically impossible; (4) true randomness is hard to generate and verify.", acceptableAnswers: ["Shannon proved information-theoretically secure 1949", "key must be as long as message", "secure channel for key defeats the purpose", "never reused requirement impossible at scale"] },
-      { id: "crypt_600_02", categoryId: "cryptography_history", tier: 600, prompt: "Post-quantum cryptography is now an urgent research area. Why — and what algorithm did NIST select in 2022 as the first post-quantum standard?", answer: "Urgent because: quantum computers running Shor's algorithm would break RSA and elliptic curve cryptography (by efficiently factoring large numbers and solving discrete logarithm problems) — the mathematical foundations of almost all current internet encryption. A sufficiently powerful quantum computer would render all current encryption retrospectively breakable. 'Harvest now, decrypt later' attacks: adversaries may already be storing encrypted data to decrypt once quantum computers mature. NIST's 2022 selection: CRYSTALS-Kyber (key encapsulation) and CRYSTALS-Dilithium (digital signatures) — both based on the hardness of lattice problems (believed quantum-resistant). NIST also selected FALCON and SPHINCS+.", acceptableAnswers: ["Shor's algorithm breaks RSA on quantum computer", "harvest now decrypt later attacks", "CRYSTALS-Kyber selected by NIST", "lattice problems believed quantum-resistant", "CRYSTALS-Dilithium signatures"] },
-      { id: "crypt_600_03", categoryId: "cryptography_history", tier: 600, prompt: "Bitcoin's blockchain uses cryptography in multiple novel ways. Explain what a cryptographic hash function does — and how Bitcoin uses 'proof of work' (mining) to secure its ledger.", answer: "Cryptographic hash function: takes any input and produces a fixed-length output (e.g., SHA-256 always produces 256 bits). Properties: deterministic, fast to compute, but: (1) one-way — you can't reconstruct input from output; (2) avalanche effect — changing one character in input completely changes the output; (3) collision-resistant — finding two inputs with the same hash is computationally infeasible. Proof of work: to add a block to Bitcoin's blockchain, miners must find a number (nonce) that, when added to the block's data, produces a hash starting with a certain number of zeros — this requires trillions of trial computations. This 'work' is easy for the network to verify (one hash computation) but hard to fake (trillions of computations). It makes rewriting history computationally infeasible.", acceptableAnswers: ["hash is fixed-length output that can't be reversed", "avalanche effect", "nonce makes hash start with zeros", "easy to verify hard to produce", "rewriting history requires more power than honest mining"] },
-    ],
-  },
-  {
     id: "wine_culture",
     group: "Cultural",
     name: "Wine & Viticulture",
@@ -48717,7 +48500,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "sociology_theory",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Sociology & Society",
     culture: "universal",
     description: "Durkheim, Weber, and Bourdieu — the thinkers who explained how societies actually work.",
@@ -48735,7 +48518,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "technology_history",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Technology History",
     culture: "universal",
     description: "From the printing press to the internet — the inventions that changed everything.",
@@ -48770,26 +48553,8 @@ const CATEGORIES: Category[] = [
     ],
   },
   {
-    id: "islamic_golden_age",
-    group: "Cultural",
-    name: "The Islamic Golden Age",
-    culture: "arabic",
-    description: "The Abbasid scholars who preserved and advanced science, mathematics, and medicine while Europe slept.",
-    questions: [
-      { id: "iga_200_01", categoryId: "islamic_golden_age", tier: 200, prompt: "The word 'algebra' comes from an Arabic text. Who wrote it — and what does the word itself mean?", answer: "Al-Khwarizmi (780–850 AD) wrote 'Al-Kitab al-mukhtasar fi hisab al-jabr wal-muqabala' (The Compendious Book on Calculation by Completion and Balancing). 'Al-jabr' (الجبر) means 'reunion of broken parts' or 'completion' — referring to the operation of moving a subtracted quantity to the other side of an equation. Al-Khwarizmi's name also gave us 'algorithm' (via Algoritmi, the Latin transliteration). He systematized solving equations and introduced the concept of doing the same operation to both sides.", acceptableAnswers: ["Al-Khwarizmi", "al-jabr means reunion of broken parts", "algorithm from his name", "solving equations systematically"] },
-      { id: "iga_200_02", categoryId: "islamic_golden_age", tier: 200, prompt: "The House of Wisdom (Bayt al-Hikma) in Baghdad was the Abbasid caliphate's great intellectual center. What was it — and who were two of its most important scholars?", answer: "The House of Wisdom (founded ~830 AD under Caliph al-Mamun) was a library, translation center, and scientific academy — the most important center of learning in the world during the 9th–13th centuries. It translated Greek, Persian, and Indian texts into Arabic — preserving and extending classical knowledge. Scholars: Al-Khwarizmi (mathematics, astronomy); Hunayn ibn Ishaq (translated the Greek medical corpus — Galen, Hippocrates); Al-Kindi (philosophy, optics, cryptography); Al-Farabi (philosophy); and many more. Destroyed by the Mongol sack of Baghdad in 1258.", acceptableAnswers: ["library and translation center in Baghdad", "al-Mamun founded it", "Al-Khwarizmi and Hunayn ibn Ishaq", "destroyed by Mongols 1258"] },
-      { id: "iga_200_03", categoryId: "islamic_golden_age", tier: 200, prompt: "The astrolabe — one of history's most elegant scientific instruments — was perfected by Islamic astronomers. What does it do — and what civilization invented it?", answer: "An astrolabe is a handheld device that models the celestial sphere — it can determine the time from the position of stars, find latitude, determine the direction of Mecca (qibla), determine sunrise/sunset times, and perform astronomical calculations. Invented by the ancient Greeks (attributed to Hipparchus, c.150 BC); perfected and miniaturized by Islamic astronomers (Al-Fazari, 8th century). The Islamic innovations made it compact and universal — 'a portable astronomical almanac.' Medieval European astronomers learned to use it from Arabic texts.", acceptableAnswers: ["models celestial sphere to tell time and position", "Greek invention perfected by Islamic astronomers", "finds qibla direction", "Al-Fazari improved it"] },
-      { id: "iga_400_01", categoryId: "islamic_golden_age", tier: 400, prompt: "Ibn al-Haytham (Alhazen, 965–1040 AD) is called 'the father of optics.' What did he discover — and why was his approach to science revolutionary beyond his specific findings?", answer: "His discoveries: he proved that vision works by light entering the eye (not rays emanating from the eye — the prevailing Greek 'extramission' theory). He described refraction, reflection, the camera obscura, and the atmospheric refraction that causes the sun to appear above the horizon when it's actually already below it. Revolutionary approach: he introduced the controlled experiment — systematically varying conditions and using observations to test theories. His Book of Optics (Kitab al-Manazir) was the foundation of European optics and influenced Roger Bacon, Kepler, and Descartes. He may be the most important physicist between Archimedes and Newton.", acceptableAnswers: ["light enters eye not rays from eye", "extramission theory wrong", "introduced controlled experiments", "camera obscura", "influenced Kepler and Descartes"] },
-      { id: "iga_400_02", categoryId: "islamic_golden_age", tier: 400, prompt: "Al-Biruni (973–1048 AD) is one of history's most remarkable scholars. What did he calculate — and what did his method require that was extraordinary for his time?", answer: "Al-Biruni calculated the radius of the Earth with remarkable accuracy (6,339.6 km, vs. actual 6,356.8 km) — using a method requiring only one mountain and a measurement of the angle of depression to the horizon from the mountain top. He also measured the specific gravity of 18 precious stones and metals, introduced a systematic approach to comparative ethnography (studying cultures without judgment in his account of India, Kitab al-Hind), catalogued ~1000 plant species, and wrote on pharmacology, mineralogy, and geodesy. He learned Sanskrit to study Indian science directly.", acceptableAnswers: ["calculated Earth's radius accurately", "single mountain angle method", "comparative ethnography without judgment", "learned Sanskrit for Indian science", "Kitab al-Hind"] },
-      { id: "iga_400_03", categoryId: "islamic_golden_age", tier: 400, prompt: "The Arabic numeral system (including zero) transformed mathematics globally. Explain the specific advantages it had over Roman numerals — and how it reached Europe.", answer: "Roman numerals: no zero; position doesn't determine value (IV and VI are different arrangements of the same numerals — you must know the rule); multiplication and division require converting to different representations. Arabic-Hindu numerals: positional value (place determines magnitude); zero enables notation of absence; arithmetic operations (addition, subtraction, multiplication, division) are executable by algorithm — you don't need a counting board. Reached Europe: via Islamic Spain (Al-Andalus) and Sicily — Fibonacci's Liber Abaci (1202) introduced Arabic numerals to European merchants, demonstrating their superiority for commercial calculation.", acceptableAnswers: ["positional value system", "zero enables absence notation", "arithmetic by algorithm not abacus", "Fibonacci Liber Abaci brought to Europe", "via Islamic Spain"] },
-      { id: "iga_600_01", categoryId: "islamic_golden_age", tier: 600, prompt: "Ibn Rushd (Averroes, 1126–1198) was known in medieval Europe as 'The Commentator' — Dante placed him among the great pagan philosophers. Why was he so important for European scholasticism — and why was he controversial in the Islamic world?", answer: "Averroes wrote comprehensive commentaries on Aristotle that introduced medieval European scholars to Aristotle's complete corpus — without his work, Thomas Aquinas and the scholastic synthesis of Aristotle and Christianity would have been impossible. His influence created 'Latin Averroism' — a movement that caused controversy by suggesting Aristotle's philosophical truths and religious revelation might conflict (the 'double truth' theory). Controversial in Islam: he was accused of preferring philosophical reason over religious revelation; his books were banned and burned in Almohad Morocco and al-Andalus by conservative religious authorities; he was exiled.", acceptableAnswers: ["introduced Aristotle's complete works to Europe", "Aquinas depends on his commentaries", "Latin Averroism caused double truth controversy", "banned by Almohad authorities", "Dante placed him among great pagans"] },
-      { id: "iga_600_02", categoryId: "islamic_golden_age", tier: 600, prompt: "Al-Jazari's Book of Knowledge of Ingenious Mechanical Devices (1206) described 100 mechanical devices. Name two of his inventions — and explain the broader significance of his work for history of technology.", answer: "Al-Jazari's inventions: (1) The crankshaft and connecting rod system — converting rotary to linear motion, essential to all modern engines (cars, trains); (2) the camshaft (used in programmable musical automata); (3) programmable automata (musical band powered by water, with programmable drum patterns — an ancestor of computer programming); (4) double-acting piston pump; (5) the flush mechanism. Broader significance: he documented not just what machines did but how to build them (engineering specifications with measurements and materials) — making him the founder of the field of mechanical engineering documentation. European engineers learned from Al-Jazari's work via Arabic transmission.", acceptableAnswers: ["crankshaft and connecting rod", "camshaft", "programmable automata music", "flush mechanism", "documented engineering specifications"] },
-      { id: "iga_600_03", categoryId: "islamic_golden_age", tier: 600, prompt: "Ibn Khaldun's Muqaddimah (1377) is considered the first work of philosophy of history and sociology. What was his 'asabiyya' concept — and how did he use it to explain the cyclical rise and fall of dynasties?", answer: "Asabiyya (عصبية): group cohesion, social solidarity, tribal spirit — the bond that allows a group to act collectively and overcome opposition. Ibn Khaldun's cyclical theory: a tribal group from the periphery has strong asabiyya (they depend on each other for survival). They conquer urban civilizations with weak asabiyya (luxury and comfort erode solidarity). They establish a dynasty. Over 3–4 generations: luxury erodes the conquerors' asabiyya — they lose the martial spirit; the dynasty grows corrupt; another peripheral group with strong asabiyya emerges and conquers them. The cycle repeats. This pattern describes North African Berber-Arab-Amazigh dynastic succession repeatedly.", acceptableAnswers: ["asabiyya is group solidarity and cohesion", "tribal group conquers city then luxury erodes their cohesion", "3-4 generation cycle", "peripheral group conquers then gets conquered", "North Africa Berber dynasties pattern"] },
-    ],
-  },
-  {
     id: "philosophy_mind",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Philosophy of Mind",
     culture: "universal",
     description: "Consciousness, free will, and the 'hard problem' of why anything feels like anything.",
@@ -48825,7 +48590,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "linguistics",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Linguistics",
     culture: "universal",
     description: "How language works, how it shapes thought, and the science of the most human thing we do.",
@@ -48897,7 +48662,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "economics_history",
-    group: "Science & Ideas",
+    group: "Science",
     name: "History of Economic Thought",
     culture: "universal",
     description: "Adam Smith to Keynes to Friedman — the ideas that shaped how we understand wealth, markets, and money.",
@@ -48951,7 +48716,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "neuroscience",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Neuroscience",
     culture: "universal",
     description: "Neurons, neurotransmitters, memory, and consciousness — how the three-pound universe between your ears actually works.",
@@ -48987,7 +48752,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "documentary_film",
-    group: "Film & TV",
+    group: "Movies & TV",
     name: "Documentary Film",
     culture: "universal",
     description: "From Nanook of the North to Bowling for Columbine — the art, ethics, and power of nonfiction cinema.",
@@ -49023,7 +48788,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "philosophy_ethics",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Moral Philosophy",
     culture: "universal",
     description: "Consequentialism, deontology, virtue ethics, and the trolley problem — how philosophers have argued about right and wrong.",
@@ -49055,24 +48820,6 @@ const CATEGORIES: Category[] = [
       { id: "arth_600_01", categoryId: "art_history", tier: 600, prompt: "Jan van Eyck's 'Arnolfini Portrait' (1434) is remarkable for a hidden self-portrait in a convex mirror on the back wall. What technical achievement does the painting demonstrate that redefined Flemish painting?", answer: "Mastery of oil paint — van Eyck (possibly its inventor or key developer) used layered oil glazes to create previously impossible depth, luminosity, and fine detail (individual hairs, reflections, fabric textures). This contrasts with the limited tempera paint dominant elsewhere in Europe, and made the Flemish school the technical envy of European artists for a century.", acceptableAnswers: ["oil paint mastery and glazing technique", "van Eyck developed oil painting", "layered glazes for depth and luminosity", "oil paint allowing impossible detail"] },
       { id: "arth_600_02", categoryId: "art_history", tier: 600, prompt: "Clement Greenberg's influential modernist criticism argued that each art form should pursue its own essential qualities and purge everything that 'borrowed' from other arts. For painting, this meant eliminating what?", answer: "Illusion (depth, narrative, representation) — painting should acknowledge its flatness (its essential nature as a two-dimensional medium) rather than creating illusions of three-dimensional space. This led him to champion Pollock, Newman, and Stella, and reject all art that told stories or depicted reality.", acceptableAnswers: ["illusion and representation", "three-dimensional depth and narrative", "anything borrowed from other media", "flatness as painting's essence"] },
       { id: "arth_600_03", categoryId: "art_history", tier: 600, prompt: "The 'Guernica' by Picasso (1937) is one of the most politically charged paintings of the 20th century. What event directly prompted it — and where did the painting reside for decades to keep it safe?", answer: "The Nazi Condor Legion's aerial bombing of the Basque town of Guernica, Spain (April 26, 1937) during the Spanish Civil War — one of the first deliberate bombings of a civilian population. Picasso refused to allow the painting to return to Spain while Franco's dictatorship lasted; it resided at MoMA in New York from 1939 until 1981, when it was returned to Spain after the transition to democracy.", acceptableAnswers: ["Nazi bombing of Guernica in Spanish Civil War 1937", "refused to return it to Spain under Franco", "MoMA kept it from 1939 to 1981", "first major civilian aerial bombing"] },
-    ],
-  },
-  {
-    id: "internet_history",
-    group: "Science & Ideas",
-    name: "Internet History",
-    culture: "universal",
-    description: "From ARPANET to the smartphone era — the technical and cultural history of the network that changed everything.",
-    questions: [
-      { id: "inet_200_01", categoryId: "internet_history", tier: 200, prompt: "The precursor to the modern internet, developed by the US Department of Defense in 1969, was called what?", answer: "ARPANET", acceptableAnswers: ["ARPANET", "Advanced Research Projects Agency Network"] },
-      { id: "inet_200_02", categoryId: "internet_history", tier: 200, prompt: "Tim Berners-Lee invented the World Wide Web in 1989–91. What did he invent specifically — and how does it differ from 'the internet'?", answer: "The World Wide Web (HTTP, HTML, URLs, hyperlinks) — a system of linked documents running over the internet. The internet is the underlying network; the Web is an application that runs on top of it.", acceptableAnswers: ["HTTP HTML and hyperlinks / the web as an application layer", "the web as distinct from the internet infrastructure", "hypertext and URLs"] },
-      { id: "inet_200_03", categoryId: "internet_history", tier: 200, prompt: "What company, founded in a garage in 1998 by Larry Page and Sergey Brin, became the world's dominant search engine partly through its 'PageRank' algorithm?", answer: "Google", acceptableAnswers: ["Google"] },
-      { id: "inet_400_01", categoryId: "internet_history", tier: 400, prompt: "The 'Dot-com bubble' peaked in March 2000 and then collapsed. What fundamental economic misunderstanding fueled the bubble?", answer: "Investors assumed internet companies would eventually generate profits even while burning cash, because 'growth' and 'eyeballs' (user counts) were treated as proxies for value. Companies with no revenue or business model received billion-dollar valuations. When profitability failed to materialize, trust collapsed.", acceptableAnswers: ["growth and eyeballs confused with value", "no profits required for high valuations", "speculation on future profits that never came", "user count treated as substitute for revenue"] },
-      { id: "inet_400_02", categoryId: "internet_history", tier: 400, prompt: "What 2004 platform, created by Mark Zuckerberg at Harvard, fundamentally changed the internet's social architecture by making real identity (not pseudonyms) the norm for online socialization?", answer: "Facebook", acceptableAnswers: ["Facebook", "thefacebook"] },
-      { id: "inet_400_03", categoryId: "internet_history", tier: 400, prompt: "The 'TCP/IP' protocol suite, formalized in 1983, replaced earlier ARPANET protocols and became the standard language of the internet. What does 'IP' stand for — and what fundamental problem does the suite solve?", answer: "Internet Protocol. TCP/IP solves the problem of routing data packets across multiple interconnected networks of different types — it allows any network speaking TCP/IP to communicate with any other, regardless of hardware.", acceptableAnswers: ["Internet Protocol", "routing data across different network types", "common language for different network architectures"] },
-      { id: "inet_600_01", categoryId: "internet_history", tier: 600, prompt: "The 1996 US Communications Decency Act was largely struck down by the Supreme Court — but Section 230, which survived, became arguably the most important law governing the internet. What does Section 230 protect?", answer: "Online platforms from legal liability for content posted by their users — platforms are not treated as publishers of third-party content. This protection enabled user-generated content platforms (YouTube, Twitter, Reddit, Facebook) to exist without being crushed by defamation suits over user posts.", acceptableAnswers: ["platforms from liability for user content", "online platforms not treated as publishers", "immunity for hosting third-party content", "Section 230 protects platforms from defamation claims"] },
-      { id: "inet_600_02", categoryId: "internet_history", tier: 600, prompt: "Napster (1999–2001) is remembered as a pioneering peer-to-peer music sharing service. Beyond its legal collapse, what lasting structural change to the music industry did it catalyze?", answer: "It demonstrated consumer demand for digital music distribution and accelerated the collapse of the physical album as the primary unit of sale. The RIAA lawsuits that killed Napster did not stop piracy — they drove it underground and onto more decentralized networks (BitTorrent). The industry's eventual response was iTunes (2003) and streaming (Spotify 2008), fundamentally restructuring revenue from album sales to per-stream micro-payments.", acceptableAnswers: ["accelerated collapse of physical album sales", "demonstrated demand for digital distribution", "led to iTunes and streaming models", "RIAA lawsuits drove piracy underground, eventually streaming emerged"] },
-      { id: "inet_600_03", categoryId: "internet_history", tier: 600, prompt: "The 'Arab Spring' (2010–12) was widely described as a 'Twitter Revolution' or 'Facebook Revolution.' What is the more nuanced scholarly assessment of social media's actual role?", answer: "Social media accelerated coordination and made protests visible internationally, but was not the cause — the underlying causes were economic inequality, authoritarian governments, and unemployment. In Egypt, Tunisia, etc., social media helped activists coordinate rapidly, but most participants learned about events through TV and word of mouth. The 'Twitter Revolution' framing overestimates platforms and underestimates structural political grievances. Evgeny Morozov ('The Net Delusion') notably challenged the techno-optimist narrative.", acceptableAnswers: ["accelerated coordination but didn't cause the revolutions", "structural grievances were the cause, media was a tool", "Morozov challenged techno-optimist narrative", "TV and word of mouth still more important than Twitter"] },
     ],
   },
   {
@@ -49113,7 +48860,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "evolutionary_biology",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Evolutionary Biology",
     culture: "universal",
     description: "Natural selection, speciation, evo-devo, and the ongoing refinement of Darwin's world-changing idea.",
@@ -49221,7 +48968,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "cartography",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Maps & Cartography",
     culture: "universal",
     description: "Ptolemy's projection, the Mercator map's distortions, and why every map of the world is also a political argument.",
@@ -49293,7 +49040,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "philosophy_science",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Philosophy of Science",
     culture: "universal",
     description: "Popper, Kuhn, Lakatos, and Feyerabend — the philosophers who asked what science actually is and how it really works.",
@@ -49509,7 +49256,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "color_science",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Color: Science & Culture",
     culture: "universal",
     description: "Why the sky is blue, why Homer called the sea 'wine-dark,' and how color shapes perception, culture, and commerce.",
@@ -49581,7 +49328,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "cognitive_biases",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Cognitive Biases",
     culture: "universal",
     description: "Kahneman's System 1 and System 2, anchoring, confirmation bias, and the surprisingly irrational ways humans make decisions.",
@@ -49617,7 +49364,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "computing_history",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Computing History",
     culture: "universal",
     description: "Turing's machine, von Neumann's architecture, the Altair, and Steve Jobs — how the computer went from room-sized to pocket-sized.",
@@ -49671,7 +49418,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "medicine_history",
-    group: "Science & Ideas",
+    group: "Science",
     name: "History of Medicine",
     culture: "universal",
     description: "Germ theory, antisepsis, penicillin, and the ongoing drama of how humanity has understood and fought disease.",
@@ -49689,7 +49436,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "artificial_intelligence",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Artificial Intelligence",
     culture: "universal",
     description: "From Turing's 1950 paper to deep learning, AlphaGo, and large language models — the history and ideas behind AI.",
@@ -49760,24 +49507,6 @@ const CATEGORIES: Category[] = [
     ],
   },
   {
-    id: "climate_science",
-    group: "Science & Ideas",
-    name: "Climate Science",
-    culture: "universal",
-    description: "The greenhouse effect, carbon cycles, the IPCC, and the science behind the most consequential question of the 21st century.",
-    questions: [
-      { id: "clim_200_01", categoryId: "climate_science", tier: 200, prompt: "The 'greenhouse effect' describes how Earth's atmosphere traps heat. Which two gases — from human activity — have increased most dramatically since industrialization?", answer: "Carbon dioxide (CO₂) from fossil fuel burning and deforestation, and methane (CH₄) from livestock, landfills, and natural gas leaks", acceptableAnswers: ["CO2 and methane", "carbon dioxide and methane", "CO2 from fossil fuels and methane from livestock"] },
-      { id: "clim_200_02", categoryId: "climate_science", tier: 200, prompt: "The Intergovernmental Panel on Climate Change (IPCC) does not conduct original research. What does it actually do?", answer: "It synthesizes and assesses existing published scientific research from thousands of scientists worldwide, producing consensus reports (Assessment Reports) every 5–7 years that summarize the state of knowledge on climate change for policymakers.", acceptableAnswers: ["synthesizes existing research into consensus reports for policymakers", "assesses published scientific literature doesn't do original research", "produces assessment reports from thousands of scientists' work"] },
-      { id: "clim_200_03", categoryId: "climate_science", tier: 200, prompt: "The 'Paris Agreement' (2015) set a goal of limiting global warming to how many degrees Celsius above pre-industrial levels — with a stronger aspiration for an even lower limit?", answer: "Well below 2°C, with efforts to limit to 1.5°C", acceptableAnswers: ["1.5 degrees C aspirational goal, 2 degrees firm goal", "below 2°C aiming for 1.5°C", "2 degrees with effort for 1.5"] },
-      { id: "clim_400_01", categoryId: "climate_science", tier: 400, prompt: "The 'carbon cycle' describes how carbon moves between reservoirs. What are the four main carbon reservoirs — and which one has seen the most dramatic human-caused change?", answer: "Reservoirs: (1) atmosphere (CO₂ and CH₄), (2) biosphere (living organisms and soils), (3) ocean (dissolved CO₂ and marine organisms), (4) lithosphere/geosphere (fossil fuels, rocks). Most dramatic human change: atmosphere — CO₂ has risen from ~280 ppm pre-industrial to ~420 ppm today (50% increase), a level not seen in 3+ million years.", acceptableAnswers: ["atmosphere biosphere ocean lithosphere", "atmosphere most changed from 280 to 420 ppm CO2", "50% increase in atmospheric CO2 since pre-industrial"] },
-      { id: "clim_400_02", categoryId: "climate_science", tier: 400, prompt: "The 'hockey stick graph' (Michael Mann et al., 1998) showed a sharp temperature increase in the 20th century compared to centuries of relative stability. Why was it so controversial — and why has it been vindicated?", answer: "Controversial: it was directly attacked by fossil fuel industry-funded think tanks and politicians (especially in Congressional hearings); critics questioned the statistical methods and the use of tree ring data as a temperature proxy. Vindicated: subsequent studies using independent data sources (coral records, ice cores, stalagmites, ocean sediments) all produced essentially the same shape — a long relative stability followed by unprecedented 20th-century warming. The physical mechanism (greenhouse gases) is also independently confirmed.", acceptableAnswers: ["attacked by fossil fuel industry funded groups and politicians", "vindicated by multiple independent data sources producing same shape", "tree ring proxy plus multiple other proxies all confirm the pattern", "physical mechanism independently confirmed by greenhouse gas measurements"] },
-      { id: "clim_400_03", categoryId: "climate_science", tier: 400, prompt: "The 'tipping points' concept in climate science describes thresholds beyond which changes become self-reinforcing and irreversible. Name three specific tipping points scientists have identified.", answer: "(1) West Antarctic Ice Sheet collapse — melt is self-reinforcing, ice gone forever; (2) Amazon dieback — deforestation plus drought could cause a self-reinforcing collapse of the Amazon rainforest (which itself affects South American rainfall); (3) Permafrost thaw — releasing stored methane and CO₂ creates a positive feedback; (4) Atlantic Meridional Overturning Circulation (AMOC) slowdown or collapse — would dramatically change European and North American climate; (5) Arctic summer sea ice loss — reduces albedo (reflectivity), accelerating warming.", acceptableAnswers: ["West Antarctic Ice Sheet, Amazon dieback, permafrost thaw", "AMOC collapse, Arctic sea ice loss, permafrost methane", "any three from: ice sheets, Amazon, permafrost, AMOC, Arctic ice"] },
-      { id: "clim_600_01", categoryId: "climate_science", tier: 600, prompt: "The 'social cost of carbon' is a key concept in climate economics. What is it — and why is the discount rate chosen for future damage an intensely contested political and ethical question?", answer: "Social cost of carbon: the estimated monetary cost of damage caused by emitting one additional ton of CO₂ — including health effects, agricultural losses, storm damage, sea level rise, etc. Discount rate controversy: a high discount rate means future damages are treated as much less valuable than present ones (consistent with financial investment logic — a dollar today is worth more than a dollar in 50 years). But future climate damages fall on people not yet born who can't participate in markets today. A low discount rate weights future generations' welfare more equally; a high rate effectively discounts their lives. The choice is an ethical/political judgment masquerading as a technical one.", acceptableAnswers: ["monetary cost of damage from one additional ton CO2", "discount rate determines how much future generations' welfare counts", "high discount rate effectively discounts future people's lives", "ethical judgment disguised as technical calculation"] },
-      { id: "clim_600_02", categoryId: "climate_science", tier: 600, prompt: "Solar geoengineering (specifically stratospheric aerosol injection — SAI) has been proposed as a potential emergency intervention. What would it do — and why do many climate scientists consider it highly dangerous?", answer: "SAI: injecting reflective particles (sulfur dioxide) into the stratosphere to reflect sunlight and cool the planet — mimicking the effect of large volcanic eruptions (Pinatubo 1991 cooled Earth ~0.5°C for 2 years). Dangers: (1) 'termination shock' — if SAI is started and then stopped suddenly, rapid unmasked warming would occur; (2) SAI masks warming without addressing CO₂ concentration — ocean acidification continues; (3) changes precipitation patterns, potentially causing severe drought in some regions while cooling others; (4) no international governance mechanism exists; a single nation or wealthy actor could deploy it unilaterally affecting the entire planet.", acceptableAnswers: ["reflects sunlight by injecting sulfur dioxide mimicking volcanic eruption", "termination shock if stopped suddenly rapid rebound warming", "masks warming without addressing CO2 ocean acidification continues", "no governance unilateral deployment changes global precipitation"] },
-      { id: "clim_600_03", categoryId: "climate_science", tier: 600, prompt: "The 'Great Acceleration' describes the period from 1950 to present in which human impact on Earth's systems increased at unprecedented speed. What is the 'Anthropocene' — and why is there scientific controversy about when it formally began?", answer: "Anthropocene ('human epoch'): a proposed geological epoch defined by human activity's dominant effect on Earth's geology and ecosystems. Controversy about start date: (1) 1950s — marked by nuclear testing's global radioactive fallout (detectable in sediment everywhere), the Great Acceleration, and plastic; (2) Industrial Revolution (~1800) — CO₂ rise begins here; (3) 1610 — the 'Orbis spike' (dip in CO₂ from massive depopulation after the Columbian Exchange killed indigenous Americans, reducing farmland); (4) 8,000 BCE — agricultural deforestation began human influence. Each date reflects a different definition of what makes an epoch meaningful. The ICS (official geological body) voted for the 1950s Anthropocene proposal in 2023 then rescinded the formal designation.", acceptableAnswers: ["proposed epoch defined by human domination of Earth systems", "date controversy: nuclear 1950s vs industrial 1800 vs Columbian 1610 vs agriculture 8000BCE", "nuclear testing's radioactive fallout detectable globally argued as 1950s start", "ICS voted for 1950s proposal then rescinded formal designation"] },
-    ],
-  },
-  {
     id: "latin_american_literature",
     group: "Cultural",
     name: "Latin American Literature",
@@ -49832,26 +49561,8 @@ const CATEGORIES: Category[] = [
     ],
   },
   {
-    id: "political_philosophy",
-    group: "Science & Ideas",
-    name: "Political Philosophy",
-    culture: "universal",
-    description: "Hobbes's war of all against all, Locke's consent, Rousseau's general will, and the ideas that built and challenged modern democracy.",
-    questions: [
-      { id: "polph_200_01", categoryId: "political_philosophy", tier: 200, prompt: "Thomas Hobbes's 'Leviathan' (1651) described life without government as 'solitary, poor, nasty, brutish, and short.' What is this condition called — and what does Hobbes say is the solution?", answer: "The 'state of nature' — a war of all against all where life is miserable because there is no authority to enforce agreements or protect persons. Solution: people rationally surrender their rights to an absolute sovereign (the Leviathan) who provides security in exchange for obedience.", acceptableAnswers: ["state of nature — a war of all against all", "surrender rights to absolute sovereign for security", "Leviathan as absolute authority ending the state of nature"] },
-      { id: "polph_200_02", categoryId: "political_philosophy", tier: 200, prompt: "John Locke argued that the purpose of government is to protect natural rights that humans have before any government exists. What three natural rights did he identify?", answer: "Life, liberty, and property (later Jefferson adapted these as 'life, liberty, and the pursuit of happiness' in the Declaration of Independence)", acceptableAnswers: ["life liberty and property", "life liberty property"] },
-      { id: "polph_200_03", categoryId: "political_philosophy", tier: 200, prompt: "John Rawls's 'veil of ignorance' asks you to design a just society without knowing what your position in it will be. What principle of justice does he derive from this thought experiment for the least advantaged?", answer: "The 'difference principle' — inequalities are only just if they benefit the least advantaged members of society. Under the veil of ignorance, rational people would choose this because they might end up at the bottom.", acceptableAnswers: ["difference principle: inequalities just only if they benefit the least advantaged", "inequalities acceptable only if they help the worst-off", "difference principle derived from veil of ignorance"] },
-      { id: "polph_400_01", categoryId: "political_philosophy", tier: 400, prompt: "Rousseau's 'general will' (volonté générale) is one of political philosophy's most contested concepts. What did he mean — and how has it been used to justify both democracy and totalitarianism?", answer: "The general will is what the community as a whole wills — not what individuals actually want (the 'will of all' which is just aggregated self-interests) but what they would will if they were thinking of the common good. It is always right and directed toward the common good. Justified democracy: the general will is sovereign; no individual or government can legitimately override it — the basis for popular sovereignty. Justified totalitarianism: if someone knows the general will better than the people (who may be misled by 'partial associations'), they can legitimately compel obedience 'forcing people to be free.' Jacobins in the French Revolution used this logic.", acceptableAnswers: ["general will is what community would will thinking of common good not actual desires", "justified democracy via popular sovereignty", "justified totalitarianism: those who know the general will can force obedience", "Jacobins used this logic forcing people to be free"] },
-      { id: "polph_400_02", categoryId: "political_philosophy", tier: 400, prompt: "Hannah Arendt distinguished 'power' from 'violence' in ways that challenge conventional political thinking. What did she mean — and why is violence, for her, a sign of weakness not strength?", answer: "Arendt: Power is the ability to act together in concert — it arises from collective agreement and is sustained by people choosing to coordinate. Violence is the use of implements (guns, bombs, armies) to compel compliance. Her distinction: violence can destroy power but cannot create it — a government that must rely entirely on violence has already lost its power (its capacity to act through collective agreement). Therefore: violence is the tool of those who have lost legitimate authority, not of those who are strongest. A truly powerful government needs little violence because people voluntarily comply.", acceptableAnswers: ["power is collective action in concert violence is instrumental compulsion", "violence destroys power but can't create it", "government relying on violence has already lost its power", "violence is sign of weakness not strength in Arendt's framework"] },
-      { id: "polph_400_03", categoryId: "political_philosophy", tier: 400, prompt: "Isaiah Berlin's distinction between 'negative liberty' and 'positive liberty' (1958 'Two Concepts of Liberty') has defined debates between liberals and socialists. What is each concept?", answer: "Negative liberty: freedom FROM interference — the absence of external constraints on your actions. A person is free when no one stops them. Positive liberty: freedom TO — the capacity or power to actually pursue your ends; having the real ability to do things. A person starving in a country without laws forbidding them to eat cake is negatively free (no one stops them) but not positively free (they have no real capacity to eat). Socialists emphasize positive liberty (material conditions enable real freedom); classical liberals emphasize negative liberty (state interference is the enemy of freedom).", acceptableAnswers: ["negative: freedom from interference; positive: capacity to actually pursue ends", "starving person negatively free no one stops them but not positively free", "socialists positive liberty liberals negative liberty", "absence of constraints vs actual capacity to act"] },
-      { id: "polph_600_01", categoryId: "political_philosophy", tier: 600, prompt: "Robert Nozick's 'Anarchy, State, and Utopia' (1974) was a direct response to Rawls's 'A Theory of Justice.' What was his fundamental objection — and what is the 'Wilt Chamberlain argument'?", answer: "Nozick's fundamental objection: any redistribution of holdings (like Rawls's difference principle) requires continuous interference with voluntary transactions — it violates individual rights. The Wilt Chamberlain argument: imagine a just distribution D1. Wilt Chamberlain charges 25¢ per ticket; fans voluntarily pay; over a season he earns $250,000. This produces a new distribution D2 where Wilt has much more. But D2 arose through voluntary exchanges from a just D1 — so how can it be unjust? Any patterned principle of justice (like Rawls's) will be continuously disrupted by free choices and must continuously interfere to maintain the pattern.", acceptableAnswers: ["redistribution requires continuous interference with voluntary transactions", "Wilt Chamberlain argument: just distribution disrupted by free choices", "any patterned distribution requires ongoing coercive interference", "voluntary transactions from just starting point produce unequal outcomes that can't be unjust"] },
-      { id: "polph_600_02", categoryId: "political_philosophy", tier: 600, prompt: "Carl Schmitt's 'The Concept of the Political' (1932) argued that the fundamental political distinction is friend vs. enemy — not good vs. evil or profitable vs. unprofitable. Why is this argument dangerous — and why do theorists on both left and right still engage with it?", answer: "The argument: politics is defined by the possibility of grouping people as friends (us) and enemies (them), with the most extreme intensification being war. Liberal democracy tries to eliminate the political in this sense (replacing it with procedural neutrality, economic competition, moral discourse). Schmitt argues this is self-deluding — political decisions cannot be proceduralized; someone always decides who the enemy is. Dangerous: Schmitt joined the Nazi Party in 1933 and used his theory to justify dictatorship. Why still engaged: the theory accurately describes how political conflict actually works (tribal, us vs them), and left theorists like Chantal Mouffe use his framework (agonism: adversary not enemy) to think about non-liberal politics.", acceptableAnswers: ["friend-enemy distinction as primary political category not good-evil or profit-loss", "liberal proceduralism can't eliminate political decision-making", "Schmitt joined Nazis used theory to justify dictatorship", "Mouffe uses agonism derived from Schmitt for left democratic theory"] },
-      { id: "polph_600_03", categoryId: "political_philosophy", tier: 600, prompt: "Feminist political philosophy has criticized the social contract tradition (Hobbes, Locke, Rousseau, Rawls) for a structural problem. What is Carole Pateman's 'sexual contract' argument?", answer: "Pateman in 'The Sexual Contract' (1988): the social contract theory imagines a contract between free and equal individuals creating political society — but this was premised on an implicit sexual contract that assigned women to the private sphere and excluded them from political life. The 'individuals' of social contract theory were always men; the contract that created public (political) life was simultaneously a contract for men's control of women in the private sphere. Rawls's veil of ignorance, for example, doesn't address gendered labor or the public/private division. The social contract tradition can't be fixed by adding women — it was constituted by their exclusion.", acceptableAnswers: ["social contract's free individuals were always men excluding women", "implicit sexual contract assigned women to private sphere", "public contract premised on male control of private sphere", "can't be fixed by adding women it was constituted by their exclusion"] },
-    ],
-  },
-  {
     id: "geology",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Geology & Earth Science",
     culture: "universal",
     description: "Plate tectonics, geological time, mass extinctions, and the evidence that the Earth is a dynamic, living system.",
@@ -49906,7 +49617,7 @@ const CATEGORIES: Category[] = [
   // ── Wave 29 ──────────────────────────────────────────────────────────────
   {
     id: "astrophysics",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Astrophysics",
     culture: "universal",
     description: "Black holes, dark matter, gravitational waves, and the deepest questions about the cosmos.",
@@ -49941,44 +49652,8 @@ const CATEGORIES: Category[] = [
     ],
   },
   {
-    id: "african_literature",
-    group: "Cultural",
-    name: "African Literature",
-    culture: "universal",
-    description: "Achebe's inverted gaze, Soyinka's Yoruba theater, Ngugi's decolonization, and Fanon's wretched of the earth.",
-    questions: [
-      { id: "aflit_200_01", categoryId: "african_literature", tier: 200, prompt: "Chinua Achebe's 'Things Fall Apart' (1958) is often called the first major African novel in English. What was its central narrative inversion — and why was it revolutionary?", answer: "Achebe inverts the colonial narrative gaze: instead of showing Igbo society through a European observer's eyes (as Conrad's Heart of Darkness does), he tells an Igbo story from the inside — with Okonkwo comprehensible in his own terms. Colonial contact is not civilization's arrival but the destruction of a functioning complex society. Revolutionary because: it used the colonizer's language to tell the colonized story; presented Igbo culture as internally coherent before colonialism; established African literature as capable of universal significance, not just anthropological interest.", acceptableAnswers: ["inverts colonial gaze telling Igbo story from inside rather than European observer", "colonial contact as destruction of functioning complex society not arrival of civilization", "uses colonizer's language to tell colonized story Igbo culture coherent before colonialism"] },
-      { id: "aflit_200_02", categoryId: "african_literature", tier: 200, prompt: "Wole Soyinka was the first African to win the Nobel Prize in Literature (1986). What tradition does his work draw on — and what political risks did he take?", answer: "Soyinka draws on Yoruba mythology and theater traditions — particularly the figure of Ogun (god of iron, war, and creativity) as a tragic/redemptive archetype mapped onto modern African experience. His plays (Death and the King's Horseman, The Road) use ritual performance and masquerade alongside Western dramatic structure. Political risks: imprisoned for two years (1967–69) during the Nigerian Civil War for attempting to negotiate peace with Biafran secessionists; again under Sani Abacha's dictatorship — fleeing Nigeria in 1994 and remaining in exile.", acceptableAnswers: ["draws on Yoruba mythology particularly Ogun god of iron war and creativity", "imprisoned during Nigerian Civil War for peace negotiation with Biafrans", "exiled under Abacha dictatorship 1990s for political opposition"] },
-      { id: "aflit_200_03", categoryId: "african_literature", tier: 200, prompt: "Ngugi wa Thiong'o caused controversy in 1977 when he announced he would no longer write in English. What was his argument — and what was the consequence for his career?", answer: "Ngugi's argument: African writers using European languages perpetuate colonial mental structures — language carries cultural power relations, not neutral vessels. Writing in Gikuyu (his Kenyan mother tongue) was a political act of decolonization. He also renamed himself from James Ngugi to Ngugi wa Thiong'o. Consequence: his Gikuyu play was seen as politically threatening — he was detained without trial for a year (1977–78) and eventually exiled. His theoretical statement is Decolonising the Mind (1986).", acceptableAnswers: ["European languages carry colonial power relations perpetuating colonial mentality", "wrote in Gikuyu as decolonization — detained a year and exiled by Kenyan government", "Decolonising the Mind 1986 is the theoretical statement renamed from James Ngugi"] },
-      { id: "aflit_400_01", categoryId: "african_literature", tier: 400, prompt: "Nadine Gordimer's novels depicted apartheid South Africa from within. How did she navigate the tension between her white identity and her subject matter?", answer: "Gordimer's navigation: (1) her protagonists were often white South Africans encountering apartheid's moral contradictions from inside — not black liberation fighters whose consciousness she approached from outside; (2) she situated fiction at precise historical moments (each novel is legible as history); (3) she acknowledged limits of access explicitly, especially in late novels; (4) she was an ANC member, had books banned, provided her home for clandestine ANC meetings — combining literary with political solidarity. Frequently criticized for appropriating black experience despite this care, and her Nobel acceptance speech insisted on the novel as exploration of 'what it is to be human under apartheid,' not propaganda.", acceptableAnswers: ["white protagonists confronting apartheid's contradictions from inside their own consciousness", "ANC member banned books provided home for clandestine meetings", "explicitly acknowledged limits of access especially for black consciousness from inside"] },
-      { id: "aflit_400_02", categoryId: "african_literature", tier: 400, prompt: "Chimamanda Ngozi Adichie's 'Half of a Yellow Sun' (2006) covers the Biafran War (1967–70). Why does she use two very different protagonists — and what does this structure argue?", answer: "The novel uses: Ugwu (a houseboy from a rural Igbo village — uneducated, insider to Igbo culture) and Richard (a British man — educated, outsider, working on a book about Igbo art). The structure argues: the Biafran War has both an intimate Igbo interior experience and an outside Western-filtered view — neither alone is sufficient. Richard's failure to write his book is Adichie's metafictional statement that the outsider cannot tell this story (she writes it instead). The title from the Biafran flag centers the secessionist self-determination perspective that Western historiography often marginalizes.", acceptableAnswers: ["two perspectives: Ugwu Igbo insider houseboy and Richard British outsider", "Richard's failed book is metafictional: outsider cannot tell this story Adichie writes it instead", "title from Biafran flag centering secessionist perspective marginalized by Western historiography"] },
-      { id: "aflit_400_03", categoryId: "african_literature", tier: 400, prompt: "Ben Okri's 'The Famished Road' (1991, Booker Prize) uses the concept of the 'abiku' spirit child. What is this concept — and how does Okri use it structurally?", answer: "Abiku (Yoruba) / ogbanje (Igbo): spirit children born from the spirit realm who choose to die young and return — the same spirit reincarnating repeatedly, causing family anguish. Okri's protagonist Azaro is an abiku who chooses to stay in the living world despite constant pull back to the spirit world. Structural use: Azaro moves between spirit and living worlds continuously — reality is permeable to spiritual vision. This allows Okri to portray Nigeria's political crisis and poverty through a mythological register that is simultaneously realist and visionary, resisting simple allegory's neat equations.", acceptableAnswers: ["abiku: spirit children who choose to die young and return causing family anguish", "Azaro as abiku who chooses to stay gives structure: moving between spirit and living worlds continuously", "political crisis portrayed through mythological register resisting simple allegory"] },
-      { id: "aflit_600_01", categoryId: "african_literature", tier: 600, prompt: "Frantz Fanon's 'The Wretched of the Earth' (1961) argued that anti-colonial violence had a specific psychological function. What was the argument — and why has it been criticized?", answer: "Fanon's argument: under colonialism, the colonized are forced into subhuman status — their humanity only asserted negatively (as not the colonizer). Anti-colonial violence is not merely tactical but existentially regenerative — it allows the colonized to experience themselves as active subjects not passive objects. The national liberation struggle creates new collective subjectivity. Criticisms: (1) Sartre's preface arguably simplified and overstated it (making it seem like Fanon endorsed violence for its own sake); (2) Fanon was actually more ambivalent — he warned extensively about post-colonial bourgeoisie betraying the peasantry; (3) the psychological claim that violence cures oppression is empirically disputed; (4) he wrote about specific Algerian conditions, not a universal prescription.", acceptableAnswers: ["anti-colonial violence regenerative allows colonized to assert subjectivity not just negate colonizer", "criticized for Sartre's preface overstating endorsement of violence for its own sake", "Fanon ambivalent warned about post-colonial bourgeoisie betrayal writing about Algeria not universal prescription"] },
-      { id: "aflit_600_02", categoryId: "african_literature", tier: 600, prompt: "How does Ngugi wa Thiong'o's 'A Grain of Wheat' (1967) complicate the traditional liberation narrative — and what literary technique does he use?", answer: "A Grain of Wheat is set at Kenyan independence (Uhuru, 1963) and complicates liberation narrative by: (1) centering on betrayal — the most celebrated hero (Kihika) was betrayed by someone in his own community; (2) multiple characters are shown morally compromised, as collaborators or informers under pressure — liberation produced guilt and complicity alongside heroism; (3) independence arrives but colonial structures remain; characters are disappointed. Technique: multiple unreliable narrators whose perspectives on the same events shift and contradict — truth about who betrayed whom is revealed gradually through fragmentary non-linear narrative. Influenced by Conrad's Nostromo (which Ngugi acknowledged).", acceptableAnswers: ["centers on betrayal within liberation movement celebrated hero Kihika betrayed by community member", "multiple compromised characters independence arrives but disappointment and guilt remain", "multiple unreliable narrators fragmentary non-linear revelation of who betrayed whom"] },
-      { id: "aflit_600_03", categoryId: "african_literature", tier: 600, prompt: "J.M. Coetzee's 'Disgrace' (1999) won the Booker Prize but was formally accused by the ANC of reinforcing racist stereotypes. What was the accusation — and how did Coetzee respond?", answer: "Accusation: the ANC submitted a report to the South African Human Rights Commission claiming Disgrace portrayed black South African men as rapists, reinforcing racial stereotypes damaging to national reconciliation. The rape of Lucy (by black farm workers) and her choice to stay and bear the child were seen as aestheticizing racial violence. Coetzee's response: he did not respond publicly — arguing that requiring authors to answer for characters' views violates the imaginative freedom on which literature depends. The novel's ambiguity is precisely its argument: Lucy's choice is presented without authorial judgment, forcing reader discomfort without resolution. Most critics see it as critiquing, not endorsing, the violence it depicts.", acceptableAnswers: ["ANC formally complained to Human Rights Commission that novel portrayed black men as rapists", "Coetzee refused to publicly defend himself arguing literary imaginative freedom", "Lucy's choice ambiguous without authorial judgment forces reader discomfort without resolution"] },
-    ],
-  },
-  {
-    id: "medieval_japan",
-    group: "History",
-    name: "Medieval Japan",
-    culture: "universal",
-    description: "Shoguns, samurai, Zen patronage, Mongol invasions, and the Genpei War that made the warrior class.",
-    questions: [
-      { id: "medjp_200_01", categoryId: "medieval_japan", tier: 200, prompt: "What was the Shogunate — and why did it represent a fundamental shift in Japanese political structure?", answer: "Shogunate (bakufu — 'tent government'): a military government headed by a shogun (great general), operating parallel to and effectively eclipsing the imperial court. Minamoto no Yoritomo established the first shogunate in Kamakura (1185). Fundamental shift: political and military power moved from the imperial capital Kyoto to a military headquarters; the emperor retained ritual/symbolic authority but exercised no real political power — a duality lasting until the Meiji Restoration (1868); warrior clans (samurai) replaced court aristocrats (kuge) as the effective ruling class.", acceptableAnswers: ["military government headed by shogun eclipsing imperial court", "emperor retained ritual authority but exercised no real political power", "Yoritomo Kamakura Shogunate 1185 warriors replaced court aristocrats as ruling class"] },
-      { id: "medjp_200_02", categoryId: "medieval_japan", tier: 200, prompt: "What was 'bushido' — and how was it actually constructed versus how it is popularly understood?", answer: "Popular understanding: an ancient samurai code emphasizing loyalty unto death, martial excellence, and seppuku. Actual construction: the term barely appears in pre-Meiji texts. The canonical statement — Nitobe Inazo's Bushido: The Soul of Japan (1900) — was written in English for a Western audience by a Westernized Japanese Christian, explicitly framing Japanese values in admirable Western terms. The Meiji and wartime governments later promoted bushido as an ancient tradition to mobilize nationalist sentiment. Many samurai practices were pragmatic and mercenary — the romanticized code was largely a modern nationalist invention.", acceptableAnswers: ["term barely appears in pre-Meiji texts", "Nitobe's Bushido 1900 written in English for Western audience by Westernized Christian", "romanticized code was modern Meiji-era nationalist invention not ancient tradition"] },
-      { id: "medjp_200_03", categoryId: "medieval_japan", tier: 200, prompt: "The Mongol invasions of Japan (1274, 1281) were defeated partly by typhoons the Japanese called kamikaze. What was the military and political significance of these failed invasions?", answer: "Military significance: revealed that the samurai dueling tradition was unsuited to massed Mongol combined-arms tactics — Mongol explosives and arrow barrages were novel threats. A defensive wall was built in Hakata Bay after the first invasion. Political significance: the defense required cross-clan cooperation; samurai were owed rewards the Kamakura Shogunate struggled to pay (no conquered territory to distribute). This fiscal and political stress contributed to the eventual collapse of the Kamakura Shogunate (1333). The typhoons were interpreted as divine protection, reinforcing Japanese exceptionalism narratives.", acceptableAnswers: ["samurai dueling tradition unsuited to massed Mongol combined-arms tactics", "shogunate couldn't pay samurai rewards no conquered territory contributed to Kamakura collapse 1333", "typhoons interpreted as divine protection reinforcing Japanese exceptionalism"] },
-      { id: "medjp_400_01", categoryId: "medieval_japan", tier: 400, prompt: "What was the role of Zen Buddhism in samurai culture — and how should we understand the relationship between Zen aesthetics and martial practice?", answer: "Zen Buddhism spread among samurai from the Kamakura period for several reasons: (1) Zen's emphasis on direct experience and cutting through conceptual thought resonated with martial practice where hesitation kills; (2) Zen monasteries were cultural centers — samurai gained access to Chinese art, calligraphy, and literature; (3) Zen aesthetic principles (wabi-sabi, mono no aware) permeated arts patronized by samurai. However: the direct link between Zen practice and combat effectiveness is largely modern romanticization — most Zen-samurai interaction was cultural patronage rather than meditative warrior training. D.T. Suzuki's 20th-century writings popularized this connection in the West.", acceptableAnswers: ["Zen emphasis on direct experience resonated with martial practice where hesitation kills", "Zen monasteries gave samurai access to Chinese cultural arts calligraphy literature", "direct Zen-combat link is modern romanticization Suzuki popularized it most interaction was cultural patronage"] },
-      { id: "medjp_400_02", categoryId: "medieval_japan", tier: 400, prompt: "The Sengoku period (c.1467–1615) produced Japan's three great 'unifiers.' What were their successive roles — and how did their contrasting personalities shape their strategies?", answer: "(1) Oda Nobunaga (1534–82): started unification through brutality and innovation — used firearms at Nagashino 1575, destroyed Buddhist military power (Enryaku-ji massacre), assassinated by Akechi Mitsuhide; (2) Toyotomi Hideyoshi (1537–98): completed unification from peasant origins — unified through politics and marriage alliances as much as force, conducted sword hunts to disarm peasants, launched disastrous Korean invasions; (3) Tokugawa Ieyasu (1543–1616): victory at Sekigahara (1600) and establishment of Edo Shogunate — his genius was institutional (creating a lasting control system) rather than military brilliance.", acceptableAnswers: ["Nobunaga firearms innovation and brutality started unification assassinated 1582", "Hideyoshi political marriage alliances completed unification Korean invasions failed", "Ieyasu institutional genius created lasting Edo system after Sekigahara 1600"] },
-      { id: "medjp_400_03", categoryId: "medieval_japan", tier: 400, prompt: "The 'sakoku' (closed country) policy of the Edo period (1603–1868) is often described as total isolation. Why is this characterization inaccurate?", answer: "Sakoku was not total isolation: (1) the Dutch East India Company maintained a trading station at Dejima island (Nagasaki Bay) — the sole Western contact, tightly controlled; (2) trade with China continued through Nagasaki; (3) trade with Korea continued through the Tsushima domain; (4) the Ryukyu Kingdom (Okinawa) served as intermediary with Southeast Asia under Satsuma domain control; (5) Japanese scholars pursued Rangaku (Dutch learning) through Dejima — gaining European medical, astronomical, and scientific knowledge. The policy restricted movement of Japanese people and blocked Christian missionaries, not all foreign contact.", acceptableAnswers: ["Dutch maintained Dejima trading station sole Western contact", "trade with China Korea and Ryukyu Kingdom continued", "rangaku Dutch learning gave Japanese scholars access to European science through Dejima"] },
-      { id: "medjp_600_01", categoryId: "medieval_japan", tier: 600, prompt: "What was the Forty-Seven Ronin incident (1703) — and why did it create a political dilemma for the Tokugawa Shogunate?", answer: "The incident: Lord Asano was ordered to commit seppuku after attacking court official Kira Yoshinaka (who had insulted him). His samurai became ronin (masterless). Forty-seven of them plotted for nearly two years, avenged their lord by killing Kira, then turned themselves in. The dilemma: (1) they had committed murder, requiring punishment by law; (2) but their action exemplified bushido loyalty — executing them seemed to condemn the highest samurai virtue; (3) after extended debate, the Shogunate allowed them to commit seppuku (honorable death) rather than criminal execution — a compromise acknowledging moral complexity. The incident became Japan's foundational loyalty narrative (Chushingura).", acceptableAnswers: ["47 ronin avenged lord Asano by killing Kira after two years of planning then surrendered", "dilemma: murder required execution but loyalty exemplified samurai virtue", "shogunate allowed honorable seppuku rather than criminal execution Chushingura"] },
-      { id: "medjp_600_02", categoryId: "medieval_japan", tier: 600, prompt: "How did the Tokugawa system of 'sankin-kotai' (alternate attendance) function as a political control mechanism — and what were its unintended economic consequences?", answer: "Sankin-kotai required daimyo to alternate residence between their domain and Edo (one year each), leaving families as hostages in Edo at all times. Function as control: daimyo spent enormous resources on mandatory Edo processions and two households; physically separated from domains half the year; families as hostages ensured loyalty. Unintended consequences: (1) created enormous Edo city (likely world's largest in 1700); (2) the procession system built a national road network (Tokaido); (3) mercantile economy grew to service daimyo entourages — merchant class (chonin) enriched while samurai often fell into debt; (4) national economic integration preceded political modernization.", acceptableAnswers: ["daimyo alternate Edo and domain residence families kept as hostages", "drained daimyo resources prevented domain consolidation political control", "made Edo world's largest city 1700 created Tokaido road network enriched merchant class"] },
-      { id: "medjp_600_03", categoryId: "medieval_japan", tier: 600, prompt: "What was the Genpei War (1180–85) — and why does it matter for Japanese cultural identity?", answer: "The Genpei War: civil war between the Taira (Heike) and Minamoto (Genji) clans, ending with Minamoto victory at Dan-no-Ura (1185) where the Taira imperial court drowned. Cultural significance: (1) The Tale of the Heike (Heike Monogatari) became one of Japan's foundational literary texts, defining mono no aware (the pathos of things) and the beauty of transience through the Taira's fall; (2) it created the Kamakura Shogunate and installed samurai as ruling class; (3) the drowned emperor and lost imperial regalia (sword lost permanently) generated lasting mythological narrative; (4) the Heike was transmitted orally by blind biwa lute players, giving it a performative tradition.", acceptableAnswers: ["Taira vs Minamoto civil war ending at Dan-no-Ura 1185 Taira drowned", "Tale of Heike defined mono no aware and beauty of transience in Japanese aesthetics", "created Kamakura Shogunate samurai ruling class lost imperial regalia permanent cultural myth"] },
-    ],
-  },
-  {
     id: "philosophy_of_mind",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Philosophy of Mind",
     culture: "universal",
     description: "The hard problem of consciousness, qualia, the Turing Test, Chinese Room, and what it means to be a mind.",
@@ -49995,26 +49670,8 @@ const CATEGORIES: Category[] = [
     ],
   },
   {
-    id: "the_renaissance",
-    group: "History",
-    name: "The Renaissance",
-    culture: "universal",
-    description: "Medici banking, humanismo, Gutenberg's press, Machiavelli's realism, and Galileo's condemnation.",
-    questions: [
-      { id: "ren_200_01", categoryId: "the_renaissance", tier: 200, prompt: "How did Florentine banking — specifically Medici financial innovations — enable the Renaissance?", answer: "Medici banking innovations: (1) the bill of exchange (lettera di cambio) allowed transferring money across borders without physically moving coin — circumventing usury laws forbidding interest and enabling international trade finance; (2) branch network across Europe (Rome, Venice, London, Bruges, Lyon) through partnership agreements limiting liability; (3) the Medici held the papal account (collecting tithes across Europe) — the most valuable banking contract in Christendom. This wealth enabled patronage of Brunelleschi, Botticelli, Ghirlandaio (under whom Michelangelo trained), Donatello — patronage as both genuine cultural enthusiasm and political legitimation for a family that held power without hereditary nobility.", acceptableAnswers: ["bill of exchange cross-border money transfer without coin circumventing usury laws", "papal account most valuable banking contract in Christendom", "wealth enabled Brunelleschi Botticelli Michelangelo patronage as political legitimation"] },
-      { id: "ren_200_02", categoryId: "the_renaissance", tier: 200, prompt: "What was 'humanismo' (Renaissance humanism) — and how did it differ from both medieval scholasticism and from what we call humanism today?", answer: "Renaissance humanism (studia humanitatis): a program of study centered on grammar, rhetoric, poetry, history, and moral philosophy drawn from classical Latin and Greek texts. Differed from scholasticism: scholastics used Aristotelian logic to systematize Christian theology; humanists prioritized rhetoric over logic, moral life over theological system, Latin style over syllogism. Not 'secular humanism': Renaissance humanists were overwhelmingly devout Christians — Erasmus, Pico della Mirandola, More were deeply religious. The secularizing effect came gradually from their philological method: Valla proved the Donation of Constantine was a forgery using textual criticism, undermining papal claims.", acceptableAnswers: ["studia humanitatis: grammar rhetoric poetry history moral philosophy from classical texts", "differed from scholasticism: rhetoric over logic moral life over theological system", "not secular: most humanists were devout Christians Valla's philology had secularizing effects as byproduct"] },
-      { id: "ren_200_03", categoryId: "the_renaissance", tier: 200, prompt: "Gutenberg's printing press (c.1440s) transformed Europe. What specific technical innovations were decisive?", answer: "Gutenberg's specific innovations: (1) an oil-based ink that adhered to metal type (earlier inks ran off metal); (2) a hand mould for casting individual metal letters from an alloy (lead, tin, antimony) that reproduced precisely; (3) adaptation of the wine/olive press screw mechanism for printing. Decisive effects: reduced the cost of books by ~80% compared to manuscript copying; standardized text across copies (manuscripts varied); enabled rapid dissemination — Luther's 95 Theses circulated across Germany in weeks; made vernacular publishing commercially viable, shifting Latin's dominance.", acceptableAnswers: ["oil-based ink adhered to metal type earlier inks ran off", "hand mould for precise cast metal type from lead-tin-antimony alloy", "reduced book cost ~80% standardized text enabled Luther's 95 Theses to circulate in weeks"] },
-      { id: "ren_400_01", categoryId: "the_renaissance", tier: 400, prompt: "What was the significance of recovering classical texts — which specific texts most changed European thought when rediscovered?", answer: "Key recoveries: (1) Lucretius's De Rerum Natura (rediscovered 1417 by Poggio Bracciolini) — Epicurean atomic materialism, dismissal of divine intervention; Stephen Greenblatt argues it 'swerved' the Renaissance toward the secular and physical. (2) Plato's complete works (via Byzantine scholars, especially post-1453) — Neo-Platonism gave Ficino's Platonic Academy its program, influencing all Renaissance aesthetics. (3) Ptolemy's Geography — enabled systematic cartography (Columbus used it, with errors making the Atlantic seem narrower). Critically: many 'rediscovered' texts had never been lost to Arab scholars — they were lost specifically to Latin Europe.", acceptableAnswers: ["Lucretius De Rerum Natura 1417 Epicurean materialism atomic universe without divine intervention", "Plato's complete works via Byzantine scholars Neo-Platonism influenced Renaissance aesthetics", "Ptolemy's Geography enabled cartography Columbus used it — Arab scholars had these texts throughout"] },
-      { id: "ren_400_02", categoryId: "the_renaissance", tier: 400, prompt: "Machiavelli's 'The Prince' (written 1513, published 1532) is called the founding text of modern political science. What was genuinely novel — and how has it been misread?", answer: "Machiavelli's novelty: he described politics as it is, not as it should be. Previous political advice literature told rulers to be virtuous and God would reward them. Machiavelli analyzed actual historical examples (Cesare Borgia, ancient Romans) for what worked — accepting that success sometimes required cruelty, deception, and the appearance rather than reality of virtue. The separation of political effectiveness from personal morality — politics as a domain with its own logic — was genuinely novel. Misreadings: 'Machiavellian' implies cynical amorality, but Machiavelli admired the Roman republic; The Prince was written for specific circumstances (Medici Florence under threat) — not a universal prescription; he wrote the Discourses on Livy (a republican text) around the same time.", acceptableAnswers: ["described politics as it is not should be analyzing what actually works not virtue-reward theology", "separation of political effectiveness from personal morality politics has its own logic", "misread as universal amoralism but The Prince was contextual he also wrote republican Discourses on Livy"] },
-      { id: "ren_400_03", categoryId: "the_renaissance", tier: 400, prompt: "What was the Council of Trent (1545–63) — and why was it the Catholic response to the Renaissance as much as to the Reformation?", answer: "Council of Trent: the ecumenical council defining Catholic positions and launching the Counter-Reformation. Response to Reformation: clarified doctrines contested by Protestants (justification by faith+works; seven sacraments; transubstantiation; purgatory; tradition alongside scripture). Response to Renaissance: (1) tightened biblical interpretation — the Vulgate (Latin) was authoritative, not humanist philological corrections; (2) established the Index Librorum Prohibitorum; (3) reformed clerical education through seminaries (responding to humanist criticism of ignorant clergy); (4) patronized Baroque art — emotionally persuasive and overwhelming — to counter Protestant iconoclasm with sensory experience.", acceptableAnswers: ["defined Catholic positions on justification seven sacraments transubstantiation tradition alongside scripture", "Vulgate authoritative: rejected humanist philological corrections to scripture", "established Index Prohibitorum reformed clerical education patronized Baroque art as Counter-Reformation tool"] },
-      { id: "ren_600_01", categoryId: "the_renaissance", tier: 600, prompt: "How did Marsilio Ficino's Florentine Platonic Academy synthesize Platonism and Christianity — and what were the intellectual consequences?", answer: "Ficino translated all of Plato's dialogues plus Neoplatonists (Plotinus, Porphyry, Iamblichus) into Latin — first time Plato's complete works were available in Latin in the West. His synthesis: identified Plato's Form of the Good with the Christian God; the soul's ascent (Platonic eros toward the Beautiful) as equivalent to Christian salvation; prisca theologia — a chain of pre-Christian sages (Hermes Trismegistus, Orpheus, Pythagoras, Plato) as witnesses to Christian truth. Intellectual consequences: Neo-Platonic aesthetics (beauty as divine trace) shaped Botticelli, Raphael, Michelangelo; opened interest in Hermetic magic and Kabbalah (Pico della Mirandola); simultaneously deepened Christian philosophy and loosened its grip (Hermeticism readable as magic independent of doctrine).", acceptableAnswers: ["translated all Plato plus Neoplatonists Plotinus Porphyry into Latin for first time", "identified Plato's Form of Good with Christian God soul's ascent as salvation", "prisca theologia chain of pre-Christian witnesses shaped Botticelli Raphael opened Hermetic magic via Pico"] },
-      { id: "ren_600_02", categoryId: "the_renaissance", tier: 600, prompt: "How did Pico della Mirandola's 'Oration on the Dignity of Man' (1486) define Renaissance humanism — and why was it condemned?", answer: "Pico's argument: God created humans as the only being without a fixed nature — placed at the center of creation with freedom to determine their own nature (ascending to the divine or descending to the brutish). This radical indeterminacy is human dignity. The 'Oration' was the planned preface to his 900 Theses — a synthesis of Platonic, Aristotelian, Stoic philosophy, Christian theology, Jewish Kabbalah, and Hermetic magic. Condemned: Pope Innocent VIII condemned 13 of the 900 theses (1487) — incorporating Kabbalah and Hermetic sources alongside Christian scripture was theologically dangerous. He was briefly imprisoned. It defines humanism by grounding human dignity in freedom and self-determination rather than a fixed hierarchy of being.", acceptableAnswers: ["humans have no fixed nature freedom to ascend or descend is human dignity", "900 Theses synthesized Platonic Aristotelian Kabbalist Islamic Hermetic sources", "condemned because Kabbalah and Hermeticism alongside Christian scripture was theologically dangerous 13 theses condemned"] },
-      { id: "ren_600_03", categoryId: "the_renaissance", tier: 600, prompt: "Why was Galileo condemned — and what does the episode actually reveal about the relationship between natural philosophy and religious authority in the 17th century?", answer: "Galileo's condemnation (1633): required to abjure heliocentrism, placed under house arrest, his Dialogue banned. The 'science vs. religion' narrative oversimplifies: (1) the Church had tolerated heliocentrism as a mathematical hypothesis since Copernicus (1543); (2) the trigger was Galileo presenting it as physical truth without definitive proof — his tides argument was actually wrong — and the Dialogue made the geocentrist seem an idiot (named Simplicio, offending Pope Urban VIII who had requested fair treatment of both sides); (3) the condemnation was partly personal and political (Urban felt betrayed by a friend). Reveals: the relationship was negotiated and contextual, not inherently oppositional — natural philosophers needed Church patronage and operated within theological constraints.", acceptableAnswers: ["Church tolerated heliocentrism as hypothesis since Copernicus 1543", "Galileo presented physical truth without proof tides argument wrong and Simplicio offended Urban VIII", "relationship was negotiated and contextual not inherently oppositional natural philosophers needed Church patronage"] },
-    ],
-  },
-  {
     id: "behavioral_economics",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Behavioral Economics",
     culture: "universal",
     description: "Kahneman and Tversky, loss aversion, nudge theory, present bias, and why humans are not rational agents.",
@@ -50030,46 +49687,10 @@ const CATEGORIES: Category[] = [
       { id: "beheco_600_03", categoryId: "behavioral_economics", tier: 600, prompt: "What is the St. Petersburg Paradox — and how does Bernoulli's expected utility theory resolve it, and what is the problem with that resolution?", answer: "St. Petersburg Paradox (1713): a coin is flipped until tails. If heads appears n times before tails, you win $2^n. Expected value is infinite (½×$2 + ¼×$4 + ⅛×$8 ... = 1+1+1... = ∞). Yet rational people would only pay a modest sum to play. Bernoulli's resolution (1738): people maximize expected utility of outcomes not expected monetary value — and utility of wealth follows a concave (logarithmic) function: marginal utility diminishes. This is now the foundation of expected utility theory. Problem with the resolution: the super-St. Petersburg Paradox — construct a game where payoffs grow fast enough to still have infinite expected utility even with logarithmic concavity. No concave utility function fully resolves it. Also: the game has no practical implementation (requires infinite casino wealth) — some argue it's a mathematical curiosity not a real economic problem.", acceptableAnswers: ["coin until tails wins 2^n infinite expected value but people pay modest sum", "Bernoulli: maximize expected utility not monetary value diminishing marginal utility concave function", "problem: super-St. Petersburg constructs payoffs fast enough to still have infinite expected utility with any concave function"] },
     ],
   },
-  {
-    id: "world_cinema",
-    group: "Cultural",
-    name: "World Cinema",
-    culture: "universal",
-    description: "French New Wave jump cuts, Kurosawa's Rashomon effect, Italian neorealism, Iranian innovation under censorship, and Third Cinema.",
-    questions: [
-      { id: "wcinema_200_01", categoryId: "world_cinema", tier: 200, prompt: "What was the French New Wave (Nouvelle Vague) — and what specific techniques did it introduce that became standard in filmmaking?", answer: "French New Wave (c.1958–68, Godard, Truffaut, Chabrol, Rivette, Rohmer — Cahiers du Cinéma critics turned directors): rejected expensive studio productions ('tradition of quality') for location shooting, improvisation, and the director's personal vision (auteur theory). Techniques introduced/popularized: (1) jump cuts (Godard's Breathless) — editing out of continuity for rhythmic/expressive effect; (2) handheld camera for naturalism; (3) direct sound recording on location; (4) direct address to camera (breaking the fourth wall); (5) non-linear narrative; (6) improvised dialogue. The auteur theory — director as primary author — became the dominant critical framework for cinema worldwide.", acceptableAnswers: ["Cahiers critics Godard Truffaut Chabrol rejecting studio productions for location auteur filmmaking", "jump cuts handheld camera direct sound direct address non-linear improvisation", "auteur theory director as primary author became dominant critical framework"] },
-      { id: "wcinema_200_02", categoryId: "world_cinema", tier: 200, prompt: "Akira Kurosawa's 'Rashomon' (1950) introduced what narrative structure — and why was it philosophically significant?", answer: "Rashomon structure: four contradictory accounts of the same event (a samurai's death) from different witnesses — none verifiably true, all self-serving. The film never reveals which (if any) is true. Philosophical significance: radical subjectivity of truth — eyewitness accounts are shaped by self-interest and self-deception; the film indicts not just specific characters but human capacity for self-serving narrative; opened cinema to structural ambiguity as serious artistic device. It also introduced both the 'Rashomon effect' (named concept in philosophy and sociology) and the idea that Japanese cinema could have international artistic significance — its Venice Golden Lion (1951) opened Western distribution to world cinema.", acceptableAnswers: ["four contradictory accounts of same event none revealed as true", "radical subjectivity of truth self-interest shapes all witness testimony", "Rashomon effect became named concept in philosophy sociology opened Western distribution of world cinema"] },
-      { id: "wcinema_200_03", categoryId: "world_cinema", tier: 200, prompt: "What is Italian Neorealism — and what political and economic conditions produced it?", answer: "Italian Neorealism (c.1943–52): post-war filmmaking using non-professional actors, actual locations (bomb-damaged cities, rural poverty), natural lighting, and focus on working-class life (Rossellini's Rome Open City, Bicycle Thieves, La Terra Trema). Political and economic conditions: (1) destruction of the Cinecittà studio system under fascism and Allied bombing forced location shooting; (2) raw film stock was scarce; (3) the anti-fascist reconstruction climate demanded films showing the reality of Italian poverty and occupation; (4) neo-Marxist intellectual environment (Gramsci's influence) directed attention to class and material conditions. Neorealism directly influenced the French New Wave, Iranian New Wave, and Brazilian Cinema Novo.", acceptableAnswers: ["non-professional actors real locations natural lighting working-class focus post-war Italy", "Cinecittà destroyed raw stock scarce anti-fascist reconstruction politics produced it", "influenced French New Wave Iranian New Wave Brazilian Cinema Novo"] },
-      { id: "wcinema_400_01", categoryId: "world_cinema", tier: 400, prompt: "Iranian cinema produced major art films in the 1990s despite strict censorship. How did censorship paradoxically enable aesthetic innovation?", answer: "Iranian New Wave (Kiarostami, Makhmalbaf, Panahi): strict Islamic Republic censorship prohibited showing women without hijab in any context, physical contact between unrelated men and women, and explicit violence or sexuality. Paradoxical enabling: (1) directors developed oblique, elliptical strategies to imply what they couldn't show — Kiarostami's minimalism grew from working within constraints; (2) children's stories and childhood perspectives were permitted — became a major mode (Where Is the Friend's House?, Children of Heaven); (3) constraints pushed filmmakers toward metaphor, suggestion, and formal experiment rather than conventional narrative; (4) international festival circuit rewarded precisely these oblique strategies as sophisticated art cinema.", acceptableAnswers: ["censorship prohibited women without hijab physical contact — pushed directors toward oblique elliptical strategies", "children's perspectives permitted became major mode Children of Heaven Where Is Friend's House", "international festival circuit rewarded oblique constraint-driven strategies as sophisticated art"] },
-      { id: "wcinema_400_02", categoryId: "world_cinema", tier: 400, prompt: "What makes Wong Kar-wai's approach to filmmaking distinctive — and why is 'In the Mood for Love' (2000) considered formally unusual?", answer: "Wong Kar-wai's approach: scripts don't exist before filming — he develops scenes during production through improvisation with actors; extremely long shooting schedules (In the Mood for Love shot over 15 months); cinematographer (Doyle/Mark Lee Ping-bing) uses high-contrast lighting, selective focus, and step-printing (printing every other frame to create a slowed, doubled motion effect). In the Mood for Love is formally unusual: (1) the central relationship (suspected mutual infidelity between neighbors) is never confirmed; (2) the affair's beginning is never shown; (3) compression and ellipsis carry narrative weight — what's left out is the film's subject; (4) the score (Yumeji's Theme) plays repeatedly, marking time passing through musical repetition.", acceptableAnswers: ["no pre-written scripts 15-month shoot improvised during production", "step-printing every other frame slowed doubled motion with high contrast selective focus", "central relationship never confirmed affair never shown ellipsis and omission is the film's subject"] },
-      { id: "wcinema_400_03", categoryId: "world_cinema", tier: 400, prompt: "What is the significance of the 'Dogme 95' movement — and why did Lars von Trier later violate its own rules?", answer: "Dogme 95 (Lars von Trier and Thomas Vinterberg, 1995): a manifesto ('Vow of Chastity') prohibiting non-diegetic music, post-production optical work, non-location lighting, props not found on location, genre films, and director's credit. Goal: strip cinema to essential human drama without production artifice. Significance: reacted against Hollywood and European art cinema's fetishization of technique; produced Festen (Vinterberg, 1998) and The Idiots (von Trier, 1998) — major works; spawned dozens of international certified Dogme films. Von Trier's violations: The Idiots used non-diegetic sound in post-production. He acknowledged this, saying the manifesto's value was as provocation and creative constraint, not a literal code to follow. He later moved to entirely artificial theatrical filmmaking (Dancer in the Dark, Melancholia).", acceptableAnswers: ["Vow of Chastity: no non-diegetic music no post-production lighting no genre films no director credit", "produced Festen and The Idiots Vinterberg and von Trier", "von Trier violated it The Idiots had non-diegetic sound said value was provocation not literal code"] },
-      { id: "wcinema_600_01", categoryId: "world_cinema", tier: 600, prompt: "How does Andrei Tarkovsky's theory of cinema — articulated in 'Sculpting in Time' — differ from most cinematic theory?", answer: "Tarkovsky's theory: cinema's specific material is time — not images, not narrative, not psychological realism. Editing is not about constructing meaning through montage (against Eisenstein's dialectical collision) but about joining shots that have the same 'pressure of time' — the texture of duration. His films (Andrei Rublev, Stalker, The Mirror, Solaris) use extremely long takes with slow camera movement to allow the viewer to inhabit time rather than observe cut-up events. Differences: (1) against Eisenstein: rejects montage as film's primary device; (2) against narrative-causal cinema: images don't advance plot but open temporal experience; (3) against semiotics: images are not signs but direct representations of time experienced; (4) explicitly spiritual — cinema capable of direct transmission of felt experience as poetry and music achieve.", acceptableAnswers: ["cinema's specific material is time not images narrative or montage", "against Eisenstein: montage creates meaning Tarkovsky joins shots of same time-pressure instead", "images not signs but direct representations of felt temporal experience — explicitly spiritual goal"] },
-      { id: "wcinema_600_02", categoryId: "world_cinema", tier: 600, prompt: "What is 'Third Cinema' — and how does it theorize the political function of film differently from Hollywood and European art cinema?", answer: "Third Cinema (Fernando Solanas and Octavio Getino, 'Towards a Third Cinema,' 1969; also Glauber Rocha, Tomás Gutiérrez Alea): developed from Latin American revolutionary filmmaking. First Cinema: Hollywood — industrial, commercial, entertainment. Second Cinema: European art cinema — auteur, personal expression, bourgeois individualism. Third Cinema: cinema of decolonization and anti-imperialism — made collectively, distributed outside commercial channels (to workers' organizations, liberation movements), intended to provoke action not contemplation. Solanas/Getino's La Hora de los Hornos (1968): shown in clandestine screenings with debate between reels, explicitly agitational. Theoretical difference: film as political weapon and collective process, not individual artistic expression or consumer entertainment.", acceptableAnswers: ["Hollywood First Cinema art cinema Second Third Cinema decolonization collective anti-imperialist filmmaking", "shown clandestinely to workers movements intended to provoke action not contemplation", "La Hora de los Hornos with debate between reels film as collective political weapon not individual expression"] },
-      { id: "wcinema_600_03", categoryId: "world_cinema", tier: 600, prompt: "How does Ousmane Sembène's practice challenge both the Western film industry and the oral tradition of the West African griot?", answer: "Sembène (Senegal, 1923–2007), trained in the Soviet Union under Mark Donskoy, the 'father of African cinema.' Challenges Western film industry: (1) made films in Wolof and other African languages rather than French — refused to make African stories primarily accessible to French-speaking elites; (2) depicted African postcolonial corruption, tradition vs. modernity, Islamic authority vs. women's autonomy from an African perspective without European mediation; (3) operated outside commercial distribution through communal village screenings. Challenges griot tradition: Sembène positioned film as a contemporary griot — but argued traditional griots served the ruling class (attached to nobles and providing praise-songs). Film could reach common people and critique power, which the praise-song griot could not.", acceptableAnswers: ["filmed in Wolof refused French to reach non-elite African audiences", "film as contemporary griot but traditional griots served ruling class film could critique power", "African postcolonial corruption tradition vs modernity Islamic authority vs women's autonomy from African perspective"] },
-    ],
-  },
-  {
-    id: "evolutionary_biology",
-    group: "Science & Ideas",
-    name: "Evolutionary Biology",
-    culture: "universal",
-    description: "Hamilton's rule, the Modern Synthesis, evo-devo, genetic drift, spandrels, and multilevel selection.",
-    questions: [
-      { id: "evobio_200_01", categoryId: "evolutionary_biology", tier: 200, prompt: "What is 'inclusive fitness' — and how does Hamilton's rule explain altruistic behavior?", answer: "Inclusive fitness (W.D. Hamilton, 1964): an organism's fitness includes not just its own reproductive success but the reproductive success of genetic relatives, weighted by degree of relatedness. Hamilton's rule: altruistic behavior evolves when rB > C — where r = coefficient of relatedness, B = reproductive benefit to the recipient, C = reproductive cost to the actor. Explains altruism: giving food to a sibling (r=0.5) is genetically 'selfish' if the benefit to the sibling exceeds twice the cost to the altruist. J.B.S. Haldane's quip: 'I would lay down my life for two brothers or eight cousins' — a literal statement of rB > C at r=0.5 and r=0.125.", acceptableAnswers: ["fitness includes own and genetic relatives' reproduction weighted by relatedness", "Hamilton's rule rB > C altruism evolves when relatedness times benefit exceeds cost", "Haldane two brothers or eight cousins is literal application of rB > C"] },
-      { id: "evobio_200_02", categoryId: "evolutionary_biology", tier: 200, prompt: "What was the significance of the 'mitochondrial Eve' hypothesis — and how has it been refined?", answer: "Mitochondrial Eve: the most recent common matrilineal ancestor of all living humans — the woman from whom all modern humans descend through an unbroken line of mothers (mitochondrial DNA is inherited only through mothers). Original claim (1987, Cann, Stoneking, Wilson): all human mitochondrial DNA traces to a woman who lived ~200,000 years ago in Africa — supporting the Out of Africa hypothesis. Refinements: (1) she was not the only woman alive — all others' mitochondrial lineages went extinct through chance (their daughters had no daughters); (2) date has been revised and refined; (3) ancient DNA shows Neanderthal and Denisovan introgression — some humans carry ~1-4% non-African archaic ancestry.", acceptableAnswers: ["most recent common matrilineal ancestor ~200,000 years ago in Africa", "not the only woman alive all others' mitochondrial lineages went extinct through chance", "refined by Neanderthal Denisovan introgression ~1-4% archaic ancestry in non-Africans"] },
-      { id: "evobio_200_03", categoryId: "evolutionary_biology", tier: 200, prompt: "What is 'sexual selection' — and how does the peacock's tail illustrate the tension between natural and sexual selection?", answer: "Sexual selection (Darwin, 1871): traits evolve because they improve mating success — not survival fitness. Two mechanisms: intrasexual selection (competition among males — antlers, size) and intersexual selection (mate preference, usually female choice driving male ornament). Peacock's tail: the extravagant tail reduces survival fitness (metabolically expensive, increases predation risk, impairs flight). It evolves because females prefer males with larger tails — males with preferred tails reproduce more. Tension: survival fitness and reproductive fitness can conflict — sexual selection can produce traits 'maladaptive' by survival standards. Zahavian handicap principle: the tail's costliness is itself the honest signal — only genuinely fit males survive bearing a costly ornament.", acceptableAnswers: ["traits evolve because they improve mating success not survival fitness", "peacock tail: survival cost but female preference drives evolution — conflict between survival and reproductive fitness", "Zahavian handicap: costliness itself is the honest signal only fit males survive bearing it"] },
-      { id: "evobio_400_01", categoryId: "evolutionary_biology", tier: 400, prompt: "What was the 'Modern Synthesis' — and what did it integrate that Darwin's original theory lacked?", answer: "The Modern Synthesis (1930s–40s): unification of Darwinian evolution (natural selection) with Mendelian genetics (inheritance of discrete factors/genes) — previously seen as contradictory. Key figures: Ronald Fisher, J.B.S. Haldane, Sewall Wright (population genetics); Theodosius Dobzhansky (genetics + field biology); Ernst Mayr (species concepts, geographic speciation); G.G. Simpson (paleontology); Julian Huxley (named the synthesis). Darwin lacked: a mechanism of heredity — he didn't know how traits were transmitted or how variation was generated and maintained. Mendel's genetics (rediscovered 1900) provided this. Fisher showed that natural selection acting on Mendelian variation produces the gradual continuous change Darwin observed.", acceptableAnswers: ["unified Darwinian natural selection with Mendelian genetics previously seen as contradictory", "Darwin lacked heredity mechanism Mendel provided discrete gene inheritance and variation source", "Fisher Haldane Wright Dobzhansky Mayr Simpson population genetics species concepts paleontology synthesis"] },
-      { id: "evobio_400_02", categoryId: "evolutionary_biology", tier: 400, prompt: "What is 'evo-devo' (evolutionary developmental biology) — and how did it challenge the gene-centric Modern Synthesis?", answer: "Evo-devo: the study of how changes in developmental processes (gene regulation, embryology, timing) drive evolutionary change. Key finding: Hox genes (governing body plan organization) are nearly identical across flies, mice, and humans — the same developmental toolkit reused across enormously different body plans. This challenged the Modern Synthesis: (1) major morphological differences between phyla arise from different patterns of gene regulation and expression, not different structural genes; (2) regulatory changes (switches, cis-regulatory elements) can produce major phenotypic effects from small genetic changes; (3) convergent evolution is less surprising if the same developmental toolkit is shared; (4) developmental constraints shape what variations are possible — not all genetic changes are equally available to selection.", acceptableAnswers: ["Hox genes nearly identical across flies mice humans same toolkit different body plans", "major morphological differences from regulatory changes not different structural genes", "developmental constraints shape what variations are available challenging gene-centric Modern Synthesis"] },
-      { id: "evobio_400_03", categoryId: "evolutionary_biology", tier: 400, prompt: "What is 'genetic drift' — and why does it become the dominant evolutionary force in small populations?", answer: "Genetic drift: random changes in allele frequency due to chance sampling of which individuals reproduce — not selection. In large populations, random deviations average out — neutral alleles persist. In small populations: random sampling error is large relative to population size. A rare allele can be lost by chance even if it's not deleterious; common alleles can be fixed even if not advantageous. Founder effect: when a small group founds a new population, random allele frequencies in the founders determine descendants' genetic makeup (example: Ashkenazi Jewish genetic diseases concentrated by founder effect). Bottleneck effect: population crash followed by recovery — all descendants share only the genetic variation of the survivors.", acceptableAnswers: ["random changes in allele frequency from chance reproduction sampling not selection", "dominant in small populations because random deviations large relative to population size", "founder effect Ashkenazi Jewish genetic diseases bottleneck effect concentrates survivor variation"] },
-      { id: "evobio_600_01", categoryId: "evolutionary_biology", tier: 600, prompt: "What is the controversy over 'group selection' — and how has multilevel selection theory attempted to resolve it?", answer: "Group selection controversy: Darwin suggested selection might operate at the group level (altruistic groups outcompete selfish ones). G.C. Williams (1966) argued forcefully that group selection was too weak to overcome individual selection — the 'gene's eye view' became dominant (popularized by Dawkins). E.O. Wilson and D.S. Wilson (2007–10) revived multilevel selection: selection operates simultaneously at multiple levels (gene, organism, group) — whether group selection is important depends on population structure (sufficiently isolated groups with low gene flow allow group selection to overcome individual selection). The controversy remains active: Nowak, Tarnita, and E.O. Wilson (2010 Nature) argued against inclusive fitness (Hamilton's rule) in favor of standard multilevel selection — met with a 137-signatory rebuttal. Mathematical equivalence is still debated.", acceptableAnswers: ["Williams 1966 group selection too weak gene's eye view dominant Dawkins popularized", "E.O. Wilson and D.S. Wilson: multilevel selection operates at gene organism and group simultaneously", "Nowak Tarnita Wilson 2010 argued against inclusive fitness 137 signatories rebuffed mathematically still contested"] },
-      { id: "evobio_600_02", categoryId: "evolutionary_biology", tier: 600, prompt: "What is the 'extended evolutionary synthesis' — and what does it add to the Modern Synthesis?", answer: "Extended Evolutionary Synthesis (Laland, Pigliucci, et al., 2015+): proposes expanding the Modern Synthesis to incorporate: (1) phenotypic plasticity — organisms change phenotype in response to environment without genetic change; plasticity itself evolves and can expose new variation to selection; (2) epigenetic inheritance — non-DNA heritable changes in gene expression (methylation, histone modification) persisting across generations; (3) niche construction — organisms modify their environment in ways that feed back on their own evolution (beaver dams change selection pressures on beavers); (4) developmental bias — development channels variation (some phenotypes more evolvable than others); (5) cultural inheritance especially in humans. Controversy: many biologists argue these are already incorporated in the Modern Synthesis — the 'extension' is rhetoric not a new theory.", acceptableAnswers: ["phenotypic plasticity epigenetic inheritance niche construction developmental bias added to Modern Synthesis", "epigenetic: non-DNA heritable gene expression changes persist across generations", "controversy: many argue Modern Synthesis already incorporates these extension is rhetoric not new theory"] },
-      { id: "evobio_600_03", categoryId: "evolutionary_biology", tier: 600, prompt: "What is a 'spandrel' in evolutionary biology — and why did Gould and Lewontin's 'Spandrels of San Marco' (1979) matter?", answer: "Gould and Lewontin's argument: architectural spandrels (curved triangular spaces between arches supporting a dome — as in San Marco Basilica, Venice) are byproducts of the arch design, not purposefully designed features — yet they can be filled with mosaics that make them look intentional. They used this as a metaphor: many biological traits are byproducts of other adaptations (structural by-products, allometric constraints, genetic correlations) rather than adaptations in their own right. This challenged pan-adaptationism — the tendency (especially in sociobiology) to construct adaptive 'just-so stories' for every trait. Mattered because: (1) forced rigorous distinction between adaptive and non-adaptive explanations; (2) became the founding critique of simplistic evolutionary psychology; (3) introduced 'constraint' and 'developmental architecture' into mainstream evolutionary discussion.", acceptableAnswers: ["spandrels: architectural byproducts of arch design not purposefully designed features", "biological spandrels: traits that are byproducts of other adaptations not adaptations in own right", "challenged pan-adaptationism just-so stories founding critique of simplistic evolutionary psychology"] },
-    ],
-  },
   // ── Wave 30 ──────────────────────────────────────────────────────────────
   {
     id: "mughal_empire",
-    group: "History & Culture",
+    group: "History",
     name: "Mughal Empire",
     culture: "universal",
     description: "The empire that built the Taj Mahal — Akbar's synthesis, Shah Jahan's grandeur, Aurangzeb's overreach, and the long decline.",
@@ -50087,7 +49708,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "silk_road",
-    group: "History & Culture",
+    group: "History",
     name: "Silk Road",
     culture: "universal",
     description: "The ancient trade network connecting East Asia, Central Asia, the Middle East, and Europe — and the religions, diseases, and ideas that traveled with the goods.",
@@ -50105,7 +49726,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "polynesian_navigation",
-    group: "History & Culture",
+    group: "History",
     name: "Polynesian Navigation",
     culture: "universal",
     description: "How Polynesians settled the Pacific — the greatest feat of ocean navigation in human history, without instruments.",
@@ -50123,7 +49744,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "writing_systems",
-    group: "Science & Ideas",
+    group: "Science",
     name: "History of Writing",
     culture: "universal",
     description: "From Sumerian cuneiform to the Phoenician alphabet — how writing was invented, transmitted, lost, and decoded.",
@@ -50141,7 +49762,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "mycology",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Mycology",
     culture: "universal",
     description: "The science of fungi — decomposers, symbionts, psychedelics, and the wood wide web.",
@@ -50159,7 +49780,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "native_american_civilizations",
-    group: "History & Culture",
+    group: "History",
     name: "Native American Civilizations",
     culture: "universal",
     description: "From Cahokia to the Haudenosaunee to the Trail of Tears — the depth and diversity of Indigenous North America.",
@@ -50177,7 +49798,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "history_of_mathematics",
-    group: "Science & Ideas",
+    group: "Science",
     name: "History of Mathematics",
     culture: "universal",
     description: "The story of mathematical discovery — from Babylonian tablets and the crisis of irrational numbers to Gödel's incompleteness and the Langlands Program.",
@@ -50195,7 +49816,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "entomology",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Entomology",
     culture: "universal",
     description: "The science of insects — the most species-rich animals on Earth, and the ones propping up most of the rest of life.",
@@ -50213,7 +49834,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "stoicism",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Stoicism",
     culture: "universal",
     description: "The ancient philosophy of what is and isn't in your control — from Zeno's Stoa to Marcus Aurelius's Meditations, and its contested modern revival.",
@@ -50267,7 +49888,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "the_enlightenment",
-    group: "Science & Ideas",
+    group: "Science",
     name: "The Enlightenment",
     culture: "universal",
     description: "Kant, Voltaire, Locke, Rousseau, and the radical project of grounding all knowledge and authority in human reason — and the contradictions it generated.",
@@ -50285,7 +49906,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "harlem_renaissance",
-    group: "Culture",
+    group: "History",
     name: "The Harlem Renaissance",
     culture: "universal",
     description: "Langston Hughes, Zora Neale Hurston, Du Bois, Garvey — the 1920s cultural explosion in Harlem and the debates it generated about race, art, and American identity.",
@@ -50339,7 +49960,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "surrealism",
-    group: "Culture",
+    group: "History",
     name: "Surrealism",
     culture: "universal",
     description: "André Breton, Salvador Dalí, and the movement that tried to liberate the unconscious — and ended up selling watches and fur teacups.",
@@ -50375,7 +49996,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "zoroastrianism",
-    group: "Science & Ideas",
+    group: "Science",
     name: "Zoroastrianism",
     culture: "universal",
     description: "The ancient Iranian religion that may have shaped Judaism, Christianity, and Islam — its theology, its surviving community, and its contested role in world religious history.",
@@ -50394,7 +50015,7 @@ const CATEGORIES: Category[] = [
 
   {
     id: "frieren",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Frieren: Beyond Journey's End",
     culture: "universal",
     description: "The elven mage's journey through grief, memory, and the magic she collects",
@@ -50484,7 +50105,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "gurren_lagann",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Gurren Lagann",
     culture: "universal",
     description: "Spiral Power, giant mechas, and the fight against the Anti-Spiral",
@@ -50574,7 +50195,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "tokyo_ghoul",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Tokyo Ghoul",
     culture: "universal",
     description: "The CCG vs. ghoul conflict through Ken Kaneki's transformation",
@@ -50664,7 +50285,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "sherlock_bbc",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "Sherlock (BBC)",
     culture: "american",
     description: "The modern BBC adaptation with Benedict Cumberbatch and Martin Freeman",
@@ -50754,7 +50375,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "house_md",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "House M.D.",
     culture: "american",
     description: "Diagnostic medicine, Vicodin, and the man who believes everybody lies",
@@ -50844,7 +50465,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "breaking_bad",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "Breaking Bad",
     culture: "american",
     description: "Walter White's transformation from chemistry teacher to Heisenberg",
@@ -51205,7 +50826,7 @@ const CATEGORIES: Category[] = [
 
   {
     id: "promised_neverland",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "The Promised Neverland",
     culture: "universal",
     description: "The Grace Field orphans' escape and the truth about the demon world",
@@ -51295,7 +50916,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "parasyte_maxim",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Parasyte: The Maxim",
     culture: "universal",
     description: "Shinichi Izumi and Migi navigate a world of alien parasite predators",
@@ -51385,7 +51006,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "madoka_magica",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Puella Magi Madoka Magica",
     culture: "universal",
     description: "The deconstruction of magical girl anime — grief, entropy, and Homura's loops",
@@ -52016,7 +51637,7 @@ const CATEGORIES: Category[] = [
 
   {
     id: "chernobyl_hbo",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "Chernobyl (HBO)",
     culture: "american",
     description: "Craig Mazin's 2019 miniseries about the 1986 nuclear disaster and its cover-up",
@@ -52106,7 +51727,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "severance_tv",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "Severance",
     culture: "american",
     description: "Lumon Industries, the severed floor, and the war between innies and outies",
@@ -52196,7 +51817,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "dark_netflix",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "Dark (Netflix)",
     culture: "universal",
     description: "Winden's time loops, the Kahnwald-Nielsen knot, and two parallel worlds",
@@ -52827,7 +52448,7 @@ const CATEGORIES: Category[] = [
 
   {
     id: "ngnl",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "No Game No Life",
     culture: "universal",
     description: "Blank's unbeaten record, the 10 Pledges, and mind-game strategy anime",
@@ -52917,7 +52538,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "violet_evergarden",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Violet Evergarden",
     culture: "universal",
     description: "A former weapon becomes a ghost-writer — learning what 'I love you' means",
@@ -53007,7 +52628,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_slime",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "That Time I Got Reincarnated as a Slime",
     culture: "universal",
     description: "Rimuru Tempest, the Jura Tempest Federation, and the path to Demon Lord",
@@ -53097,7 +52718,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "westworld_hbo",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "Westworld (HBO)",
     culture: "american",
     description: "Ford's loops, consciousness emergence, and the hosts' war for freedom",
@@ -53187,7 +52808,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "mindhunter_tv",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "Mindhunter",
     culture: "american",
     description: "The FBI's Behavioral Science Unit builds the science of serial killer profiling",
@@ -53638,7 +53259,7 @@ const CATEGORIES: Category[] = [
 
   {
     id: "anime_fate_universe",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Fate/Zero & Fate/Stay Night",
     culture: "universal",
     description: "The Holy Grail War, Servants, and Type-Moon's sprawling mythology",
@@ -53728,7 +53349,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_kaguya",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Kaguya-sama: Love is War",
     culture: "universal",
     description: "The psychological battle between two geniuses too proud to confess first",
@@ -53818,7 +53439,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_your_lie",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Your Lie in April",
     culture: "universal",
     description: "Kousei's silence, Kaori's music, and the spring they never forgot",
@@ -53908,7 +53529,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "mv_true_detective",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "True Detective (Season 1)",
     culture: "american",
     description: "Rust Cohle, Marty Hart, and the Yellow King in the Louisiana bayou",
@@ -53998,7 +53619,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "mv_band_of_brothers",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "Band of Brothers",
     culture: "american",
     description: "Easy Company, 506th PIR — from Toccoa to the Eagles' Nest",
@@ -54088,7 +53709,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "tv_fargo_series",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "Fargo (FX Series)",
     culture: "american",
     description: "Noah Hawley's anthology — Midwestern crime, moral rot, and unexpected darkness",
@@ -54359,7 +53980,7 @@ const CATEGORIES: Category[] = [
 
   {
     id: "anime_clannad",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Clannad & After Story",
     culture: "universal",
     description: "Tomoya, Nagisa, and Ushio — the family drama that broke a generation",
@@ -54449,7 +54070,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_anohana",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Anohana: The Flower We Saw That Day",
     culture: "universal",
     description: "A childhood ghost and the unresolved grief of six friends",
@@ -54539,7 +54160,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_toradora",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Toradora!",
     culture: "universal",
     description: "Ryuji, Taiga, and the romantic comedy that defined a genre",
@@ -54629,7 +54250,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "mv_mad_men",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "Mad Men",
     culture: "american",
     description: "Don Draper's manufactured identity and the American Dream's seductive lie",
@@ -54719,7 +54340,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "mv_the_americans",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "The Americans",
     culture: "american",
     description: "KGB spies living as a suburban couple in 1980s Washington DC",
@@ -55170,7 +54791,7 @@ const CATEGORIES: Category[] = [
 
   {
     id: "anime_trigun",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Trigun",
     culture: "universal",
     description: "Deep questions on Vash the Stampede, philosophy, and the Plant civilization",
@@ -55251,7 +54872,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_hellsing",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Hellsing Ultimate",
     culture: "universal",
     description: "Deep questions on Alucard, Integra, and the Hellsing Organization",
@@ -55332,7 +54953,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "tv_the_wire",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "The Wire",
     culture: "universal",
     description: "Deep questions on Baltimore institutions, characters, and the show's systemic critique",
@@ -55413,7 +55034,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "tv_succession",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "Succession",
     culture: "universal",
     description: "Deep questions on the Roy family, power dynamics, and HBO's Succession",
@@ -55900,7 +55521,7 @@ const CATEGORIES: Category[] = [
 
   {
     id: "anime_black_lagoon",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Black Lagoon",
     culture: "universal",
     description: "Deep questions on the Lagoon Company, Roanapur, and Rei Hiroe's world",
@@ -55981,7 +55602,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_kakegurui",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Kakegurui",
     culture: "universal",
     description: "Deep questions on Hyakkaou Academy, Jabami Yumeko, and gambling psychology",
@@ -56062,7 +55683,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_fire_force",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Fire Force",
     culture: "universal",
     description: "Deep questions on Enen no Shouboutai, infernals, and the Sol Temple conspiracy",
@@ -56143,7 +55764,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "tv_battlestar",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "Battlestar Galactica (2004)",
     culture: "universal",
     description: "Deep questions on the reimagined BSG series, cylons, and political allegory",
@@ -56224,7 +55845,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "tv_expanse",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "The Expanse",
     culture: "universal",
     description: "Deep questions on the Rocinante crew, the protomolecule, and the Belt",
@@ -56467,7 +56088,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "tv_westworld",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "Westworld (HBO)",
     culture: "universal",
     description: "Deep questions on the park, hosts, and Westworld's philosophical puzzles",
@@ -56549,7 +56170,7 @@ const CATEGORIES: Category[] = [
 
   {
     id: "tv_true_detective",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "True Detective",
     culture: "universal",
     description: "Deep questions on Cohle, Hart, and Nic Pizzolatto's anthology detective series",
@@ -56630,7 +56251,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "tv_sopranos",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "The Sopranos",
     culture: "universal",
     description: "Deep questions on Tony Soprano, the DiMeo family, and David Chase's landmark series",
@@ -56711,7 +56332,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_parasyte",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Parasyte: The Maxim",
     culture: "universal",
     description: "Deep questions on Shinichi, Migi, and Hitoshi Iwaaki's ecological horror manga",
@@ -56792,7 +56413,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_monster",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Monster",
     culture: "universal",
     description: "Deep questions on Naoki Urasawa's psychological thriller about Dr. Tenma",
@@ -57116,7 +56737,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_made_in_abyss",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Made in Abyss",
     culture: "universal",
     description: "Deep questions on Riko, Reg, the Abyss layers, and Akihito Tsukushi's world",
@@ -57198,7 +56819,7 @@ const CATEGORIES: Category[] = [
 
   {
     id: "tv_the_boys",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "The Boys (Amazon)",
     culture: "universal",
     description: "Deep questions on Vought International, the Seven, and the show's satire",
@@ -57279,7 +56900,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "tv_mr_robot",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "Mr. Robot",
     culture: "universal",
     description: "Deep questions on Elliot Alderson, fsociety, and Sam Esmail's hacking thriller",
@@ -57360,7 +56981,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "tv_dark",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "Dark (Netflix)",
     culture: "universal",
     description: "Deep questions on Winden, the time loops, and the German sci-fi thriller",
@@ -57441,7 +57062,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_gintama",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Gintama",
     culture: "universal",
     description: "Deep questions on Gintoki, Edo-era parody, and Hideaki Sorachi's epic comedy",
@@ -57766,7 +57387,7 @@ const CATEGORIES: Category[] = [
 
   {
     id: "tv_lost",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "Lost",
     culture: "universal",
     description: "Deep questions on the Island, DHARMA Initiative, and Lindelof's mystery series",
@@ -58009,7 +57630,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_shiki",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Shiki",
     culture: "universal",
     description: "Deep questions on the vampire horror anime and its moral ambiguity",
@@ -58090,7 +57711,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_yuyuhakusho",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Yu Yu Hakusho",
     culture: "universal",
     description: "Deep questions on Yusuke Urameshi, the Spirit Detective saga, and Togashi's early work",
@@ -58170,89 +57791,8 @@ const CATEGORIES: Category[] = [
     ],
   },
   {
-    id: "sp_tennis_history",
-    group: "Sports",
-    name: "Tennis: Big Three Era & Beyond",
-    culture: "universal",
-    description: "Deep questions on Federer, Nadal, Djokovic, and the modern tennis era",
-    questions: [
-      {
-        id: "ten_200_01",
-        categoryId: "sp_tennis_history",
-        tier: 200,
-        prompt: "What is the 'Big Three' in men's tennis — and what makes their simultaneous dominance historically unusual?",
-        answer: "The Big Three are Roger Federer, Rafael Nadal, and Novak Djokovic; their dominance from approximately 2004-2023 is historically unusual because three players of equal (or near-equal) greatness occupied the same era for 20 years, preventing any other player from establishing dominance; they collectively won 65 of the 83 Grand Slam tournaments contested between 2003-2023; most eras have one dominant player (Borg, McEnroe, Sampras) followed by another — the Big Three overlapped completely",
-        acceptableAnswers: ["federer, nadal, and djokovic dominated tennis simultaneously for 20 years — historically most eras have one champion", "three equals who collectively won 65 of 83 grand slams between 2003-2023", "the big three prevented any other player from establishing dominance by occupying the same era simultaneously"],
-      },
-      {
-        id: "ten_200_02",
-        categoryId: "sp_tennis_history",
-        tier: 200,
-        prompt: "What makes Rafael Nadal's record at Roland Garros statistically unique in all of professional sports?",
-        answer: "Rafael Nadal won 14 French Open titles (Roland Garros) — winning the tournament 14 out of 22 attempts between 2005-2022; his record on clay in Grand Slams is approximately 93-3 across his career; no other player in any major sport has achieved such sustained dominance at a single major championship over such a long period; winning a single Grand Slam 14 times is without equivalent in any other sport's equivalent championship format",
-        acceptableAnswers: ["14 french open titles out of 22 attempts — no equivalent of winning one major 14 times in any sport", "nadal's 14 roland garros wins and near-93-3 clay record in grand slams is without parallel in sports", "winning the same grand slam 14 times is statistically unique across all professional sports"],
-      },
-      {
-        id: "ten_200_03",
-        categoryId: "sp_tennis_history",
-        tier: 200,
-        prompt: "What is the specific physical quality that makes Novak Djokovic's defense considered technically superior to Federer and Nadal?",
-        answer: "Djokovic's physical flexibility is exceptional — he can retrieve balls that are physically outside the reach of players with normal flexibility by splitting into near-full splits during movement; his return of serve position is closer to the baseline than most players, which reduces angles but requires faster reaction; his ability to recover from defensive positions and still attack (converting a defensive position to an offensive shot rather than just resetting) is what analysts consider technically superior in defensive play",
-        acceptableAnswers: ["djokovic's extreme flexibility allows near-full splits to retrieve balls others can't reach", "his return position is closer to baseline; converts defensive positions to offensive shots rather than resetting", "djokovic's defensive quality comes from physical flexibility and the ability to attack from positions that force others to defend"],
-      },
-      {
-        id: "ten_400_01",
-        categoryId: "sp_tennis_history",
-        tier: 400,
-        prompt: "What is the 2008 Wimbledon final — and why is it considered the greatest tennis match ever played?",
-        answer: "Federer vs. Nadal in the 2008 Wimbledon final lasted 4 hours 48 minutes over five sets; the final set was 9-7 in Nadal's favor; it featured two rain delays, multiple lead changes, incredible shot-making from both players, and Federer — the 5-time defending champion on grass — losing to a clay specialist (Nadal) who had never won Wimbledon; the match is considered greatest because both players performed at their absolute peak, the drama sustained over nearly 5 hours without either player collapsing",
-        acceptableAnswers: ["federer vs nadal 2008 wimbledon; 4h48m, 5 sets, 9-7 in the 5th; a clay specialist beating the 5-time grass champion", "considered the greatest because both players peaked simultaneously over nearly 5 hours with multiple lead changes", "the 2008 wimbledon final lasted 4:48 with two rain delays — widely called the greatest match in tennis history"],
-      },
-      {
-        id: "ten_400_02",
-        categoryId: "sp_tennis_history",
-        tier: 400,
-        prompt: "What is the 'Next Gen' problem — and which players best represent its failure to emerge as expected?",
-        answer: "The 'Next Gen' problem refers to the generation of players (Zverev, Tsitsipas, Medvedev, Rublev) who were expected to replace the Big Three by approximately 2020 but have each failed to win multiple Grand Slams; Alexander Zverev has zero Grand Slam titles despite multiple finals appearances; Tsitsipas has zero titles; Medvedev won the 2021 US Open but couldn't build on it consistently; the problem is attributed to the Big Three's continued excellence preventing psychological breakthrough moments — without beating all three on a Grand Slam stage, confidence for sustained dominance hasn't materialized",
-        acceptableAnswers: ["zverev, tsitsipas, and medvedev expected to replace the big three but have collectively won almost nothing", "the next gen players can't build consistent slam dominance partly because the big three kept winning into their late 30s", "the big three's longevity prevented the psychological breakthrough needed for the next generation to establish dominance"],
-      },
-      {
-        id: "ten_400_03",
-        categoryId: "sp_tennis_history",
-        tier: 400,
-        prompt: "What is Carlos Alcaraz's specific technical contribution to the modern game — and why do analysts see him as a potential evolution beyond the Big Three style?",
-        answer: "Carlos Alcaraz (born 2003) combines elements from all three Big Three players but at 19-20 years old — Federer's variety, Nadal's physicality on clay, and Djokovic's consistency; his specific technical contribution is aggressive net play combined with baseline power, which the modern game had largely abandoned for baseline dominance; he won Roland Garros and Wimbledon on consecutive surfaces at age 20-21, which neither Federer nor Nadal achieved that young; analysts see him as a potential evolution because he plays a more physically complete style than any single Big Three player",
-        acceptableAnswers: ["alcaraz combines big three qualities with aggressive net play that baseline modern tennis had abandoned", "won consecutive clay and grass grand slams at 20-21 — something neither federer nor nadal achieved that young", "his complete style mixing all big three qualities plus net play at age 20 suggests a potential evolution beyond their individual styles"],
-      },
-      {
-        id: "ten_600_01",
-        categoryId: "sp_tennis_history",
-        tier: 600,
-        prompt: "What is the specific argument that Pete Sampras' dominance is undervalued historically — and what era context explains his reputation gap?",
-        answer: "Pete Sampras won 14 Grand Slam titles (a record until Federer) with a 286-46 Grand Slam match record; his undervaluation is argued to stem from his era's lack of media infrastructure (pre-social media, pre-global live streaming, limited internet) making his achievements less culturally embedded than Federer's nearly identical accomplishments; he also had a famously uncharismatic public presence compared to Agassi's charisma; analysts argue his technical dominance — specifically his serve-volley on grass and his clutch performance in Grand Slams — would translate to any era but his reputation was poorly served by the media context of the 1990s",
-        acceptableAnswers: ["sampras won 14 grand slams before social media made those achievements culturally embedded", "his reputation suffers from pre-internet media context that didn't amplify his dominance the way federer's was amplified", "uncharismatic presence + pre-social media era means the same record that made federer a legend left sampras undervalued"],
-      },
-      {
-        id: "ten_600_02",
-        categoryId: "sp_tennis_history",
-        tier: 600,
-        prompt: "How does the ATP ranking system systematically disadvantage clay or grass specialists — and what reform debates has this generated?",
-        answer: "ATP rankings are based on points accumulated over 52 weeks at all surfaces equally; a player who wins Roland Garros (a clay specialist) earns the same points as winning Wimbledon (grass) or the US Open (hard); but clay specialists spend enormous energy preparing for clay season while being at structural disadvantage on hard courts for 50% of the calendar; this means clay/grass specialists must perform on surfaces where they are architecturally disadvantaged to maintain ranking; debates include surface-weighted points (reflecting a player's best surface) or separate surface rankings, which would better represent performance on specific surfaces",
-        acceptableAnswers: ["atp gives equal points for all surfaces, forcing specialists to lose ranking on unfavorable surfaces 50% of the year", "a clay specialist playing hard-court majors loses ranking points even if they're the best clay player in history", "reform debates propose surface-weighted points or separate rankings to reflect specialists' genuine performance levels"],
-      },
-      {
-        id: "ten_600_03",
-        categoryId: "sp_tennis_history",
-        tier: 600,
-        prompt: "What was the 2012 Australian Open Djokovic vs Nadal final — and what physiological record did it set?",
-        answer: "The 2012 Australian Open final between Djokovic and Nadal lasted 5 hours and 53 minutes — the longest Grand Slam final in history; it was contested in extreme heat; both players required medical timeouts; Djokovic won 5-7, 6-4, 6-2, 6-7(5), 7-5; the match required both players to demonstrate physiological resilience beyond any previous Grand Slam performance; both players visibly struggled to walk after the match; it is considered the hardest physical test in tennis history at Grand Slam final level",
-        acceptableAnswers: ["the longest grand slam final ever at 5 hours 53 minutes — djokovic beat nadal in melbourne heat", "2012 australian open final; 5h53m in extreme heat; both players needed medical timeouts", "djokovic won the longest grand slam final ever; physiologically the hardest tennis match at final level in history"],
-      },
-    ],
-  },
-  {
     id: "anime_promised_neverland",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "The Promised Neverland",
     culture: "universal",
     description: "Deep questions on Grace Field House, the demons, and Kaiu Shirai's thriller",
@@ -58496,7 +58036,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "tv_breaking_bad",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "Breaking Bad",
     culture: "universal",
     description: "Deep questions on Walter White, chemistry, and Vince Gilligan's moral transformation drama",
@@ -58577,7 +58117,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "tv_house_md",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "House M.D.",
     culture: "universal",
     description: "Deep questions on Dr. Gregory House, diagnostics, and David Shore's procedural drama",
@@ -58658,7 +58198,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_nana",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Nana",
     culture: "universal",
     description: "Deep questions on Ai Yazawa's music, love, and adult life drama",
@@ -58982,7 +58522,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_sailor_moon",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Sailor Moon",
     culture: "universal",
     description: "Deep questions on Naoko Takeuchi's magical girl landmark",
@@ -59064,7 +58604,7 @@ const CATEGORIES: Category[] = [
 
   {
     id: "anime_death_parade",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Death Parade",
     culture: "universal",
     description: "Deep questions on the Death Parade anime — its mechanics, themes, and characters",
@@ -59145,7 +58685,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_violet_evergarden",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Violet Evergarden",
     culture: "universal",
     description: "Deep questions on Violet Evergarden — themes, characters, and narrative structure",
@@ -59226,7 +58766,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "tv_game_of_thrones",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "Game of Thrones",
     culture: "universal",
     description: "Deep questions on Game of Thrones — lore, characters, and behind-the-scenes decisions",
@@ -59307,7 +58847,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "tv_peaky_blinders",
-    group: "TV Shows",
+    group: "Movies & TV",
     name: "Peaky Blinders",
     culture: "universal",
     description: "Deep questions on Peaky Blinders — characters, history, and the Shelby family's rise",
@@ -59801,7 +59341,7 @@ const CATEGORIES: Category[] = [
 
   {
     id: "anime_satoshi_kon",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Satoshi Kon",
     culture: "universal",
     description:
@@ -59921,7 +59461,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "anime_ghost_shell",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "Ghost in the Shell",
     culture: "universal",
     description:
@@ -60556,7 +60096,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "hist_australia",
-    group: "History & Culture",
+    group: "History",
     name: "Australian History & Culture",
     culture: "universal",
     description:
@@ -60775,97 +60315,6 @@ const CATEGORIES: Category[] = [
   //           The French Revolution, Quantum Mechanics, Nirvana, Formula 1
   // ---------------------------------------------------------------------------
 
-  {
-    id: "anime_berserk",
-    group: "Anime",
-    name: "Berserk",
-    culture: "universal",
-    description:
-      "Guts, Griffith, the Eclipse, and Kentaro Miura's thirty-year dark fantasy masterwork.",
-    questions: [
-      {
-        id: "brsrk_200_01",
-        categoryId: "anime_berserk",
-        tier: 200,
-        prompt:
-          "Berserk's manga was created by which Japanese author, who worked on it for over 30 years until his death in 2021?",
-        answer: "Kentaro Miura",
-        acceptableAnswers: ["Kentaro Miura", "Miura"],
-      },
-      {
-        id: "brsrk_200_02",
-        categoryId: "anime_berserk",
-        tier: 200,
-        prompt:
-          "What is the name of the enormous black sword — described as a 'slab of iron' too heavy to be a true blade — carried by the protagonist Guts?",
-        answer: "Dragonslayer",
-        acceptableAnswers: ["Dragonslayer", "the Dragonslayer"],
-      },
-      {
-        id: "brsrk_200_03",
-        categoryId: "anime_berserk",
-        tier: 200,
-        prompt:
-          "The traumatic turning point of Berserk — in which Griffith sacrifices the entire Band of the Hawk to become a God Hand — is known by what name?",
-        answer: "The Eclipse",
-        acceptableAnswers: ["The Eclipse", "Eclipse"],
-      },
-      {
-        id: "brsrk_400_01",
-        categoryId: "anime_berserk",
-        tier: 400,
-        prompt:
-          "During the Eclipse, Griffith transcends humanity and joins the God Hand as a demonic entity. What is the name he takes as a member of the God Hand?",
-        answer: "Femto",
-        acceptableAnswers: ["Femto"],
-      },
-      {
-        id: "brsrk_400_02",
-        categoryId: "anime_berserk",
-        tier: 400,
-        prompt:
-          "Guts loses his left arm during the Eclipse. His replacement prosthetic arm conceals a weapon inside it. What is that weapon?",
-        answer: "A cannon",
-        acceptableAnswers: ["cannon", "a cannon", "repeating crossbow", "miniature cannon"],
-      },
-      {
-        id: "brsrk_400_03",
-        categoryId: "anime_berserk",
-        tier: 400,
-        prompt:
-          "The acclaimed 1997 Berserk anime adaptation covered which arc of the manga — following Guts and Griffith from their first meeting through the Eclipse?",
-        answer: "The Golden Age Arc",
-        acceptableAnswers: ["Golden Age Arc", "the Golden Age Arc", "Golden Age"],
-      },
-      {
-        id: "brsrk_600_01",
-        categoryId: "anime_berserk",
-        tier: 600,
-        prompt:
-          "Kentaro Miura died in May 2021, leaving Berserk unfinished. His longtime friend announced the series would continue under a studio's supervision. What is the name of that studio, founded by Miura and his collaborators?",
-        answer: "Studio Gaga",
-        acceptableAnswers: ["Studio Gaga"],
-      },
-      {
-        id: "brsrk_600_02",
-        categoryId: "anime_berserk",
-        tier: 600,
-        prompt:
-          "The Beherit — a small egg-shaped artifact that activates at its owner's moment of ultimate despair to summon the God Hand — draws its name from a word meaning 'devil' in which ancient Semitic language?",
-        answer: "Syriac",
-        acceptableAnswers: ["Syriac", "Aramaic", "Hebrew", "Semitic"],
-      },
-      {
-        id: "brsrk_600_03",
-        categoryId: "anime_berserk",
-        tier: 600,
-        prompt:
-          "Berserk's central philosophical conflict pits fate — the deterministic causality imposed by the Idea of Evil — against individual will. Guts's entire arc is a refusal to accept his 'Brand of Sacrifice.' Which Nietzschean concept — the drive to create meaning and power through self-overcoming rather than surrender — best captures Guts's stance?",
-        answer: "Will to power",
-        acceptableAnswers: ["will to power", "Nietzsche's will to power", "self-overcoming", "Übermensch"],
-      },
-    ],
-  },
   {
     id: "game_hollow_knight",
     group: "Video Games",
@@ -61737,110 +61186,6 @@ const CATEGORIES: Category[] = [
   //           Ancient Greece, Neuroscience, Cold War Espionage, NBA History
   // ---------------------------------------------------------------------------
 
-  {
-    id: "anime_monster",
-    group: "Anime",
-    name: "Monster",
-    culture: "universal",
-    description:
-      "Naoki Urasawa's psychological thriller — Dr. Tenma, Johan Liebert, and the question of whose life is worth saving.",
-    questions: [
-      {
-        id: "mnstr_200_01",
-        categoryId: "anime_monster",
-        tier: 200,
-        prompt: "Monster was created by which manga artist, also known for Pluto and 20th Century Boys?",
-        answer: "Naoki Urasawa",
-        acceptableAnswers: ["Naoki Urasawa", "Urasawa"],
-      },
-      {
-        id: "mnstr_200_02",
-        categoryId: "anime_monster",
-        tier: 200,
-        prompt: "Monster's protagonist is Dr. Kenzo Tenma, a Japanese neurosurgeon working in which European country?",
-        answer: "Germany",
-        acceptableAnswers: ["Germany", "West Germany", "post-reunification Germany"],
-      },
-      {
-        id: "mnstr_200_03",
-        categoryId: "anime_monster",
-        tier: 200,
-        prompt: "What is the name of the seemingly angelic but deeply sinister villain of Monster?",
-        answer: "Johan Liebert",
-        acceptableAnswers: ["Johan Liebert", "Johan"],
-      },
-      {
-        id: "mnstr_400_01",
-        categoryId: "anime_monster",
-        tier: 400,
-        prompt: "Johan Liebert has a twin sister who is a central character throughout Monster. What is her name?",
-        answer: "Nina Fortner",
-        acceptableAnswers: ["Nina Fortner", "Anna Liebert", "Nina"],
-      },
-      {
-        id: "mnstr_400_02",
-        categoryId: "anime_monster",
-        tier: 400,
-        prompt:
-          "Monster's central moral crisis begins when Dr. Tenma chooses to operate on a boy (Johan) over a politically important adult. What consequence does this ethical choice eventually produce?",
-        answer: "Johan grows up to become a serial killer, making Tenma feel responsible for the deaths Johan causes",
-        acceptableAnswers: [
-          "Johan becomes a serial killer",
-          "Tenma saves a monster — Johan becomes a killer and Tenma feels responsible",
-          "the boy he saved becomes a mass murderer",
-        ],
-      },
-      {
-        id: "mnstr_400_03",
-        categoryId: "anime_monster",
-        tier: 400,
-        prompt:
-          "Monster is set against the backdrop of which specific period of German history — a political transition that shapes Johan's origins and the story's atmosphere?",
-        answer: "Post-reunification Germany / the aftermath of German reunification in 1990",
-        acceptableAnswers: ["post-reunification Germany", "German reunification", "the fall of the Berlin Wall era"],
-      },
-      {
-        id: "mnstr_600_01",
-        categoryId: "anime_monster",
-        tier: 600,
-        prompt:
-          "Johan's origins trace to 'Kinderheim 511' — a secret GDR program that subjected orphans to psychological conditioning to produce the perfect soldier. What argument about the nature of evil does this backstory make?",
-        answer: "Evil is manufactured by institutions and ideology — state-sanctioned dehumanization creates monsters through systematic destruction of identity, not innate malevolence",
-        acceptableAnswers: [
-          "evil is made, not born — institutions create monsters",
-          "nurture over nature — the GDR program manufactured Johan's evil",
-          "state ideology and institutional violence produce individual evil",
-        ],
-      },
-      {
-        id: "mnstr_600_02",
-        categoryId: "anime_monster",
-        tier: 600,
-        prompt:
-          "Monster's ending is deliberately ambiguous — Tenma finds Johan's hospital bed empty after the finale. What does this ambiguity leave unresolved?",
-        answer: "Whether Johan survived; whether evil has been extinguished or merely vanished; whether Tenma's choice to save Johan again was redemptive or simply perpetuated the cycle",
-        acceptableAnswers: [
-          "whether Johan is dead or alive",
-          "whether evil has truly ended or will resurface",
-          "whether saving Johan was the right choice even the second time",
-        ],
-      },
-      {
-        id: "mnstr_600_03",
-        categoryId: "anime_monster",
-        tier: 600,
-        prompt:
-          "Urasawa's Monster belongs to a tradition of literary crime fiction rather than genre manga. Which two Western authors — one known for psychological crime thrillers, one for spy fiction — does Monster most closely resemble in its concerns and atmosphere?",
-        answer: "Thomas Harris (Silence of the Lambs — the profiler pursuing a brilliant killer) and John le Carré (institutional betrayal, Cold War moral ambiguity, European setting)",
-        acceptableAnswers: [
-          "Thomas Harris and John le Carré",
-          "Thomas Harris / Hannibal Lecter parallel",
-          "le Carré and Harris",
-          "Dostoevsky and Thomas Harris",
-        ],
-      },
-    ],
-  },
   {
     id: "game_portal",
     group: "Video Games",
@@ -62716,116 +62061,6 @@ const CATEGORIES: Category[] = [
   // ---------------------------------------------------------------------------
 
   {
-    id: "anime_made_in_abyss",
-    group: "Anime",
-    name: "Made in Abyss",
-    culture: "universal",
-    description:
-      "Akihito Tsukushi's brutal descent — Riko, Reg, the Curse of the Abyss, Bondrewd, and the cost of wonder.",
-    questions: [
-      {
-        id: "mia_200_01",
-        categoryId: "anime_made_in_abyss",
-        tier: 200,
-        prompt: "Made in Abyss was created by which manga artist?",
-        answer: "Akihito Tsukushi",
-        acceptableAnswers: ["Akihito Tsukushi", "Tsukushi"],
-      },
-      {
-        id: "mia_200_02",
-        categoryId: "anime_made_in_abyss",
-        tier: 200,
-        prompt:
-          "The Curse of the Abyss afflicts humans who ascend from deep within the chasm. How does the curse's severity change with depth?",
-        answer: "The deeper the layer, the worse the curse on ascent — ranging from nausea and disorientation at shallow depths to death or loss of humanity at the deepest layers",
-        acceptableAnswers: [
-          "severity worsens with depth — from nausea to death",
-          "deeper layers cause worse ascent effects, up to death at the sixth layer",
-          "the curse escalates from dizziness to complete transformation or death",
-        ],
-      },
-      {
-        id: "mia_200_03",
-        categoryId: "anime_made_in_abyss",
-        tier: 200,
-        prompt:
-          "Riko descends into the Abyss seeking her mother, a legendary cave raider designated with which color Whistle — the highest rank?",
-        answer: "White Whistle",
-        acceptableAnswers: ["White Whistle", "white whistle"],
-      },
-      {
-        id: "mia_400_01",
-        categoryId: "anime_made_in_abyss",
-        tier: 400,
-        prompt:
-          "Bondrewd the Novel experiments on children to transfer the Curse of the Abyss onto them. What is the name of his fifth-layer base of operations?",
-        answer: "Idofront",
-        acceptableAnswers: ["Idofront", "the Ido Front"],
-      },
-      {
-        id: "mia_400_02",
-        categoryId: "anime_made_in_abyss",
-        tier: 400,
-        prompt:
-          "Nanachi is a 'Hollow' — a human transformed by an irregular curse-transfer experiment conducted by Bondrewd. What is the name of Nanachi's companion, another victim of these experiments?",
-        answer: "Mitty",
-        acceptableAnswers: ["Mitty"],
-      },
-      {
-        id: "mia_400_03",
-        categoryId: "anime_made_in_abyss",
-        tier: 400,
-        prompt:
-          "What is the specific consequence of attempting to ascend from the Abyss's sixth layer — the 'Capital of the Unreturned'?",
-        answer: "Death or the complete loss of humanity — the curse demands the ascender 'offer up' their human form; this is why the sixth layer's inhabitants cannot return",
-        acceptableAnswers: [
-          "death or loss of humanity",
-          "the ascender loses their humanity or dies",
-          "you become a hollow or die ascending from the sixth layer",
-        ],
-      },
-      {
-        id: "mia_600_01",
-        categoryId: "anime_made_in_abyss",
-        tier: 600,
-        prompt:
-          "Made in Abyss depicts graphic suffering involving child protagonists. What narrative purpose does this serve — why does the horror function thematically rather than merely as shock?",
-        answer: "The suffering is proportional to the cost of wonder — the Abyss represents how exploration and knowledge extraction devour the vulnerable; children's suffering literalizes how curiosity and imperialism consume those with the least power",
-        acceptableAnswers: [
-          "wonder has a terrible price — the children's suffering literalizes the cost of exploration",
-          "it shows knowledge and discovery are extractive — the vulnerable pay the cost",
-          "the horror is the price of curiosity; it parallels colonial exploitation of the powerless",
-        ],
-      },
-      {
-        id: "mia_600_02",
-        categoryId: "anime_made_in_abyss",
-        tier: 600,
-        prompt:
-          "Bondrewd is disturbing precisely because he is not sadistic. What philosophical position does he hold regarding the suffering he inflicts on children?",
-        answer: "He genuinely loves the children he experiments on and believes their sacrifice advances humanity's descent into the Abyss — his evil is utilitarian conviction, not cruelty; he cannot perceive the wrong in what he does",
-        acceptableAnswers: [
-          "he loves them and sees their suffering as a necessary, loving sacrifice",
-          "utilitarian conviction — he believes the greater good justifies the harm",
-          "he's not cruel — he genuinely values the children while treating them as means to an end",
-        ],
-      },
-      {
-        id: "mia_600_03",
-        categoryId: "anime_made_in_abyss",
-        tier: 600,
-        prompt:
-          "The Cradle of Desire arc shows Irumyuui's wish for children manifesting as a parasitic physical transformation that births and devours simultaneously. What does this arc argue about the relationship between love and destruction in the series?",
-        answer: "Love in Made in Abyss is inseparable from consumption — to love deeply is to want to absorb or be absorbed by the beloved; desire literalized becomes a force that creates and destroys in the same motion",
-        acceptableAnswers: [
-          "love and destruction are the same force — desire literalized consumes what it loves",
-          "the series argues that love, taken to its extreme, becomes devouring",
-          "Irumyuui's transformation shows how love can become something that destroys its object",
-        ],
-      },
-    ],
-  },
-  {
     id: "game_hades",
     group: "Video Games",
     name: "Hades",
@@ -63616,7 +62851,7 @@ const CATEGORIES: Category[] = [
   },
   {
     id: "hist_korean_history",
-    group: "History & Culture",
+    group: "History",
     name: "Korean History",
     culture: "universal",
     description:
@@ -63725,116 +62960,6 @@ const CATEGORIES: Category[] = [
   //           Boxing History, Latin American Independence
   // ---------------------------------------------------------------------------
 
-  {
-    id: "anime_violet_evergarden",
-    group: "Anime",
-    name: "Violet Evergarden",
-    culture: "universal",
-    description:
-      "Kyoto Animation's adaptation — Violet, Auto Memory Dolls, letters, and learning to understand 'I love you.'",
-    questions: [
-      {
-        id: "ve_200_01",
-        categoryId: "anime_violet_evergarden",
-        tier: 200,
-        prompt: "Violet Evergarden was animated by which Japanese studio — the same one later devastated by an arson attack in 2019?",
-        answer: "Kyoto Animation",
-        acceptableAnswers: ["Kyoto Animation", "KyoAni"],
-      },
-      {
-        id: "ve_200_02",
-        categoryId: "anime_violet_evergarden",
-        tier: 200,
-        prompt:
-          "Violet Evergarden works as what type of professional — someone who writes letters on behalf of clients who cannot express their own feelings?",
-        answer: "An Auto Memory Doll",
-        acceptableAnswers: ["Auto Memory Doll", "a ghostwriter / Auto Memory Doll", "Auto Memories Doll"],
-      },
-      {
-        id: "ve_200_03",
-        categoryId: "anime_violet_evergarden",
-        tier: 200,
-        prompt:
-          "Violet's central quest throughout the series is to understand the meaning of which phrase — the last words spoken to her by Major Gilbert?",
-        answer: "'I love you'",
-        acceptableAnswers: ["I love you", "the meaning of 'I love you'", "love"],
-      },
-      {
-        id: "ve_400_01",
-        categoryId: "anime_violet_evergarden",
-        tier: 400,
-        prompt:
-          "Violet Evergarden is based on a light novel series by which author, which won the Kyoto Animation Award in 2014?",
-        answer: "Kana Akatsuki",
-        acceptableAnswers: ["Kana Akatsuki", "Akatsuki"],
-      },
-      {
-        id: "ve_400_02",
-        categoryId: "anime_violet_evergarden",
-        tier: 400,
-        prompt:
-          "Violet lost both arms in the war. Her prosthetic arms are described as 'auto memory doll arms.' What visual detail about them is consistently highlighted — underscoring that she is simultaneously a tool of beauty and an instrument of war?",
-        answer: "They are made of metal — elegant and precise enough to type, but the same arms that killed in battle; she wears white gloves that cover the mechanical limbs",
-        acceptableAnswers: [
-          "metal prosthetics covered by white gloves — beautiful but mechanical",
-          "the metal arms are both a typing instrument and weapons",
-          "she wears gloves to cover prosthetic arms that were also killing tools",
-        ],
-      },
-      {
-        id: "ve_400_03",
-        categoryId: "anime_violet_evergarden",
-        tier: 400,
-        prompt:
-          "Violet Evergarden's narrative structure uses standalone episodes — each featuring a different client whose letter Violet writes. What does this episodic format allow the story to do that a single continuous plot would not?",
-        answer: "It shows Violet's emotional growth through encounters with others' grief and love — each client's story reflects a different aspect of human feeling that Violet must understand; the anthology structure lets her emotional education proceed through varied human experience",
-        acceptableAnswers: [
-          "each client's story teaches Violet a different dimension of human emotion",
-          "the anthology format shows her empathy growing through others' stories",
-          "episodic structure lets diverse human experiences teach Violet about love and loss",
-        ],
-      },
-      {
-        id: "ve_600_01",
-        categoryId: "anime_violet_evergarden",
-        tier: 600,
-        prompt:
-          "The July 2019 Kyoto Animation arson attack killed 36 people — the deadliest mass murder in Japan since WWII. How did the global anime fan community respond, and what did the response reveal about anime's cultural reach?",
-        answer: "The global response — crowdfunding raising millions, international condolences, fan tributes worldwide — demonstrated that KyoAni had a deeply personal relationship with international audiences; the studio's reputation for employee care and craftsmanship made the attack feel like a loss of something irreplaceable in the medium",
-        acceptableAnswers: [
-          "global crowdfunding and tributes showed anime's global community and KyoAni's special place in it",
-          "the international response showed anime fandom had become a genuine global community with deep emotional investment",
-          "millions raised internationally revealed anime's global cultural reach and KyoAni's beloved status",
-        ],
-      },
-      {
-        id: "ve_600_02",
-        categoryId: "anime_violet_evergarden",
-        tier: 600,
-        prompt:
-          "Violet Evergarden's world is set in a post-war society resembling early 20th-century Europe. The series frames letter-writing as a dying art being replaced by technology. What does this setting allow the series to explore about communication and emotional authenticity?",
-        answer: "Letters require deliberate, effortful emotional articulation — the act of writing forces clarity about what one actually feels; the series argues that mediated, effortful communication can carry more emotional truth than immediate, spontaneous expression; Violet's struggle to write letters mirrors the universal struggle to understand and articulate feeling",
-        acceptableAnswers: [
-          "letters require emotional labor — the effort of writing produces more authentic expression than spontaneous communication",
-          "the dying art of letter-writing represents deliberate emotional articulation that technology may replace with something shallower",
-          "effortful communication forces emotional clarity — Violet's letter-writing mirrors the universal difficulty of expressing feeling",
-        ],
-      },
-      {
-        id: "ve_600_03",
-        categoryId: "anime_violet_evergarden",
-        tier: 600,
-        prompt:
-          "Violet's character arc is fundamentally about trauma and re-socialization — she was raised as a weapon, not a person. What psychological concept — the inability to recognize or name one's own emotional states — best describes her condition at the series' start?",
-        answer: "Alexithymia — difficulty identifying and describing emotional states; combined with elements of institutionalized trauma (raised without identity beyond her function as a soldier)",
-        acceptableAnswers: [
-          "alexithymia — inability to identify or name emotions",
-          "emotional illiteracy / alexithymia",
-          "institutionalized trauma with alexithymia — she cannot identify her own feelings",
-        ],
-      },
-    ],
-  },
   {
     id: "game_baldurs_gate3",
     group: "Video Games",
@@ -64751,7 +63876,7 @@ const CATEGORIES: Category[] = [
 
   {
     id: "anime_one_punch_man",
-    group: "Anime",
+    group: "Anime & Manga",
     name: "One Punch Man",
     culture: "universal",
     description:
@@ -65682,87 +64807,6 @@ const CATEGORIES: Category[] = [
 
   // ── Wave 50 ──────────────────────────────────────────────────────────────
 
-  {
-    id: "anime_vinland_saga",
-    group: "Anime & Manga",
-    name: "Vinland Saga",
-    culture: "universal",
-    description: "Makoto Yukimura's Viking-age epic of war, slavery, and the search for a true warrior's peace.",
-    questions: [
-      {
-        id: "vsa_200_01",
-        categoryId: "anime_vinland_saga",
-        tier: 200,
-        prompt: "Thorfinn's father, considered the greatest warrior in the North, is killed early in the series by which English mercenary?",
-        answer: "Askeladd",
-        acceptableAnswers: ["Askeladd"],
-      },
-      {
-        id: "vsa_200_02",
-        categoryId: "anime_vinland_saga",
-        tier: 200,
-        prompt: "Vinland Saga is set primarily during the reign of which real Danish king who ruled England, Norway, and Denmark simultaneously?",
-        answer: "Canute (Cnut the Great)",
-        acceptableAnswers: ["Canute", "Cnut", "Cnut the Great", "King Canute"],
-      },
-      {
-        id: "vsa_200_03",
-        categoryId: "anime_vinland_saga",
-        tier: 200,
-        prompt: "The title 'Vinland Saga' refers to the Norse name for a land in North America. What modern region is believed to be Vinland?",
-        answer: "Newfoundland (Canada)",
-        acceptableAnswers: ["Newfoundland", "Canada", "North America", "L'Anse aux Meadows"],
-      },
-      {
-        id: "vsa_400_01",
-        categoryId: "anime_vinland_saga",
-        tier: 400,
-        prompt: "Askeladd reveals at a pivotal moment that his mother was Welsh and that he is a descendant of which legendary British king, whom he reveres?",
-        answer: "King Arthur",
-        acceptableAnswers: ["Arthur", "King Arthur"],
-      },
-      {
-        id: "vsa_400_02",
-        categoryId: "anime_vinland_saga",
-        tier: 400,
-        prompt: "In the Farm Arc (Season 2), Thorfinn becomes a slave on whose farm in England, where he abandons violence and begins his philosophical transformation?",
-        answer: "Ketil's farm",
-        acceptableAnswers: ["Ketil", "Ketil's farm"],
-      },
-      {
-        id: "vsa_400_03",
-        categoryId: "anime_vinland_saga",
-        tier: 400,
-        prompt: "Thors, Thorfinn's father, deserted which elite Viking fighting unit — known for their berserker fury — before the events of the series?",
-        answer: "The Jomsviking",
-        acceptableAnswers: ["Jomsviking", "the Jomsvikings", "Jomsborg warriors"],
-      },
-      {
-        id: "vsa_600_01",
-        categoryId: "anime_vinland_saga",
-        tier: 600,
-        prompt: "Manga author Makoto Yukimura drew inspiration from a specific Icelandic family saga for Vinland Saga. Which saga, also the source for Leif Erikson's voyage, is it most closely tied to?",
-        answer: "The Vinland Sagas (Grœnlendinga saga / Eiríks saga rauða)",
-        acceptableAnswers: ["Vinland Sagas", "Eirik's saga", "Graenlendinga saga", "Greenland saga", "Eiríks saga rauða"],
-      },
-      {
-        id: "vsa_600_02",
-        categoryId: "anime_vinland_saga",
-        tier: 600,
-        prompt: "Askeladd's Welsh name, revealed before his death, connects him to Arthurian myth. What is this name?",
-        answer: "Lucius Artorius Castus",
-        acceptableAnswers: ["Lucius Artorius Castus", "Artorius"],
-      },
-      {
-        id: "vsa_600_03",
-        categoryId: "anime_vinland_saga",
-        tier: 600,
-        prompt: "The Farm Arc's philosophical core draws heavily on Quaker-style pacifism. Which real historical Christian community, known for radical nonviolence in early medieval Britain, does Willibald the monk represent?",
-        answer: "Celtic (Irish) Christianity / early monasticism",
-        acceptableAnswers: ["Celtic Christianity", "Irish Christianity", "early medieval monasticism", "Christian pacifism"],
-      },
-    ],
-  },
 
   {
     id: "game_outer_wilds",
