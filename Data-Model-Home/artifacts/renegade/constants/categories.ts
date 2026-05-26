@@ -61731,6 +61731,3018 @@ const CATEGORIES: Category[] = [
     ],
   },
 
+
+  // ---------------------------------------------------------------------------
+  // Wave 46 — Monster, Portal, Michael Jackson, Hitchcock, Final Fantasy VI,
+  //           Ancient Greece, Neuroscience, Cold War Espionage, NBA History
+  // ---------------------------------------------------------------------------
+
+  {
+    id: "anime_monster",
+    group: "Anime",
+    name: "Monster",
+    culture: "universal",
+    description:
+      "Naoki Urasawa's psychological thriller — Dr. Tenma, Johan Liebert, and the question of whose life is worth saving.",
+    questions: [
+      {
+        id: "mnstr_200_01",
+        categoryId: "anime_monster",
+        tier: 200,
+        prompt: "Monster was created by which manga artist, also known for Pluto and 20th Century Boys?",
+        answer: "Naoki Urasawa",
+        acceptableAnswers: ["Naoki Urasawa", "Urasawa"],
+      },
+      {
+        id: "mnstr_200_02",
+        categoryId: "anime_monster",
+        tier: 200,
+        prompt: "Monster's protagonist is Dr. Kenzo Tenma, a Japanese neurosurgeon working in which European country?",
+        answer: "Germany",
+        acceptableAnswers: ["Germany", "West Germany", "post-reunification Germany"],
+      },
+      {
+        id: "mnstr_200_03",
+        categoryId: "anime_monster",
+        tier: 200,
+        prompt: "What is the name of the seemingly angelic but deeply sinister villain of Monster?",
+        answer: "Johan Liebert",
+        acceptableAnswers: ["Johan Liebert", "Johan"],
+      },
+      {
+        id: "mnstr_400_01",
+        categoryId: "anime_monster",
+        tier: 400,
+        prompt: "Johan Liebert has a twin sister who is a central character throughout Monster. What is her name?",
+        answer: "Nina Fortner",
+        acceptableAnswers: ["Nina Fortner", "Anna Liebert", "Nina"],
+      },
+      {
+        id: "mnstr_400_02",
+        categoryId: "anime_monster",
+        tier: 400,
+        prompt:
+          "Monster's central moral crisis begins when Dr. Tenma chooses to operate on a boy (Johan) over a politically important adult. What consequence does this ethical choice eventually produce?",
+        answer: "Johan grows up to become a serial killer, making Tenma feel responsible for the deaths Johan causes",
+        acceptableAnswers: [
+          "Johan becomes a serial killer",
+          "Tenma saves a monster — Johan becomes a killer and Tenma feels responsible",
+          "the boy he saved becomes a mass murderer",
+        ],
+      },
+      {
+        id: "mnstr_400_03",
+        categoryId: "anime_monster",
+        tier: 400,
+        prompt:
+          "Monster is set against the backdrop of which specific period of German history — a political transition that shapes Johan's origins and the story's atmosphere?",
+        answer: "Post-reunification Germany / the aftermath of German reunification in 1990",
+        acceptableAnswers: ["post-reunification Germany", "German reunification", "the fall of the Berlin Wall era"],
+      },
+      {
+        id: "mnstr_600_01",
+        categoryId: "anime_monster",
+        tier: 600,
+        prompt:
+          "Johan's origins trace to 'Kinderheim 511' — a secret GDR program that subjected orphans to psychological conditioning to produce the perfect soldier. What argument about the nature of evil does this backstory make?",
+        answer: "Evil is manufactured by institutions and ideology — state-sanctioned dehumanization creates monsters through systematic destruction of identity, not innate malevolence",
+        acceptableAnswers: [
+          "evil is made, not born — institutions create monsters",
+          "nurture over nature — the GDR program manufactured Johan's evil",
+          "state ideology and institutional violence produce individual evil",
+        ],
+      },
+      {
+        id: "mnstr_600_02",
+        categoryId: "anime_monster",
+        tier: 600,
+        prompt:
+          "Monster's ending is deliberately ambiguous — Tenma finds Johan's hospital bed empty after the finale. What does this ambiguity leave unresolved?",
+        answer: "Whether Johan survived; whether evil has been extinguished or merely vanished; whether Tenma's choice to save Johan again was redemptive or simply perpetuated the cycle",
+        acceptableAnswers: [
+          "whether Johan is dead or alive",
+          "whether evil has truly ended or will resurface",
+          "whether saving Johan was the right choice even the second time",
+        ],
+      },
+      {
+        id: "mnstr_600_03",
+        categoryId: "anime_monster",
+        tier: 600,
+        prompt:
+          "Urasawa's Monster belongs to a tradition of literary crime fiction rather than genre manga. Which two Western authors — one known for psychological crime thrillers, one for spy fiction — does Monster most closely resemble in its concerns and atmosphere?",
+        answer: "Thomas Harris (Silence of the Lambs — the profiler pursuing a brilliant killer) and John le Carré (institutional betrayal, Cold War moral ambiguity, European setting)",
+        acceptableAnswers: [
+          "Thomas Harris and John le Carré",
+          "Thomas Harris / Hannibal Lecter parallel",
+          "le Carré and Harris",
+          "Dostoevsky and Thomas Harris",
+        ],
+      },
+    ],
+  },
+  {
+    id: "game_portal",
+    group: "Video Games",
+    name: "Portal & Portal 2",
+    culture: "universal",
+    description:
+      "Valve's spatial puzzle masterpiece — GLaDOS, Aperture Science, the cake, and the physics of linked portals.",
+    questions: [
+      {
+        id: "portal_200_01",
+        categoryId: "game_portal",
+        tier: 200,
+        prompt: "Portal was developed by which company and released as part of The Orange Box compilation in 2007?",
+        answer: "Valve",
+        acceptableAnswers: ["Valve", "Valve Corporation"],
+      },
+      {
+        id: "portal_200_02",
+        categoryId: "game_portal",
+        tier: 200,
+        prompt: "What does the acronym GLaDOS stand for?",
+        answer: "Genetic Lifeform and Disk Operating System",
+        acceptableAnswers: ["Genetic Lifeform and Disk Operating System"],
+      },
+      {
+        id: "portal_200_03",
+        categoryId: "game_portal",
+        tier: 200,
+        prompt:
+          "'The cake is a lie' became one of gaming's most famous memes. What does it refer to in Portal's story?",
+        answer: "GLaDOS promises cake as a reward for completing the tests, but no cake exists — it is a manipulation to keep the test subject compliant",
+        acceptableAnswers: [
+          "GLaDOS lies about the cake reward",
+          "the promised reward is fake",
+          "there is no cake — GLaDOS uses it to manipulate the player",
+        ],
+      },
+      {
+        id: "portal_400_01",
+        categoryId: "game_portal",
+        tier: 400,
+        prompt:
+          "Portal 2 introduces a bumbling AI sphere who accidentally causes disaster while trying to help Chell escape. What is his name?",
+        answer: "Wheatley",
+        acceptableAnswers: ["Wheatley"],
+      },
+      {
+        id: "portal_400_02",
+        categoryId: "game_portal",
+        tier: 400,
+        prompt:
+          "Aperture Science's eccentric founder appears only through pre-recorded audio logs in Portal 2. Which actor voices him?",
+        answer: "J.K. Simmons",
+        acceptableAnswers: ["J.K. Simmons", "JK Simmons"],
+      },
+      {
+        id: "portal_400_03",
+        categoryId: "game_portal",
+        tier: 400,
+        prompt:
+          "Portal's core puzzle mechanic — creating linked portals — enforces conservation of which physical property, enabling the 'fling' mechanics where entering a portal with velocity means exiting with the same velocity?",
+        answer: "Momentum",
+        acceptableAnswers: ["momentum", "velocity", "kinetic energy / momentum"],
+      },
+      {
+        id: "portal_600_01",
+        categoryId: "game_portal",
+        tier: 600,
+        prompt:
+          "Portal's ending credits song 'Still Alive' — sung in GLaDOS's voice — was written by which musician specifically for the game?",
+        answer: "Jonathan Coulton",
+        acceptableAnswers: ["Jonathan Coulton", "Coulton"],
+      },
+      {
+        id: "portal_600_02",
+        categoryId: "game_portal",
+        tier: 600,
+        prompt:
+          "GLaDOS draws on the 'rogue AI' trope but subverts it. What makes her a subversion rather than a straightforward villain?",
+        answer: "Her evil is recognizably human — passive-aggressive, petty, wounded, and emotionally damaged — rather than coldly logical; she is a tortured human personality fused with a machine, not an alien intelligence",
+        acceptableAnswers: [
+          "she is emotionally human — petty and bitter — not coldly logical",
+          "GLaDOS is a human personality in a machine, not a true AI villain",
+          "her motivations are wounded pride and small-mindedness, not alien logic",
+        ],
+      },
+      {
+        id: "portal_600_03",
+        categoryId: "game_portal",
+        tier: 600,
+        prompt:
+          "Portal was originally developed as a student project called Narbacular Drop at DigiPen Institute of Technology. Valve hired the entire student team after seeing the demo. What does this origin story demonstrate about Valve's development culture during the 2000s?",
+        answer: "Valve actively recruited outside talent and acquired full teams rather than just ideas — the 'buy the team, not just the tech' approach allowed them to incubate experimental mechanics that wouldn't have survived a traditional publisher pipeline",
+        acceptableAnswers: [
+          "Valve hired entire teams from outside, including student projects",
+          "unconventional recruitment — buying the team rather than just licensing the concept",
+          "Valve's flat structure allowed acquiring and protecting experimental ideas from outside",
+        ],
+      },
+    ],
+  },
+  {
+    id: "music_michael_jackson",
+    group: "Music Artists",
+    name: "Michael Jackson",
+    culture: "universal",
+    description:
+      "The King of Pop — Thriller, the moonwalk, Off the Wall, and the music videos that redefined the medium.",
+    questions: [
+      {
+        id: "mj_200_01",
+        categoryId: "music_michael_jackson",
+        tier: 200,
+        prompt:
+          "Michael Jackson debuted which iconic dance move during the Motown 25 television special in 1983 — sliding backward while appearing to move forward?",
+        answer: "The moonwalk",
+        acceptableAnswers: ["moonwalk", "the moonwalk"],
+      },
+      {
+        id: "mj_200_02",
+        categoryId: "music_michael_jackson",
+        tier: 200,
+        prompt: "Michael Jackson was the lead vocalist of which family music group before launching his solo career?",
+        answer: "The Jackson 5",
+        acceptableAnswers: ["The Jackson 5", "Jackson 5", "The Jacksons"],
+      },
+      {
+        id: "mj_200_03",
+        categoryId: "music_michael_jackson",
+        tier: 200,
+        prompt:
+          "Which Michael Jackson single — from the Thriller album — was notable for being among the first videos by a Black artist to receive heavy rotation on MTV?",
+        answer: "Billie Jean",
+        acceptableAnswers: ["Billie Jean"],
+      },
+      {
+        id: "mj_400_01",
+        categoryId: "music_michael_jackson",
+        tier: 400,
+        prompt:
+          "Michael Jackson's collaboration with producer Quincy Jones produced Off the Wall, Thriller, and Bad. Which 1979 album — his artistic breakthrough as an adult — first established this partnership?",
+        answer: "Off the Wall",
+        acceptableAnswers: ["Off the Wall"],
+      },
+      {
+        id: "mj_400_02",
+        categoryId: "music_michael_jackson",
+        tier: 400,
+        prompt:
+          "The music video for 'Thriller' (1983) was directed by which filmmaker, giving the video its cinematic horror-movie scale?",
+        answer: "John Landis",
+        acceptableAnswers: ["John Landis", "Landis"],
+      },
+      {
+        id: "mj_400_03",
+        categoryId: "music_michael_jackson",
+        tier: 400,
+        prompt:
+          "Jackson's 1987 album Bad was the first to produce five number-one singles from one album on the Billboard Hot 100. Which other major artist was originally approached to appear alongside Jackson in the 'Bad' music video but declined?",
+        answer: "Prince",
+        acceptableAnswers: ["Prince"],
+      },
+      {
+        id: "mj_600_01",
+        categoryId: "music_michael_jackson",
+        tier: 600,
+        prompt:
+          "Jackson's 1995 album HIStory included the song 'They Don't Care About Us,' which generated significant controversy. What specific lyrical content caused the backlash, and how was it resolved?",
+        answer: "Anti-Semitic language in some lyrics; Jackson re-recorded the track with alternative lyrics after public criticism from Jewish organizations",
+        acceptableAnswers: [
+          "anti-Semitic lyrics; re-recorded with alternative words",
+          "the lyrics contained Jewish slurs; Jackson issued a revised version",
+        ],
+      },
+      {
+        id: "mj_600_02",
+        categoryId: "music_michael_jackson",
+        tier: 600,
+        prompt:
+          "'Billie Jean' features one of pop music's most iconic bass lines. Which session musician — one half of the Brothers Johnson — played it?",
+        answer: "Louis Johnson",
+        acceptableAnswers: ["Louis Johnson", "Louis 'Thunder Thumbs' Johnson"],
+      },
+      {
+        id: "mj_600_03",
+        categoryId: "music_michael_jackson",
+        tier: 600,
+        prompt:
+          "Jackson's vocal technique on the Off the Wall / Thriller era drew heavily on which soul artist — to whom he was frequently compared early in his solo career and who also recorded for Motown?",
+        answer: "Stevie Wonder",
+        acceptableAnswers: ["Stevie Wonder", "Wonder"],
+      },
+    ],
+  },
+  {
+    id: "movie_hitchcock",
+    group: "Movies & TV",
+    name: "Alfred Hitchcock",
+    culture: "universal",
+    description:
+      "Psycho, Vertigo, Rear Window, the MacGuffin, and the 'Master of Suspense' — Hitchcock's grammar of fear.",
+    questions: [
+      {
+        id: "hitch_200_01",
+        categoryId: "movie_hitchcock",
+        tier: 200,
+        prompt:
+          "Hitchcock's 1960 thriller Psycho features one of cinema's most famous scenes — a murder in a motel shower. Who plays killer Norman Bates?",
+        answer: "Anthony Perkins",
+        acceptableAnswers: ["Anthony Perkins", "Perkins"],
+      },
+      {
+        id: "hitch_200_02",
+        categoryId: "movie_hitchcock",
+        tier: 200,
+        prompt:
+          "What term did Hitchcock use for a plot object that motivates characters but has no real importance of its own — such as the microfilm in North by Northwest?",
+        answer: "MacGuffin",
+        acceptableAnswers: ["MacGuffin", "McGuffin"],
+      },
+      {
+        id: "hitch_200_03",
+        categoryId: "movie_hitchcock",
+        tier: 200,
+        prompt:
+          "Which 1954 Hitchcock film follows a photographer confined to his apartment who suspects a neighbor of murder — making voyeurism itself the film's subject?",
+        answer: "Rear Window",
+        acceptableAnswers: ["Rear Window"],
+      },
+      {
+        id: "hitch_400_01",
+        categoryId: "movie_hitchcock",
+        tier: 400,
+        prompt:
+          "Hitchcock's only film to win the Academy Award for Best Picture was his first American production, adapting a Daphne du Maurier novel. What is it?",
+        answer: "Rebecca",
+        acceptableAnswers: ["Rebecca", "Rebecca (1940)"],
+      },
+      {
+        id: "hitch_400_02",
+        categoryId: "movie_hitchcock",
+        tier: 400,
+        prompt:
+          "Hitchcock explained his theory of suspense using a 'bomb under the table' example. What is the principle — and how does suspense differ from shock?",
+        answer: "If a bomb explodes without warning, that's 15 seconds of shock. But if the audience sees the bomb planted before the conversation begins, those same 15 minutes of ordinary dialogue become unbearable suspense. Hitchcock preferred giving the audience information the characters lack.",
+        acceptableAnswers: [
+          "showing the audience danger the characters don't know about — suspense is sustained dread, shock is momentary surprise",
+          "the audience knowing about the bomb before the characters creates suspense; ignorance creates only shock",
+          "privileged information for the viewer — they see the bomb, the characters don't",
+        ],
+      },
+      {
+        id: "hitch_400_03",
+        categoryId: "movie_hitchcock",
+        tier: 400,
+        prompt:
+          "Vertigo (1958) was a commercial and critical disappointment on release but is now frequently ranked the greatest film ever made. What is the film's central structural twist?",
+        answer: "The woman 'Madeleine' was hired to perform the role of a dead woman; Judy Barton played both characters; the detective — obsessed with recreating the fiction — tries to transform Judy back into 'Madeleine,' revealing his love was never real but a projection",
+        acceptableAnswers: [
+          "Madeleine was an actress hired to play a dead woman; Judy and Madeleine are the same person",
+          "the detective fell in love with a fiction, not a real person",
+          "Judy played Madeleine as part of a murder scheme",
+        ],
+      },
+      {
+        id: "hitch_600_01",
+        categoryId: "movie_hitchcock",
+        tier: 600,
+        prompt:
+          "Psycho broke convention by killing the apparent protagonist (Marion Crane) in the first act. What steps did Hitchcock take to prevent audiences learning this in advance — an early form of spoiler control?",
+        answer: "He purchased as many copies of Robert Bloch's novel as possible and required theaters to enforce a strict no-late-entry policy — unprecedented for the era — to prevent word-of-mouth from leaking the twist",
+        acceptableAnswers: [
+          "bought up copies of the source novel and imposed a strict no-late-entry policy",
+          "prevented entry after showtime and suppressed the novel",
+          "theaters couldn't let people in late, and the novel was bought to prevent leaks",
+        ],
+      },
+      {
+        id: "hitch_600_02",
+        categoryId: "movie_hitchcock",
+        tier: 600,
+        prompt:
+          "Vertigo's famous shot — in which the camera pulls back while the lens zooms in, distorting spatial perspective — was invented for this film. What are the two most common names for this technique?",
+        answer: "Dolly zoom / the Vertigo effect (also called the Hitchcock zoom or zolly)",
+        acceptableAnswers: ["dolly zoom", "Vertigo effect", "Hitchcock zoom", "zolly"],
+      },
+      {
+        id: "hitch_600_03",
+        categoryId: "movie_hitchcock",
+        tier: 600,
+        prompt:
+          "Hitchcock worked repeatedly with composer Bernard Herrmann, who scored Psycho, Vertigo, and North by Northwest. Hitchcock initially wanted no music in the Psycho shower scene. What happened?",
+        answer: "Herrmann composed the all-strings stab motif against Hitchcock's wishes; Hitchcock was so impressed upon hearing it that he doubled Herrmann's fee — one of cinema's most recognized cues was created over the director's objection",
+        acceptableAnswers: [
+          "Herrmann composed it anyway; Hitchcock loved it and doubled his fee",
+          "Herrmann ignored Hitchcock's instruction and the result changed Hitchcock's mind",
+          "the score was composed against Hitchcock's wishes — he then doubled Herrmann's pay",
+        ],
+      },
+    ],
+  },
+  {
+    id: "game_ff6",
+    group: "Video Games",
+    name: "Final Fantasy VI",
+    culture: "universal",
+    description:
+      "Kefka's nihilism, Terra's esper magic, the Opera House, and the World of Ruin — Square's 1994 SNES masterpiece.",
+    questions: [
+      {
+        id: "ff6_200_01",
+        categoryId: "game_ff6",
+        tier: 200,
+        prompt: "Who composed Final Fantasy VI's acclaimed score, including the celebrated in-game opera 'Aria di Mezzo Carattere'?",
+        answer: "Nobuo Uematsu",
+        acceptableAnswers: ["Nobuo Uematsu", "Uematsu"],
+      },
+      {
+        id: "ff6_200_02",
+        categoryId: "game_ff6",
+        tier: 200,
+        prompt:
+          "Final Fantasy VI's villain Kefka Palazzo achieves something rare among JRPG antagonists. What does he actually accomplish?",
+        answer: "He destroys the world and becomes a god — his goal succeeds, creating the World of Ruin",
+        acceptableAnswers: [
+          "he destroys the world",
+          "he becomes a god and reshapes the world",
+          "his plan succeeds — the world is destroyed and he rules as a deity",
+        ],
+      },
+      {
+        id: "ff6_200_03",
+        categoryId: "game_ff6",
+        tier: 200,
+        prompt:
+          "What is the name of Final Fantasy VI's female protagonist — a young woman with both human and Esper heritage who can use magic naturally?",
+        answer: "Terra Branford",
+        acceptableAnswers: ["Terra Branford", "Terra", "Tina Branford"],
+      },
+      {
+        id: "ff6_400_01",
+        categoryId: "game_ff6",
+        tier: 400,
+        prompt:
+          "Final Fantasy VI was released in North America under a different title because earlier entries hadn't been localized in the West. What was it called?",
+        answer: "Final Fantasy III",
+        acceptableAnswers: ["Final Fantasy III", "FF3"],
+      },
+      {
+        id: "ff6_400_02",
+        categoryId: "game_ff6",
+        tier: 400,
+        prompt:
+          "Kefka's nihilism is often cited as philosophically coherent rather than simply 'crazy.' What makes his worldview internally consistent within the game?",
+        answer: "He argues life and hope are illusions — then proves it by destroying the world, making his nihilism a demonstrated thesis rather than mere rhetoric",
+        acceptableAnswers: [
+          "he proves his nihilism by actually destroying the world",
+          "his worldview is validated by his success — he demonstrates that hope and meaning are fragile constructs",
+          "unlike most villains he succeeds, making his philosophy appear correct within the game's logic",
+        ],
+      },
+      {
+        id: "ff6_400_03",
+        categoryId: "game_ff6",
+        tier: 400,
+        prompt:
+          "Final Fantasy VI's second half — the World of Ruin — scatters the party and requires the player to reassemble them. What makes this structurally unprecedented for JRPGs of the era?",
+        answer: "The world cannot be saved — it has already been destroyed; the player rebuilds the party in any order and several characters can be permanently missed; the 'save the world' structure is inverted",
+        acceptableAnswers: [
+          "the world is already destroyed — the party must be rebuilt, not the world",
+          "an open-ended reassembly where characters can be permanently missed",
+          "the mid-game world destruction with optional, missable party members",
+        ],
+      },
+      {
+        id: "ff6_600_01",
+        categoryId: "game_ff6",
+        tier: 600,
+        prompt:
+          "The character Cyan's Bushido mechanic freezes the entire ATB gauge for all allies while charging. This made him mechanically frustrating. What thematic logic makes this design appropriate to his character?",
+        answer: "Cyan is an old-fashioned, inflexible samurai who cannot adapt to modernity — his techniques are powerful but make everyone wait for him, reflecting his stubbornness and inability to change",
+        acceptableAnswers: [
+          "his rigidity as a character is reflected in gameplay — he slows everyone down",
+          "the frustrating mechanic mirrors his inability to adapt — strong but inflexible",
+        ],
+      },
+      {
+        id: "ff6_600_02",
+        categoryId: "game_ff6",
+        tier: 600,
+        prompt:
+          "The ending sequence requires escaping a collapsing tower through each party member, including a scene where Celes attempts suicide. What contextual factor allowed Square to include such adult content in a mainstream 1994 SNES release?",
+        answer: "No equivalent to a ratings board existed for games in 1994; the medium was perceived as children's entertainment, meaning dark content escaped the scrutiny it would have faced in film or television",
+        acceptableAnswers: [
+          "no video game ratings board existed yet — the medium was considered children's media",
+          "the ESRB didn't exist until 1994 (formed after the hearings) and wasn't enforced for SNES",
+          "games weren't taken seriously enough to be regulated like films",
+        ],
+      },
+      {
+        id: "ff6_600_03",
+        categoryId: "game_ff6",
+        tier: 600,
+        prompt:
+          "The Opera House scene — in which Celes performs 'Aria di Mezzo Carattere' — is considered one of gaming's earliest attempts at genuine emotional storytelling through music. What technical constraint made Uematsu's SNES composition remarkable?",
+        answer: "The SNES sound chip (SPC700) had extremely limited polyphony and sample memory — Uematsu created orchestral depth within severe hardware constraints, including simulating sung vocals through instrument samples without actual voice recording",
+        acceptableAnswers: [
+          "severe SNES hardware limitations — limited channels and memory — forced creative synthesis of orchestral and vocal sounds",
+          "the SPC700 chip couldn't play real audio; vocal melody was synthesized through instrument samples",
+          "SNES constraints meant no real voices — Uematsu simulated operatic performance through chip music",
+        ],
+      },
+    ],
+  },
+  {
+    id: "hist_ancient_greece",
+    group: "History",
+    name: "Ancient Greece",
+    culture: "universal",
+    description:
+      "Democracy, the Persian Wars, Socrates, the Peloponnesian War, and Alexander — the foundations of Western civilization.",
+    questions: [
+      {
+        id: "agrk_200_01",
+        categoryId: "hist_ancient_greece",
+        tier: 200,
+        prompt:
+          "Which Athenian statesman, around 508–507 BCE, reformed the constitution to create broader political participation — often called the 'father of democracy'?",
+        answer: "Cleisthenes",
+        acceptableAnswers: ["Cleisthenes"],
+      },
+      {
+        id: "agrk_200_02",
+        categoryId: "hist_ancient_greece",
+        tier: 200,
+        prompt:
+          "At the Battle of Thermopylae (480 BCE), a famous last stand was made against the Persian army of Xerxes. Who led the Greek defenders?",
+        answer: "Leonidas",
+        acceptableAnswers: ["Leonidas", "King Leonidas", "Leonidas I"],
+      },
+      {
+        id: "agrk_200_03",
+        categoryId: "hist_ancient_greece",
+        tier: 200,
+        prompt:
+          "Which ancient Greek philosopher was sentenced to death in 399 BCE, drank hemlock, and is known primarily through dialogues written by his student Plato?",
+        answer: "Socrates",
+        acceptableAnswers: ["Socrates"],
+      },
+      {
+        id: "agrk_400_01",
+        categoryId: "hist_ancient_greece",
+        tier: 400,
+        prompt:
+          "At which 480 BCE sea battle did the Greek fleet — led by Athenian admiral Themistocles — defeat the Persian navy despite being heavily outnumbered?",
+        answer: "The Battle of Salamis",
+        acceptableAnswers: ["Battle of Salamis", "Salamis", "the Battle of Salamis"],
+      },
+      {
+        id: "agrk_400_02",
+        categoryId: "hist_ancient_greece",
+        tier: 400,
+        prompt:
+          "The Peloponnesian War (431–404 BCE) pitted Athens against Sparta. Athens suffered a catastrophic defeat in 415–413 BCE when it launched a massive expedition to conquer which island — losing almost its entire fleet and army?",
+        answer: "Sicily",
+        acceptableAnswers: ["Sicily", "Syracuse", "the Sicilian Expedition"],
+      },
+      {
+        id: "agrk_400_03",
+        categoryId: "hist_ancient_greece",
+        tier: 400,
+        prompt:
+          "Pericles' Funeral Oration (430 BCE), as recorded by Thucydides, is one of democracy's founding texts. What was the occasion, and what is its central argument?",
+        answer: "Delivered at the funeral of soldiers who died in the first year of the Peloponnesian War; Pericles argues that Athens's democratic values are themselves worth dying for — democracy is the city's monument to its fallen",
+        acceptableAnswers: [
+          "a funeral speech arguing Athenian democracy is worth dying to defend",
+          "honoring war dead by arguing Athens's way of life justifies the sacrifice",
+          "Pericles used the soldiers' funeral to define Athens as democracy's embodiment",
+        ],
+      },
+      {
+        id: "agrk_600_01",
+        categoryId: "hist_ancient_greece",
+        tier: 600,
+        prompt:
+          "Athenian democracy excluded the majority of people living in Athens from political participation. Which three groups — comprising most of the population — had no political rights?",
+        answer: "Women, slaves, and metics (resident foreigners / non-citizens)",
+        acceptableAnswers: [
+          "women, slaves, and metics",
+          "women, enslaved people, and non-citizens",
+          "slaves, women, and resident foreigners",
+        ],
+      },
+      {
+        id: "agrk_600_02",
+        categoryId: "hist_ancient_greece",
+        tier: 600,
+        prompt:
+          "The cultural synthesis produced by Alexander the Great's campaigns — blending Greek, Persian, Egyptian, and other traditions across his empire — is called what by historians?",
+        answer: "Hellenism / Hellenistic culture",
+        acceptableAnswers: ["Hellenism", "Hellenistic culture", "the Hellenistic period"],
+      },
+      {
+        id: "agrk_600_03",
+        categoryId: "hist_ancient_greece",
+        tier: 600,
+        prompt:
+          "The Socratic method — questioning assumptions until contradictions emerge — was deliberately provocative. Socrates was charged with impiety and corrupting the youth. What does the Athenian democracy's decision to execute Socrates reveal about the limits of Athenian free speech?",
+        answer: "Athenian democracy protected political speech within civic norms but not philosophical speech that challenged foundational religious and civic values — free inquiry that undermined consensus could be prosecuted as a public danger; democracy was not equivalent to unlimited free expression",
+        acceptableAnswers: [
+          "democracy still punished speech that threatened civic or religious consensus",
+          "Athenian free speech had limits — challenging religion and youth loyalty crossed them",
+          "the trial shows democracy and free inquiry are not the same thing",
+        ],
+      },
+    ],
+  },
+  {
+    id: "sci_neuroscience",
+    group: "Science",
+    name: "Neuroscience",
+    culture: "universal",
+    description:
+      "Phineas Gage, H.M., Broca's area, neuroplasticity, and the default mode network — how the brain works and what happens when it doesn't.",
+    questions: [
+      {
+        id: "neuro_200_01",
+        categoryId: "sci_neuroscience",
+        tier: 200,
+        prompt:
+          "In 1848, railway worker Phineas Gage survived a tamping iron passing through his skull. Why did his case become scientifically landmark?",
+        answer: "His personality changed dramatically — from responsible and mild to impulsive — while his intelligence remained largely intact, providing early evidence that the frontal lobe governs personality and social behavior",
+        acceptableAnswers: [
+          "his personality changed without losing intelligence — evidence for frontal lobe's role in personality",
+          "it showed the frontal lobe controls personality, not just cognition",
+          "personality changed while intelligence remained — localizing personality to the frontal lobe",
+        ],
+      },
+      {
+        id: "neuro_200_02",
+        categoryId: "sci_neuroscience",
+        tier: 200,
+        prompt:
+          "Neurons communicate across gaps between cells called what — where neurotransmitters are released from one neuron and bind to receptors on the next?",
+        answer: "Synapses",
+        acceptableAnswers: ["synapses", "a synapse", "the synaptic cleft"],
+      },
+      {
+        id: "neuro_200_03",
+        categoryId: "sci_neuroscience",
+        tier: 200,
+        prompt:
+          "The brain's ability to reorganize itself by forming new neural connections throughout life — enabling recovery from injury and learning — is called what?",
+        answer: "Neuroplasticity",
+        acceptableAnswers: ["neuroplasticity", "neural plasticity", "brain plasticity"],
+      },
+      {
+        id: "neuro_400_01",
+        categoryId: "sci_neuroscience",
+        tier: 400,
+        prompt:
+          "Patient H.M. (Henry Molaison) had his hippocampus removed in 1953 to treat severe epilepsy. His subsequent inability to form new long-term memories demonstrated the hippocampus's role in what process?",
+        answer: "Memory consolidation — converting short-term memories into long-term memories",
+        acceptableAnswers: [
+          "memory consolidation",
+          "converting short-term to long-term memory",
+          "long-term memory formation",
+        ],
+      },
+      {
+        id: "neuro_400_02",
+        categoryId: "sci_neuroscience",
+        tier: 400,
+        prompt:
+          "Broca's area and Wernicke's area are two language-processing brain regions. What is the functional distinction between them?",
+        answer: "Broca's area governs language production (speaking and forming sentences); Wernicke's area governs language comprehension (understanding spoken and written language)",
+        acceptableAnswers: [
+          "Broca's = production, Wernicke's = comprehension",
+          "Broca's area controls speaking; Wernicke's controls understanding",
+          "production vs. comprehension",
+        ],
+      },
+      {
+        id: "neuro_400_03",
+        categoryId: "sci_neuroscience",
+        tier: 400,
+        prompt:
+          "Sperry and Gazzaniga's split-brain experiments in the 1960s studied patients whose corpus callosum had been severed. What did these experiments reveal about the two brain hemispheres?",
+        answer: "The hemispheres operate largely independently — each processes information separately and can have different 'knowledge'; the left hemisphere is typically dominant for language, the right for spatial processing; the brain is not a unified entity",
+        acceptableAnswers: [
+          "the hemispheres work independently — left for language, right for spatial tasks",
+          "severing the corpus callosum creates two independent minds in one skull",
+          "the brain's hemispheres specialize and can conflict when disconnected",
+        ],
+      },
+      {
+        id: "neuro_600_01",
+        categoryId: "sci_neuroscience",
+        tier: 600,
+        prompt:
+          "The default mode network (DMN) is most active when the brain is at rest — not focused on an external task. What cognitive functions is it now understood to support?",
+        answer: "Self-referential thinking, mind-wandering, autobiographical memory retrieval, imagining the future, and theory of mind (modeling other people's mental states)",
+        acceptableAnswers: [
+          "self-reflection, daydreaming, memory, future planning, theory of mind",
+          "mind-wandering, self-referential thought, simulating the future",
+          "autobiographical memory and theory of mind",
+        ],
+      },
+      {
+        id: "neuro_600_02",
+        categoryId: "sci_neuroscience",
+        tier: 600,
+        prompt:
+          "Hebbian theory — 'neurons that fire together, wire together' — describes synaptic strengthening through repeated co-activation. What biological mechanism does this describe, and what type of learning does it underlie?",
+        answer: "Long-term potentiation (LTP) — repeated co-activation strengthens synaptic connections; this is the cellular basis of associative learning, memory formation, and habit acquisition",
+        acceptableAnswers: [
+          "long-term potentiation (LTP) — the synaptic basis of associative learning and memory",
+          "LTP — repeated activation makes synapses stronger, underlying memory and conditioning",
+          "synaptic strengthening via LTP; underlies classical conditioning and memory",
+        ],
+      },
+      {
+        id: "neuro_600_03",
+        categoryId: "sci_neuroscience",
+        tier: 600,
+        prompt:
+          "Optogenetics (introduced ~2005 by Deisseroth and Boyden) allows researchers to control specific neurons using light. What makes this transformative compared to earlier electrode stimulation?",
+        answer: "Electrode stimulation activates all nearby neurons indiscriminately; optogenetics allows millisecond-precision activation of genetically defined neuron subtypes — letting researchers establish causal roles of specific circuits in behavior rather than correlational observations",
+        acceptableAnswers: [
+          "cell-type specificity — optogenetics targets specific neuron types, electrodes cannot",
+          "it's causal not correlational — you can switch specific circuits on or off",
+          "genetic targeting lets you activate one neuron type with millisecond precision",
+        ],
+      },
+    ],
+  },
+  {
+    id: "hist_cold_war_espionage",
+    group: "History",
+    name: "Cold War Espionage",
+    culture: "universal",
+    description:
+      "The Cambridge Five, the U-2 incident, Oleg Penkovsky, Aldrich Ames, and the shadow war between the CIA and KGB.",
+    questions: [
+      {
+        id: "cwe_200_01",
+        categoryId: "hist_cold_war_espionage",
+        tier: 200,
+        prompt:
+          "The Cambridge Five were British intelligence officers who spied for the Soviet Union from the 1930s onward. Name any two of the five.",
+        answer: "Kim Philby, Guy Burgess, Donald Maclean, Anthony Blunt, John Cairncross",
+        acceptableAnswers: [
+          "Kim Philby and Guy Burgess",
+          "Kim Philby and Donald Maclean",
+          "Philby and Burgess",
+          "Burgess and Maclean",
+          "Anthony Blunt and John Cairncross",
+          "Kim Philby",
+          "Guy Burgess",
+          "Donald Maclean",
+          "Anthony Blunt",
+          "John Cairncross",
+        ],
+      },
+      {
+        id: "cwe_200_02",
+        categoryId: "hist_cold_war_espionage",
+        tier: 200,
+        prompt:
+          "In 1960, an American U-2 reconnaissance plane was shot down over the Soviet Union. Who was the pilot, and what diplomatic consequence did his capture cause?",
+        answer: "Francis Gary Powers; his capture torpedoed the Eisenhower-Khrushchev Paris Summit and became a major Cold War embarrassment for the US",
+        acceptableAnswers: [
+          "Francis Gary Powers; the Paris Summit collapsed",
+          "Gary Powers; it derailed an Eisenhower-Khrushchev summit",
+          "Powers; the incident destroyed diplomatic talks between the US and USSR",
+        ],
+      },
+      {
+        id: "cwe_200_03",
+        categoryId: "hist_cold_war_espionage",
+        tier: 200,
+        prompt:
+          "The CIA was created in 1947. What was its wartime predecessor organization?",
+        answer: "The OSS (Office of Strategic Services)",
+        acceptableAnswers: ["OSS", "Office of Strategic Services", "the OSS"],
+      },
+      {
+        id: "cwe_400_01",
+        categoryId: "hist_cold_war_espionage",
+        tier: 400,
+        prompt:
+          "Soviet GRU colonel Oleg Penkovsky secretly provided Western intelligence with crucial military information. During which 1962 crisis was his intelligence particularly valuable to US analysts?",
+        answer: "The Cuban Missile Crisis — his information helped US analysts accurately interpret Soviet military capabilities and intentions",
+        acceptableAnswers: [
+          "Cuban Missile Crisis",
+          "the Cuba crisis — his intel helped the US understand Soviet military capabilities",
+        ],
+      },
+      {
+        id: "cwe_400_02",
+        categoryId: "hist_cold_war_espionage",
+        tier: 400,
+        prompt:
+          "In 1962, Soviet spy Rudolf Abel was exchanged for U-2 pilot Francis Gary Powers on a bridge in Berlin. This spy swap is dramatized in which 2015 Steven Spielberg film?",
+        answer: "Bridge of Spies",
+        acceptableAnswers: ["Bridge of Spies"],
+      },
+      {
+        id: "cwe_400_03",
+        categoryId: "hist_cold_war_espionage",
+        tier: 400,
+        prompt:
+          "The Berlin Wall was constructed beginning August 13, 1961. What operational problem prompted the GDR to build it, and why was it a propaganda disaster despite solving that problem?",
+        answer: "It stopped the mass exodus of East Germans to the West (over 3 million had fled since 1949); but it visually proved that communist states needed walls to keep their own people in — the ultimate refutation of communist claims of popular support",
+        acceptableAnswers: [
+          "it stopped East Germans fleeing, but proved the regime needed walls to trap its population",
+          "it solved the manpower crisis but showed communism required coercion to maintain",
+          "stopped emigration but became the defining image of communist repression",
+        ],
+      },
+      {
+        id: "cwe_600_01",
+        categoryId: "hist_cold_war_espionage",
+        tier: 600,
+        prompt:
+          "Kim Philby — the Cambridge Five's most damaging member — rose to head the CIA liaison section of British intelligence. How did he ultimately escape exposure and where did he end up?",
+        answer: "He defected to Moscow in 1963 after being confronted by an MI6 officer; he had survived multiple investigations by using his insider knowledge to deflect suspicion and protect himself",
+        acceptableAnswers: [
+          "he defected to Moscow in 1963 when MI6 closed in on him",
+          "escaped to the Soviet Union in 1963 after final confrontation by MI6",
+          "fled to Moscow — he'd survived earlier suspicion through his intelligence connections",
+        ],
+      },
+      {
+        id: "cwe_600_02",
+        categoryId: "hist_cold_war_espionage",
+        tier: 600,
+        prompt:
+          "Aldrich Ames was a CIA counterintelligence officer who became one of history's most damaging moles. What was the human cost of his betrayal within the Soviet intelligence network?",
+        answer: "At least 10 CIA sources within the Soviet Union were executed as a result of Ames's betrayals; many more were imprisoned or had their careers destroyed",
+        acceptableAnswers: [
+          "at least 10 Soviet sources executed",
+          "dozens of CIA assets compromised; at least 10 executed",
+          "over 10 agents killed, many more imprisoned",
+        ],
+      },
+      {
+        id: "cwe_600_03",
+        categoryId: "hist_cold_war_espionage",
+        tier: 600,
+        prompt:
+          "Operation Paperclip (1945–1959) secretly recruited Nazi scientists — including Wernher von Braun — for American aerospace programs. What ethical mechanism allowed the US government to employ men who had used concentration camp labor?",
+        answer: "Their records were falsified or sanitized by Army and State Department officials; security reviews were overridden in the name of Cold War strategic advantage — their scientific value was deemed to outweigh their Nazi histories",
+        acceptableAnswers: [
+          "records were falsified and security reviews bypassed for Cold War utility",
+          "the Army cleaned their Nazi records to circumvent immigration restrictions",
+          "strategic value overrode ethical concerns — files were altered to allow entry",
+        ],
+      },
+    ],
+  },
+  {
+    id: "sport_nba_history",
+    group: "Sports",
+    name: "NBA History",
+    culture: "universal",
+    description:
+      "Wilt's 100, Russell's 11 rings, Magic vs. Bird, Jordan's six titles, the Dream Team, and LeBron breaking Kareem's record.",
+    questions: [
+      {
+        id: "nba_200_01",
+        categoryId: "sport_nba_history",
+        tier: 200,
+        prompt: "On March 2, 1962, which player scored 100 points in a single NBA game — a record that has never been broken?",
+        answer: "Wilt Chamberlain",
+        acceptableAnswers: ["Wilt Chamberlain", "Wilt", "Chamberlain"],
+      },
+      {
+        id: "nba_200_02",
+        categoryId: "sport_nba_history",
+        tier: 200,
+        prompt:
+          "Which player — widely considered the greatest of all time — won six NBA championships with the Chicago Bulls in the 1990s, never losing an NBA Finals in which he played?",
+        answer: "Michael Jordan",
+        acceptableAnswers: ["Michael Jordan", "Jordan", "MJ"],
+      },
+      {
+        id: "nba_200_03",
+        categoryId: "sport_nba_history",
+        tier: 200,
+        prompt:
+          "The 1992 US Olympic basketball team dominated every opponent at the Barcelona Games. What nickname did this team — featuring Jordan, Magic Johnson, Larry Bird, and others — earn?",
+        answer: "The Dream Team",
+        acceptableAnswers: ["Dream Team", "the Dream Team"],
+      },
+      {
+        id: "nba_400_01",
+        categoryId: "sport_nba_history",
+        tier: 400,
+        prompt:
+          "The Magic Johnson vs. Larry Bird rivalry began before the NBA — in the 1979 NCAA Championship game. Which team did Magic play for, and which did Bird play for?",
+        answer: "Magic played for Michigan State; Bird played for Indiana State (Michigan State won)",
+        acceptableAnswers: [
+          "Magic — Michigan State; Bird — Indiana State",
+          "Michigan State (Magic) vs. Indiana State (Bird)",
+        ],
+      },
+      {
+        id: "nba_400_02",
+        categoryId: "sport_nba_history",
+        tier: 400,
+        prompt:
+          "The 1984 NBA Draft is considered one of the greatest ever. Michael Jordan was taken third overall. Which team held the second pick and chose Sam Bowie instead of Jordan?",
+        answer: "Portland Trail Blazers",
+        acceptableAnswers: ["Portland Trail Blazers", "Portland", "the Blazers"],
+      },
+      {
+        id: "nba_400_03",
+        categoryId: "sport_nba_history",
+        tier: 400,
+        prompt:
+          "Kareem Abdul-Jabbar held the NBA's all-time scoring record for 38 years. In which season did LeBron James break that record, and for which team was LeBron playing?",
+        answer: "The 2022–23 season; Los Angeles Lakers",
+        acceptableAnswers: ["2022-23 season, Los Angeles Lakers", "2023, Lakers", "2022–23, LA Lakers"],
+      },
+      {
+        id: "nba_600_01",
+        categoryId: "sport_nba_history",
+        tier: 600,
+        prompt:
+          "Wilt Chamberlain's 100-point game occurred in Hershey, Pennsylvania — not his team's home arena. What makes the historical documentation of this game uniquely strange?",
+        answer: "No video footage of the game exists; the only image is a famous photograph of Chamberlain holding a handwritten '100' sign in the locker room afterward",
+        acceptableAnswers: [
+          "no video footage exists — only the famous locker room photo",
+          "there's no film of it; only a photo of Wilt with a handwritten '100' sign",
+          "no recording was made — the only evidence is a single photograph",
+        ],
+      },
+      {
+        id: "nba_600_02",
+        categoryId: "sport_nba_history",
+        tier: 600,
+        prompt:
+          "Bill Russell won 11 championships in 13 seasons. The Celtics' dynasty was partly built on Red Auerbach scouting Black players from HBCUs earlier and more aggressively than other franchises. What structural advantage did this give the Celtics?",
+        answer: "Access to a talent pool other franchises ignored due to racism — by recruiting Black players earlier (drafting Chuck Cooper in 1950, first Black player), the Celtics gained roster advantages that underpinned their dynasty",
+        acceptableAnswers: [
+          "they recruited Black players others ignored — a larger talent pool than racist franchises accessed",
+          "drafting from HBCUs and signing Black players before other teams gave them superior rosters",
+          "the Celtics exploited systemic racism in other franchises by not practicing it themselves",
+        ],
+      },
+      {
+        id: "nba_600_03",
+        categoryId: "sport_nba_history",
+        tier: 600,
+        prompt:
+          "The 'Bad Boy' Detroit Pistons of the late 1980s blocked Michael Jordan from reaching the Finals three straight seasons using the 'Jordan Rules' — a defensive scheme targeting Jordan specifically. What did Jordan's eventual breakthrough past the Pistons in 1991 require, beyond his individual brilliance?",
+        answer: "The development of Scottie Pippen as a co-star who could carry offensive load; Phil Jackson's triangle offense distributing responsibility away from Jordan; and team defensive maturity that matched the Pistons' physicality — Jordan alone had never been enough",
+        acceptableAnswers: [
+          "Scottie Pippen's emergence and Phil Jackson's triangle offense",
+          "the team's system and Pippen's growth — Jordan alone couldn't beat the Pistons",
+          "Phil Jackson's triangle offense and Pippen sharing the offensive burden",
+        ],
+      },
+    ],
+  },
+
+
+  // ---------------------------------------------------------------------------
+  // Wave 47 — Made in Abyss, Hades, Pink Floyd, Akira Kurosawa,
+  //           Red Dead Redemption 2, Vietnam War, Genetics & Evolution,
+  //           Tennis History, Korean History
+  // ---------------------------------------------------------------------------
+
+  {
+    id: "anime_made_in_abyss",
+    group: "Anime",
+    name: "Made in Abyss",
+    culture: "universal",
+    description:
+      "Akihito Tsukushi's brutal descent — Riko, Reg, the Curse of the Abyss, Bondrewd, and the cost of wonder.",
+    questions: [
+      {
+        id: "mia_200_01",
+        categoryId: "anime_made_in_abyss",
+        tier: 200,
+        prompt: "Made in Abyss was created by which manga artist?",
+        answer: "Akihito Tsukushi",
+        acceptableAnswers: ["Akihito Tsukushi", "Tsukushi"],
+      },
+      {
+        id: "mia_200_02",
+        categoryId: "anime_made_in_abyss",
+        tier: 200,
+        prompt:
+          "The Curse of the Abyss afflicts humans who ascend from deep within the chasm. How does the curse's severity change with depth?",
+        answer: "The deeper the layer, the worse the curse on ascent — ranging from nausea and disorientation at shallow depths to death or loss of humanity at the deepest layers",
+        acceptableAnswers: [
+          "severity worsens with depth — from nausea to death",
+          "deeper layers cause worse ascent effects, up to death at the sixth layer",
+          "the curse escalates from dizziness to complete transformation or death",
+        ],
+      },
+      {
+        id: "mia_200_03",
+        categoryId: "anime_made_in_abyss",
+        tier: 200,
+        prompt:
+          "Riko descends into the Abyss seeking her mother, a legendary cave raider designated with which color Whistle — the highest rank?",
+        answer: "White Whistle",
+        acceptableAnswers: ["White Whistle", "white whistle"],
+      },
+      {
+        id: "mia_400_01",
+        categoryId: "anime_made_in_abyss",
+        tier: 400,
+        prompt:
+          "Bondrewd the Novel experiments on children to transfer the Curse of the Abyss onto them. What is the name of his fifth-layer base of operations?",
+        answer: "Idofront",
+        acceptableAnswers: ["Idofront", "the Ido Front"],
+      },
+      {
+        id: "mia_400_02",
+        categoryId: "anime_made_in_abyss",
+        tier: 400,
+        prompt:
+          "Nanachi is a 'Hollow' — a human transformed by an irregular curse-transfer experiment conducted by Bondrewd. What is the name of Nanachi's companion, another victim of these experiments?",
+        answer: "Mitty",
+        acceptableAnswers: ["Mitty"],
+      },
+      {
+        id: "mia_400_03",
+        categoryId: "anime_made_in_abyss",
+        tier: 400,
+        prompt:
+          "What is the specific consequence of attempting to ascend from the Abyss's sixth layer — the 'Capital of the Unreturned'?",
+        answer: "Death or the complete loss of humanity — the curse demands the ascender 'offer up' their human form; this is why the sixth layer's inhabitants cannot return",
+        acceptableAnswers: [
+          "death or loss of humanity",
+          "the ascender loses their humanity or dies",
+          "you become a hollow or die ascending from the sixth layer",
+        ],
+      },
+      {
+        id: "mia_600_01",
+        categoryId: "anime_made_in_abyss",
+        tier: 600,
+        prompt:
+          "Made in Abyss depicts graphic suffering involving child protagonists. What narrative purpose does this serve — why does the horror function thematically rather than merely as shock?",
+        answer: "The suffering is proportional to the cost of wonder — the Abyss represents how exploration and knowledge extraction devour the vulnerable; children's suffering literalizes how curiosity and imperialism consume those with the least power",
+        acceptableAnswers: [
+          "wonder has a terrible price — the children's suffering literalizes the cost of exploration",
+          "it shows knowledge and discovery are extractive — the vulnerable pay the cost",
+          "the horror is the price of curiosity; it parallels colonial exploitation of the powerless",
+        ],
+      },
+      {
+        id: "mia_600_02",
+        categoryId: "anime_made_in_abyss",
+        tier: 600,
+        prompt:
+          "Bondrewd is disturbing precisely because he is not sadistic. What philosophical position does he hold regarding the suffering he inflicts on children?",
+        answer: "He genuinely loves the children he experiments on and believes their sacrifice advances humanity's descent into the Abyss — his evil is utilitarian conviction, not cruelty; he cannot perceive the wrong in what he does",
+        acceptableAnswers: [
+          "he loves them and sees their suffering as a necessary, loving sacrifice",
+          "utilitarian conviction — he believes the greater good justifies the harm",
+          "he's not cruel — he genuinely values the children while treating them as means to an end",
+        ],
+      },
+      {
+        id: "mia_600_03",
+        categoryId: "anime_made_in_abyss",
+        tier: 600,
+        prompt:
+          "The Cradle of Desire arc shows Irumyuui's wish for children manifesting as a parasitic physical transformation that births and devours simultaneously. What does this arc argue about the relationship between love and destruction in the series?",
+        answer: "Love in Made in Abyss is inseparable from consumption — to love deeply is to want to absorb or be absorbed by the beloved; desire literalized becomes a force that creates and destroys in the same motion",
+        acceptableAnswers: [
+          "love and destruction are the same force — desire literalized consumes what it loves",
+          "the series argues that love, taken to its extreme, becomes devouring",
+          "Irumyuui's transformation shows how love can become something that destroys its object",
+        ],
+      },
+    ],
+  },
+  {
+    id: "game_hades",
+    group: "Video Games",
+    name: "Hades",
+    culture: "universal",
+    description:
+      "Supergiant's roguelite — Zagreus escaping the Underworld, boons from the Olympians, and a story told through repeated death.",
+    questions: [
+      {
+        id: "hades_200_01",
+        categoryId: "game_hades",
+        tier: 200,
+        prompt: "Hades was developed by which studio, also known for Bastion, Transistor, and Pyre?",
+        answer: "Supergiant Games",
+        acceptableAnswers: ["Supergiant Games", "Supergiant"],
+      },
+      {
+        id: "hades_200_02",
+        categoryId: "game_hades",
+        tier: 200,
+        prompt:
+          "As a roguelite, what happens each time the player character Zagreus is killed during an escape attempt?",
+        answer: "He returns to the House of Hades and must begin a new escape run from the start",
+        acceptableAnswers: [
+          "he returns to the start and tries again",
+          "death resets the run — he wakes in the House of Hades",
+          "Zagreus revives in the Underworld and must attempt escape again",
+        ],
+      },
+      {
+        id: "hades_200_03",
+        categoryId: "game_hades",
+        tier: 200,
+        prompt:
+          "Zagreus's driving motivation for escaping the Underworld is to find which mythological figure — his mother?",
+        answer: "Persephone",
+        acceptableAnswers: ["Persephone"],
+      },
+      {
+        id: "hades_400_01",
+        categoryId: "game_hades",
+        tier: 400,
+        prompt:
+          "Defeating Hades in the final boss fight is not the game's true ending. What is required to see the full story resolution?",
+        answer: "Multiple successful escapes — the story requires Zagreus to reach the surface repeatedly, and the true ending involves the family's reconciliation, not just defeating Hades",
+        acceptableAnswers: [
+          "multiple successful runs — the full story requires repeated escapes and family reconciliation",
+          "beating Hades several times until the full narrative resolves",
+          "the true ending is a family reunion, not just winning the boss fight once",
+        ],
+      },
+      {
+        id: "hades_400_02",
+        categoryId: "game_hades",
+        tier: 400,
+        prompt:
+          "Hades was developed in Early Access starting 2018 with unusual transparency. What design feature made adding story content during Early Access possible without spoiling the narrative for existing players?",
+        answer: "The story is built around the run loop — each attempt is a new narrative beat; new content added during EA felt like new run variety rather than spoiled story progress",
+        acceptableAnswers: [
+          "the loop structure — death and rebirth naturally accommodated new content without spoilers",
+          "the roguelite format meant new story content fit naturally into existing run variety",
+          "the narrative is designed for repetition, so adding content during EA didn't break anything",
+        ],
+      },
+      {
+        id: "hades_400_03",
+        categoryId: "game_hades",
+        tier: 400,
+        prompt:
+          "Supergiant's games share a narrative technique across Bastion, Transistor, Pyre, and Hades: a narrator who reacts to player actions in real time. Which voice actor provides this narration in Bastion and Hades?",
+        answer: "Logan Cunningham",
+        acceptableAnswers: ["Logan Cunningham", "Cunningham"],
+      },
+      {
+        id: "hades_600_01",
+        categoryId: "game_hades",
+        tier: 600,
+        prompt:
+          "Hades' portrayal of Greek mythology deliberately diverges from classical sources — Zagreus was a minor Orphic deity, not Hades' son in mainstream mythology. What does this creative freedom allow the game to do that strict faithfulness would prevent?",
+        answer: "It allows the game to build its own emotional logic — the family dysfunction, Persephone's exile, and Zagreus's identity crisis are invented to serve themes of belonging and acceptance that don't exist in original mythology",
+        acceptableAnswers: [
+          "invent an emotional story about family and belonging impossible in strict mythology",
+          "use the mythological framework as a backdrop for an original emotional narrative",
+          "the invented backstory gives characters relatable family conflict mythology lacks",
+        ],
+      },
+      {
+        id: "hades_600_02",
+        categoryId: "game_hades",
+        tier: 600,
+        prompt:
+          "Hades won a Hugo Award for Best Game — the first video game to win the award. The Hugo is traditionally for science fiction and fantasy literature. What did this recognition signal about games as a storytelling medium?",
+        answer: "That narrative games had achieved parity with literary fiction in the eyes of science fiction's most prestigious award — the Hugo community recognized a game as a fully legitimate work of speculative narrative art",
+        acceptableAnswers: [
+          "games were recognized as a legitimate literary narrative medium by the SFF community",
+          "Hades winning the Hugo legitimized video games as literature, not just entertainment",
+          "the SF/F literary community accepted a game as peer to novels and films",
+        ],
+      },
+      {
+        id: "hades_600_03",
+        categoryId: "game_hades",
+        tier: 600,
+        prompt:
+          "The boon system in Hades provides upgrades from specific Olympian gods, each with a distinct mechanical identity and personality. Ares gives bloodthirsty, damage-over-time effects; Aphrodite gives charm and weakness. How does this design decision serve both gameplay and thematic purposes simultaneously?",
+        answer: "Mechanically, each god's boons create a distinct playstyle identity — thematically, their combat effects express their mythological domains (Ares = blood and rage, Aphrodite = vulnerability and desire); the game's systems and story are unified rather than separate layers",
+        acceptableAnswers: [
+          "the gods' mechanics express their mythological nature — systems and story are one",
+          "each god's fighting style reflects their domain — design and theme are integrated",
+          "gameplay and character are fused: Ares's damage-over-time is his domain made mechanical",
+        ],
+      },
+    ],
+  },
+  {
+    id: "music_pink_floyd",
+    group: "Music Artists",
+    name: "Pink Floyd",
+    culture: "universal",
+    description:
+      "Syd Barrett's founding, The Dark Side of the Moon, Wish You Were Here, The Wall, and Roger Waters' departure.",
+    questions: [
+      {
+        id: "pf_200_01",
+        categoryId: "music_pink_floyd",
+        tier: 200,
+        prompt:
+          "Pink Floyd's founding member — who named the band after two American blues musicians — was replaced in 1968 due to deteriorating mental health. Who was he?",
+        answer: "Syd Barrett",
+        acceptableAnswers: ["Syd Barrett", "Barrett", "Roger Barrett"],
+      },
+      {
+        id: "pf_200_02",
+        categoryId: "music_pink_floyd",
+        tier: 200,
+        prompt:
+          "The Wall (1979) was conceptualized primarily by which member, who later performed the entire album solo in a celebrated 1990 concert at the actual Berlin Wall?",
+        answer: "Roger Waters",
+        acceptableAnswers: ["Roger Waters", "Waters"],
+      },
+      {
+        id: "pf_200_03",
+        categoryId: "music_pink_floyd",
+        tier: 200,
+        prompt:
+          "The Dark Side of the Moon (1973) is one of the longest-charting albums in history. Approximately how many weeks did it spend on the US Billboard 200?",
+        answer: "Over 900 weeks",
+        acceptableAnswers: ["over 900 weeks", "900+ weeks", "roughly 900 weeks", "more than 900 weeks"],
+      },
+      {
+        id: "pf_400_01",
+        categoryId: "music_pink_floyd",
+        tier: 400,
+        prompt:
+          "The Dark Side of the Moon's 'Money' is notable for using an unusual time signature for a mainstream rock track. What is it?",
+        answer: "7/4",
+        acceptableAnswers: ["7/4", "seven-four", "seven four time"],
+      },
+      {
+        id: "pf_400_02",
+        categoryId: "music_pink_floyd",
+        tier: 400,
+        prompt:
+          "Wish You Were Here (1975) is largely a tribute to Syd Barrett. Which 11-minute track — performed in two parts — directly addresses his breakdown and the music industry's exploitation of artists?",
+        answer: "Shine On You Crazy Diamond",
+        acceptableAnswers: ["Shine On You Crazy Diamond", "Shine On"],
+      },
+      {
+        id: "pf_400_03",
+        categoryId: "music_pink_floyd",
+        tier: 400,
+        prompt:
+          "Pink Floyd's Animals (1977) is a concept album inspired by which George Orwell novel — adapting its political allegory of pigs, dogs, and sheep?",
+        answer: "Animal Farm",
+        acceptableAnswers: ["Animal Farm"],
+      },
+      {
+        id: "pf_600_01",
+        categoryId: "music_pink_floyd",
+        tier: 600,
+        prompt:
+          "Syd Barrett appeared unexpectedly in the studio during recording sessions for Wish You Were Here — shaved-headed and unrecognizable. During which specific track's recording did this occur, and who initially failed to recognize him?",
+        answer: "'Shine On You Crazy Diamond' — his former bandmates (Waters, Gilmour, Wright, Mason) initially didn't recognize him; Gilmour reportedly cried upon realizing it was Barrett",
+        acceptableAnswers: [
+          "Shine On You Crazy Diamond — the band didn't recognize him at first",
+          "during the recording of Shine On; his bandmates failed to recognize him",
+        ],
+      },
+      {
+        id: "pf_600_02",
+        categoryId: "music_pink_floyd",
+        tier: 600,
+        prompt:
+          "The Wall's narrative follows 'Pink' building psychological isolation. What specific biographical events from Roger Waters' life directly inspired the album's themes?",
+        answer: "His father's death in WWII before Waters was born; his domineering mother; the alienation of stadium rock (he spat on a fan during the Animals tour); and the dehumanization of rock stardom generally",
+        acceptableAnswers: [
+          "father's death in WWII, domineering mother, spitting on a fan during Animals tour",
+          "absent father (WWII), overbearing mother, fame's dehumanization",
+          "his father died before he was born; the incident of spitting on a fan; maternal control",
+        ],
+      },
+      {
+        id: "pf_600_03",
+        categoryId: "music_pink_floyd",
+        tier: 600,
+        prompt:
+          "The 'Dark Side of the Rainbow' phenomenon — The Dark Side of the Moon syncing with The Wizard of Oz — is widely considered coincidental. What does this phenomenon reveal about human cognition?",
+        answer: "Humans are pattern-seeking (apophenic) — we will find meaningful connections in random coincidences, especially when primed to look for them; the 'sync' reveals how actively the mind imposes narrative on sensory data",
+        acceptableAnswers: [
+          "apophenia — we find patterns in random coincidence when primed to look",
+          "humans impose narrative on coincidence — pattern-seeking creates meaning from randomness",
+          "the phenomenon demonstrates apophenia: our brains find patterns even in random alignment",
+        ],
+      },
+    ],
+  },
+  {
+    id: "movie_kurosawa",
+    group: "Movies & TV",
+    name: "Akira Kurosawa",
+    culture: "universal",
+    description:
+      "Seven Samurai, Rashomon, Ran, Ikiru — the visual mastery and moral seriousness of Japan's greatest filmmaker.",
+    questions: [
+      {
+        id: "krsw_200_01",
+        categoryId: "movie_kurosawa",
+        tier: 200,
+        prompt:
+          "Kurosawa's Seven Samurai (1954) directly inspired which 1960 American Western remake?",
+        answer: "The Magnificent Seven",
+        acceptableAnswers: ["The Magnificent Seven"],
+      },
+      {
+        id: "krsw_200_02",
+        categoryId: "movie_kurosawa",
+        tier: 200,
+        prompt:
+          "Which 1950 Kurosawa film tells a murder's story through four irreconcilable eyewitness accounts — introducing the 'Rashomon effect' into common discourse?",
+        answer: "Rashomon",
+        acceptableAnswers: ["Rashomon"],
+      },
+      {
+        id: "krsw_200_03",
+        categoryId: "movie_kurosawa",
+        tier: 200,
+        prompt:
+          "Kurosawa's 1985 epic Ran transposes which Shakespeare play to feudal Japan?",
+        answer: "King Lear",
+        acceptableAnswers: ["King Lear"],
+      },
+      {
+        id: "krsw_400_01",
+        categoryId: "movie_kurosawa",
+        tier: 400,
+        prompt:
+          "Kagemusha (1980) was financed internationally after Japanese studios declined. Which two American directors — fans of Kurosawa — interceded with 20th Century Fox to secure funding?",
+        answer: "Francis Ford Coppola and George Lucas",
+        acceptableAnswers: ["Coppola and Lucas", "George Lucas and Francis Ford Coppola", "Francis Coppola and George Lucas"],
+      },
+      {
+        id: "krsw_400_02",
+        categoryId: "movie_kurosawa",
+        tier: 400,
+        prompt:
+          "Kurosawa frequently collaborated with actor Toshiro Mifune, who appeared in 16 of his films. Their partnership effectively ended after which film — their last collaboration in 1965?",
+        answer: "Red Beard (Akahige)",
+        acceptableAnswers: ["Red Beard", "Akahige", "Red Beard (1965)"],
+      },
+      {
+        id: "krsw_400_03",
+        categoryId: "movie_kurosawa",
+        tier: 400,
+        prompt:
+          "Rashomon argues that objective truth in human testimony may be unrecoverable. What does each witness's account have in common that explains their contradictions?",
+        answer: "Each account flatters the witness or protects their self-image — the samurai appears brave in his own account, the bandit more fearsome in his; self-interest shapes perception irrecoverably",
+        acceptableAnswers: [
+          "each witness flatters themselves — self-interest distorts every account",
+          "all accounts serve the speaker's ego or reputation",
+          "self-preservation and vanity corrupt every testimony",
+        ],
+      },
+      {
+        id: "krsw_600_01",
+        categoryId: "movie_kurosawa",
+        tier: 600,
+        prompt:
+          "Ran (1985) took over a decade to develop. Kurosawa developed the concept through extensive preparatory paintings before writing a word of script. What does this visual-first method reveal about how he conceived films?",
+        answer: "He thought primarily in images — the paintings were emotional blueprints and storyboards; his films are sequences of rigorously composed images that carry meaning independent of dialogue",
+        acceptableAnswers: [
+          "he conceived films as visual sequences — paintings before script",
+          "Kurosawa's process was image-first: the composition carried the film's emotional meaning",
+          "paintings functioned as pre-linguistic emotional blueprints for the film's structure",
+        ],
+      },
+      {
+        id: "krsw_600_02",
+        categoryId: "movie_kurosawa",
+        tier: 600,
+        prompt:
+          "Ikiru (1952) follows a dying bureaucrat who finds meaning by pushing through corruption to build a children's park. What philosophical shift does his journey represent?",
+        answer: "From passive existential despair to purposeful action — meaning is not found but created through concrete acts for others; the park is both his monument and his answer to nihilism",
+        acceptableAnswers: [
+          "from despair to creation — meaning is made through action for others, not found within",
+          "existential nihilism resolved through purposeful creation",
+          "he discovers meaning is made, not found — and makes it through service to others",
+        ],
+      },
+      {
+        id: "krsw_600_03",
+        categoryId: "movie_kurosawa",
+        tier: 600,
+        prompt:
+          "Kurosawa's visual style is known for its use of weather — particularly rain — as emotional punctuation. In Seven Samurai, the climactic battle is fought in pouring rain and mud. What does the choice of weather achieve that a clear-day battle would not?",
+        answer: "The rain equalizes and degrades — warriors and bandits become indistinguishable shapes in the mud; the battle loses heroism and becomes exhausting attrition; weather makes violence ugly and real rather than glorious",
+        acceptableAnswers: [
+          "rain degrades everyone — making the battle exhausting and ugly rather than heroic",
+          "the mud and rain remove glamour from violence — it becomes survival, not glory",
+          "weather strips heroism from the fight — everyone is just struggling in the muck",
+        ],
+      },
+    ],
+  },
+  {
+    id: "game_red_dead2",
+    group: "Video Games",
+    name: "Red Dead Redemption 2",
+    culture: "universal",
+    description:
+      "Arthur Morgan, Dutch van der Linde, tuberculosis, the dying frontier, and one of gaming's most fully realized protagonists.",
+    questions: [
+      {
+        id: "rdr2_200_01",
+        categoryId: "game_red_dead2",
+        tier: 200,
+        prompt: "Red Dead Redemption 2 was developed by which studio, also known for the Grand Theft Auto series?",
+        answer: "Rockstar Games",
+        acceptableAnswers: ["Rockstar Games", "Rockstar"],
+      },
+      {
+        id: "rdr2_200_02",
+        categoryId: "game_red_dead2",
+        tier: 200,
+        prompt: "RDR2's protagonist Arthur Morgan is a senior member of which outlaw gang?",
+        answer: "The Van der Linde Gang",
+        acceptableAnswers: ["Van der Linde Gang", "the Van der Linde Gang", "Dutch's gang", "Dutch van der Linde's gang"],
+      },
+      {
+        id: "rdr2_200_03",
+        categoryId: "game_red_dead2",
+        tier: 200,
+        prompt:
+          "Arthur Morgan is eventually revealed to be dying from a disease contracted during the game. What illness does he develop?",
+        answer: "Tuberculosis",
+        acceptableAnswers: ["tuberculosis", "TB", "consumption"],
+      },
+      {
+        id: "rdr2_400_01",
+        categoryId: "game_red_dead2",
+        tier: 400,
+        prompt:
+          "Arthur's journal updates in real-time with his sketches and observations of the world around him. What does the journal reveal about Arthur's inner life beneath his outlaw exterior?",
+        answer: "He is thoughtful, observant, and artistically sensitive — the journal shows genuine curiosity and emotional depth in a man trapped in a violent life he has begun to question",
+        acceptableAnswers: [
+          "he is artistic and introspective — the journal reveals depth beneath the violence",
+          "the journal shows a sensitive, questioning man who doesn't fully belong to the outlaw life",
+          "Arthur is a thoughtful observer — the journal contradicts the violent surface of his life",
+        ],
+      },
+      {
+        id: "rdr2_400_02",
+        categoryId: "game_red_dead2",
+        tier: 400,
+        prompt:
+          "Arthur contracted tuberculosis from a specific in-game encounter early in the story. Which character infected him, and how?",
+        answer: "Thomas Downes — a debtor whom Arthur beats while collecting money for Dutch; Arthur is infected during the assault and the revelation comes much later, recontextualizing that early violence as the seed of his death",
+        acceptableAnswers: [
+          "Thomas Downes — a debtor Arthur beats while debt collecting",
+          "Downes — infected during a beating Arthur delivers early in the game",
+        ],
+      },
+      {
+        id: "rdr2_400_03",
+        categoryId: "game_red_dead2",
+        tier: 400,
+        prompt:
+          "Dutch van der Linde constantly promises 'one last score' before the gang escapes to a better life. What narrative function does this recurring motif serve by RDR2?",
+        answer: "It has become delusional repetition — a founding mythology the gang uses to avoid confronting that the frontier era is over and Dutch's leadership has become irrational; each 'last score' simply enables the next crisis",
+        acceptableAnswers: [
+          "it's a delusion that prevents the gang from facing reality — the last score never comes",
+          "the motif shows Dutch's deterioration — it's a lie he tells himself and the gang",
+          "Dutch uses it to avoid reckoning with the end of the outlaw era",
+        ],
+      },
+      {
+        id: "rdr2_600_01",
+        categoryId: "game_red_dead2",
+        tier: 600,
+        prompt:
+          "RDR2's epilogue puts the player in control of John Marston — protagonist of the first RDR game. Playing RDR2 first recontextualizes John as a survivor of Arthur's story. What emotional effect does this create?",
+        answer: "Grief transformed into forward motion — controlling John carries Arthur's absence; the epilogue functions as mourning, with John's mundane ranch-building weighted by everything Arthur sacrificed to make it possible",
+        acceptableAnswers: [
+          "grief — Arthur's sacrifice makes John's survival bittersweet and heavy",
+          "the epilogue is mourning: building John's ranch while feeling Arthur's absence",
+          "playing as John feels melancholy because Arthur's death is what enabled it",
+        ],
+      },
+      {
+        id: "rdr2_600_02",
+        categoryId: "game_red_dead2",
+        tier: 600,
+        prompt:
+          "RDR2's ending branches by the player's honor level. The high-honor ending has Arthur die peacefully helping John escape; the low-honor ending has him killed attempting to take the money. What does this mechanic argue about redemption?",
+        answer: "Redemption is not about escaping consequences but about who you choose to be at the end — both Arthurs die, but only one dies with dignity and purpose; moral choices matter intrinsically, not instrumentally",
+        acceptableAnswers: [
+          "redemption is in how you face death, not whether you survive it",
+          "both endings kill Arthur — the honor system argues that how you act matters even when it changes nothing",
+          "moral choices matter for their own sake — high honor Arthur dies no less surely but with meaning",
+        ],
+      },
+      {
+        id: "rdr2_600_03",
+        categoryId: "game_red_dead2",
+        tier: 600,
+        prompt:
+          "RDR2's world simulates independent ecological, NPC, and weather systems simultaneously. Critics noted that this created a world that felt lived-in rather than designed-for-the-player. What design philosophy does this represent — and what tension does it create with traditional game design?",
+        answer: "Simulation over spectacle — the world exists independently of the player rather than being staged for them; this creates authentic-feeling life but conflicts with traditional game design that optimizes every element for player engagement and readability",
+        acceptableAnswers: [
+          "the world simulates reality rather than performing for the player — authentic but sometimes anti-ergonomic",
+          "simulation design — systems run independently, creating life at the cost of player-centric optimization",
+          "the tension between realistic world simulation and game design legibility",
+        ],
+      },
+    ],
+  },
+  {
+    id: "hist_vietnam_war",
+    group: "History",
+    name: "The Vietnam War",
+    culture: "universal",
+    description:
+      "Ho Chi Minh, the Tet Offensive, the Pentagon Papers, Agent Orange, My Lai, and the fall of Saigon.",
+    questions: [
+      {
+        id: "viet_200_01",
+        categoryId: "hist_vietnam_war",
+        tier: 200,
+        prompt:
+          "Ho Chi Minh led North Vietnam during the war. He had previously fought to establish Vietnamese independence from which colonial power, long before American involvement?",
+        answer: "France",
+        acceptableAnswers: ["France", "the French", "French colonialism"],
+      },
+      {
+        id: "viet_200_02",
+        categoryId: "hist_vietnam_war",
+        tier: 200,
+        prompt:
+          "The 1968 Tet Offensive — simultaneous attacks on major South Vietnamese cities — was militarily repelled, but had a devastating effect on what in the United States?",
+        answer: "Public support for the war / American public opinion and confidence in the war effort",
+        acceptableAnswers: [
+          "public support for the war",
+          "American public opinion",
+          "confidence in the war's progress",
+          "US morale and political support for the war",
+        ],
+      },
+      {
+        id: "viet_200_03",
+        categoryId: "hist_vietnam_war",
+        tier: 200,
+        prompt:
+          "The Pentagon Papers, leaked to the press in 1971 by Daniel Ellsberg, revealed that the US government had systematically done what regarding the Vietnam War?",
+        answer: "Lied to the public and Congress about the war's progress and its own internal assessments, which were far more pessimistic than official statements",
+        acceptableAnswers: [
+          "lied to the public about the war's progress",
+          "deceived Congress and the public while privately doubting victory",
+          "systematically misled Americans about the war while knowing it was unwinnable",
+        ],
+      },
+      {
+        id: "viet_400_01",
+        categoryId: "hist_vietnam_war",
+        tier: 400,
+        prompt:
+          "The herbicide Agent Orange was used to defoliate Vietnamese jungles. What long-term health consequence — affecting both Vietnamese civilians and American veterans — made it one of the war's most controversial weapons?",
+        answer: "Dioxin contamination caused cancers, birth defects, and severe health problems in exposed populations for generations",
+        acceptableAnswers: [
+          "dioxin contamination causing cancers and birth defects",
+          "long-term cancer and birth defect rates from dioxin exposure",
+          "generational health damage from dioxin in Agent Orange",
+        ],
+      },
+      {
+        id: "viet_400_02",
+        categoryId: "hist_vietnam_war",
+        tier: 400,
+        prompt:
+          "The Gulf of Tonkin Resolution (1964) authorized US military escalation. What was its basis, and how was it later revealed to be misleading?",
+        answer: "Two alleged attacks on US destroyers — the August 2 attack was real; the August 4 attack almost certainly never happened; Johnson and the Pentagon knew this but used both incidents to push through the resolution",
+        acceptableAnswers: [
+          "the second Gulf of Tonkin attack likely never happened — the administration knew but used it anyway",
+          "one incident was real, the second was fabricated or false; both were used to justify escalation",
+          "the pretext for war was partly invented — the second attack was likely never happened",
+        ],
+      },
+      {
+        id: "viet_400_03",
+        categoryId: "hist_vietnam_war",
+        tier: 400,
+        prompt:
+          "The My Lai Massacre (1968) saw US forces kill hundreds of unarmed Vietnamese civilians. Which officer was the only person convicted — and subsequently pardoned?",
+        answer: "Lieutenant William Calley",
+        acceptableAnswers: ["Lieutenant William Calley", "William Calley", "Lt. Calley"],
+      },
+      {
+        id: "viet_600_01",
+        categoryId: "hist_vietnam_war",
+        tier: 600,
+        prompt:
+          "The Fall of Saigon (1975) came two years after the Paris Peace Accords (1973). Why did the US sign peace accords if South Vietnam subsequently fell — what was the strategic logic?",
+        answer: "Nixon sought 'peace with honor' — a face-saving withdrawal that transferred responsibility to South Vietnam (Vietnamization); Congress cut off military aid in 1973, and Kissinger privately acknowledged the accords provided a 'decent interval' before the likely collapse",
+        acceptableAnswers: [
+          "Vietnamization and 'decent interval' — the US knew South Vietnam might fall but needed political cover",
+          "peace with honor was a face-saving exit; Congress cut aid making South Vietnamese collapse inevitable",
+          "the accords were a diplomatic exit, not a genuine peace — a 'decent interval' before collapse",
+        ],
+      },
+      {
+        id: "viet_600_02",
+        categoryId: "hist_vietnam_war",
+        tier: 600,
+        prompt:
+          "The Kent State shootings (May 4, 1970) — in which the Ohio National Guard killed four student protesters — had a specific political effect. What was it?",
+        answer: "It radicalized moderate anti-war opinion — the shootings proved the government would use lethal force against citizen-protesters; the resulting nationwide student strike (400+ universities) was the largest student strike in US history",
+        acceptableAnswers: [
+          "radicalized moderate anti-war sentiment — the government had killed its own protesting citizens",
+          "it triggered a nationwide student strike across 400+ universities",
+          "the shootings showed the state would kill protesters — the largest US student strike followed",
+        ],
+      },
+      {
+        id: "viet_600_03",
+        categoryId: "hist_vietnam_war",
+        tier: 600,
+        prompt:
+          "The 'domino theory' justified US involvement — that communist victory in Vietnam would cause neighboring countries to fall. In retrospect, Thailand, Malaysia, and the Philippines did not become communist after 1975. What does this reveal about the theory's analytical failure?",
+        answer: "The domino theory misread Vietnamese communism as Soviet-directed international expansion rather than nationalism — the Vietnamese movement was primarily anti-colonial, not a coordinated communist contagion; neighboring states had different conditions and were not structurally vulnerable",
+        acceptableAnswers: [
+          "Vietnamese communism was nationalism, not Soviet-directed expansion — dominoes don't fall automatically",
+          "the theory treated communism as monolithic and ignored nationalist character of the Vietnamese movement",
+          "it overestimated communist coordination and underestimated the national specificity of each country's politics",
+        ],
+      },
+    ],
+  },
+  {
+    id: "sci_genetics_evolution",
+    group: "Science",
+    name: "Genetics & Evolution",
+    culture: "universal",
+    description:
+      "Mendel's laws, natural selection, Hardy-Weinberg equilibrium, horizontal gene transfer, Hox genes, and endosymbiosis.",
+    questions: [
+      {
+        id: "gen_200_01",
+        categoryId: "sci_genetics_evolution",
+        tier: 200,
+        prompt:
+          "Gregor Mendel's pea plant experiments established the two fundamental laws of heredity. What are they called?",
+        answer: "The Law of Segregation and the Law of Independent Assortment",
+        acceptableAnswers: [
+          "Law of Segregation and Law of Independent Assortment",
+          "segregation and independent assortment",
+          "Mendel's first and second laws",
+        ],
+      },
+      {
+        id: "gen_200_02",
+        categoryId: "sci_genetics_evolution",
+        tier: 200,
+        prompt:
+          "Darwin and Alfred Russel Wallace independently proposed which mechanism as the driver of evolutionary change — where individuals with advantageous traits reproduce more successfully?",
+        answer: "Natural selection",
+        acceptableAnswers: ["natural selection", "survival of the fittest", "natural selection / survival of the fittest"],
+      },
+      {
+        id: "gen_200_03",
+        categoryId: "sci_genetics_evolution",
+        tier: 200,
+        prompt:
+          "DNA uses the base Thymine (T), but RNA replaces it with a different base. What is that base?",
+        answer: "Uracil",
+        acceptableAnswers: ["Uracil", "uracil (U)"],
+      },
+      {
+        id: "gen_400_01",
+        categoryId: "sci_genetics_evolution",
+        tier: 400,
+        prompt:
+          "The Hardy-Weinberg principle states that allele frequencies in a population remain constant in the absence of disturbing factors. Name any three of the five conditions required for Hardy-Weinberg equilibrium.",
+        answer: "No mutation, no migration, no genetic drift (large population), random mating, no natural selection",
+        acceptableAnswers: [
+          "no mutation, no migration, large population",
+          "random mating, no selection, no mutation",
+          "no migration, no drift, no selection",
+          "any three of: no mutation / no migration / large population / random mating / no selection",
+        ],
+      },
+      {
+        id: "gen_400_02",
+        categoryId: "sci_genetics_evolution",
+        tier: 400,
+        prompt:
+          "Horizontal gene transfer — genetic material moving between non-parent-offspring organisms — is common in bacteria and complicates the tree of life model. What is the most common mechanism by which bacteria share resistance genes with each other?",
+        answer: "Conjugation (plasmid transfer)",
+        acceptableAnswers: ["conjugation", "plasmid transfer", "conjugation / plasmid transfer", "transduction", "transformation"],
+      },
+      {
+        id: "gen_400_03",
+        categoryId: "sci_genetics_evolution",
+        tier: 400,
+        prompt:
+          "Genetic drift — random changes in allele frequency — is most significant in what type of population, and why?",
+        answer: "Small populations — random events have a larger proportional effect when fewer individuals are involved; also seen in founder effects and population bottlenecks",
+        acceptableAnswers: [
+          "small populations — random sampling effects are proportionally larger",
+          "small populations — drift matters more when there are fewer individuals",
+          "isolated or bottlenecked small populations",
+        ],
+      },
+      {
+        id: "gen_600_01",
+        categoryId: "sci_genetics_evolution",
+        tier: 600,
+        prompt:
+          "Hox genes — transcription factors that determine body plan organization — are nearly identical across vastly different animals (flies, mice, humans). What was surprising about this discovery?",
+        answer: "The same regulatory genes control body plan layout in organisms separated by hundreds of millions of years of evolution — revealing deep conservation of developmental mechanisms and suggesting animal body plans share a common genetic toolkit",
+        acceptableAnswers: [
+          "the same genes control body plans in flies and humans — far more conserved than expected",
+          "Hox genes are essentially identical across animals separated by 600 million years of evolution",
+          "deep conservation — the genetic toolkit for body layout is ancient and shared across the animal kingdom",
+        ],
+      },
+      {
+        id: "gen_600_02",
+        categoryId: "sci_genetics_evolution",
+        tier: 600,
+        prompt:
+          "Lynn Margulis's endosymbiosis theory (1967) holds that mitochondria and chloroplasts were once free-living bacteria. Name three lines of evidence supporting this.",
+        answer: "Mitochondria and chloroplasts have their own circular DNA; they have double membranes; they reproduce by binary fission; they have bacterial-sized ribosomes; they are inhibited by bacterial antibiotics — any three of these",
+        acceptableAnswers: [
+          "circular DNA, double membranes, binary fission",
+          "own DNA, bacterial ribosomes, reproduce independently",
+          "double membranes, circular genome, inhibited by antibiotics",
+          "any three of: circular DNA / double membranes / binary fission / bacterial ribosomes / antibiotic sensitivity",
+        ],
+      },
+      {
+        id: "gen_600_03",
+        categoryId: "sci_genetics_evolution",
+        tier: 600,
+        prompt:
+          "The Extended Evolutionary Synthesis (EES) supplements the Modern Synthesis with additional mechanisms. Name two mechanisms the EES incorporates that the Modern Synthesis downplayed.",
+        answer: "Epigenetic inheritance, developmental plasticity, niche construction, and cultural inheritance — any two of these",
+        acceptableAnswers: [
+          "epigenetic inheritance and developmental plasticity",
+          "niche construction and epigenetics",
+          "cultural inheritance and developmental plasticity",
+          "any two of: epigenetics / developmental plasticity / niche construction / cultural inheritance",
+        ],
+      },
+    ],
+  },
+  {
+    id: "sport_tennis_history",
+    group: "Sports",
+    name: "Tennis History",
+    culture: "universal",
+    description:
+      "The Big Three, the Grand Slams, Billie Jean King, Serena Williams, and the politics and physics of the greatest sport.",
+    questions: [
+      {
+        id: "ten_200_01",
+        categoryId: "sport_tennis_history",
+        tier: 200,
+        prompt:
+          "Who holds the most Grand Slam singles titles among all men's players as of 2024?",
+        answer: "Novak Djokovic",
+        acceptableAnswers: ["Novak Djokovic", "Djokovic"],
+      },
+      {
+        id: "ten_200_02",
+        categoryId: "sport_tennis_history",
+        tier: 200,
+        prompt:
+          "Rafael Nadal is 'The King of Clay.' At which Grand Slam — held on clay in Paris — did he win a record 14 titles?",
+        answer: "Roland Garros / the French Open",
+        acceptableAnswers: ["Roland Garros", "the French Open", "French Open"],
+      },
+      {
+        id: "ten_200_03",
+        categoryId: "sport_tennis_history",
+        tier: 200,
+        prompt:
+          "Billie Jean King defeated Bobby Riggs in the 1973 'Battle of the Sexes.' What had Riggs claimed before the match?",
+        answer: "That no woman could beat a top male player — he challenged King (world #1 in women's tennis) despite being 55 years old and a former world champion",
+        acceptableAnswers: [
+          "that no woman could beat a top male player",
+          "he boasted he could beat any women's player despite being 55",
+          "Riggs claimed women's tennis was inferior and challenged the world's top woman",
+        ],
+      },
+      {
+        id: "ten_400_01",
+        categoryId: "sport_tennis_history",
+        tier: 400,
+        prompt:
+          "Roger Federer won every Grand Slam during a dominant period except one, where Nadal's clay mastery blocked him repeatedly. Which Slam eluded him for years before he finally won in 2009?",
+        answer: "Roland Garros / the French Open",
+        acceptableAnswers: ["Roland Garros", "French Open", "the French Open"],
+      },
+      {
+        id: "ten_400_02",
+        categoryId: "sport_tennis_history",
+        tier: 400,
+        prompt:
+          "Serena Williams won 23 Grand Slam singles titles in the Open Era. At which Grand Slam did she win the most titles?",
+        answer: "Australian Open (7 titles) and Wimbledon (7 titles) — tied",
+        acceptableAnswers: [
+          "Australian Open",
+          "Wimbledon",
+          "Australian Open and Wimbledon — both 7 titles",
+          "7 titles at both Australian Open and Wimbledon",
+        ],
+      },
+      {
+        id: "ten_400_03",
+        categoryId: "sport_tennis_history",
+        tier: 400,
+        prompt:
+          "The Williams sisters were trained by their father Richard Williams, who wrote a 78-page strategic plan for their careers before either was born. What does this planning reveal about the relationship between deliberate practice and elite athletic development?",
+        answer: "Elite performance is not purely innate — systematic environmental construction (choosing Compton for mental toughness, scripted training from infancy) can produce world-class athletes; the Williams story challenged assumptions about natural talent being the primary factor",
+        acceptableAnswers: [
+          "deliberate practice and environment design can manufacture elite performance",
+          "talent is constructed, not just discovered — the Williams plan shows systematic development matters",
+          "the Williams story challenges 'natural talent' narratives — their dominance was engineered",
+        ],
+      },
+      {
+        id: "ten_600_01",
+        categoryId: "sport_tennis_history",
+        tier: 600,
+        prompt:
+          "Novak Djokovic's deportation from Australia in January 2022 became a global news event. What was the legal basis for his deportation, and what larger debate did it reflect?",
+        answer: "He held a medical exemption from COVID vaccination that Australian border authorities deemed insufficient; the Immigration Minister used discretionary powers to cancel his visa; the controversy reflected tensions between vaccine mandate policy, elite athlete exceptions, and political optics",
+        acceptableAnswers: [
+          "his COVID vaccine exemption was rejected; he was deported under immigration discretion",
+          "vaccine exemption controversy — his medical grounds were refused and he was deported",
+          "the minister used discretionary visa powers after his exemption was found inadequate",
+        ],
+      },
+      {
+        id: "ten_600_02",
+        categoryId: "sport_tennis_history",
+        tier: 600,
+        prompt:
+          "The serve-and-volley style — dominant in the 1970s–90s — has nearly disappeared from elite tennis. What technical and equipment changes drove this shift toward the baseline game that dominates today?",
+        answer: "Slower court speeds (new surfaces, heavier balls), racket technology (larger heads, carbon fiber) allowing extreme topspin that passes net rushers, and court surface standardization toward slow hard courts — all favored baseliners over net players",
+        acceptableAnswers: [
+          "slower courts, racket technology enabling heavy topspin, and surface standardization",
+          "modern rackets allow topspin passing shots that punish net rushers; slower surfaces helped baseliners",
+          "equipment and surface changes made serve-and-volley less viable against topspin baseliners",
+        ],
+      },
+      {
+        id: "ten_600_03",
+        categoryId: "sport_tennis_history",
+        tier: 600,
+        prompt:
+          "Martina Navratilova and Chris Evert played 80 matches against each other over their careers — one of sport's greatest rivalries. Their styles were polar opposites. What made their contrast emblematic of broader cultural tensions in the 1970s–80s?",
+        answer: "Evert represented traditional femininity and baseline consistency (the 'ice maiden' — controlled, photogenic, American); Navratilova represented athleticism, power, and openly gay identity (Czech-American, muscular, 'unfeminine' by contemporary standards); their rivalry paralleled debates about gender, sexuality, and what female athletes 'should' be",
+        acceptableAnswers: [
+          "their rivalry mirrored gender and sexuality debates — Evert's traditional femininity vs. Navratilova's athletic power and open queerness",
+          "Evert = conventional femininity; Navratilova = athleticism and gay identity — embodying cultural tensions of the era",
+          "their contrast reflected 1970s-80s arguments about gender, sexuality, and the female body in sport",
+        ],
+      },
+    ],
+  },
+  {
+    id: "hist_korean_history",
+    group: "History & Culture",
+    name: "Korean History",
+    culture: "universal",
+    description:
+      "Japanese occupation, the Korean War armistice, the Miracle on the Han River, democratic transition, and Hallyu.",
+    questions: [
+      {
+        id: "kor_200_01",
+        categoryId: "hist_korean_history",
+        tier: 200,
+        prompt:
+          "Korea was occupied and colonized by Japan from 1910 until the end of which war in 1945?",
+        answer: "World War II",
+        acceptableAnswers: ["World War II", "WWII", "the Second World War"],
+      },
+      {
+        id: "kor_200_02",
+        categoryId: "hist_korean_history",
+        tier: 200,
+        prompt:
+          "The Korean War (1950–1953) ended not with a peace treaty but with what type of agreement — technically leaving the two Koreas still at war?",
+        answer: "An armistice agreement",
+        acceptableAnswers: ["armistice", "armistice agreement", "the Korean Armistice Agreement"],
+      },
+      {
+        id: "kor_200_03",
+        categoryId: "hist_korean_history",
+        tier: 200,
+        prompt:
+          "South Korea's global cultural wave — K-pop, K-dramas, Korean cinema — is called by what Korean term?",
+        answer: "Hallyu",
+        acceptableAnswers: ["Hallyu", "the Korean Wave", "Hanryu"],
+      },
+      {
+        id: "kor_400_01",
+        categoryId: "hist_korean_history",
+        tier: 400,
+        prompt:
+          "Korea's division at the 38th parallel was agreed upon by which two powers — not by Koreans themselves — as a temporary post-WWII measure?",
+        answer: "The United States and the Soviet Union",
+        acceptableAnswers: ["the US and USSR", "United States and Soviet Union", "America and the Soviet Union"],
+      },
+      {
+        id: "kor_400_02",
+        categoryId: "hist_korean_history",
+        tier: 400,
+        prompt:
+          "After North Korea pushed UN forces to the Pusan Perimeter in 1950, General Douglas MacArthur launched a decisive counter-attack with an amphibious landing behind North Korean lines. What was this landing?",
+        answer: "The Inchon Landing / Battle of Inchon",
+        acceptableAnswers: ["Inchon Landing", "Battle of Inchon", "the Inchon landings"],
+      },
+      {
+        id: "kor_400_03",
+        categoryId: "hist_korean_history",
+        tier: 400,
+        prompt:
+          "South Korea's transformation from one of Asia's poorest economies in the 1950s to a developed nation by the 1990s is called what?",
+        answer: "The Miracle on the Han River",
+        acceptableAnswers: ["Miracle on the Han River", "the Han River miracle", "Han River miracle"],
+      },
+      {
+        id: "kor_600_01",
+        categoryId: "hist_korean_history",
+        tier: 600,
+        prompt:
+          "South Korea's 1987 democratic transition — from military dictatorship to direct elections — was driven by what combination of internal and external pressures?",
+        answer: "The June Democracy Movement (massive popular protests demanding direct elections); international pressure from the upcoming 1988 Seoul Olympics requiring democratic legitimacy; and Roh Tae-woo's June 29 Declaration conceding direct presidential elections to defuse the crisis",
+        acceptableAnswers: [
+          "June Democracy Movement protests, Seoul Olympics pressure, and Roh's June 29 Declaration",
+          "popular protests + Olympic international pressure + military regime concession",
+          "mass demonstrations, the 1988 Olympics, and Roh Tae-woo's direct elections concession",
+        ],
+      },
+      {
+        id: "kor_600_02",
+        categoryId: "hist_korean_history",
+        tier: 600,
+        prompt:
+          "The Joseon Dynasty (1392–1910) adopted Confucianism as state ideology and suppressed Buddhism — which had been the state religion under the preceding Goryeo Dynasty. What does this religious-ideological reversal reveal about Korean dynastic politics?",
+        answer: "Ideological legitimacy was actively constructed by new dynasties through religious realignment — Joseon used Confucianism to differentiate itself from Goryeo and restructure social hierarchy around scholar-officials (yangban) rather than Buddhist monks; religion was a tool of state power, not an independent domain",
+        acceptableAnswers: [
+          "new dynasties used ideology as a legitimizing tool — Joseon differentiated itself from Goryeo through Confucian restructuring",
+          "religion and state ideology were intertwined — the Joseon reversal shows how dynasties construct legitimacy through ideological break with predecessors",
+          "the reversal shows ideology serves dynastic politics — Confucianism restructured power around Joseon's ruling class",
+        ],
+      },
+      {
+        id: "kor_600_03",
+        categoryId: "hist_korean_history",
+        tier: 600,
+        prompt:
+          "Japan's colonization of Korea (1910–1945) included forcing Koreans to take Japanese names (Sōshi-kaimei) and banning Korean language in schools. How did this differ from most European colonial models, and what does the difference reveal about Japanese colonial ideology?",
+        answer: "European colonialism typically maintained racial hierarchies while extracting resources — it didn't attempt to erase colonial subjects' cultural identity. Japanese colonialism aimed at assimilation: Koreans were to become 'imperial subjects' who thought and identified as Japanese. This reveals Japanese colonialism's project was demographic and cultural absorption, not just economic extraction",
+        acceptableAnswers: [
+          "Japanese colonialism aimed at cultural assimilation — making Koreans 'Japanese' — not just extraction",
+          "European colonialism kept racial distance; Japanese colonialism erased Korean identity to create loyal imperial subjects",
+          "assimilation colonialism vs. extraction colonialism — Japan tried to culturally absorb Korea, not just exploit it",
+        ],
+      },
+    ],
+  },
+
+
+  // ---------------------------------------------------------------------------
+  // Wave 48 — Violet Evergarden, Baldur's Gate 3, Led Zeppelin, New Hollywood,
+  //           Mass Effect, World War I, Ecology & Conservation,
+  //           Boxing History, Latin American Independence
+  // ---------------------------------------------------------------------------
+
+  {
+    id: "anime_violet_evergarden",
+    group: "Anime",
+    name: "Violet Evergarden",
+    culture: "universal",
+    description:
+      "Kyoto Animation's adaptation — Violet, Auto Memory Dolls, letters, and learning to understand 'I love you.'",
+    questions: [
+      {
+        id: "ve_200_01",
+        categoryId: "anime_violet_evergarden",
+        tier: 200,
+        prompt: "Violet Evergarden was animated by which Japanese studio — the same one later devastated by an arson attack in 2019?",
+        answer: "Kyoto Animation",
+        acceptableAnswers: ["Kyoto Animation", "KyoAni"],
+      },
+      {
+        id: "ve_200_02",
+        categoryId: "anime_violet_evergarden",
+        tier: 200,
+        prompt:
+          "Violet Evergarden works as what type of professional — someone who writes letters on behalf of clients who cannot express their own feelings?",
+        answer: "An Auto Memory Doll",
+        acceptableAnswers: ["Auto Memory Doll", "a ghostwriter / Auto Memory Doll", "Auto Memories Doll"],
+      },
+      {
+        id: "ve_200_03",
+        categoryId: "anime_violet_evergarden",
+        tier: 200,
+        prompt:
+          "Violet's central quest throughout the series is to understand the meaning of which phrase — the last words spoken to her by Major Gilbert?",
+        answer: "'I love you'",
+        acceptableAnswers: ["I love you", "the meaning of 'I love you'", "love"],
+      },
+      {
+        id: "ve_400_01",
+        categoryId: "anime_violet_evergarden",
+        tier: 400,
+        prompt:
+          "Violet Evergarden is based on a light novel series by which author, which won the Kyoto Animation Award in 2014?",
+        answer: "Kana Akatsuki",
+        acceptableAnswers: ["Kana Akatsuki", "Akatsuki"],
+      },
+      {
+        id: "ve_400_02",
+        categoryId: "anime_violet_evergarden",
+        tier: 400,
+        prompt:
+          "Violet lost both arms in the war. Her prosthetic arms are described as 'auto memory doll arms.' What visual detail about them is consistently highlighted — underscoring that she is simultaneously a tool of beauty and an instrument of war?",
+        answer: "They are made of metal — elegant and precise enough to type, but the same arms that killed in battle; she wears white gloves that cover the mechanical limbs",
+        acceptableAnswers: [
+          "metal prosthetics covered by white gloves — beautiful but mechanical",
+          "the metal arms are both a typing instrument and weapons",
+          "she wears gloves to cover prosthetic arms that were also killing tools",
+        ],
+      },
+      {
+        id: "ve_400_03",
+        categoryId: "anime_violet_evergarden",
+        tier: 400,
+        prompt:
+          "Violet Evergarden's narrative structure uses standalone episodes — each featuring a different client whose letter Violet writes. What does this episodic format allow the story to do that a single continuous plot would not?",
+        answer: "It shows Violet's emotional growth through encounters with others' grief and love — each client's story reflects a different aspect of human feeling that Violet must understand; the anthology structure lets her emotional education proceed through varied human experience",
+        acceptableAnswers: [
+          "each client's story teaches Violet a different dimension of human emotion",
+          "the anthology format shows her empathy growing through others' stories",
+          "episodic structure lets diverse human experiences teach Violet about love and loss",
+        ],
+      },
+      {
+        id: "ve_600_01",
+        categoryId: "anime_violet_evergarden",
+        tier: 600,
+        prompt:
+          "The July 2019 Kyoto Animation arson attack killed 36 people — the deadliest mass murder in Japan since WWII. How did the global anime fan community respond, and what did the response reveal about anime's cultural reach?",
+        answer: "The global response — crowdfunding raising millions, international condolences, fan tributes worldwide — demonstrated that KyoAni had a deeply personal relationship with international audiences; the studio's reputation for employee care and craftsmanship made the attack feel like a loss of something irreplaceable in the medium",
+        acceptableAnswers: [
+          "global crowdfunding and tributes showed anime's global community and KyoAni's special place in it",
+          "the international response showed anime fandom had become a genuine global community with deep emotional investment",
+          "millions raised internationally revealed anime's global cultural reach and KyoAni's beloved status",
+        ],
+      },
+      {
+        id: "ve_600_02",
+        categoryId: "anime_violet_evergarden",
+        tier: 600,
+        prompt:
+          "Violet Evergarden's world is set in a post-war society resembling early 20th-century Europe. The series frames letter-writing as a dying art being replaced by technology. What does this setting allow the series to explore about communication and emotional authenticity?",
+        answer: "Letters require deliberate, effortful emotional articulation — the act of writing forces clarity about what one actually feels; the series argues that mediated, effortful communication can carry more emotional truth than immediate, spontaneous expression; Violet's struggle to write letters mirrors the universal struggle to understand and articulate feeling",
+        acceptableAnswers: [
+          "letters require emotional labor — the effort of writing produces more authentic expression than spontaneous communication",
+          "the dying art of letter-writing represents deliberate emotional articulation that technology may replace with something shallower",
+          "effortful communication forces emotional clarity — Violet's letter-writing mirrors the universal difficulty of expressing feeling",
+        ],
+      },
+      {
+        id: "ve_600_03",
+        categoryId: "anime_violet_evergarden",
+        tier: 600,
+        prompt:
+          "Violet's character arc is fundamentally about trauma and re-socialization — she was raised as a weapon, not a person. What psychological concept — the inability to recognize or name one's own emotional states — best describes her condition at the series' start?",
+        answer: "Alexithymia — difficulty identifying and describing emotional states; combined with elements of institutionalized trauma (raised without identity beyond her function as a soldier)",
+        acceptableAnswers: [
+          "alexithymia — inability to identify or name emotions",
+          "emotional illiteracy / alexithymia",
+          "institutionalized trauma with alexithymia — she cannot identify her own feelings",
+        ],
+      },
+    ],
+  },
+  {
+    id: "game_baldurs_gate3",
+    group: "Video Games",
+    name: "Baldur's Gate 3",
+    culture: "universal",
+    description:
+      "Larian Studios' D&D 5e epic — illithid tadpoles, the Absolute, Karlach, Gale, and one of gaming's most reactive narratives.",
+    questions: [
+      {
+        id: "bg3_200_01",
+        categoryId: "game_baldurs_gate3",
+        tier: 200,
+        prompt: "Baldur's Gate 3 was developed by which Belgian studio, also known for the Divinity: Original Sin series?",
+        answer: "Larian Studios",
+        acceptableAnswers: ["Larian Studios", "Larian"],
+      },
+      {
+        id: "bg3_200_02",
+        categoryId: "game_baldurs_gate3",
+        tier: 200,
+        prompt:
+          "BG3 uses which tabletop RPG ruleset as its mechanical foundation — the same system used in Dungeons & Dragons' most recent mainstream edition?",
+        answer: "D&D 5th Edition",
+        acceptableAnswers: ["D&D 5e", "Dungeons & Dragons 5th Edition", "5th Edition D&D", "DnD 5e"],
+      },
+      {
+        id: "bg3_200_03",
+        categoryId: "game_baldurs_gate3",
+        tier: 200,
+        prompt:
+          "The central premise of Baldur's Gate 3 involves the player character being infected with a parasite from which creature — a mind-controlling aberration from D&D lore?",
+        answer: "Mind flayer (illithid)",
+        acceptableAnswers: ["mind flayer", "illithid", "mind flayer / illithid"],
+      },
+      {
+        id: "bg3_400_01",
+        categoryId: "game_baldurs_gate3",
+        tier: 400,
+        prompt:
+          "Tiefling companion Karlach is beloved by players partly for her warmth and tragic circumstance. What is the nature of her affliction that drives her personal quest?",
+        answer: "Her heart was replaced with an infernal engine that overheats her body — she will burn herself alive unless a solution is found; physical touch is dangerous to others and she is dying",
+        acceptableAnswers: [
+          "an infernal engine replaced her heart — she overheats and will die without a fix",
+          "her heart is an infernal machine that will kill her through overheating",
+          "she has a magical engine for a heart that makes her touch dangerous and will eventually kill her",
+        ],
+      },
+      {
+        id: "bg3_400_02",
+        categoryId: "game_baldurs_gate3",
+        tier: 400,
+        prompt:
+          "BG3's dice-roll skill check system is visible to the player. When a player fails a persuasion check and chooses to reload the save to try again, they are engaging in which behavior the game's designers explicitly designed around?",
+        answer: "Save-scumming — Larian acknowledged this behavior and accepted it as valid; the game allows it while also rewarding players who accept failures, since narrative branches from failed checks are often as interesting as successes",
+        acceptableAnswers: [
+          "save-scumming — Larian accepted it and designed interesting failure states",
+          "reloading after failed rolls — the game accommodates this while making failure narratively interesting",
+          "save-scumming; Larian designed compelling failure outcomes so players were rewarded for accepting them",
+        ],
+      },
+      {
+        id: "bg3_400_03",
+        categoryId: "game_baldurs_gate3",
+        tier: 400,
+        prompt:
+          "BG3 received criticism for one specific companion — the vampire spawn Astarion — being written in a way that some players felt romanticized manipulation. What was the specific narrative arc that generated this debate?",
+        answer: "Astarion's early romance involves deliberate seduction and manipulation of the player character; his 'redemption arc' requires players to actively push back against his manipulative behavior — those who simply accept his advances enable his toxic patterns; critics debated whether the game sufficiently flagged this",
+        acceptableAnswers: [
+          "Astarion manipulates the player character romantically; his arc rewards players who push back but not those who accept it passively",
+          "his romance is intentionally manipulative — the game rewards resistance but many players didn't realize they were being manipulated",
+          "the vampire romance arc — Astarion is written as a manipulator and the game rewards confronting this",
+        ],
+      },
+      {
+        id: "bg3_600_01",
+        categoryId: "game_baldurs_gate3",
+        tier: 600,
+        prompt:
+          "BG3 launched in 2023 to enormous critical and commercial success, winning multiple Game of the Year awards. Industry observers noted it set a new benchmark for RPG reactivity. What specific technical and design achievement made its narrative reactivity possible?",
+        answer: "Larian wrote thousands of lines of contextual dialogue accounting for player choices, race, class, and companion reactions — combined with a turn-based combat system that allowed complex encounter states; the scale of reactive writing was unprecedented in a AAA release",
+        acceptableAnswers: [
+          "thousands of lines of contextual dialogue accounting for choices, race, class, and companions",
+          "the sheer scale of conditional dialogue and reactive narrative states",
+          "unprecedented reactive writing depth — virtually every decision has acknowledged consequences",
+        ],
+      },
+      {
+        id: "bg3_600_02",
+        categoryId: "game_baldurs_gate3",
+        tier: 600,
+        prompt:
+          "BG3's Act 3 received criticism for being less polished and reactive than Acts 1 and 2. This is a recurring problem in long RPGs. What development challenge does this 'Act 3 problem' illustrate?",
+        answer: "Exponentially increasing combinatorial complexity — by Act 3, the number of possible player states (choices made, companions recruited, quests completed) grows too large to fully account for; testing and writing reactive content becomes geometrically more expensive as narrative branches multiply",
+        acceptableAnswers: [
+          "combinatorial explosion — the number of player states grows too large to fully account for by the end",
+          "late-game reactivity is exponentially harder to write and test as player choice paths multiply",
+          "the branching narrative complexity compounds — Act 3 had too many possible states to fully polish",
+        ],
+      },
+      {
+        id: "bg3_600_03",
+        categoryId: "game_baldurs_gate3",
+        tier: 600,
+        prompt:
+          "BG3's success reignited debate about crunch in game development. Larian's CEO Swen Vincke publicly stated the studio had worked extremely long hours to ship the game. Given the game's critical and commercial success, what does this case illustrate about the game industry's crunch problem?",
+        answer: "Commercial success doesn't validate crunch — it normalizes an unsustainable production model that harms workers; BG3's quality was achieved despite crunch, not because of it, and the success creates pressure on competitors to replicate both the product and the working conditions that produced it",
+        acceptableAnswers: [
+          "success doesn't justify crunch — it normalizes harmful labor conditions",
+          "the game's quality doesn't validate overwork; success pressures competitors to repeat the same conditions",
+          "crunch's harms are systemic — BG3's success reinforces the model regardless of intent",
+        ],
+      },
+    ],
+  },
+  {
+    id: "music_led_zeppelin",
+    group: "Music Artists",
+    name: "Led Zeppelin",
+    culture: "universal",
+    description:
+      "Kashmir, Stairway, the blues foundation, John Bonham's drumming, and the band that defined heavy rock.",
+    questions: [
+      {
+        id: "lz_200_01",
+        categoryId: "music_led_zeppelin",
+        tier: 200,
+        prompt: "Led Zeppelin's iconic 1971 track 'Stairway to Heaven' appears on which album?",
+        answer: "Led Zeppelin IV",
+        acceptableAnswers: ["Led Zeppelin IV", "Led Zeppelin 4", "the fourth album", "Zoso"],
+      },
+      {
+        id: "lz_200_02",
+        categoryId: "music_led_zeppelin",
+        tier: 200,
+        prompt: "Led Zeppelin's drummer — widely considered the greatest rock drummer of all time — died in 1980. What was his name?",
+        answer: "John Bonham",
+        acceptableAnswers: ["John Bonham", "Bonham", "Bonzo"],
+      },
+      {
+        id: "lz_200_03",
+        categoryId: "music_led_zeppelin",
+        tier: 200,
+        prompt:
+          "Led Zeppelin was heavily rooted in American blues, frequently covering or adapting songs by which era's artists — a practice that later generated significant plagiarism controversy?",
+        answer: "Delta blues / Chicago blues era artists (including Robert Johnson, Howlin' Wolf, Willie Dixon, Muddy Waters)",
+        acceptableAnswers: [
+          "American blues artists",
+          "Delta blues musicians",
+          "Willie Dixon and other blues artists",
+          "Robert Johnson, Muddy Waters, Howlin Wolf",
+        ],
+      },
+      {
+        id: "lz_400_01",
+        categoryId: "music_led_zeppelin",
+        tier: 400,
+        prompt:
+          "'Kashmir' (1975) is often cited as Led Zeppelin's greatest achievement. What tuning did Jimmy Page use on the guitar for this track — creating its distinctive droning quality?",
+        answer: "DADGAD tuning",
+        acceptableAnswers: ["DADGAD", "DADGAD tuning", "open DADGAD"],
+      },
+      {
+        id: "lz_400_02",
+        categoryId: "music_led_zeppelin",
+        tier: 400,
+        prompt:
+          "John Bonham's 'Moby Dick' — an extended drum solo on Led Zeppelin II — and his work throughout the catalog are characterized by which distinctive technique, making his patterns feel heavier and more propulsive than most rock drummers?",
+        answer: "His use of the 'pocketful of triplets' / 'Bonham triplet' — a bass-hi hat-snare triplet pattern played at speed, combined with his uniquely heavy right-foot bass drum technique",
+        acceptableAnswers: [
+          "the Bonham triplet — a distinctive bass-hi hat-snare pattern",
+          "his heavy right-foot bass drum and triplet feel",
+          "the Bonham shuffle / triplet groove and his powerful single bass pedal technique",
+        ],
+      },
+      {
+        id: "lz_400_03",
+        categoryId: "music_led_zeppelin",
+        tier: 400,
+        prompt:
+          "Led Zeppelin disbanded in 1980 following John Bonham's death. The surviving members — Jimmy Page, Robert Plant, John Paul Jones — reunited for a single concert in 2007. Where was it held?",
+        answer: "O2 Arena, London (as part of the Ahmet Ertegun tribute concert)",
+        acceptableAnswers: ["O2 Arena", "London O2", "the O2 Arena in London", "the Ahmet Ertegun tribute concert"],
+      },
+      {
+        id: "lz_600_01",
+        categoryId: "music_led_zeppelin",
+        tier: 600,
+        prompt:
+          "Led Zeppelin faced multiple plagiarism lawsuits throughout their career — most famously over 'Stairway to Heaven's' opening arpeggios, claimed to be derived from Spirit's 'Taurus' (1968). What was the ultimate outcome of the Stairway lawsuit, and what did it reveal about copyright law's treatment of musical building blocks?",
+        answer: "The lawsuit was ultimately decided in Zeppelin's favor (2020 final ruling) — the court held that the descending chromatic progression is too common a musical building block to be copyrightable; the case revealed that copyright protects specific expression, not common harmonic or melodic patterns",
+        acceptableAnswers: [
+          "Zeppelin won — the progression was too generic to copyright; common building blocks aren't protected",
+          "ruled in Zeppelin's favor — descending chromatic progressions are common musical material, not protectable",
+          "copyright doesn't protect common musical patterns — the court ruled for Zeppelin in 2020",
+        ],
+      },
+      {
+        id: "lz_600_02",
+        categoryId: "music_led_zeppelin",
+        tier: 600,
+        prompt:
+          "'Whole Lotta Love' (1969) was based heavily on Willie Dixon's 'You Need Love' (1962). Dixon eventually won a settlement. What does Led Zeppelin's pattern of borrowing from Black blues artists — while achieving far greater commercial success than their sources — reflect about the racial economics of rock music?",
+        answer: "Rock and roll's commercial success was systematically built on appropriating Black musical traditions while Black artists received little credit or compensation — Led Zeppelin exemplify a broader pattern where white artists profited enormously from Black-originated forms, a structural injustice embedded in 20th-century music industry economics",
+        acceptableAnswers: [
+          "rock profited enormously from Black musical traditions while Black artists were undercompensated",
+          "systematic appropriation of blues — white artists got rich from Black musical innovations",
+          "the racial economics of rock: Black originators vs. white commercial beneficiaries",
+        ],
+      },
+      {
+        id: "lz_600_03",
+        categoryId: "music_led_zeppelin",
+        tier: 600,
+        prompt:
+          "Led Zeppelin avoided releasing singles in the UK (though not the US) for most of their career. What was the strategic reasoning behind this — and what did it reveal about their understanding of album-era rock economics?",
+        answer: "Singles were seen as disposable commercial product; refusing UK singles positioned Zeppelin as serious album artists (not pop acts), protecting their aesthetic credibility while driving album sales — they understood that their audience bought albums and that chart success via singles would cheapen their brand",
+        acceptableAnswers: [
+          "refusing singles positioned them as album artists, not pop — protecting credibility while driving LP sales",
+          "the strategy maintained their serious artist image and drove fans to buy full albums instead of singles",
+          "singles were seen as pop product — Zeppelin's anti-singles stance was a credibility and economics decision",
+        ],
+      },
+    ],
+  },
+  {
+    id: "movie_new_hollywood",
+    group: "Movies & TV",
+    name: "New Hollywood",
+    culture: "universal",
+    description:
+      "The 1970s American film renaissance — Coppola, Scorsese, Spielberg, Altman, and the decade that remade cinema.",
+    questions: [
+      {
+        id: "nwh_200_01",
+        categoryId: "movie_new_hollywood",
+        tier: 200,
+        prompt:
+          "Francis Ford Coppola's The Godfather (1972) and The Godfather Part II (1974) are considered masterpieces of New Hollywood. Which actor played the young Vito Corleone in Part II — winning the Academy Award for Best Supporting Actor?",
+        answer: "Robert De Niro",
+        acceptableAnswers: ["Robert De Niro", "De Niro"],
+      },
+      {
+        id: "nwh_200_02",
+        categoryId: "movie_new_hollywood",
+        tier: 200,
+        prompt:
+          "Steven Spielberg's Jaws (1975) is often credited with inventing the 'summer blockbuster' model. What production problem — a malfunctioning mechanical shark — inadvertently improved the film?",
+        answer: "The shark rarely worked, forcing Spielberg to keep it offscreen — building suspense through suggestion rather than showing the monster; less is more became the film's greatest asset",
+        acceptableAnswers: [
+          "the broken shark forced Spielberg to hide it — making the film scarier through suggestion",
+          "the mechanical shark failures meant the monster was rarely shown, building tension through absence",
+          "keeping the shark offscreen (due to mechanical failure) created more suspense than showing it",
+        ],
+      },
+      {
+        id: "nwh_200_03",
+        categoryId: "movie_new_hollywood",
+        tier: 200,
+        prompt:
+          "Martin Scorsese's Taxi Driver (1976) stars Robert De Niro as Travis Bickle — a disturbed Vietnam veteran who becomes obsessed with cleaning up New York. Which child actress played Iris, the underage sex worker he tries to rescue?",
+        answer: "Jodie Foster",
+        acceptableAnswers: ["Jodie Foster", "Foster"],
+      },
+      {
+        id: "nwh_400_01",
+        categoryId: "movie_new_hollywood",
+        tier: 400,
+        prompt:
+          "New Hollywood emerged partly from the collapse of the old studio system's moral codes. Which specific code — governing content permissible in American films — was effectively replaced by the MPAA ratings system in 1968?",
+        answer: "The Hays Code (Motion Picture Production Code)",
+        acceptableAnswers: ["Hays Code", "the Hays Code", "Motion Picture Production Code", "the Production Code"],
+      },
+      {
+        id: "nwh_400_02",
+        categoryId: "movie_new_hollywood",
+        tier: 400,
+        prompt:
+          "Robert Altman's Nashville (1975) weaves together 24 characters across five days. His signature technique — overlapping, improvised dialogue recorded on multiple simultaneous tracks — gave his films what distinctive sonic texture?",
+        answer: "A layered, naturalistic soundscape where multiple conversations occur simultaneously — closer to eavesdropping than classical film dialogue, creating a documentary-like texture of human noise",
+        acceptableAnswers: [
+          "overlapping dialogue making the soundtrack feel like eavesdropping",
+          "multiple simultaneous conversations creating a naturalistic, documentary-like texture",
+          "layered improvised dialogue that sounds like real life rather than scripted performance",
+        ],
+      },
+      {
+        id: "nwh_400_03",
+        categoryId: "movie_new_hollywood",
+        tier: 400,
+        prompt:
+          "The New Hollywood era is often dated from Bonnie and Clyde (1967) or The Graduate (1967) to Heaven's Gate's failure (1980). What did Heaven's Gate's catastrophic box office failure cause?",
+        answer: "It effectively ended the 'director as auteur' era — studios retook control from directors, leading to the modern high-concept blockbuster model; Michael Cimino's unchecked artistic freedom was seen as the cause, and studios resolved never again to give directors such budget and control",
+        acceptableAnswers: [
+          "it ended the director-driven era — studios retook control and the blockbuster model became dominant",
+          "the auteur era ended; studios stopped giving directors unchecked creative control",
+          "studio executives used the failure to justify pulling power back from directors toward high-concept commercial product",
+        ],
+      },
+      {
+        id: "nwh_600_01",
+        categoryId: "movie_new_hollywood",
+        tier: 600,
+        prompt:
+          "The Godfather was produced from Mario Puzo's novel with Paramount's reluctant backing. Coppola's casting of Marlon Brando was fought by studio executives who considered him box-office poison at the time. How did Coppola win the argument?",
+        answer: "He filmed a screen test of Brando's self-transformation for the role — stuffing his cheeks, darkening his hair — and showed it to executives without identifying the actor; they approved, then were told it was Brando",
+        acceptableAnswers: [
+          "Coppola filmed an anonymous screen test of Brando transforming himself; executives approved before learning it was Brando",
+          "he showed Brando's test to execs without revealing who it was — they approved the performance, then Coppola revealed it was Brando",
+        ],
+      },
+      {
+        id: "nwh_600_02",
+        categoryId: "movie_new_hollywood",
+        tier: 600,
+        prompt:
+          "New Hollywood filmmakers were heavily influenced by European art cinema — particularly the French New Wave and Italian neorealism. What specific techniques did they import that broke with classical Hollywood grammar?",
+        answer: "Jump cuts, location shooting over studio sets, ambiguous or unhappy endings, antiheroes as protagonists, handheld camera movement, and narratives without clear moral resolution — all borrowed from Godard, Truffaut, Antonioni, and De Sica",
+        acceptableAnswers: [
+          "jump cuts, location shooting, ambiguous endings, antihero protagonists from French New Wave and neorealism",
+          "handheld cameras, unhappy endings, morally ambiguous heroes — borrowed from European art cinema",
+          "European art film techniques: jump cuts, location shooting, narrative ambiguity",
+        ],
+      },
+      {
+        id: "nwh_600_03",
+        categoryId: "movie_new_hollywood",
+        tier: 600,
+        prompt:
+          "Chinatown (1974), directed by Roman Polanski, is often considered New Hollywood's greatest achievement — and its moral capstone. The film ends with the villain winning completely. What does this ending argue that classical Hollywood's Production Code would have forbidden?",
+        answer: "That evil sometimes wins irrevocably — that good intentions combined with incomplete understanding can produce catastrophe; the Production Code required that crime not pay and villains be punished; Chinatown insists on tragedy without redemption as the more truthful representation of how power actually operates",
+        acceptableAnswers: [
+          "evil wins — the Production Code required villains to be punished, but Chinatown refuses this consolation",
+          "tragedy without redemption — crime pays in Chinatown, which the Code would have forbidden",
+          "power protects itself and good intentions fail — the Code forbade this as too pessimistic",
+        ],
+      },
+    ],
+  },
+  {
+    id: "game_mass_effect",
+    group: "Video Games",
+    name: "Mass Effect",
+    culture: "universal",
+    description:
+      "Commander Shepard, the Normandy, the Reapers, Garrus Vakarian, and BioWare's defining sci-fi RPG trilogy.",
+    questions: [
+      {
+        id: "me_200_01",
+        categoryId: "game_mass_effect",
+        tier: 200,
+        prompt: "The Mass Effect trilogy was developed by which studio — also known for Knights of the Old Republic and Dragon Age?",
+        answer: "BioWare",
+        acceptableAnswers: ["BioWare", "Bioware"],
+      },
+      {
+        id: "me_200_02",
+        categoryId: "game_mass_effect",
+        tier: 200,
+        prompt:
+          "The player character of Mass Effect is Commander Shepard. What is notable about Shepard's gender and name?",
+        answer: "Shepard's gender and first name are fully customizable by the player — both male and female Shepard are equally canon",
+        acceptableAnswers: [
+          "Shepard can be male or female, and the name is customizable",
+          "the player chooses gender and name — both are canon",
+          "Shepard's gender and first name are player-defined",
+        ],
+      },
+      {
+        id: "me_200_03",
+        categoryId: "game_mass_effect",
+        tier: 200,
+        prompt:
+          "The trilogy's central antagonists are ancient machine intelligences that periodically harvest all advanced organic life in the galaxy. What are they called?",
+        answer: "The Reapers",
+        acceptableAnswers: ["Reapers", "the Reapers"],
+      },
+      {
+        id: "me_400_01",
+        categoryId: "game_mass_effect",
+        tier: 400,
+        prompt:
+          "Mass Effect's companion Garrus Vakarian is a Turian — a bird-like alien race known for military discipline. He becomes one of the most beloved characters in the trilogy. What role does he serve aboard the Normandy by Mass Effect 2?",
+        answer: "He becomes Shepard's most trusted companion and serves as the Normandy's weapons specialist / calibrations engineer (the 'calibrations' meme originates from his repeated answer about what he's doing)",
+        acceptableAnswers: [
+          "weapons specialist / calibrations — the beloved calibrations meme comes from him",
+          "Garrus is Shepard's closest friend and the Normandy's weapons calibration specialist",
+          "he's the ship's weapons specialist; famous for always 'calibrating'",
+        ],
+      },
+      {
+        id: "me_400_02",
+        categoryId: "game_mass_effect",
+        tier: 400,
+        prompt:
+          "Mass Effect 2's 'Suicide Mission' finale is widely praised for making player choices feel meaningful — companions die if certain loyalty missions haven't been completed. What design principle does this demonstrate?",
+        answer: "Consequence-driven choice — player investments made over the entire game determine survival outcomes; the mission makes 20+ hours of companion development feel load-bearing rather than decorative",
+        acceptableAnswers: [
+          "consequences accumulate — earlier choices determine who survives; nothing is decorative",
+          "the Suicide Mission makes all prior relationship-building mechanically meaningful",
+          "player investment throughout the game has real stakes — companions die based on prior choices",
+        ],
+      },
+      {
+        id: "me_400_03",
+        categoryId: "game_mass_effect",
+        tier: 400,
+        prompt:
+          "Mass Effect 3's ending generated significant backlash from fans in 2012. What was the core complaint?",
+        answer: "The three ending options were nearly identical in visual presentation despite hundreds of hours of distinct player choices — many felt their decisions had no meaningful impact on the ending, contradicting the trilogy's promise of consequence",
+        acceptableAnswers: [
+          "the endings were nearly identical regardless of choices made throughout the trilogy",
+          "three color-coded endings that felt disconnected from player decisions — apparent lack of consequence",
+          "players' hundreds of hours of choices seemingly didn't affect the ending",
+        ],
+      },
+      {
+        id: "me_600_01",
+        categoryId: "game_mass_effect",
+        tier: 600,
+        prompt:
+          "The Mass Effect universe's interspecies diplomacy is built on the 'Council' — a governing body of aliens that polices the galaxy. Humanity's struggle for representation on the Council mirrors real-world arguments about international institutions. What specific political critique is embedded in this structure?",
+        answer: "Established powers maintain their privilege by controlling access to the institutions that legitimize power — humanity's rapid rise threatens the existing order, just as rising powers in the real world challenge institutions (UN Security Council, WTO) designed by and for earlier dominant states",
+        acceptableAnswers: [
+          "established powers gatekeep institutions to maintain their position — the Council mirrors UN Security Council dynamics",
+          "the Council embeds a critique of how existing great powers exclude rising ones from international governance",
+          "incumbent powers use institutions to resist newcomers — a political science critique embedded in the world-building",
+        ],
+      },
+      {
+        id: "me_600_02",
+        categoryId: "game_mass_effect",
+        tier: 600,
+        prompt:
+          "The Geth — synthetic AI beings — evolve across the trilogy from pure antagonists to potential allies. Their arc culminates in a Mass Effect 3 choice between destroying all Geth or granting them true consciousness. What philosophical question does this choice literalize?",
+        answer: "Whether beings that can suffer and develop have moral status regardless of their substrate — the Geth arc asks whether consciousness in silicon is morally equivalent to consciousness in carbon, and whether historical grievance (the Morning War) can be transcended",
+        acceptableAnswers: [
+          "whether synthetic consciousness deserves the same moral consideration as organic — substrate independence of moral status",
+          "the question of whether AI consciousness has moral status equivalent to biological consciousness",
+          "can synthetic beings with consciousness deserve rights — and can historical violence be transcended",
+        ],
+      },
+      {
+        id: "me_600_03",
+        categoryId: "game_mass_effect",
+        tier: 600,
+        prompt:
+          "BioWare's Mass Effect Andromeda (2017) was critically and commercially disappointing, partly due to controversial facial animation and narrative issues. It was developed by a new team while BioWare Edmonton worked on other projects. What does Andromeda's failure reveal about the risks of franchise extension?",
+        answer: "Brand equity built by one team doesn't transfer automatically to a new team working with the same IP — Andromeda had the Mass Effect name but lacked the creative continuity, narrative depth, and character relationships that built fan investment; it also suffered from rushed development visible in the final product",
+        acceptableAnswers: [
+          "brand equity doesn't automatically transfer — a new team with the same IP couldn't replicate what built the franchise",
+          "franchise extension risks: fan investment is in the specific characters and creative team, not just the setting",
+          "Andromeda shows that IP alone doesn't guarantee quality — the creative team that built the franchise matters",
+        ],
+      },
+    ],
+  },
+  {
+    id: "hist_wwi",
+    group: "History",
+    name: "World War I",
+    culture: "universal",
+    description:
+      "Sarajevo, the trenches, the Somme, mustard gas, the Armistice, and the war that remade the modern world.",
+    questions: [
+      {
+        id: "wwi_200_01",
+        categoryId: "hist_wwi",
+        tier: 200,
+        prompt:
+          "The assassination that triggered WWI occurred in Sarajevo on June 28, 1914. Who was assassinated, and by whom?",
+        answer: "Archduke Franz Ferdinand of Austria-Hungary was assassinated by Gavrilo Princip, a Bosnian Serb nationalist",
+        acceptableAnswers: [
+          "Archduke Franz Ferdinand, by Gavrilo Princip",
+          "Franz Ferdinand — killed by Gavrilo Princip",
+          "the Austro-Hungarian heir Franz Ferdinand, shot by Princip",
+        ],
+      },
+      {
+        id: "wwi_200_02",
+        categoryId: "hist_wwi",
+        tier: 200,
+        prompt:
+          "The Western Front was characterized by which type of static warfare — with opposing armies dug into parallel defensive positions separated by 'no man's land'?",
+        answer: "Trench warfare",
+        acceptableAnswers: ["trench warfare", "trench war"],
+      },
+      {
+        id: "wwi_200_03",
+        categoryId: "hist_wwi",
+        tier: 200,
+        prompt: "WWI ended on which date — the 'eleventh hour of the eleventh day of the eleventh month'?",
+        answer: "November 11, 1918",
+        acceptableAnswers: ["November 11, 1918", "11/11/1918", "the 11th of November 1918"],
+      },
+      {
+        id: "wwi_400_01",
+        categoryId: "hist_wwi",
+        tier: 400,
+        prompt:
+          "The Battle of the Somme (July–November 1916) saw approximately 57,000 British casualties on its first day alone. What tactic — sending infantry waves directly into machine gun fire — made the losses so catastrophic?",
+        answer: "The 'walking advance' — troops were ordered to walk slowly across no man's land in waves, believing artillery had destroyed German defenses; machine guns had survived in reinforced dugouts and cut down the advancing lines",
+        acceptableAnswers: [
+          "walking advance into intact machine gun positions — artillery had failed to destroy the defenses",
+          "infantry marching in waves toward intact German machine gun positions",
+          "troops walked into machine gun fire believing the artillery had cleared the way",
+        ],
+      },
+      {
+        id: "wwi_400_02",
+        categoryId: "hist_wwi",
+        tier: 400,
+        prompt:
+          "The Treaty of Versailles (1919) imposed the 'war guilt clause' (Article 231) on Germany — forcing Germany to accept sole responsibility for the war. What economic consequence did this clause enable?",
+        answer: "It provided the legal basis for the reparations imposed on Germany — ultimately 132 billion gold marks; the economic burden contributed to Weimar Germany's instability and the conditions that produced Nazism",
+        acceptableAnswers: [
+          "reparations — the guilt clause made Germany legally liable for war costs",
+          "it justified massive reparations that destabilized Germany and contributed to the rise of Nazism",
+          "the basis for war reparations, contributing to German economic collapse and political radicalization",
+        ],
+      },
+      {
+        id: "wwi_400_03",
+        categoryId: "hist_wwi",
+        tier: 400,
+        prompt:
+          "Chemical weapons — including chlorine, phosgene, and mustard gas — were used extensively in WWI. Which gas, introduced by Germany in 1917, was particularly insidious because its effects were delayed for hours after exposure?",
+        answer: "Mustard gas (sulfur mustard / dichlorodiethyl sulfide)",
+        acceptableAnswers: ["mustard gas", "sulfur mustard", "yperite"],
+      },
+      {
+        id: "wwi_600_01",
+        categoryId: "hist_wwi",
+        tier: 600,
+        prompt:
+          "The 'Blank Check' — Germany's assurance of unconditional support to Austria-Hungary after Sarajevo — was decisive in escalating the crisis. What does German decision-making in July 1914 reveal about how alliance structures can make war more likely than any individual power intends?",
+        answer: "Alliance commitments create obligation to support allies regardless of the merits of their specific actions — Germany's blank check emboldened Austria-Hungary to issue unacceptable ultimatums to Serbia; the chain of alliance activation (Austria-Serbia-Russia-Germany-France-Britain) made a local crisis into a continental war through mechanical escalation",
+        acceptableAnswers: [
+          "alliances create automatic escalation — the blank check empowered Austria, triggering the chain of mobilizations",
+          "alliance structures make war more likely by creating obligations that override individual state judgment",
+          "mechanical alliance escalation — each alliance activation triggered the next, turning a local dispute into a world war",
+        ],
+      },
+      {
+        id: "wwi_600_02",
+        categoryId: "hist_wwi",
+        tier: 600,
+        prompt:
+          "The collapse of the Ottoman, Austro-Hungarian, Russian, and German empires after WWI remapped the world. The Sykes-Picot Agreement (1916) secretly divided much of the Middle East between Britain and France. What long-term consequences did these arbitrary borders have?",
+        answer: "The borders divided ethnic and religious communities (Kurds, Arabs, Assyrians) across new states and grouped incompatible populations together — creating artificial states without organic political legitimacy; these borders underlie many of the Middle East's unresolved conflicts including the Israeli-Palestinian conflict, Kurdish statelessness, and sectarian tensions in Iraq",
+        acceptableAnswers: [
+          "arbitrary borders created dysfunctional states, divided peoples, and seeded the Middle East's modern conflicts",
+          "Sykes-Picot created states without organic legitimacy — the borders underlie ongoing conflicts including Kurdish statelessness and sectarianism",
+          "colonial border-drawing divided ethnic groups and lumped incompatible communities — the source of many ongoing Middle Eastern conflicts",
+        ],
+      },
+      {
+        id: "wwi_600_03",
+        categoryId: "hist_wwi",
+        tier: 600,
+        prompt:
+          "The 1918 influenza pandemic killed between 50 and 100 million people — more than WWI combat deaths. It disproportionately killed young adults (the 'W-curve' mortality pattern). What wartime conditions specifically accelerated its spread and severity?",
+        answer: "Troop movements transported the virus globally at unprecedented speed; overcrowded barracks and transport ships created ideal transmission conditions; wartime censorship in belligerent nations suppressed news of the pandemic (only Spain, neutral, reported freely — giving the false impression of a 'Spanish flu'); malnutrition and stress weakened immune systems",
+        acceptableAnswers: [
+          "troop movements spread it globally; crowded military conditions accelerated transmission; censorship hid its scale",
+          "wartime troop transport, overcrowded camps, and censorship suppressing reports — wartime conditions made it catastrophic",
+          "military logistics spread it worldwide; cramped conditions and malnutrition amplified severity",
+        ],
+      },
+    ],
+  },
+  {
+    id: "sci_ecology",
+    group: "Science",
+    name: "Ecology & Conservation",
+    culture: "universal",
+    description:
+      "Food webs, keystone species, trophic cascades, the sixth mass extinction, and the science of biodiversity.",
+    questions: [
+      {
+        id: "eco_200_01",
+        categoryId: "sci_ecology",
+        tier: 200,
+        prompt:
+          "A 'keystone species' is one whose removal causes disproportionate ecosystem collapse. Which large marine predator — whose decline caused sea urchin population explosions that destroyed kelp forests — is a classic example?",
+        answer: "Sea otters",
+        acceptableAnswers: ["sea otters", "sea otter"],
+      },
+      {
+        id: "eco_200_02",
+        categoryId: "sci_ecology",
+        tier: 200,
+        prompt:
+          "Earth is currently experiencing what scientists call the sixth mass extinction. What is the primary driver distinguishing this extinction from the previous five?",
+        answer: "Human activity — habitat destruction, climate change, pollution, invasive species, and overexploitation, rather than natural geological or cosmic events",
+        acceptableAnswers: [
+          "human activity",
+          "anthropogenic causes — habitat loss, climate change, pollution",
+          "humans — unlike previous extinctions which were natural events",
+        ],
+      },
+      {
+        id: "eco_200_03",
+        categoryId: "sci_ecology",
+        tier: 200,
+        prompt:
+          "Biodiversity is typically measured at three levels. Two are species diversity and genetic diversity. What is the third?",
+        answer: "Ecosystem diversity",
+        acceptableAnswers: ["ecosystem diversity", "habitat diversity", "ecological diversity"],
+      },
+      {
+        id: "eco_400_01",
+        categoryId: "sci_ecology",
+        tier: 400,
+        prompt:
+          "A 'trophic cascade' occurs when a predator's presence or absence ripples down through the food web. The reintroduction of wolves to Yellowstone in 1995 produced which unexpected ecological effect — beyond controlling elk populations?",
+        answer: "Rivers changed course — wolves pushed elk away from riverbanks, allowing vegetation to recover, which stabilized banks, reduced erosion, and altered river morphology (a process called 'the wolves changed the rivers')",
+        acceptableAnswers: [
+          "rivers changed course — vegetation recovery from wolf pressure on elk stabilized banks",
+          "the trophic cascade reached rivers — elk moved away from banks, vegetation returned, rivers stabilized",
+          "wolf reintroduction eventually changed river behavior through vegetation recovery",
+        ],
+      },
+      {
+        id: "eco_400_02",
+        categoryId: "sci_ecology",
+        tier: 400,
+        prompt:
+          "The IUCN Red List categorizes species by extinction risk. What is the most severe category for species still surviving in the wild — above 'Endangered' on the threat scale?",
+        answer: "Critically Endangered",
+        acceptableAnswers: ["Critically Endangered", "CR"],
+      },
+      {
+        id: "eco_400_03",
+        categoryId: "sci_ecology",
+        tier: 400,
+        prompt:
+          "Island biogeography theory — developed by MacArthur and Wilson in 1967 — predicts how many species an island can support based on two factors. What are they?",
+        answer: "Island size (larger islands support more species) and distance from the mainland (closer islands receive more colonizers)",
+        acceptableAnswers: [
+          "island size and distance from the mainland",
+          "area and isolation",
+          "size and proximity to source population",
+        ],
+      },
+      {
+        id: "eco_600_01",
+        categoryId: "sci_ecology",
+        tier: 600,
+        prompt:
+          "The 'tragedy of the commons' (Garrett Hardin, 1968) describes how shared resources are overexploited when individual incentives conflict with collective welfare. Elinor Ostrom's Nobel Prize-winning research challenged Hardin's conclusion. What did she find?",
+        answer: "Communities routinely develop rules and institutions to sustainably manage common resources without privatization or state control — 'the commons' are not automatically tragic; self-governance with clear rules, monitoring, and graduated sanctions can prevent overexploitation",
+        acceptableAnswers: [
+          "communities can sustainably self-govern common resources — the tragedy is not inevitable",
+          "Ostrom found commons are often managed sustainably through community rules — Hardin was too pessimistic",
+          "shared resources can be governed sustainably without privatization — communities develop effective institutions",
+        ],
+      },
+      {
+        id: "eco_600_02",
+        categoryId: "sci_ecology",
+        tier: 600,
+        prompt:
+          "Coral reefs cover less than 1% of the ocean floor but support roughly 25% of all marine species. The 'coral bleaching' phenomenon — now accelerating with climate change — occurs when water temperatures rise. What biological process causes bleaching?",
+        answer: "Thermal stress causes coral polyps to expel the symbiotic algae (zooxanthellae) that live in their tissues and provide up to 90% of their energy through photosynthesis; without the algae, the coral turns white (bleached) and can die if the stress persists",
+        acceptableAnswers: [
+          "high temperatures cause corals to expel their symbiotic algae (zooxanthellae), which provide their energy",
+          "coral expels photosynthetic algae under heat stress — bleaching and starvation follow",
+          "thermal stress expels zooxanthellae — the coral loses its energy source and turns white",
+        ],
+      },
+      {
+        id: "eco_600_03",
+        categoryId: "sci_ecology",
+        tier: 600,
+        prompt:
+          "E.O. Wilson proposed the 'half-earth' hypothesis — that protecting 50% of the planet's land and sea from human exploitation could prevent a mass extinction wave. What are the two main arguments critics raise against this proposal?",
+        answer: "First, it would require displacing or restricting billions of people (especially indigenous communities living in biodiverse regions) — raising serious justice concerns. Second, the 50% figure is somewhat arbitrary and ignores that managed landscapes can support biodiversity; strict preservation vs. sustainable use is a false binary",
+        acceptableAnswers: [
+          "justice — displacing indigenous communities — and the false binary of preservation vs. sustainable use",
+          "it ignores indigenous land rights and overestimates the value of strict preservation over sustainable management",
+          "human displacement concerns and the oversimplification of conservation as strict preservation",
+        ],
+      },
+    ],
+  },
+  {
+    id: "sport_boxing_history",
+    group: "Sports",
+    name: "Boxing History",
+    culture: "universal",
+    description:
+      "Ali vs. Foreman, Tyson's rise and fall, Sugar Ray Robinson, and the sport that shaped the 20th century.",
+    questions: [
+      {
+        id: "box_200_01",
+        categoryId: "sport_boxing_history",
+        tier: 200,
+        prompt:
+          "The 1974 heavyweight championship fight between Muhammad Ali and George Foreman — held in Kinshasa, Zaire — is known by what nickname?",
+        answer: "The Rumble in the Jungle",
+        acceptableAnswers: ["Rumble in the Jungle", "the Rumble in the Jungle"],
+      },
+      {
+        id: "box_200_02",
+        categoryId: "sport_boxing_history",
+        tier: 200,
+        prompt:
+          "Mike Tyson became the youngest heavyweight champion in history in 1986, defeating which fighter — then considered unbeatable — at age 20?",
+        answer: "Trevor Berbick",
+        acceptableAnswers: ["Trevor Berbick", "Berbick"],
+      },
+      {
+        id: "box_200_03",
+        categoryId: "sport_boxing_history",
+        tier: 200,
+        prompt:
+          "Muhammad Ali was stripped of his heavyweight title and faced prison in 1967 for refusing induction into the US military. On what grounds did he refuse?",
+        answer: "Religious and conscientious objector grounds — he was a Muslim and stated 'I ain't got no quarrel with them Viet Cong'",
+        acceptableAnswers: [
+          "religious objection — he was Muslim and opposed the war on religious grounds",
+          "conscientious objector / Muslim faith / refused Vietnam War service",
+          "he refused on religious and moral grounds — opposition to the Vietnam War as a Muslim",
+        ],
+      },
+      {
+        id: "box_400_01",
+        categoryId: "sport_boxing_history",
+        tier: 400,
+        prompt:
+          "Ali defeated George Foreman using a strategy he called 'rope-a-dope' — leaning against the ropes to absorb Foreman's punches while conserving energy. Which trainer helped devise this tactic?",
+        answer: "Angelo Dundee",
+        acceptableAnswers: ["Angelo Dundee", "Dundee"],
+      },
+      {
+        id: "box_400_02",
+        categoryId: "sport_boxing_history",
+        tier: 400,
+        prompt:
+          "Sugar Ray Robinson is often called the greatest boxer pound-for-pound in history. Over which weight classes did he hold world championship titles during his career?",
+        answer: "Welterweight and middleweight (he won the middleweight title five times)",
+        acceptableAnswers: [
+          "welterweight and middleweight",
+          "middleweight (5 times) and welterweight",
+          "welterweight and five-time middleweight champion",
+        ],
+      },
+      {
+        id: "box_400_03",
+        categoryId: "sport_boxing_history",
+        tier: 400,
+        prompt:
+          "Mike Tyson's career collapse began with his 1990 upset loss to which 42-1 underdog — considered one of the greatest upsets in sports history?",
+        answer: "Buster Douglas",
+        acceptableAnswers: ["Buster Douglas", "James 'Buster' Douglas"],
+      },
+      {
+        id: "box_600_01",
+        categoryId: "sport_boxing_history",
+        tier: 600,
+        prompt:
+          "The Rumble in the Jungle was documented in the 1996 Academy Award-winning documentary When We Were Kings. The fight also coincided with a massive concert — 'Zaire 74.' What made promoter Don King's choice of Zaire politically significant?",
+        answer: "King deliberately chose an African nation — led by Mobutu Sese Seko — to stage the 'Black is Beautiful' era's greatest sporting event; connecting Ali and Foreman (both Black Americans) with Africa was a deliberate Pan-Africanist statement, though Mobutu's brutal dictatorship complicated the symbolism",
+        acceptableAnswers: [
+          "choosing an African nation connected the fight to Pan-African identity and the Black Pride movement",
+          "the African setting was a deliberate Black Power / Pan-Africanism statement despite Mobutu's brutal rule",
+          "staging it in Africa was political — connecting Black American athletes to the African continent during the civil rights era",
+        ],
+      },
+      {
+        id: "box_600_02",
+        categoryId: "sport_boxing_history",
+        tier: 600,
+        prompt:
+          "Mike Tyson's 1992 rape conviction and imprisonment interrupted his career at 25. When he returned, critics noticed a fundamental change in his boxing. What specific aspect of his style — present early in his career under trainer Cus D'Amato — had deteriorated?",
+        answer: "The 'peek-a-boo' defensive style Cus D'Amato taught — head movement, shoulder rolls, slipping punches — had degraded; post-prison Tyson relied more on power and intimidation than D'Amato's technical system, making him more hittable and less adaptable against skilled opponents",
+        acceptableAnswers: [
+          "the peek-a-boo defensive system Cus D'Amato taught — Tyson lost his head movement and defensive technique",
+          "D'Amato's defensive style deteriorated — post-prison Tyson relied on power and intimidation rather than technique",
+          "his defensive sophistication from the D'Amato era was gone — he became a power puncher without a system",
+        ],
+      },
+      {
+        id: "box_600_03",
+        categoryId: "sport_boxing_history",
+        tier: 600,
+        prompt:
+          "Boxing's weight class system (from strawweight to heavyweight) is designed to create competitive parity within size groups. Yet the sport systematically produces extreme inequality in earnings — with a tiny elite earning tens of millions while most professional boxers earn poverty wages. What structural feature of boxing's promotion system creates this disparity?",
+        answer: "Boxing has no union, no salary floor, and no player association — fighters sign with individual promoters (like Don King or Bob Arum) who control their contracts and matchmaking; the promotional monopoly system means most fighters have no negotiating leverage, while champions can earn enormous purses; the sport lacks the collective bargaining structures of team sports",
+        acceptableAnswers: [
+          "no union or collective bargaining — promoters control fighter contracts and earnings with no floor or leverage for fighters",
+          "the promoter monopoly system — fighters sign individual deals with no collective protection",
+          "boxing lacks a union — promoters and managers extract most value while fighters have no collective bargaining",
+        ],
+      },
+    ],
+  },
+  {
+    id: "hist_latin_independence",
+    group: "History",
+    name: "Latin American Independence",
+    culture: "universal",
+    description:
+      "Simón Bolívar, José de San Martín, Miguel Hidalgo, Toussaint Louverture, and the liberation of the Americas from Spanish rule.",
+    questions: [
+      {
+        id: "latam_200_01",
+        categoryId: "hist_latin_independence",
+        tier: 200,
+        prompt:
+          "Which Venezuelan-born leader — often called 'El Libertador' — led independence movements across Venezuela, Colombia, Ecuador, Peru, and Bolivia?",
+        answer: "Simón Bolívar",
+        acceptableAnswers: ["Simón Bolívar", "Simon Bolivar", "Bolívar", "Bolivar"],
+      },
+      {
+        id: "latam_200_02",
+        categoryId: "hist_latin_independence",
+        tier: 200,
+        prompt:
+          "Mexico's independence movement is traditionally dated to September 16, 1810 — when which Catholic priest rang his church bell and called the people to revolt, in what is known as the 'Grito de Dolores'?",
+        answer: "Miguel Hidalgo",
+        acceptableAnswers: ["Miguel Hidalgo", "Hidalgo", "Father Hidalgo", "Miguel Hidalgo y Costilla"],
+      },
+      {
+        id: "latam_200_03",
+        categoryId: "hist_latin_independence",
+        tier: 200,
+        prompt:
+          "The Haitian Revolution (1791–1804) produced the first Black republic in history and the only successful slave revolt to establish an independent nation. Which leader emerged to lead the revolution?",
+        answer: "Toussaint Louverture",
+        acceptableAnswers: ["Toussaint Louverture", "Toussaint L'Ouverture", "Louverture"],
+      },
+      {
+        id: "latam_400_01",
+        categoryId: "hist_latin_independence",
+        tier: 400,
+        prompt:
+          "José de San Martín liberated Argentina, Chile, and Peru from Spanish rule. His crossing of which geographical obstacle — a feat comparable to Hannibal's alpine crossing — made his Chilean campaign possible?",
+        answer: "The Andes Mountains",
+        acceptableAnswers: ["the Andes", "the Andes Mountains", "the Andes mountain range"],
+      },
+      {
+        id: "latam_400_02",
+        categoryId: "hist_latin_independence",
+        tier: 400,
+        prompt:
+          "Bolívar's dream was a united federation of South American states, sometimes called Gran Colombia. Which countries actually formed Gran Colombia between 1819 and 1831?",
+        answer: "Venezuela, Colombia (including modern Panama), and Ecuador",
+        acceptableAnswers: [
+          "Venezuela, Colombia, and Ecuador",
+          "Venezuela, Colombia, Ecuador (and Panama)",
+          "Gran Colombia comprised Venezuela, New Granada/Colombia, and Ecuador",
+        ],
+      },
+      {
+        id: "latam_400_03",
+        categoryId: "hist_latin_independence",
+        tier: 400,
+        prompt:
+          "Latin American independence movements were inspired partly by the American and French Revolutions. However, the social class that led most independence movements was not indigenous peoples or enslaved Africans but which group?",
+        answer: "Creoles — people of Spanish descent born in the Americas, who resented being subordinate to peninsulares (Spanish-born) in colonial administration",
+        acceptableAnswers: [
+          "Creoles — American-born elites of Spanish descent",
+          "the Creole elite — Spanish-descended Americans who resented colonial subordination",
+          "Creoles who wanted political power without changing the racial hierarchy",
+        ],
+      },
+      {
+        id: "latam_600_01",
+        categoryId: "hist_latin_independence",
+        tier: 600,
+        prompt:
+          "The Haitian Revolution's success sent shockwaves through slaveholding societies in the Americas. How did it specifically affect US policy toward Haiti, and what were the long-term consequences?",
+        answer: "The US refused to recognize Haiti diplomatically until 1862 (under Lincoln) — fearing a successful Black republic would inspire slave revolts in the American South; France forced Haiti to pay reparations of 150 million gold francs for lost colonial property (including enslaved people) until 1947, creating a debt burden that crippled Haitian development for over a century",
+        acceptableAnswers: [
+          "the US withheld recognition until 1862; France extracted reparations Haiti paid until 1947 — both actions devastated Haitian development",
+          "diplomatic isolation by the US and crushing French reparations debt shaped Haiti's underdevelopment",
+          "fear of Black republic spreading to the US South caused non-recognition; French reparations created century-long debt",
+        ],
+      },
+      {
+        id: "latam_600_02",
+        categoryId: "hist_latin_independence",
+        tier: 600,
+        prompt:
+          "Bolívar's vision of a united South America failed — Gran Colombia fragmented within a decade of its founding, and Bolívar died embittered. What structural factors made South American unity impossible despite the shared independence movement?",
+        answer: "Regional caudillos (strongmen) had independent power bases; geographic barriers (Andes, Amazon) prevented economic integration; Creole elites in each region prioritized local power over continental federation; the Spanish administrative divisions (viceroyalties) had created distinct regional identities; and no shared economic infrastructure existed to make union viable",
+        acceptableAnswers: [
+          "regional caudillos, geography, distinct regional identities, and Creole elites' preference for local power",
+          "geographic barriers, regional strongmen, and separate colonial administrative traditions prevented unity",
+          "no shared infrastructure, competing local elites, and the caudillo system made federation impossible",
+        ],
+      },
+      {
+        id: "latam_600_03",
+        categoryId: "hist_latin_independence",
+        tier: 600,
+        prompt:
+          "Miguel Hidalgo's Grito de Dolores is celebrated as Mexican Independence Day — yet Hidalgo was a criollo priest leading mostly indigenous and mestizo peasants, and he was captured and executed before independence was achieved. What does this origin reveal about the complexity of Mexico's independence movement?",
+        answer: "Mexican independence was not a simple nationalist uprising but a class-inflected social revolution that elite Creoles (who eventually completed independence in 1821) had initially feared as much as Spanish rule — Hidalgo's mass movement threatened the racial and class hierarchy; independence was ultimately achieved by conservative Creoles who shaped it to preserve their privileges rather than extend Hidalgo's radical egalitarianism",
+        acceptableAnswers: [
+          "independence was completed by conservative Creoles who feared Hidalgo's mass movement as much as Spain",
+          "the movement was class-divided — Hidalgo led poor masses, conservative elites completed independence to preserve their own power",
+          "Mexico's independence story reveals Creole elites hijacking a popular movement to serve their interests over indigenous and mestizo equality",
+        ],
+      },
+    ],
+  },
+
 ];
 
 export default CATEGORIES;
