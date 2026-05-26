@@ -1,6 +1,7 @@
 import { useFocusEffect, useRouter } from "expo-router";
 import React, { useCallback, useEffect, useMemo, useState } from "react";
 import {
+  ActivityIndicator,
   Platform,
   Pressable,
   ScrollView,
@@ -126,7 +127,15 @@ export default function BoardScreen() {
     [],
   );
 
-  if (!game || !session) return null;
+  if (!game) return null;
+
+  if (!session) {
+    return (
+      <View style={[styles.container, { backgroundColor: colors.background, paddingTop: topPad, alignItems: "center", justifyContent: "center" }]}>
+        <ActivityIndicator color={colors.mutedForeground} />
+      </View>
+    );
+  }
 
   const team1Cats = game.team1Categories
     .map((id) => categoryLookup[id])
