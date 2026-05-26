@@ -4,6 +4,7 @@ import {
   Alert,
   Platform,
   Pressable,
+  ScrollView,
   StyleSheet,
   Text,
   View,
@@ -102,7 +103,7 @@ export default function SettingsScreen() {
       </View>
 
       {/* Content */}
-      <View style={styles.content}>
+      <ScrollView style={{ flex: 1 }} contentContainerStyle={styles.content}>
         {/* Timer */}
         <View style={[styles.section, { borderColor: colors.border }]}>
           <Text
@@ -219,6 +220,24 @@ export default function SettingsScreen() {
           </Pressable>
         </View>
 
+        {/* Legal */}
+        <View style={[styles.section, { borderColor: colors.border }]}>
+          <Text style={[styles.sectionTitle, { color: colors.foreground, fontFamily: "Inter_600SemiBold" }]}>
+            Legal
+          </Text>
+          <Pressable
+            onPress={() => router.push("/privacy" as never)}
+            style={({ pressed }) => [
+              styles.dangerBtn,
+              { borderColor: colors.border, opacity: pressed ? 0.75 : 1 },
+            ]}
+          >
+            <Text style={[styles.dangerBtnText, { color: colors.mutedForeground, fontFamily: "Inter_600SemiBold" }]}>
+              Privacy Policy
+            </Text>
+          </Pressable>
+        </View>
+
         {/* Version */}
         <Text
           style={[
@@ -228,7 +247,7 @@ export default function SettingsScreen() {
         >
           Renegade v0.1.0
         </Text>
-      </View>
+      </ScrollView>
     </View>
   );
 }

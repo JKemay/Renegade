@@ -31,9 +31,7 @@ export default function CategoriesScreen() {
   const [team1Picks, setTeam1Picks] = useState<string[]>([]);
   const [team2Picks, setTeam2Picks] = useState<string[]>([]);
   const [currentTurn, setCurrentTurn] = useState<Team>("team1");
-  const [expandedGroups, setExpandedGroups] = useState<Set<string>>(
-    () => new Set(["Anime", "Video Games", "Movies & TV", "Cultural", "Sports", "Esports", "Music Artists"]),
-  );
+  const [expandedGroups, setExpandedGroups] = useState<Set<string>>(() => new Set());
   const [searchQuery, setSearchQuery] = useState("");
 
   const topPad = Platform.OS === "web" ? 67 : insets.top;
