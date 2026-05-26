@@ -60769,6 +60769,968 @@ const CATEGORIES: Category[] = [
     ],
   },
 
+
+  // ---------------------------------------------------------------------------
+  // Wave 45 — Berserk, Hollow Knight, Radiohead, Stanley Kubrick, Disco Elysium,
+  //           The French Revolution, Quantum Mechanics, Nirvana, Formula 1
+  // ---------------------------------------------------------------------------
+
+  {
+    id: "anime_berserk",
+    group: "Anime",
+    name: "Berserk",
+    culture: "universal",
+    description:
+      "Guts, Griffith, the Eclipse, and Kentaro Miura's thirty-year dark fantasy masterwork.",
+    questions: [
+      {
+        id: "brsrk_200_01",
+        categoryId: "anime_berserk",
+        tier: 200,
+        prompt:
+          "Berserk's manga was created by which Japanese author, who worked on it for over 30 years until his death in 2021?",
+        answer: "Kentaro Miura",
+        acceptableAnswers: ["Kentaro Miura", "Miura"],
+      },
+      {
+        id: "brsrk_200_02",
+        categoryId: "anime_berserk",
+        tier: 200,
+        prompt:
+          "What is the name of the enormous black sword — described as a 'slab of iron' too heavy to be a true blade — carried by the protagonist Guts?",
+        answer: "Dragonslayer",
+        acceptableAnswers: ["Dragonslayer", "the Dragonslayer"],
+      },
+      {
+        id: "brsrk_200_03",
+        categoryId: "anime_berserk",
+        tier: 200,
+        prompt:
+          "The traumatic turning point of Berserk — in which Griffith sacrifices the entire Band of the Hawk to become a God Hand — is known by what name?",
+        answer: "The Eclipse",
+        acceptableAnswers: ["The Eclipse", "Eclipse"],
+      },
+      {
+        id: "brsrk_400_01",
+        categoryId: "anime_berserk",
+        tier: 400,
+        prompt:
+          "During the Eclipse, Griffith transcends humanity and joins the God Hand as a demonic entity. What is the name he takes as a member of the God Hand?",
+        answer: "Femto",
+        acceptableAnswers: ["Femto"],
+      },
+      {
+        id: "brsrk_400_02",
+        categoryId: "anime_berserk",
+        tier: 400,
+        prompt:
+          "Guts loses his left arm during the Eclipse. His replacement prosthetic arm conceals a weapon inside it. What is that weapon?",
+        answer: "A cannon",
+        acceptableAnswers: ["cannon", "a cannon", "repeating crossbow", "miniature cannon"],
+      },
+      {
+        id: "brsrk_400_03",
+        categoryId: "anime_berserk",
+        tier: 400,
+        prompt:
+          "The acclaimed 1997 Berserk anime adaptation covered which arc of the manga — following Guts and Griffith from their first meeting through the Eclipse?",
+        answer: "The Golden Age Arc",
+        acceptableAnswers: ["Golden Age Arc", "the Golden Age Arc", "Golden Age"],
+      },
+      {
+        id: "brsrk_600_01",
+        categoryId: "anime_berserk",
+        tier: 600,
+        prompt:
+          "Kentaro Miura died in May 2021, leaving Berserk unfinished. His longtime friend announced the series would continue under a studio's supervision. What is the name of that studio, founded by Miura and his collaborators?",
+        answer: "Studio Gaga",
+        acceptableAnswers: ["Studio Gaga"],
+      },
+      {
+        id: "brsrk_600_02",
+        categoryId: "anime_berserk",
+        tier: 600,
+        prompt:
+          "The Beherit — a small egg-shaped artifact that activates at its owner's moment of ultimate despair to summon the God Hand — draws its name from a word meaning 'devil' in which ancient Semitic language?",
+        answer: "Syriac",
+        acceptableAnswers: ["Syriac", "Aramaic", "Hebrew", "Semitic"],
+      },
+      {
+        id: "brsrk_600_03",
+        categoryId: "anime_berserk",
+        tier: 600,
+        prompt:
+          "Berserk's central philosophical conflict pits fate — the deterministic causality imposed by the Idea of Evil — against individual will. Guts's entire arc is a refusal to accept his 'Brand of Sacrifice.' Which Nietzschean concept — the drive to create meaning and power through self-overcoming rather than surrender — best captures Guts's stance?",
+        answer: "Will to power",
+        acceptableAnswers: ["will to power", "Nietzsche's will to power", "self-overcoming", "Übermensch"],
+      },
+    ],
+  },
+  {
+    id: "game_hollow_knight",
+    group: "Video Games",
+    name: "Hollow Knight",
+    culture: "universal",
+    description:
+      "Team Cherry's underground insect kingdom — Hallownest, the Pale King, the Radiance, and the Infection.",
+    questions: [
+      {
+        id: "hk_200_01",
+        categoryId: "game_hollow_knight",
+        tier: 200,
+        prompt:
+          "Hollow Knight was developed by which small Australian indie studio, initially consisting of just two core developers?",
+        answer: "Team Cherry",
+        acceptableAnswers: ["Team Cherry"],
+      },
+      {
+        id: "hk_200_02",
+        categoryId: "game_hollow_knight",
+        tier: 200,
+        prompt:
+          "The world of Hollow Knight is a ruined underground insect kingdom. What is its name?",
+        answer: "Hallownest",
+        acceptableAnswers: ["Hallownest"],
+      },
+      {
+        id: "hk_200_03",
+        categoryId: "game_hollow_knight",
+        tier: 200,
+        prompt:
+          "In Hollow Knight, the resource used to power spells and heal the player is called what?",
+        answer: "Soul",
+        acceptableAnswers: ["Soul", "soul"],
+      },
+      {
+        id: "hk_400_01",
+        categoryId: "game_hollow_knight",
+        tier: 400,
+        prompt:
+          "Hallownest's downfall was caused by a spreading parasitic disease known as the Infection. What entity is the ultimate source of the Infection?",
+        answer: "The Radiance",
+        acceptableAnswers: ["The Radiance", "Radiance", "the forgotten moth deity"],
+      },
+      {
+        id: "hk_400_02",
+        categoryId: "game_hollow_knight",
+        tier: 400,
+        prompt:
+          "The Pale King created the Hollow Knight — a vessel — to seal away the Infection. The seal eventually failed. Why?",
+        answer: "The Hollow Knight was not truly hollow — it retained emotions and feelings, which allowed the Infection to breach the seal",
+        acceptableAnswers: [
+          "the vessel had feelings",
+          "it wasn't truly hollow — it retained emotions",
+          "it felt love for the White Lady",
+          "the vessel was impure / not empty",
+        ],
+      },
+      {
+        id: "hk_400_03",
+        categoryId: "game_hollow_knight",
+        tier: 400,
+        prompt:
+          "Hollow Knight's sequel, Silksong, was announced in 2019 and features a new playable protagonist. Who is she, and how does she connect to the original game?",
+        answer: "Hornet — she appeared as both a boss and an ally in Hollow Knight",
+        acceptableAnswers: [
+          "Hornet",
+          "Hornet, who was a boss and ally in the original",
+          "Hornet from Hollow Knight",
+        ],
+      },
+      {
+        id: "hk_600_01",
+        categoryId: "game_hollow_knight",
+        tier: 600,
+        prompt:
+          "Hollow Knight's lore is delivered almost entirely through environmental storytelling, item descriptions, and cryptic NPC dialogue — with no exposition dumps. This approach is most closely associated with which franchise's design philosophy, frequently called 'Soulslike' storytelling?",
+        answer: "Dark Souls / FromSoftware",
+        acceptableAnswers: [
+          "Dark Souls",
+          "FromSoftware",
+          "Soulslike",
+          "Hidetaka Miyazaki's design philosophy",
+        ],
+      },
+      {
+        id: "hk_600_02",
+        categoryId: "game_hollow_knight",
+        tier: 600,
+        prompt:
+          "The Grimm Troupe DLC introduces a travelling circus that arrives in Hallownest to perform a ritual across realms. What does the troupe collect during the ritual, and what is the ultimate purpose?",
+        answer: "They collect flames to fill the Grimmchild, eventually birthing the next Grimm and perpetuating the nightmare cycle across worlds",
+        acceptableAnswers: [
+          "flames to summon the next Grimm",
+          "collecting flames for the Grimmchild to birth a new Grimm",
+          "flames to continue the nightmare ritual across realms",
+        ],
+      },
+      {
+        id: "hk_600_03",
+        categoryId: "game_hollow_knight",
+        tier: 600,
+        prompt:
+          "The Pale King's founding of Hallownest was built on a deliberate act of suppression: he extinguished the Radiance's worship among the moth tribe, causing the moths to lose their memory and identity. What does this reveal about Hallownest's 'golden age' — and how does it mirror real-world nation-state formation?",
+        answer: "Hallownest's prosperity was built on erasing the history and identity of a pre-existing culture — paralleling how nation-states are founded through erasure of indigenous or competing traditions to manufacture unity",
+        acceptableAnswers: [
+          "the kingdom was built on cultural erasure",
+          "the 'golden age' was founded on erasing the moths' history and religion",
+          "Hallownest's civilization suppressed what came before it",
+        ],
+      },
+    ],
+  },
+  {
+    id: "music_radiohead",
+    group: "Music Artists",
+    name: "Radiohead",
+    culture: "universal",
+    description:
+      "From Creep to Kid A — Radiohead's restless reinvention across alternative rock, electronic, and orchestral territory.",
+    questions: [
+      {
+        id: "rdh_200_01",
+        categoryId: "music_radiohead",
+        tier: 200,
+        prompt:
+          "Radiohead's 1992 debut single became an unexpected global hit, but the band grew to deeply resent it and rarely plays it live. What is the song?",
+        answer: "Creep",
+        acceptableAnswers: ["Creep"],
+      },
+      {
+        id: "rdh_200_02",
+        categoryId: "music_radiohead",
+        tier: 200,
+        prompt:
+          "Lead guitarist Jonny Greenwood has had a parallel career as a film composer, most notably scoring films for which American director — including There Will Be Blood and The Master?",
+        answer: "Paul Thomas Anderson",
+        acceptableAnswers: ["Paul Thomas Anderson", "PTA"],
+      },
+      {
+        id: "rdh_200_03",
+        categoryId: "music_radiohead",
+        tier: 200,
+        prompt:
+          "Radiohead's 2007 album In Rainbows made history for its distribution model. How was it initially released?",
+        answer: "Pay-what-you-want / name-your-price download",
+        acceptableAnswers: [
+          "pay-what-you-want",
+          "name your own price",
+          "free download",
+          "pay what you like",
+        ],
+      },
+      {
+        id: "rdh_400_01",
+        categoryId: "music_radiohead",
+        tier: 400,
+        prompt:
+          "Kid A (2000) shocked fans expecting a follow-up to OK Computer's guitar-driven sound. Which genre of German experimental music — featuring artists like Can, Neu!, and Kraftwerk — was a key influence on its electronic direction?",
+        answer: "Krautrock",
+        acceptableAnswers: ["Krautrock", "Kraut rock", "Kosmische Musik"],
+      },
+      {
+        id: "rdh_400_02",
+        categoryId: "music_radiohead",
+        tier: 400,
+        prompt:
+          "OK Computer (1997) and The Bends (1995) were produced by which longtime Radiohead collaborator, who has produced nearly every album they've made?",
+        answer: "Nigel Godrich",
+        acceptableAnswers: ["Nigel Godrich", "Godrich"],
+      },
+      {
+        id: "rdh_400_03",
+        categoryId: "music_radiohead",
+        tier: 400,
+        prompt:
+          "OK Computer's 'Fitter Happier' is the only Radiohead track with no human singing — instead using a Mac text-to-speech voice. What does the track consist of, and what tone does it create?",
+        answer: "A computer voice reading a list of aspirational lifestyle statements that accumulate into a portrait of modern alienation and hollow self-improvement",
+        acceptableAnswers: [
+          "a computerized voice listing aspirational clichés",
+          "text-to-speech reading a list of self-improvement goals",
+          "a Mac voice reciting modern life aspirations — creating a bleak portrait of alienation",
+        ],
+      },
+      {
+        id: "rdh_600_01",
+        categoryId: "music_radiohead",
+        tier: 600,
+        prompt:
+          "Jonny Greenwood has cited 20th-century French composer Olivier Messiaen as a major influence — particularly his 'Quartet for the End of Time.' Which Kid A track features a drone string arrangement most directly informed by Messiaen's style?",
+        answer: "How to Disappear Completely",
+        acceptableAnswers: ["How to Disappear Completely", "How To Disappear Completely"],
+      },
+      {
+        id: "rdh_600_02",
+        categoryId: "music_radiohead",
+        tier: 600,
+        prompt:
+          "OK Computer's opening track 'Airbag' samples a breakbeat from which jazz drummer's recording — making it one of the first alternative rock tracks to use a sampled jazz break as its rhythmic backbone?",
+        answer: "Billy Cobham ('Stratus' from the Spectrum album)",
+        acceptableAnswers: [
+          "Billy Cobham",
+          "Cobham",
+          "Billy Cobham's Stratus",
+        ],
+      },
+      {
+        id: "rdh_600_03",
+        categoryId: "music_radiohead",
+        tier: 600,
+        prompt:
+          "Radiohead dissolved their contract with EMI after Pablo Honey (1993) and signed with Parlophone — but retained ownership of their masters. After In Rainbows, they went fully independent. What does the trajectory of Radiohead's label relationships demonstrate about the changing economics of the music industry in the 2000s?",
+        answer: "That artists with sufficient leverage could reclaim creative and commercial control from major labels — the internet made direct-to-fan distribution viable and removed labels' monopoly on distribution",
+        acceptableAnswers: [
+          "artists could bypass labels and distribute directly",
+          "the internet broke the label's distribution monopoly",
+          "major labels lost control of distribution, giving established artists leverage to go independent",
+        ],
+      },
+    ],
+  },
+  {
+    id: "movie_kubrick",
+    group: "Movies & TV",
+    name: "Stanley Kubrick",
+    culture: "universal",
+    description:
+      "2001, The Shining, Clockwork Orange, Barry Lyndon — the perfectionism and symbolism of cinema's most meticulous director.",
+    questions: [
+      {
+        id: "kubrick_200_01",
+        categoryId: "movie_kubrick",
+        tier: 200,
+        prompt:
+          "Kubrick's 1968 science fiction film — widely considered one of the greatest ever made — follows astronauts encountering a mysterious black monolith. What is its title?",
+        answer: "2001: A Space Odyssey",
+        acceptableAnswers: ["2001: A Space Odyssey", "2001 A Space Odyssey", "2001"],
+      },
+      {
+        id: "kubrick_200_02",
+        categoryId: "movie_kubrick",
+        tier: 200,
+        prompt:
+          "The AI antagonist of 2001: A Space Odyssey — who calmly refuses to 'open the pod bay doors' — is named what?",
+        answer: "HAL 9000",
+        acceptableAnswers: ["HAL 9000", "HAL", "HAL-9000"],
+      },
+      {
+        id: "kubrick_200_03",
+        categoryId: "movie_kubrick",
+        tier: 200,
+        prompt:
+          "Kubrick's A Clockwork Orange (1971) was voluntarily withdrawn from UK distribution by Kubrick himself in 1973. What prompted him to pull the film?",
+        answer: "He received death threats after the film was linked to copycat violence, and he feared for his family's safety",
+        acceptableAnswers: [
+          "death threats",
+          "fear of copycat violence",
+          "he received threats after the film was blamed for inspiring crimes",
+          "copycat crimes and personal threats to Kubrick and his family",
+        ],
+      },
+      {
+        id: "kubrick_400_01",
+        categoryId: "movie_kubrick",
+        tier: 400,
+        prompt:
+          "Full Metal Jacket (1987) is divided into two sharply contrasting halves. Who plays Gunnery Sergeant Hartman in the first half — a performance so intense it was largely ad-libbed?",
+        answer: "R. Lee Ermey",
+        acceptableAnswers: ["R. Lee Ermey", "Lee Ermey", "Ermey"],
+      },
+      {
+        id: "kubrick_400_02",
+        categoryId: "movie_kubrick",
+        tier: 400,
+        prompt:
+          "Barry Lyndon (1975) was filmed using only natural and candlelight, requiring lenses developed for NASA with an extremely wide aperture. What is the specific lens used for the candlelit interior scenes?",
+        answer: "Zeiss 50mm f/0.7",
+        acceptableAnswers: ["Zeiss f/0.7", "Zeiss 50mm f/0.7", "the NASA Zeiss lens", "f/0.7 Zeiss"],
+      },
+      {
+        id: "kubrick_400_03",
+        categoryId: "movie_kubrick",
+        tier: 400,
+        prompt:
+          "Eyes Wide Shut (1999), Kubrick's final film, was delivered to the studio and released posthumously — he died days after finishing his cut. Which real-life couple starred as the lead characters?",
+        answer: "Tom Cruise and Nicole Kidman",
+        acceptableAnswers: ["Tom Cruise and Nicole Kidman", "Cruise and Kidman", "Nicole Kidman and Tom Cruise"],
+      },
+      {
+        id: "kubrick_600_01",
+        categoryId: "movie_kubrick",
+        tier: 600,
+        prompt:
+          "2001's 'Star Gate' sequence — a psychedelic journey through light and geometry — was created entirely in-camera without digital effects. What photographic technique, later adopted in music videos and commercials, was invented or refined for this sequence?",
+        answer: "Slit-scan photography",
+        acceptableAnswers: ["slit-scan photography", "slit scan", "slit-scan"],
+      },
+      {
+        id: "kubrick_600_02",
+        categoryId: "movie_kubrick",
+        tier: 600,
+        prompt:
+          "The documentary Room 237 (2012) catalogs fan theories about hidden meanings in The Shining. One of its most notorious theories argues that Kubrick changed the Overlook's haunted room from King's 217 to 237 as a coded reference to the Moon's distance from Earth — as a confession that Kubrick helped fake what?",
+        answer: "The Apollo moon landing footage",
+        acceptableAnswers: ["the moon landing", "faking the Apollo moon landing", "the Apollo 11 footage"],
+      },
+      {
+        id: "kubrick_600_03",
+        categoryId: "movie_kubrick",
+        tier: 600,
+        prompt:
+          "Kubrick was notorious for demanding extreme numbers of takes — sometimes hundreds for a single scene. He justified this not purely as perfectionism but as a technique to produce what specific quality in actors' performances?",
+        answer: "Something that transcends conscious acting — repetition wears away deliberate choices and produces instinctive, unpredictable behavior that the actor cannot fake or plan",
+        acceptableAnswers: [
+          "instinctive, unconscious performance",
+          "exhaustion that breaks through conscious acting choices",
+          "performance that goes beyond what the actor planned",
+          "something genuine that emerges after all deliberate choices are exhausted",
+        ],
+      },
+    ],
+  },
+  {
+    id: "game_disco_elysium",
+    group: "Video Games",
+    name: "Disco Elysium",
+    culture: "universal",
+    description:
+      "ZA/UM's detective RPG — Harry Du Bois, the Pale, Revachol, and one of gaming's most politically literate scripts.",
+    questions: [
+      {
+        id: "disco_200_01",
+        categoryId: "game_disco_elysium",
+        tier: 200,
+        prompt:
+          "Disco Elysium was developed by which Estonian studio, founded by writer Robert Kurvitz?",
+        answer: "ZA/UM",
+        acceptableAnswers: ["ZA/UM", "ZAUM"],
+      },
+      {
+        id: "disco_200_02",
+        categoryId: "game_disco_elysium",
+        tier: 200,
+        prompt:
+          "Disco Elysium's player character is a detective who wakes with complete amnesia, not even remembering his own name. What is that name, revealed through the game's investigation?",
+        answer: "Harry Du Bois",
+        acceptableAnswers: ["Harry Du Bois", "Harry", "Harry DuBois"],
+      },
+      {
+        id: "disco_200_03",
+        categoryId: "game_disco_elysium",
+        tier: 200,
+        prompt:
+          "Disco Elysium's skill system replaces traditional RPG stats with 24 skills that manifest as personified inner voices arguing with Harry. How does the game represent a failed skill check?",
+        answer: "The skill's voice taunts or criticizes Harry after he fails the check",
+        acceptableAnswers: [
+          "the skill voice speaks in failure",
+          "internal dialogue criticizes Harry",
+          "the skill speaks up and fails him",
+          "a voice in his head mocks the failure",
+        ],
+      },
+      {
+        id: "disco_400_01",
+        categoryId: "game_disco_elysium",
+        tier: 400,
+        prompt:
+          "The world of Disco Elysium is undergoing a slow metaphysical collapse in which reality itself 'forgets' to exist, spreading across the map as blank white nothingness. What is this phenomenon called?",
+        answer: "The Pale",
+        acceptableAnswers: ["The Pale", "the Pale"],
+      },
+      {
+        id: "disco_400_02",
+        categoryId: "game_disco_elysium",
+        tier: 400,
+        prompt:
+          "Disco Elysium features a political alignment system — Harry can embody Communism, Fascism, or Moralism as ideological Thoughts. What is the fourth political ideology Harry can align with?",
+        answer: "Ultraliberalism",
+        acceptableAnswers: ["Ultraliberalism", "Ultra-liberalism", "ultra-liberal"],
+      },
+      {
+        id: "disco_400_03",
+        categoryId: "game_disco_elysium",
+        tier: 400,
+        prompt:
+          "The city of Revachol, where Disco Elysium is set, was once the site of a failed communist revolution. What international body now administers the city and limits its sovereignty — analogous to a capitalist world-order coalition?",
+        answer: "The Moralintern",
+        acceptableAnswers: ["Moralintern", "the Moralintern", "the international community / Moralintern"],
+      },
+      {
+        id: "disco_600_01",
+        categoryId: "game_disco_elysium",
+        tier: 600,
+        prompt:
+          "Disco Elysium's The Final Cut (2021) added full voice acting and four new 'Vision Quest' questlines. Which major controversy followed the game's commercial success, involving the studio's founding creative team?",
+        answer: "ZA/UM's founding creators — including Kurvitz and art director Aleksander Rostov — were pushed out of the studio they built; they alleged they were fired after the game's success in a corporate takeover of the company",
+        acceptableAnswers: [
+          "the founders were pushed out of ZA/UM",
+          "Kurvitz and Rostov were fired from the studio they created",
+          "a corporate restructuring removed the original creative team",
+        ],
+      },
+      {
+        id: "disco_600_02",
+        categoryId: "game_disco_elysium",
+        tier: 600,
+        prompt:
+          "The Thought Cabinet mechanic allows Harry to 'internalize' ideas, which give passive bonuses and penalties. This literalizes a concept from continental philosophy — that consciousness is not a neutral observer but is structured by the ideological frameworks it inhabits. Which philosopher's concept of ideology as a set of practices that 'interpellates' subjects best maps onto this mechanic?",
+        answer: "Louis Althusser",
+        acceptableAnswers: [
+          "Althusser",
+          "Louis Althusser",
+          "Althusser's interpellation",
+          "Althusserian ideology",
+        ],
+      },
+      {
+        id: "disco_600_03",
+        categoryId: "game_disco_elysium",
+        tier: 600,
+        prompt:
+          "Disco Elysium's central mystery — a hanged man found in the Whirling-in-Rags courtyard — is eventually revealed to involve a mercenary hired by a logging corporation to break a dockworkers' strike, killed by an old communist soldier. What does this resolution say about the game's political thesis regarding violence and historical memory?",
+        answer: "That violence in service of capital is normalized while revolutionary violence is pathologized — the Deserter's act is a ghost of a forgotten war, showing how history buries political violence that doesn't serve the dominant order",
+        acceptableAnswers: [
+          "capitalist violence is invisible; revolutionary violence is treated as pathology",
+          "the murder exposes how strike-breaking (corporate violence) goes unpunished while resistance is erased",
+          "the game frames institutional violence as routine and personal violence as insanity",
+        ],
+      },
+    ],
+  },
+  {
+    id: "hist_french_revolution",
+    group: "History",
+    name: "The French Revolution",
+    culture: "universal",
+    description:
+      "The Estates-General, the Bastille, the Terror, Robespierre, and Napoleon's rise — 1789 to 1799.",
+    questions: [
+      {
+        id: "frrev_200_01",
+        categoryId: "hist_french_revolution",
+        tier: 200,
+        prompt:
+          "The French Revolution's political crisis began in 1789 when the Third Estate broke from the Estates-General and declared itself what governing body?",
+        answer: "The National Assembly",
+        acceptableAnswers: ["National Assembly", "the National Assembly"],
+      },
+      {
+        id: "frrev_200_02",
+        categoryId: "hist_french_revolution",
+        tier: 200,
+        prompt:
+          "The storming of which Paris fortress on July 14, 1789 — celebrated annually as Bastille Day — is the symbolic flashpoint of the French Revolution?",
+        answer: "The Bastille",
+        acceptableAnswers: ["the Bastille", "Bastille"],
+      },
+      {
+        id: "frrev_200_03",
+        categoryId: "hist_french_revolution",
+        tier: 200,
+        prompt:
+          "During the Reign of Terror, who led the Committee of Public Safety and became the face of revolutionary executions — before being guillotined himself in 1794?",
+        answer: "Maximilien Robespierre",
+        acceptableAnswers: ["Maximilien Robespierre", "Robespierre"],
+      },
+      {
+        id: "frrev_400_01",
+        categoryId: "hist_french_revolution",
+        tier: 400,
+        prompt:
+          "Robespierre's fall was engineered by members of the National Convention who feared they were next for the guillotine. His arrest and execution on 9 Thermidor (July 27, 1794) gives its name to which broader counter-revolutionary turn?",
+        answer: "The Thermidorian Reaction",
+        acceptableAnswers: ["Thermidorian Reaction", "the Thermidorian Reaction", "9 Thermidor", "Thermidor"],
+      },
+      {
+        id: "frrev_400_02",
+        categoryId: "hist_french_revolution",
+        tier: 400,
+        prompt:
+          "Napoleon Bonaparte ended the Directory with a coup in November 1799. Named after the month in the French Republican Calendar when it occurred, what is this coup called?",
+        answer: "18 Brumaire",
+        acceptableAnswers: ["18 Brumaire", "the coup of 18 Brumaire", "Brumaire coup"],
+      },
+      {
+        id: "frrev_400_03",
+        categoryId: "hist_french_revolution",
+        tier: 400,
+        prompt:
+          "Olympe de Gouges wrote the Declaration of the Rights of Woman and of the Female Citizen (1791), directly challenging the male-exclusive Declaration of the Rights of Man. What happened to her?",
+        answer: "She was guillotined in 1793 for her political writings and opposition to Robespierre",
+        acceptableAnswers: [
+          "she was guillotined",
+          "executed by guillotine in 1793",
+          "executed during the Terror",
+        ],
+      },
+      {
+        id: "frrev_600_01",
+        categoryId: "hist_french_revolution",
+        tier: 600,
+        prompt:
+          "The Declaration of the Rights of Man and of the Citizen (1789) was partly modeled on which American document from 1776, and which Marquis helped draft both — serving in the American Revolution before returning to France?",
+        answer: "The Declaration of Independence; the Marquis de Lafayette",
+        acceptableAnswers: [
+          "Declaration of Independence and Lafayette",
+          "the American Declaration of Independence; Lafayette",
+          "Lafayette and the US Declaration of Independence",
+        ],
+      },
+      {
+        id: "frrev_600_02",
+        categoryId: "hist_french_revolution",
+        tier: 600,
+        prompt:
+          "The Vendée uprising (1793–1796) was a Catholic royalist revolt brutally suppressed by the republic, involving mass drownings called 'noyades' and systematic killing of civilians. Some historians apply what term to the suppression — a term still contested in French public discourse?",
+        answer: "Genocide",
+        acceptableAnswers: ["genocide", "the Vendée genocide", "democide"],
+      },
+      {
+        id: "frrev_600_03",
+        categoryId: "hist_french_revolution",
+        tier: 600,
+        prompt:
+          "The Revolution's 'active citizen' / 'passive citizen' distinction, introduced in the 1791 constitution, divided French men by property ownership — giving only property-owners the vote. What did this reveal about the Revolution's 'universal' Declaration of Rights?",
+        answer: "That 'universal' rights were in practice contingent on class — property was the gateway to political participation, exposing the bourgeois character of Revolutionary 'universalism'",
+        acceptableAnswers: [
+          "the universal rights were actually class-based",
+          "only property-owning men had full citizenship",
+          "the Revolution protected bourgeois interests above universal human rights",
+          "universal rights excluded the poor, women, and the enslaved",
+        ],
+      },
+    ],
+  },
+  {
+    id: "sci_quantum",
+    group: "Science",
+    name: "Quantum Mechanics",
+    culture: "universal",
+    description:
+      "Wave-particle duality, Schrödinger's cat, Heisenberg uncertainty, Bell's theorem, and quantum entanglement.",
+    questions: [
+      {
+        id: "qm_200_01",
+        categoryId: "sci_quantum",
+        tier: 200,
+        prompt:
+          "The double-slit experiment showed that particles like electrons create interference patterns as if they were waves — until they are observed, at which point they behave as particles. What is this property called?",
+        answer: "Wave-particle duality",
+        acceptableAnswers: ["wave-particle duality", "wave-particle dual nature"],
+      },
+      {
+        id: "qm_200_02",
+        categoryId: "sci_quantum",
+        tier: 200,
+        prompt:
+          "Erwin Schrödinger's famous thought experiment features a cat that is simultaneously alive and dead until a box is opened. What quantum concept — that particles exist in multiple states until measured — does this illustrate?",
+        answer: "Superposition",
+        acceptableAnswers: ["superposition", "quantum superposition"],
+      },
+      {
+        id: "qm_200_03",
+        categoryId: "sci_quantum",
+        tier: 200,
+        prompt:
+          "Which principle, formulated by Werner Heisenberg, states that the more precisely a particle's position is known, the less precisely its momentum can be known — and vice versa?",
+        answer: "The Heisenberg Uncertainty Principle",
+        acceptableAnswers: [
+          "Heisenberg Uncertainty Principle",
+          "the Uncertainty Principle",
+          "Heisenberg's uncertainty principle",
+        ],
+      },
+      {
+        id: "qm_400_01",
+        categoryId: "sci_quantum",
+        tier: 400,
+        prompt:
+          "Einstein rejected quantum indeterminacy, proposing that 'hidden variables' actually determine outcomes — God does not play dice. Bell's theorem (1964) proved what about this view?",
+        answer: "No local hidden variable theory can reproduce all predictions of quantum mechanics — Einstein's preferred interpretation is ruled out",
+        acceptableAnswers: [
+          "local hidden variables are ruled out",
+          "no hidden variable theory can replicate QM's predictions",
+          "Bell proved Einstein's preferred interpretation is wrong",
+          "quantum mechanics cannot be explained by local hidden variables",
+        ],
+      },
+      {
+        id: "qm_400_02",
+        categoryId: "sci_quantum",
+        tier: 400,
+        prompt:
+          "Quantum entanglement links two particles so that measuring one instantly determines the other's state, regardless of distance. What have experiments definitively shown about whether entanglement can transmit information faster than light?",
+        answer: "It cannot — entanglement is non-local but cannot transmit usable information faster than light",
+        acceptableAnswers: [
+          "no, it cannot transmit information FTL",
+          "entanglement cannot be used for faster-than-light communication",
+          "no information can be sent via entanglement",
+        ],
+      },
+      {
+        id: "qm_400_03",
+        categoryId: "sci_quantum",
+        tier: 400,
+        prompt:
+          "The Copenhagen interpretation holds that a quantum system only takes a definite state upon measurement. Hugh Everett III proposed an alternative that avoids wave function 'collapse' entirely. What is his interpretation called?",
+        answer: "The Many-Worlds Interpretation",
+        acceptableAnswers: ["Many-Worlds Interpretation", "many-worlds", "Everett interpretation"],
+      },
+      {
+        id: "qm_600_01",
+        categoryId: "sci_quantum",
+        tier: 600,
+        prompt:
+          "Alain Aspect's 1982 experiments tested Bell's inequality and closed a key loophole in earlier tests. What was the 'locality loophole' that Aspect's experimental design specifically addressed?",
+        answer: "He rapidly switched measurement settings during particle flight so the settings couldn't be causally correlated — ruling out local communication between detector settings and particle behavior",
+        acceptableAnswers: [
+          "he switched settings during particle flight to close the locality loophole",
+          "the fast-switching design prevented local communication between detector settings",
+          "he ensured detector settings couldn't communicate with each other during the measurement",
+        ],
+      },
+      {
+        id: "qm_600_02",
+        categoryId: "sci_quantum",
+        tier: 600,
+        prompt:
+          "Quantum tunneling allows particles to pass through energy barriers they classically cannot overcome. Which process at the heart of stellar energy production would be impossible at actual stellar temperatures without quantum tunneling?",
+        answer: "Nuclear fusion / proton-proton fusion",
+        acceptableAnswers: [
+          "nuclear fusion",
+          "proton-proton fusion",
+          "stellar fusion",
+          "hydrogen fusion in stars",
+        ],
+      },
+      {
+        id: "qm_600_03",
+        categoryId: "sci_quantum",
+        tier: 600,
+        prompt:
+          "Schrödinger devised his cat thought experiment not to celebrate quantum weirdness, but to expose a flaw in the Copenhagen interpretation. What specific problem was he trying to illustrate by scaling superposition up to a macroscopic object?",
+        answer: "The measurement problem — Copenhagen doesn't specify when collapse occurs or what counts as an observer; consistently applied, it would require macroscopic objects to be in superposition, which is absurd",
+        acceptableAnswers: [
+          "the measurement problem",
+          "Copenhagen can't specify when collapse happens",
+          "Copenhagen doesn't define what an observer is, making macro-superposition unavoidable",
+          "the problem of the Heisenberg cut — when does quantum end and classical begin",
+        ],
+      },
+    ],
+  },
+  {
+    id: "music_nirvana",
+    group: "Music Artists",
+    name: "Nirvana",
+    culture: "universal",
+    description:
+      "Bleach, Nevermind, In Utero — Kurt Cobain, grunge, Sub Pop, and the band that changed rock radio overnight.",
+    questions: [
+      {
+        id: "nirv_200_01",
+        categoryId: "music_nirvana",
+        tier: 200,
+        prompt:
+          "Nirvana's 1991 album Nevermind launched them to mainstream stardom. What was its lead single — the song whose MTV airplay made grunge a global phenomenon?",
+        answer: "Smells Like Teen Spirit",
+        acceptableAnswers: ["Smells Like Teen Spirit"],
+      },
+      {
+        id: "nirv_200_02",
+        categoryId: "music_nirvana",
+        tier: 200,
+        prompt:
+          "Nirvana's drummer went on to form and front the Foo Fighters after Kurt Cobain's death. What is his name?",
+        answer: "Dave Grohl",
+        acceptableAnswers: ["Dave Grohl", "Grohl"],
+      },
+      {
+        id: "nirv_200_03",
+        categoryId: "music_nirvana",
+        tier: 200,
+        prompt:
+          "Nirvana's debut album Bleach (1989) was released on which Seattle independent label — the same label that helped launch Pearl Jam and Soundgarden?",
+        answer: "Sub Pop",
+        acceptableAnswers: ["Sub Pop"],
+      },
+      {
+        id: "nirv_400_01",
+        categoryId: "music_nirvana",
+        tier: 400,
+        prompt:
+          "In Utero (1993), Nirvana's final studio album, was produced by which famously abrasive recording engineer — known for working with the Pixies on Surfer Rosa and Big Black on Atomizer?",
+        answer: "Steve Albini",
+        acceptableAnswers: ["Steve Albini", "Albini"],
+      },
+      {
+        id: "nirv_400_02",
+        categoryId: "music_nirvana",
+        tier: 400,
+        prompt:
+          "Nevermind was mixed by Andy Wallace to a polished, commercially accessible sound that Cobain later disliked. Who produced the album — the same engineer behind Butch Vig's work with Smashing Pumpkins?",
+        answer: "Butch Vig",
+        acceptableAnswers: ["Butch Vig", "Vig"],
+      },
+      {
+        id: "nirv_400_03",
+        categoryId: "music_nirvana",
+        tier: 400,
+        prompt:
+          "Cobain openly cited the Pixies as his primary influence, calling 'Smells Like Teen Spirit' an attempt to write a Pixies song. Which specific Pixies compositional technique — alternating soft verse dynamics with explosive choruses — became Nirvana's signature structure?",
+        answer: "Loud-quiet-loud",
+        acceptableAnswers: ["loud-quiet-loud", "soft verse, loud chorus", "dynamic contrast between verse and chorus"],
+      },
+      {
+        id: "nirv_600_01",
+        categoryId: "music_nirvana",
+        tier: 600,
+        prompt:
+          "The Nevermind album cover — a naked baby swimming toward a dollar bill on a fishhook — was Cobain's concept. Spencer Elden, the infant in the photo, sued Nirvana's estate in 2021. On what legal grounds, and what was the outcome?",
+        answer: "He claimed the image constituted child sexual exploitation material (CSAM); the case was dismissed by a federal judge who ruled he had filed too late under the statute of limitations",
+        acceptableAnswers: [
+          "CSAM / child exploitation claim; dismissed for being filed too late",
+          "he claimed it was child pornography; the case was dismissed",
+          "the lawsuit was dismissed — statute of limitations",
+        ],
+      },
+      {
+        id: "nirv_600_02",
+        categoryId: "music_nirvana",
+        tier: 600,
+        prompt:
+          "Bleach was recorded for approximately $606, raised by bassist Krist Novoselic and drummer Chad Channing. In Utero was deliberately lo-fi as a reaction to Nevermind's polished sound. What does the contrast between these two albums reveal about Cobain's relationship with commercial success?",
+        answer: "Cobain found mainstream success uncomfortable and used In Utero to deliberately alienate casual fans and reassert punk authenticity — he was trapped between artistic credibility and the commercial machinery Nevermind activated",
+        acceptableAnswers: [
+          "Cobain was deeply ambivalent about fame and used In Utero to push fans away",
+          "he used In Utero to reclaim punk credibility after Nevermind's commercial polish",
+          "Cobain resented the mainstream success and made In Utero as a hostile response to it",
+        ],
+      },
+      {
+        id: "nirv_600_03",
+        categoryId: "music_nirvana",
+        tier: 600,
+        prompt:
+          "Nirvana's MTV Unplugged performance (1993) featured covers including Lead Belly's 'Where Did You Sleep Last Night,' the Meat Puppets' songs, and David Bowie's 'The Man Who Sold the World.' The set was released posthumously as an album. What does the song selection reveal about Cobain's artistic identity beyond the grunge icon persona?",
+        answer: "Cobain's musical literacy spanned folk, punk, and art rock — Lead Belly situates him in American roots music, Bowie in glam art-rock; the covers undercut the grunge label and show a songwriter who saw himself in a broader tradition",
+        acceptableAnswers: [
+          "his taste went far beyond grunge — folk, art rock, and country roots",
+          "the covers show Cobain as a student of American roots music and art rock",
+          "the set reveals his rejection of the grunge label and his broader musical influences",
+        ],
+      },
+    ],
+  },
+  {
+    id: "sport_f1",
+    group: "Sports",
+    name: "Formula 1",
+    culture: "universal",
+    description:
+      "Senna, Schumacher, Hamilton, Verstappen — the technical complexity and drama of the world's premier motorsport.",
+    questions: [
+      {
+        id: "f1_200_01",
+        categoryId: "sport_f1",
+        tier: 200,
+        prompt:
+          "Which British driver holds the record for the most Formula 1 World Championship titles, winning seven between 2008 and 2020?",
+        answer: "Lewis Hamilton",
+        acceptableAnswers: ["Lewis Hamilton", "Hamilton"],
+      },
+      {
+        id: "f1_200_02",
+        categoryId: "sport_f1",
+        tier: 200,
+        prompt:
+          "What is the name of the aerodynamic device mounted on the rear wing of F1 cars that can be opened to reduce drag on straights, available only when a driver is within one second of the car ahead?",
+        answer: "DRS",
+        acceptableAnswers: ["DRS", "Drag Reduction System"],
+      },
+      {
+        id: "f1_200_03",
+        categoryId: "sport_f1",
+        tier: 200,
+        prompt:
+          "Michael Schumacher won five consecutive F1 World Championships from 2000 to 2004 with which constructor?",
+        answer: "Ferrari",
+        acceptableAnswers: ["Ferrari", "Scuderia Ferrari"],
+      },
+      {
+        id: "f1_400_01",
+        categoryId: "sport_f1",
+        tier: 400,
+        prompt:
+          "Ayrton Senna died at the 1994 San Marino Grand Prix after his car struck a concrete barrier. At which Italian circuit did this happen?",
+        answer: "Imola",
+        acceptableAnswers: ["Imola", "Autodromo Enzo e Dino Ferrari", "San Marino Circuit"],
+      },
+      {
+        id: "f1_400_02",
+        categoryId: "sport_f1",
+        tier: 400,
+        prompt:
+          "The 2021 Abu Dhabi Grand Prix finale is one of F1's most controversial moments — safety car procedures were applied inconsistently on the final lap, allowing Max Verstappen to overtake Lewis Hamilton for the title. Which race director's decision caused the controversy?",
+        answer: "Michael Masi",
+        acceptableAnswers: ["Michael Masi", "Masi"],
+      },
+      {
+        id: "f1_400_03",
+        categoryId: "sport_f1",
+        tier: 400,
+        prompt:
+          "The 'Concorde Agreement' is F1's foundational commercial contract between the teams, FIA, and Formula One Management. Why is it called 'Concorde' — with no reference to the supersonic jet or any city called Concorde?",
+        answer: "It was first signed at the FIA headquarters on the Place de la Concorde in Paris in 1981",
+        acceptableAnswers: [
+          "signed at the Place de la Concorde in Paris",
+          "FIA's Paris headquarters on Place de la Concorde",
+          "named after the square in Paris where FIA is based",
+        ],
+      },
+      {
+        id: "f1_600_01",
+        categoryId: "sport_f1",
+        tier: 600,
+        prompt:
+          "Post-accident investigations into Senna's 1994 Imola crash identified a likely mechanical failure. What component failure is the most widely accepted cause, based on metallurgical analysis of the wreckage?",
+        answer: "A modified steering column that cracked under stress",
+        acceptableAnswers: [
+          "steering column failure",
+          "a cracked steering column",
+          "the modified steering column broke",
+        ],
+      },
+      {
+        id: "f1_600_02",
+        categoryId: "sport_f1",
+        tier: 600,
+        prompt:
+          "Ground effect aerodynamics — generating massive downforce through underbody airflow — was pioneered by Colin Chapman's Lotus in the late 1970s. Why were ground effect cars banned for the 1983 season, and what term describes the dangerous oscillation reintroduced when ground effect returned in 2022?",
+        answer: "Banned due to unpredictable, dangerous handling when ground effect was suddenly lost; the 2022 cars suffered 'porpoising' — rapid vertical oscillation as the floor alternately stalled and generated downforce at high speed",
+        acceptableAnswers: [
+          "banned for safety; the 2022 problem was porpoising",
+          "sudden loss of downforce made the cars dangerous; reintroduced cars had porpoising",
+          "porpoising — the bouncing caused by ground effect stalling at speed",
+        ],
+      },
+      {
+        id: "f1_600_03",
+        categoryId: "sport_f1",
+        tier: 600,
+        prompt:
+          "Ayrton Senna's 1984 Monaco Grand Prix qualifying lap — which he set in a McLaren MP4/2 while almost a second and a half faster than his nearest rival — is often called the greatest lap in F1 history. Senna himself said he entered a trance-like state during it, later describing what experience?",
+        answer: "He felt he was no longer consciously driving — his actions became automatic and transcendent; he described pulling himself out of it because he felt he was in danger of losing control by going too far beyond his limits",
+        acceptableAnswers: [
+          "he was driving in a trance, no longer consciously in control",
+          "he described losing himself in the driving — a transcendent or dissociative state",
+          "he felt he was going beyond his own limits and pulled back out of fear",
+          "a flow state — he felt outside himself, driving on pure instinct",
+        ],
+      },
+    ],
+  },
+
 ];
 
 export default CATEGORIES;
