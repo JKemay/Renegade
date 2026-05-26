@@ -275,6 +275,12 @@ export default function QuestionScreen() {
     >
       {/* Header */}
       <View style={[styles.header, { borderBottomColor: colors.border }]}>
+        <Pressable onPress={() => router.back()} hitSlop={12} style={styles.backBtn}>
+          <Text style={[styles.backLabel, { color: colors.mutedForeground, fontFamily: "Inter_500Medium" }]}>
+            Cancel
+          </Text>
+        </Pressable>
+
         <Text
           style={[
             styles.headerTitle,
@@ -400,7 +406,7 @@ export default function QuestionScreen() {
                     { color: activeColor, fontFamily: "Inter_700Bold" },
                   ]}
                 >
-                  Veto active - opponents skip their next pick
+                  Veto active — opponents skip their next pick
                 </Text>
               </View>
             )}
@@ -582,24 +588,14 @@ function AnswerPanel({
           >
             {question.answer}
           </Text>
-          {question.acceptableAnswers && question.acceptableAnswers.filter((a) => a !== question.answer).length > 0 && (
+          {question.acceptableAnswers && question.acceptableAnswers.length > 0 && (
             <Text
               style={[
                 styles.acceptable,
                 { color: colors.mutedForeground, fontFamily: "Inter_400Regular" },
               ]}
             >
-              Also accepted: {question.acceptableAnswers.filter((a) => a !== question.answer).join(", ")}
-            </Text>
-          )}
-          {question.explanation && (
-            <Text
-              style={[
-                styles.explanation,
-                { color: colors.mutedForeground, fontFamily: "Inter_400Regular" },
-              ]}
-            >
-              {question.explanation}
+              Also accepted: {question.acceptableAnswers.join(", ")}
             </Text>
           )}
         </>
