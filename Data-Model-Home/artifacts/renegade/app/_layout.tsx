@@ -32,6 +32,7 @@ function RootLayoutNav() {
       <Stack.Screen name="question" options={{ headerShown: false }} />
       <Stack.Screen name="results" options={{ headerShown: false }} />
       <Stack.Screen name="settings" options={{ headerShown: false }} />
+      <Stack.Screen name="privacy" options={{ headerShown: false }} />
     </Stack>
   );
 }
