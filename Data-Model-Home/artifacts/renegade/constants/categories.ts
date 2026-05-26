@@ -59792,6 +59792,983 @@ const CATEGORIES: Category[] = [
     ],
   },
 
+
+  // ---------------------------------------------------------------------------
+  // Wave 44 — Satoshi Kon, Ghost in the Shell, Beatles Deep Cuts, Bob Dylan,
+  //           Ace Attorney, Shadow of the Colossus, Nordic History,
+  //           Australian History & Culture, Molecular Biology
+  // ---------------------------------------------------------------------------
+
+  {
+    id: "anime_satoshi_kon",
+    group: "Anime",
+    name: "Satoshi Kon",
+    culture: "universal",
+    description:
+      "Perfect Blue, Millennium Actress, Tokyo Godfathers, Paprika — the singular filmography of anime's master of blurred reality.",
+    questions: [
+      {
+        id: "satkon_200_01",
+        categoryId: "anime_satoshi_kon",
+        tier: 200,
+        prompt:
+          "Satoshi Kon directed four theatrical films before his death. Name any two of them.",
+        answer: "Perfect Blue, Millennium Actress, Tokyo Godfathers, Paprika",
+        acceptableAnswers: [
+          "Perfect Blue and Millennium Actress",
+          "Perfect Blue and Tokyo Godfathers",
+          "Perfect Blue and Paprika",
+          "Millennium Actress and Tokyo Godfathers",
+          "Millennium Actress and Paprika",
+          "Tokyo Godfathers and Paprika",
+          "Perfect Blue",
+          "Millennium Actress",
+          "Tokyo Godfathers",
+          "Paprika",
+        ],
+      },
+      {
+        id: "satkon_200_02",
+        categoryId: "anime_satoshi_kon",
+        tier: 200,
+        prompt:
+          "Satoshi Kon's final completed film, Paprika (2006), centers on a device that allows therapists to enter patients' what in order to treat them?",
+        answer: "Dreams",
+        acceptableAnswers: ["Dreams", "subconscious", "dream world"],
+      },
+      {
+        id: "satkon_200_03",
+        categoryId: "anime_satoshi_kon",
+        tier: 200,
+        prompt:
+          "Which Japanese animation studio produced most of Satoshi Kon's feature films, including Perfect Blue and Millennium Actress?",
+        answer: "Madhouse",
+        acceptableAnswers: ["Madhouse"],
+      },
+      {
+        id: "satkon_400_01",
+        categoryId: "anime_satoshi_kon",
+        tier: 400,
+        prompt:
+          "In Perfect Blue (1997), the protagonist Mima abandons her career in which fictional idol group at the film's start to pursue acting — a decision that begins her psychological unraveling?",
+        answer: "CHAM!",
+        acceptableAnswers: ["CHAM", "CHAM!"],
+      },
+      {
+        id: "satkon_400_02",
+        categoryId: "anime_satoshi_kon",
+        tier: 400,
+        prompt:
+          "Millennium Actress (2001) is structured as a documentary interview with an elderly former actress named Chiyoko Fujiwara. What unifying motif connects every era of her life that the film cycles through?",
+        answer: "Her pursuit of the mysterious man she gave a key to",
+        acceptableAnswers: [
+          "the key",
+          "chasing the man with the key",
+          "an unnamed man she loved",
+          "a key she gave to a stranger",
+          "her unrequited love",
+        ],
+      },
+      {
+        id: "satkon_400_03",
+        categoryId: "anime_satoshi_kon",
+        tier: 400,
+        prompt:
+          "Tokyo Godfathers (2003) follows three homeless people — a runaway teenage girl, a drag queen, and an alcoholic ex-cyclist — who find an abandoned baby on Christmas Eve. What do they name the baby?",
+        answer: "Kiyoko",
+        acceptableAnswers: ["Kiyoko"],
+      },
+      {
+        id: "satkon_600_01",
+        categoryId: "anime_satoshi_kon",
+        tier: 600,
+        prompt:
+          "Satoshi Kon's TV series Paranoia Agent begins with a rash of assaults by a mysterious attacker called Shōnen Bat ('Lil' Slugger'). The show's central argument is that shared anxieties create collective self-deceptions. What sociological phenomenon does Kon use Shōnen Bat to embody?",
+        answer: "Urban legend / mass hysteria / collective anxiety that becomes real through belief",
+        acceptableAnswers: [
+          "urban legend",
+          "mass hysteria",
+          "collective anxiety",
+          "shared delusion",
+          "social contagion",
+          "myth-making",
+        ],
+      },
+      {
+        id: "satkon_600_02",
+        categoryId: "anime_satoshi_kon",
+        tier: 600,
+        prompt:
+          "Satoshi Kon died of pancreatic cancer in 2010 at age 46, leaving an unfinished film. What was the title of this incomplete final project?",
+        answer: "Dreaming Machine",
+        acceptableAnswers: ["Dreaming Machine", "Yume Miru Kikai"],
+      },
+      {
+        id: "satkon_600_03",
+        categoryId: "anime_satoshi_kon",
+        tier: 600,
+        prompt:
+          "Christopher Nolan's Inception (2010) drew explicit comparisons to Kon's Paprika. Beyond the shared 'entering dreams' premise, both films use a recurring musical cue to signal a reality shift. In Paprika, what object functions as the film's primary 'reality anchor' or threshold marker?",
+        answer: "The parade / the recurring festival parade",
+        acceptableAnswers: [
+          "the parade",
+          "the festival parade",
+          "the recurring parade",
+          "the marching parade",
+        ],
+      },
+    ],
+  },
+  {
+    id: "anime_ghost_shell",
+    group: "Anime",
+    name: "Ghost in the Shell",
+    culture: "universal",
+    description:
+      "Masamune Shirow's manga, Mamoru Oshii's 1995 film, and Stand Alone Complex — the franchise that defined cyberpunk anime.",
+    questions: [
+      {
+        id: "gits_200_01",
+        categoryId: "anime_ghost_shell",
+        tier: 200,
+        prompt:
+          "The original Ghost in the Shell theatrical film (1995) was directed by which Japanese filmmaker, who also directed Patlabor and Jin-Roh?",
+        answer: "Mamoru Oshii",
+        acceptableAnswers: ["Mamoru Oshii", "Oshii"],
+      },
+      {
+        id: "gits_200_02",
+        categoryId: "anime_ghost_shell",
+        tier: 200,
+        prompt:
+          "In Ghost in the Shell, what is the name of the female cyborg Major who commands Public Security Section 9?",
+        answer: "Motoko Kusanagi",
+        acceptableAnswers: ["Motoko Kusanagi", "Major Kusanagi", "The Major", "Motoko"],
+      },
+      {
+        id: "gits_200_03",
+        categoryId: "anime_ghost_shell",
+        tier: 200,
+        prompt:
+          "In the Ghost in the Shell universe, a person's consciousness or soul — which can be transferred between cybernetic bodies — is called their what?",
+        answer: "Ghost",
+        acceptableAnswers: ["Ghost", "ghost"],
+      },
+      {
+        id: "gits_400_01",
+        categoryId: "anime_ghost_shell",
+        tier: 400,
+        prompt:
+          "The 1995 film's central antagonist is a rogue AI that hacks the cybernetic brains of humans to control their behavior. What is this entity known as?",
+        answer: "The Puppet Master",
+        acceptableAnswers: ["Puppet Master", "The Puppet Master", "Project 2501"],
+      },
+      {
+        id: "gits_400_02",
+        categoryId: "anime_ghost_shell",
+        tier: 400,
+        prompt:
+          "Ghost in the Shell: Stand Alone Complex (2002–2004) introduced the concept of a 'Stand Alone Complex' — a situation where many individuals independently copy a behavior that never actually existed. What famous hacker case drives this plotline in the series?",
+        answer: "The Laughing Man",
+        acceptableAnswers: ["The Laughing Man", "the Laughing Man case", "Laughing Man incident"],
+      },
+      {
+        id: "gits_400_03",
+        categoryId: "anime_ghost_shell",
+        tier: 400,
+        prompt:
+          "The 1995 Ghost in the Shell film was adapted from whose manga, serialized in Young Magazine starting in 1989?",
+        answer: "Masamune Shirow",
+        acceptableAnswers: ["Masamune Shirow", "Shirow"],
+      },
+      {
+        id: "gits_600_01",
+        categoryId: "anime_ghost_shell",
+        tier: 600,
+        prompt:
+          "The 1995 film's philosophical core — whether Major Kusanagi's consciousness constitutes a genuine self — mirrors which classic thought experiment about identity and continuity, often used in philosophy of mind?",
+        answer: "The Ship of Theseus",
+        acceptableAnswers: [
+          "Ship of Theseus",
+          "The Ship of Theseus",
+          "philosophical zombie",
+          "Chinese Room",
+          "personal identity paradox",
+        ],
+      },
+      {
+        id: "gits_600_02",
+        categoryId: "anime_ghost_shell",
+        tier: 600,
+        prompt:
+          "The Wachowskis explicitly cited the 1995 Ghost in the Shell film as a direct inspiration for which trilogy they directed, sharing its themes of simulated reality and human-machine boundary?",
+        answer: "The Matrix",
+        acceptableAnswers: ["The Matrix", "The Matrix trilogy"],
+      },
+      {
+        id: "gits_600_03",
+        categoryId: "anime_ghost_shell",
+        tier: 600,
+        prompt:
+          "In Stand Alone Complex, Section 9 is revealed to be conducting highly classified operations that exceed normal law enforcement. The series' overarching tension is between individual agency and institutional control. Which philosophical concept — roughly meaning 'individual acts that collectively form an emergent pattern without coordination' — gives the series its subtitle?",
+        answer: "Stand Alone Complex",
+        acceptableAnswers: [
+          "Stand Alone Complex",
+          "emergent collective behavior without a source",
+          "copycat behavior without an original",
+        ],
+      },
+    ],
+  },
+  {
+    id: "music_beatles_deep",
+    group: "Music Artists",
+    name: "The Beatles: Deep Cuts",
+    culture: "universal",
+    description:
+      "Hamburg, Revolver, backward tapes, and the end of Abbey Road — the studio innovations and lesser-known corners of the Beatles' catalog.",
+    questions: [
+      {
+        id: "btldp_200_01",
+        categoryId: "music_beatles_deep",
+        tier: 200,
+        prompt:
+          "Before their global breakthrough, The Beatles honed their live skills with marathon residencies in which German port city's club scene?",
+        answer: "Hamburg",
+        acceptableAnswers: ["Hamburg"],
+      },
+      {
+        id: "btldp_200_02",
+        categoryId: "music_beatles_deep",
+        tier: 200,
+        prompt:
+          "Which Beatle wrote both 'Something' and 'Here Comes the Sun,' often overshadowed during the Lennon-McCartney era but now regarded as among the band's finest songs?",
+        answer: "George Harrison",
+        acceptableAnswers: ["George Harrison", "Harrison", "George"],
+      },
+      {
+        id: "btldp_200_03",
+        categoryId: "music_beatles_deep",
+        tier: 200,
+        prompt:
+          "The 1966 album Revolver marked a radical departure into studio experimentation. Which track, using tape loops, backward guitar, and droning vocals processed through a Leslie speaker, closes the album and is considered its most avant-garde moment?",
+        answer: "Tomorrow Never Knows",
+        acceptableAnswers: ["Tomorrow Never Knows"],
+      },
+      {
+        id: "btldp_400_01",
+        categoryId: "music_beatles_deep",
+        tier: 400,
+        prompt:
+          "'Strawberry Fields Forever' (1967) was recorded in two different takes — in different keys and tempos. Producer George Martin used which technical technique to match them so they could be spliced together?",
+        answer: "Varispeed / changing the tape speed to match pitch and tempo",
+        acceptableAnswers: [
+          "varispeed",
+          "slowing down one tape and speeding up the other",
+          "tape speed manipulation",
+          "pitch correction via tape speed",
+        ],
+      },
+      {
+        id: "btldp_400_02",
+        categoryId: "music_beatles_deep",
+        tier: 400,
+        prompt:
+          "The Beatles' 1966 decision to stop touring was partly triggered by an international controversy over John Lennon's comment that the Beatles were 'more popular than Jesus.' In which country did this cause the most dramatic backlash, including radio bans and public burnings of Beatles records?",
+        answer: "United States",
+        acceptableAnswers: ["United States", "USA", "America", "the American South", "Southern USA"],
+      },
+      {
+        id: "btldp_400_03",
+        categoryId: "music_beatles_deep",
+        tier: 400,
+        prompt:
+          "'A Day in the Life' on Sgt. Pepper's ends with a massive orchestral build and a final sustained chord. What instrument holds that terminal chord, with all available sustain pedal held down?",
+        answer: "Piano",
+        acceptableAnswers: ["piano", "grand piano", "piano chord"],
+      },
+      {
+        id: "btldp_600_01",
+        categoryId: "music_beatles_deep",
+        tier: 600,
+        prompt:
+          "The so-called 'butcher cover' for the US compilation Yesterday and Today (1966) was immediately recalled by Capitol Records. What did the original cover depict that caused the recall?",
+        answer: "The Beatles as butchers, surrounded by raw meat and dismembered baby dolls",
+        acceptableAnswers: [
+          "the Beatles in butcher smocks with raw meat and baby doll parts",
+          "raw meat and dismembered dolls",
+          "butcher imagery with baby dolls",
+          "the Beatles covered in raw meat and doll parts",
+        ],
+      },
+      {
+        id: "btldp_600_02",
+        categoryId: "music_beatles_deep",
+        tier: 600,
+        prompt:
+          "The Let It Be album was originally shelved by the band after fraught recording sessions. Phil Spector's posthumous remix added orchestration that infuriated one Beatle, particularly on 'The Long and Winding Road.' Who was it, and what did he do about it decades later?",
+        answer: "Paul McCartney — he released a stripped-back version called Let It Be... Naked (2003)",
+        acceptableAnswers: [
+          "Paul McCartney",
+          "McCartney — he later released Let It Be Naked",
+          "Paul — he stripped Spector's production on Let It Be Naked",
+        ],
+      },
+      {
+        id: "btldp_600_03",
+        categoryId: "music_beatles_deep",
+        tier: 600,
+        prompt:
+          "The medley on the second side of Abbey Road (1969) was Paul McCartney's concept for stitching unfinished song fragments together. John Lennon reportedly disliked it, calling it 'granny music.' What structural innovation of the medley made it unusual for rock albums of the era?",
+        answer: "Songs flow seamlessly into each other without silence / continuous suite-like structure with no gaps between tracks",
+        acceptableAnswers: [
+          "songs blend into each other without breaks",
+          "continuous medley with no gaps",
+          "uninterrupted suite structure",
+          "tracks flow together like a suite",
+        ],
+      },
+    ],
+  },
+  {
+    id: "music_bob_dylan",
+    group: "Music Artists",
+    name: "Bob Dylan: The Catalog",
+    culture: "universal",
+    description:
+      "Newport, Blood on the Tracks, the Basement Tapes, and the Nobel — six decades of Dylan's catalog and mythology.",
+    questions: [
+      {
+        id: "dylan_200_01",
+        categoryId: "music_bob_dylan",
+        tier: 200,
+        prompt:
+          "Bob Dylan famously 'went electric' in 1965 at which prestigious American festival, shocking the folk community with his amplified set?",
+        answer: "Newport Folk Festival",
+        acceptableAnswers: ["Newport Folk Festival", "Newport"],
+      },
+      {
+        id: "dylan_200_02",
+        categoryId: "music_bob_dylan",
+        tier: 200,
+        prompt:
+          "Dylan was awarded the Nobel Prize in Literature in 2016. What made his win historically unprecedented among Nobel laureates?",
+        answer: "He was the first artist to win primarily for song lyrics / popular music",
+        acceptableAnswers: [
+          "first songwriter to win",
+          "first musician to win",
+          "first person to win for lyrics",
+          "first Nobel for song lyrics",
+          "first to win for popular music",
+        ],
+      },
+      {
+        id: "dylan_200_03",
+        categoryId: "music_bob_dylan",
+        tier: 200,
+        prompt:
+          "Which 1975 Dylan album — widely considered his masterpiece return to form — includes 'Tangled Up in Blue,' 'Idiot Wind,' and 'Simple Twist of Fate'?",
+        answer: "Blood on the Tracks",
+        acceptableAnswers: ["Blood on the Tracks"],
+      },
+      {
+        id: "dylan_400_01",
+        categoryId: "music_bob_dylan",
+        tier: 400,
+        prompt:
+          "After a 1966 motorcycle accident near Woodstock, Dylan withdrew from public life and recorded informal sessions with The Band in the basement of a rented house. What are these recordings called?",
+        answer: "The Basement Tapes",
+        acceptableAnswers: ["The Basement Tapes", "Basement Tapes"],
+      },
+      {
+        id: "dylan_400_02",
+        categoryId: "music_bob_dylan",
+        tier: 400,
+        prompt:
+          "'Like a Rolling Stone' (1965) broke an unwritten industry rule about single length. Approximately how long is the song, which Columbia Records nearly refused to release?",
+        answer: "Six minutes",
+        acceptableAnswers: ["6 minutes", "six minutes", "6:13", "over six minutes"],
+      },
+      {
+        id: "dylan_400_03",
+        categoryId: "music_bob_dylan",
+        tier: 400,
+        prompt:
+          "Dylan's Rolling Thunder Revue (1975–76) was an unconventional tour in which Dylan performed in whiteface. He later turned the tour into a 2019 Netflix documentary directed by whom — known for films like The Last Waltz and Goodfellas?",
+        answer: "Martin Scorsese",
+        acceptableAnswers: ["Martin Scorsese", "Scorsese"],
+      },
+      {
+        id: "dylan_600_01",
+        categoryId: "music_bob_dylan",
+        tier: 600,
+        prompt:
+          "Dylan converted to Christianity in 1979 and released three gospel-influenced albums. Which was the first — produced by Jerry Wexler and Barry Beckett — and is generally considered the strongest of the three?",
+        answer: "Slow Train Coming",
+        acceptableAnswers: ["Slow Train Coming"],
+      },
+      {
+        id: "dylan_600_02",
+        categoryId: "music_bob_dylan",
+        tier: 600,
+        prompt:
+          "Self Portrait (1970) was panned on release, famously opening Greil Marcus's Rolling Stone review with 'What is this shit?' The album has since been reinterpreted as a deliberate act of self-destruction. What mythology was Dylan trying to shed by releasing such a deliberately perverse record?",
+        answer: "His 'voice of a generation' / prophet status / unwanted messianic image",
+        acceptableAnswers: [
+          "voice of a generation",
+          "prophet of a generation",
+          "messianic image",
+          "folk prophet status",
+          "his political spokesperson image",
+          "the burden of being the spokesman for a generation",
+        ],
+      },
+      {
+        id: "dylan_600_03",
+        categoryId: "music_bob_dylan",
+        tier: 600,
+        prompt:
+          "The phrase 'The answer, my friend, is blowin' in the wind' has been interpreted as a profound protest statement, but Dylan himself has given a more deflating reading — that the answer is literally blowing away, implying what?",
+        answer: "The answer is unknowable or elusive / the question matters more than the answer / ambiguity is intentional",
+        acceptableAnswers: [
+          "the answer is unknowable",
+          "the answer blows away, it's elusive",
+          "there is no clear answer",
+          "ambiguity is intentional",
+          "the question is more important than the answer",
+        ],
+      },
+    ],
+  },
+  {
+    id: "game_ace_attorney",
+    group: "Video Games",
+    name: "Ace Attorney",
+    culture: "universal",
+    description:
+      "Objection! Phoenix Wright, Miles Edgeworth, and the courtroom drama that defined visual novel gaming.",
+    questions: [
+      {
+        id: "ace_200_01",
+        categoryId: "game_ace_attorney",
+        tier: 200,
+        prompt:
+          "What is the name of the defense attorney protagonist of the original Ace Attorney trilogy?",
+        answer: "Phoenix Wright",
+        acceptableAnswers: ["Phoenix Wright", "Phoenix", "Nick"],
+      },
+      {
+        id: "ace_200_02",
+        categoryId: "game_ace_attorney",
+        tier: 200,
+        prompt:
+          "What single-word exclamation do attorneys in Ace Attorney shout when they present evidence or challenge a contradiction in testimony?",
+        answer: "Objection!",
+        acceptableAnswers: ["Objection", "Objection!"],
+      },
+      {
+        id: "ace_200_03",
+        categoryId: "game_ace_attorney",
+        tier: 200,
+        prompt:
+          "Ace Attorney gameplay primarily takes place in two phases: investigation, where you gather evidence, and what other phase, where you cross-examine witnesses?",
+        answer: "Trial / court / courtroom / cross-examination",
+        acceptableAnswers: ["trial", "trial phase", "court", "courtroom", "cross-examination"],
+      },
+      {
+        id: "ace_400_01",
+        categoryId: "game_ace_attorney",
+        tier: 400,
+        prompt:
+          "Phoenix Wright's main rival across the original trilogy is a prodigy prosecutor who has never lost a case. What is his full name?",
+        answer: "Miles Edgeworth",
+        acceptableAnswers: ["Miles Edgeworth", "Edgeworth"],
+      },
+      {
+        id: "ace_400_02",
+        categoryId: "game_ace_attorney",
+        tier: 400,
+        prompt:
+          "Apollo Justice: Ace Attorney introduced a bracelet-based ability that lets Apollo detect subtle body language tells in nervous witnesses. What is this mechanic called?",
+        answer: "Perceive",
+        acceptableAnswers: ["Perceive", "the Perceive ability", "bracelet ability"],
+      },
+      {
+        id: "ace_400_03",
+        categoryId: "game_ace_attorney",
+        tier: 400,
+        prompt:
+          "Trials and Tribulations, the third main entry, introduces a recurring prosecutor defined by his tragic backstory, red visor, and coffee obsession. What is his real name?",
+        answer: "Diego Armando",
+        acceptableAnswers: ["Diego Armando", "Godot", "Diego"],
+      },
+      {
+        id: "ace_600_01",
+        categoryId: "game_ace_attorney",
+        tier: 600,
+        prompt:
+          "The Great Ace Attorney Chronicles (2021) is set in Meiji-era Japan and Victorian England. It features Phoenix Wright's ancestor as the protagonist. What is this ancestor's name?",
+        answer: "Ryunosuke Naruhodo",
+        acceptableAnswers: ["Ryunosuke Naruhodo", "Ryunosuke", "Naruhodo"],
+      },
+      {
+        id: "ace_600_02",
+        categoryId: "game_ace_attorney",
+        tier: 600,
+        prompt:
+          "In Ace Attorney: Trials and Tribulations, the true mastermind manipulating events throughout the trilogy is revealed in the finale. Who is this villain, and what is her central method of manipulation?",
+        answer: "Dahlia Hawthorne — she manipulates men who fall in love with her to commit crimes on her behalf",
+        acceptableAnswers: [
+          "Dahlia Hawthorne",
+          "Dahlia — using men who love her",
+          "Dahlia Hawthorne who manipulates people through romantic obsession",
+        ],
+      },
+      {
+        id: "ace_600_03",
+        categoryId: "game_ace_attorney",
+        tier: 600,
+        prompt:
+          "Ace Attorney's fictional legal system operates with a three-day trial limit and an extremely high conviction rate, designed to satirize which real country's legal culture and its pressures on defense attorneys?",
+        answer: "Japan",
+        acceptableAnswers: ["Japan", "the Japanese legal system", "Japan's justice system"],
+      },
+    ],
+  },
+  {
+    id: "game_sotc",
+    group: "Video Games",
+    name: "Shadow of the Colossus",
+    culture: "universal",
+    description:
+      "Fumito Ueda's minimalist masterpiece — sixteen colossi, one horse, and a question about whether you're the hero.",
+    questions: [
+      {
+        id: "sotc_200_01",
+        categoryId: "game_sotc",
+        tier: 200,
+        prompt:
+          "Shadow of the Colossus was directed by which Japanese game designer, known for a philosophy of 'design by subtraction'?",
+        answer: "Fumito Ueda",
+        acceptableAnswers: ["Fumito Ueda", "Ueda"],
+      },
+      {
+        id: "sotc_200_02",
+        categoryId: "game_sotc",
+        tier: 200,
+        prompt:
+          "What is the name of the protagonist Wander's horse, who serves as his constant companion and is central to traversal across the game's vast landscape?",
+        answer: "Agro",
+        acceptableAnswers: ["Agro"],
+      },
+      {
+        id: "sotc_200_03",
+        categoryId: "game_sotc",
+        tier: 200,
+        prompt:
+          "Shadow of the Colossus was developed by Team Ico, the same studio that made which earlier cult classic featuring a boy and a horned girl navigating a mysterious fortress?",
+        answer: "Ico",
+        acceptableAnswers: ["Ico"],
+      },
+      {
+        id: "sotc_400_01",
+        categoryId: "game_sotc",
+        tier: 400,
+        prompt:
+          "Fumito Ueda's 'design by subtraction' approach removed traditional game elements — enemies, NPCs, collectibles, HUD clutter — leaving only what the experience absolutely required. What is the only goal given to the player at any point in Shadow of the Colossus?",
+        answer: "Defeat the 16 colossi",
+        acceptableAnswers: [
+          "defeat the colossi",
+          "kill the 16 colossi",
+          "find and defeat each colossus",
+          "defeat all sixteen colossi",
+        ],
+      },
+      {
+        id: "sotc_400_02",
+        categoryId: "game_sotc",
+        tier: 400,
+        prompt:
+          "The ancient entity Dormin — who promises to resurrect Wander's companion Mono if Wander defeats the sixteen colossi — is revealed at the end to have been using Wander for what purpose?",
+        answer: "To free and reconstitute Dormin's fragmented soul, which was sealed inside the colossi",
+        acceptableAnswers: [
+          "to free Dormin",
+          "to release Dormin's sealed soul",
+          "Dormin's soul was split into the colossi and Wander frees it by killing them",
+          "to use Wander as a vessel for Dormin's spirit",
+        ],
+      },
+      {
+        id: "sotc_400_03",
+        categoryId: "game_sotc",
+        tier: 400,
+        prompt:
+          "The 2018 PlayStation 4 remake of Shadow of the Colossus was developed not by Team Ico but by which external studio known for its technically demanding remasters?",
+        answer: "Bluepoint Games",
+        acceptableAnswers: ["Bluepoint Games", "Bluepoint"],
+      },
+      {
+        id: "sotc_600_01",
+        categoryId: "game_sotc",
+        tier: 600,
+        prompt:
+          "Shadow of the Colossus is unusual in making the player character morally complicit in releasing an ancient evil. The colossi have plaintive death cries, and Wander's appearance darkens over the course of the game. What design choice communicates this moral deterioration visually?",
+        answer: "Wander's skin grows paler and dark veins spread across his body as he kills more colossi",
+        acceptableAnswers: [
+          "dark veins spread across Wander's body",
+          "Wander grows paler with dark veins",
+          "his skin darkens and veins appear",
+          "visual corruption spreads across Wander",
+        ],
+      },
+      {
+        id: "sotc_600_02",
+        categoryId: "game_sotc",
+        tier: 600,
+        prompt:
+          "Shadow of the Colossus has become a touchstone in the 'games as art' discourse partly because it positions the player as a villain without explicitly framing it that way. What term describes this design technique — where the game's mechanics and narrative create contradictory moral implications?",
+        answer: "Ludonarrative dissonance",
+        acceptableAnswers: [
+          "ludonarrative dissonance",
+          "ludonarrative tension",
+          "player complicity",
+          "moral dissonance",
+        ],
+      },
+      {
+        id: "sotc_600_03",
+        categoryId: "game_sotc",
+        tier: 600,
+        prompt:
+          "The game's landscape is almost entirely empty — no villages, no NPCs, only ruins and the colossi. Ueda has said this emptiness is intentional. Beyond practical constraints, what thematic purpose does the desolate world serve?",
+        answer: "It isolates Wander morally — no community witnesses or judges his actions; the emptiness mirrors his single-minded obsession and the wrongness of what he's doing",
+        acceptableAnswers: [
+          "it isolates Wander — no one to witness or judge him",
+          "moral isolation",
+          "the emptiness reflects Wander's obsession and ethical blindness",
+          "the world is empty because Wander shouldn't be there",
+        ],
+      },
+    ],
+  },
+  {
+    id: "hist_nordic",
+    group: "History",
+    name: "Nordic History",
+    culture: "universal",
+    description:
+      "Vikings, the Varangian Guard, the Swedish Empire, and the Nordic Model — a thousand years of Scandinavian history.",
+    questions: [
+      {
+        id: "nordic_200_01",
+        categoryId: "hist_nordic",
+        tier: 200,
+        prompt:
+          "The word 'Viking' originally referred not to a people but to a specific activity. What activity did the Old Norse word 'víking' describe?",
+        answer: "A raiding or piracy expedition",
+        acceptableAnswers: [
+          "raiding",
+          "sea raiding",
+          "piracy",
+          "a raid",
+          "a pirate expedition",
+          "raiding voyage",
+        ],
+      },
+      {
+        id: "nordic_200_02",
+        categoryId: "hist_nordic",
+        tier: 200,
+        prompt:
+          "Norse explorers established the earliest confirmed European settlement in North America around 1000 CE. On which modern Canadian island was the archaeological site L'Anse aux Meadows discovered?",
+        answer: "Newfoundland",
+        acceptableAnswers: ["Newfoundland", "Newfoundland, Canada"],
+      },
+      {
+        id: "nordic_200_03",
+        categoryId: "hist_nordic",
+        tier: 200,
+        prompt:
+          "The Scandinavian countries form a broader grouping that includes Denmark, Sweden, Norway, Finland, and Iceland. What is the collective name for this region?",
+        answer: "The Nordic countries",
+        acceptableAnswers: ["Nordic countries", "the Nordic countries", "Norden", "Nordic region", "Scandinavia"],
+      },
+      {
+        id: "nordic_400_01",
+        categoryId: "hist_nordic",
+        tier: 400,
+        prompt:
+          "Viking warriors who served as elite bodyguards to the Byzantine Emperor in Constantinople were known as what?",
+        answer: "The Varangian Guard",
+        acceptableAnswers: ["Varangian Guard", "the Varangians", "Varangians"],
+      },
+      {
+        id: "nordic_400_02",
+        categoryId: "hist_nordic",
+        tier: 400,
+        prompt:
+          "During the Thirty Years' War (1618–1648), Sweden emerged as a major European power under which king, who intervened on the Protestant side and transformed Sweden into a Baltic empire?",
+        answer: "Gustavus Adolphus",
+        acceptableAnswers: ["Gustavus Adolphus", "Gustav II Adolf", "Gustavus Adolphus II"],
+      },
+      {
+        id: "nordic_400_03",
+        categoryId: "hist_nordic",
+        tier: 400,
+        prompt:
+          "The Hanseatic League was a medieval commercial alliance of Northern European trading cities. Its leading city, which dominated Baltic trade for centuries, is located in modern-day Germany. What was its name?",
+        answer: "Lübeck",
+        acceptableAnswers: ["Lübeck", "Lubeck"],
+      },
+      {
+        id: "nordic_600_01",
+        categoryId: "hist_nordic",
+        tier: 600,
+        prompt:
+          "The Nordic Model combines free markets with strong welfare states and high social trust. Sweden pioneered this in 1938 through a landmark agreement between the main employers' federation and labor unions. What is this agreement called?",
+        answer: "The Saltsjöbaden Agreement",
+        acceptableAnswers: ["Saltsjöbaden Agreement", "the Saltsjobaden Agreement", "Saltsjobaden pact"],
+      },
+      {
+        id: "nordic_600_02",
+        categoryId: "hist_nordic",
+        tier: 600,
+        prompt:
+          "Denmark lost Norway as a consequence of backing Napoleon. Which 1814 treaty transferred Norway from Denmark to Sweden, ending the Danish-Norwegian union?",
+        answer: "The Treaty of Kiel",
+        acceptableAnswers: ["Treaty of Kiel", "the Kiel Treaty", "Kiel Treaty"],
+      },
+      {
+        id: "nordic_600_03",
+        categoryId: "hist_nordic",
+        tier: 600,
+        prompt:
+          "The Sámi are the indigenous people of northern Scandinavia and Russia. Their traditional economy — now protected under Nordic indigenous rights frameworks — centers on which practice that has sustained their culture for millennia?",
+        answer: "Reindeer herding",
+        acceptableAnswers: [
+          "reindeer herding",
+          "reindeer pastoralism",
+          "semi-nomadic reindeer herding",
+          "herding reindeer",
+        ],
+      },
+    ],
+  },
+  {
+    id: "hist_australia",
+    group: "History & Culture",
+    name: "Australian History & Culture",
+    culture: "universal",
+    description:
+      "Terra nullius, the Stolen Generations, Gallipoli, the Whitlam dismissal, and the 2023 Voice referendum — Australia's contested past and present.",
+    questions: [
+      {
+        id: "aus_200_01",
+        categoryId: "hist_australia",
+        tier: 200,
+        prompt:
+          "The legal doctrine used to justify British colonization of Australia — declaring the land legally empty and unowned — is known by what Latin term?",
+        answer: "Terra nullius",
+        acceptableAnswers: ["Terra nullius", "terra nullius"],
+      },
+      {
+        id: "aus_200_02",
+        categoryId: "hist_australia",
+        tier: 200,
+        prompt:
+          "ANZAC troops fought in one of World War I's most devastating campaigns in 1915, on a peninsula in what is now Turkey. What is this campaign called?",
+        answer: "Gallipoli",
+        acceptableAnswers: ["Gallipoli", "the Gallipoli Campaign", "Gallipoli campaign", "the Dardanelles"],
+      },
+      {
+        id: "aus_200_03",
+        categoryId: "hist_australia",
+        tier: 200,
+        prompt:
+          "Which Australian prime minister was controversially dismissed by the Governor-General in 1975, triggering Australia's most significant constitutional crisis?",
+        answer: "Gough Whitlam",
+        acceptableAnswers: ["Gough Whitlam", "Whitlam"],
+      },
+      {
+        id: "aus_400_01",
+        categoryId: "hist_australia",
+        tier: 400,
+        prompt:
+          "The 'Stolen Generations' refers to Aboriginal and Torres Strait Islander children forcibly removed from their families under government policy. In what year did Prime Minister Kevin Rudd deliver the national apology to the Stolen Generations?",
+        answer: "2008",
+        acceptableAnswers: ["2008"],
+      },
+      {
+        id: "aus_400_02",
+        categoryId: "hist_australia",
+        tier: 400,
+        prompt:
+          "Australia's immigration policy from 1901 until its dismantling in the early 1970s prioritized European migrants and systematically excluded Asian immigration. What was this policy formally known as?",
+        answer: "The White Australia Policy",
+        acceptableAnswers: ["White Australia Policy", "the White Australia Policy"],
+      },
+      {
+        id: "aus_400_03",
+        categoryId: "hist_australia",
+        tier: 400,
+        prompt:
+          "In 2023, Australia held a referendum on 'The Voice.' If it had passed, what would The Voice have established?",
+        answer: "An Aboriginal and Torres Strait Islander advisory body to Parliament",
+        acceptableAnswers: [
+          "an Indigenous Voice to Parliament",
+          "an Aboriginal advisory body",
+          "a First Nations advisory body to Parliament",
+          "an Indigenous constitutional body",
+        ],
+      },
+      {
+        id: "aus_600_01",
+        categoryId: "hist_australia",
+        tier: 600,
+        prompt:
+          "The Mabo v Queensland (No 2) decision (1992) was a landmark High Court ruling that overturned which legal fiction used to justify Indigenous dispossession — ruling instead that native title had survived colonization?",
+        answer: "Terra nullius",
+        acceptableAnswers: ["Terra nullius", "the terra nullius doctrine"],
+      },
+      {
+        id: "aus_600_02",
+        categoryId: "hist_australia",
+        tier: 600,
+        prompt:
+          "The 1975 constitutional crisis arose when the Senate blocked supply (the government's budget). Governor-General Sir John Kerr dismissed PM Whitlam despite his majority in the lower house. What made this dismissal constitutionally controversial?",
+        answer: "The Governor-General used reserve powers to dismiss an elected PM who held a lower-house majority — an unprecedented use of vice-regal power that critics argued violated constitutional convention",
+        acceptableAnswers: [
+          "using reserve powers to dismiss an elected PM with a lower-house majority",
+          "the Governor-General overstepped constitutional convention",
+          "a representative of the Crown dismissed a democratically elected prime minister",
+          "Whitlam had a lower house majority — the GG's use of reserve powers was unprecedented",
+        ],
+      },
+      {
+        id: "aus_600_03",
+        categoryId: "hist_australia",
+        tier: 600,
+        prompt:
+          "Violent conflicts between British settlers and Aboriginal peoples during Australia's colonial expansion are sometimes called the 'Frontier Wars' by historians. Why has formal recognition of these conflicts as 'wars' been historically contested in Australian public discourse?",
+        answer: "Acknowledging them as wars implies Aboriginal peoples were sovereign combatants defending their land — which challenges the terra nullius narrative and implies legal and moral obligations around conquest",
+        acceptableAnswers: [
+          "it implies Aboriginal sovereignty and challenges the terra nullius narrative",
+          "calling them wars acknowledges Aboriginal people as sovereign defenders",
+          "the government historically denied systematic violence to avoid legal and moral accountability",
+          "recognition as wars challenges Australia's founding mythology",
+        ],
+      },
+    ],
+  },
+  {
+    id: "sci_molecular_bio",
+    group: "Science",
+    name: "Molecular Biology",
+    culture: "universal",
+    description:
+      "DNA structure, the central dogma, CRISPR, PCR, mRNA vaccines, and AlphaFold — the molecules that define modern biology.",
+    questions: [
+      {
+        id: "molbio_200_01",
+        categoryId: "sci_molecular_bio",
+        tier: 200,
+        prompt:
+          "Watson and Crick's 1953 proposal of DNA's double helix relied heavily on X-ray crystallography data produced by which scientist at King's College London, who is often said to have been inadequately credited?",
+        answer: "Rosalind Franklin",
+        acceptableAnswers: ["Rosalind Franklin", "Franklin"],
+      },
+      {
+        id: "molbio_200_02",
+        categoryId: "sci_molecular_bio",
+        tier: 200,
+        prompt:
+          "The central dogma of molecular biology describes information flow from DNA to RNA to protein. What is the process of building a protein from an mRNA sequence called?",
+        answer: "Translation",
+        acceptableAnswers: ["Translation", "translation"],
+      },
+      {
+        id: "molbio_200_03",
+        categoryId: "sci_molecular_bio",
+        tier: 200,
+        prompt:
+          "CRISPR-Cas9 gene editing is derived from a naturally occurring system in bacteria. What biological function does CRISPR serve for bacteria in nature?",
+        answer: "Immune defense against viruses / adaptive immunity against bacteriophages",
+        acceptableAnswers: [
+          "immune defense",
+          "defending against viruses",
+          "adaptive immunity against phages",
+          "bacterial immune system",
+          "defense against bacteriophages",
+        ],
+      },
+      {
+        id: "molbio_400_01",
+        categoryId: "sci_molecular_bio",
+        tier: 400,
+        prompt:
+          "The Meselson-Stahl experiment (1958) proved which model of DNA replication — showing that each new double helix retains one original strand and incorporates one newly synthesized strand?",
+        answer: "Semi-conservative replication",
+        acceptableAnswers: ["semi-conservative replication", "semiconservative replication"],
+      },
+      {
+        id: "molbio_400_02",
+        categoryId: "sci_molecular_bio",
+        tier: 400,
+        prompt:
+          "Polymerase chain reaction (PCR) — the technique that amplifies DNA fragments exponentially — was invented in 1983 by which biochemist, who won the 1993 Nobel Prize in Chemistry for it?",
+        answer: "Kary Mullis",
+        acceptableAnswers: ["Kary Mullis", "Mullis"],
+      },
+      {
+        id: "molbio_400_03",
+        categoryId: "sci_molecular_bio",
+        tier: 400,
+        prompt:
+          "The Moderna and Pfizer-BioNTech COVID-19 mRNA vaccines instructed human cells to produce which specific viral protein, triggering an immune response?",
+        answer: "The spike protein",
+        acceptableAnswers: ["spike protein", "the spike protein", "SARS-CoV-2 spike protein"],
+      },
+      {
+        id: "molbio_600_01",
+        categoryId: "sci_molecular_bio",
+        tier: 600,
+        prompt:
+          "The lac operon in E. coli was the first genetic regulatory system fully characterized, by Jacob and Monod in 1961. It controls lactose metabolism genes. What protein blocks transcription of these genes when lactose is absent?",
+        answer: "The lac repressor",
+        acceptableAnswers: ["lac repressor", "the lac repressor", "LacI", "LacI repressor protein"],
+      },
+      {
+        id: "molbio_600_02",
+        categoryId: "sci_molecular_bio",
+        tier: 600,
+        prompt:
+          "DeepMind's AlphaFold (2020–2021) is considered one of the most significant scientific breakthroughs in decades. What longstanding problem in biology did it effectively solve?",
+        answer: "Protein structure prediction — predicting a protein's 3D shape from its amino acid sequence",
+        acceptableAnswers: [
+          "protein structure prediction",
+          "predicting 3D protein structure from amino acid sequence",
+          "the protein folding problem",
+        ],
+      },
+      {
+        id: "molbio_600_03",
+        categoryId: "sci_molecular_bio",
+        tier: 600,
+        prompt:
+          "Epigenetic inheritance refers to heritable changes in gene expression that don't alter the DNA sequence itself. Name two molecular mechanisms by which epigenetic information is encoded and transmitted.",
+        answer: "DNA methylation and histone modification",
+        acceptableAnswers: [
+          "DNA methylation and histone modification",
+          "methylation and histone acetylation",
+          "methylation and chromatin remodeling",
+          "histone modification and DNA methylation",
+          "non-coding RNA and methylation",
+          "DNA methylation and non-coding RNA",
+        ],
+      },
+    ],
+  },
+
 ];
 
 export default CATEGORIES;
