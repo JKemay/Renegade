@@ -40,7 +40,7 @@ export default function PrivacyScreen() {
         showsVerticalScrollIndicator={false}
       >
         <Text style={[styles.updated, { color: colors.mutedForeground, fontFamily: "Inter_400Regular" }]}>
-          Last updated: May 2025
+          Last updated: May 2026
         </Text>
 
         <Section title="Overview" colors={colors}>

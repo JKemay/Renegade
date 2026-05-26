@@ -4,6 +4,7 @@ import {
   Alert,
   Platform,
   Pressable,
+  ScrollView,
   StyleSheet,
   Text,
   View,
@@ -102,7 +103,7 @@ export default function SettingsScreen() {
       </View>
 
       {/* Content */}
-      <View style={styles.content}>
+      <ScrollView style={{ flex: 1 }} contentContainerStyle={styles.content}>
         {/* Timer */}
         <View style={[styles.section, { borderColor: colors.border }]}>
           <Text
@@ -246,7 +247,7 @@ export default function SettingsScreen() {
         >
           Renegade v0.1.0
         </Text>
-      </View>
+      </ScrollView>
     </View>
   );
 }
