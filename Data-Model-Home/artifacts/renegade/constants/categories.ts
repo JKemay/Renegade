@@ -7,6 +7,7 @@ const CATEGORIES: Category[] = [
     name: "Circassian Culture",
     culture: "circassian",
     description: "Traditions, history, and customs of the Circassian people.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/USSHER%281865%29_p183_CIRCASSIAN_DANCE.jpg/500px-USSHER%281865%29_p183_CIRCASSIAN_DANCE.jpg",
     questions: [
       {
         id: "ci_200_01",
@@ -495,6 +496,7 @@ const CATEGORIES: Category[] = [
     name: "Jordanian Culture",
     culture: "jordanian",
     description: "Landmarks, cuisine, history, and society of Jordan.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Jerash_Festival_2018_15.jpg/500px-Jerash_Festival_2018_15.jpg",
     questions: [
       {
         id: "jo_200_01",
@@ -1106,6 +1108,7 @@ const CATEGORIES: Category[] = [
     culture: "arabic",
     description:
       "Language, history, geography, and shared Arab cultural traditions.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_dallah_a_traditional_Arabic_coffee_pot_with_cups_and_coffee_beans.jpg/500px-A_dallah_a_traditional_Arabic_coffee_pot_with_cups_and_coffee_beans.jpg",
     questions: [
       {
         id: "ar_200_01",
@@ -1533,6 +1536,7 @@ const CATEGORIES: Category[] = [
     culture: "american",
     description:
       "History, places, public life, and popular traditions in the United States.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/1_times_square_night_2013.jpg/500px-1_times_square_night_2013.jpg",
     questions: [
       {
         id: "am_200_01",
@@ -1917,6 +1921,7 @@ const CATEGORIES: Category[] = [
     culture: "islamic",
     description:
       "Seerah and stories of the prophets from verified human sources.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/The_Kaaba_during_Hajj_-_edited.jpg/500px-The_Kaaba_during_Hajj_-_edited.jpg",
     questions: [],
     // ⚠️ NO LLM-generated content ever. Human-sourced and verified only. Targeting v1.1.
   },
@@ -1926,6 +1931,7 @@ const CATEGORIES: Category[] = [
     name: "Movies (Mix)",
     culture: "universal",
     description: "Films, actors, directors, and major moments in cinema.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Tom_Mix_by_Witzel.jpg/500px-Tom_Mix_by_Witzel.jpg",
     questions: [
       {
         id: "mv_200_01",
@@ -2319,6 +2325,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Musicians, albums, genres, and notable moments in recorded music.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/f/f2/Little_Mix_at_the_Confetti_Tour_in_Leeds_%282%29.png",
     questions: [
       {
         id: "mu_200_01",
@@ -2701,6 +2708,7 @@ const CATEGORIES: Category[] = [
     name: "Food",
     culture: "universal",
     description: "Dishes, ingredients, cooking methods, and food traditions.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg/500px-Good_Food_Display_-_NCI_Visuals_Online.jpg",
     questions: [
       {
         id: "fo_200_01",
@@ -3894,6 +3902,7 @@ const CATEGORIES: Category[] = [
     name: "Video Games (Mix)",
     culture: "universal",
     description: "Games, studios, platforms, mechanics, and gaming history.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Universum_TV_Multispiel_2006.jpg/500px-Universum_TV_Multispiel_2006.jpg",
     questions: [
       {
         id: "vg_200_01",
@@ -5007,6 +5016,7 @@ const CATEGORIES: Category[] = [
     name: "VALORANT",
     culture: "universal",
     description: "Agents, spikes, maps, and the Riot Games tactical shooter.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Valorant_logo_-_pink_color_version.svg/500px-Valorant_logo_-_pink_color_version.svg.png",
     questions: [
       {
         id: "val_200_01",
@@ -5545,6 +5555,7 @@ const CATEGORIES: Category[] = [
     name: "League of Legends",
     culture: "universal",
     description: "Champions, Summoner's Rift, and competitive play.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/League_of_Legends_2019_vector.svg/500px-League_of_Legends_2019_vector.svg.png",
     questions: [
       {
         id: "lol_200_01",
@@ -5755,6 +5766,7 @@ const CATEGORIES: Category[] = [
     name: "Pokémon",
     culture: "universal",
     description: "Starters, legendaries, regions, and Pokémon battles.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/500px-International_Pok%C3%A9mon_logo.svg.png",
     questions: [
       {
         id: "pkm_200_01",
@@ -6363,6 +6375,7 @@ const CATEGORIES: Category[] = [
     name: "Harry Potter",
     culture: "universal",
     description: "Hogwarts, spells, Horcruxes, and the wizarding world.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Harry_Potter_logo.svg/500px-Harry_Potter_logo.svg.png",
     questions: [
       {
         id: "hp_200_01",
@@ -6565,6 +6578,7 @@ const CATEGORIES: Category[] = [
     name: "Star Wars",
     culture: "universal",
     description: "Jedi, Sith, the Force, and a galaxy far, far away.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Star_wars2.svg/500px-Star_wars2.svg.png",
     questions: [
       {
         id: "sw_200_01",
@@ -6913,6 +6927,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Barça — Més que un club, home of Messi and the tiki-taka era.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/500px-FC_Barcelona_%28crest%29.svg.png",
     questions: [
       {
         id: "fcb_200_01",
@@ -7357,6 +7372,7 @@ const CATEGORIES: Category[] = [
     name: "Al-Hilal",
     culture: "universal",
     description: "The Crescent — Saudi Arabia's most successful football club.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Al_Hilal_SFC_Logo.svg/500px-Al_Hilal_SFC_Logo.svg.png",
     questions: [
       {
         id: "alh_200_01",
@@ -7488,6 +7504,7 @@ const CATEGORIES: Category[] = [
     name: "LA Lakers",
     culture: "universal",
     description: "Hollywood's team — Showtime, Kobe, and LeBron.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Los_Angeles_Lakers_logo.svg/500px-Los_Angeles_Lakers_logo.svg.png",
     questions: [
       {
         id: "lak_200_01",
@@ -7634,6 +7651,7 @@ const CATEGORIES: Category[] = [
     name: "VCT",
     culture: "universal",
     description: "Valorant Champions Tour — the global competitive circuit.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Valorant_Champions_Tour_logo.png/500px-Valorant_Champions_Tour_logo.png",
     questions: [
       {
         id: "vct_200_01",
@@ -7767,6 +7785,7 @@ const CATEGORIES: Category[] = [
     name: "CS:GO / CS2",
     culture: "universal",
     description: "Counter-Strike — the original esport, from de_dust2 to CS2.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/5/5d/OhnePixel_2025.png",
     questions: [
       {
         id: "cs_200_01",
@@ -7914,6 +7933,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Champagne Papi — Toronto's finest, OVO, and the rap game's biggest streaming numbers.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Drake_at_The_Carter_Effect_2017_%2836818935200%29_%28cropped%29.jpg/500px-Drake_at_The_Carter_Effect_2017_%2836818935200%29_%28cropped%29.jpg",
     questions: [
       {
         id: "drk_200_01",
@@ -8105,6 +8125,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "The Real Slim Shady — Detroit's rap god and the best-selling rapper of all time.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Eminem_2021_Color_Corrected.jpg/500px-Eminem_2021_Color_Corrected.jpg",
     questions: [
       {
         id: "em_200_01",
@@ -8318,6 +8339,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Abel Tesfaye — After Hours, Blinding Lights, and Super Bowl LV.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/The_Weeknd_Portrait_by_Brian_Ziff.jpg/500px-The_Weeknd_Portrait_by_Brian_Ziff.jpg",
     questions: [
       {
         id: "wknd_200_01",
@@ -8505,6 +8527,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "The King of Pop — Thriller, the moonwalk, and an unmatched legacy.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg/500px-Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg",
     questions: [
       {
         id: "mj_200_01",
@@ -8646,6 +8669,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "T-Swift — from country to global pop domination and the Eras Tour.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png/500px-Taylor_Swift_at_the_2023_MTV_Video_Music_Awards_%283%29.png",
     questions: [
       {
         id: "ts_200_01",
@@ -8857,6 +8881,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "K-Dot — Compton, Pulitzer Prize, and the greatest rapper alive.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/KendrickSZASPurs230725-144_%28cropped%29_desaturated.jpg/500px-KendrickSZASPurs230725-144_%28cropped%29_desaturated.jpg",
     questions: [
       {
         id: "kl_200_01",
@@ -9059,6 +9084,7 @@ const CATEGORIES: Category[] = [
     culture: "arabic",
     description:
       "The Father of Mediterranean Music — Egypt's most iconic pop superstar.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Amr_Diab_With_World_Music_Awards.jpg/500px-Amr_Diab_With_World_Music_Awards.jpg",
     questions: [
       {
         id: "ad_200_01",
@@ -9139,6 +9165,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "The Bay's own — Oakland rap, 'Me, Myself & I,' and The Beautiful & Damned.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/G-Eazy_by_Gage_Skidmore.jpg/500px-G-Eazy_by_Gage_Skidmore.jpg",
     questions: [
       {
         id: "ge_200_01",
@@ -9215,6 +9242,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Dreamville, Fayetteville, and the most respected pen in hip-hop.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/HOTSPOTATL_-_21_Savage_%26_J.Cole_Light_Birthday_Bash_ATL_2023_On_FIRE_%28xu6HKf40MX0_-_2m38s%29_%28cropped%29.jpg/500px-HOTSPOTATL_-_21_Savage_%26_J.Cole_Light_Birthday_Bash_ATL_2023_On_FIRE_%28xu6HKf40MX0_-_2m38s%29_%28cropped%29.jpg",
     questions: [
       {
         id: "jc_200_01",
@@ -9291,6 +9319,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "La Flame — Houston, Cactus Jack Records, and the Astroworld era.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/2025-0120_Cole_Gahagan_Michael_Rubin_Travis_Scott_%28cropped%29.jpg/500px-2025-0120_Cole_Gahagan_Michael_Rubin_Travis_Scott_%28cropped%29.jpg",
     questions: [
       {
         id: "ts2_200_01",
@@ -9498,6 +9527,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Posty — face tattoos, genre-blending, and the biggest debut in streaming history.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Post_Malone_July_2021_%28cropped%29.jpg/500px-Post_Malone_July_2021_%28cropped%29.jpg",
     questions: [
       {
         id: "pm_200_01",
@@ -9698,6 +9728,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Ye — Chicago, soul samples, gospel rap, and the most polarizing genius in music.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kanye_West_at_the_2009_Tribeca_Film_Festival_%28crop_2%29.jpg/500px-Kanye_West_at_the_2009_Tribeca_Film_Festival_%28crop_2%29.jpg",
     questions: [
       {
         id: "kw_200_01",
@@ -10326,6 +10357,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Walter White, Jesse Pinkman, Heisenberg, and the greatest TV drama ever made.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Breaking_Bad_logo.svg/500px-Breaking_Bad_logo.svg.png",
     questions: [
       {
         id: "bb_200_01",
@@ -11143,6 +11175,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Dirty Sprite, DS2, Freebandz — Atlanta's melodic trap pioneer.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Zeitpyramide_2023_B.jpg/500px-Zeitpyramide_2023_B.jpg",
     questions: [
       {
         id: "fut_200_01",
@@ -11214,6 +11247,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Shéyaa, the Slaughter Gang, and the most chilling delivery in Atlanta rap.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/21_Savage_2018.jpg/500px-21_Savage_2018.jpg",
     questions: [
       {
         id: "s21_200_01",
@@ -11285,6 +11319,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Queen, Roman Zolanski, Pink Friday — the most dominant female rapper ever.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Nicki_Minaj_2025_%283x4_cropped%29.jpg/500px-Nicki_Minaj_2025_%283x4_cropped%29.jpg",
     questions: [
       {
         id: "nmj_200_01",
@@ -11356,6 +11391,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Channel Orange, Blonde — R&B's most elusive and critically adored perfectionist.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Frank_Ocean_2022_Blonded.jpg/500px-Frank_Ocean_2022_Blonded.jpg",
     questions: [
       {
         id: "frk_200_01",
@@ -11438,6 +11474,7 @@ const CATEGORIES: Category[] = [
     name: "Lil Uzi Vert",
     culture: "universal",
     description: "XO TOUR Llif3, Eternal Atake — Philly's emo-rap alien.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Lil_Uzi_Vert_%282018%29.png/500px-Lil_Uzi_Vert_%282018%29.png",
     questions: [
       {
         id: "uzi_200_01",
@@ -11516,6 +11553,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Ctrl, SOS — TDE's R&B queen who redefined vulnerability in modern music.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/KendrickSZASPurs230725-19_-_54683179509_%28cropped%29_%28cropped%29.jpg/500px-KendrickSZASPurs230725-19_-_54683179509_%28cropped%29_%28cropped%29.jpg",
     questions: [
       {
         id: "sza_200_01",
@@ -12729,6 +12767,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Ultimate Team, Pro Clubs, career mode — the world's football game.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/EA_Sports_FC_logo.svg/500px-EA_Sports_FC_logo.svg.png",
     questions: [
       {
         id: "fc_200_01",
@@ -13145,6 +13184,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Survival horror, debt, and Korean children's games turned deadly.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Squid_Game_2021_vector_logo_english.svg/500px-Squid_Game_2021_vector_logo_english.svg.png",
     questions: [
       {
         id: "sqd_200_01",
@@ -13774,6 +13814,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Infinity War, Endgame, and the most ambitious cinematic crossover ever assembled.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Symbol_from_Marvel%27s_The_Avengers_logo.svg/500px-Symbol_from_Marvel%27s_The_Avengers_logo.svg.png",
     questions: [
       {
         id: "avng_200_01",
@@ -14128,6 +14169,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Soul Reapers, Bankai, and Aizen's unmatched swagger — the Big Three at its most stylish.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Clorox_Bleach_products.jpg/500px-Clorox_Bleach_products.jpg",
     questions: [
       {
         id: "blch_200_01",
@@ -14482,6 +14524,7 @@ const CATEGORIES: Category[] = [
     name: "Juice WRLD",
     culture: "universal",
     description: "Lucid Dreams, Legends Never Die — emo-rap's brightest flame.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Juice_WRLD_-_Les_Ardentes_2019_%28cropped_2%29.jpg/500px-Juice_WRLD_-_Les_Ardentes_2019_%28cropped_2%29.jpg",
     questions: [
       {
         id: "jw_200_01",
@@ -14681,6 +14724,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Odd Future, Golf Wang, IGOR — hip-hop's most restless creative mind.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Tyler_The_Creator_Toronto_2025.jpg/500px-Tyler_The_Creator_Toronto_2025.jpg",
     questions: [
       {
         id: "tyl_200_01",
@@ -14761,6 +14805,7 @@ const CATEGORIES: Category[] = [
     name: "A$AP Rocky",
     culture: "universal",
     description: "Harlem, ASAP Mob, and the most fashion-forward rapper alive.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/A%24AP_Rocky_at_the_2025_Cannes_Film_Festival_%28cropped_3x4%29.jpg/500px-A%24AP_Rocky_at_the_2025_Cannes_Film_Festival_%28cropped_3x4%29.jpg",
     questions: [
       {
         id: "arap_200_01",
@@ -14830,6 +14875,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Zone 4, Quality Control, and the most consistent output in Atlanta rap.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/46/Lil_Baby_2023.png",
     questions: [
       {
         id: "lb_200_01",
@@ -14897,6 +14943,7 @@ const CATEGORIES: Category[] = [
     name: "Bad Bunny",
     culture: "universal",
     description: "Puerto Rico's global export — Latin trap's biggest artist.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Bad_Bunny_2019_by_Glenn_Francis_%28cropped%29.jpg/500px-Bad_Bunny_2019_by_Glenn_Francis_%28cropped%29.jpg",
     questions: [
       {
         id: "bb_200_01",
@@ -15120,6 +15167,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Cactus Jack, Heaven or Hell — Houston's psychedelic R&B heir.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Don_Toliver_by_Sanchez_Productions.jpg/500px-Don_Toliver_by_Sanchez_Productions.jpg",
     questions: [
       {
         id: "dt_200_01",
@@ -15185,6 +15233,7 @@ const CATEGORIES: Category[] = [
     name: "Bryson Tiller",
     culture: "universal",
     description: "Trapsoul, Exchange — Louisville's R&B architect.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Bryson_Tiller_August_2018_%28cropped%29.jpg/500px-Bryson_Tiller_August_2018_%28cropped%29.jpg",
     questions: [
       {
         id: "bry_200_01",
@@ -15264,6 +15313,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Heroes, ultimates, and the competitive FPS that defined a genre.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Overwatch.svg/500px-Overwatch.svg.png",
     questions: [
       {
         id: "ow_200_01",
@@ -16267,6 +16317,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Rocket-powered cars, aerial goals, and the most mechanical skill ceiling in esports.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Rocket_League_coverart.jpg/500px-Rocket_League_coverart.jpg",
     questions: [
       {
         id: "rl_200_01",
@@ -16977,6 +17028,7 @@ const CATEGORIES: Category[] = [
     name: "Peaky Blinders",
     culture: "universal",
     description: "Tommy Shelby, Birmingham, and razor blades in flat caps.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Harry_Fowles_Peaky_Blinder.jpg/500px-Harry_Fowles_Peaky_Blinder.jpg",
     questions: [
       {
         id: "pky_200_01",
@@ -17375,6 +17427,7 @@ const CATEGORIES: Category[] = [
     name: "Avatar: The Last Airbender",
     culture: "universal",
     description: "Aang, Zuko, and the most perfect animated series ever made.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Avatar_The_Last_Airbender_logo.svg/500px-Avatar_The_Last_Airbender_logo.svg.png",
     questions: [
       {
         id: "atla_200_01",
@@ -17585,6 +17638,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "The Upside Down, the Demogorgon, and 80s nostalgia done perfectly.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Stranger_Things_logo.png/500px-Stranger_Things_logo.png",
     questions: [
       {
         id: "st_200_01",
@@ -17795,6 +17849,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Marty Byrde, the Navarro cartel, and slow-burn crime drama at its best.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/OzarkOverview.jpg/500px-OzarkOverview.jpg",
     questions: [
       {
         id: "ozk_200_01",
@@ -18584,6 +18639,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Qatar's football project, Neymar, Mbappé — modern football's most expensive club.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/a/a7/Paris_Saint-Germain_F.C..svg/500px-Paris_Saint-Germain_F.C..svg.png",
     questions: [
       {
         id: "psg_200_01",
@@ -18832,6 +18888,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "The Bundesliga's perennial dominators — Germany's most successful club.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg/500px-FC_Bayern_M%C3%BCnchen_logo_%282024%29.svg.png",
     questions: [
       {
         id: "bay_200_01",
@@ -18974,6 +19031,7 @@ const CATEGORIES: Category[] = [
     name: "Boxing",
     culture: "universal",
     description: "Ali, Fury, Canelo — the sweet science's greatest moments.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Boxing_Tournament_in_Aid_of_King_George%27s_Fund_For_Sailors_at_the_Royal_Naval_Air_Station%2C_Henstridge%2C_Somerset%2C_July_1945_A29806.jpg/500px-Boxing_Tournament_in_Aid_of_King_George%27s_Fund_For_Sailors_at_the_Royal_Naval_Air_Station%2C_Henstridge%2C_Somerset%2C_July_1945_A29806.jpg",
     questions: [
       {
         id: "box_200_01",
@@ -19048,6 +19106,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "The best rapper alive — Carter, mixtape God, Young Money CEO.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Lil_Wayne_Feb._2020.jpg/500px-Lil_Wayne_Feb._2020.jpg",
     questions: [
       {
         id: "lw_200_01",
@@ -19132,6 +19191,7 @@ const CATEGORIES: Category[] = [
     name: "Jay-Z",
     culture: "universal",
     description: "Reasonable Doubt to billionaire status — Hov's legacy.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/5/55/Jay-Z_meets_with_New_York_Senate_Majority_Leader_in_Albany_%28cropped%29.webp",
     questions: [
       {
         id: "jz_200_01",
@@ -19220,6 +19280,7 @@ const CATEGORIES: Category[] = [
     name: "Playboi Carti",
     culture: "universal",
     description: "From Magnolia to Whole Lotta Red — the cult of Carti.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Playboi_Carti%2C_Clout_Festival_2024_05_%28cropped%29.jpg/500px-Playboi_Carti%2C_Clout_Festival_2024_05_%28cropped%29.jpg",
     questions: [
       {
         id: "pc_200_01",
@@ -19296,6 +19357,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Bronx born, 'Bodak Yellow,' Grammy-winning — the people's champ.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Cardi_B_March_2024.png/500px-Cardi_B_March_2024.png",
     questions: [
       {
         id: "cb_200_01",
@@ -19372,6 +19434,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Drip Season, DS4Ever, pushin P — Atlanta's melodic trap king.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Gunna_June_2025.png/500px-Gunna_June_2025.png",
     questions: [
       {
         id: "gn_200_01",
@@ -19853,6 +19916,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Baltimore, the game, and the institutions that trap everyone in it.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/The_Wire_logo.svg/500px-The_Wire_logo.svg.png",
     questions: [
       {
         id: "wir_200_01",
@@ -20518,6 +20582,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Hadouken, Shoryuken, Sonic Boom — the king of fighting games.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/e/e9/Street_Fighter_Logo.png",
     questions: [
       {
         id: "sf_200_01",
@@ -20709,6 +20774,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "The Invincibles, Highbury, and north London's most stylish side.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/View_of_the_entrance_to_the_Arsenal_by_Canaletto%2C_1732.jpg/500px-View_of_the_entrance_to_the_Arsenal_by_Canaletto%2C_1732.jpg",
     questions: [
       {
         id: "ars_200_01",
@@ -20867,6 +20933,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "The octagon, Khabib's dominance, and the sport's biggest moments.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/5/59/Jackson_Wink_MMA_Academy.webp",
     questions: [
       {
         id: "ufc_200_01",
@@ -20941,6 +21008,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Brooklyn Drill's pioneer — the voice that changed New York rap.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Pop_Smoke_2020_%282%29.jpg/500px-Pop_Smoke_2020_%282%29.jpg",
     questions: [
       {
         id: "ps_200_01",
@@ -21007,6 +21075,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "17, SAD!, and a career that blurred genre lines — X's legacy.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Xxxtentacion_%28cropped%29.jpg/500px-Xxxtentacion_%28cropped%29.jpg",
     questions: [
       {
         id: "xxx_200_01",
@@ -21079,6 +21148,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Metro Boomin want some more — the producer behind a generation of hits.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/8/85/Metro_Boomin_November_2025.jpg",
     questions: [
       {
         id: "mb_200_01",
@@ -21148,6 +21218,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Versace, Culture, triplet flow — the Atlanta trio that shaped modern rap.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Migos_Veld_festival_2017.jpg/500px-Migos_Veld_festival_2017.jpg",
     questions: [
       {
         id: "mig_200_01",
@@ -21943,6 +22014,7 @@ const CATEGORIES: Category[] = [
     name: "Legend of Zelda",
     culture: "universal",
     description: "Link, Ganon, and the greatest adventure games ever made.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Zelda_2017.svg/500px-Zelda_2017.svg.png",
     questions: [
       {
         id: "zel_200_01",
@@ -22128,6 +22200,7 @@ const CATEGORIES: Category[] = [
     name: "Cristiano Ronaldo",
     culture: "universal",
     description: "CR7 — the stats, the records, and the obsession.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/President_Donald_Trump_meets_with_Cristiano_Ronaldo_in_the_Oval_Office_%2854933344262%29_%28cropped_and_rotated%29.jpg/500px-President_Donald_Trump_meets_with_Cristiano_Ronaldo_in_the_Oval_Office_%2854933344262%29_%28cropped_and_rotated%29.jpg",
     questions: [
       {
         id: "cr7_200_01",
@@ -22331,6 +22404,7 @@ const CATEGORIES: Category[] = [
     name: "Lionel Messi",
     culture: "universal",
     description: "The GOAT from Rosario — La Pulga's defining moments.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Lionel_Messi_White_House_2026_%283x4_cropped%29.jpg/500px-Lionel_Messi_White_House_2026_%283x4_cropped%29.jpg",
     questions: [
       {
         id: "mes_200_01",
@@ -22528,6 +22602,7 @@ const CATEGORIES: Category[] = [
     name: "Formula 1",
     culture: "universal",
     description: "Verstappen, Senna, Hamilton — the pinnacle of motorsport.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/2010_Malaysian_GP_opening_lap.jpg/500px-2010_Malaysian_GP_opening_lap.jpg",
     questions: [
       {
         id: "f1_200_01",
@@ -22686,6 +22761,7 @@ const CATEGORIES: Category[] = [
     name: "Kobe Bryant",
     culture: "universal",
     description: "Mamba Mentality, 81 points, and the legacy of 8 and 24.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Kobe_Bryant_Dec_2014.jpg/500px-Kobe_Bryant_Dec_2014.jpg",
     questions: [
       {
         id: "kob_200_01",
@@ -22887,6 +22963,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "The King — Akron's son, the Finals comeback, and chasing GOAT.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/LeBron_James_%2851959977144%29_%28cropped2%29.jpg/500px-LeBron_James_%2851959977144%29_%28cropped2%29.jpg",
     questions: [
       {
         id: "lbj_200_01",
@@ -23126,6 +23203,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Splash Brothers, 402 threes in a season, and the Warriors dynasty.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Stephen_Curry%2C_Olympic_Games_2024_%28cropped%29.jpg/500px-Stephen_Curry%2C_Olympic_Games_2024_%28cropped%29.jpg",
     questions: [
       {
         id: "sc_200_01",
@@ -23345,6 +23423,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "The Voice of Chicago — OTF, 7220, and the stories only Durk tells.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Lil_Durk_in_2022.png/500px-Lil_Durk_in_2022.png",
     questions: [
       {
         id: "dur_200_01",
@@ -23408,6 +23487,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Heart on Ice, SoulFly, and the rawest emotional rap in the game.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/7/73/Beautiful_Mind_Tour_Pittsburgh%2C_PA_4.jpg",
     questions: [
       {
         id: "rw_200_01",
@@ -23475,6 +23555,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Kentrell from Baton Rouge — the most consistent rapper in the streaming era.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/NBA_YoungBoy_2023.jpg/500px-NBA_YoungBoy_2023.jpg",
     questions: [
       {
         id: "yb_200_01",
@@ -23542,6 +23623,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "West London's coldest — drill, melody, and a global takeover.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Central_cee-5.jpg/500px-Central_cee-5.jpg",
     questions: [
       {
         id: "cen_200_01",
@@ -23620,6 +23702,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Ted Mosby, the yellow umbrella, and the ending nobody asked for.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/HowIMetYourMother.svg/500px-HowIMetYourMother.svg.png",
     questions: [
       {
         id: "him_200_01",
@@ -23697,6 +23780,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Nine-Nine! Jake Peralta, Captain Holt, and the best precinct on TV.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Brooklyn_Nine-Nine_Logo.png/500px-Brooklyn_Nine-Nine_Logo.png",
     questions: [
       {
         id: "b99_200_01",
@@ -24063,6 +24147,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Breezy — from 'Run It!' to Indigo, the most consistent R&B era of a generation.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Chris_Brown_got_INFLUENCE.jpg/500px-Chris_Brown_got_INFLUENCE.jpg",
     questions: [
       {
         id: "cbr_200_01",
@@ -24130,6 +24215,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Confessions, 'Yeah!', and the greatest R&B album of the 2000s.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/1d/Usher_Milan_2026.jpg",
     questions: [
       {
         id: "ush_200_01",
@@ -24199,6 +24285,7 @@ const CATEGORIES: Category[] = [
     name: "Roddy Ricch",
     culture: "universal",
     description: "The Box, Compton, and the 'eee ee' that dominated 2020.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Roddy_Ricch_2022.png/500px-Roddy_Ricch_2022.png",
     questions: [
       {
         id: "rr_200_01",
@@ -24265,6 +24352,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Capalot, Die a Legend, and Chicago's philosopher of the streets.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/91/Polo_G_in_2022_%28cropped%29.png",
     questions: [
       {
         id: "pol_200_01",
@@ -24328,6 +24416,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Islah, '2 Phones,' and Baton Rouge's most brutally honest voice.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Kevin_Gates_-_Main_Pub_1_-_Photo_Credit.jpg/500px-Kevin_Gates_-_Main_Pub_1_-_Photo_Credit.jpg",
     questions: [
       {
         id: "kg_200_01",
@@ -24397,6 +24486,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "A Love Letter to You, emo-rap, and the heart tattoo on his face.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Trippie_Redd_Photo_by_Kris_Knesel_%28cropped%29.jpg/500px-Trippie_Redd_Photo_by_Kris_Knesel_%28cropped%29.jpg",
     questions: [
       {
         id: "tri_200_01",
@@ -24458,6 +24548,7 @@ const CATEGORIES: Category[] = [
     name: "BTS",
     culture: "universal",
     description: "Bangtan, ARMY, and the K-pop group that took over the world.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/BTS_during_a_White_House_press_conference_May_31%2C_2022_%28cropped%29.jpg/500px-BTS_during_a_White_House_press_conference_May_31%2C_2022_%28cropped%29.jpg",
     questions: [
       {
         id: "bts_200_01",
@@ -24537,6 +24628,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "The Duttons, the brand, and Montana's war for the last great ranch.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Grand_Canyon_of_yellowstone.jpg/500px-Grand_Canyon_of_yellowstone.jpg",
     questions: [
       {
         id: "yel_200_01",
@@ -25298,6 +25390,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Santos, MSN, the €222m transfer, and Brazilian flair at its peak.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/bb/Neymar_Jr._with_Al_Hilal%2C_3_October_2023_-_03_%28cropped%29.jpg",
     questions: [
       {
         id: "ney_200_01",
@@ -25479,6 +25572,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Bondy to the Bernabéu — the fastest player of his generation.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Picture_with_Mbapp%C3%A9_%28cropped_and_rotated%29.jpg/500px-Picture_with_Mbapp%C3%A9_%28cropped_and_rotated%29.jpg",
     questions: [
       {
         id: "mbp_200_01",
@@ -25677,6 +25771,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "The machine — Salzburg, BVB, Man City, and goals that defy logic.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Erling_Haaland_June_2025.jpg/500px-Erling_Haaland_June_2025.jpg",
     questions: [
       {
         id: "haa_200_01",
@@ -25756,6 +25851,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Samba, the Bernabéu standing ovation, and the most joyful footballer ever.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Ronaldinho_in_2019.jpg/500px-Ronaldinho_in_2019.jpg",
     questions: [
       {
         id: "rdh_200_01",
@@ -25831,6 +25927,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Barbados to Fenty Empire — the most complete pop star of her generation.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Rihanna_Fenty_2018.png/500px-Rihanna_Fenty_2018.png",
     questions: [
       {
         id: "rih_200_01",
@@ -26017,6 +26114,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Lemonade, the Beyhive, and the most decorated artist in Grammy history.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%2810_of_118%29_%2852946364598%29_%28best_crop%29.jpg/500px-Beyonc%C3%A9_-_Tottenham_Hotspur_Stadium_-_1st_June_2023_%2810_of_118%29_%2852946364598%29_%28best_crop%29.jpg",
     questions: [
       {
         id: "bey_200_01",
@@ -26088,6 +26186,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Thank U, Next, One Love Manchester, and pop's most powerful voice.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Ariana_Grande_promoting_Wicked_%282024%29.jpg/500px-Ariana_Grande_promoting_Wicked_%282024%29.jpg",
     questions: [
       {
         id: "ari_200_01",
@@ -26154,6 +26253,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Mooo!, Planet Her, and the most shape-shifting pop star of her era.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Doja_Cat_x_Amazon1.1_%28cropped%29.jpg/500px-Doja_Cat_x_Amazon1.1_%28cropped%29.jpg",
     questions: [
       {
         id: "doj_200_01",
@@ -26345,6 +26445,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Ocean Eyes, Bad Guy, and the bedroom pop prodigy who broke every record.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/BillieEilishO2140725-39_-_54665577407_%28cropped%29.jpg/500px-BillieEilishO2140725-39_-_54665577407_%28cropped%29.jpg",
     questions: [
       {
         id: "bil_200_01",
@@ -26552,6 +26653,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Scooter Braun's YouTube find — Bieber Fever, Purpose, and the comeback.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Justin_Bieber_in_2015.jpg/500px-Justin_Bieber_in_2015.jpg",
     questions: [
       {
         id: "jb_200_01",
@@ -26623,6 +26725,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Future Nostalgia, Levitating, and pop's most consistent run of the 2020s.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Dua_Lipa-69798_%28cropped%29.jpg/500px-Dua_Lipa-69798_%28cropped%29.jpg",
     questions: [
       {
         id: "dua_200_01",
@@ -27246,6 +27349,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Federer, Nadal, Djokovic — 20 years of the greatest rivalry in sport.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Novak_Djokovic_%2816650975118%29.jpg/500px-Novak_Djokovic_%2816650975118%29.jpg",
     questions: [
       {
         id: "ten_200_01",
@@ -27313,6 +27417,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "15 Majors, the Tiger Slam, and the greatest comeback in sports history.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/President_Donald_Trump_hosts_a_reception_honoring_Black_History_Month_%2854341713089%29_%28cropped%29.jpg/500px-President_Donald_Trump_hosts_a_reception_honoring_Black_History_Month_%2854341713089%29_%28cropped%29.jpg",
     questions: [
       {
         id: "tig_200_01",
@@ -27456,6 +27561,7 @@ const CATEGORIES: Category[] = [
     name: "AC Milan",
     culture: "universal",
     description: "The Rossoneri — Dutch trio, San Siro, and European royalty.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Logo_of_AC_Milan.svg/500px-Logo_of_AC_Milan.svg.png",
     questions: [
       {
         id: "acm_200_01",
@@ -27532,6 +27638,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "The Old Lady, nine in a row, and Italian football's most storied club.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Juventus_FC_-_logo_black_%28Italy%2C_2020%29.svg/500px-Juventus_FC_-_logo_black_%28Italy%2C_2020%29.svg.png",
     questions: [
       {
         id: "juv_200_01",
@@ -27613,6 +27720,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Dreams & Nightmares, Philly pride, and the fight for criminal justice reform.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/45/Meek.jpg",
     questions: [
       {
         id: "meek_200_01",
@@ -27680,6 +27788,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Black and Yellow, See You Again, and Pittsburgh's ambassador to hip-hop.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Wiz_Khalifa_2023.jpg/500px-Wiz_Khalifa_2023.jpg",
     questions: [
       {
         id: "wiz_200_01",
@@ -27742,6 +27851,7 @@ const CATEGORIES: Category[] = [
     name: "Rick Ross",
     culture: "universal",
     description: "The Boss, MMG, and Miami's biggest rap empire.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Rick_Ross_in_the_trap%21_%28cropped%29.jpg/500px-Rick_Ross_in_the_trap%21_%28cropped%29.jpg",
     questions: [
       {
         id: "ric_200_01",
@@ -27877,6 +27987,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Greendale, six seasons and a movie, and TV's most self-aware comedy.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/A_community_townhall_at_Makoko_community.jpg/500px-A_community_townhall_at_Makoko_community.jpg",
     questions: [
       {
         id: "com_200_01",
@@ -28119,6 +28230,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Ainz Ooal Gown, Nazarick, and the greatest guild master the New World never asked for.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bayeux_Tapestry_scene23_Harold_sacramentum_fecit_Willelmo_duci.jpg/500px-Bayeux_Tapestry_scene23_Harold_sacramentum_fecit_Willelmo_duci.jpg",
     questions: [
       {
         id: "ovl_200_01",
@@ -28191,6 +28303,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Zeus, Achilles, the Trojan War — the stories that shaped Western civilization.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Kylix_Theseus_Aison_MNA_Inv11365_n1.jpg/500px-Kylix_Theseus_Aison_MNA_Inv11365_n1.jpg",
     questions: [
       {
         id: "gk_200_01",
@@ -28265,6 +28378,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Pharaohs, Spartans, and empires — the moments that forged civilisation.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Denis_Bourez_-_British_Museum%2C_London_%288747049029%29_%282%29.jpg/500px-Denis_Bourez_-_British_Museum%2C_London_%288747049029%29_%282%29.jpg",
     questions: [
       {
         id: "anc_200_01",
@@ -28338,6 +28452,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Moon landings, Mars rovers, and the universe's most mind-blowing facts.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/NASA_seal.svg/500px-NASA_seal.svg.png",
     questions: [
       {
         id: "sp2_200_01",
@@ -28406,6 +28521,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Lamborghini, Godzilla, and the cars that live rent-free in every gearhead's head.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Honda_Acty_Truck_HA9_0326.JPG/500px-Honda_Acty_Truck_HA9_0326.JPG",
     questions: [
       {
         id: "car_200_01",
@@ -28549,6 +28665,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Memes, viral moments, and the bits of the internet that never left your head.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Internet_map_1024_-_transparent%2C_inverted.png/500px-Internet_map_1024_-_transparent%2C_inverted.png",
     questions: [
       {
         id: "int_200_01",
@@ -28624,6 +28741,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Richard Pryor, Chappelle, Kevin Hart — the greatest stand-up moments ever.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Jesus_is_coming.._Look_Busy_%28George_Carlin%29.jpg/500px-Jesus_is_coming.._Look_Busy_%28George_Carlin%29.jpg",
     questions: [
       {
         id: "std_200_01",
@@ -28852,6 +28970,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Memphis rap royalty — Bread Gang, street introspection, A Gangsta's Pain.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Moneybagg_Yo_WHTA_2023.png/500px-Moneybagg_Yo_WHTA_2023.png",
     questions: [
       {
         id: "mbg_200_01",
@@ -28916,6 +29035,7 @@ const CATEGORIES: Category[] = [
     name: "Lil Tecca",
     culture: "universal",
     description: "From Queens to viral — 'Ransom' made him a teen phenomenon.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Lil_Tecca_2019.png/500px-Lil_Tecca_2019.png",
     questions: [
       {
         id: "tec2_200_01",
@@ -28980,6 +29100,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "El Rey del Reggaeton — King of Kings, Danza Kuduro, the Latin crown.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Don_Omar_-_The_Kingdom_%28Official_Q_%26_A%29.png/500px-Don_Omar_-_The_Kingdom_%28Official_Q_%26_A%29.png",
     questions: [
       {
         id: "dom_200_01",
@@ -29047,6 +29168,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "From One Direction teen idol to Grammy-winning solo star — Watermelon Sugar, As It Was.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg/500px-HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg",
     questions: [
       {
         id: "hst_200_01",
@@ -29113,6 +29235,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Colombian icon — Hips Don't Lie, Waka Waka, the voice of a generation.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2023-11-16_Gala_de_los_Latin_Grammy%2C_03_%28cropped%2902.jpg/500px-2023-11-16_Gala_de_los_Latin_Grammy%2C_03_%28cropped%2902.jpg",
     questions: [
       {
         id: "sha_200_01",
@@ -29182,6 +29305,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "The show about nothing — Jerry, George, Elaine, Kramer — New York neurosis at its finest.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Seinfeld_logo.svg/500px-Seinfeld_logo.svg.png",
     questions: [
       {
         id: "sei_200_01",
@@ -29251,6 +29375,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Marty Byrde launders money for a drug cartel in the Missouri Ozarks — blue-tinted tension.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/OzarkOverview.jpg/500px-OzarkOverview.jpg",
     questions: [
       {
         id: "ozk2_200_01",
@@ -29325,6 +29450,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Targaryens tearing themselves apart — the Dance of the Dragons, 200 years before Jon Snow.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/House_of_the_dragon_logo.png/500px-House_of_the_dragon_logo.png",
     questions: [
       {
         id: "hod_200_01",
@@ -30243,6 +30369,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Los Blancos — the most decorated club in history, 15 Champions League trophies.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/PRESENTACION_CLINIC_AZERBAIJAN_1PC5436_%28cropped%29.jpg/500px-PRESENTACION_CLINIC_AZERBAIJAN_1PC5436_%28cropped%29.jpg",
     questions: [
       {
         id: "rm2_200_01",
@@ -30374,6 +30501,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "50-0 — Money Mayweather, the defensive genius, pound-for-pound greatness.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Floyd_Mayweather_Jr_2011.jpg/500px-Floyd_Mayweather_Jr_2011.jpg",
     questions: [
       {
         id: "fmw_200_01",
@@ -30450,6 +30578,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "23 Grand Slams, GOAT debates settled — the greatest women's tennis player ever.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Guests_at_the_2026_Met_Gala_209_%28cropped%29.jpg",
     questions: [
       {
         id: "ser_200_01",
@@ -30521,6 +30650,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "600 years of sultanates — from Osman I to the fall of Constantinople to Atatürk.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Flag_of_the_Ottoman_Empire_%281844%E2%80%931922%29.svg/500px-Flag_of_the_Ottoman_Empire_%281844%E2%80%931922%29.svg.png",
     questions: [
       {
         id: "ott_200_01",
@@ -30605,6 +30735,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "The deadliest conflict in human history — Normandy, the Pacific, Hiroshima, the Holocaust.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg/500px-Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg",
     questions: [
       {
         id: "ww2_200_01",
@@ -30680,6 +30811,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Biology you should know — organs, bones, systems, and the science of being human.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Anatomical_Male_Figure_Showing_Heart%2C_Lungs%2C_and_Main_Arteries.jpg/500px-Anatomical_Male_Figure_Showing_Heart%2C_Lungs%2C_and_Main_Arteries.jpg",
     questions: [
       {
         id: "hb_200_01",
@@ -30747,6 +30879,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Hell's Kitchen, Hell on a plate, and Michelin stars — the world's most famous chef.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Gordon_Ramsay_%28cropped%29.jpg/500px-Gordon_Ramsay_%28cropped%29.jpg",
     questions: [
       {
         id: "gr_200_01",
@@ -30824,6 +30957,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Capitals, countries, and the map knowledge that separates the curious from the clueless.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/CIA_World_Physical_Map_%282023%29.pdf/page1-500px-CIA_World_Physical_Map_%282023%29.pdf.jpg",
     questions: [
       {
         id: "geo_200_01",
@@ -31047,6 +31181,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Spirited Away, My Neighbor Totoro, Princess Mononoke — Miyazaki's magical worlds.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Studio_Ghibli_studio_3.jpg/500px-Studio_Ghibli_studio_3.jpg",
     questions: [
       {
         id: "ghb_200_01",
@@ -31186,6 +31321,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Atlanta via London — the knife emoji, ice cold delivery, Issa Album.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/21_Savage_2018.jpg/500px-21_Savage_2018.jpg",
     questions: [
       {
         id: "tvs_200_01",
@@ -31253,6 +31389,7 @@ const CATEGORIES: Category[] = [
     name: "SZA II",
     culture: "universal",
     description: "Ctrl, SOS, Kill Bill — R&B's most emotionally honest voice.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/KendrickSZASPurs230725-19_-_54683179509_%28cropped%29_%28cropped%29.jpg/500px-KendrickSZASPurs230725-19_-_54683179509_%28cropped%29_%28cropped%29.jpg",
     questions: [
       {
         id: "sza2_200_01",
@@ -31322,6 +31459,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Channel Orange, Blonde — the reclusive genius who changed R&B forever.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Frank_Ocean_2022_Blonded.jpg/500px-Frank_Ocean_2022_Blonded.jpg",
     questions: [
       {
         id: "fo_200_01",
@@ -31391,6 +31529,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Yellow, The Scientist, A Sky Full of Stars — stadium anthems from London's biggest band.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/ColdplayWembley120925_%28cropped%29.jpg/500px-ColdplayWembley120925_%28cropped%29.jpg",
     questions: [
       {
         id: "cp_200_01",
@@ -31461,6 +31600,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "By order of the Peaky Blinders — Thomas Shelby, Birmingham, and the razor-sharp caps.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Helen_McCrory_2017_%28Extract%29.jpg/500px-Helen_McCrory_2017_%28Extract%29.jpg",
     questions: [
       {
         id: "pb2_200_01",
@@ -31683,6 +31823,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Ryan Murphy's anthology of nightmares — Murder House, Asylum, Coven, and beyond.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/American_Horror_Story_%28FX_television_series%29_red_logo.svg/500px-American_Horror_Story_%28FX_television_series%29_red_logo.svg.png",
     questions: [
       {
         id: "ahs_200_01",
@@ -31752,6 +31893,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Summoner's Rift, 160+ champions, the world's biggest esport — inting since 2009.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/League_of_Legends_2019_vector.svg/500px-League_of_Legends_2019_vector.svg.png",
     questions: [
       {
         id: "lol_200_01",
@@ -32318,6 +32460,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Més que un club — Xavi, Iniesta, Messi's tiki-taka, Camp Nou glory.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/500px-FC_Barcelona_%28crest%29.svg.png",
     questions: [
       {
         id: "bca2_200_01",
@@ -32461,6 +32604,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "US vs USSR — nuclear tension, the Space Race, Berlin Wall, proxy wars.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/NATO_vs._Warsaw_Pact_%281949-1990%29.svg/500px-NATO_vs._Warsaw_Pact_%281949-1990%29.svg.png",
     questions: [
       {
         id: "cw_200_01",
@@ -32610,6 +32754,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Milgram, Pavlov, Freud — the famous experiments and theories that shaped how we understand the mind.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Greek_uc_psi_icon.svg/500px-Greek_uc_psi_icon.svg.png",
     questions: [
       {
         id: "psy_200_01",
@@ -32892,6 +33037,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Slim Shady, Marshall Mathers, Rap God — the greatest technical rapper of all time.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Eminem_2021_Color_Corrected.jpg/500px-Eminem_2021_Color_Corrected.jpg",
     questions: [
       {
         id: "em2_200_01",
@@ -32961,6 +33107,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "No features, Dreamville, Forest Hills Drive — the introspective king of 2010s rap.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/HOTSPOTATL_-_21_Savage_%26_J.Cole_Light_Birthday_Bash_ATL_2023_On_FIRE_%28xu6HKf40MX0_-_2m38s%29_%28cropped%29.jpg/500px-HOTSPOTATL_-_21_Savage_%26_J.Cole_Light_Birthday_Bash_ATL_2023_On_FIRE_%28xu6HKf40MX0_-_2m38s%29_%28cropped%29.jpg",
     questions: [
       {
         id: "jco_200_01",
@@ -33164,6 +33311,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Lucid Dreams, Legends Never Die — the freestyle king gone too soon.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Juice_Wrld_performs_at_the_InField_Fest_at_the_2019_Preakness_on_May_18%2C_2019.jpg/500px-Juice_Wrld_performs_at_the_InField_Fest_at_the_2019_Preakness_on_May_18%2C_2019.jpg",
     questions: [
       {
         id: "jw2_200_01",
@@ -33375,6 +33523,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Pablo Escobar, the DEA, and the rise and fall of the Medellín Cartel.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Michael_Pe%C3%B1a-4389.jpg/500px-Michael_Pe%C3%B1a-4389.jpg",
     questions: [
       {
         id: "nrc2_200_01",
@@ -33603,6 +33752,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Gotta catch 'em all — Ash, Pikachu, and 1,000+ creatures spanning generations.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/500px-International_Pok%C3%A9mon_logo.svg.png",
     questions: [
       {
         id: "pkm_200_01",
@@ -33993,6 +34143,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "The Etihad, Pep's possession machine, the treble — how oil money built a dynasty.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Tower_Blocks_over_Knott_Mill%2C_geograph_6866152_by_David_Dixon.jpg/500px-Tower_Blocks_over_Knott_Mill%2C_geograph_6866152_by_David_Dixon.jpg",
     questions: [
       {
         id: "mcy2_200_01",
@@ -34058,6 +34209,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Iron Mike — the youngest heavyweight champion ever, and the most feared boxer alive.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Mike_Tyson_Photo_Op_GalaxyCon_Austin_2023.jpg/500px-Mike_Tyson_Photo_Op_GalaxyCon_Austin_2023.jpg",
     questions: [
       {
         id: "mt_200_01",
@@ -34133,6 +34285,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Lightning Bolt — the fastest human alive, 9.58 seconds, triple-triple Olympic gold.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Usain_Bolt_smiling_Berlin_2009.JPG/500px-Usain_Bolt_smiling_Berlin_2009.JPG",
     questions: [
       {
         id: "ub_200_01",
@@ -34208,6 +34361,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Liberté, Égalité, Fraternité — the guillotine, Louis XVI, and the birth of modern democracy.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Anonymous_-_Prise_de_la_Bastille.jpg/500px-Anonymous_-_Prise_de_la_Bastille.jpg",
     questions: [
       {
         id: "fr_200_01",
@@ -34285,6 +34439,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Tony Stark, the Infinity Gauntlet, and the largest cinematic universe ever built.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Marvel_Cinematic_Universe_logo.png/500px-Marvel_Cinematic_Universe_logo.png",
     questions: [
       {
         id: "mcu_200_01",
@@ -34362,6 +34517,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "The platforms that rewired society — Facebook, TikTok, Twitter/X, and the virality era.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Social_media_platter.svg/500px-Social_media_platter.svg.png",
     questions: [
       {
         id: "sm_200_01",
@@ -34429,6 +34585,7 @@ const CATEGORIES: Category[] = [
     name: "Arab Media Classics",
     culture: "arabic",
     description: "Deep cuts from iconic regional cinema, theatre, and literature.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Sword_of_Umar_ibn_al-Khittab-mohammad_adil_rais.JPG/500px-Sword_of_Umar_ibn_al-Khittab-mohammad_adil_rais.JPG",
     questions: [
       {
         id: "amc_200_01",
@@ -34467,6 +34624,7 @@ const CATEGORIES: Category[] = [
     name: "Science & Space",
     culture: "universal",
     description: "Astronomy, physics laws, and the intricate workings of the universe.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/9/9d/Imagination_195606.jpg",
     questions: [
       {
         id: "sci_200_01",
@@ -34507,6 +34665,7 @@ const CATEGORIES: Category[] = [
     name: "Kuwaiti Culture",
     culture: "arabic",
     description: "History, landmarks, and traditions of the State of Kuwait.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Marriage%2C_Paris_-_UNESCO_-_PHOTO0000004583_0001.tiff/lossy-page1-500px-Marriage%2C_Paris_-_UNESCO_-_PHOTO0000004583_0001.tiff.jpg",
     questions: [
       {
         id: "kw_200_01",
@@ -34553,6 +34712,7 @@ const CATEGORIES: Category[] = [
     name: "World Geography",
     culture: "universal",
     description: "Capitals, deep oceans, and global oddities.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/CIA_World_Physical_Map_%282023%29.pdf/page1-500px-CIA_World_Physical_Map_%282023%29.pdf.jpg",
     questions: [
       {
         id: "geo_200_01",
@@ -34599,6 +34759,7 @@ const CATEGORIES: Category[] = [
     name: "Ancient History",
     culture: "universal",
     description: "Empires, conquerors, and forgotten civilizations.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Denis_Bourez_-_British_Museum%2C_London_%288747049029%29_%282%29.jpg/500px-Denis_Bourez_-_British_Museum%2C_London_%288747049029%29_%282%29.jpg",
     questions: [
       {
         id: "his_400_01",
@@ -34645,6 +34806,7 @@ const CATEGORIES: Category[] = [
     name: "Tech History",
     culture: "universal",
     description: "The niche origins of the digital world.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Tech_Tower_and_Shop_1899.jpg/500px-Tech_Tower_and_Shop_1899.jpg",
     questions: [
       {
         id: "tec_400_01",
@@ -34690,6 +34852,7 @@ const CATEGORIES: Category[] = [
     name: "Mythological Beasts",
     culture: "universal",
     description: "Monsters and legends from global folklore.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/J.F.Bertuch-Fabelwesen2.JPG/500px-J.F.Bertuch-Fabelwesen2.JPG",
     questions: [
       {
         id: "myth_400_01",
@@ -34772,6 +34935,7 @@ const CATEGORIES: Category[] = [
     name: "Olympic History",
     culture: "universal",
     description: "Records, boycotts, and ancient traditions.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Si%C3%A8ge_CIO_2020_%281%29.jpg/500px-Si%C3%A8ge_CIO_2020_%281%29.jpg",
     questions: [
       {
         id: "oly_400_01",
@@ -34809,6 +34973,7 @@ const CATEGORIES: Category[] = [
     name: "Classic Literature",
     culture: "universal",
     description: "Deep cuts from iconic novels and authors.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Moby-Dick_FE_title_page.jpg/500px-Moby-Dick_FE_title_page.jpg",
     questions: [
       {
         id: "lit_400_01",
@@ -34884,6 +35049,7 @@ const CATEGORIES: Category[] = [
     name: "Deep Sea Biology",
     culture: "universal",
     description: "Terrifying creatures and extreme ocean science.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Schematic_representation_of_pelagic_and_benthic_zones.jpg/500px-Schematic_representation_of_pelagic_and_benthic_zones.jpg",
     questions: [
       {
         id: "dsb_400_01",
@@ -34920,6 +35086,7 @@ const CATEGORIES: Category[] = [
     name: "Cryptids & Lore",
     culture: "universal",
     description: "Unproven animals and local legends.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Mothman_Statue.jpg/500px-Mothman_Statue.jpg",
     questions: [
       {
         id: "cry_400_01",
@@ -35067,6 +35234,7 @@ const CATEGORIES: Category[] = [
     name: "Linguistics & Languages",
     culture: "universal",
     description: "Dead languages, alphabets, and linguistic anomalies.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Primary_Human_Languages_Improved_Version.png/500px-Primary_Human_Languages_Improved_Version.png",
     questions: [
       {
         id: "lin_400_01",
@@ -35112,6 +35280,7 @@ const CATEGORIES: Category[] = [
     name: "Obscure Conflicts",
     culture: "universal",
     description: "Strange battles and forgotten wars.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/b0/Jude_the_Obscure_title_page.jpg",
     questions: [
       {
         id: "war_400_01",
@@ -35149,6 +35318,7 @@ const CATEGORIES: Category[] = [
     name: "Cyber Security History",
     culture: "universal",
     description: "Famous hacks, viruses, and cyber warfare.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Operating_system_placement.svg/500px-Operating_system_placement.svg.png",
     questions: [
       {
         id: "cyb_400_01",
@@ -35187,6 +35357,7 @@ const CATEGORIES: Category[] = [
     name: "Deep Space Astronomy",
     culture: "universal",
     description: "Quasars, exoplanets, and the dark universe.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Aerial_view_of_ESAC.jpg/500px-Aerial_view_of_ESAC.jpg",
     questions: [
       {
         id: "dsa_400_01",
@@ -35233,6 +35404,7 @@ const CATEGORIES: Category[] = [
     name: "Aviation History",
     culture: "universal",
     description: "Historic flights, crashes, and mysteries.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/L%E2%80%99Intr%C3%A9pide%2C_Austrian_Military_Museum.jpg/500px-L%E2%80%99Intr%C3%A9pide%2C_Austrian_Military_Museum.jpg",
     questions: [
       {
         id: "avi_400_01",
@@ -35308,6 +35480,7 @@ const CATEGORIES: Category[] = [
     name: "Historic Architecture",
     culture: "universal",
     description: "Cathedrals, ancient monuments, and design.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Thomas_Cole_-_Architect%E2%80%99s_Dream_-_Google_Art_Project.jpg/500px-Thomas_Cole_-_Architect%E2%80%99s_Dream_-_Google_Art_Project.jpg",
     questions: [
       {
         id: "arc_400_01",
@@ -35353,6 +35526,7 @@ const CATEGORIES: Category[] = [
     name: "Cult Classic Movies",
     culture: "universal",
     description: "Box office bombs that became legendary.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Plan_9_Alternative_poster.jpg/500px-Plan_9_Alternative_poster.jpg",
     questions: [
       {
         id: "ccm_400_01",
@@ -35436,6 +35610,7 @@ const CATEGORIES: Category[] = [
     name: "Cryptography",
     culture: "universal",
     description: "Codes, ciphers, and hidden messages.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Lorenz-SZ42-2.jpg/500px-Lorenz-SZ42-2.jpg",
     questions: [
       {
         id: "cryp_400_01",
@@ -35473,6 +35648,7 @@ const CATEGORIES: Category[] = [
     name: "Paleontology",
     culture: "universal",
     description: "Extinct giants and the prehistoric world.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Tyrannosaurus_Rex_Holotype.jpg/500px-Tyrannosaurus_Rex_Holotype.jpg",
     questions: [
       {
         id: "pal_400_01",
@@ -35512,6 +35688,7 @@ const CATEGORIES: Category[] = [
     name: "Secret Societies",
     culture: "universal",
     description: "Fraternities, cults, and shadow organizations.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Secret_Society_Buildings_New_Haven.jpg/500px-Secret_Society_Buildings_New_Haven.jpg",
     questions: [
       {
         id: "sec_400_01",
@@ -35548,6 +35725,7 @@ const CATEGORIES: Category[] = [
     name: "Defunct Olympic Sports",
     culture: "universal",
     description: "The weirdest events ever held at the Games.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Athens_archery.jpg/500px-Athens_archery.jpg",
     questions: [
       {
         id: "oos_400_01",
@@ -35585,6 +35763,7 @@ const CATEGORIES: Category[] = [
     name: "Extreme Weather",
     culture: "universal",
     description: "Record-breaking storms and climate phenomena.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/A_tornado_near_Anadarko%2C_Oklahoma%2C_on_May_3%2C_1999.jpg/500px-A_tornado_near_Anadarko%2C_Oklahoma%2C_on_May_3%2C_1999.jpg",
     questions: [
       {
         id: "wea_400_01",
@@ -35697,6 +35876,7 @@ const CATEGORIES: Category[] = [
     name: "Automotive History",
     culture: "universal",
     description: "Motorsport, engines, and classic cars.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Ford_Model_T_and_VW_type_11_Luxus%2C_Technisches_Museum_Wien%2C_Juni_2009.jpg/500px-Ford_Model_T_and_VW_type_11_Luxus%2C_Technisches_Museum_Wien%2C_Juni_2009.jpg",
     questions: [
       {
         id: "aut_400_01",
@@ -35735,6 +35915,7 @@ const CATEGORIES: Category[] = [
     name: "Classical Music",
     culture: "universal",
     description: "Composers, symphonies, and historic performances.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/BJO_Konzert_Phil_MR_098.jpg/500px-BJO_Konzert_Phil_MR_098.jpg",
     questions: [
       {
         id: "cla_400_01",
@@ -35771,6 +35952,7 @@ const CATEGORIES: Category[] = [
     name: "Internet History",
     culture: "universal",
     description: "The dawn of the web, early memes, and founders.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Internet_map_1024_-_transparent%2C_inverted.png/500px-Internet_map_1024_-_transparent%2C_inverted.png",
     questions: [
       {
         id: "int_400_01",
@@ -35807,6 +35989,7 @@ const CATEGORIES: Category[] = [
     name: "Historic Blunders",
     culture: "universal",
     description: "Massive mistakes, lost millions, and bad designs.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/19/C.P.John.jpg",
     questions: [
       {
         id: "fai_400_01",
@@ -35846,6 +36029,7 @@ const CATEGORIES: Category[] = [
     name: "Weird Phobias",
     culture: "universal",
     description: "The irrational fears of the human mind.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Submerged_USS_Woodrow_Wilson_%28SSBN-624%29.jpeg/500px-Submerged_USS_Woodrow_Wilson_%28SSBN-624%29.jpeg",
     questions: [
       {
         id: "pho_400_01",
@@ -35919,6 +36103,7 @@ const CATEGORIES: Category[] = [
     name: "Medical Anomalies",
     culture: "universal",
     description: "Rare syndromes and bizarre medical facts.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Incomplete_Cleft_Lip.png/500px-Incomplete_Cleft_Lip.png",
     questions: [
       {
         id: "man_400_01",
@@ -35994,6 +36179,7 @@ const CATEGORIES: Category[] = [
     name: "Art Forgeries",
     culture: "universal",
     description: "Fakes, hoaxes, and the art underground.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/La_ciudad_sobre_la_roca%2C_por_Eugenio_Lucas_Vel%C3%A1zquez.jpg/500px-La_ciudad_sobre_la_roca%2C_por_Eugenio_Lucas_Vel%C3%A1zquez.jpg",
     questions: [
       {
         id: "for_400_01",
@@ -36068,6 +36254,7 @@ const CATEGORIES: Category[] = [
     name: "Ancient Board Games",
     culture: "universal",
     description: "Games played by pharaohs and emperors.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/US_Navy_110713-N-NT881-124_Personnel_Specialist_2nd_Class_James_Vail%2C_left%2C_and_Boatswain%27s_Mate_2nd_Class_Nathaniel_Eaton_play_board_games_with_ch.jpg/500px-US_Navy_110713-N-NT881-124_Personnel_Specialist_2nd_Class_James_Vail%2C_left%2C_and_Boatswain%27s_Mate_2nd_Class_Nathaniel_Eaton_play_board_games_with_ch.jpg",
     questions: [
       {
         id: "abg_400_01",
@@ -36104,6 +36291,7 @@ const CATEGORIES: Category[] = [
     name: "Vintage Tech Flops",
     culture: "universal",
     description: "Consoles, formats, and gadgets that failed.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flip_flops.jpg/500px-Flip_flops.jpg",
     questions: [
       {
         id: "vtf_400_01",
@@ -36178,6 +36366,7 @@ const CATEGORIES: Category[] = [
     name: "Bizarre Biology",
     culture: "universal",
     description: "Strange anatomy and biological oddities.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/USS_Eldridge_%28DE-173%29_underway%2C_circa_in_1944.jpg/500px-USS_Eldridge_%28DE-173%29_underway%2C_circa_in_1944.jpg",
     questions: [
       {
         id: "bio_400_01",
@@ -36250,6 +36439,7 @@ const CATEGORIES: Category[] = [
     name: "Historic Epidemics",
     culture: "universal",
     description: "Plagues, outbreaks, and medical crises.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Pandemics-Timeline-Death-Tolls-OWID_9818.png/500px-Pandemics-Timeline-Death-Tolls-OWID_9818.png",
     questions: [
       {
         id: "epi_400_01",
@@ -36324,6 +36514,7 @@ const CATEGORIES: Category[] = [
     name: "TV Showrunner Secrets",
     culture: "universal",
     description: "Hidden pilots, alternate endings, and TV lore.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Harry_Potter_TV_series_logo.png/500px-Harry_Potter_TV_series_logo.png",
     questions: [
       {
         id: "tv_600_10",
@@ -36693,6 +36884,7 @@ const CATEGORIES: Category[] = [
     name: "Behind the Lens",
     culture: "universal",
     description: "Set accidents, props, and digital magic.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Double-lens_burning_apparatus%2C_Ehrenfried_Walther_von_Tschirnhaus%2C_Kieslingswalde_%28today_Slawonice%2C_Poland%29%2C_c._1690_-_Mathematisch-Physikalischer_Salon%2C_Dresden_-_DSC08133.JPG/500px-thumbnail.jpg",
     questions: [
       {
         id: "mv_400_01",
@@ -37076,6 +37268,7 @@ const CATEGORIES: Category[] = [
     name: "Fighting Game History",
     culture: "universal",
     description: "Combos, frames, and iconic fighters.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Generic_Fighting_Video_Game_%28with_outline%29.svg/500px-Generic_Fighting_Video_Game_%28with_outline%29.svg.png",
     questions: [
       {
         id: "ftg_400_01",
@@ -37111,6 +37304,7 @@ const CATEGORIES: Category[] = [
     name: "Sci-Fi Worldbuilding",
     culture: "universal",
     description: "The deepest lore from the furthest futures.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/68/Imagination_cover_December_1952.jpg",
     questions: [
       {
         id: "sfw_400_01",
@@ -37179,6 +37373,7 @@ const CATEGORIES: Category[] = [
     name: "Tennis History",
     culture: "universal",
     description: "Grand slams, rivalries, and records.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Centre_Court.jpg/500px-Centre_Court.jpg",
     questions: [
       {
         id: "ten_400_01",
@@ -37247,6 +37442,7 @@ const CATEGORIES: Category[] = [
     name: "Fantasy Literature",
     culture: "universal",
     description: "Magic systems, authors, and massive tomes.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/cc/Curdie_went_on_after_her%2C_flashing_his_torch_about..jpg",
     questions: [
       {
         id: "fan_400_01",
@@ -37280,6 +37476,7 @@ const CATEGORIES: Category[] = [
     name: "Legendary Producers",
     culture: "universal",
     description: "The architects of modern sound.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Legendary_Entertainment_logo_variant.svg/500px-Legendary_Entertainment_logo_variant.svg.png",
     questions: [
       {
         id: "pro_400_01",
@@ -37315,6 +37512,7 @@ const CATEGORIES: Category[] = [
     name: "Sitcom Finales",
     culture: "universal",
     description: "How the most famous comedies ended.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Tennessee_Ernie_Ford_Lucille_Ball_I_Love_Lucy.jpg/500px-Tennessee_Ernie_Ford_Lucille_Ball_I_Love_Lucy.jpg",
     questions: [
       {
         id: "sit_400_01",
@@ -37348,6 +37546,7 @@ const CATEGORIES: Category[] = [
     name: "Creator Milestones",
     culture: "universal",
     description: "YouTube records and subscriber wars.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Ben_Drucker_%28%40DruckerYTA%29.webp/500px-Ben_Drucker_%28%40DruckerYTA%29.webp.png",
     questions: [
       {
         id: "crm_400_01",
@@ -37452,6 +37651,7 @@ const CATEGORIES: Category[] = [
     name: "Voice Actor (Seiyuu) Lore",
     culture: "universal",
     description: "The legendary voices behind the characters.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Hosokawa_Yoshimasa_from_%22Komada_-A_Whisky_Family-%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348308018%29.jpg/500px-Hosokawa_Yoshimasa_from_%22Komada_-A_Whisky_Family-%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348308018%29.jpg",
     questions: [
       {
         id: "sei_400_01",
@@ -37588,6 +37788,7 @@ const CATEGORIES: Category[] = [
     name: "Early Creepypasta Lore",
     culture: "universal",
     description: "Slenderman, cursed images, and forum myths.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/18/%D0%A2%D0%BE%D0%BD%D0%BA%D0%B8%D0%B9_%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA.jpg",
     questions: [
       {
         id: "cre_400_01",
@@ -37621,6 +37822,7 @@ const CATEGORIES: Category[] = [
     name: "Ancient Internet Memes",
     culture: "universal",
     description: "Pre-2010 viral videos and flash animations.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Internet_map_1024_-_transparent%2C_inverted.png/500px-Internet_map_1024_-_transparent%2C_inverted.png",
     questions: [
       {
         id: "mem_400_01",
@@ -37730,6 +37932,7 @@ const CATEGORIES: Category[] = [
     name: "Sitcom Deep Cuts",
     culture: "universal",
     description: "Easter eggs and running gags in classic comedies.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Chris_Parnell_%2854236559864%29.jpg/500px-Chris_Parnell_%2854236559864%29.jpg",
     questions: [
       {
         id: "sitc_400_01",
@@ -37765,6 +37968,7 @@ const CATEGORIES: Category[] = [
     name: "Speedrunning History",
     culture: "universal",
     description: "Frames, skips, and broken controllers.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/SuperTux_Frosted_Fields_speedrun.webm/500px--SuperTux_Frosted_Fields_speedrun.webm.jpg",
     questions: [
       {
         id: "spd_400_01",
@@ -37834,6 +38038,7 @@ const CATEGORIES: Category[] = [
     name: "Kyoto Animation Lore",
     culture: "universal",
     description: "Masterpiece animation and KyoAni history.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Abe_Seimei.jpg/500px-Abe_Seimei.jpg",
     questions: [
       {
         id: "kyo_400_01",
@@ -37937,6 +38142,7 @@ const CATEGORIES: Category[] = [
     name: "Baseball History & Lore",
     culture: "universal",
     description: "Curses, perfect games, and legendary blunders.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/First_known_photograph_of_a_baseball_game_in_progress_%28cropped%29.jpg/500px-First_known_photograph_of_a_baseball_game_in_progress_%28cropped%29.jpg",
     questions: [
       {
         id: "mlb_400_01",
@@ -38141,6 +38347,7 @@ const CATEGORIES: Category[] = [
     name: "Sitcom Crossovers",
     culture: "universal",
     description: "When TV universes collide.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/King_Kong_vs._Godzilla_US_poster.jpg/500px-King_Kong_vs._Godzilla_US_poster.jpg",
     questions: [
       {
         id: "xov_400_01",
@@ -38174,6 +38381,7 @@ const CATEGORIES: Category[] = [
     name: "Obscure Book Adaptations",
     culture: "universal",
     description: "Movies you didn't know were based on books.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/b0/Jude_the_Obscure_title_page.jpg",
     questions: [
       {
         id: "bka_400_01",
@@ -38310,6 +38518,7 @@ const CATEGORIES: Category[] = [
     name: "Internet Artifacts",
     culture: "universal",
     description: "Dead websites and early digital culture.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Neal_Agarwal.jpg/500px-Neal_Agarwal.jpg",
     questions: [
       {
         id: "art_400_01",
@@ -38346,6 +38555,7 @@ const CATEGORIES: Category[] = [
     name: "Pro-Wrestling Lore",
     culture: "universal",
     description: "Kayfabe, shoot interviews, and the Monday Night Wars.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Jim_Crockett_Promotions_%28Logo%29.svg/500px-Jim_Crockett_Promotions_%28Logo%29.svg.png",
     questions: [
       {
         id: "wre_400_01",
@@ -38414,6 +38624,7 @@ const CATEGORIES: Category[] = [
     name: "Boy Band Lore",
     culture: "universal",
     description: "Harmonies, frosted tips, and manager drama.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Clannad_collage.jpg/500px-Clannad_collage.jpg",
     questions: [
       {
         id: "boy_400_01",
@@ -38482,6 +38693,7 @@ const CATEGORIES: Category[] = [
     name: "Vintage Apple History",
     culture: "universal",
     description: "The Woz, Newton, and early Macs.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Vintage_Culture_in_2026.jpg/500px-Vintage_Culture_in_2026.jpg",
     questions: [
       {
         id: "vap_400_01",
@@ -38515,6 +38727,7 @@ const CATEGORIES: Category[] = [
     name: "90s Commercial Jingles",
     culture: "american",
     description: "The songs stuck in your head for decades.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Starburst-Candies.jpg/500px-Starburst-Candies.jpg",
     questions: [
       {
         id: "jin_400_01",
@@ -38550,6 +38763,7 @@ const CATEGORIES: Category[] = [
     name: "Obscure 90s/00s Cartoons",
     culture: "universal",
     description: "The shows you forgot you watched.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/VH1_Classic_UK.svg/500px-VH1_Classic_UK.svg.png",
     questions: [
       {
         id: "crt_400_01",
@@ -38618,6 +38832,7 @@ const CATEGORIES: Category[] = [
     name: "Fast Food Failures",
     culture: "universal",
     description: "The menu items that didn't survive.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Mr_Sub_in_Barn_on_Dundas_East%2C_Mississauga.jpg/500px-Mr_Sub_in_Barn_on_Dundas_East%2C_Mississauga.jpg",
     questions: [
       {
         id: "fff_400_01",
@@ -38686,6 +38901,7 @@ const CATEGORIES: Category[] = [
     name: "Unexplained History",
     culture: "universal",
     description: "Disappearances and strange anomalies.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Ventricular_fibrillation.png/500px-Ventricular_fibrillation.png",
     questions: [
       {
         id: "his_400_02",
@@ -38787,6 +39003,7 @@ const CATEGORIES: Category[] = [
     name: "Bizarre Borders",
     culture: "universal",
     description: "Exclaves, tripoints, and geographical oddities.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/49_parallel_waterton.jpg/500px-49_parallel_waterton.jpg",
     questions: [
       {
         id: "geo_400_02",
@@ -38855,6 +39072,7 @@ const CATEGORIES: Category[] = [
     name: "Niche Mythology",
     culture: "universal",
     description: "Gods and monsters outside the mainstream.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Hippocamp_and_Dolphins_Kansas_City-City_Hall.jpg/500px-Hippocamp_and_Dolphins_Kansas_City-City_Hall.jpg",
     questions: [
       {
         id: "my_400_02",
@@ -38991,6 +39209,7 @@ const CATEGORIES: Category[] = [
     name: "Deep Web Mysteries",
     culture: "universal",
     description: "Cicada, cryptic puzzles, and weird forums.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Banda_Arc_tectonic_map.jpg/500px-Banda_Arc_tectonic_map.jpg",
     questions: [
       {
         id: "net_400_01",
@@ -39059,6 +39278,7 @@ const CATEGORIES: Category[] = [
     name: "Bizarre Historic Taxes",
     culture: "universal",
     description: "The strangest things governments made people pay for.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Wells_egyptian_peasants_taxes.jpg/500px-Wells_egyptian_peasants_taxes.jpg",
     questions: [
       {
         id: "tax_400_01",
@@ -39128,6 +39348,7 @@ const CATEGORIES: Category[] = [
     name: "Obscure Music Genres",
     culture: "universal",
     description: "Vaporwave, shoegaze, and weird beats.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Ray_Charles_%281967%29.png/500px-Ray_Charles_%281967%29.png",
     questions: [
       {
         id: "sub_400_01",
@@ -39197,6 +39418,7 @@ const CATEGORIES: Category[] = [
     name: "Arcade History",
     culture: "universal",
     description: "High scores, kill screens, and cabinets.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Retrovolt_Arcade_2017_-_Arcade_Machines_1.jpg/500px-Retrovolt_Arcade_2017_-_Arcade_Machines_1.jpg",
     questions: [
       {
         id: "arc_400_02",
@@ -39334,6 +39556,7 @@ const CATEGORIES: Category[] = [
     name: "Olympic Controversies",
     culture: "universal",
     description: "Cheating, boycotts, and stripped medals.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/500px-Olympic_rings_without_rims.svg.png",
     questions: [
       {
         id: "olyc_400_01",
@@ -39370,6 +39593,7 @@ const CATEGORIES: Category[] = [
     name: "Niche Historical Battles",
     culture: "universal",
     description: "Pivotal clashes you didn't learn in school.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Surrender_of_General_Burgoyne.jpg/500px-Surrender_of_General_Burgoyne.jpg",
     questions: [
       {
         id: "bat_400_01",
@@ -39438,6 +39662,7 @@ const CATEGORIES: Category[] = [
     name: "Retro PC Hardware",
     culture: "universal",
     description: "Sound cards, archaic ports, and massive floppy disks.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Lange_Nacht_der_Computerspiele_1.JPG/500px-Lange_Nacht_der_Computerspiele_1.JPG",
     questions: [
       {
         id: "rpc_400_01",
@@ -39471,6 +39696,7 @@ const CATEGORIES: Category[] = [
     name: "Obscure Internet Drama",
     culture: "universal",
     description: "Forum wars, viral meltdowns, and deleted tweets.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Encyclopedia_Dramatica_%28logo%29.svg/500px-Encyclopedia_Dramatica_%28logo%29.svg.png",
     questions: [
       {
         id: "drm_400_01",
@@ -39506,6 +39732,7 @@ const CATEGORIES: Category[] = [
     name: "Mesoamerican History",
     culture: "universal",
     description: "Maya, Aztec, Olmec deep cuts.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Two_Teotihuacan_Stick-ball_players_Tepantitla_1.svg/500px-Two_Teotihuacan_Stick-ball_players_Tepantitla_1.svg.png",
     questions: [
       {
         id: "mes_400_01",
@@ -39575,6 +39802,7 @@ const CATEGORIES: Category[] = [
     name: "Early Internet Gaming",
     culture: "universal",
     description: "MUDs, Flash portals, and dial-up days.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/EVE_Combat.png/500px-EVE_Combat.png",
     questions: [
       {
         id: "net_400_02",
@@ -39608,6 +39836,7 @@ const CATEGORIES: Category[] = [
     name: "Historic Sieges",
     culture: "universal",
     description: "Walls, starvation, and breaking the gates.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Panorama_dentro.JPG/500px-Panorama_dentro.JPG",
     questions: [
       {
         id: "sge_400_01",
@@ -39643,6 +39872,7 @@ const CATEGORIES: Category[] = [
     name: "Film Score Composers",
     culture: "universal",
     description: "The maestros of the silver screen.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Javier_Bayon_7.jpg/500px-Javier_Bayon_7.jpg",
     questions: [
       {
         id: "cmp_400_01",
@@ -39676,6 +39906,7 @@ const CATEGORIES: Category[] = [
     name: "Extreme Biology",
     culture: "universal",
     description: "Zombie fungi, mind control, and deep sea terrors.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Betul_Kacar.jpg/500px-Betul_Kacar.jpg",
     questions: [
       {
         id: "par_400_01",
@@ -39712,6 +39943,7 @@ const CATEGORIES: Category[] = [
     name: "Forgotten Mascots",
     culture: "universal",
     description: "The platformers time forgot.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Gnu-and-penguin-color.png/500px-Gnu-and-penguin-color.png",
     questions: [
       {
         id: "mas_400_01",
@@ -39848,6 +40080,7 @@ const CATEGORIES: Category[] = [
     name: "Lost Ancient Cities",
     culture: "universal",
     description: "Ruins reclaimed by the jungle and sand.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Peru_Machu_Picchu_Sunrise.jpg/500px-Peru_Machu_Picchu_Sunrise.jpg",
     questions: [
       {
         id: "lct_400_01",
@@ -39881,6 +40114,7 @@ const CATEGORIES: Category[] = [
     name: "Extreme Human Feats",
     culture: "universal",
     description: "Pushing the limits of the human body.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/cd/Contorsionist.jpg",
     questions: [
       {
         id: "exf_400_01",
@@ -39916,6 +40150,7 @@ const CATEGORIES: Category[] = [
     name: "Deep Culinary History",
     culture: "universal",
     description: "The origins of what we eat.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/20150319-OC-LSC-0194_%2816682627630%29.jpg/500px-20150319-OC-LSC-0194_%2816682627630%29.jpg",
     questions: [
       {
         id: "fdh_400_01",
@@ -39949,6 +40184,7 @@ const CATEGORIES: Category[] = [
     name: "Obscure Space Missions",
     culture: "universal",
     description: "Probes, landers, and cosmic failures.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Earthset_%28art002e009288%29.jpg/500px-Earthset_%28art002e009288%29.jpg",
     questions: [
       {
         id: "spm_400_01",
@@ -40017,6 +40253,7 @@ const CATEGORIES: Category[] = [
     name: "Vintage Internet Forums",
     culture: "universal",
     description: "The wild west of bulletin boards.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Vintage_shops%2C_Dublin.jpg/500px-Vintage_shops%2C_Dublin.jpg",
     questions: [
       {
         id: "vif_400_01",
@@ -40052,6 +40289,7 @@ const CATEGORIES: Category[] = [
     name: "Studio Ghibli Deep Cuts",
     culture: "universal",
     description: "Miyazaki, Takahata, and obscure facts.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Studio_Ghibli_studio_3.jpg/500px-Studio_Ghibli_studio_3.jpg",
     questions: [
       {
         id: "ghb_400_01",
@@ -40086,6 +40324,7 @@ const CATEGORIES: Category[] = [
     name: "Olympic Oddities",
     culture: "universal",
     description: "Bizarre rules and forgotten events.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Olympic_Studios%2C_London.jpg/500px-Olympic_Studios%2C_London.jpg",
     questions: [
       {
         id: "odd_400_01",
@@ -40154,6 +40393,7 @@ const CATEGORIES: Category[] = [
     name: "Bizarre Historical Rulers",
     culture: "universal",
     description: "Mad kings, strange popes, and weird edicts.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/3/3a/Death_of_Aeschylus_in_Florentine_Picture_Chronicle.jpg",
     questions: [
       {
         id: "rul_400_01",
@@ -40222,6 +40462,7 @@ const CATEGORIES: Category[] = [
     name: "Deep Sea Anomalies",
     culture: "universal",
     description: "The strangest things at the bottom of the ocean.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Blacksmoker_in_Atlantic_Ocean.jpg/500px-Blacksmoker_in_Atlantic_Ocean.jpg",
     questions: [
       {
         id: "dsa_400_02",
@@ -40257,6 +40498,7 @@ const CATEGORIES: Category[] = [
     name: "Obscure Cult Films",
     culture: "universal",
     description: "Midnight movies and bizarre cinema.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Plan_9_Alternative_poster.jpg/500px-Plan_9_Alternative_poster.jpg",
     questions: [
       {
         id: "ocf_400_01",
@@ -40290,6 +40532,7 @@ const CATEGORIES: Category[] = [
     name: "Musical Subcultures",
     culture: "universal",
     description: "Goths, Mods, and Riot Grrrls.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Emo_boy_02_with_Girl.jpg/500px-Emo_boy_02_with_Girl.jpg",
     questions: [
       {
         id: "sub_400_02",
@@ -40325,6 +40568,7 @@ const CATEGORIES: Category[] = [
     name: "Forgotten Vintage Toys",
     culture: "universal",
     description: "Dangerous fads and banned playthings.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Toy_Story_logo_2010.png/500px-Toy_Story_logo_2010.png",
     questions: [
       {
         id: "toy_400_02",
@@ -40358,6 +40602,7 @@ const CATEGORIES: Category[] = [
     name: "Extreme Human Biology",
     culture: "universal",
     description: "The limits of the human body and mind.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/68/Akha_cropped_hires.JPG",
     questions: [
       {
         id: "ehb_400_01",
@@ -40393,6 +40638,7 @@ const CATEGORIES: Category[] = [
     name: "Anime Spin-offs",
     culture: "universal",
     description: "The side stories that time forgot.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Huckleberry_Finn_book.JPG/500px-Huckleberry_Finn_book.JPG",
     questions: [
       {
         id: "spi_400_01",
@@ -40426,6 +40672,7 @@ const CATEGORIES: Category[] = [
     name: "Vintage Computer Science",
     culture: "universal",
     description: "Punch cards, early languages, and mainframe lore.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Apple_computer_on_display_at_The_National_Computer_%26_Communications_Museum.JPG/500px-Apple_computer_on_display_at_The_National_Computer_%26_Communications_Museum.JPG",
     questions: [
       {
         id: "vcs_400_01",
@@ -40461,6 +40708,7 @@ const CATEGORIES: Category[] = [
     name: "Niche Internet Slang",
     culture: "universal",
     description: "The obscure origins of online dialects.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/2/27/Usage_of_slang_%22mid%22_with_reference_to_Taco_Bell.png",
     questions: [
       {
         id: "nsg_400_01",
@@ -40529,6 +40777,7 @@ const CATEGORIES: Category[] = [
     name: "Discontinued Sodas",
     culture: "universal",
     description: "The sweetest failures of the beverage industry.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Diet_Coke_Products.JPG/500px-Diet_Coke_Products.JPG",
     questions: [
       {
         id: "sod_400_01",
@@ -40562,6 +40811,7 @@ const CATEGORIES: Category[] = [
     name: "Theme Park Deep Lore",
     culture: "universal",
     description: "Animatronics, hidden clubs, and imagineering.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/%ED%8F%AC%EC%8B%9C%EC%A6%8C%EC%8A%A4_%EC%82%B0%EB%A6%AC%EC%98%A4%EB%8C%84%EC%8A%A4%ED%83%80%EC%9E%84_2025.jpg/500px-%ED%8F%AC%EC%8B%9C%EC%A6%8C%EC%8A%A4_%EC%82%B0%EB%A6%AC%EC%98%A4%EB%8C%84%EC%8A%A4%ED%83%80%EC%9E%84_2025.jpg",
     questions: [
       {
         id: "tpl_400_01",
@@ -40630,6 +40880,7 @@ const CATEGORIES: Category[] = [
     name: "Obscure Astronomy",
     culture: "universal",
     description: "Weird moons, dwarf planets, and cosmic voids.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Titan_in_front_of_the_ring_and_Saturn.jpg/500px-Titan_in_front_of_the_ring_and_Saturn.jpg",
     questions: [
       {
         id: "ast_400_01",
@@ -40698,6 +40949,7 @@ const CATEGORIES: Category[] = [
     name: "Classic Flash Games",
     culture: "universal",
     description: "Browser classics from the golden age of Flash.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Freeciv-net-screenshot-2011-06-23.png/500px-Freeciv-net-screenshot-2011-06-23.png",
     questions: [
       {
         id: "fls_400_01",
@@ -40834,6 +41086,7 @@ const CATEGORIES: Category[] = [
     name: "Extreme Sports Lore",
     culture: "universal",
     description: "The X Games, legendary tricks, and gnarly bails.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Dr._Tim_Noakes_at_West_Point_13_Nov_09.JPG/500px-Dr._Tim_Noakes_at_West_Point_13_Nov_09.JPG",
     questions: [
       {
         id: "xtr_400_01",
@@ -40902,6 +41155,7 @@ const CATEGORIES: Category[] = [
     name: "Historical Cryptography",
     culture: "universal",
     description: "Ciphers, invisible ink, and secret codes.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Lorenz-SZ42-2.jpg/500px-Lorenz-SZ42-2.jpg",
     questions: [
       {
         id: "hcry_400_01",
@@ -40937,6 +41191,7 @@ const CATEGORIES: Category[] = [
     name: "Speedrunning Techniques",
     culture: "universal",
     description: "Sequence breaks, damage boosts, and zips.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/SuperTux_Frosted_Fields_speedrun.webm/500px--SuperTux_Frosted_Fields_speedrun.webm.jpg",
     questions: [
       {
         id: "spt_400_01",
@@ -41005,6 +41260,7 @@ const CATEGORIES: Category[] = [
     name: "Obscure Ancient Weapons",
     culture: "universal",
     description: "The strangest tools of war from antiquity.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ancient_Aliens_logo.svg/500px-Ancient_Aliens_logo.svg.png",
     questions: [
       {
         id: "awp_400_01",
@@ -41073,6 +41329,7 @@ const CATEGORIES: Category[] = [
     name: "Amman: Deep City",
     culture: "jordanian",
     description: "Hyper-local Amman history, landmarks, and identity.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/New_Abdali_2024.png/500px-New_Abdali_2024.png",
     questions: [
       {
         id: "jad_200_01",
@@ -41133,6 +41390,7 @@ const CATEGORIES: Category[] = [
     name: "The Hashemite Kingdom",
     culture: "jordanian",
     description: "Key moments in the history of modern Jordan and the Hashemite dynasty.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/500px-Flag_of_Jordan.svg.png",
     questions: [
       {
         id: "jhh_200_01",
@@ -41184,6 +41442,7 @@ const CATEGORIES: Category[] = [
     name: "Circassian Heritage",
     culture: "circassian",
     description: "History, code of honor, and the Circassian diaspora in Jordan and beyond.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/%D7%94%D7%9E%D7%A8%D7%9B%D7%96_%D7%9C%D7%9E%D7%95%D7%A8%D7%A9%D7%AA_%D7%94%D7%A6%27%D7%A8%D7%A7%D7%A1%D7%99%D7%AA_%D7%91%D7%9B%D7%A4%D7%A8_%D7%9B%D7%9E%D7%90.jpg/500px-%D7%94%D7%9E%D7%A8%D7%9B%D7%96_%D7%9C%D7%9E%D7%95%D7%A8%D7%A9%D7%AA_%D7%94%D7%A6%27%D7%A8%D7%A7%D7%A1%D7%99%D7%AA_%D7%91%D7%9B%D7%A4%D7%A8_%D7%9B%D7%9E%D7%90.jpg",
     questions: [
       {
         id: "ch_200_01",
@@ -41244,6 +41503,7 @@ const CATEGORIES: Category[] = [
     name: "The Amman Derby",
     culture: "jordanian",
     description: "Al-Faisali vs Al-Wehdat — Jordan's biggest football rivalry.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/New_Abdali_2024.png/500px-New_Abdali_2024.png",
     questions: [
       {
         id: "amd_200_01",
@@ -41295,6 +41555,7 @@ const CATEGORIES: Category[] = [
     name: "Arab Pop: Golden Era",
     culture: "arabic",
     description: "The legends of Arabic pop — from Fairuz to Khaleeji classics.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Map_of_the_Arab_Diaspora_in_the_World.svg/500px-Map_of_the_Arab_Diaspora_in_the_World.svg.png",
     questions: [
       {
         id: "apge_200_01",
@@ -41355,6 +41616,7 @@ const CATEGORIES: Category[] = [
     name: "Philosophy: Deep Cuts",
     culture: "universal",
     description: "Beyond the basics — the thinkers, thought experiments, and ideas that shaped the Western mind.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/500px-Socrates_Louvre.jpg",
     questions: [
       {
         id: "phd_200_01",
@@ -41457,6 +41719,7 @@ const CATEGORIES: Category[] = [
     name: "Psychology: Famous Studies",
     culture: "universal",
     description: "The landmark experiments that revealed — and disturbed — our understanding of human behavior.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Greek_uc_psi_icon.svg/500px-Greek_uc_psi_icon.svg.png",
     questions: [
       {
         id: "psf_200_01",
@@ -41559,6 +41822,7 @@ const CATEGORIES: Category[] = [
     name: "Art History: Deep Cuts",
     culture: "universal",
     description: "Movements, scandals, and masterpieces beyond what they taught you in school.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/A_Perfect_Circle_Lollapalooza_Chile_2013.jpg/500px-A_Perfect_Circle_Lollapalooza_Chile_2013.jpg",
     questions: [
       {
         id: "ahd_200_01",
@@ -41610,6 +41874,7 @@ const CATEGORIES: Category[] = [
     name: "Christopher Nolan: Deep Cuts",
     culture: "universal",
     description: "Beyond the blockbuster surface — the hidden details, sources, and architecture of Nolan's filmography.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/ChrisNolanBFI150224_%2810_of_12%29_%2853532289710%29_%28cropped2%29.jpg/500px-ChrisNolanBFI150224_%2810_of_12%29_%2853532289710%29_%28cropped2%29.jpg",
     questions: [
       {
         id: "cnf_200_01",
@@ -41814,6 +42079,7 @@ const CATEGORIES: Category[] = [
     name: "Jordan: Land & Nature",
     culture: "jordanian",
     description: "Jordan's landscapes, reserves, and geographic wonders — from Wadi Rum to the Dead Sea.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/500px-Flag_of_Jordan.svg.png",
     questions: [
       {
         id: "jng_200_01",
@@ -41873,6 +42139,7 @@ const CATEGORIES: Category[] = [
     name: "Ancient Rome: Deep Cuts",
     culture: "universal",
     description: "Beyond Julius Caesar — the obscure senators, forgotten emperors, and turning points that shaped the empire.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Dougga_cup-bearers_mosa%C3%AFc.jpg/500px-Dougga_cup-bearers_mosa%C3%AFc.jpg",
     questions: [
       {
         id: "ard_200_01",
@@ -41924,6 +42191,7 @@ const CATEGORIES: Category[] = [
     name: "Arab TV & Cinema",
     culture: "arabic",
     description: "Iconic Ramadan series, Lebanese films, and the shows that shaped Arab living rooms.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Misr_Studio_old.jpg/500px-Misr_Studio_old.jpg",
     questions: [
       {
         id: "atc_200_01",
@@ -41976,6 +42244,7 @@ const CATEGORIES: Category[] = [
     name: "Space Exploration: Deep Missions",
     culture: "universal",
     description: "The untold stories, near-disasters, and forgotten missions of the space age.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/NASA%27s_Deep_Space_Antenna_Upgrade_to_Affect_Voyager.jpg/500px-NASA%27s_Deep_Space_Antenna_Upgrade_to_Affect_Voyager.jpg",
     questions: [
       {
         id: "sed_200_01",
@@ -42027,6 +42296,7 @@ const CATEGORIES: Category[] = [
     name: "NBA: Deep Knowledge",
     culture: "universal",
     description: "Beyond stats and rings — the feuds, rivalries, and obscure records that define basketball's greatest league.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/NBA_YoungBoy_2023.jpg/500px-NBA_YoungBoy_2023.jpg",
     questions: [
       {
         id: "nba_200_01",
@@ -42078,6 +42348,7 @@ const CATEGORIES: Category[] = [
     name: "WWII: The Untold Angles",
     culture: "universal",
     description: "The espionage, turning points, and hidden stories from the war that shaped the modern world.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/1918_German_UXOs1.JPG/500px-1918_German_UXOs1.JPG",
     questions: [
       {
         id: "w2n_200_01",
@@ -42180,6 +42451,7 @@ const CATEGORIES: Category[] = [
     name: "Ancient Egypt: Deep Cuts",
     culture: "universal",
     description: "The pharaohs, theology, and forgotten details of one of history's greatest civilizations.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/%22Table_of_Nations%22_from_the_Book_of_Gates%2C_4th_Division%2C_5th_Hour%2C_Tomb_of_Seti_I%2C_based_on_an_illustration_by_Ernst_Weidenbach_for_Richard_Lepsius%E2%80%99_Denkm%C3%A4ler_aus_%C3%84gypten_und_%C3%84thiopien.png/500px-thumbnail.png",
     questions: [
       {
         id: "aed_200_01",
@@ -42231,6 +42503,7 @@ const CATEGORIES: Category[] = [
     name: "Tech Giants: Origin Stories",
     culture: "universal",
     description: "The pivotal decisions, near-collapses, and origin details that shaped Silicon Valley's biggest companies.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/The_Blarney_Stone.jpg/500px-The_Blarney_Stone.jpg",
     questions: [
       {
         id: "tgd_200_01",
@@ -42334,6 +42607,7 @@ const CATEGORIES: Category[] = [
     name: "Medieval History: Deep Cuts",
     culture: "universal",
     description: "The plague, crusades, and power struggles that forged the modern world out of the Dark Ages.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Cumbria_UK_locator_map_2010.svg/500px-Cumbria_UK_locator_map_2010.svg.png",
     questions: [
       {
         id: "mhd_200_01",
@@ -42385,6 +42659,7 @@ const CATEGORIES: Category[] = [
     name: "Biology: The Weird & Wonderful",
     culture: "universal",
     description: "The evolutionary oddities, cellular secrets, and biological facts that make life stranger than fiction.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Frank_Henenlotter_03_%28cropped%29.jpg/500px-Frank_Henenlotter_03_%28cropped%29.jpg",
     questions: [
       {
         id: "bio_200_01",
@@ -42436,6 +42711,7 @@ const CATEGORIES: Category[] = [
     name: "Levantine Food Culture",
     culture: "arabic",
     description: "The origins, debates, and deep knowledge behind the dishes that define the Levant.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Syrian_meal.jpg/500px-Syrian_meal.jpg",
     questions: [
       {
         id: "lfc_200_01",
@@ -42487,6 +42763,7 @@ const CATEGORIES: Category[] = [
     name: "Greek Mythology: Deep Lore",
     culture: "universal",
     description: "Beyond Hercules and Zeus — the lesser-known myths, tragic figures, and hidden meanings.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Santi_di_Tito_001.jpg/500px-Santi_di_Tito_001.jpg",
     questions: [
       {
         id: "mgd_200_01",
@@ -42589,6 +42866,7 @@ const CATEGORIES: Category[] = [
     name: "Internet Culture: Deep Cuts",
     culture: "universal",
     description: "The websites, drama, and founding moments that built online culture from the ground up.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Internet_map_1024_-_transparent%2C_inverted.png/500px-Internet_map_1024_-_transparent%2C_inverted.png",
     questions: [
       {
         id: "icd_200_01",
@@ -42640,6 +42918,7 @@ const CATEGORIES: Category[] = [
     name: "Music: Production & Theory",
     culture: "universal",
     description: "The techniques, samples, and structural secrets behind the records that shaped music history.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Gaffurio_Pythagoras.png/500px-Gaffurio_Pythagoras.png",
     questions: [
       {
         id: "mpd_200_01",
@@ -42691,6 +42970,7 @@ const CATEGORIES: Category[] = [
     name: "Cosmology: The Big Picture",
     culture: "universal",
     description: "Dark matter, the Big Bang, and the mind-bending scale of existence.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/WMAP_2012.png/500px-WMAP_2012.png",
     questions: [
       {
         id: "sco_200_01",
@@ -42793,6 +43073,7 @@ const CATEGORIES: Category[] = [
     name: "Geopolitics: Power & Borders",
     culture: "universal",
     description: "The treaties, doctrines, and territorial disputes that define how nations compete for power.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Theatrum_Orbis_Terrarum%2C_by_Abraham_Ortelius%2C_World%2C_1572.jpg/500px-Theatrum_Orbis_Terrarum%2C_by_Abraham_Ortelius%2C_World%2C_1572.jpg",
     questions: [
       {
         id: "gpd_200_01",
@@ -42946,6 +43227,7 @@ const CATEGORIES: Category[] = [
     name: "Political Scandals",
     culture: "universal",
     description: "The cover-ups, affairs, and corruption cases that brought down governments and careers.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Satterfield_cartoon_about_floods_of_political_scandals.jpg/500px-Satterfield_cartoon_about_floods_of_political_scandals.jpg",
     questions: [
       {
         id: "pls_200_01",
@@ -43099,6 +43381,7 @@ const CATEGORIES: Category[] = [
     name: "Architecture: Iconic Structures",
     culture: "universal",
     description: "The engineering feats, controversial buildings, and hidden stories behind the world's most recognizable structures.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Sydney_Opera_House_Sails_edit02_adj.JPG/500px-Sydney_Opera_House_Sails_edit02_adj.JPG",
     questions: [
       {
         id: "acd_200_01",
@@ -43150,6 +43433,7 @@ const CATEGORIES: Category[] = [
     name: "Arabic Literature: Deep Cuts",
     culture: "arabic",
     description: "The poets, novelists, and works that define the Arabic literary canon — from classical to contemporary.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Arabic_speaking_world.svg/500px-Arabic_speaking_world.svg.png",
     questions: [
       {
         id: "ald_200_01",
@@ -43201,6 +43485,7 @@ const CATEGORIES: Category[] = [
     name: "Psychology: The Dark Side",
     culture: "universal",
     description: "Manipulation, cults, propaganda — the psychology of how humans are influenced and controlled.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/The_Dark_Triad.png/500px-The_Dark_Triad.png",
     questions: [
       {
         id: "psd_200_01",
@@ -43252,6 +43537,7 @@ const CATEGORIES: Category[] = [
     name: "Arab World: Geography",
     culture: "arabic",
     description: "The borders, capitals, rivers, and niche geographic facts of the Arab world.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Arab_world_location_map.svg/500px-Arab_world_location_map.svg.png",
     questions: [
       {
         id: "awg_200_01",
@@ -43304,6 +43590,7 @@ const CATEGORIES: Category[] = [
     name: "Viral: Internet Moments",
     culture: "universal",
     description: "The moments, memes, and rabbit holes that defined the internet's collective memory.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Internet_map_1024_-_transparent%2C_inverted.png/500px-Internet_map_1024_-_transparent%2C_inverted.png",
     questions: [
       {
         id: "vim_200_01",
@@ -43355,6 +43642,7 @@ const CATEGORIES: Category[] = [
     name: "The Ottoman Empire",
     culture: "arabic",
     description: "Six centuries of the empire that shaped the Middle East, Balkans, and North Africa.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Flag_of_the_Ottoman_Empire_%281844%E2%80%931922%29.svg/500px-Flag_of_the_Ottoman_Empire_%281844%E2%80%931922%29.svg.png",
     questions: [
       {
         id: "hot_200_01",
@@ -43457,6 +43745,7 @@ const CATEGORIES: Category[] = [
     name: "Aviation: Milestones & Disasters",
     culture: "universal",
     description: "The breakthroughs, crashes, and human dramas that define the history of flight.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Milestone_College_22_July.jpg/500px-Milestone_College_22_July.jpg",
     questions: [
       {
         id: "ahv_200_01",
@@ -43559,6 +43848,7 @@ const CATEGORIES: Category[] = [
     name: "Science: Eureka Moments",
     culture: "universal",
     description: "The accidental discoveries, forbidden experiments, and watershed moments in scientific history.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Archimedes_bath.jpg/500px-Archimedes_bath.jpg",
     questions: [
       {
         id: "scd_200_01",
@@ -43661,6 +43951,7 @@ const CATEGORIES: Category[] = [
     name: "Islamic Golden Age: Science",
     culture: "arabic",
     description: "The scholars, inventions, and breakthroughs of the Islamic world's scientific peak — 8th to 14th century.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Al-Idrisi%27s_world_map.JPG/500px-Al-Idrisi%27s_world_map.JPG",
     questions: [
       {
         id: "iga_200_01",
@@ -43763,6 +44054,7 @@ const CATEGORIES: Category[] = [
     name: "African History: Deep Cuts",
     culture: "universal",
     description: "Empires, resistance movements, and the forgotten history of the world's oldest inhabited continent.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Deep_Cut_Gardens_rose_garden.jpg/500px-Deep_Cut_Gardens_rose_garden.jpg",
     questions: [
       {
         id: "ahist_200_01",
@@ -43814,6 +44106,7 @@ const CATEGORIES: Category[] = [
     name: "Levantine Dialect",
     culture: "arabic",
     description: "The slang, expressions, and linguistic quirks that define the Levantine Arabic dialect.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Levantine_Arabic_2023.svg/500px-Levantine_Arabic_2023.svg.png",
     questions: [
       {
         id: "ld_200_01",
@@ -43916,6 +44209,7 @@ const CATEGORIES: Category[] = [
     name: "Bedouin & Desert Culture",
     culture: "jordanian",
     description: "The traditions, codes, and way of life of Jordan's Bedouin — the original people of the desert.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Three_bedouins_sheikhs%2C_c_1867-1876_%28cropped%29.jpg/500px-Three_bedouins_sheikhs%2C_c_1867-1876_%28cropped%29.jpg",
     questions: [
       {
         id: "jbc_200_01",
@@ -44018,6 +44312,7 @@ const CATEGORIES: Category[] = [
     name: "Latin America: Deep History",
     culture: "universal",
     description: "Revolutions, dictators, and the complex political history of Latin America.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/America_noviter_delineata.jpg/500px-America_noviter_delineata.jpg",
     questions: [
       {
         id: "lahd_200_01",
@@ -44069,6 +44364,7 @@ const CATEGORIES: Category[] = [
     name: "Fashion: Deep History",
     culture: "universal",
     description: "The designers, moments, and rebellions that shaped how humanity dresses.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Deep_Learning.jpg/500px-Deep_Learning.jpg",
     questions: [
       {
         id: "fhist_200_01",
@@ -44120,6 +44416,7 @@ const CATEGORIES: Category[] = [
     name: "Persian Culture: Deep Cuts",
     culture: "universal",
     description: "Three millennia of Persian civilization — poetry, empire, and identity.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Achaemenid_Empire_500_BCE.jpg/500px-Achaemenid_Empire_500_BCE.jpg",
     questions: [
       {
         id: "pcd_200_01",
@@ -44171,6 +44468,7 @@ const CATEGORIES: Category[] = [
     name: "MAPPA: Studio Deep Cuts",
     culture: "universal",
     description: "The productions, behind-the-scenes decisions, and creative choices of MAPPA — modern anime's most scrutinized studio.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/%E4%B8%AD%E9%87%8E%E9%A7%85%E5%89%8D%E3%81%AE%E4%BD%8F%E5%8F%8B%E4%B8%8D%E5%8B%95%E7%94%A3%E9%AB%98%E5%B1%A4%E3%83%93%E3%83%AB%28%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%BF%E3%83%AF%E3%83%BC%E3%80%81%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9%E3%80%81%E3%83%8A%E3%82%AB%E3%83%8E%E3%82%B5%E3%82%A6%E3%82%B9%E3%83%86%E3%83%A9%29.jpg/500px-%E4%B8%AD%E9%87%8E%E9%A7%85%E5%89%8D%E3%81%AE%E4%BD%8F%E5%8F%8B%E4%B8%8D%E5%8B%95%E7%94%A3%E9%AB%98%E5%B1%A4%E3%83%93%E3%83%AB%28%E3%83%93%E3%82%B8%E3%83%8D%E3%82%B9%E3%82%BF%E3%83%AF%E3%83%BC%E3%80%81%E3%83%AC%E3%82%B8%E3%83%87%E3%83%B3%E3%82%B9%E3%80%81%E3%83%8A%E3%82%AB%E3%83%8E%E3%82%B5%E3%82%A6%E3%82%B9%E3%83%86%E3%83%A9%29.jpg",
     questions: [
       {
         id: "asm_200_01",
@@ -44222,6 +44520,7 @@ const CATEGORIES: Category[] = [
     name: "Poker & Gambling: Deep Cuts",
     culture: "universal",
     description: "The strategies, famous hands, and legends of the world's most psychologically demanding card game.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Poker-Texas-Holdem-multiplayer.jpg/500px-Poker-Texas-Holdem-multiplayer.jpg",
     questions: [
       {
         id: "pgd_200_01",
@@ -44324,6 +44623,7 @@ const CATEGORIES: Category[] = [
     name: "Khaleeji Music: Deep Cuts",
     culture: "arabic",
     description: "The Gulf sound — from classic sawt to modern production — and the artists who defined it.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Kuwait.svg/500px-Flag_of_Kuwait.svg.png",
     questions: [
       {
         id: "mkd_200_01",
@@ -44426,6 +44726,7 @@ const CATEGORIES: Category[] = [
     name: "Human Evolution: Deep",
     culture: "universal",
     description: "The fossils, migrations, and genetic mysteries of how Homo sapiens conquered the planet.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Homo-Stammbaum%2C_Version_Stringer-en.svg/500px-Homo-Stammbaum%2C_Version_Stringer-en.svg.png",
     questions: [
       {
         id: "hed_200_01",
@@ -44477,6 +44778,7 @@ const CATEGORIES: Category[] = [
     name: "Middle East: Modern Politics",
     culture: "arabic",
     description: "The conflicts, alliances, and turning points shaping the contemporary Arab world.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Middle_east_graphic_2003.jpg/500px-Middle_east_graphic_2003.jpg",
     questions: [
       {
         id: "meg_200_01",
@@ -44579,6 +44881,7 @@ const CATEGORIES: Category[] = [
     name: "Quantum Physics: Mind-Bending",
     culture: "universal",
     description: "Counter-intuitive principles at the heart of modern physics — where particles defy common sense.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Hydrogen_Density_Plots.png/500px-Hydrogen_Density_Plots.png",
     questions: [
       {
         id: "qpd_200_01",
@@ -44732,6 +45035,7 @@ const CATEGORIES: Category[] = [
     name: "Jordan: National Sport Moments",
     culture: "jordanian",
     description: "The milestones and memorable moments of Jordanian sport on the international stage.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Jordan_Pickford_2022-07-16_1.jpg/500px-Jordan_Pickford_2022-07-16_1.jpg",
     questions: [
       {
         id: "sjn_200_01",
@@ -44783,6 +45087,7 @@ const CATEGORIES: Category[] = [
     name: "Marine Biology: Deep Ocean",
     culture: "universal",
     description: "The bioluminescent, pressurized, and alien-like creatures of Earth's final unexplored frontier.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Tide_pools_in_santa_cruz.jpg/500px-Tide_pools_in_santa_cruz.jpg",
     questions: [
       {
         id: "mbd_200_01",
@@ -44834,6 +45139,7 @@ const CATEGORIES: Category[] = [
     name: "Stand-Up Comedy: Deep Cuts",
     culture: "universal",
     description: "The specials, controversies, and craft secrets of the comedians who shaped the art form.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Deep_Roy_%2853725207113%29.jpg/500px-Deep_Roy_%2853725207113%29.jpg",
     questions: [
       {
         id: "scd2_200_01",
@@ -44936,6 +45242,7 @@ const CATEGORIES: Category[] = [
     name: "Islamic Medicine: Golden Age",
     culture: "arabic",
     description: "The physicians, hospitals, and breakthroughs of Arab medicine that formed the foundation of modern science.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Al-Idrisi%27s_world_map.JPG/500px-Al-Idrisi%27s_world_map.JPG",
     questions: [
       {
         id: "img_200_01",
@@ -44987,6 +45294,7 @@ const CATEGORIES: Category[] = [
     name: "Music Culture: Deep History",
     culture: "universal",
     description: "The scenes, subcultures, and industry moments that shaped how music is made and consumed.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Deep_Forest_logo.svg/500px-Deep_Forest_logo.svg.png",
     questions: [
       {
         id: "muc_200_01",
@@ -45038,6 +45346,7 @@ const CATEGORIES: Category[] = [
     name: "Ancient Mesopotamia",
     culture: "universal",
     description: "The world's first civilization — cuneiform, ziggurats, and the kings who invented history.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/N-Mesopotamia_and_Syria_english.svg/500px-N-Mesopotamia_and_Syria_english.svg.png",
     questions: [
       {
         id: "hmes_200_01",
@@ -45089,6 +45398,7 @@ const CATEGORIES: Category[] = [
     name: "Sandbox & Survival Games",
     culture: "universal",
     description: "The emergent stories, world records, and design secrets of gaming's most creative genre.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Minetest_high-res_texture_pack_2.png/500px-Minetest_high-res_texture_pack_2.png",
     questions: [
       {
         id: "vss_200_01",
@@ -45140,6 +45450,7 @@ const CATEGORIES: Category[] = [
     name: "The Renaissance: Deep Cuts",
     culture: "universal",
     description: "The artists, patrons, and ideas that pulled Europe out of the Dark Ages and into modernity.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg/500px-Da_Vinci_Vitruve_Luc_Viatour.jpg",
     questions: [
       {
         id: "hrn_200_01",
@@ -45191,6 +45502,7 @@ const CATEGORIES: Category[] = [
     name: "Arab Cuisine: Beyond the Hummus",
     culture: "arabic",
     description: "The regional variations, forgotten dishes, and food culture spanning the entire Arab world.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Lebanese_style_hummus.jpg/500px-Lebanese_style_hummus.jpg",
     questions: [
       {
         id: "acd2_200_01",
@@ -45293,6 +45605,7 @@ const CATEGORIES: Category[] = [
     name: "Real Conspiracies: They Were True",
     culture: "universal",
     description: "The government plots, corporate cover-ups, and secret operations that were actually proven real.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/True_Detective_logo.png/500px-True_Detective_logo.png",
     questions: [
       {
         id: "rc_200_01",
@@ -45497,6 +45810,7 @@ const CATEGORIES: Category[] = [
     name: "Circassian Food & Customs",
     culture: "circassian",
     description: "The dishes, rituals, and daily customs that define Circassian cultural identity.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Circassian_flag.svg/500px-Circassian_flag.svg.png",
     questions: [
       {
         id: "cfc_200_01",
@@ -45599,6 +45913,7 @@ const CATEGORIES: Category[] = [
     name: "Byzantine Empire: Deep Cuts",
     culture: "universal",
     description: "The Eastern Roman Empire that survived for a thousand years after Rome's fall — its intrigue, theology, and legacy.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Byzantine_Empire_animated.gif/500px-Byzantine_Empire_animated.gif",
     questions: [
       {
         id: "hbyz_200_01",
@@ -45668,6 +45983,7 @@ const CATEGORIES: Category[] = [
     name: "Amman: The Street Level",
     culture: "jordanian",
     description: "Hyper-local Amman knowledge — neighborhoods, slang, landmarks, and daily life.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/New_Abdali_2024.png/500px-New_Abdali_2024.png",
     questions: [
       { id: "ams_200_01", categoryId: "amman_streets", tier: 200, prompt: "Which famous street in the Jabal Amman area is lined with cafes, galleries, and restaurants — a top hangout for locals and tourists alike?", answer: "Rainbow Street", acceptableAnswers: ["Al-Rainbow", "Rainbow"] },
       { id: "ams_200_02", categoryId: "amman_streets", tier: 200, prompt: "The Amman landmark nicknamed 'the Roman Theatre' is a 6,000-seat outdoor amphitheatre built during which empire?", answer: "Roman Empire", acceptableAnswers: ["Roman", "Romans"] },
@@ -45704,6 +46020,7 @@ const CATEGORIES: Category[] = [
     name: "Arabic Proverbs: Decoded",
     culture: "arabic",
     description: "Famous Arabic proverbs — what they mean, where they come from, and how they're used.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Pashto.svg/500px-Pashto.svg.png",
     questions: [
       { id: "apr_200_01", categoryId: "arabic_proverbs", tier: 200, prompt: "The Arabic proverb 'الصبر مفتاح الفرج' means 'Patience is the key to ___.'", answer: "Relief", acceptableAnswers: ["relief", "deliverance", "ease"] },
       { id: "apr_200_02", categoryId: "arabic_proverbs", tier: 200, prompt: "What does the Arabic proverb 'اللي بيزرع الريح يحصد العواصف' mean in English?", answer: "He who sows the wind reaps the whirlwind", acceptableAnswers: ["sow the wind reap the whirlwind", "what goes around comes around"] },
@@ -45722,6 +46039,7 @@ const CATEGORIES: Category[] = [
     name: "DC Universe: Deep Cuts",
     culture: "universal",
     description: "Batman, Superman, the Joker — deep knowledge of DC Comics and its films.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/DC_Comics_logo.svg/500px-DC_Comics_logo.svg.png",
     questions: [
       { id: "dcd_200_01", categoryId: "dc_deep", tier: 200, prompt: "What is Batman's real name?", answer: "Bruce Wayne", acceptableAnswers: ["Bruce", "Wayne"] },
       { id: "dcd_200_02", categoryId: "dc_deep", tier: 200, prompt: "In Christopher Nolan's 'The Dark Knight,' which actor played the Joker and won a posthumous Academy Award for the role?", answer: "Heath Ledger", acceptableAnswers: ["Ledger"] },
@@ -45758,6 +46076,7 @@ const CATEGORIES: Category[] = [
     name: "Food Science",
     culture: "universal",
     description: "The chemistry and biology behind cooking — Maillard reaction, fermentation, emulsification, and more.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/CSIRO_ScienceImage_1319_Food_Science_Australia.jpg/500px-CSIRO_ScienceImage_1319_Food_Science_Australia.jpg",
     questions: [
       { id: "fsc_200_01", categoryId: "food_science", tier: 200, prompt: "The browning of bread crust and seared meat is caused by which chemical reaction named after a French chemist?", answer: "Maillard Reaction", acceptableAnswers: ["Maillard"] },
       { id: "fsc_200_02", categoryId: "food_science", tier: 200, prompt: "What process converts sugars into alcohol and carbon dioxide — essential for making beer, wine, and bread?", answer: "Fermentation", acceptableAnswers: [] },
@@ -45794,6 +46113,7 @@ const CATEGORIES: Category[] = [
     name: "Circassian History: Deep",
     culture: "circassian",
     description: "In-depth Circassian history — the Caucasian War, diaspora, traditions, and identity.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Circassian_flag.svg/500px-Circassian_flag.svg.png",
     questions: [
       { id: "chd_200_01", categoryId: "circassian_history_deep", tier: 200, prompt: "The Circassian Genocide and mass exile of 1864 is commemorated every year on which date in May?", answer: "May 21", acceptableAnswers: ["21st of May", "21 May"] },
       { id: "chd_200_02", categoryId: "circassian_history_deep", tier: 200, prompt: "The Circassian code of conduct and ethics — the moral philosophy governing behavior, hospitality, and honor — is called what in Circassian?", answer: "Xabze", acceptableAnswers: ["Adyghe Xabze", "Habze", "Xase"] },
@@ -45812,6 +46132,7 @@ const CATEGORIES: Category[] = [
     name: "Arabic Cinema: Golden Era",
     culture: "arabic",
     description: "Classic Egyptian and Levantine films, directors, actors, and the history of Arabic cinema.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Misr_Studio_old.jpg/500px-Misr_Studio_old.jpg",
     questions: [
       { id: "ace_200_01", categoryId: "arabic_cinema", tier: 200, prompt: "Known as the 'Star of the East,' which Egyptian actress is considered the greatest in Arabic cinema history — and was briefly married to Omar Sharif?", answer: "Faten Hamama", acceptableAnswers: ["Fatin Hamama"] },
       { id: "ace_200_02", categoryId: "arabic_cinema", tier: 200, prompt: "Which Egyptian actor starred in Lawrence of Arabia (1962) and Doctor Zhivago (1965), becoming one of the few Arab actors to achieve major Hollywood fame?", answer: "Omar Sharif", acceptableAnswers: ["Sharif"] },
@@ -45830,6 +46151,7 @@ const CATEGORIES: Category[] = [
     name: "Ancient Civilizations: Depth",
     culture: "universal",
     description: "Mesopotamia, Persia, Greece, Rome, Egypt — the knowledge historians actually argue about.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Egypt.Giza.Sphinx.02.jpg/500px-Egypt.Giza.Sphinx.02.jpg",
     questions: [
       { id: "anc_200_01", categoryId: "ancient_civilizations", tier: 200, prompt: "The ancient city of Babylon was located in which modern-day country?", answer: "Iraq", acceptableAnswers: [] },
       { id: "anc_200_02", categoryId: "ancient_civilizations", tier: 200, prompt: "The Great Library of Alexandria, one of the largest libraries in the ancient world, was located in which country?", answer: "Egypt", acceptableAnswers: [] },
@@ -45848,6 +46170,7 @@ const CATEGORIES: Category[] = [
     name: "Football: All-Time Legends",
     culture: "universal",
     description: "The greatest players and moments in football history — from Pelé to the modern era.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/BillyBassett.jpg/500px-BillyBassett.jpg",
     questions: [
       { id: "fbl_200_01", categoryId: "football_legends", tier: 200, prompt: "Which Brazilian player is widely regarded as the greatest footballer of all time, winning three World Cups?", answer: "Pelé", acceptableAnswers: ["Pele"] },
       { id: "fbl_200_02", categoryId: "football_legends", tier: 200, prompt: "Zinedine Zidane is famous for winning the 1998 World Cup with which national team?", answer: "France", acceptableAnswers: ["French national team"] },
@@ -45866,6 +46189,7 @@ const CATEGORIES: Category[] = [
     name: "Psychology: Core Concepts",
     culture: "universal",
     description: "Foundational psychology — Freud, Pavlov, Milgram, cognitive biases, and how the human mind works.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/51_Professor_Zimbardo_in_Wroc%C5%82aw_2019_%28cropped%29.jpg/500px-51_Professor_Zimbardo_in_Wroc%C5%82aw_2019_%28cropped%29.jpg",
     questions: [
       { id: "psy_200_01", categoryId: "psychology_fundamentals", tier: 200, prompt: "Which psychologist is associated with classical conditioning — teaching a dog to salivate at the sound of a bell?", answer: "Ivan Pavlov", acceptableAnswers: ["Pavlov"] },
       { id: "psy_200_02", categoryId: "psychology_fundamentals", tier: 200, prompt: "Sigmund Freud divided the human psyche into three parts: the id, the ego, and the ___.", answer: "Superego", acceptableAnswers: ["super-ego"] },
@@ -45884,6 +46208,7 @@ const CATEGORIES: Category[] = [
     name: "True Crime: Forensics",
     culture: "universal",
     description: "Historical criminal cases, FBI profiling, and forensic breakthroughs — educational and analytical.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Teerahertz_near-field_array_for_%CE%BCm-scale_surface_imaging_%28cropped%29.png/500px-Teerahertz_near-field_array_for_%CE%BCm-scale_surface_imaging_%28cropped%29.png",
     questions: [
       { id: "tcf_200_01", categoryId: "true_crime_forensics", tier: 200, prompt: "The FBI's Behavioral Science Unit — famous for developing criminal profiling — is based at which Virginia facility?", answer: "Quantico", acceptableAnswers: ["Quantico, Virginia", "FBI Academy"] },
       { id: "tcf_200_02", categoryId: "true_crime_forensics", tier: 200, prompt: "Jack the Ripper committed his murders in which London neighborhood in 1888, and was never identified?", answer: "Whitechapel", acceptableAnswers: ["East End", "East London"] },
@@ -45921,6 +46246,7 @@ const CATEGORIES: Category[] = [
     name: "Anime Classics: Deep Lore",
     culture: "universal",
     description: "Classic anime series from the 90s and 2000s — Cowboy Bebop, Evangelion, Samurai Champloo, and more.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Kobo_Daishi_Practicing_the_Tantra%2C_with_Demon_and_Wolf%2C_by_Hokusai.jpg/500px-Kobo_Daishi_Practicing_the_Tantra%2C_with_Demon_and_Wolf%2C_by_Hokusai.jpg",
     questions: [
       { id: "acl_200_01", categoryId: "anime_classics", tier: 200, prompt: "In 'Cowboy Bebop,' what is the name of the spaceship that Spike Spiegel and his crew use as their base?", answer: "Bebop", acceptableAnswers: ["the Bebop"] },
       { id: "acl_200_02", categoryId: "anime_classics", tier: 200, prompt: "In 'Fullmetal Alchemist: Brotherhood,' the law of equivalent exchange means that to gain something, you must give up something of equal ___.", answer: "Value", acceptableAnswers: ["worth", "value"] },
@@ -45993,6 +46319,7 @@ const CATEGORIES: Category[] = [
     name: "Video Game History: Milestones",
     culture: "universal",
     description: "The pivotal moments that shaped gaming — from Pong to the PlayStation era to modern gaming.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Game_Developers_Choice_Awards_-_Campo_Santo.jpg/500px-Game_Developers_Choice_Awards_-_Campo_Santo.jpg",
     questions: [
       { id: "vgh_200_01", categoryId: "video_game_history", tier: 200, prompt: "The first commercially successful video game — released by Atari in 1972 — was a simple table tennis simulation. What was it called?", answer: "Pong", acceptableAnswers: [] },
       { id: "vgh_200_02", categoryId: "video_game_history", tier: 200, prompt: "Which 1985 Nintendo game featuring a plumber rescuing a princess is considered one of the most influential games ever made?", answer: "Super Mario Bros.", acceptableAnswers: ["Super Mario", "Mario Bros"] },
@@ -46011,6 +46338,7 @@ const CATEGORIES: Category[] = [
     name: "Jordan: Kingdom's History",
     culture: "jordanian",
     description: "The founding of modern Jordan, the Hashemite dynasty, and key historical events.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/500px-Flag_of_Jordan.svg.png",
     questions: [
       { id: "jhd_200_01", categoryId: "jordan_history_deep", tier: 200, prompt: "Jordan's full official name is the Hashemite Kingdom of Jordan. The Hashemite dynasty claims descent from which Prophet?", answer: "Prophet Muhammad (peace be upon him)", acceptableAnswers: ["Prophet Muhammad", "Muhammad", "the Prophet"] },
       { id: "jhd_200_02", categoryId: "jordan_history_deep", tier: 200, prompt: "Jordan gained full independence in 1946. From which country did it gain independence?", answer: "United Kingdom (Britain)", acceptableAnswers: ["Britain", "UK", "British Mandate"] },
@@ -46029,6 +46357,7 @@ const CATEGORIES: Category[] = [
     name: "Tech: Founding Stories",
     culture: "american",
     description: "The companies and people who built the modern tech industry — their pivotal decisions and humble origins.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/509306957DH00068_TechCrunch.jpg/500px-509306957DH00068_TechCrunch.jpg",
     questions: [
       { id: "tec_200_01", categoryId: "technology_pioneers", tier: 200, prompt: "Apple was founded in 1976 in which US state — in a garage in Los Altos, California?", answer: "California", acceptableAnswers: ["CA"] },
       { id: "tec_200_02", categoryId: "technology_pioneers", tier: 200, prompt: "Which social network — launched in 2004 by Mark Zuckerberg — was initially only available to Harvard students?", answer: "Facebook", acceptableAnswers: ["TheFacebook"] },
@@ -46065,6 +46394,7 @@ const CATEGORIES: Category[] = [
     name: "Levantine Life: Deep Cuts",
     culture: "arabic",
     description: "The customs, food, dialect, and culture of the Levant — Jordan, Syria, Lebanon, and Palestine.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/National_animals_of_the_Levant.JPG/500px-National_animals_of_the_Levant.JPG",
     questions: [
       { id: "lvc_200_01", categoryId: "levantine_culture", tier: 200, prompt: "In Levantine Arabic, what does 'yislamou idayk' literally mean, and when is it said?", answer: "May your hands be blessed — said after someone does something helpful or makes good food", acceptableAnswers: ["may your hands be blessed", "bless your hands", "thank you for your hands"] },
       { id: "lvc_200_02", categoryId: "levantine_culture", tier: 200, prompt: "Mansaf — Jordan's national dish — is a slow-cooked lamb dish served on rice. What distinctive ingredient is used in the broth?", answer: "Jameed (dried fermented goat/sheep yogurt)", acceptableAnswers: ["jameed", "dried yogurt", "fermented dairy"] },
@@ -46083,6 +46413,7 @@ const CATEGORIES: Category[] = [
     name: "Space Race: Deep Missions",
     culture: "universal",
     description: "From Sputnik to the Moon landing and beyond — the engineering and politics behind humanity's greatest missions.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/RIAN_archive_510848_Interplanetary_station_Luna_1_-_blacked.jpg/500px-RIAN_archive_510848_Interplanetary_station_Luna_1_-_blacked.jpg",
     questions: [
       { id: "srd_200_01", categoryId: "space_race_deep", tier: 200, prompt: "Who was the first human to walk on the Moon, during the Apollo 11 mission in July 1969?", answer: "Neil Armstrong", acceptableAnswers: ["Armstrong"] },
       { id: "srd_200_02", categoryId: "space_race_deep", tier: 200, prompt: "The Soviet Union's Yuri Gagarin became the first human in space in April 1961. What was the name of his spacecraft?", answer: "Vostok 1", acceptableAnswers: ["Vostok"] },
@@ -46102,6 +46433,7 @@ const CATEGORIES: Category[] = [
     name: "US Presidents: Deep Cuts",
     culture: "american",
     description: "The decisions, scandals, and legacies of the men who shaped America — beyond the basic history class.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/500px-Joe_Biden_presidential_portrait.jpg",
     questions: [
       { id: "usp_200_01", categoryId: "us_presidents", tier: 200, prompt: "Which US President issued the Emancipation Proclamation in 1863, declaring enslaved people in Confederate states to be free?", answer: "Abraham Lincoln", acceptableAnswers: ["Lincoln"] },
       { id: "usp_200_02", categoryId: "us_presidents", tier: 200, prompt: "Richard Nixon became the only US President to resign from office, in 1974, due to which scandal?", answer: "Watergate", acceptableAnswers: ["Watergate scandal"] },
@@ -46138,6 +46470,7 @@ const CATEGORIES: Category[] = [
     name: "Middle East: Modern Conflicts",
     culture: "arabic",
     description: "The wars, revolutions, and political shifts that shaped the modern Middle East — from 1948 to the present.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Middle_east_graphic_2003.jpg/500px-Middle_east_graphic_2003.jpg",
     questions: [
       { id: "mem_200_01", categoryId: "middle_east_modern", tier: 200, prompt: "The Arab-Israeli War of 1948 is called 'Al-Nakba' (The Catastrophe) by Palestinians. Which event triggered the war?", answer: "The declaration of the State of Israel on May 14, 1948", acceptableAnswers: ["Israeli independence declaration", "establishment of Israel", "Israel declared independence"] },
       { id: "mem_200_02", categoryId: "middle_east_modern", tier: 200, prompt: "The Six-Day War of 1967 saw Israel capture which Egyptian territory — a large peninsula bordering the Suez Canal?", answer: "Sinai Peninsula", acceptableAnswers: ["Sinai"] },
@@ -46192,6 +46525,7 @@ const CATEGORIES: Category[] = [
     name: "Circassian Diaspora",
     culture: "circassian",
     description: "The Circassian communities outside the Caucasus — in Jordan, Turkey, Syria, and beyond.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Circassian_flag.svg/500px-Circassian_flag.svg.png",
     questions: [
       { id: "cdi_200_01", categoryId: "circassian_diaspora", tier: 200, prompt: "The largest Circassian diaspora community outside Russia is in which Middle Eastern country?", answer: "Turkey", acceptableAnswers: ["Türkiye"] },
       { id: "cdi_200_02", categoryId: "circassian_diaspora", tier: 200, prompt: "In Jordan, Circassians have historically served as the Royal Guard for the Hashemite dynasty. What is the Jordanian term for these elite guards?", answer: "Circassian Royal Guard / Al-Haras Al-Malaki Al-Sharasi", acceptableAnswers: ["Royal Guard", "Circassian Guard"] },
@@ -46210,6 +46544,7 @@ const CATEGORIES: Category[] = [
     name: "Economics: How Money Works",
     culture: "universal",
     description: "The concepts, crises, and theories that govern how economies function — for people who want to understand the game.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Euro_coins_and_banknotes_%28cropped%29.jpg/500px-Euro_coins_and_banknotes_%28cropped%29.jpg",
     questions: [
       { id: "fin_200_01", categoryId: "finance_economics", tier: 200, prompt: "What does 'GDP' stand for — the main measure of a country's economic output?", answer: "Gross Domestic Product", acceptableAnswers: ["Gross Domestic Product"] },
       { id: "fin_200_02", categoryId: "finance_economics", tier: 200, prompt: "The 2008 financial crisis was triggered largely by the collapse of which type of financial product tied to US housing loans?", answer: "Mortgage-backed securities / subprime mortgages", acceptableAnswers: ["mortgage-backed securities", "subprime mortgages", "CDOs"] },
@@ -46228,6 +46563,7 @@ const CATEGORIES: Category[] = [
     name: "Social Media Culture",
     culture: "universal",
     description: "The platforms, creators, trends, and moments that define digital culture — for people who live on the internet.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/%28Fashion_film%29_THYREN_2018_SPIRNG_-_SUMMER_COLLECTION_Fashion_Ad_Film_%28feat.Julia_Ratner%29.webm/500px--%28Fashion_film%29_THYREN_2018_SPIRNG_-_SUMMER_COLLECTION_Fashion_Ad_Film_%28feat.Julia_Ratner%29.webm.jpg",
     questions: [
       { id: "smc_200_01", categoryId: "social_media_culture", tier: 200, prompt: "Which platform — launched in 2016 by ByteDance — became the dominant short-video platform globally, especially with Gen Z?", answer: "TikTok", acceptableAnswers: [] },
       { id: "smc_200_02", categoryId: "social_media_culture", tier: 200, prompt: "YouTube was founded in 2005 and quickly acquired by Google. In which year did Google buy it, and for how much?", answer: "2006 for $1.65 billion", acceptableAnswers: ["2006", "1.65 billion", "2006 for 1.65 billion"] },
@@ -46246,6 +46582,7 @@ const CATEGORIES: Category[] = [
     name: "World War I: The Real Story",
     culture: "universal",
     description: "The war that reshaped the world — trench warfare, assassination, empires falling, and forgotten fronts.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Bataille_de_Verdun_1916.jpg/500px-Bataille_de_Verdun_1916.jpg",
     questions: [
       { id: "ww1_200_01", categoryId: "ww1_deep", tier: 200, prompt: "WWI was triggered by the assassination of Archduke Franz Ferdinand in Sarajevo in 1914. He was the heir to which empire?", answer: "Austro-Hungarian Empire", acceptableAnswers: ["Austria-Hungary", "Austro-Hungary"] },
       { id: "ww1_200_02", categoryId: "ww1_deep", tier: 200, prompt: "The most deadly single day in British military history occurred on July 1, 1916, at the start of which major WWI battle?", answer: "Battle of the Somme", acceptableAnswers: ["the Somme"] },
@@ -46265,6 +46602,7 @@ const CATEGORIES: Category[] = [
     name: "Philosophy: The Great Questions",
     culture: "universal",
     description: "The ideas, thinkers, and debates that shaped how humans think about existence, ethics, and knowledge.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Le_Penseur_by_Rodin_%28Kunsthalle_Bielefeld%29_2014-04-10.JPG/500px-Le_Penseur_by_Rodin_%28Kunsthalle_Bielefeld%29_2014-04-10.JPG",
     questions: [
       { id: "phq_200_01", categoryId: "philosophy_classics", tier: 200, prompt: "Socrates is famous for saying 'I know that I know nothing.' He was sentenced to death in Athens for which two charges?", answer: "Impiety and corrupting the youth", acceptableAnswers: ["corrupting the youth and impiety", "corrupting youth", "impiety"] },
       { id: "phq_200_02", categoryId: "philosophy_classics", tier: 200, prompt: "René Descartes' famous statement 'Cogito, ergo sum' means what in English?", answer: "I think, therefore I am", acceptableAnswers: ["I think therefore I am"] },
@@ -46283,6 +46621,7 @@ const CATEGORIES: Category[] = [
     name: "Jordanian Arabic: The Dialect",
     culture: "jordanian",
     description: "Jordanian slang, expressions, and dialect quirks — things only locals would know.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/d6/Map_Arabic_in_the_Levant.jpg",
     questions: [
       { id: "jad_200_01", categoryId: "arabic_dialect_jordan", tier: 200, prompt: "In Jordanian Arabic, what does 'wain reyeh?' mean in English?", answer: "Where are you going?", acceptableAnswers: ["where you going", "where are you going"] },
       { id: "jad_200_02", categoryId: "arabic_dialect_jordan", tier: 200, prompt: "When a Jordanian says 'mashalla aleik,' what are they expressing?", answer: "Admiration / praise for you (warding off the evil eye)", acceptableAnswers: ["admiration", "praise", "blessing", "may God protect you"] },
@@ -46319,6 +46658,7 @@ const CATEGORIES: Category[] = [
     name: "Football: Tactics & Formations",
     culture: "universal",
     description: "The tactical concepts, formations, and coaching philosophies that define modern football.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Leaflet_advert_for_blackburn_rovers_match-1887.jpg/500px-Leaflet_advert_for_blackburn_rovers_match-1887.jpg",
     questions: [
       { id: "flt_200_01", categoryId: "football_tactics", tier: 200, prompt: "In football tactics, what does the 4-4-2 formation refer to?", answer: "4 defenders, 4 midfielders, 2 strikers", acceptableAnswers: ["four defenders, four midfielders, two forwards"] },
       { id: "flt_200_02", categoryId: "football_tactics", tier: 200, prompt: "What is 'gegenpressing' — the high-intensity tactical approach popularized by Jürgen Klopp?", answer: "Immediately pressing to win the ball back after losing it, before the opponent can organize", acceptableAnswers: ["counter-pressing", "pressing immediately after losing the ball"] },
@@ -46373,6 +46713,7 @@ const CATEGORIES: Category[] = [
     name: "Human Biology: Deep Cuts",
     culture: "universal",
     description: "The systems, cells, and chemistry of the human body — what your biology class should have covered.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/68/Akha_cropped_hires.JPG",
     questions: [
       { id: "bhb_200_01", categoryId: "biology_human_body", tier: 200, prompt: "The human body has 206 bones as an adult. Which is the largest bone in the body?", answer: "Femur (thigh bone)", acceptableAnswers: ["femur", "thigh bone"] },
       { id: "bhb_200_02", categoryId: "biology_human_body", tier: 200, prompt: "DNA contains the instructions for building proteins. Which four chemical 'bases' make up the DNA code?", answer: "Adenine, Thymine, Guanine, Cytosine", acceptableAnswers: ["A, T, G, C", "adenine thymine guanine cytosine"] },
@@ -46392,6 +46733,7 @@ const CATEGORIES: Category[] = [
     name: "Ancient Egypt: Pharaohs & Power",
     culture: "arabic",
     description: "The pharaohs, gods, and monuments of ancient Egypt — beyond the basics.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Head_of_Nectanebo_II-MBA_Lyon_H1701-IMG_0204.jpg/500px-Head_of_Nectanebo_II-MBA_Lyon_H1701-IMG_0204.jpg",
     questions: [
       { id: "aed_200_01", categoryId: "egypt_ancient_deep", tier: 200, prompt: "Which Egyptian pharaoh built the Great Pyramid of Giza — the largest of the three pyramids?", answer: "Khufu (Cheops)", acceptableAnswers: ["Khufu", "Cheops"] },
       { id: "aed_200_02", categoryId: "egypt_ancient_deep", tier: 200, prompt: "The Sphinx of Giza has the body of a lion and the face of which pharaoh, according to most Egyptologists?", answer: "Khafre", acceptableAnswers: ["Khafra", "Chephren"] },
@@ -46410,6 +46752,7 @@ const CATEGORIES: Category[] = [
     name: "Streaming Era: Deep Cuts",
     culture: "universal",
     description: "Netflix, HBO, Hulu, Apple TV+ — the shows and decisions that define the streaming era.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Deep_Cut_Gardens_rose_garden.jpg/500px-Deep_Cut_Gardens_rose_garden.jpg",
     questions: [
       { id: "stw_200_01", categoryId: "streaming_wars", tier: 200, prompt: "Which Netflix show — released in 2013 — is credited as the first major streaming original, proving Netflix could produce prestige TV?", answer: "House of Cards", acceptableAnswers: [] },
       { id: "stw_200_02", categoryId: "streaming_wars", tier: 200, prompt: "HBO's 'Succession' — about a media dynasty — is clearly inspired by which real-world media family?", answer: "The Murdoch family", acceptableAnswers: ["Murdochs", "Rupert Murdoch's family"] },
@@ -46428,6 +46771,7 @@ const CATEGORIES: Category[] = [
     name: "Islamic Golden Age: Masters",
     culture: "islamic",
     description: "The scholars, inventions, and institutions of the Islamic Golden Age — from Al-Kindi to Ibn Rushd.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Al-Idrisi%27s_world_map.JPG/500px-Al-Idrisi%27s_world_map.JPG",
     questions: [
       { id: "iga_200_01", categoryId: "islamic_golden_age_v2", tier: 200, prompt: "Al-Khwarizmi — the 9th-century mathematician — gave his name to the modern word 'algorithm.' His other major contribution gave us the word 'algebra.' What is the title of his algebra book?", answer: "Al-Kitab al-mukhtasar fi hisab al-jabr wal-muqabala (The Compendious Book on Calculation by Completion and Balancing)", acceptableAnswers: ["Al-Jabr", "the algebra book"] },
       { id: "iga_200_02", categoryId: "islamic_golden_age_v2", tier: 200, prompt: "Ibn Sina (Avicenna) wrote the 'Canon of Medicine' — a medical encyclopedia used in European universities for centuries. He was from which modern country?", answer: "Uzbekistan (then Persia)", acceptableAnswers: ["Persia", "Iran", "Uzbekistan", "Central Asia"] },
@@ -46446,6 +46790,7 @@ const CATEGORIES: Category[] = [
     name: "Cricket: Deep Knowledge",
     culture: "universal",
     description: "The sport followed by billions — its greatest players, formats, records, and drama.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Cricketfieldingpositions.jpg/500px-Cricketfieldingpositions.jpg",
     questions: [
       { id: "crk_200_01", categoryId: "cricket_deep", tier: 200, prompt: "Cricket is played with how many players per team?", answer: "11", acceptableAnswers: ["eleven"] },
       { id: "crk_200_02", categoryId: "cricket_deep", tier: 200, prompt: "Which batting legend is known as 'The Don' and holds the highest Test batting average of 99.94?", answer: "Don Bradman", acceptableAnswers: ["Bradman", "Sir Donald Bradman"] },
@@ -46482,6 +46827,7 @@ const CATEGORIES: Category[] = [
     name: "Gulf Culture: Deep Cuts",
     culture: "arabic",
     description: "Saudi Arabia, UAE, Kuwait, Qatar — the culture, history, and traditions of the Gulf region.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Corinth_Canal_in_Greece.jpg/500px-Corinth_Canal_in_Greece.jpg",
     questions: [
       { id: "sgc_200_01", categoryId: "saudi_gulf_culture", tier: 200, prompt: "Saudi Arabia controls the world's largest oil field. What is its name?", answer: "Ghawar field", acceptableAnswers: ["Ghawar"] },
       { id: "sgc_200_02", categoryId: "saudi_gulf_culture", tier: 200, prompt: "The UAE is made up of how many emirates?", answer: "7", acceptableAnswers: ["seven"] },
@@ -46518,6 +46864,7 @@ const CATEGORIES: Category[] = [
     name: "Levant: Ancient & Medieval",
     culture: "arabic",
     description: "The history of Greater Syria, Jordan, Lebanon, and Palestine — from the Canaanites through the Crusades.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Levant_%28orthographic_projection%29.png/500px-Levant_%28orthographic_projection%29.png",
     questions: [
       { id: "lvh_200_01", categoryId: "levant_history", tier: 200, prompt: "The ancient city of Petra was carved into red sandstone cliffs and was the capital of which ancient civilization?", answer: "Nabataean Kingdom", acceptableAnswers: ["Nabataeans", "Nabataean civilization"] },
       { id: "lvh_200_02", categoryId: "levant_history", tier: 200, prompt: "Saladin (Salah ad-Din) retook Jerusalem from the Crusaders in which year?", answer: "1187", acceptableAnswers: [] },
@@ -46537,6 +46884,7 @@ const CATEGORIES: Category[] = [
     name: "Tennis: The Grand Slam Era",
     culture: "universal",
     description: "The rivalries, records, and technique of tennis — from Federer vs. Nadal to Serena's dominance.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Djokovic_EBN17_%2826%29_%2835046150944%29.jpg/500px-Djokovic_EBN17_%2826%29_%2835046150944%29.jpg",
     questions: [
       { id: "ten_200_01", categoryId: "tennis_deep", tier: 200, prompt: "Roger Federer, Rafael Nadal, and Novak Djokovic — the 'Big Three' of tennis — between them won how many Grand Slam singles titles combined (as of 2024)?", answer: "65 total (Djokovic 24, Nadal 22, Federer 20)", acceptableAnswers: ["65", "over 60"] },
       { id: "ten_200_02", categoryId: "tennis_deep", tier: 200, prompt: "Which tennis player holds the record for most Grand Slam singles titles in women's tennis with 23 titles — officially retiring in 2023?", answer: "Serena Williams", acceptableAnswers: ["Serena"] },
@@ -46573,6 +46921,7 @@ const CATEGORIES: Category[] = [
     name: "Music: Theory & Production",
     culture: "universal",
     description: "The technical craft behind music — scales, chord progressions, sampling, and production secrets.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Gaffurio_Pythagoras.png/500px-Gaffurio_Pythagoras.png",
     questions: [
       { id: "mtp_200_01", categoryId: "music_theory_deep", tier: 200, prompt: "A musical scale with 7 notes that follows the pattern WWHWWWH (whole and half steps) is called what?", answer: "Major scale", acceptableAnswers: ["major scale", "diatonic major scale"] },
       { id: "mtp_200_02", categoryId: "music_theory_deep", tier: 200, prompt: "The '4/4 time signature' in music means what?", answer: "4 beats per measure, with a quarter note getting one beat", acceptableAnswers: ["four beats per bar", "4 beats per measure"] },
@@ -46591,6 +46940,7 @@ const CATEGORIES: Category[] = [
     name: "Ottoman Empire: Deep History",
     culture: "arabic",
     description: "Six centuries of Ottoman rule — sultans, janissaries, millets, and the empire's collapse.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Coat_of_arms_of_the_Ottoman_Empire_%281882%E2%80%931922%29.svg/500px-Coat_of_arms_of_the_Ottoman_Empire_%281882%E2%80%931922%29.svg.png",
     questions: [
       { id: "ott_200_01", categoryId: "ottoman_deep", tier: 200, prompt: "Which Ottoman sultan conquered Constantinople in 1453, ending the Byzantine Empire?", answer: "Mehmed II (Mehmed the Conqueror)", acceptableAnswers: ["Mehmed II", "Mehmed the Conqueror", "Sultan Mehmed"] },
       { id: "ott_200_02", categoryId: "ottoman_deep", tier: 200, prompt: "The elite Ottoman soldiers — enslaved boys taken from Christian families, converted to Islam, and trained as warriors — were called what?", answer: "Janissaries", acceptableAnswers: ["Janissary", "Yeniçeri"] },
@@ -46663,6 +47013,7 @@ const CATEGORIES: Category[] = [
     name: "Real Conspiracies: Confirmed True",
     culture: "universal",
     description: "Government programs, corporate cover-ups, and plots that were actually real — not theories.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Dollarnote_siegel_hq.jpg/500px-Dollarnote_siegel_hq.jpg",
     questions: [
       { id: "cfc_200_01", categoryId: "conspiracy_facts", tier: 200, prompt: "The US government secretly tested LSD and other drugs on unwitting subjects from the 1950s–70s in a CIA program called what?", answer: "MKUltra", acceptableAnswers: ["MK Ultra", "MKULTRA"] },
       { id: "cfc_200_02", categoryId: "conspiracy_facts", tier: 200, prompt: "The NSA was secretly collecting bulk telephone metadata from millions of ordinary Americans — revealed by which whistleblower in 2013?", answer: "Edward Snowden", acceptableAnswers: ["Snowden"] },
@@ -46682,6 +47033,7 @@ const CATEGORIES: Category[] = [
     name: "Petra & Jordan's Heritage Sites",
     culture: "jordanian",
     description: "Jordan's UNESCO World Heritage Sites — Petra, Jerash, Wadi Rum, the Dead Sea, and more.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Al_Deir_Petra.JPG/500px-Al_Deir_Petra.JPG",
     questions: [
       { id: "jph_200_01", categoryId: "jordan_petra_heritage", tier: 200, prompt: "Petra's most iconic structure — the carved treasury — is known in Arabic as what?", answer: "Al-Khazneh", acceptableAnswers: ["Khazneh", "The Treasury"] },
       { id: "jph_200_02", categoryId: "jordan_petra_heritage", tier: 200, prompt: "Wadi Rum — Jordan's dramatic desert landscape — has been used as a filming location for which famous sci-fi film franchise?", answer: "The Martian (2015) and Star Wars (Rogue One)", acceptableAnswers: ["The Martian", "Star Wars", "Lawrence of Arabia"] },
@@ -46754,6 +47106,7 @@ const CATEGORIES: Category[] = [
     name: "F1: Legends & Records",
     culture: "universal",
     description: "Formula 1's greatest drivers, championship battles, and technical innovations — beyond the basics.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/1996_McLaren_F1_Chassis_No_63_6.1_Front.jpg/500px-1996_McLaren_F1_Chassis_No_63_6.1_Front.jpg",
     questions: [
       { id: "f1d_200_01", categoryId: "formula1_deep2", tier: 200, prompt: "Which F1 driver holds the most World Championship titles — with 7 titles?", answer: "Michael Schumacher and Lewis Hamilton (both have 7)", acceptableAnswers: ["Michael Schumacher", "Lewis Hamilton", "both Schumacher and Hamilton"] },
       { id: "f1d_200_02", categoryId: "formula1_deep2", tier: 200, prompt: "The Monaco Grand Prix is considered the most prestigious race in F1. In which city is it held?", answer: "Monaco (Monte Carlo)", acceptableAnswers: ["Monaco", "Monte Carlo"] },
@@ -46790,6 +47143,7 @@ const CATEGORIES: Category[] = [
     name: "World Food: Deep Cuts",
     culture: "universal",
     description: "The history, technique, and culture behind foods from around the world — beyond the obvious.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Crispy_Chicken_Strips_-_FotoosVanRobin.jpg/500px-Crispy_Chicken_Strips_-_FotoosVanRobin.jpg",
     questions: [
       { id: "wfd_200_01", categoryId: "food_culture_world", tier: 200, prompt: "Sushi originated in which country, and what was it originally used for — before becoming the dish we know today?", answer: "Japan — originally used to preserve fish in fermented rice (the rice was discarded)", acceptableAnswers: ["Japan", "fermented rice preservation"] },
       { id: "wfd_200_02", categoryId: "food_culture_world", tier: 200, prompt: "Which country is the largest producer of coffee in the world?", answer: "Brazil", acceptableAnswers: [] },
@@ -46809,6 +47163,7 @@ const CATEGORIES: Category[] = [
     name: "Astronomy: Deep Space",
     culture: "universal",
     description: "Black holes, galaxies, stellar evolution, and the universe's most extreme phenomena.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/NASA%27s_Deep_Space_Antenna_Upgrade_to_Affect_Voyager.jpg/500px-NASA%27s_Deep_Space_Antenna_Upgrade_to_Affect_Voyager.jpg",
     questions: [
       { id: "asd_w10_200_01", categoryId: "astronomy_deep", tier: 200, prompt: "What is the name of the galaxy in which our solar system is located?", answer: "Milky Way", acceptableAnswers: ["the Milky Way"] },
       { id: "asd_w10_200_02", categoryId: "astronomy_deep", tier: 200, prompt: "A light-year is a unit of distance. Approximately how many kilometers is one light-year?", answer: "About 9.46 trillion km (9.46 × 10¹² km)", acceptableAnswers: ["9.46 trillion km", "about 9.5 trillion kilometers"] },
@@ -46827,6 +47182,7 @@ const CATEGORIES: Category[] = [
     name: "Arab Diaspora in the West",
     culture: "arabic",
     description: "Arab and Arab-American culture — the communities, celebrities, politicians, and impact in the Western world.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Map_of_the_Arab_Diaspora_in_the_World.svg/500px-Map_of_the_Arab_Diaspora_in_the_World.svg.png",
     questions: [
       { id: "adw_200_01", categoryId: "arab_diaspora_west", tier: 200, prompt: "Which Arab-American comedian — born in Lebanon — became famous for the Comedy Central show 'Patriot Act' and discussing Middle Eastern politics?", answer: "Hasan Minhaj", acceptableAnswers: ["Minhaj"] },
       { id: "adw_200_02", categoryId: "arab_diaspora_west", tier: 200, prompt: "Steve Jobs' biological father was a Syrian immigrant named Paul Jobs — but his birth father was actually from which Syrian city?", answer: "Homs", acceptableAnswers: ["Homs, Syria"] },
@@ -46863,6 +47219,7 @@ const CATEGORIES: Category[] = [
     name: "Rugby: Deep Knowledge",
     culture: "universal",
     description: "The sport of controlled chaos — Rugby Union and Rugby League, the All Blacks, and the World Cup.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cody_Walker_Rabbitohs.jpg/500px-Cody_Walker_Rabbitohs.jpg",
     questions: [
       { id: "rug_200_01", categoryId: "rugby_deep", tier: 200, prompt: "New Zealand's rugby team — the most successful international team in any sport — is known by what name?", answer: "All Blacks", acceptableAnswers: [] },
       { id: "rug_200_02", categoryId: "rugby_deep", tier: 200, prompt: "The 'Haka' performed by New Zealand before matches is a traditional war dance from which indigenous people?", answer: "Māori", acceptableAnswers: ["Maori"] },
@@ -46899,6 +47256,7 @@ const CATEGORIES: Category[] = [
     name: "Neuroscience: The Brain's Secrets",
     culture: "universal",
     description: "How the brain works — neurons, consciousness, memory, addiction, and what science still doesn't understand.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Triune_brain.png/500px-Triune_brain.png",
     questions: [
       { id: "nbs_200_01", categoryId: "neuroscience_basics", tier: 200, prompt: "What is a neuron — the basic unit of the brain — and how does it communicate with other neurons?", answer: "A nerve cell that transmits electrical signals (action potentials) and communicates via chemical messengers (neurotransmitters) across synapses", acceptableAnswers: ["nerve cell that sends electrical signals", "brain cell using chemical signals"] },
       { id: "nbs_200_02", categoryId: "neuroscience_basics", tier: 200, prompt: "The hippocampus — a brain region named after the Greek word for seahorse due to its shape — is primarily responsible for what cognitive function?", answer: "Memory formation and spatial navigation", acceptableAnswers: ["memory", "memory formation"] },
@@ -46936,6 +47294,7 @@ const CATEGORIES: Category[] = [
     name: "Amman: Food & Restaurants",
     culture: "jordanian",
     description: "The restaurants, dishes, and food culture that make Amman a growing culinary destination.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/New_Abdali_2024.png/500px-New_Abdali_2024.png",
     questions: [
       { id: "afs_200_01", categoryId: "amman_food_scene", tier: 200, prompt: "Which Amman street food staple — a fried dough ball soaked in syrup — is sold by street vendors especially during Ramadan?", answer: "Luqaimat", acceptableAnswers: ["Lugaimat", "Loqaimat"] },
       { id: "afs_200_02", categoryId: "amman_food_scene", tier: 200, prompt: "Mansaf is Jordan's national dish. The dried fermented yogurt used in the broth — called 'jameed' — is typically made from which animal's milk?", answer: "Goat or sheep", acceptableAnswers: ["goat", "sheep", "goat or sheep"] },
@@ -46990,6 +47349,7 @@ const CATEGORIES: Category[] = [
     name: "Game Shows: Deep History",
     culture: "universal",
     description: "The greatest game shows ever — their origins, scandals, and the moments that became TV history.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Thom_Brennaman_Nov_25_2018.png/500px-Thom_Brennaman_Nov_25_2018.png",
     questions: [
       { id: "gsh_200_01", categoryId: "game_shows_history", tier: 200, prompt: "Jeopardy! — the quiz show where answers are given as questions — ran for over 37 years with which iconic host?", answer: "Alex Trebek", acceptableAnswers: ["Trebek"] },
       { id: "gsh_200_02", categoryId: "game_shows_history", tier: 200, prompt: "Who Wants to Be a Millionaire? was a massive global hit. The show's lifelines include '50:50', 'Phone a Friend', and which third option?", answer: "Ask the Audience", acceptableAnswers: ["audience vote", "ask the audience"] },
@@ -47008,6 +47368,7 @@ const CATEGORIES: Category[] = [
     name: "Drinks Culture: Beer & Wine",
     culture: "universal",
     description: "The history, science, and culture behind the world's most consumed beverages.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Frans_Hals_-_The_Merry_Drinker_-_WGA11095.jpg/500px-Frans_Hals_-_The_Merry_Drinker_-_WGA11095.jpg",
     questions: [
       { id: "bwc_200_01", categoryId: "beer_wine_culture", tier: 200, prompt: "Champagne can only legally be called 'Champagne' if it comes from which French region?", answer: "Champagne, France", acceptableAnswers: ["Champagne region", "Champagne, France"] },
       { id: "bwc_200_02", categoryId: "beer_wine_culture", tier: 200, prompt: "Guinness — the famous dark Irish stout — gets its dark color from which ingredient?", answer: "Roasted barley", acceptableAnswers: ["roasted malt", "dark roasted barley"] },
@@ -47026,6 +47387,7 @@ const CATEGORIES: Category[] = [
     name: "South America: Deep History",
     culture: "universal",
     description: "The Inca, the conquistadors, the liberators, and the modern politics of South America.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Map_of_USA_Deep_South.svg/500px-Map_of_USA_Deep_South.svg.png",
     questions: [
       { id: "sah_200_01", categoryId: "south_america_history", tier: 200, prompt: "The Inca Empire — the largest empire in pre-Columbian America — had its capital in which city in modern Peru?", answer: "Cusco", acceptableAnswers: ["Cuzco"] },
       { id: "sah_200_02", categoryId: "south_america_history", tier: 200, prompt: "Simón Bolívar is known as 'El Libertador' for liberating much of South America from Spanish rule. He was born in which South American country?", answer: "Venezuela", acceptableAnswers: [] },
@@ -47062,6 +47424,7 @@ const CATEGORIES: Category[] = [
     name: "Mathematics: Beautiful Theorems",
     culture: "universal",
     description: "The theorems, problems, and mathematicians that make math one of humanity's greatest achievements.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Pythagorean_Proof_%283%29.PNG/500px-Pythagorean_Proof_%283%29.PNG",
     questions: [
       { id: "mtd_200_01", categoryId: "math_deep", tier: 200, prompt: "Pythagoras' theorem states that in a right triangle, a² + b² = c². What does 'c' always represent?", answer: "The hypotenuse (longest side)", acceptableAnswers: ["hypotenuse", "the longest side"] },
       { id: "mtd_200_02", categoryId: "math_deep", tier: 200, prompt: "The number π (pi) is the ratio of a circle's circumference to its diameter. Approximately what is π to 5 decimal places?", answer: "3.14159", acceptableAnswers: ["3.14159", "3.14"] },
@@ -47081,6 +47444,7 @@ const CATEGORIES: Category[] = [
     name: "India: Deep Culture & History",
     culture: "universal",
     description: "The history, religions, and civilization of India — from the Mughal Empire to Bollywood.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/North_Gateway_-_Rear_Side_-_Stupa_1_-_Sanchi_Hill_2013-02-21_4480-4481.JPG/500px-North_Gateway_-_Rear_Side_-_Stupa_1_-_Sanchi_Hill_2013-02-21_4480-4481.JPG",
     questions: [
       { id: "icd_200_01", categoryId: "india_culture_deep", tier: 200, prompt: "The Taj Mahal was built by Mughal Emperor Shah Jahan as a mausoleum for which person?", answer: "His wife Mumtaz Mahal", acceptableAnswers: ["Mumtaz Mahal", "his wife"] },
       { id: "icd_200_02", categoryId: "india_culture_deep", tier: 200, prompt: "Mahatma Gandhi led India's independence movement against British rule using which core philosophy of nonviolent resistance?", answer: "Satyagraha (non-violent resistance / civil disobedience)", acceptableAnswers: ["Satyagraha", "non-violent resistance", "civil disobedience"] },
@@ -47117,6 +47481,7 @@ const CATEGORIES: Category[] = [
     name: "Political Philosophy: Deep",
     culture: "universal",
     description: "The ideas that shaped governments — Hobbes, Locke, Rousseau, Marx, and what they actually argued.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Sanzio_01_Plato_Aristotle_%28cropped%29.jpg/500px-Sanzio_01_Plato_Aristotle_%28cropped%29.jpg",
     questions: [
       { id: "ppd_200_01", categoryId: "political_philosophy", tier: 200, prompt: "Thomas Hobbes described life without government as 'nasty, brutish, and short.' He argued people needed a powerful ruler called what to maintain order?", answer: "Leviathan", acceptableAnswers: [] },
       { id: "ppd_200_02", categoryId: "political_philosophy", tier: 200, prompt: "John Locke argued that governments derive their power from the consent of the governed — and that citizens have a right to revolt if the government violates their natural rights. Name his three natural rights.", answer: "Life, liberty, and property", acceptableAnswers: ["life, liberty, property"] },
@@ -47153,6 +47518,7 @@ const CATEGORIES: Category[] = [
     name: "Archaeology: Great Discoveries",
     culture: "universal",
     description: "The digs, discoveries, and debates that changed our understanding of history.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Dolina-Pano-3_%28cropped%29.jpg/500px-Dolina-Pano-3_%28cropped%29.jpg",
     questions: [
       { id: "agd_200_01", categoryId: "dead_sea_scrolls", tier: 200, prompt: "The Dead Sea Scrolls — the oldest known manuscripts of the Hebrew Bible — were discovered in which year and by whom?", answer: "1947 by Bedouin shepherds in Qumran caves", acceptableAnswers: ["1947", "Bedouin shepherds", "1947 by shepherds"] },
       { id: "agd_200_02", categoryId: "dead_sea_scrolls", tier: 200, prompt: "Heinrich Schliemann excavated the ancient city of Troy in the 1870s — but he found multiple layers. The site is located in which modern country?", answer: "Turkey", acceptableAnswers: ["Türkiye"] },
@@ -47171,6 +47537,7 @@ const CATEGORIES: Category[] = [
     name: "Animal Kingdom: Deep Facts",
     culture: "universal",
     description: "The strangest, most impressive, and most misunderstood facts about the animal world.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Animal_diversity_b.png",
     questions: [
       { id: "akd_200_01", categoryId: "animal_kingdom_deep", tier: 200, prompt: "Which animal has the largest brain relative to its body size among all living creatures?", answer: "The shrew (or humans depending on measurement scale)", acceptableAnswers: ["shrew", "humans", "sperm whale (largest absolute)"] },
       { id: "akd_200_02", categoryId: "animal_kingdom_deep", tier: 200, prompt: "Octopuses have three hearts and blue blood. What copper-based protein makes their blood blue?", answer: "Hemocyanin", acceptableAnswers: ["haemocyanin"] },
@@ -47207,6 +47574,7 @@ const CATEGORIES: Category[] = [
     name: "China: Deep History & Culture",
     culture: "universal",
     description: "Five thousand years of Chinese civilization — dynasties, philosophy, the Great Wall, and modern rise.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/%E6%AD%A6%E5%AE%98%E8%82%96%E5%83%8F.jpg/500px-%E6%AD%A6%E5%AE%98%E8%82%96%E5%83%8F.jpg",
     questions: [
       { id: "chd2_200_01", categoryId: "china_deep", tier: 200, prompt: "Confucius — the Chinese philosopher whose teachings shaped East Asian civilization — was born in which century BC?", answer: "5th–6th century BC (551–479 BC)", acceptableAnswers: ["5th century BC", "6th century BC", "551 BC"] },
       { id: "chd2_200_02", categoryId: "china_deep", tier: 200, prompt: "The Great Wall of China was built to protect against invasions from which direction?", answer: "The north (nomadic peoples from the Mongolian steppe)", acceptableAnswers: ["north", "Mongolian steppes", "northern invaders"] },
@@ -47226,6 +47594,7 @@ const CATEGORIES: Category[] = [
     name: "Cars: Icons & Engineering",
     culture: "universal",
     description: "The cars, engineers, and moments that made automotive history — from the Model T to modern supercars.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Lotus_Cars_logo.svg/500px-Lotus_Cars_logo.svg.png",
     questions: [
       { id: "cad_200_01", categoryId: "cars_auto_deep", tier: 200, prompt: "Henry Ford introduced the assembly line to mass-produce the Model T. In which year did the Model T first go on sale?", answer: "1908", acceptableAnswers: [] },
       { id: "cad_200_02", categoryId: "cars_auto_deep", tier: 200, prompt: "The Bugatti Veyron — released in 2005 — was the first production car to exceed 250 mph. How many cylinders does its engine have?", answer: "16 (W16 engine)", acceptableAnswers: ["16", "W16"] },
@@ -47244,6 +47613,7 @@ const CATEGORIES: Category[] = [
     name: "Pokémon: Competitive Deep",
     culture: "universal",
     description: "Beyond the Pokédex — EVs, IVs, competitive mechanics, and the hidden depth of Pokémon.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/500px-International_Pok%C3%A9mon_logo.svg.png",
     questions: [
       { id: "pkd_200_01", categoryId: "pokemon_deep", tier: 200, prompt: "In Pokémon, what does 'IV' stand for — the hidden stat that determines a Pokémon's potential?", answer: "Individual Value", acceptableAnswers: ["Individual Values"] },
       { id: "pkd_200_02", categoryId: "pokemon_deep", tier: 200, prompt: "Mewtwo was genetically engineered from the DNA of which legendary Pokémon?", answer: "Mew", acceptableAnswers: [] },
@@ -47262,6 +47632,7 @@ const CATEGORIES: Category[] = [
     name: "Jordan: Society & Customs",
     culture: "jordanian",
     description: "The traditions, social norms, tribal structures, and daily customs of Jordanian society.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/500px-Flag_of_Jordan.svg.png",
     questions: [
       { id: "jsc_200_01", categoryId: "jordan_society", tier: 200, prompt: "In Jordanian culture, the concept of 'wasta' refers to what kind of social practice?", answer: "Using personal connections, influence, or nepotism to get things done — similar to 'who you know'", acceptableAnswers: ["connections and nepotism", "using influence", "who you know"] },
       { id: "jsc_200_02", categoryId: "jordan_society", tier: 200, prompt: "The traditional Jordanian headdress worn by men — a red-and-white checkered scarf — is called what?", answer: "Keffiyeh (kufiya / hatta)", acceptableAnswers: ["keffiyeh", "kufiya", "hatta"] },
@@ -47280,6 +47651,7 @@ const CATEGORIES: Category[] = [
     name: "TV Drama: All-Time Greats",
     culture: "universal",
     description: "The shows that redefined what television could be — The Sopranos, The Wire, Mad Men, and more.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/c/c0/TV_Guide_Logo.png",
     questions: [
       { id: "tvd_200_01", categoryId: "tv_drama_deep", tier: 200, prompt: "The Sopranos ended with a controversial cut to black. In which diner does the final scene take place?", answer: "Holsten's (a diner in New Jersey)", acceptableAnswers: ["Holsten's", "a diner"] },
       { id: "tvd_200_02", categoryId: "tv_drama_deep", tier: 200, prompt: "Mad Men is set in a 1960s New York advertising agency. The show's mysterious protagonist is named Don Draper — but what is his real name?", answer: "Dick Whitman", acceptableAnswers: ["Dick Whitman"] },
@@ -47352,6 +47724,7 @@ const CATEGORIES: Category[] = [
     name: "Middle East: Food Heritage",
     culture: "arabic",
     description: "The rich culinary traditions of the Arab world — from Morocco to the Gulf.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/1f/Middle_East_bakery.png",
     questions: [
       { id: "mef_200_01", categoryId: "middle_east_food", tier: 200, prompt: "Hummus — the chickpea dip — is claimed as a national dish by which two countries who famously debate its origin?", answer: "Lebanon and Israel (also claimed by Palestinians, Syrians, and Greeks)", acceptableAnswers: ["Lebanon and Israel", "Lebanon", "multiple countries"] },
       { id: "mef_200_02", categoryId: "middle_east_food", tier: 200, prompt: "Tagine is the iconic slow-cooked stew of which North African country — also the name of the conical earthenware pot it's cooked in?", answer: "Morocco", acceptableAnswers: [] },
@@ -47370,6 +47743,7 @@ const CATEGORIES: Category[] = [
     name: "Viking Age",
     culture: "universal",
     description: "Norse raiders, explorers, and settlers who shaped medieval Europe and beyond.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Bildsten_fr%C3%A5n_Smiss%2C_Gotland.jpg/500px-Bildsten_fr%C3%A5n_Smiss%2C_Gotland.jpg",
     questions: [
       { id: "vik_200_01", categoryId: "viking_history", tier: 200, prompt: "The Old Norse word 'víkingr' is generally thought to refer to people who went on a 'vik' — meaning what?", answer: "A creek, inlet, or bay (they were 'creek-men' or traders/raiders from inlets)", acceptableAnswers: ["inlet", "bay", "creek"] },
       { id: "vik_200_02", categoryId: "viking_history", tier: 200, prompt: "Which year did Vikings famously raid the monastery of Lindisfarne — traditionally marking the start of the Viking Age?", answer: "793 AD", acceptableAnswers: ["793"] },
@@ -47388,6 +47762,7 @@ const CATEGORIES: Category[] = [
     name: "Korean Cinema",
     culture: "universal",
     description: "From the Korean New Wave to global domination — directors, films, and the industry.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Aegwan_Geukjang%2C_2019-05-11.jpg/500px-Aegwan_Geukjang%2C_2019-05-11.jpg",
     questions: [
       { id: "kor_200_01", categoryId: "korean_cinema", tier: 200, prompt: "Which 2019 Bong Joon-ho film became the first non-English film to win the Academy Award for Best Picture?", answer: "Parasite (기생충)", acceptableAnswers: ["Parasite", "Gisaengchung"] },
       { id: "kor_200_02", categoryId: "korean_cinema", tier: 200, prompt: "Park Chan-wook's 'Vengeance Trilogy' includes Sympathy for Mr. Vengeance, Lady Vengeance, and which middle film — his most famous?", answer: "Oldboy (2003)", acceptableAnswers: ["Oldboy"] },
@@ -47406,6 +47781,7 @@ const CATEGORIES: Category[] = [
     name: "Latin Music",
     culture: "universal",
     description: "Rhythms, legends, and history from salsa to reggaeton — the full spectrum of Latin sound.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Festival_mundial_de_Tango_en_Buenos_Aires%2C_Argentina.jpg/500px-Festival_mundial_de_Tango_en_Buenos_Aires%2C_Argentina.jpg",
     questions: [
       { id: "lat_200_01", categoryId: "latin_music", tier: 200, prompt: "Carlos Santana's legendary performance at Woodstock in 1969 made him famous. His band's hit 'Smooth' (1999) featured which singer?", answer: "Rob Thomas (of Matchbox Twenty)", acceptableAnswers: ["Rob Thomas"] },
       { id: "lat_200_02", categoryId: "latin_music", tier: 200, prompt: "Shakira's 2010 World Cup anthem — sung partially in Zulu — became one of the best-selling World Cup songs ever. Name it.", answer: "Waka Waka (This Time for Africa)", acceptableAnswers: ["Waka Waka"] },
@@ -47424,6 +47800,7 @@ const CATEGORIES: Category[] = [
     name: "Jordan Deep Geography",
     culture: "jordanian",
     description: "The landscapes, borders, regions, and hidden geography of the Hashemite Kingdom.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Jordanien.svg/500px-Jordanien.svg.png",
     questions: [
       { id: "jgeo_200_01", categoryId: "jordan_geography", tier: 200, prompt: "Jordan shares its longest border with which country — running nearly 740 km?", answer: "Saudi Arabia", acceptableAnswers: ["Saudi Arabia"] },
       { id: "jgeo_200_02", categoryId: "jordan_geography", tier: 200, prompt: "The Dead Sea, on Jordan's western border, is the lowest point on Earth's surface. How far below sea level is its surface approximately?", answer: "About 430 meters (430m) below sea level", acceptableAnswers: ["430 meters", "430m", "400 meters", "~430"] },
@@ -47442,6 +47819,7 @@ const CATEGORIES: Category[] = [
     name: "Circassian Customs & Language",
     culture: "circassian",
     description: "The traditions, social codes, and linguistic heritage of the Circassian people.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Circassian_flag.svg/500px-Circassian_flag.svg.png",
     questions: [
       { id: "cir_200_01", categoryId: "circassian_customs", tier: 200, prompt: "The Circassian code of conduct — a set of ethical principles governing hospitality, honor, and behavior — is called what?", answer: "Xabze (Xabзэ) — the Circassian way / code of ethics", acceptableAnswers: ["Xabze", "Habze", "Xabzé"] },
       { id: "cir_200_02", categoryId: "circassian_customs", tier: 200, prompt: "The traditional Circassian men's outfit — featuring a distinctive chest with cartridge loops — is called what?", answer: "Chokha (also Cherkeska) — a long coat with gazyri (cartridge pockets) on the chest", acceptableAnswers: ["Chokha", "Cherkeska", "Circassian coat"] },
@@ -47460,6 +47838,7 @@ const CATEGORIES: Category[] = [
     name: "Islamic Architecture",
     culture: "arabic",
     description: "The great mosques, palaces, and structural innovations of the Islamic world.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Jerusalem_DomeoftheRock_J65.JPG/500px-Jerusalem_DomeoftheRock_J65.JPG",
     questions: [
       { id: "isarch_200_01", categoryId: "islamic_architecture", tier: 200, prompt: "The Alhambra palace complex — one of the finest examples of Islamic architecture — is located in which Spanish city?", answer: "Granada (in Andalusia, southern Spain)", acceptableAnswers: ["Granada"] },
       { id: "isarch_200_02", categoryId: "islamic_architecture", tier: 200, prompt: "The Dome of the Rock in Jerusalem was built by which Umayyad caliph — and in what year was it completed?", answer: "Caliph Abd al-Malik — completed in 691 AD (one of the earliest surviving Islamic monuments)", acceptableAnswers: ["Abd al-Malik", "691"] },
@@ -47478,6 +47857,7 @@ const CATEGORIES: Category[] = [
     name: "Baseball Deep Cuts",
     culture: "american",
     description: "Beyond box scores — the records, history, and inside knowledge serious fans know.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Jairo_Martinez_in_2023.jpg/500px-Jairo_Martinez_in_2023.jpg",
     questions: [
       { id: "bb_200_01", categoryId: "baseball_deep", tier: 200, prompt: "DiMaggio's 56-game hitting streak in 1941 is the most famous record in baseball. Which team was he playing for?", answer: "New York Yankees", acceptableAnswers: ["Yankees", "New York Yankees"] },
       { id: "bb_200_02", categoryId: "baseball_deep", tier: 200, prompt: "The 'infield fly rule' is one of baseball's most unusual rules. When does it apply?", answer: "When there are runners on first and second (or bases loaded) with fewer than two outs — the batter is automatically out if a fair infield fly is hit, preventing infielders from intentionally dropping it to get a double play", acceptableAnswers: ["runners on first and second", "force play situation", "less than two outs with runners"] },
@@ -47496,6 +47876,7 @@ const CATEGORIES: Category[] = [
     name: "Ancient Mesopotamia",
     culture: "universal",
     description: "The cradle of civilization — Sumer, Akkad, Babylon, and Assyria.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/N-Mesopotamia_and_Syria_english.svg/500px-N-Mesopotamia_and_Syria_english.svg.png",
     questions: [
       { id: "meso_200_01", categoryId: "ancient_mesopotamia", tier: 200, prompt: "Mesopotamia — often called the 'cradle of civilization' — means 'land between the rivers' in Greek. Which two rivers?", answer: "Tigris and Euphrates", acceptableAnswers: ["Tigris", "Euphrates", "Tigris and Euphrates"] },
       { id: "meso_200_02", categoryId: "ancient_mesopotamia", tier: 200, prompt: "The Code of Hammurabi is one of the earliest written legal codes, created around 1754 BC. Which principle does it most famously embody?", answer: "An eye for an eye (lex talionis — the principle of proportional punishment matching the crime)", acceptableAnswers: ["eye for an eye", "lex talionis", "proportional punishment"] },
@@ -47514,6 +47895,7 @@ const CATEGORIES: Category[] = [
     name: "Opera & Classical Masters",
     culture: "universal",
     description: "The great composers, operas, and pivotal works of classical and operatic tradition.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Mozart_family_crop.jpg/500px-Mozart_family_crop.jpg",
     questions: [
       { id: "opera_200_01", categoryId: "classical_opera", tier: 200, prompt: "Which Italian composer wrote Rigoletto, La Traviata, and Aida — considered the greatest opera composer of the 19th century?", answer: "Giuseppe Verdi", acceptableAnswers: ["Verdi", "Giuseppe Verdi"] },
       { id: "opera_200_02", categoryId: "classical_opera", tier: 200, prompt: "Mozart wrote 41 symphonies. His final symphony — believed by many to be his greatest — is nicknamed what?", answer: "Jupiter Symphony (Symphony No. 41 in C major)", acceptableAnswers: ["Jupiter", "Jupiter Symphony"] },
@@ -47550,6 +47932,7 @@ const CATEGORIES: Category[] = [
     name: "South American History",
     culture: "universal",
     description: "From the Inca Empire to independence movements — the continent's defining moments.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Karta_sydamerika_1892.jpg/500px-Karta_sydamerika_1892.jpg",
     questions: [
       { id: "sah_200_01", categoryId: "south_american_history", tier: 200, prompt: "Simón Bolívar is called 'El Libertador' for leading independence movements across South America. He was born in which country?", answer: "Venezuela (born in Caracas, 1783)", acceptableAnswers: ["Venezuela"] },
       { id: "sah_200_02", categoryId: "south_american_history", tier: 200, prompt: "The Inca Empire at its height was the largest empire in pre-Columbian America. Its capital city was — and is now the capital of which country?", answer: "Cusco (Cuzco) — now in Peru", acceptableAnswers: ["Cusco", "Cuzco", "Peru"] },
@@ -47586,6 +47969,7 @@ const CATEGORIES: Category[] = [
     name: "Chess History & Theory",
     culture: "universal",
     description: "The game of kings — its origins, greatest players, and legendary matches.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Starting_position_in_a_chess_game.jpg/500px-Starting_position_in_a_chess_game.jpg",
     questions: [
       { id: "chess_200_01", categoryId: "chess_history", tier: 200, prompt: "Chess is believed to have originated in which country — and under what ancient name?", answer: "India — the game was called Chaturanga (meaning 'four divisions of the military') around the 6th century AD", acceptableAnswers: ["India", "Chaturanga"] },
       { id: "chess_200_02", categoryId: "chess_history", tier: 200, prompt: "In the 'Immortal Game' of 1851, Adolf Anderssen sacrificed both rooks, a bishop, and his queen. Against whom did he play this legendary game?", answer: "Lionel Kieseritzky — in an informal game during the London Chess Tournament, 1851", acceptableAnswers: ["Kieseritzky", "Lionel Kieseritzky"] },
@@ -47604,6 +47988,7 @@ const CATEGORIES: Category[] = [
     name: "Ancient Egypt: Deep Cuts",
     culture: "universal",
     description: "Beyond the pyramids — the politics, religion, and mysteries of pharaonic Egypt.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/%22Table_of_Nations%22_from_the_Book_of_Gates%2C_4th_Division%2C_5th_Hour%2C_Tomb_of_Seti_I%2C_based_on_an_illustration_by_Ernst_Weidenbach_for_Richard_Lepsius%E2%80%99_Denkm%C3%A4ler_aus_%C3%84gypten_und_%C3%84thiopien.png/500px-thumbnail.png",
     questions: [
       { id: "aeg_200_01", categoryId: "ancient_egypt_deep", tier: 200, prompt: "The Rosetta Stone, discovered in 1799, allowed scholars to decode Egyptian hieroglyphics for the first time. It was inscribed in three scripts — name them.", answer: "Ancient Egyptian hieroglyphics, Demotic script, and Ancient Greek", acceptableAnswers: ["hieroglyphics", "demotic", "Greek"] },
       { id: "aeg_200_02", categoryId: "ancient_egypt_deep", tier: 200, prompt: "Cleopatra VII — the last active pharaoh of ancient Egypt — was not ethnically Egyptian. What was her ancestry?", answer: "Macedonian Greek — she was a descendant of Ptolemy I, a general of Alexander the Great. She was the first of her dynasty to actually learn the Egyptian language.", acceptableAnswers: ["Greek", "Macedonian", "Macedonian Greek"] },
@@ -47658,6 +48043,7 @@ const CATEGORIES: Category[] = [
     name: "The French Revolution",
     culture: "universal",
     description: "Liberty, equality, and the guillotine — the decade that changed modern politics forever.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Anonymous_-_Prise_de_la_Bastille.jpg/500px-Anonymous_-_Prise_de_la_Bastille.jpg",
     questions: [
       { id: "frev_200_01", categoryId: "french_revolution", tier: 200, prompt: "The storming of the Bastille on July 14, 1789 is the symbolic start of the French Revolution. What was the Bastille — and how many prisoners were actually inside when it fell?", answer: "The Bastille was a royal fortress and prison in Paris — when it was stormed, only 7 prisoners were inside (4 forgers, 2 lunatics, and 1 aristocrat detained at family request)", acceptableAnswers: ["prison", "fortress", "7 prisoners", "seven prisoners"] },
       { id: "frev_200_02", categoryId: "french_revolution", tier: 200, prompt: "The Declaration of the Rights of Man and of the Citizen (1789) was inspired by which earlier document?", answer: "The American Declaration of Independence (1776) — also influenced by Enlightenment thinkers Locke, Rousseau, and Montesquieu", acceptableAnswers: ["American Declaration of Independence", "US Declaration", "Declaration of Independence"] },
@@ -47676,6 +48062,7 @@ const CATEGORIES: Category[] = [
     name: "Human Anatomy",
     culture: "universal",
     description: "How the body works — systems, organs, and the facts that make you think twice.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/TE-Nervous_system_diagram.svg/500px-TE-Nervous_system_diagram.svg.png",
     questions: [
       { id: "anat_200_01", categoryId: "human_anatomy", tier: 200, prompt: "The human body has 206 bones as an adult. How many bones does a newborn baby have?", answer: "About 270–300 bones — many fuse together during childhood and adolescence", acceptableAnswers: ["270", "300", "about 270-300"] },
       { id: "anat_200_02", categoryId: "human_anatomy", tier: 200, prompt: "Which organ produces insulin — and what happens when it fails to do so?", answer: "The pancreas — specifically the beta cells in the islets of Langerhans. Failure to produce insulin causes Type 1 diabetes.", acceptableAnswers: ["pancreas"] },
@@ -47694,6 +48081,7 @@ const CATEGORIES: Category[] = [
     name: "Greek Mythology: Deep Cuts",
     culture: "universal",
     description: "Beyond Zeus and Heracles — the obscure myths, tragic heroes, and lesser-known gods.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Winged_goddess_Louvre_F32.jpg/500px-Winged_goddess_Louvre_F32.jpg",
     questions: [
       { id: "gmyth_200_01", categoryId: "greek_mythology_deep", tier: 200, prompt: "Prometheus stole fire from the gods and gave it to humanity. What eternal punishment was he given?", answer: "Chained to a rock, an eagle ate his liver every day — which regrew each night because he was immortal, so the cycle continued endlessly", acceptableAnswers: ["eagle ate liver", "liver eaten daily", "chained to rock"] },
       { id: "gmyth_200_02", categoryId: "greek_mythology_deep", tier: 200, prompt: "The Minotaur — half man, half bull — was kept in the Labyrinth of Crete. Who was its mother?", answer: "Pasiphae — wife of King Minos of Crete, who was cursed by Poseidon to fall in love with a bull. Daedalus built her a wooden cow to enable the encounter.", acceptableAnswers: ["Pasiphae"] },
@@ -47712,6 +48100,7 @@ const CATEGORIES: Category[] = [
     name: "World War I",
     culture: "universal",
     description: "The Great War — its causes, defining battles, and lasting consequences.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Bataille_de_Verdun_1916.jpg/500px-Bataille_de_Verdun_1916.jpg",
     questions: [
       { id: "wwi_200_01", categoryId: "wwi_history", tier: 200, prompt: "The assassination that triggered World War I happened in Sarajevo on June 28, 1914. Who was assassinated — and by whom?", answer: "Archduke Franz Ferdinand of Austria-Hungary — assassinated by Gavrilo Princip, a Bosnian Serb nationalist with ties to the Black Hand secret society", acceptableAnswers: ["Franz Ferdinand", "Archduke Franz Ferdinand"] },
       { id: "wwi_200_02", categoryId: "wwi_history", tier: 200, prompt: "The Schlieffen Plan was Germany's strategy to avoid a two-front war. What did it involve?", answer: "A rapid sweep through neutral Belgium to knock out France in six weeks before turning east to fight Russia — the violation of Belgian neutrality brought Britain into the war", acceptableAnswers: ["sweep through Belgium", "knock out France quickly", "two-front strategy"] },
@@ -47820,6 +48209,7 @@ const CATEGORIES: Category[] = [
     name: "The Cold War",
     culture: "universal",
     description: "Nuclear standoffs, proxy wars, and the ideological contest that shaped the modern world.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/NATO_vs._Warsaw_Pact_%281949-1990%29.svg/500px-NATO_vs._Warsaw_Pact_%281949-1990%29.svg.png",
     questions: [
       { id: "cwar_200_01", categoryId: "cold_war", tier: 200, prompt: "The Cuban Missile Crisis (October 1962) lasted 13 days and brought the US and USSR closest to nuclear war. How was it resolved?", answer: "A secret deal: the USSR withdrew missiles from Cuba; the US publicly pledged not to invade Cuba and secretly agreed to remove its Jupiter missiles from Turkey. Kennedy appeared to win publicly — Khrushchev made the real concessions but saved face on Cuba.", acceptableAnswers: ["USSR removed Cuban missiles", "US pledged not to invade Cuba", "Turkey missiles removed secretly", "back-channel deal"] },
       { id: "cwar_200_02", categoryId: "cold_war", tier: 200, prompt: "The Berlin Wall was built overnight on August 13, 1961. Why did East Germany build it — what problem was it solving?", answer: "Mass emigration — over 3.5 million East Germans had fled to the West through Berlin since 1949, causing a catastrophic brain drain. The Wall stopped this hemorrhage by force, trapping East Germans in.", acceptableAnswers: ["stop emigration", "brain drain", "people fleeing East Germany"] },
@@ -47838,6 +48228,7 @@ const CATEGORIES: Category[] = [
     name: "Space Exploration",
     culture: "universal",
     description: "From Sputnik to Mars — the missions, disasters, and discoveries that defined the space age.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/AS11-40-5964_%2821037459754%29.jpg/500px-AS11-40-5964_%2821037459754%29.jpg",
     questions: [
       { id: "space_200_01", categoryId: "space_exploration", tier: 200, prompt: "Apollo 11 landed on the Moon on July 20, 1969. Neil Armstrong was first to step out — but who was second, and who stayed in the Command Module orbiting above?", answer: "Buzz Aldrin was second on the surface; Michael Collins orbited alone in Columbia — arguably the loneliest human in history, losing contact with Earth each time he passed behind the Moon.", acceptableAnswers: ["Buzz Aldrin second", "Michael Collins orbited", "Collins in command module"] },
       { id: "space_200_02", categoryId: "space_exploration", tier: 200, prompt: "The Space Shuttle Challenger broke apart 73 seconds after launch on January 28, 1986, killing all 7 crew. What caused it?", answer: "An O-ring seal failure in the right solid rocket booster — the O-rings became brittle in the unusually cold temperatures that morning. NASA engineers had warned the night before about launching in cold weather; managers overruled them.", acceptableAnswers: ["O-ring failure", "O-ring seal", "cold temperature O-ring"] },
@@ -47856,6 +48247,7 @@ const CATEGORIES: Category[] = [
     name: "Indian History",
     culture: "universal",
     description: "Mughal courts, independence movements, and the civilizations that shaped the subcontinent.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/North_Gateway_-_Rear_Side_-_Stupa_1_-_Sanchi_Hill_2013-02-21_4480-4481.JPG/500px-North_Gateway_-_Rear_Side_-_Stupa_1_-_Sanchi_Hill_2013-02-21_4480-4481.JPG",
     questions: [
       { id: "indh_200_01", categoryId: "indian_history", tier: 200, prompt: "The Taj Mahal was built by Mughal Emperor Shah Jahan. Why did he build it — and approximately how long did it take?", answer: "As a mausoleum for his wife Mumtaz Mahal, who died in 1631 during childbirth (their 14th child). Construction took approximately 22 years (1632–1653), employed 20,000 artisans, and used marble from Makrana, Rajasthan.", acceptableAnswers: ["mausoleum for his wife", "Mumtaz Mahal", "22 years"] },
       { id: "indh_200_02", categoryId: "indian_history", tier: 200, prompt: "Mahatma Gandhi's Salt March (1930) was a pivotal moment in India's independence movement. What was he protesting — and what did the march accomplish?", answer: "The British salt tax and monopoly — Indians were forbidden from producing or selling salt without paying tax. Gandhi led a 240-mile march to the sea at Dandi and made salt from seawater, deliberately breaking the law. It triggered mass civil disobedience across India and exposed British rule's moral bankruptcy internationally.", acceptableAnswers: ["British salt tax", "salt monopoly", "made salt from seawater", "civil disobedience"] },
@@ -47892,6 +48284,7 @@ const CATEGORIES: Category[] = [
     name: "Persian Literature & Culture",
     culture: "arabic",
     description: "Rumi, Hafez, Omar Khayyám — the poetry, art, and civilization of ancient and modern Iran.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Kelileh_va_Demneh.jpg/500px-Kelileh_va_Demneh.jpg",
     questions: [
       { id: "pers_200_01", categoryId: "persian_culture", tier: 200, prompt: "Rumi (Jalal ad-Din Muhammad Rumi) is one of the best-selling poets in the United States. He was a 13th-century Sufi mystic from Khorasan. What is his greatest work — and what triggered him to write it?", answer: "The Masnavi (Masnavi-ye Ma'navi) — a six-volume poem of 25,000 couplets, considered the greatest work of Sufi literature. Triggered by his spiritual friendship (and grief at the loss) of the wandering dervish Shams-e Tabrizi, who disappeared in 1248. Many of the poems are addressed to Shams.", acceptableAnswers: ["Masnavi", "Mathnawi", "Shams-e Tabrizi"] },
       { id: "pers_200_02", categoryId: "persian_culture", tier: 200, prompt: "Omar Khayyám was an 11th-century Persian polymath best known in the West for his Rubaiyat. But what else was he — beyond poet?", answer: "A mathematician and astronomer of the first rank — he reformed the Persian calendar (the Solar Hijri calendar, still used in Iran), solved cubic equations geometrically, and made astronomical observations. His poetry was largely unknown in Persia and the West until Edward FitzGerald's 1859 English translation made him famous.", acceptableAnswers: ["mathematician", "astronomer", "reformed calendar", "solved cubic equations"] },
@@ -47910,6 +48303,7 @@ const CATEGORIES: Category[] = [
     name: "The Ottoman Empire",
     culture: "arabic",
     description: "Six centuries of an empire that bridged three continents and shaped the modern Middle East.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Flag_of_the_Ottoman_Empire_%281844%E2%80%931922%29.svg/500px-Flag_of_the_Ottoman_Empire_%281844%E2%80%931922%29.svg.png",
     questions: [
       { id: "otto_200_01", categoryId: "ottoman_empire", tier: 200, prompt: "The Ottoman Empire captured Constantinople in 1453, ending the Byzantine Empire. Who led the conquest — and how old was he?", answer: "Sultan Mehmed II ('the Conqueror') — he was only 21 years old. He used enormous bronze cannons (including one designed by the Hungarian engineer Urban) to breach the Theodosian Walls, which had resisted siege for a thousand years.", acceptableAnswers: ["Mehmed II", "Mehmed the Conqueror", "21 years old"] },
       { id: "otto_200_02", categoryId: "ottoman_empire", tier: 200, prompt: "The Devshirme system was an Ottoman practice of recruiting the empire's most powerful soldiers and administrators. How did it work?", answer: "The Ottoman state took boys (usually Christian, ages 8–20) from conquered territories every few years, converted them to Islam, educated them in Ottoman ways, and trained them as elite soldiers (Janissaries) or civil servants. The most talented could rise to become viziers and Grand Viziers — technically slaves of the Sultan but among the most powerful men in the empire.", acceptableAnswers: ["took Christian boys", "converted and trained as Janissaries", "child levy", "devshirme"] },
@@ -47946,6 +48340,7 @@ const CATEGORIES: Category[] = [
     name: "Russian History",
     culture: "universal",
     description: "Tsars, revolutions, gulags, and the events that made the world's largest country.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/1730_map_of_the_Russian_Empire_by_Philipp_Johann_Strahlenberg.jpg/500px-1730_map_of_the_Russian_Empire_by_Philipp_Johann_Strahlenberg.jpg",
     questions: [
       { id: "rush_200_01", categoryId: "russian_history", tier: 200, prompt: "Rasputin — the mysterious 'mad monk' — was reportedly impossible to kill. What methods were used in his assassination in 1916 — and what did it take to finish him?", answer: "Prince Felix Yusupov's conspirators reportedly fed him poisoned wine and cakes (the poison seemingly had no effect), shot him, beat him, and threw his body in the Neva River. The autopsy found water in his lungs — suggesting he was still alive when thrown in. However, modern forensic analysis suggests some details were exaggerated by Yusupov. Rasputin's death was real; the legend grew beyond facts.", acceptableAnswers: ["poisoned then shot then drowned", "multiple methods", "water in lungs showed still alive"] },
       { id: "rush_200_02", categoryId: "russian_history", tier: 200, prompt: "Napoleon's invasion of Russia in 1812 ended in catastrophic retreat. What destroyed his Grande Armée — more than Russian military resistance?", answer: "The Russian winter, combined with the scorched-earth policy (Russians burned their own land and Moscow itself rather than let Napoleon use it). The Grande Armée of 685,000 entered Russia; fewer than 120,000 survived the retreat. Supply lines collapsed across vast distances, and troops froze, starved, and were harassed by Cossack raids.", acceptableAnswers: ["Russian winter", "scorched earth policy", "burned Moscow", "supply lines collapsed"] },
@@ -47964,6 +48359,7 @@ const CATEGORIES: Category[] = [
     name: "Ancient Rome",
     culture: "universal",
     description: "The Republic, the Emperors, and the civilization that built the Western world.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Roman_Republic_Empire_map.gif/500px-Roman_Republic_Empire_map.gif",
     questions: [
       { id: "rome_200_01", categoryId: "ancient_rome", tier: 200, prompt: "The Ides of March (March 15, 44 BC) — Julius Caesar was assassinated in the Theatre of Pompey by a group of senators. How many times was he stabbed — and who landed the 'killing blow'?", answer: "Caesar was stabbed 23 times — autopsy by physician Antistius found only one wound was fatal (the second blow to the chest). According to ancient sources, Brutus's dagger was the one Caesar did not resist when he covered his face with his toga and stopped fighting. 'Et tu, Brute' is Shakespeare's invention — the historical Caesar may have said nothing, or said something in Greek.", acceptableAnswers: ["23 times", "Brutus", "one wound fatal", "Et tu Brute is Shakespeare"] },
       { id: "rome_200_02", categoryId: "ancient_rome", tier: 200, prompt: "The Roman Colosseum could hold 50,000–80,000 spectators and hosted gladiatorial games. What percentage of gladiatorial fights actually ended in death?", answer: "Approximately 10–20% of fights ended in death — far fewer than popular imagination suggests. Gladiators were expensive investments (fed a high-protein diet, treated by doctors). A defeated gladiator could appeal to the crowd and sponsor for mercy (missio). Killing a skilled gladiator was expensive and wasteful. The 'thumbs up/down' gesture for mercy is probably a modern myth — ancient sources describe turning the thumb inward.", acceptableAnswers: ["10-20%", "few fights ended in death", "gladiators were expensive", "thumbs up/down is myth"] },
@@ -48000,6 +48396,7 @@ const CATEGORIES: Category[] = [
     name: "Classic Rock",
     culture: "universal",
     description: "Led Zeppelin, The Beatles, Pink Floyd — the albums and stories behind rock's golden era.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Fleetwood_Mac_Billboard_1977.jpg/500px-Fleetwood_Mac_Billboard_1977.jpg",
     questions: [
       { id: "crock_200_01", categoryId: "classic_rock", tier: 200, prompt: "Led Zeppelin's 'Stairway to Heaven' (1971) contains a famous guitar solo often voted the greatest in rock history. Which guitarist plays it — and on what unusual guitar?", answer: "Jimmy Page — playing a borrowed 1959 Harmony Sovereign acoustic guitar through an electrified pickup for the intro, then switching to electric. The solo on the electric was played on a Fender Telecaster (his main guitar before he became associated with the double-neck Gibson EDS-1275).", acceptableAnswers: ["Jimmy Page", "Jimmy Page on Telecaster"] },
       { id: "crock_200_02", categoryId: "classic_rock", tier: 200, prompt: "Bohemian Rhapsody (1975) by Queen was radically unlike anything on radio — it was over 6 minutes and couldn't be easily categorized. What was Freddie Mercury's original working title for it?", answer: "The Cowboy Song — Mercury referred to it this way in early demos. The song went through ballad, opera, and hard rock sections because Mercury wanted to do something 'ridiculous.' Radio DJ Kenny Everett played it on repeat despite its length, generating overwhelming listener demand.", acceptableAnswers: ["The Cowboy Song"] },
@@ -48018,6 +48415,7 @@ const CATEGORIES: Category[] = [
     name: "Middle Eastern Cuisine",
     culture: "arabic",
     description: "Mansaf, meze, mezze feuds — the dishes, origins, and cultural wars of Levantine and Arabian food.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/1f/Middle_East_bakery.png",
     questions: [
       { id: "mefood_200_01", categoryId: "middle_eastern_food", tier: 200, prompt: "Mansaf is Jordan's national dish, served at weddings, funerals, and celebrations. Describe what it is — and what the specific etiquette is when eating it standing.", answer: "Mansaf: lamb cooked in dried fermented yogurt sauce (jameed), served over rice and flatbread (shraak), topped with pine nuts and almonds. Eaten standing around a large communal tray, using only the right hand, forming rice into balls. The host traditionally offers the guest the choicest cuts (shoulder, liver). The jameed is sourced from Karak (الكرك) — Karaki jameed is considered the finest.", acceptableAnswers: ["lamb in jameed yogurt sauce", "eaten standing with right hand", "rice over flatbread", "jameed from Karak"] },
       { id: "mefood_200_02", categoryId: "middle_eastern_food", tier: 200, prompt: "Hummus has sparked genuine national disputes between Lebanon and Israel over who 'invented' it. What does the word hummus actually mean in Arabic — and what is the full dish name?", answer: "Hummus (حمص) simply means 'chickpeas' in Arabic. The full name of the dip is Hummus bi tahini (hummus with sesame paste). The dish is common across the Levant and appears in medieval Arab cookbooks (13th century). No single nation invented it — it predates modern borders by centuries.", acceptableAnswers: ["hummus means chickpeas", "hummus bi tahini", "predates modern borders"] },
@@ -48054,6 +48452,7 @@ const CATEGORIES: Category[] = [
     name: "Climate & Environment",
     culture: "universal",
     description: "The science of Earth's systems — from the ozone layer to ocean acidification.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Ministry-of-Environment-Forest-and-Climate-Change.jpg/500px-Ministry-of-Environment-Forest-and-Climate-Change.jpg",
     questions: [
       { id: "env_200_01", categoryId: "environmental_science", tier: 200, prompt: "The ozone layer depletion crisis of the 1980s is considered one of humanity's most successful environmental responses. What chemical was causing it — and what was the solution?", answer: "CFCs (chlorofluorocarbons) — used in refrigerants, aerosol sprays, and foam blowing — catalytically destroyed ozone molecules, creating a hole over Antarctica. The Montreal Protocol (1987) — signed by all UN nations — phased out CFCs. The ozone hole is now slowly recovering and is expected to return to pre-1980 levels by mid-century. It is often cited as proof that global environmental agreements can work.", acceptableAnswers: ["CFCs", "Montreal Protocol", "chlorofluorocarbons", "ozone recovering"] },
       { id: "env_200_02", categoryId: "environmental_science", tier: 200, prompt: "The Great Pacific Garbage Patch is often depicted as a floating island of plastic. What does it actually look like — and why is that more dangerous?", answer: "It is not a solid island — it is a diffuse soup of microplastics (particles smaller than 5mm) spread across an area roughly twice the size of Texas, mostly invisible to the eye. Because it's not a visible island, it's harder to photograph, publicize, and clean up. Microplastics enter the food chain through fish and plankton. Over 80% of ocean plastic enters from rivers, mostly in Asia.", acceptableAnswers: ["microplastic soup not solid island", "mostly invisible", "harder to clean", "twice size of Texas"] },
@@ -48072,6 +48471,7 @@ const CATEGORIES: Category[] = [
     name: "Mathematics",
     culture: "universal",
     description: "Euclid's proofs to Gödel's incompleteness — the most beautiful ideas in mathematics.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Woman_teaching_geometry.jpg/500px-Woman_teaching_geometry.jpg",
     questions: [
       { id: "math_200_01", categoryId: "mathematics_wonders", tier: 200, prompt: "Fermat's Last Theorem states that no three positive integers can satisfy aⁿ + bⁿ = cⁿ for n > 2. Fermat wrote in 1637 that he had 'a truly marvelous proof' but the margin was too small. How long did it take to actually prove — and who did it?", answer: "358 years — proved by Andrew Wiles in 1994 (published 1995), using mathematical tools (elliptic curves, modular forms) that didn't exist in Fermat's time. Wiles worked secretly for 7 years, then found a fatal flaw in his proof after announcing it publicly — then fixed it in a further year. He described finding the fix as the most beautiful moment of his mathematical life.", acceptableAnswers: ["Andrew Wiles", "358 years", "1994/1995", "elliptic curves"] },
       { id: "math_200_02", categoryId: "mathematics_wonders", tier: 200, prompt: "The number zero was not always obvious — many ancient civilizations didn't have it. Which culture is credited with developing zero as a number (not just a placeholder) — and when?", answer: "Indian mathematicians — specifically, the concept of zero as a number in its own right (that you can calculate with) is documented in Brahmagupta's Brahmasphutasiddhanta (628 AD). Earlier civilizations (Babylon, Maya) had placeholder zeros; Indian mathematics gave zero arithmetic properties (0 + n = n, 0 × n = 0, but 0/0 was recognized as undefined).", acceptableAnswers: ["Indian mathematicians", "Brahmagupta", "628 AD", "India"] },
@@ -48090,6 +48490,7 @@ const CATEGORIES: Category[] = [
     name: "Architecture",
     culture: "universal",
     description: "The buildings that defined civilizations — Gothic cathedrals, Bauhaus, and brutalism.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/View_of_Santa_Maria_del_Fiore_in_Florence.jpg/500px-View_of_Santa_Maria_del_Fiore_in_Florence.jpg",
     questions: [
       { id: "arch_200_01", categoryId: "world_architecture", tier: 200, prompt: "The Eiffel Tower (1889) was built as a temporary structure for the Paris World's Fair and was supposed to be demolished. What saved it?", answer: "Its antenna — the Eiffel Tower became invaluable as a radio transmission tower, particularly for military communications in WWI (it helped intercept messages leading to Mata Hari's arrest). The communications value made demolition unthinkable. It was originally hated by Parisian artists and writers (Maupassant reportedly ate lunch there because it was the only place in Paris where you couldn't see it).", acceptableAnswers: ["radio/communications tower", "military antenna WWI", "saved because of its antenna"] },
       { id: "arch_200_02", categoryId: "world_architecture", tier: 200, prompt: "The Sagrada Família in Barcelona has been under construction since 1882 — over 140 years. Why hasn't it been finished yet — and when is it expected to be completed?", answer: "Antoni Gaudí's design was so complex (using catenary arches, hyperboloid structures, and organic forms without precedent) that construction has required continuous innovation. Gaudí himself worked on it for 43 years and was killed by a tram in 1926. Progress also stopped during the Spanish Civil War (when anarchists burned the workshop and destroyed original drawings). It is now expected to be completed around 2026 (the 100th anniversary of Gaudí's death), using modern computer modeling of his original designs.", acceptableAnswers: ["complexity of Gaudí's design", "Civil War destroyed drawings", "expected 2026", "Gaudí died 1926"] },
@@ -48162,6 +48563,7 @@ const CATEGORIES: Category[] = [
     name: "The Renaissance",
     culture: "universal",
     description: "Florence, Medici money, and the artistic revolution that remade Western civilization.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Da_Vinci_Vitruve_Luc_Viatour.jpg/500px-Da_Vinci_Vitruve_Luc_Viatour.jpg",
     questions: [
       { id: "renais_200_01", categoryId: "the_renaissance", tier: 200, prompt: "Leonardo da Vinci's Mona Lisa (c.1503–1519) is the most visited painting in the world. What is mysterious about the subject — and what makes the painting technically revolutionary?", answer: "The subject: possibly Lisa Gherardini (wife of a Florentine merchant), possibly Leonardo's mother, possibly a self-portrait in female form — scholarly debate is ongoing. Technical innovation: sfumato — Leonardo's technique of blurring edges without outlines (smoke-like) to create lifelike gradations. The smile appears to change depending on where the viewer looks — an effect created by the way the sfumato interacts with peripheral vs. direct vision. The background landscape is deliberately fantastic and geologically implausible.", acceptableAnswers: ["sfumato technique", "blurred edges no outlines", "smile changes with peripheral vision", "identity of subject debated"] },
       { id: "renais_200_02", categoryId: "the_renaissance", tier: 200, prompt: "Michelangelo painted the Sistine Chapel ceiling (1508–1512) while lying on scaffolding. How long did it take — and what was his relationship with the commission?", answer: "Four years (1508–1512). Michelangelo hated the commission — he considered himself a sculptor, not a painter, and initially tried to refuse Pope Julius II. The physical conditions were brutal: paint dripped in his eyes, his back and neck were permanently damaged, and he wrote poems about his discomfort ('I've already grown a goitre from this torture'). The Creation of Adam is often reproduced as the central image, though it is actually toward the center of a 9-panel sequence telling Genesis.", acceptableAnswers: ["four years", "hated the commission", "considered himself a sculptor", "permanent back damage"] },
@@ -48180,6 +48582,7 @@ const CATEGORIES: Category[] = [
     name: "The Vietnam War",
     culture: "universal",
     description: "The conflict that defined a generation — from French Indochina to the fall of Saigon.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg/500px-U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg",
     questions: [
       { id: "viet_200_01", categoryId: "vietnam_war", tier: 200, prompt: "The Gulf of Tonkin incident (August 1964) gave Lyndon Johnson Congressional authority to escalate US involvement in Vietnam. What is now known about what actually happened?", answer: "The first incident (August 2) was real — North Vietnamese torpedo boats attacked the USS Maddox. The second incident (August 4) was either entirely fabricated or a confused misreading of sonar by nervous sailors in bad weather. Johnson knew this — NSA intercepts showed no second attack occurred. He used both incidents to pass the Gulf of Tonkin Resolution, which gave him blank-check authority to wage war without a Congressional declaration. Defense Secretary McNamara later admitted the second attack never happened.", acceptableAnswers: ["second attack probably didn't happen", "Gulf of Tonkin fabricated or confused", "McNamara admitted it", "blank-check war authority without declaration"] },
       { id: "viet_200_02", categoryId: "vietnam_war", tier: 200, prompt: "The Tet Offensive (January 31, 1968) shocked Americans because it contradicted what the US government had been saying. What was the Tet Offensive — and why was Walter Cronkite's reaction significant?", answer: "The North Vietnamese and Viet Cong launched a coordinated attack on over 100 South Vietnamese cities and towns simultaneously during the lunar New Year ceasefire — including the US Embassy compound in Saigon. The military impact was disastrous for the attackers (enormous casualties). But it proved the 'light at the end of the tunnel' narrative was false. Walter Cronkite — the most trusted man in America — broadcast a rare editorial calling the war a stalemate. LBJ reportedly said 'If I've lost Cronkite, I've lost Middle America.'", acceptableAnswers: ["simultaneous attacks on 100+ cities", "Cronkite said it was a stalemate", "disproved 'light at the end of tunnel'", "LBJ lost Cronkite"] },
@@ -48198,6 +48601,7 @@ const CATEGORIES: Category[] = [
     name: "Genetics & Evolution",
     culture: "universal",
     description: "DNA, natural selection, and the mechanisms that explain the diversity of life.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Darwin_Tree_1837.png/500px-Darwin_Tree_1837.png",
     questions: [
       { id: "gen_200_01", categoryId: "genetics_evolution", tier: 200, prompt: "Gregor Mendel's pea plant experiments (1856–1863) founded genetics — yet his work was ignored for 35 years after publication. What specifically did his experiments reveal?", answer: "That hereditary traits are passed in discrete units (what we now call genes) that don't blend — dominant traits mask recessive ones in predictable 3:1 ratios. Mendel's insight: traits segregate independently during reproduction (not all traits of one parent go together). He published in a regional Czech scientific journal in 1866; the paper was ignored until 1900 when three scientists independently rediscovered the same laws and found Mendel had preceded them.", acceptableAnswers: ["dominant and recessive traits", "3:1 ratio", "discrete units not blending", "independent segregation"] },
       { id: "gen_200_02", categoryId: "genetics_evolution", tier: 200, prompt: "CRISPR-Cas9 is described as 'molecular scissors.' What does it actually do — and where did scientists originally find the Cas9 protein?", answer: "CRISPR-Cas9 is a bacterial immune system — bacteria store fragments of viral DNA in their genome (CRISPR sequences) to recognize returning viruses. Cas9 is an enzyme that cuts DNA at a specific location guided by an RNA sequence. Scientists (Doudna and Charpentier, 2012) showed this could be reprogrammed to cut any target DNA sequence with high precision — enabling specific gene deletion, replacement, or modification. Found in Streptococcus pyogenes (a common throat bacteria).", acceptableAnswers: ["bacterial immune system repurposed", "Cas9 cuts DNA at specific location", "from Streptococcus pyogenes", "RNA-guided DNA cutting"] },
@@ -48216,6 +48620,7 @@ const CATEGORIES: Category[] = [
     name: "Impressionism & Modern Art",
     culture: "universal",
     description: "From Monet's haystacks to Picasso's Guernica — the revolution that broke painting.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Henri_Rousseau_%28French%29_-_A_Centennial_of_Independence_-_Google_Art_Project.jpg/500px-Henri_Rousseau_%28French%29_-_A_Centennial_of_Independence_-_Google_Art_Project.jpg",
     questions: [
       { id: "imp_200_01", categoryId: "impressionism_art", tier: 200, prompt: "The name 'Impressionism' came from a critic's mockery of a specific painting. Which painting — and what did the critic mean by the insult?", answer: "Monet's Impression, Sunrise (1872) — shown at the first Impressionist exhibition (1874). Critic Louis Leroy wrote mockingly 'Impression — I was certain of it. I was just telling myself that, since I was impressed, there had to be some impression in it.' He meant the painting was unfinished, sketchy, and without the precise rendering expected. The artists adopted the name defiantly.", acceptableAnswers: ["Impression Sunrise by Monet", "Monet 1874", "critic meant it was unfinished"] },
       { id: "imp_200_02", categoryId: "impressionism_art", tier: 200, prompt: "Vincent van Gogh sold only one painting during his lifetime and was considered a failure. How many works did he produce — and what was the one painting sold?", answer: "Over 900 paintings and 1,100 drawings in just 10 years (1880–1890). The one painting sold: The Red Vineyard (1888), sold to Belgian painter Anna Boch for 400 francs in 1890 — months before his death. His brother Theo van Gogh was his dealer and primary financial supporter. Van Gogh's letters to Theo (over 650 letters) are considered as significant as his paintings for understanding his mental state and artistic vision.", acceptableAnswers: ["The Red Vineyard", "sold to Anna Boch", "900 paintings in 10 years"] },
@@ -48234,6 +48639,7 @@ const CATEGORIES: Category[] = [
     name: "Medieval Europe",
     culture: "universal",
     description: "The Black Death, the Crusades, and the feudal world between Rome's fall and the Renaissance.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Canterbury_Cathedral%2C_window_nXV_detail_%2846220634195%29.jpg/500px-Canterbury_Cathedral%2C_window_nXV_detail_%2846220634195%29.jpg",
     questions: [
       { id: "mediev_200_01", categoryId: "medieval_europe", tier: 200, prompt: "The Black Death (1347–1351) killed approximately what percentage of Europe's population — and how did it actually transform European society?", answer: "Approximately 30–60% of Europe's population died (estimated 25–50 million in Europe alone, 75–200 million globally). Transformations: labor became scarce, breaking serfdom (surviving peasants could demand higher wages); the Church's authority was undermined (prayer clearly failed against plague, and clergy died proportionally); it may have triggered the labor shortage that eventually spurred technological innovation (printing press, labor-saving devices). The psychological effect produced flagellant movements, Jewish pogroms (blamed for poisoning wells), and the Danse Macabre art tradition.", acceptableAnswers: ["30-60% of Europe died", "broke serfdom", "undermined Church authority", "labor shortage drove innovation"] },
       { id: "mediev_200_02", categoryId: "medieval_europe", tier: 200, prompt: "The Magna Carta (1215) is often cited as a foundation of constitutional government. Who signed it, what did it actually say — and who was it designed to protect?", answer: "Signed by King John at Runnymede under pressure from rebellious barons. Originally protected barons' rights against arbitrary royal confiscation of lands and imprisonment without trial — it was explicitly NOT a universal charter of rights. The most significant clause (habeas corpus concept) required the king to have lawful judgment before imprisoning a 'free man' — in 1215, this meant barons, not common people. It was reissued repeatedly and gradually expanded in meaning. Its modern significance as a foundation of rule-of-law was largely constructed retrospectively.", acceptableAnswers: ["King John signed", "protected barons not common people", "habeas corpus concept", "meaning expanded retrospectively"] },
@@ -48252,6 +48658,7 @@ const CATEGORIES: Category[] = [
     name: "Ancient Greece: Politics & Society",
     culture: "universal",
     description: "How Athens invented democracy, ran it corruptly, and destroyed itself — lessons from antiquity.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Greek_gymnasium_in_Sardes_from_the_side.jpg/500px-Greek_gymnasium_in_Sardes_from_the_side.jpg",
     questions: [
       { id: "grkp_200_01", categoryId: "greek_democracy_politics", tier: 200, prompt: "Athenian democracy was the world's first — but it excluded most people. Who could vote — and who couldn't?", answer: "Only adult male citizens who had completed military training could vote — approximately 30,000 of a total population of ~250,000–300,000 in Athens. Excluded: women, slaves (who may have been 30–40% of the population), resident foreigners (metics), and freed slaves. This means roughly 10–15% of the population had full political rights — but those 10–15% participated far more directly than modern citizens (Assembly met 40 times a year, courts had 500-person juries).", acceptableAnswers: ["adult male citizens only", "excluded women slaves foreigners", "10-15% of population", "30,000 of 250,000"] },
       { id: "grkp_200_02", categoryId: "greek_democracy_politics", tier: 200, prompt: "Ostracism in Athens was a democratic mechanism used to banish citizens. How did it actually work — and who was its most famous victim?", answer: "Once a year, Athenians could vote to exile someone for 10 years (without criminal charge) by writing a name on a pottery shard (ostrakon). If more than 6,000 votes were cast, the person with the most votes was exiled. Aristides 'the Just' was ostracized — the story goes that an illiterate citizen asked Aristides (not recognizing him) to write 'Aristides' on his shard; when asked why, he said he was tired of hearing him called 'the Just.' Aristides wrote his own name. Themistocles, the strategist of Salamis, was also later ostracized.", acceptableAnswers: ["pottery shard vote", "10-year exile without charge", "Aristides the Just", "Themistocles", "6,000 vote threshold"] },
@@ -48270,6 +48677,7 @@ const CATEGORIES: Category[] = [
     name: "American History: Deep Cuts",
     culture: "universal",
     description: "The events, decisions, and figures that shaped the US — beyond the textbook basics.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/A_Perfect_Circle_Lollapalooza_Chile_2013.jpg/500px-A_Perfect_Circle_Lollapalooza_Chile_2013.jpg",
     questions: [
       { id: "amhd_200_01", categoryId: "american_history_deep", tier: 200, prompt: "The 1919 'Red Summer' is largely absent from American history education. What was it?", answer: "A series of race riots across 25+ American cities (summer and fall 1919) in which white mobs attacked Black communities — burning neighborhoods, lynching, and killing hundreds. The term was coined by NAACP activist James Weldon Johnson. Causes: Black veterans returning from WWI refused to accept pre-war racial hierarchy; 'Great Migration' had brought Black workers north; white workers feared economic competition. Major events in Chicago, Knoxville, Washington D.C., and Omaha.", acceptableAnswers: ["race riots in 25 cities 1919", "white mobs attacked Black communities", "returning Black veterans refused subordination", "James Weldon Johnson"] },
       { id: "amhd_200_02", categoryId: "american_history_deep", tier: 200, prompt: "The Trail of Tears (1838–1839) forcibly relocated Cherokee people from Georgia to present-day Oklahoma. What Supreme Court decision had just ruled in the Cherokee's favor — and how did President Jackson respond?", answer: "Worcester v. Georgia (1832) ruled that Georgia had no authority over Cherokee territory — only the federal government could deal with tribes. Jackson reportedly said 'John Marshall has made his decision; now let him enforce it.' He ignored the ruling and proceeded with removal. Approximately 4,000–6,000 of the 16,543 Cherokee who were relocated died on the march — from cold, disease, and starvation.", acceptableAnswers: ["Worcester v. Georgia", "Jackson ignored the Supreme Court", "4,000-6,000 died", "John Marshall ruling ignored"] },
@@ -48288,6 +48696,7 @@ const CATEGORIES: Category[] = [
     name: "Astronomy & Cosmology",
     culture: "universal",
     description: "Black holes, the Big Bang, and the scale of the universe that makes everything else feel small.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/The_Hubble_eXtreme_Deep_Field.jpg/500px-The_Hubble_eXtreme_Deep_Field.jpg",
     questions: [
       { id: "astro_200_01", categoryId: "astronomy_cosmos", tier: 200, prompt: "The observable universe is approximately how large — and what does 'observable' mean in this context?", answer: "The observable universe has a radius of approximately 46 billion light-years (despite the universe being only 13.8 billion years old — the difference is because space has been expanding while light traveled). 'Observable' means the region from which light has had time to reach us since the Big Bang. Beyond this boundary, light from those regions hasn't reached us yet. The total universe may be vastly larger — or infinite.", acceptableAnswers: ["46 billion light-years radius", "light that had time to reach us", "universe older but expansion means larger boundary", "total universe may be infinite"] },
       { id: "astro_200_02", categoryId: "astronomy_cosmos", tier: 200, prompt: "What is a black hole — and how do we know they exist if no light can escape them?", answer: "A region where matter is compressed so densely that the escape velocity exceeds the speed of light — the event horizon is the point of no return. We know they exist through: gravitational effects on nearby stars (orbits reveal massive invisible objects); accretion disk radiation (matter falling in heats to extreme temperatures and emits X-rays); gravitational waves (LIGO detected two black holes merging in 2015 — first direct detection); direct imaging (the Event Horizon Telescope photographed M87*'s shadow in 2019 and Sagittarius A* in 2022).", acceptableAnswers: ["escape velocity exceeds light speed", "gravitational effects on stars", "LIGO gravitational waves 2015", "Event Horizon Telescope image 2019"] },
@@ -48306,6 +48715,7 @@ const CATEGORIES: Category[] = [
     name: "WWII: The Details",
     culture: "universal",
     description: "Beyond D-Day and Hiroshima — the specific decisions, people, and moments that decided the war.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/World_War_II_Casualties.svg/500px-World_War_II_Casualties.svg.png",
     questions: [
       { id: "ww2_200_01", categoryId: "wwii_deep_cuts", tier: 200, prompt: "The Enigma machine was the German military's encryption system. How was it broken — and where was the decryption work done?", answer: "At Bletchley Park, England — primarily by mathematician Alan Turing, who built the 'Bombe' electromechanical device to test possible settings. The initial break came via Polish mathematicians (Marian Rejewski) who reconstructed Enigma before the war. British intelligence called the decoded intelligence 'Ultra.' Historians estimate Ultra shortened the war by 2–4 years. Turing's contribution was kept secret for decades — he was prosecuted for homosexuality in 1952 and chemically castrated; he died in 1954.", acceptableAnswers: ["Bletchley Park", "Alan Turing", "Polish mathematicians broke it first", "Ultra intelligence", "Bombe machine"] },
       { id: "ww2_200_02", categoryId: "wwii_deep_cuts", tier: 200, prompt: "Operation Barbarossa (June 22, 1941) — Germany's invasion of the Soviet Union — was the largest military operation in history. Why did Stalin refuse to believe it was coming despite extensive warnings?", answer: "Stalin received over 100 warnings — from Soviet intelligence, British intelligence (based on Enigma), and his own spy Richard Sorge in Tokyo. He dismissed them as British provocations designed to drag the USSR into war. He had a psychological block: he believed Hitler was rational enough to not fight on two fronts, and he feared any defensive preparations might provoke the attack. When the invasion came, initial Soviet commanders who reported it were told they were panicking — Stalin took hours to accept reality.", acceptableAnswers: ["Stalin dismissed over 100 warnings", "believed it was British provocation", "trusted Hitler was rational", "Richard Sorge warned him", "took hours to accept reality"] },
@@ -48342,6 +48752,7 @@ const CATEGORIES: Category[] = [
     name: "Television History",
     culture: "universal",
     description: "From I Love Lucy to The Wire — how TV became the dominant storytelling form of the 20th century.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Family_watching_television_1958.jpg/500px-Family_watching_television_1958.jpg",
     questions: [
       { id: "tvhist_200_01", categoryId: "television_history", tier: 200, prompt: "The first moon landing was watched live on television by approximately what fraction of the world's population — and what made it technically remarkable to broadcast?", answer: "Approximately 600 million people watched — roughly 1 in 5 people alive in 1969. Technical challenge: transmitting live video from the Moon required special slow-scan cameras (the TV signal had to be converted for broadcast). The signal was received at Parkes Observatory (Australia), Goldstone (California), and Honeysuckle Creek (Australia) — and the final broadcast came from Parkes. The footage showed the landing in real time with approximately 1.3 seconds of signal delay.", acceptableAnswers: ["600 million viewers", "1 in 5 people on Earth", "Parkes Observatory Australia", "slow-scan cameras converted for broadcast"] },
       { id: "tvhist_200_02", categoryId: "television_history", tier: 200, prompt: "The Sopranos (1999–2007) is often cited as the beginning of the 'Golden Age of Television.' What was innovative about its storytelling — and what happened in its final scene?", answer: "The Sopranos made a morally complex, psychologically realistic mob boss the 'protagonist' — using a therapy frame to explore interiority without making Tony Goodfellas-style charismatic. It treated TV as a 13-episode novel with season-long arcs. The final scene: Tony and his family are in a diner, an ominous man enters the bathroom (a Godfather kill-setup reference), and then — cut to black mid-scene, mid-song. The audience's screen goes black for 10+ seconds before credits. Creator David Chase has never definitively explained it; most read it as Tony's death from his POV (the moment of death, darkness).", acceptableAnswers: ["morally complex protagonist", "therapy frame", "cut to black final scene", "Tony dies from his POV interpretation"] },
@@ -48378,6 +48789,7 @@ const CATEGORIES: Category[] = [
     name: "Olympic History",
     culture: "universal",
     description: "From Athens 1896 to Paris 2024 — the greatest moments, controversies, and athletes.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Si%C3%A8ge_CIO_2020_%281%29.jpg/500px-Si%C3%A8ge_CIO_2020_%281%29.jpg",
     questions: [
       { id: "olym_200_01", categoryId: "olympic_history", tier: 200, prompt: "Jesse Owens won four gold medals at the 1936 Berlin Olympics — hosted by Nazi Germany. What did Hitler do when Owens won — and what is the famous myth about it?", answer: "The myth: Hitler snubbed Owens by refusing to shake his hand. The reality: Hitler did not publicly congratulate any athletes after day one (when the IOC president told him to congratulate all or none). Owens himself said Hitler actually waved and nodded to him from the viewing box, which Owens considered an acknowledgement. What is true: President Roosevelt did not invite Owens to the White House or send him a congratulatory telegram — the slight from his own president hurt Owens far more than Hitler's non-acknowledgement.", acceptableAnswers: ["Hitler snub is a myth", "Hitler waved to Owens", "Roosevelt didn't invite Owens to White House", "Owens was more hurt by FDR than Hitler"] },
       { id: "olym_200_02", categoryId: "olympic_history", tier: 200, prompt: "The 1972 Munich Olympics massacre killed 11 Israeli athletes. What were the Palestinian group's demands — and what happened to both the hostages and the attackers?", answer: "Black September terrorists demanded the release of 234 Palestinian prisoners held in Israel, plus specific German-held prisoners. Israel refused. In a botched West German rescue operation at Fürstenfeldbruck airbase, all 11 remaining Israeli hostages were killed — along with one West German police officer and five of the eight attackers. Three attackers were captured. Israel launched Operation Wrath of God (later Operation Bayonet) — a targeted assassination campaign against Black September leaders. Most of the surviving planners were killed over the following years.", acceptableAnswers: ["demanded Palestinian prisoners from Israel", "all 11 hostages killed at Fürstenfeldbruck", "Operation Wrath of God Israel's revenge", "botched German rescue"] },
@@ -48396,6 +48808,7 @@ const CATEGORIES: Category[] = [
     name: "Modern Middle East",
     culture: "arabic",
     description: "The Arab Spring, Gulf geopolitics, and the forces reshaping the region.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Middle_east_graphic_2003.jpg/500px-Middle_east_graphic_2003.jpg",
     questions: [
       { id: "mep_200_01", categoryId: "middle_east_politics", tier: 200, prompt: "The Arab Spring began in Tunisia in December 2010 when a single act of protest triggered a regional uprising. What happened — and why Tunisia first?", answer: "Mohamed Bouazizi, a 26-year-old street vendor in Sidi Bouzid, set himself on fire on December 17, 2010 after a municipal official confiscated his cart and reportedly slapped him (he lacked a permit). The video spread via social media; massive protests forced President Ben Ali to flee after 23 years in power (January 14, 2011). Tunisia: because it had a relatively educated, urbanized population with social media access; a weak and divided security apparatus; and long-suppressed economic frustration. Tunisia became the Arab Spring's only durable democratic transition (though since reversed).", acceptableAnswers: ["Mohamed Bouazizi self-immolation", "confiscated cart sparked protest", "social media spread video", "Ben Ali fled January 2011", "Tunisia only durable transition"] },
       { id: "mep_200_02", categoryId: "middle_east_politics", tier: 200, prompt: "The UAE (United Arab Emirates) is a federation of seven emirates. Which emirate has most of the oil — and which has become the global financial and cultural hub?", answer: "Abu Dhabi has approximately 95% of the UAE's oil reserves and the sovereign wealth fund (ADIA — Abu Dhabi Investment Authority, one of the world's largest). Dubai has very little oil and deliberately diversified into finance, trade, real estate, and tourism — building the Burj Khalifa, Palm Jumeirah, and making itself a global logistics hub. Dubai is the population center and cultural face of the UAE internationally; Abu Dhabi holds the financial and political power as the capital emirate.", acceptableAnswers: ["Abu Dhabi has 95% of oil", "Dubai is the financial and cultural hub", "Abu Dhabi has sovereign wealth fund ADIA", "Dubai diversified from oil"] },
@@ -48414,6 +48827,7 @@ const CATEGORIES: Category[] = [
     name: "Quantum Physics",
     culture: "universal",
     description: "The deeply strange rules of the very small — superposition, entanglement, and the measurement problem.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Hydrogen_Density_Plots.png/500px-Hydrogen_Density_Plots.png",
     questions: [
       { id: "qphys_200_01", categoryId: "quantum_physics", tier: 200, prompt: "Schrödinger's Cat is the most famous thought experiment in physics. Describe it — and what paradox was it designed to expose?", answer: "A cat is placed in a box with a radioactive atom, a Geiger counter, a hammer, and a vial of poison. If the atom decays, the Geiger counter triggers the hammer, breaking the vial, killing the cat. Quantum mechanics says the atom is in a superposition (simultaneously decayed and not decayed) until observed. Schrödinger's point: applying this logic to the macro world produces absurdity — the cat would be simultaneously alive and dead until someone opens the box. He designed the experiment to expose a problem with the Copenhagen Interpretation, not to endorse it.", acceptableAnswers: ["cat simultaneously alive and dead until observed", "exposes paradox of applying quantum superposition to macroscale", "critique of Copenhagen Interpretation", "atom in superposition until observed"] },
       { id: "qphys_200_02", categoryId: "quantum_physics", tier: 200, prompt: "The double-slit experiment is called the 'central mystery' of quantum mechanics. What happens — and why is it so strange?", answer: "Electrons (or photons) fired one at a time at a barrier with two slits create an interference pattern on a screen behind — as if each electron went through both slits simultaneously and interfered with itself. When you add a detector to observe which slit the electron actually goes through, the interference pattern disappears — and you get two bands (as if it went through one slit like a particle). The act of measurement collapses the wave function. The electron somehow 'knows' whether it is being observed.", acceptableAnswers: ["interference pattern without detector", "pattern disappears when observed", "electron goes through both slits", "measurement collapses wave function"] },
@@ -48432,6 +48846,7 @@ const CATEGORIES: Category[] = [
     name: "The British Empire",
     culture: "universal",
     description: "How a small island came to rule a quarter of the world — and what it cost everyone.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Great_Britain_%281707%E2%80%931800%29.svg/500px-Flag_of_Great_Britain_%281707%E2%80%931800%29.svg.png",
     questions: [
       { id: "britemp_200_01", categoryId: "british_empire", tier: 200, prompt: "At its peak, the British Empire covered approximately what fraction of Earth's land area — and what common phrase summarizes its continuous daylight coverage?", answer: "Approximately one quarter (24%) of Earth's land area — about 33.7 million km². The phrase: 'The sun never sets on the British Empire' — because at any time of day, some part of the Empire was in daylight. At its peak (~1920), it included India, Australia, Canada, much of Africa, parts of the Middle East, and hundreds of smaller territories.", acceptableAnswers: ["one quarter of Earth's land", "sun never sets", "24% of Earth's surface"] },
       { id: "britemp_200_02", categoryId: "british_empire", tier: 200, prompt: "The East India Company was a private corporation that governed India for nearly 100 years. What event ended its rule — and what replaced it?", answer: "The Indian Rebellion of 1857 (the 'Indian Mutiny') — the Company's failure to suppress the rebellion without enormous imperial military support exposed its inadequacy. The Government of India Act (1858) dissolved the East India Company and transferred rule of India directly to the British Crown — with a Viceroy replacing the Company's governor-general. India became the centerpiece of the British Empire, and Queen Victoria was declared Empress of India in 1876.", acceptableAnswers: ["1857 rebellion ended East India Company", "British Crown took direct control", "Government of India Act 1858", "Victoria became Empress of India"] },
@@ -48450,6 +48865,7 @@ const CATEGORIES: Category[] = [
     name: "Latin America",
     culture: "universal",
     description: "The history, art, and politics of the region from the Aztec Empire to Gabriel García Márquez.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Latin_America_%28orthographic_projection%29.svg/500px-Latin_America_%28orthographic_projection%29.svg.png",
     questions: [
       { id: "latam_200_01", categoryId: "latin_america_culture", tier: 200, prompt: "The Aztec Empire was conquered by Hernán Cortés and approximately 600 Spanish soldiers in 1521. This seems impossible — what actually happened?", answer: "Cortés exploited: (1) the legend that the god Quetzalcoatl would return in Aztec mythology (a convenient but possibly overstated factor); (2) alliance with the Tlaxcalans and other peoples who resented Aztec domination — Cortés had perhaps 100,000 indigenous allies vs. 600 Spanish; (3) smallpox devastated Tenochtitlan during the siege — the population had no immunity; (4) Spanish steel, firearms, and horses provided tactical advantages. The Aztec empire's centralized tributary system had generated enemies among subordinated peoples who eagerly joined the Spanish against it.", acceptableAnswers: ["Tlaxcalan and other indigenous allies", "smallpox killed majority of defenders", "100,000 indigenous allies", "Aztec tributaries rebelled"] },
       { id: "latam_200_02", categoryId: "latin_america_culture", tier: 200, prompt: "Gabriel García Márquez's One Hundred Years of Solitude (1967) was rejected by which publisher before becoming a landmark — and what was his famous story about the manuscript?", answer: "Rejected by: the manuscript was sent to a Buenos Aires publisher, Editorial Sudamericana — but García Márquez had insufficient money to mail the entire manuscript. He mailed the second half first, then had to borrow money to mail the first half. The publisher immediately recognized it as exceptional. It sold 8,000 copies in its first week in Latin America — unprecedented. García Márquez won the Nobel Prize in Literature in 1982. The novel launched 'magical realism' as a global literary movement.", acceptableAnswers: ["Editorial Sudamericana Buenos Aires", "couldn't afford to mail the whole manuscript", "mailed second half first", "Nobel 1982"] },
@@ -48468,6 +48884,7 @@ const CATEGORIES: Category[] = [
     name: "Wine & Viticulture",
     culture: "universal",
     description: "Terroir, varietals, and the culture behind the world's most analyzed beverage.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Wine_grapes03.jpg/500px-Wine_grapes03.jpg",
     questions: [
       { id: "wine_200_01", categoryId: "wine_culture", tier: 200, prompt: "The 'Judgment of Paris' (1976) was a blind tasting that shocked the wine world. What happened — and why was it significant?", answer: "American wine expert Steven Spurrier organized a blind tasting in Paris with French judges. The results: a California Chardonnay (Chateau Montelena 1973) and a California Cabernet Sauvignon (Stag's Leap 1973) both came first in their categories — over top Burgundies and Bordeaux. French judges refused to believe the results when revealed; one judge asked for her scorecard back. This proved California wines could rival the best in the world — and transformed the global wine industry by legitimizing New World wines.", acceptableAnswers: ["California wines beat French in blind tasting", "Chateau Montelena won", "Stag's Leap won red category", "French judges couldn't believe results"] },
       { id: "wine_200_02", categoryId: "wine_culture", tier: 200, prompt: "Champagne can only come from the Champagne region of France. What is the traditional method (méthode champenoise) — and what creates the bubbles?", answer: "After the first fermentation, still wine is bottled with added sugar and yeast (the 'liqueur de tirage'). A second fermentation occurs in the bottle — yeast consumes the sugar and produces CO2, which is trapped in the bottle and dissolves into the wine. The bottle is riddled (gradually tilted and rotated — traditionally by hand, now mechanically) to consolidate the yeast sediment into the neck. The neck is frozen, the sediment plug expelled (dégorgement), and the bottle topped up with the 'dosage' (sugar and wine mixture that determines sweetness level). The bubbles are purely CO2 from fermentation in the bottle.", acceptableAnswers: ["second fermentation in the bottle", "CO2 trapped from yeast", "riddling consolidates yeast", "dégorgement removes yeast plug", "dosage sets sweetness"] },
@@ -48504,6 +48921,7 @@ const CATEGORIES: Category[] = [
     name: "Sociology & Society",
     culture: "universal",
     description: "Durkheim, Weber, and Bourdieu — the thinkers who explained how societies actually work.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Social_Network_Diagram_%28segment%29.svg/500px-Social_Network_Diagram_%28segment%29.svg.png",
     questions: [
       { id: "soc_200_01", categoryId: "sociology_theory", tier: 200, prompt: "Émile Durkheim studied suicide — a seemingly individual act — to demonstrate something about society. What was his argument — and how did he categorize suicides?", answer: "Durkheim's Suicide (1897): suicide rates vary systematically across social groups — suggesting social forces (not just individual psychology) drive them. His types: (1) Egoistic — too little social integration (the isolated individual); (2) Altruistic — too much integration (soldiers sacrificing themselves, religious martyrdom); (3) Anomic — too little moral regulation (during rapid social change, norms break down). The insight: social facts exist outside individuals and constrain behavior. Suicide rates are a 'social fact' — remarkably stable in populations year-to-year.", acceptableAnswers: ["egoistic altruistic anomic types", "social integration determines suicide rates", "social facts constrain individual behavior", "stable suicide rates suggest social causes"] },
       { id: "soc_200_02", categoryId: "sociology_theory", tier: 200, prompt: "Max Weber's 'Protestant Ethic and the Spirit of Capitalism' (1905) argued that religion caused economic transformation. What was the connection he identified?", answer: "Calvinist theology held that salvation was pre-determined (predestination) — you couldn't earn heaven by good works. This created anxiety: how do you know if you're saved? Success in your 'calling' (worldly occupation) became read as a sign of God's favor. This drove Calvinists to work intensively, reinvest profits rather than spend them on luxury (asceticism), and accumulate systematically — precisely the behaviors capitalism required. Weber argued this Protestant ethic was a necessary cultural precondition for capitalism's development in Western Europe, not present in Asia despite similar economic conditions.", acceptableAnswers: ["Calvinist predestination created anxiety about salvation", "worldly success as sign of God's favor", "reinvesting profits not luxury", "cultural precondition for capitalism"] },
@@ -48522,6 +48940,7 @@ const CATEGORIES: Category[] = [
     name: "Technology History",
     culture: "universal",
     description: "From the printing press to the internet — the inventions that changed everything.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Ur_chariot.jpg/500px-Ur_chariot.jpg",
     questions: [
       { id: "tech_200_01", categoryId: "technology_history", tier: 200, prompt: "The World Wide Web was invented by Tim Berners-Lee at CERN in 1989. What is the crucial distinction between 'the internet' and 'the World Wide Web'?", answer: "The internet is the physical infrastructure — cables, routers, servers, and protocols (TCP/IP) connecting computers globally (existed since the 1960s as ARPANET). The World Wide Web is an application that runs on top of the internet — a system of hyperlinked documents and resources accessed via URLs and HTTP. The internet also carries email, FTP, streaming, VoIP, and many other protocols. Berners-Lee invented the Web — not the internet. He also deliberately chose not to patent it, making it freely available.", acceptableAnswers: ["internet is infrastructure", "web is application running on internet", "Berners-Lee invented web not internet", "didn't patent it"] },
       { id: "tech_200_02", categoryId: "technology_history", tier: 200, prompt: "The personal computer revolution is often credited to Apple and IBM — but which company made the crucial software decision that gave Microsoft its dominance?", answer: "IBM — when IBM rushed to build the IBM PC (1981), they licensed the operating system from Microsoft (MS-DOS). Critically: IBM didn't buy the rights to MS-DOS and allowed Microsoft to license it to other manufacturers. IBM thought the hardware was the business; Gates knew the software would be. Every IBM-compatible PC clone ran MS-DOS → Windows. By the 1990s, Compaq, Dell, and hundreds of other manufacturers were building IBM-compatible PCs with Microsoft software — Microsoft dominated the OS market without owning the hardware. IBM's PC division eventually collapsed.", acceptableAnswers: ["IBM licensed MS-DOS instead of buying it exclusively", "allowed Microsoft to license to others", "Gates knew software not hardware was the business", "IBM thought hardware was the profit"] },
@@ -48540,6 +48959,7 @@ const CATEGORIES: Category[] = [
     name: "Ancient Seafarers",
     culture: "universal",
     description: "The Phoenicians, Polynesians, and Vikings who mapped the world before cartography existed.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Khao_Lak_Beach%2C_Thailand.jpg/500px-Khao_Lak_Beach%2C_Thailand.jpg",
     questions: [
       { id: "seafar_200_01", categoryId: "ancient_seafarers", tier: 200, prompt: "The Phoenicians are credited with creating the alphabet. What makes their alphabet significant — and how did it become the ancestor of Greek, Latin, Arabic, and Hebrew writing?", answer: "The Phoenician alphabet (c.1050 BC) was the first widely used abjad (consonant alphabet) — only consonants, no vowels (readers supplied vowels from context). Unlike Egyptian hieroglyphs or Mesopotamian cuneiform (hundreds of signs), it had only 22 signs, making literacy dramatically more accessible for merchants. The Greeks adapted it (~800 BC), adding vowel letters — creating the first true alphabet (vowels + consonants). Greek → Latin alphabet → all Western European scripts. The Phoenician alphabet also became Aramaic → Arabic, Hebrew, and other Semitic scripts. All these writing systems trace to one Phoenician source.", acceptableAnswers: ["first consonant alphabet 22 signs", "Greeks added vowels", "ancestor of Greek Latin Arabic Hebrew", "literacy accessible for merchants"] },
       { id: "seafar_200_02", categoryId: "ancient_seafarers", tier: 200, prompt: "Polynesian navigation — crossing thousands of miles of open ocean without instruments — used techniques that Western sailors couldn't replicate with compasses. Name two specific navigation methods.", answer: "Star navigation: memorizing the rising and setting positions of hundreds of stars and using star paths (the arc of specific stars across the sky indicates latitude). Wave piloting (on'o): reading the pattern of swells — deep ocean swells travel in consistent directions; islands disrupt and reflect swells. Expert navigators could detect an island by lying in the canoe's hull and feeling subtle swell patterns. Also: observing bird flight patterns (birds fly toward land in the evening); cloud formations over islands; phosphorescence patterns. Polynesian navigators colonized every inhabitable island in a triangle from Hawaii to New Zealand to Easter Island.", acceptableAnswers: ["star path navigation", "wave piloting swells", "bird flight patterns", "cloud over islands", "lying in hull to feel swells"] },
@@ -48576,6 +48996,7 @@ const CATEGORIES: Category[] = [
     name: "Polar Exploration",
     culture: "universal",
     description: "Scott, Amundsen, Shackleton — the race to the poles and the expeditions that almost ended everything.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Peary_Sledge_Party_and_Flags_at_the_Pole.jpg/500px-Peary_Sledge_Party_and_Flags_at_the_Pole.jpg",
     questions: [
       { id: "polar_200_01", categoryId: "polar_exploration", tier: 200, prompt: "The race to the South Pole (1911–1912) was won by Norway's Roald Amundsen over Britain's Robert Falcon Scott. What was the most important difference in their approach?", answer: "Dogs vs. motor sledges and ponies. Amundsen used sled dogs systematically — including (controversially) killing the weaker dogs to feed the stronger ones and the men. Scott relied on motor sledges (all broke down), Siberian ponies (unsuited to Antarctic conditions — sweated and froze), and manhauling (human teams pulling heavy sledges). Amundsen reached the Pole on December 14, 1911; Scott arrived January 17, 1912 — to find Amundsen's flag. Scott's entire team of 5 died on the return journey, caught by a blizzard 11 miles from their final supply depot.", acceptableAnswers: ["dogs vs ponies and motor sledges", "Amundsen killed dogs for food", "Scott arrived second all died on return", "11 miles from depot when blizzard hit"] },
       { id: "polar_200_02", categoryId: "polar_exploration", tier: 200, prompt: "Ernest Shackleton's Endurance expedition (1914–1916) is called the greatest survival story in exploration history. What happened — and what did Shackleton do?", answer: "The Endurance became trapped and crushed by Antarctic sea ice — sinking in October 1915. Shackleton led 27 men across the ice floes, then sailed three open lifeboats to Elephant Island (the first land in 497 days). He then sailed an open boat (the James Caird) 800 miles through the Drake Passage to South Georgia, crossed its mountains on foot (first crossing ever), and organized a rescue of all 28 men from Elephant Island — not one person died. The crew remained on Elephant Island for 4.5 months.", acceptableAnswers: ["Endurance crushed by ice sank", "all 28 men survived", "800-mile open boat to South Georgia", "crossed South Georgia mountains", "not one person died"] },
@@ -48612,6 +49033,7 @@ const CATEGORIES: Category[] = [
     name: "Military Strategy",
     culture: "universal",
     description: "Sun Tzu to Clausewitz — the principles of war that still govern conflict today.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Gari-Melchers-War-Highsmith.jpeg/500px-Gari-Melchers-War-Highsmith.jpeg",
     questions: [
       { id: "milstr_200_01", categoryId: "military_strategy", tier: 200, prompt: "Sun Tzu's The Art of War (c.5th century BC) is required reading at business schools and military academies worldwide. What is its most central principle — and why is it counterintuitive?", answer: "The supreme art of war is to subdue the enemy without fighting — 'for to win one hundred victories in one hundred battles is not the acme of skill; to subdue the enemy without fighting is the acme of skill.' The counterintuitive insight: military victory through battle is the most expensive way to win. Sun Tzu favors deception, intelligence, psychological manipulation, and positioning that makes the enemy's defeat inevitable before battle begins — or makes them surrender without a fight. He also emphasizes knowing the enemy and knowing yourself; speed; and never fighting on terrain the enemy chose.", acceptableAnswers: ["subdue enemy without fighting", "winning without battle is supreme skill", "deception and intelligence over force", "know your enemy and yourself"] },
       { id: "milstr_200_02", categoryId: "military_strategy", tier: 200, prompt: "Clausewitz's 'On War' (1832) introduced a phrase still used by strategists and politicians: 'War is a continuation of politics by other means.' What does it actually mean?", answer: "Clausewitz meant that war is not a separate sphere with its own logic — it is political activity using violent means. War has a political purpose (the objective), a military objective (the means), and the effort and costs (the price). If the political objective changes, the war's conduct must change. This means: war must always be subordinate to political leadership (not the other way around — generals serve political goals); wars without clear political objectives become purposeless; the 'culminating point of victory' is when further military success would undermine the political goal. It also explains why wars end in negotiation — because war serves political interests that can be served otherwise.", acceptableAnswers: ["war is political activity with violent means", "war must serve political objectives", "generals serve political goals", "explains why wars end in negotiation"] },
@@ -48648,6 +49070,7 @@ const CATEGORIES: Category[] = [
     name: "Eastern Europe",
     culture: "universal",
     description: "From the Austro-Hungarian Empire to the Iron Curtain and beyond — the turbulent history of Central and Eastern Europe.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Eastern_Europe_from_space.png/500px-Eastern_Europe_from_space.png",
     questions: [
       { id: "eeur_200_01", categoryId: "eastern_europe", tier: 200, prompt: "The 1989 peaceful transition of power in Czechoslovakia was so non-violent it earned what nickname?", answer: "The Velvet Revolution", acceptableAnswers: ["Velvet Revolution"] },
       { id: "eeur_200_02", categoryId: "eastern_europe", tier: 200, prompt: "What Polish trade union, led by Lech Wałęsa, was the first independent trade union in a Soviet-bloc country?", answer: "Solidarity", acceptableAnswers: ["Solidarność"] },
@@ -48684,6 +49107,7 @@ const CATEGORIES: Category[] = [
     name: "Ancient India",
     culture: "universal",
     description: "Harappan cities, Vedic hymns, Ashoka's edicts, and the Gupta golden age — the deep roots of South Asian civilization.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/North_Gateway_-_Rear_Side_-_Stupa_1_-_Sanchi_Hill_2013-02-21_4480-4481.JPG/500px-North_Gateway_-_Rear_Side_-_Stupa_1_-_Sanchi_Hill_2013-02-21_4480-4481.JPG",
     questions: [
       { id: "indi_200_01", categoryId: "ancient_india", tier: 200, prompt: "The Indus Valley Civilization's cities like Mohenjo-daro and Harappa were remarkable for having what advanced urban infrastructure that most contemporary civilizations lacked?", answer: "Sewage and drainage systems", acceptableAnswers: ["drainage systems", "sewage systems", "plumbing", "grid-planned streets with drainage"] },
       { id: "indi_200_02", categoryId: "ancient_india", tier: 200, prompt: "After the devastating Battle of Kalinga, Maurya Emperor Ashoka converted to what religion and began spreading its teachings across Asia?", answer: "Buddhism", acceptableAnswers: ["Buddhist"] },
@@ -48720,6 +49144,7 @@ const CATEGORIES: Category[] = [
     name: "Neuroscience",
     culture: "universal",
     description: "Neurons, neurotransmitters, memory, and consciousness — how the three-pound universe between your ears actually works.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/PurkinjeCell.jpg/500px-PurkinjeCell.jpg",
     questions: [
       { id: "neuro_200_01", categoryId: "neuroscience", tier: 200, prompt: "What chemical messengers do neurons use to communicate across the tiny gap between them called a synapse?", answer: "Neurotransmitters", acceptableAnswers: ["neurotransmitters"] },
       { id: "neuro_200_02", categoryId: "neuroscience", tier: 200, prompt: "The famous patient 'H.M.' (Henry Molaison), who had his hippocampus removed to treat epilepsy, became a landmark case because he lost the ability to form what type of memory?", answer: "New long-term memories (anterograde amnesia)", acceptableAnswers: ["long-term memories", "new memories", "anterograde amnesia", "declarative memories"] },
@@ -48738,6 +49163,7 @@ const CATEGORIES: Category[] = [
     name: "Fashion History",
     culture: "universal",
     description: "From Coco Chanel liberating women from corsets to Alexander McQueen's dark theatrics — fashion as art, politics, and power.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Winterhalter_Elisabeth.jpg/500px-Winterhalter_Elisabeth.jpg",
     questions: [
       { id: "fash_200_01", categoryId: "fashion_history", tier: 200, prompt: "Coco Chanel is credited with liberating women's fashion in the early 20th century by introducing what garment — previously considered men's sportswear — into mainstream women's clothing?", answer: "Trousers / pants", acceptableAnswers: ["pants", "trousers", "jersey fabric clothes", "comfortable practical clothing"] },
       { id: "fash_200_02", categoryId: "fashion_history", tier: 200, prompt: "What French fashion house, founded in 1858 by Charles Frederick Worth — an Englishman — is considered the origin of haute couture as an industry?", answer: "House of Worth", acceptableAnswers: ["Worth", "Charles Worth", "House of Worth"] },
@@ -48774,6 +49200,7 @@ const CATEGORIES: Category[] = [
     name: "Celtic History",
     culture: "universal",
     description: "The Iron Age warriors who stretched from Anatolia to Ireland — Druids, hillforts, and a culture Rome feared and admired.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/1/1f/Celts_in_Europe.png",
     questions: [
       { id: "celt_200_01", categoryId: "celtic_history", tier: 200, prompt: "Julius Caesar's 'Gallic Wars' (58–50 BCE) describe his conquest of the Celtic peoples of what modern-day country?", answer: "France (Gaul)", acceptableAnswers: ["France", "Gaul", "modern France"] },
       { id: "celt_200_02", categoryId: "celtic_history", tier: 200, prompt: "The Celtic priestly class, responsible for religious ceremonies, law, and oral transmission of knowledge, was known by what name?", answer: "Druids", acceptableAnswers: ["Druids", "Druid"] },
@@ -48810,6 +49237,7 @@ const CATEGORIES: Category[] = [
     name: "Art History",
     culture: "universal",
     description: "From Renaissance masters to Dadaists and Abstract Expressionists — how art movements shattered and rebuilt visual language.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Soir_Bleu%2C_by_Edward_Hopper.jpg/500px-Soir_Bleu%2C_by_Edward_Hopper.jpg",
     questions: [
       { id: "arth_200_01", categoryId: "art_history", tier: 200, prompt: "The Renaissance technique of creating the illusion of three-dimensional depth on a flat surface using converging lines is called what?", answer: "Linear perspective", acceptableAnswers: ["perspective", "linear perspective", "one-point perspective"] },
       { id: "arth_200_02", categoryId: "art_history", tier: 200, prompt: "Pablo Picasso and Georges Braque developed what early 20th-century movement that shattered objects into geometric fragments viewed from multiple angles simultaneously?", answer: "Cubism", acceptableAnswers: ["Cubism", "Cubist movement"] },
@@ -48828,6 +49256,7 @@ const CATEGORIES: Category[] = [
     name: "Southeast Asia",
     culture: "universal",
     description: "Angkor Wat, the Spice Trade, colonialism, and the tiger economies — the history of the world's most diverse region.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Southeast_Asia_%28orthographic_projection%29.svg/500px-Southeast_Asia_%28orthographic_projection%29.svg.png",
     questions: [
       { id: "sea_200_01", categoryId: "southeast_asia", tier: 200, prompt: "Angkor Wat in Cambodia was built in the 12th century by King Suryavarman II as a temple to what Hindu deity — making it the world's largest religious monument?", answer: "Vishnu", acceptableAnswers: ["Vishnu"] },
       { id: "sea_200_02", categoryId: "southeast_asia", tier: 200, prompt: "The 'Spice Islands' — the Maluku Islands in modern Indonesia — were the world's only source of what valuable spices in the 15th–17th centuries, driving European exploration and colonialism?", answer: "Cloves and nutmeg", acceptableAnswers: ["nutmeg and cloves", "cloves", "nutmeg", "spices"] },
@@ -48846,6 +49275,7 @@ const CATEGORIES: Category[] = [
     name: "Buddhism",
     culture: "universal",
     description: "Siddhartha Gautama, the Four Noble Truths, Zen, Tibetan traditions, and two and a half millennia of Buddhist thought.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Kamakura_Budda_Daibutsu_front_1885.jpg/500px-Kamakura_Budda_Daibutsu_front_1885.jpg",
     questions: [
       { id: "bud_200_01", categoryId: "buddhism", tier: 200, prompt: "The Four Noble Truths are the foundation of Buddhist teaching. What is the First Noble Truth?", answer: "Dukkha — life involves suffering, dissatisfaction, or impermanence", acceptableAnswers: ["suffering / dukkha", "life involves suffering", "dukkha"] },
       { id: "bud_200_02", categoryId: "buddhism", tier: 200, prompt: "What term describes the Buddhist concept of enlightenment — the awakened state that ends the cycle of rebirth?", answer: "Nirvana", acceptableAnswers: ["Nirvana", "nibbana"] },
@@ -48882,6 +49312,7 @@ const CATEGORIES: Category[] = [
     name: "Jewish History",
     culture: "universal",
     description: "From ancient Israel to the Diaspora, the Haskalah, Zionism, the Holocaust, and the founding of the modern State of Israel.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Rembrandt_Harmensz._van_Rijn_063.jpg/500px-Rembrandt_Harmensz._van_Rijn_063.jpg",
     questions: [
       { id: "jewh_200_01", categoryId: "jewish_history", tier: 200, prompt: "In 70 CE, the Romans destroyed the Second Temple in Jerusalem and expelled the Jewish population from Judea, beginning what long historical period?", answer: "The Diaspora (dispersion of Jews across the world)", acceptableAnswers: ["Diaspora", "the Jewish Diaspora", "dispersion"] },
       { id: "jewh_200_02", categoryId: "jewish_history", tier: 200, prompt: "Theodor Herzl's 1896 pamphlet 'Der Judenstaat' (The Jewish State) is considered the founding text of what political movement?", answer: "Zionism", acceptableAnswers: ["Zionism", "the Zionist movement"] },
@@ -48900,6 +49331,7 @@ const CATEGORIES: Category[] = [
     name: "Mesoamerica",
     culture: "universal",
     description: "The Maya, Aztec, and Inca — three of history's most sophisticated civilizations and the Spanish conquest that destroyed them.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Mesoamerica_english.PNG/500px-Mesoamerica_english.PNG",
     questions: [
       { id: "meso_200_01", categoryId: "mesoamerica", tier: 200, prompt: "The Maya calendar system included a 365-day solar calendar and a 260-day ritual calendar that together produced a 52-year cycle. The 2012 'Maya apocalypse' was based on what misunderstanding?", answer: "A Long Count calendar cycle ended in December 2012 — but this was like an odometer rolling over, not an apocalypse prediction. The Maya themselves recorded dates far beyond 2012 in their inscriptions.", acceptableAnswers: ["a calendar cycle ended, not an apocalypse prediction", "Long Count cycle ending not an end-of-world prophecy", "odometer rolling over not a doomsday"] },
       { id: "meso_200_02", categoryId: "mesoamerica", tier: 200, prompt: "The Aztec capital Tenochtitlan, built on an island in Lake Texcoco, was conquered by Hernán Cortés in what year — and is now the site of which modern city?", answer: "1521; Mexico City", acceptableAnswers: ["1521 and Mexico City", "Tenochtitlan became Mexico City in 1521"] },
@@ -48918,6 +49350,7 @@ const CATEGORIES: Category[] = [
     name: "The Nuclear Age",
     culture: "universal",
     description: "The Manhattan Project, Hiroshima, the arms race, Chernobyl, and the ongoing challenge of living with the most destructive technology ever created.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/b6/Trojan1.jpg",
     questions: [
       { id: "nucl_200_01", categoryId: "nuclear_history", tier: 200, prompt: "The Manhattan Project — the US program that developed the first nuclear weapons — culminated on July 16, 1945 with what test in New Mexico?", answer: "Trinity (the first nuclear test explosion)", acceptableAnswers: ["Trinity test", "the Trinity test", "first nuclear test"] },
       { id: "nucl_200_02", categoryId: "nuclear_history", tier: 200, prompt: "The Chernobyl nuclear disaster (1986) occurred in what was then the Soviet republic of Ukraine. What specific type of reactor design flaw made the explosion possible?", answer: "The RBMK reactor had a positive void coefficient — as steam bubbles formed (e.g., from cooling water boiling), the reaction accelerated rather than slowing down, creating a runaway chain reaction.", acceptableAnswers: ["positive void coefficient", "RBMK reactor design flaw", "steam caused accelerating reaction not slowdown"] },
@@ -48936,6 +49369,7 @@ const CATEGORIES: Category[] = [
     name: "Ballet & Dance",
     culture: "universal",
     description: "Petipa, Diaghilev, Nureyev, and the Bolshoi — the history of ballet and modern dance as art forms.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Corsaire_-Le_Jardin_Anime_-Pierina_Legnani_-Olga_Preobrajenska_-1899.jpg/500px-Corsaire_-Le_Jardin_Anime_-Pierina_Legnani_-Olga_Preobrajenska_-1899.jpg",
     questions: [
       { id: "ball_200_01", categoryId: "ballet_dance", tier: 200, prompt: "Pyotr Tchaikovsky composed music for three of the most performed ballets in the classical repertoire. Name all three.", answer: "Swan Lake (1876), The Sleeping Beauty (1889), and The Nutcracker (1892)", acceptableAnswers: ["Swan Lake Sleeping Beauty Nutcracker", "Swan Lake The Nutcracker Sleeping Beauty"] },
       { id: "ball_200_02", categoryId: "ballet_dance", tier: 200, prompt: "What position, considered the most iconic in classical ballet, has a dancer balancing on the tips of their toes in specially reinforced shoes?", answer: "En pointe (pointe work)", acceptableAnswers: ["en pointe", "on pointe", "pointe", "on toe"] },
@@ -48972,6 +49406,7 @@ const CATEGORIES: Category[] = [
     name: "Maps & Cartography",
     culture: "universal",
     description: "Ptolemy's projection, the Mercator map's distortions, and why every map of the world is also a political argument.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/World_Map_1689.JPG/500px-World_Map_1689.JPG",
     questions: [
       { id: "cart_200_01", categoryId: "cartography", tier: 200, prompt: "The Mercator projection, created in 1569 and still the most recognized world map, distorts size near the poles. Which continent appears far larger than it actually is relative to Africa?", answer: "Europe (and North America / Greenland — Greenland appears as large as Africa but is 14x smaller)", acceptableAnswers: ["Europe", "Greenland", "North America", "northern continents appear larger"] },
       { id: "cart_200_02", categoryId: "cartography", tier: 200, prompt: "The ancient Greek scholar Eratosthenes calculated the circumference of the Earth around 240 BCE with remarkable accuracy. How did he do it with no satellite?", answer: "He knew a well in Syene had no shadow at noon on the summer solstice (sun directly overhead). In Alexandria on the same day, he measured the angle of a shadow (7.2°) — concluding the arc between the cities was 7.2/360 of the Earth's circumference. He multiplied the distance to Syene by 50 (360/7.2) to get the full circumference.", acceptableAnswers: ["measured shadow angles between two cities to calculate Earth's curvature", "shadow angle in Alexandria vs no shadow in Syene", "used 7.2 degree angle to extrapolate full circumference"] },
@@ -48990,6 +49425,7 @@ const CATEGORIES: Category[] = [
     name: "Ancient Chinese Philosophy",
     culture: "universal",
     description: "Confucius, Laozi, Sun Tzu, and the Hundred Schools of Thought — the philosophical foundations of East Asian civilization.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Yin-yang-and-bagua-near-nanning.jpg/500px-Yin-yang-and-bagua-near-nanning.jpg",
     questions: [
       { id: "cnph_200_01", categoryId: "ancient_china_philosophy", tier: 200, prompt: "Confucius's central ethical concept, 'ren' (仁), is usually translated as what English word — the primary virtue that underlies all proper human relationships?", answer: "Benevolence / humaneness / loving others", acceptableAnswers: ["benevolence", "humaneness", "love", "ren"] },
       { id: "cnph_200_02", categoryId: "ancient_china_philosophy", tier: 200, prompt: "The 'Tao Te Ching,' attributed to Laozi, is the foundational text of what Chinese philosophical and religious tradition?", answer: "Taoism (Daoism)", acceptableAnswers: ["Taoism", "Daoism", "Taoist philosophy"] },
@@ -49008,6 +49444,7 @@ const CATEGORIES: Category[] = [
     name: "Shakespeare",
     culture: "universal",
     description: "The plays, the sonnets, the stolen plots, and why a Stratford glover's son became the defining figure of the English language.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/William_Shakespeare_by_John_Taylor%2C_edited.jpg/500px-William_Shakespeare_by_John_Taylor%2C_edited.jpg",
     questions: [
       { id: "shak_200_01", categoryId: "shakespeare", tier: 200, prompt: "Shakespeare's 'The Globe Theatre,' built in 1599 in London, was unique for its time because it charged different prices for different positions. Where did the cheapest audience members stand?", answer: "In the yard (standing in front of the stage) — called 'groundlings,' they paid a penny", acceptableAnswers: ["the yard", "groundlings stood in the yard", "standing pit"] },
       { id: "shak_200_02", categoryId: "shakespeare", tier: 200, prompt: "Shakespeare borrowed almost all of his plots from earlier sources. What was his primary source for 'Romeo and Juliet'?", answer: "Arthur Brooke's 1562 poem 'The Tragicall Historye of Romeus and Juliet' (itself based on an Italian novella by Matteo Bandello)", acceptableAnswers: ["Arthur Brooke's poem", "an Italian novella", "Brooke's Romeus and Juliet"] },
@@ -49026,6 +49463,7 @@ const CATEGORIES: Category[] = [
     name: "Epidemics & Pandemics",
     culture: "universal",
     description: "The Black Death, Spanish Flu, cholera, and the recurring history of disease reshaping civilization.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Pandemics-Timeline-Death-Tolls-OWID_9818.png/500px-Pandemics-Timeline-Death-Tolls-OWID_9818.png",
     questions: [
       { id: "epid_200_01", categoryId: "epidemics_history", tier: 200, prompt: "The Black Death (1347–51) killed roughly what fraction of Europe's population in its initial outbreak?", answer: "One third to one half (30–50%)", acceptableAnswers: ["one third", "a third", "30-50 percent", "half of Europe"] },
       { id: "epid_200_02", categoryId: "epidemics_history", tier: 200, prompt: "The 1918 'Spanish Flu' pandemic is estimated to have killed 50–100 million people worldwide. Why is calling it 'Spanish Flu' misleading?", answer: "Spain was one of the few countries not engaged in WWI censorship, so Spanish newspapers freely reported the epidemic — giving the impression it originated there. The actual origin is disputed (Kansas, France, China all proposed) but Spain was not the source.", acceptableAnswers: ["Spain didn't censor its press so it seemed to originate there", "origin disputed but not Spain", "WWI censorship hid it elsewhere Spain reported freely"] },
@@ -49062,6 +49500,7 @@ const CATEGORIES: Category[] = [
     name: "Hinduism & Vedic Traditions",
     culture: "universal",
     description: "The Upanishads, the Bhagavad Gita, dharma, karma, and the world's oldest living religious tradition.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Late_Vedic_Culture_%281100-500_BCE%29.png/500px-Late_Vedic_Culture_%281100-500_BCE%29.png",
     questions: [
       { id: "hind_200_01", categoryId: "hinduism", tier: 200, prompt: "The Bhagavad Gita is a dialogue between the warrior Arjuna and his charioteer, revealed to be the god Krishna. What is Arjuna's dilemma — and what does Krishna tell him?", answer: "Arjuna hesitates to fight his own relatives in battle (the Kurukshetra War). Krishna tells him it is his dharma (duty) as a warrior to fight, and that the eternal soul (atman) cannot be killed — only the body. He should act without attachment to outcomes.", acceptableAnswers: ["fighting relatives violates duty, Krishna says fight without attachment", "dharma requires fighting even relatives", "atman cannot be killed so death is not final", "act according to duty without attachment to fruits"] },
       { id: "hind_200_02", categoryId: "hinduism", tier: 200, prompt: "What Sanskrit term describes the Hindu concept of the eternal, individual soul that transmigrates between bodies at death?", answer: "Atman", acceptableAnswers: ["atman", "atma"] },
@@ -49080,6 +49519,7 @@ const CATEGORIES: Category[] = [
     name: "Great Cities of History",
     culture: "universal",
     description: "Constantinople, Baghdad, Alexandria, and the urban centers whose rise and fall shaped civilizations.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Nuremberg_chronicles_-_Nuremberga.png/500px-Nuremberg_chronicles_-_Nuremberga.png",
     questions: [
       { id: "city_200_01", categoryId: "great_cities", tier: 200, prompt: "Constantinople (modern Istanbul) served as the capital of which empire for over a thousand years — from its founding by Constantine I in 330 CE until its fall in 1453?", answer: "The Byzantine Empire (Eastern Roman Empire)", acceptableAnswers: ["Byzantine Empire", "Eastern Roman Empire", "Rome's eastern empire"] },
       { id: "city_200_02", categoryId: "great_cities", tier: 200, prompt: "The 'House of Wisdom' (Bayt al-Hikma) in Abbasid Baghdad was the Islamic Golden Age's greatest center of translation and scholarship. Which Caliph founded it — and what was its primary activity?", answer: "Caliph Harun al-Rashid (est. early) and his son al-Ma'mun (expanded significantly) — its primary activity was translating Greek, Persian, and Indian texts into Arabic and conducting original scholarship in mathematics, astronomy, medicine, and philosophy.", acceptableAnswers: ["Harun al-Rashid and al-Mamun", "al-Mamun", "translating Greek and Persian texts into Arabic"] },
@@ -49134,6 +49574,7 @@ const CATEGORIES: Category[] = [
     name: "Armenian History",
     culture: "universal",
     description: "Ancient Urartu, Tigranes the Great, the first Christian nation, the Genocide, and the resilience of the Armenian diaspora.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Yerevan_2012_February.JPG/500px-Yerevan_2012_February.JPG",
     questions: [
       { id: "armn_200_01", categoryId: "armenian_history", tier: 200, prompt: "Armenia is traditionally considered the first nation to officially adopt Christianity as its state religion. In what year — and under which king?", answer: "301 CE, under King Tiridates III (converted by Gregory the Illuminator)", acceptableAnswers: ["301 CE", "301 AD", "Tiridates III and Gregory the Illuminator", "301 CE under Tiridates"] },
       { id: "armn_200_02", categoryId: "armenian_history", tier: 200, prompt: "The Armenian Genocide of 1915–16 was carried out by what government — and approximately how many Armenians were killed?", answer: "The Ottoman Empire (under the Committee of Union and Progress / Young Turks) — approximately 600,000 to 1.5 million Armenians were killed.", acceptableAnswers: ["Ottoman Empire", "Young Turks / CUP", "600,000 to 1.5 million killed by Ottoman Empire"] },
@@ -49152,6 +49593,7 @@ const CATEGORIES: Category[] = [
     name: "WWII Leaders",
     culture: "universal",
     description: "Churchill's oratory, Hitler's rise, Stalin's paranoia, Roosevelt's pragmatism — the individuals who shaped the most destructive war in history.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg/500px-Bundesarchiv_Bild_101I-646-5188-17%2C_Flugzeuge_Junkers_Ju_87.jpg",
     questions: [
       { id: "wldr_200_01", categoryId: "wwii_leaders", tier: 200, prompt: "Winston Churchill's famous 'We shall fight on the beaches' speech was delivered in June 1940 after which catastrophic British military event?", answer: "The Dunkirk evacuation (Operation Dynamo) — the rescue of 338,000 Allied troops from the beaches of France", acceptableAnswers: ["Dunkirk", "Dunkirk evacuation", "Operation Dynamo"] },
       { id: "wldr_200_02", categoryId: "wwii_leaders", tier: 200, prompt: "Adolf Hitler rose to power as Chancellor of Germany in January 1933. What single political event in February 1933 allowed him to suspend civil liberties and consolidate emergency powers?", answer: "The Reichstag Fire — the burning of the German parliament building, blamed on a Communist (Marinus van der Lubbe). Hitler used it to pass the Reichstag Fire Decree suspending civil liberties.", acceptableAnswers: ["Reichstag Fire", "burning of the Reichstag"] },
@@ -49170,6 +49612,7 @@ const CATEGORIES: Category[] = [
     name: "History of Photography",
     culture: "universal",
     description: "From Daguerre's mercury fumes to Cartier-Bresson's decisive moment to the Instagram era — how photography changed how we see the world.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Roger_Fenton%27s_waggon.jpg/500px-Roger_Fenton%27s_waggon.jpg",
     questions: [
       { id: "phot_200_01", categoryId: "photography_history", tier: 200, prompt: "Louis Daguerre's 1839 daguerreotype process was the first practical photographic method. What was its major limitation that Fox Talbot's competing 'calotype' process solved?", answer: "The daguerreotype produced a unique one-off image with no negative — it could not be reproduced. Talbot's calotype used a paper negative from which multiple prints could be made, establishing the negative-positive process that dominated photography for 150 years.", acceptableAnswers: ["could not be reproduced — no negative", "daguerreotype was one of a kind, calotype had a negative for multiple prints", "Talbot invented the negative-positive process"] },
       { id: "phot_200_02", categoryId: "photography_history", tier: 200, prompt: "Henri Cartier-Bresson is associated with the concept of the 'decisive moment' in street photography. What does this term mean?", answer: "The split second when the visual elements of a scene align in perfect formal composition — the moment of maximum significance and visual harmony, which the photographer must anticipate and capture instantaneously.", acceptableAnswers: ["the split second when form and meaning align perfectly", "moment of maximum visual significance and composition", "anticipating the perfect instant of form and content"] },
@@ -49188,6 +49631,7 @@ const CATEGORIES: Category[] = [
     name: "Medieval & Feudal Japan",
     culture: "universal",
     description: "Samurai, shoguns, the Sengoku period, and the Tokugawa peace that closed Japan to the world for 250 years.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/BNF_Fr_4274_8v_knight_detail.jpg/500px-BNF_Fr_4274_8v_knight_detail.jpg",
     questions: [
       { id: "medjp_200_01", categoryId: "medieval_japan", tier: 200, prompt: "The samurai followed a code of conduct called what — emphasizing loyalty, honor, and martial skill?", answer: "Bushido (the Way of the Warrior)", acceptableAnswers: ["Bushido", "the way of the warrior"] },
       { id: "medjp_200_02", categoryId: "medieval_japan", tier: 200, prompt: "Tokugawa Ieyasu unified Japan after the Battle of Sekigahara (1600) and established a shogunate based in what city — which remained Japan's effective capital until 1868?", answer: "Edo (modern Tokyo)", acceptableAnswers: ["Edo", "Tokyo", "Edo / modern Tokyo"] },
@@ -49206,6 +49650,7 @@ const CATEGORIES: Category[] = [
     name: "Jordanian Culture & Society",
     culture: "jordanian",
     description: "Mansaf, Diwaniyyat, the East Bank-West Bank divide, tribal customs, and the social fabric of the Hashemite Kingdom.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Jerash_Festival_2018_15.jpg/500px-Jerash_Festival_2018_15.jpg",
     questions: [
       { id: "jcult_200_01", categoryId: "jordan_culture_deep", tier: 200, prompt: "Mansaf is Jordan's national dish and the centerpiece of major celebrations. It consists of lamb cooked in what distinctive sauce — and why is it served on a communal platter?", answer: "Jameed — dried, fermented sheep or goat milk reconstituted into a tangy yogurt-like sauce. Served communally because sharing food from one platter symbolizes brotherhood, generosity (karam), and tribal solidarity — eating together from the same dish is an act of social bonding.", acceptableAnswers: ["jameed sauce", "fermented dried yogurt sauce", "jameed — dried fermented sheep's milk"] },
       { id: "jcult_200_02", categoryId: "jordan_culture_deep", tier: 200, prompt: "The Diwaniyya (or diwan) is a fundamental institution of Jordanian social life. What is it?", answer: "A designated reception room or gathering space — in homes, tribal sheikhs' homes, or rented halls — where men gather regularly to socialize, discuss community affairs, resolve disputes, and receive guests. The diwaniyya functions as a combination of salon, community court, and social club.", acceptableAnswers: ["reception room for men's social gatherings", "gathering space for community discussion and hospitality", "tribal reception room for socializing and dispute resolution"] },
@@ -49242,6 +49687,7 @@ const CATEGORIES: Category[] = [
     name: "American Literature",
     culture: "american",
     description: "Melville's white whale, Fitzgerald's green light, Toni Morrison's haunted houses — America writing its own mythology.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Mark_Twain_1907_edit.jpg/500px-Mark_Twain_1907_edit.jpg",
     questions: [
       { id: "amlit_200_01", categoryId: "american_literature", tier: 200, prompt: "Herman Melville's 'Moby-Dick' (1851) opens with what famous sentence — and what is its narrator's name?", answer: "'Call me Ishmael.' The narrator is Ishmael, the only survivor of the Pequod's voyage.", acceptableAnswers: ["Call me Ishmael", "narrator is Ishmael"] },
       { id: "amlit_200_02", categoryId: "american_literature", tier: 200, prompt: "F. Scott Fitzgerald's 'The Great Gatsby' (1925) ends with what famous line about boats against the current — and what does it mean?", answer: "'So we beat on, boats against the current, borne back ceaselessly into the past.' It means the American Dream is a backward-looking fantasy — we chase the future but are always pulled back to the past, unable to escape it. Gatsby himself is destroyed by his inability to let go of the past.", acceptableAnswers: ["boats against the current borne back into the past", "American Dream is backward-looking can't escape the past", "boats ceaselessly borne back into the past"] },
@@ -49260,6 +49706,7 @@ const CATEGORIES: Category[] = [
     name: "Color: Science & Culture",
     culture: "universal",
     description: "Why the sky is blue, why Homer called the sea 'wine-dark,' and how color shapes perception, culture, and commerce.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Chinese_cardinal_and_intermediary_colors.png/500px-Chinese_cardinal_and_intermediary_colors.png",
     questions: [
       { id: "color_200_01", categoryId: "color_science", tier: 200, prompt: "Why does the sky appear blue during the day — but red/orange at sunset?", answer: "Rayleigh scattering — sunlight (white) contains all wavelengths; blue light (short wavelength) scatters more in all directions when it hits atmospheric particles, filling the sky with blue. At sunset, light travels through much more atmosphere; the blue is scattered away leaving the longer red and orange wavelengths.", acceptableAnswers: ["Rayleigh scattering scatters blue light in all directions", "at sunset longer path scatters blue leaving red", "blue scatters more than red at short wavelengths"] },
       { id: "color_200_02", categoryId: "color_science", tier: 200, prompt: "Homer repeatedly describes the sea in the Iliad and Odyssey as 'wine-dark' (οἶνοψ πόντος) — never as blue. What does this reveal about color perception and ancient Greek vocabulary?", answer: "The ancient Greeks had no word specifically for blue — they described the sea by its quality (dark, deep, rich) rather than hue. Linguistic relativity experiments (e.g., the Pirahã and Russian speakers) show that having specific color words affects the speed and ease of discrimination. Greek wine-dark was not colorblind — they perceived blue — but their conceptual category system organized colors differently.", acceptableAnswers: ["Greeks had no word for blue, organized color by quality not hue", "linguistic relativity: color words affect perception speed", "wine-dark describes quality not hue without blue category"] },
@@ -49278,6 +49725,7 @@ const CATEGORIES: Category[] = [
     name: "World Mythology",
     culture: "universal",
     description: "Beyond Greece and Rome — Slavic, West African, Mesoamerican, Mesopotamian, and East Asian mythologies from around the globe.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Nerthus_by_Emil_Doepler.jpg/500px-Nerthus_by_Emil_Doepler.jpg",
     questions: [
       { id: "myth_200_01", categoryId: "mythology_world", tier: 200, prompt: "In Yoruba mythology (West Africa), what deity — one of the most powerful Orishas — is associated with thunder, lightning, and justice, and was brought to the Americas through the slave trade, where he became 'Shango' in Caribbean religions?", answer: "Shango (Ṣàngó)", acceptableAnswers: ["Shango", "Sango", "Ṣàngó"] },
       { id: "myth_200_02", categoryId: "mythology_world", tier: 200, prompt: "In Mesopotamian mythology, the 'Epic of Gilgamesh' contains what story that directly parallels a biblical narrative?", answer: "A great flood — Utnapishtim (the Babylonian Noah) is warned by the gods, builds a boat, and survives a flood that destroys humanity. He releases birds (including a dove and a raven) to test whether land is visible — directly paralleling Genesis.", acceptableAnswers: ["the flood story / great flood parallel to Noah", "Utnapishtim and the flood parallel to Genesis", "great flood dove and raven same as Noah"] },
@@ -49296,6 +49744,7 @@ const CATEGORIES: Category[] = [
     name: "The Modern Gulf",
     culture: "arabic",
     description: "Oil money, megaprojects, and rapid transformation — the UAE, Qatar, Saudi Arabia, and the Gulf states remaking themselves in real time.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Arab_Gulf_States_english.png/500px-Arab_Gulf_States_english.png",
     questions: [
       { id: "gulf_200_01", categoryId: "gulf_modern", tier: 200, prompt: "The UAE's Burj Khalifa, completed in 2010, held the title of world's tallest building at 828 meters. In which city is it located?", answer: "Dubai", acceptableAnswers: ["Dubai"] },
       { id: "gulf_200_02", categoryId: "gulf_modern", tier: 200, prompt: "Saudi Arabia's Vision 2030 plan, launched by Crown Prince Mohammed bin Salman (MBS) in 2016, aims to reduce Saudi Arabia's dependence on what?", answer: "Oil (petroleum revenues) — diversifying into tourism, entertainment, technology, and manufacturing", acceptableAnswers: ["oil", "petroleum revenues", "oil dependency"] },
@@ -49314,6 +49763,7 @@ const CATEGORIES: Category[] = [
     name: "Theater History",
     culture: "universal",
     description: "From Athenian tragedy to the Globe Theatre to Broadway — how human beings have staged stories for each other across three millennia.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Zoffany-Garrick_and_Pritchard_in_Macbeth.jpg/500px-Zoffany-Garrick_and_Pritchard_in_Macbeth.jpg",
     questions: [
       { id: "theat_200_01", categoryId: "theater_history", tier: 200, prompt: "Greek tragedy was performed at festivals honoring which god — and why did this religious context matter for the plays' content?", answer: "Dionysus (god of wine, ecstasy, and transformation) — tragedy at the Dionysia festival was simultaneously civic, religious, and competitive. The content addressed extreme human suffering, divine justice, and fate in ways that fit the festival's context of collective catharsis.", acceptableAnswers: ["Dionysus", "at the festival of Dionysus"] },
       { id: "theat_200_02", categoryId: "theater_history", tier: 200, prompt: "Konstantin Stanislavski's 'system' — developed at the Moscow Art Theatre (1898–) — revolutionized acting by asking actors to do what differently?", answer: "Identify genuinely with the character's inner emotional life ('emotional memory,' 'magic if') rather than imitating external signs of emotion. Actors should experience real feeling, not imitate its surface appearance.", acceptableAnswers: ["experience genuine emotion not imitate its surface", "emotional memory and inner life rather than external gesture", "method acting based on real feeling not technical imitation"] },
@@ -49332,6 +49782,7 @@ const CATEGORIES: Category[] = [
     name: "Cognitive Biases",
     culture: "universal",
     description: "Kahneman's System 1 and System 2, anchoring, confirmation bias, and the surprisingly irrational ways humans make decisions.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Greek_uc_psi_icon.svg/500px-Greek_uc_psi_icon.svg.png",
     questions: [
       { id: "cogbias_200_01", categoryId: "cognitive_biases", tier: 200, prompt: "Daniel Kahneman's framework describes two modes of thinking: 'System 1' and 'System 2.' What is the key difference between them?", answer: "System 1 is fast, automatic, intuitive, and unconscious — it runs all the time with minimal effort. System 2 is slow, deliberate, analytical, and effortful — it's what you use for complex reasoning. Most cognitive biases arise because System 1 handles situations that actually require System 2.", acceptableAnswers: ["System 1 is fast automatic System 2 is slow deliberate", "intuitive automatic vs deliberate analytical", "fast vs slow thinking"] },
       { id: "cogbias_200_02", categoryId: "cognitive_biases", tier: 200, prompt: "The 'anchoring effect' causes people to rely too heavily on the first piece of information they receive. Give a real-world example of how it is used deliberately.", answer: "Retail pricing — an item 'originally $200, now $79' anchors at $200 making $79 seem like a bargain. Salary negotiations — whoever names a number first anchors the negotiation. Legal damages — higher damages requested by plaintiffs anchor jury awards upward.", acceptableAnswers: ["retail pricing with fake 'original price'", "salary negotiation anchoring with first number", "legal damages anchored by plaintiff's opening number"] },
@@ -49350,6 +49801,7 @@ const CATEGORIES: Category[] = [
     name: "Irish History",
     culture: "universal",
     description: "The Famine, the Easter Rising, the Troubles, and Ireland's transformation from colonized island to Celtic Tiger.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Atlas_Van_der_Hagen-KW1049B11_048-HIBERNIAE_REGNUM_tam_in_praecipuas_ULTONIAE%2C_CONNACIAE%2C_LAGENIAE%2C_et_MOMONIAE%2C_quam_in_minores_earundem_Provincias%2C_et_Ditiones_subjacentes_peraccurat%C3%A9_divisum.jpeg/500px-thumbnail.jpeg",
     questions: [
       { id: "ire_200_01", categoryId: "irish_history", tier: 200, prompt: "The Great Famine (An Gorta Mór, 1845–52) reduced Ireland's population by about 25% through starvation and emigration. What plant disease caused the crop failure?", answer: "Phytophthora infestans — the potato blight (fungus-like oomycete) that destroyed successive potato harvests", acceptableAnswers: ["potato blight", "Phytophthora infestans", "a fungal disease affecting potato crops"] },
       { id: "ire_200_02", categoryId: "irish_history", tier: 200, prompt: "The Easter Rising of April 24, 1916 saw Irish republicans seize the General Post Office in Dublin and proclaim a republic. Who read the Proclamation of the Irish Republic from its steps?", answer: "Pádraig Pearse (Patrick Pearse)", acceptableAnswers: ["Padraig Pearse", "Patrick Pearse", "Pádraig Pearse"] },
@@ -49368,6 +49820,7 @@ const CATEGORIES: Category[] = [
     name: "Computing History",
     culture: "universal",
     description: "Turing's machine, von Neumann's architecture, the Altair, and Steve Jobs — how the computer went from room-sized to pocket-sized.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg/500px-Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg",
     questions: [
       { id: "comp_200_01", categoryId: "computing_history", tier: 200, prompt: "Alan Turing's 1936 paper 'On Computable Numbers' introduced the concept of a 'universal computing machine' now called what?", answer: "A Turing machine", acceptableAnswers: ["Turing machine", "universal Turing machine"] },
       { id: "comp_200_02", categoryId: "computing_history", tier: 200, prompt: "The first commercially successful personal computer was not the Apple II or the IBM PC — it was the Altair 8800 (1975). Which two future Microsoft founders wrote a BASIC interpreter for it?", answer: "Bill Gates and Paul Allen", acceptableAnswers: ["Bill Gates and Paul Allen", "Gates and Allen"] },
@@ -49386,6 +49839,7 @@ const CATEGORIES: Category[] = [
     name: "French Literature",
     culture: "universal",
     description: "Proust's madeleine, Camus's absurd stranger, Sartre's bad faith, and the tradition that defined modern literature.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/First_book_in_France.jpg/500px-First_book_in_France.jpg",
     questions: [
       { id: "frlit_200_01", categoryId: "french_literature", tier: 200, prompt: "Albert Camus's 'The Stranger' (L'Étranger, 1942) begins with what famous sentence — and why is the narrator Meursault considered the embodiment of 'the absurd'?", answer: "'Maman died today. Or yesterday, I don't know.' Meursault is absurd because he refuses to perform the emotional and social conventions that give life the illusion of meaning — he doesn't cry at his mother's funeral, has no apparent motive for murder, and is convicted partly because of his emotional detachment. He lives in the present without the false consciousness of meaning-making.", acceptableAnswers: ["Maman died today or yesterday I don't know", "refuses to perform social emotional conventions", "no apparent motive convicted partly for emotional detachment", "lives without false meaning-making"] },
       { id: "frlit_200_02", categoryId: "french_literature", tier: 200, prompt: "Marcel Proust's 'In Search of Lost Time' (À la recherche du temps perdu) is the longest novel in French literature. What is the famous 'madeleine passage' — and what philosophical idea does it illustrate?", answer: "The narrator dips a madeleine (a small shell-shaped cake) in tea; the taste involuntarily floods him with a complete, vivid memory of his childhood in Combray. This 'involuntary memory' (mémoire involontaire) — triggered by sensation, not conscious effort — is Proust's central aesthetic and philosophical concept: the past is not gone but crystallized in sensory triggers, recoverable through involuntary experience, not intellect.", acceptableAnswers: ["madeleine in tea triggers involuntary memory of childhood", "involuntary memory recovered through sensation not intellect", "past crystallized in sensory triggers not consciously accessible"] },
@@ -49404,6 +49858,7 @@ const CATEGORIES: Category[] = [
     name: "Russian Literature",
     culture: "universal",
     description: "Tolstoy's moral wrestling, Dostoevsky's underground men, Chekhov's unsaid things, and Bulgakov's talking cat.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Tolstoy_and_chekhov.jpg/500px-Tolstoy_and_chekhov.jpg",
     questions: [
       { id: "ruslit_200_01", categoryId: "russian_literature", tier: 200, prompt: "Leo Tolstoy's 'Anna Karenina' opens with what famous line — and which two storylines does the novel interweave?", answer: "'All happy families are alike; each unhappy family is unhappy in its own way.' Two storylines: Anna Karenina's adulterous affair with Count Vronsky (ends in suicide) and Levin's spiritual and agricultural quest (Tolstoy's autobiographical strand, ends in religious awakening).", acceptableAnswers: ["all happy families alike each unhappy in own way", "Anna's affair with Vronsky and Levin's spiritual quest", "adultery suicide storyline and Tolstoy's autobiographical Levin"] },
       { id: "ruslit_200_02", categoryId: "russian_literature", tier: 200, prompt: "Fyodor Dostoevsky wrote 'Crime and Punishment' while under severe financial pressure. What does his protagonist Raskolnikov believe justifies his murder of the pawnbroker — and what destroys this belief?", answer: "Raskolnikov believes 'extraordinary men' (Napoleon, great historical figures) have the right to transgress ordinary moral law when they serve a higher purpose. The murder should have proven he is such a man. What destroys it: the psychological torment — guilt and the inability to bear the isolation that follows the murder prove he is an ordinary man after all.", acceptableAnswers: ["extraordinary men have right to transgress morality for higher purpose", "guilt and psychological torment prove he's ordinary not extraordinary", "Napoleon theory: great men can transgress law"] },
@@ -49422,6 +49877,7 @@ const CATEGORIES: Category[] = [
     name: "History of Medicine",
     culture: "universal",
     description: "Germ theory, antisepsis, penicillin, and the ongoing drama of how humanity has understood and fought disease.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/HippocraticOath.jpg/500px-HippocraticOath.jpg",
     questions: [
       { id: "medh_200_01", categoryId: "medicine_history", tier: 200, prompt: "Alexander Fleming's discovery of penicillin in 1928 is often described as accidental. What exactly happened?", answer: "Fleming returned from holiday to find one of his petri dishes (growing Staphylococcus bacteria) had been contaminated by a mold — Penicillium notatum — and the bacteria around the mold were dead. Fleming recognized the mold was producing something antibacterial. Credit for developing it into a usable antibiotic goes to Florey and Chain (1940), who won the Nobel Prize alongside Fleming.", acceptableAnswers: ["contaminated petri dish showed mold killing surrounding bacteria", "Penicillium mold on Staphylococcus culture", "Florey and Chain developed it into usable medicine"] },
       { id: "medh_200_02", categoryId: "medicine_history", tier: 200, prompt: "Louis Pasteur's germ theory of disease — that microorganisms cause illness — overturned what previous theory?", answer: "Miasma theory — the belief that disease was caused by 'bad air' from decaying matter and filth. Pasteur's experiments (swan-neck flask), work on fermentation and pasteurization, and his development of vaccines for chicken cholera, anthrax, and rabies established germ theory.", acceptableAnswers: ["miasma theory (bad air causes disease)", "spontaneous generation and miasma theory", "filth and bad air theory of disease"] },
@@ -49458,6 +49914,7 @@ const CATEGORIES: Category[] = [
     name: "Turkic History",
     culture: "universal",
     description: "From the Göktürks of the steppe to Tamerlane to the Ottoman sultans — the Turkic peoples who reshaped Eurasia.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Court_of_Seljuk_ruler_Tughril_III.jpg/500px-Court_of_Seljuk_ruler_Tughril_III.jpg",
     questions: [
       { id: "turk_200_01", categoryId: "turkic_history", tier: 200, prompt: "Timur (Tamerlane), the 14th-century Turkic-Mongol conqueror who built an empire from India to Turkey, is famous for his brutality. What architectural legacy did he leave in his capital city?", answer: "Samarkand (in modern Uzbekistan) — Timur filled it with the world's greatest Islamic architecture: the Registan complex, the Gur-e-Amir mausoleum (where he was buried), and the Shah-i-Zinda necropolis, built by artisans and scholars abducted from conquered cities.", acceptableAnswers: ["Samarkand — Registan and Gur-e-Amir", "Samarkand filled with Islamic architecture built by captive artisans", "Registan complex Shah-i-Zinda Gur-e-Amir in Samarkand"] },
       { id: "turk_200_02", categoryId: "turkic_history", tier: 200, prompt: "The Seljuk Turks' 1071 victory over the Byzantine Empire at the Battle of Manzikert opened Anatolia (modern Turkey) to Turkic settlement. What is the modern country that resulted from this migration?", answer: "Turkey (the Republic of Turkey) — previously a Greek and Armenian majority region, Anatolia became progressively Turkic-speaking over centuries after 1071.", acceptableAnswers: ["Turkey", "Republic of Turkey", "modern Turkey"] },
@@ -49494,6 +49951,7 @@ const CATEGORIES: Category[] = [
     name: "Ancient Persia",
     culture: "universal",
     description: "Cyrus the Great, Darius I, the Royal Road, and the Achaemenid Empire that created the template for all future Persian greatness.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Persia_with_part_of_the_Ottoman_Empire%2C_1872.jpg/500px-Persia_with_part_of_the_Ottoman_Empire%2C_1872.jpg",
     questions: [
       { id: "apersia_200_01", categoryId: "ancient_persia", tier: 200, prompt: "Cyrus the Great's 'Cyrus Cylinder' (539 BCE), discovered in 1879, is sometimes called the world's first charter of human rights. What did it proclaim?", answer: "After conquering Babylon, Cyrus declared he would allow conquered peoples to return to their homelands and practice their religions freely — including the Jewish exile from Babylon (Babylonian captivity). He restored religious practices suppressed by Babylonian rulers. Modern international human rights advocates have cited it, though historians note it was also royal propaganda.", acceptableAnswers: ["allowed conquered peoples to return home and practice their religion", "freed Jews from Babylonian exile", "religious freedom for conquered peoples"] },
       { id: "apersia_200_02", categoryId: "ancient_persia", tier: 200, prompt: "Darius I's 'Royal Road' stretched approximately 2,700 km from Sardis (in modern Turkey) to Susa (in modern Iran). What system of communication did it enable?", answer: "A royal courier system using relay stations (chapar) where fresh horses and riders waited — a message could travel the full length in about 7 days. Herodotus's description of these couriers inspired the US Postal Service motto: 'Neither snow nor rain nor heat nor gloom of night...'", acceptableAnswers: ["royal courier relay system delivering messages in 7 days", "fresh horse relay stations along the road", "inspired the US Postal Service motto"] },
@@ -49512,6 +49970,7 @@ const CATEGORIES: Category[] = [
     name: "Latin American Literature",
     culture: "universal",
     description: "Magical realism, Borges's labyrinths, García Márquez's Macondo, and the explosion that remade world literature.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/0f/Gabriel_Garcia_Marquez.jpg",
     questions: [
       { id: "lalit_200_01", categoryId: "latin_american_literature", tier: 200, prompt: "Gabriel García Márquez's 'One Hundred Years of Solitude' (1967) famously begins with what line — and what literary technique does the entire novel employ?", answer: "'Many years later, as he faced the firing squad, Colonel Aureliano Buendía was to remember that distant afternoon when his father took him to discover ice.' The novel employs magical realism — supernatural events treated as ordinary occurrences in a realistic narrative.", acceptableAnswers: ["facing firing squad Colonel Aureliano Buendia remembered when father showed him ice", "magical realism: supernatural treated as ordinary", "magical realism defined the novel"] },
       { id: "lalit_200_02", categoryId: "latin_american_literature", tier: 200, prompt: "Jorge Luis Borges's short stories ('Ficciones,' 'El Aleph') are famous for exploring what philosophical themes — and what makes his narrative form distinctive?", answer: "Themes: infinity, labyrinths, mirrors, time, the relationship between reality and fiction, encyclopedic false erudition. Distinctive form: Borges often writes fake book reviews or encyclopedia articles about nonexistent books, treating fictional constructs as scholarly documents — collapsing the boundary between fiction and criticism.", acceptableAnswers: ["infinity labyrinths time reality vs fiction", "fake book reviews and encyclopedia articles about nonexistent books", "scholarly documents about fictional constructs collapsing fiction and criticism"] },
@@ -49530,6 +49989,7 @@ const CATEGORIES: Category[] = [
     name: "Sports History",
     culture: "universal",
     description: "The Ali-Frazier trilogy, Wimbledon's class politics, basketball's invention in a gymnasium, and sport as cultural force.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Ancient_Sumo_competition.jpg/500px-Ancient_Sumo_competition.jpg",
     questions: [
       { id: "sprt_200_01", categoryId: "sports_history", tier: 200, prompt: "Muhammad Ali's refusal to be drafted for Vietnam in 1967 ('I ain't got no quarrel with them Viet Cong') cost him what — and why was the Supreme Court decision in his case significant?", answer: "He was stripped of his heavyweight boxing title and banned from boxing for 3.5 years (his prime). The Supreme Court unanimously overturned his conviction in 1971 (Clay v. United States) — the government had mischaracterized the grounds for denying his conscientious objector status.", acceptableAnswers: ["stripped of heavyweight title banned from boxing 3.5 years", "Supreme Court unanimously overturned conviction 1971", "Clay v United States overturned on conscientious objector grounds"] },
       { id: "sprt_200_02", categoryId: "sports_history", tier: 200, prompt: "Basketball was invented in 1891 by a Canadian physical education instructor at a YMCA in Massachusetts. Who was he — and what was the original basket?", answer: "James Naismith — and the original basket was a peach basket (with a bottom). Someone had to retrieve the ball after every score until the bottom was removed.", acceptableAnswers: ["James Naismith", "Naismith invented it using a peach basket"] },
@@ -49548,6 +50008,7 @@ const CATEGORIES: Category[] = [
     name: "World Religions: Beyond the Big Three",
     culture: "universal",
     description: "Zoroastrianism, Sikhism, Jainism, Baha'i, and Shinto — the traditions that complete the global religious picture.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/2/27/Worldreligions.jpg",
     questions: [
       { id: "wreld_200_01", categoryId: "world_religions_comparative", tier: 200, prompt: "Sikhism was founded by Guru Nanak (1469–1539) in the Punjab region. What is the central Sikh concept 'Waheguru' — and what makes Sikhism's monotheism distinctive from Islamic or Christian monotheism?", answer: "Waheguru (Wonderful Lord) is the one formless, genderless God — the ultimate reality underlying all existence. Sikh monotheism is distinctive: God is beyond name, form, and attributes (nirguna) but can be experienced through the human heart; there is no incarnation (no Jesus-equivalent), no prophet as final mediator (gurus are teachers not divine), and the Guru Granth Sahib (the holy scripture) is treated as the living guru after the 10 human gurus.", acceptableAnswers: ["one formless genderless God beyond attributes nirguna", "no incarnation no final prophet scripture is living guru", "God experienced directly through heart not mediated by prophet or incarnation"] },
       { id: "wreld_200_02", categoryId: "world_religions_comparative", tier: 200, prompt: "Jainism's central ethical principle — 'ahimsa' (non-violence) — is the most radical in any world religion. How far does it extend?", answer: "Ahimsa extends to all living beings — not just humans and animals but insects, plants, and even micro-organisms. Jain monks sweep the ground before walking to avoid stepping on insects, wear masks to avoid inhaling organisms, and filter water. The concept of 'himsa' (harm) extends to harm through thought and word, not just physical violence.", acceptableAnswers: ["extends to all living beings including insects microorganisms plants", "monks sweep ground wear masks filter water", "extends to thought and word not just physical violence"] },
@@ -49566,6 +50027,7 @@ const CATEGORIES: Category[] = [
     name: "Geology & Earth Science",
     culture: "universal",
     description: "Plate tectonics, geological time, mass extinctions, and the evidence that the Earth is a dynamic, living system.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Grand_canyon_march_2013.jpg/500px-Grand_canyon_march_2013.jpg",
     questions: [
       { id: "geo_200_01", categoryId: "geology", tier: 200, prompt: "The theory of plate tectonics — developed fully in the 1960s — explains why continents are where they are. What observation did Alfred Wegener make in 1912 that first suggested continents had moved?", answer: "The coastlines of South America and Africa fit together like puzzle pieces; fossils of the same extinct species were found on both continents (Glossopteris fern, Mesosaurus reptile); and similar rock formations matched across the ocean. He called the original supercontinent 'Pangaea.' He was rejected because he couldn't explain the mechanism.", acceptableAnswers: ["South America and Africa coastlines fit together like puzzle pieces", "same fossils found on both continents", "Pangaea as original supercontinent he lacked a mechanism"] },
       { id: "geo_200_02", categoryId: "geology", tier: 200, prompt: "The geological time scale divides Earth's history into eons, eras, periods, and epochs. Approximately how old is Earth — and how much of that time predates complex multicellular life?", answer: "Earth is approximately 4.5 billion years old. Complex multicellular life (the Cambrian Explosion) began only ~540 million years ago — about 88% of Earth's history preceded it.", acceptableAnswers: ["4.5 billion years old", "88% of Earth's history before multicellular complex life", "4.5 billion years with complex life only last 540 million years"] },
@@ -49584,6 +50046,7 @@ const CATEGORIES: Category[] = [
     name: "Cold War Technology Race",
     culture: "universal",
     description: "Sputnik's beep, the U-2 spy plane, ICBMs, nuclear submarines, and the technological competition that defined a generation.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Cold_War_border_changes.png/500px-Cold_War_border_changes.png",
     questions: [
       { id: "cwtech_200_01", categoryId: "cold_war_technology", tier: 200, prompt: "Sputnik 1, launched October 4, 1957, was the world's first artificial satellite. What was its significance beyond the technical achievement — and what immediate action did the US Congress take?", answer: "Sputnik proved the Soviets had rockets capable of delivering nuclear warheads to the US — it was the same technology as an ICBM. It caused widespread American panic about Soviet technological superiority. Congress immediately passed the National Defense Education Act (1958), investing heavily in science and mathematics education, and created NASA (1958).", acceptableAnswers: ["proved Soviets had ICBM-capable rockets", "caused US panic about technological inferiority", "National Defense Education Act and NASA created in response 1958"] },
       { id: "cwtech_200_02", categoryId: "cold_war_technology", tier: 200, prompt: "The Lockheed U-2 spy plane could fly at 70,000 feet — high enough that the US believed it was out of Soviet missile range. What happened to Francis Gary Powers in 1960 that proved this wrong — and what diplomatic consequence followed?", answer: "His U-2 was shot down over the Soviet Union by an S-75 Dvina surface-to-air missile. Powers survived, was captured, tried, and imprisoned. This wrecked the Paris Summit between Eisenhower and Khrushchev — Khrushchev stormed out when Eisenhower wouldn't apologize.", acceptableAnswers: ["shot down by Soviet SAM missile", "Powers captured tried and imprisoned", "wrecked the Paris Summit Khrushchev walked out"] },
@@ -49621,6 +50084,7 @@ const CATEGORIES: Category[] = [
     name: "Astrophysics",
     culture: "universal",
     description: "Black holes, dark matter, gravitational waves, and the deepest questions about the cosmos.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/NIEdot362.jpg/500px-NIEdot362.jpg",
     questions: [
       { id: "astro_200_01", categoryId: "astrophysics", tier: 200, prompt: "What is the 'event horizon' of a black hole — and why does the information paradox it creates matter for physics?", answer: "The event horizon is the boundary beyond which nothing — not even light — can escape. The information paradox: Hawking radiation (thermal, random) carries no information about what fell in — if information is truly lost, this violates quantum mechanics' core principle of unitarity (all quantum processes are reversible in principle). Proposals like the holographic principle and firewall paradox attempt to resolve it.", acceptableAnswers: ["boundary beyond which nothing including light escapes", "Hawking radiation random carries no information violating unitarity", "information apparently destroyed conflicts with quantum mechanics reversibility"] },
       { id: "astro_200_02", categoryId: "astrophysics", tier: 200, prompt: "What is the difference between dark matter and dark energy — and what distinct observational evidence supports each?", answer: "Dark matter: invisible matter exerting gravitational effects — evidence: galaxy rotation curves (stars orbit too fast for visible matter), gravitational lensing by invisible mass, structure formation. Dark energy: force causing accelerating expansion — evidence: 1998 supernova survey showing distant supernovae dimmer than expected. Together ~95% of the universe's energy content.", acceptableAnswers: ["dark matter gravity effects without visible matter galaxy rotation curves lensing", "dark energy accelerating expansion discovered via supernova dimness 1998", "dark matter pulls together dark energy pushes apart together 95% of universe"] },
@@ -49639,6 +50103,7 @@ const CATEGORIES: Category[] = [
     name: "Byzantine Empire",
     culture: "universal",
     description: "Justinian's law code, Theodora's nerve, Greek fire, and 1,000 years of Rome's eastern continuation.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Eastern_Roman_Empire_565_CE.svg/500px-Eastern_Roman_Empire_565_CE.svg.png",
     questions: [
       { id: "byz_200_01", categoryId: "byzantine_empire", tier: 200, prompt: "Justinian I (r. 527–565) is often called the greatest Byzantine emperor. What were his two most lasting achievements?", answer: "(1) The Corpus Juris Civilis (Body of Civil Law) — a comprehensive codification of Roman law that became the foundation of legal systems across Europe (civil law tradition), still studied in law schools. (2) The Hagia Sophia — built in just 5 years (532–537), the world's largest cathedral for nearly 1,000 years. Its floating dome supported by half-domes and pendentives rather than visible columns was a structural breakthrough that influenced Islamic architecture including the Blue Mosque.", acceptableAnswers: ["Corpus Juris Civilis codification of Roman law foundation of European civil law", "Hagia Sophia built 532-537 largest cathedral for nearly 1000 years", "Roman law code and Hagia Sophia"] },
       { id: "byz_200_02", categoryId: "byzantine_empire", tier: 200, prompt: "Theodora, Justinian's wife and co-ruler, played a decisive role during the Nika Riots (532 CE). What did she do — and why was it remarkable?", answer: "During the Nika Riots (Blue and Green chariot racing factions united against Justinian, nearly burning Constantinople), Justinian was preparing to flee. Theodora reportedly refused to abandon power, saying 'purple makes a fine shroud.' She convinced Justinian to stay; Belisarius suppressed the riots (~30,000 killed in the Hippodrome). Remarkable: she was the daughter of a bear trainer and a former actress — both deeply stigmatized in Roman law — with no dynastic claim, yet made the decisive strategic call of the reign.", acceptableAnswers: ["refused to flee during Nika Riots saying purple makes a fine shroud", "convinced Justinian to suppress riots saving his reign", "remarkable because former actress daughter of bear trainer with no dynastic claim held decisive power"] },
@@ -49694,6 +50159,7 @@ const CATEGORIES: Category[] = [
     name: "Mughal Empire",
     culture: "universal",
     description: "The empire that built the Taj Mahal — Akbar's synthesis, Shah Jahan's grandeur, Aurangzeb's overreach, and the long decline.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Joppen1907India1700a.jpg/500px-Joppen1907India1700a.jpg",
     questions: [
       { id: "mug_200_01", categoryId: "mughal_empire", tier: 200, prompt: "The Mughal mansabdari system assigned officials dual ranks: zat and sawar. What did each rank specifically determine — and why was the distinction administratively significant?", answer: "Zat determined the mansabdar's personal status and salary; sawar determined the number of cavalry horsemen he was required to maintain and present for military service. The distinction mattered because an official could hold a high personal rank (zat) but command fewer cavalry (sawar), preventing status from automatically translating into military autonomy — the emperor retained leverage over military power even for high-ranking nobles.", acceptableAnswers: ["zat personal rank and pay sawar cavalry contingent required", "dual rank system separated personal status from military obligation", "prevented high-status officials from automatically commanding large armies"] },
       { id: "mug_200_02", categoryId: "mughal_empire", tier: 200, prompt: "Akbar's Din-i-Ilahi is often described as a syncretic religion — but historians debate whether it was actually a religion at all. What was it, and why is the 'religion' label contested?", answer: "Din-i-Ilahi ('Divine Faith') was a spiritual movement Akbar established ~1582, incorporating elements from Islam, Hinduism, Zoroastrianism, and Christianity. Historians contest calling it a religion because it had no scripture, no clergy, no obligatory rituals, very few adherents (mostly court nobles), and was confined entirely to Akbar's court. Abul Fazl's Akbarnama presents it as a spiritual fellowship of devotion to the emperor rather than a formal religion.", acceptableAnswers: ["syncretic court spiritual movement not a formal religion with scripture or clergy", "incorporated Islam Hinduism Zoroastrianism Christianity with very few adherents all at court", "Abul Fazl framed it as emperor-devotion fellowship not religious doctrine"] },
@@ -49712,6 +50178,7 @@ const CATEGORIES: Category[] = [
     name: "Silk Road",
     culture: "universal",
     description: "The ancient trade network connecting East Asia, Central Asia, the Middle East, and Europe — and the religions, diseases, and ideas that traveled with the goods.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Silk_road_Kazakhstan.svg/500px-Silk_road_Kazakhstan.svg.png",
     questions: [
       { id: "slk_200_01", categoryId: "silk_road", tier: 200, prompt: "The Silk Road was not one road but a network — and silk was not its most important cargo. What moved West to East (not just East to West), and why does focusing only on silk misrepresent the historical exchange?", answer: "East to West: silk, porcelain, spices, paper, gunpowder, printing. West to East: gold, silver, glassware, wool textiles, horses (especially Ferghana 'heavenly horses' sought by Han China), grape wine, alfalfa. The term 'Silk Road' was coined by German geographer Ferdinand von Richthofen in 1877 — ancient traders used no such name. More importantly: ideas, religions (Buddhism, Islam, Nestorian Christianity, Manichaeism), diseases (plague), and technologies moved more consequentially than silk.", acceptableAnswers: ["bidirectional: West sent gold silver horses glass while East sent silk paper gunpowder", "coined by Richthofen 1877 ancient traders used no such name", "religions Buddhism Islam Nestorian Christianity and technologies moved more consequentially than goods"] },
       { id: "slk_200_02", categoryId: "silk_road", tier: 200, prompt: "Who were the Sogdians — and why are they often called the most important middlemen in Silk Road history?", answer: "Sogdians (from Samarkand and Sogdia, modern Uzbekistan) were the dominant commercial intermediaries of the Silk Road from approximately the 4th–8th centuries. They established trade colonies from China (Dunhuang, Chang'an) to Persia; their language (Middle Sogdian) became the lingua franca of Central Asian trade; they carried goods, letters, and culture between Tang China and Sasanian Persia. The oldest surviving merchant correspondence from the Silk Road — the Sogdian letters found at Dunhuang (~313 CE) — is theirs.", acceptableAnswers: ["dominant Central Asian intermediaries from Samarkand establishing colonies China to Persia", "Middle Sogdian became lingua franca of Central Asian trade", "Sogdian letters at Dunhuang oldest surviving merchant correspondence ~313 CE"] },
@@ -49730,6 +50197,7 @@ const CATEGORIES: Category[] = [
     name: "Polynesian Navigation",
     culture: "universal",
     description: "How Polynesians settled the Pacific — the greatest feat of ocean navigation in human history, without instruments.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Hokule%27aSailing2009.jpg/500px-Hokule%27aSailing2009.jpg",
     questions: [
       { id: "pnv_200_01", categoryId: "polynesian_navigation", tier: 200, prompt: "Polynesian navigators crossed the Pacific without instruments. What specific natural signs — beyond stars — did they use to navigate, and what technique allowed them to maintain course when stars were obscured?", answer: "Natural signs: ocean swell patterns (swells maintain consistent direction even in weather, felt through the hull); phosphorescence (glowing plankton indicating swell breaks from a specific direction); cloud formations (orographic clouds form over islands before the island is visible); bird species and behavior (frigatebirds signal islands within 50–100 miles); water color and temperature changes near land. When stars were obscured: Marshall Islands wave pilots used their bodies — lying in the hull of the canoe to feel swell direction with their back and hips, navigating by bodily sensation alone.", acceptableAnswers: ["ocean swell patterns felt through hull even in cloud cover", "cloud formations over islands frigatebirds within 50-100 miles water color and temperature", "Marshall Islands wave pilots navigated by bodily sensation of swell patterns lying in hull"] },
       { id: "pnv_200_02", categoryId: "polynesian_navigation", tier: 200, prompt: "The 'Polynesian Triangle' describes the extent of Polynesian settlement. What are its three corners — and which settlement required the most remarkable navigational feat, and why?", answer: "Three corners: Hawaii (north), New Zealand/Aotearoa (southwest), Easter Island/Rapa Nui (east). Most remarkable: Easter Island — located ~2,300 miles from Pitcairn Island (nearest inhabited island) and 2,200 miles from the South American coast. To reach it required sailing against the prevailing trade winds eastward — navigators had to wait for rare westerly wind reversals or tack against the wind, then maintain orientation without landmarks for weeks. The settlement (~1200 CE) remains one of the most isolated deliberate human colonizations in history.", acceptableAnswers: ["Hawaii New Zealand/Aotearoa Easter Island/Rapa Nui as three corners", "Easter Island most remarkable: 2,300 miles from nearest inhabited island against prevailing trade winds", "required sailing eastward against trades waiting for westerly reversals ~1200 CE"] },
@@ -49748,6 +50216,7 @@ const CATEGORIES: Category[] = [
     name: "History of Writing",
     culture: "universal",
     description: "From Sumerian cuneiform to the Phoenician alphabet — how writing was invented, transmitted, lost, and decoded.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Writing_system_survey.svg/500px-Writing_system_survey.svg.png",
     questions: [
       { id: "wrt_200_01", categoryId: "writing_systems", tier: 200, prompt: "Where was writing independently invented — and what administrative need drove each invention?", answer: "Three independent inventions: (1) Mesopotamia (~3200 BCE) — Sumerian cuneiform, driven by administrative tracking of grain, livestock, and temple goods; (2) Egypt (~3200 BCE, possibly parallel to Mesopotamia) — hieroglyphics, initially for royal name labeling and elite administration; (3) China (~1200 BCE) — oracle bone script (jiaguwen) on Shang Dynasty animal bones and turtle shells, for divination. All three emerged from administrative or ritual record-keeping, not literary expression. Mesoamerican writing (Olmec/Maya, ~900 BCE) is often listed as a fourth independent invention.", acceptableAnswers: ["Mesopotamia cuneiform grain administration Egypt hieroglyphics China oracle bones as three independent inventions", "all emerged from administrative or ritual record-keeping not literary expression", "Mesoamerican Olmec Maya sometimes listed as fourth independent invention ~900 BCE"] },
       { id: "wrt_200_02", categoryId: "writing_systems", tier: 200, prompt: "The Phoenician alphabet is called the ancestor of all Western alphabets. What makes it a true alphabet — and why was it more transmissible than cuneiform or hieroglyphics?", answer: "Phoenician (developed ~1050 BCE from Proto-Sinaitic script): a consonantal alphabet (abjad) — 22 signs, each representing only a consonant, with vowels implied from context. More transmissible: any language could be represented with ~22 symbols learnable in days, versus cuneiform's 600+ signs or hieroglyphics' hundreds of logograms requiring years of scribal training. The Greeks added vowels (~800 BCE), creating the first true complete alphabet, which led to Latin, Cyrillic, and all Western writing systems.", acceptableAnswers: ["22 consonantal signs abjad vs cuneiform 600+ signs or hieroglyphics hundreds of logograms", "finite phoneme system learnable in days made it transmissible to any language", "Greek added vowels to create first complete alphabet leading to Latin Cyrillic all Western scripts"] },
@@ -49766,6 +50235,7 @@ const CATEGORIES: Category[] = [
     name: "Mycology",
     culture: "universal",
     description: "The science of fungi — decomposers, symbionts, psychedelics, and the wood wide web.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Mycena_leaiana_var._australis.jpg/500px-Mycena_leaiana_var._australis.jpg",
     questions: [
       { id: "myc_200_01", categoryId: "mycology", tier: 200, prompt: "Fungi were classified as plants for centuries. What fundamental biological differences distinguish them — and why do these differences matter for understanding their ecological role?", answer: "Key differences: (1) cell walls — fungi have chitin (the same material as insect exoskeletons), not cellulose (plant cell walls); (2) nutrition — fungi are heterotrophic (digesting externally via secreted enzymes and absorbing nutrients) vs plants' autotrophic photosynthesis; (3) no chlorophyll; (4) storage carbohydrate — glycogen (like animals), not starch (like plants). Fungi are more closely related to animals than to plants. Ecological role: primary decomposers — they break down lignin (wood's structural polymer, which bacteria cannot efficiently digest), releasing carbon and nutrients. Without fungi, terrestrial ecosystems would be buried under undecomposed wood.", acceptableAnswers: ["chitin cell walls not cellulose heterotrophic external digestion vs plant photosynthesis", "more closely related to animals than plants", "primary wood decomposers: only organisms efficiently breaking down lignin releasing carbon and nutrients"] },
       { id: "myc_200_02", categoryId: "mycology", tier: 200, prompt: "The largest organism on Earth by area is a fungus. What is it, where is it — and how does it exist as a single organism despite covering nearly 1,000 hectares?", answer: "Armillaria ostoyae (honey fungus) in Malheur National Forest, Oregon — estimated 2,385 acres (965 hectares), approximately 8,000 years old, weighing ~7,500 tons. Growth mechanism: through mycelium — a network of thread-like hyphae extending underground. The visible mushrooms are only the fruiting bodies (reproductive structures); the organism's body is the underground mycelial network. Confirmed as a single organism through genetic analysis showing identical DNA throughout.", acceptableAnswers: ["Armillaria ostoyae honey fungus in Malheur National Forest Oregon ~2,385 acres 8,000 years old", "mycelium underground thread network is the organism; mushrooms are only fruiting reproductive bodies", "confirmed single organism through genetic analysis identical DNA throughout"] },
@@ -49784,6 +50254,7 @@ const CATEGORIES: Category[] = [
     name: "Native American Civilizations",
     culture: "universal",
     description: "From Cahokia to the Haudenosaunee to the Trail of Tears — the depth and diversity of Indigenous North America.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Mexico_SunMoonPyramid.jpg/500px-Mexico_SunMoonPyramid.jpg",
     questions: [
       { id: "nac_200_01", categoryId: "native_american_civilizations", tier: 200, prompt: "The Haudenosaunee (Iroquois Confederacy) is often cited as an influence on the U.S. Constitution. What was its actual structure — and how credible is the influence claim?", answer: "Haudenosaunee structure: a confederation of Five Nations (Mohawk, Onondaga, Cayuga, Oneida, Seneca — later Six with the Tuscarora in 1722) governed by the Gayanashagowa ('Great Law of Peace'). A Council of 50 chiefs made decisions by consensus; clan mothers nominated and could depose chiefs. Influence claim: a 1987 US Senate Resolution acknowledged Iroquois contributions. Academic debate: some historians (Grinde, Johansen) argue strong direct influence; others (Tooker) find the similarities superficial — the Founders drew primarily on Greco-Roman republican models and Enlightenment thinkers (Locke, Montesquieu). Most historians conclude: the Iroquois provided an existence proof of large-scale confederation, but were not a primary structural source.", acceptableAnswers: ["five nations confederation consensus council women clan mothers nominated and deposed chiefs", "1987 Senate acknowledged influence but historians debate whether primary source or superficial similarity", "most historians: Iroquois provided existence proof of confederation but Founders primarily used Greco-Roman Enlightenment models"] },
       { id: "nac_200_02", categoryId: "native_american_civilizations", tier: 200, prompt: "What was Cahokia — and why is its abrupt abandonment by ~1350 CE historically significant?", answer: "Cahokia: the largest pre-Columbian settlement north of Mexico, near present-day St. Louis, Illinois. At its peak (~1050–1100 CE): 10,000–20,000 inhabitants (larger than contemporary London), with 120+ earthen mounds including Monks Mound (100 feet tall, a larger base than the Great Pyramid of Giza). Evidence of complex society: organized labor (mound construction), long-distance trade (copper from Great Lakes, shells from Gulf Coast), specialized craft production, and elite burials with sacrificed retainers. Abandoned ~1350 CE from deforestation causing flooding and soil erosion, combined with drought and political fragmentation — demonstrating that even large urban centers are vulnerable to environmental feedback loops they create.", acceptableAnswers: ["largest pre-Columbian settlement north of Mexico 10,000-20,000 people Monks Mound larger base than Giza", "long-distance trade copper Great Lakes shells Gulf Coast elite burials with sacrificed retainers", "abandoned ~1350 from deforestation flooding drought and political fragmentation — environmental self-damage"] },
@@ -49802,6 +50273,7 @@ const CATEGORIES: Category[] = [
     name: "History of Mathematics",
     culture: "universal",
     description: "The story of mathematical discovery — from Babylonian tablets and the crisis of irrational numbers to Gödel's incompleteness and the Langlands Program.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Euclid-proof.jpg",
     questions: [
       { id: "hmt_200_01", categoryId: "history_of_mathematics", tier: 200, prompt: "Ancient Babylonian mathematics (~1800 BCE) is often underestimated. What specific mathematical knowledge did they possess — and what is the significance of the Plimpton 322 tablet?", answer: "We know from ~400 surviving cuneiform clay tablets. Babylonian knowledge: multiplication tables, reciprocal tables (1/n), square and cube roots, solutions to quadratic and cubic equations, and iterative approximation of √2 to 6 decimal places. Most famous: Plimpton 322 (~1800 BCE) — a table of Pythagorean triples (numbers satisfying a² + b² = c²), demonstrating knowledge of this relationship 1,000 years before Pythagoras. Their base-60 (sexagesimal) system is why we still have 60 minutes per hour, 60 seconds per minute, and 360-degree circles.", acceptableAnswers: ["multiplication reciprocal tables quadratic cubic equations square roots from cuneiform tablets", "Plimpton 322: Pythagorean triples 1,000 years before Pythagoras", "base-60 legacy: 60 minutes/hour 360 degrees from Babylonian convention"] },
       { id: "hmt_200_02", categoryId: "history_of_mathematics", tier: 200, prompt: "Why did the Pythagorean discovery that √2 is irrational cause a philosophical crisis — and how did Greek mathematics respond?", answer: "Pythagorean philosophy held that all reality is composed of ratios of whole numbers — this was metaphysical, not just mathematical. The discovery (attributed to Hippasus, ~450 BCE) that the diagonal of a unit square (√2) cannot be expressed as any ratio of integers was devastating: geometry contained quantities fundamentally incommensurable with counting numbers. The legend that Hippasus was drowned for revealing this reflects the genuine philosophical threat. Greek response: separation of arithmetic (whole numbers) and geometry (continuous magnitudes) — Eudoxus's theory of proportion (Book V of Euclid's Elements) handled irrationals through geometric comparison without requiring numerical representation.", acceptableAnswers: ["Pythagorean philosophy all reality is whole number ratios; √2 incommensurable destroyed this metaphysics", "Hippasus discovered diagonal of unit square irrational — legend says drowned for revealing it", "Eudoxus theory of proportion geometrized irrationals avoiding numerical representation"] },
@@ -49820,6 +50292,7 @@ const CATEGORIES: Category[] = [
     name: "Entomology",
     culture: "universal",
     description: "The science of insects — the most species-rich animals on Earth, and the ones propping up most of the rest of life.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Insecta_Diversity.jpg/500px-Insecta_Diversity.jpg",
     questions: [
       { id: "ent_200_01", categoryId: "entomology", tier: 200, prompt: "Insects constitute the large majority of all animal species. What proportion are they — and what ecological functions would collapse without them?", answer: "~1 million described insect species out of ~8–10 million total animal species — roughly 57–70% of all described animal species. Key ecological functions: (1) pollination — 75–80% of flowering plant species require animal pollination, primarily by insects (bees, butterflies, beetles, flies); (2) decomposition — beetles and flies recycle organic matter; (3) food web foundation — insects are the primary food source for most insectivores (birds, bats, freshwater fish, reptiles, amphibians); (4) soil health — termites and ants aerate soil and increase water infiltration. Without insects: most flowering plants cannot reproduce; food webs collapse at multiple trophic levels; organic decomposition slows dramatically.", acceptableAnswers: ["~1 million species ~57-70% of all animal species", "pollinate 75-80% of flowering plant species primarily by bees butterflies beetles flies", "foundation of food webs and decomposition; soil health via termites and ants"] },
       { id: "ent_200_02", categoryId: "entomology", tier: 200, prompt: "What is haplodiploidy — and how does it partially explain the evolution of extreme altruism (worker sterility) in bees, wasps, and ants?", answer: "Haplodiploidy: in Hymenoptera (bees, wasps, ants), females develop from fertilized (diploid) eggs; males develop from unfertilized (haploid) eggs. Relatedness consequence: worker sisters share 75% of their genes (all share the same haploid father — identical for the paternal genome), while a worker shares only 50% with her own offspring. Hamilton's inclusive fitness: a worker maximizes gene transmission by raising sisters rather than reproducing. However, this is incomplete: honeybee queens mate multiply, so workers are actually 25–50% related — yet eusociality still evolved. Termites and naked mole rats achieved eusociality without haplodiploidy, showing it predisposes but does not determine extreme altruism.", acceptableAnswers: ["haploid males from unfertilized eggs; sisters share 75% vs own offspring 50% so raising sisters transmits more genes", "altruism genetically selfish: raising sisters transmits more genes than reproducing", "incomplete: polyandrous queens reduce actual relatedness; termites and mole rats achieve eusociality without haplodiploidy"] },
@@ -49838,6 +50311,7 @@ const CATEGORIES: Category[] = [
     name: "Stoicism",
     culture: "universal",
     description: "The ancient philosophy of what is and isn't in your control — from Zeno's Stoa to Marcus Aurelius's Meditations, and its contested modern revival.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Paolo_Monti_-_Servizio_fotografico_%28Napoli%2C_1969%29_-_BEIC_6353768.jpg/500px-Paolo_Monti_-_Servizio_fotografico_%28Napoli%2C_1969%29_-_BEIC_6353768.jpg",
     questions: [
       { id: "sto_200_01", categoryId: "stoicism", tier: 200, prompt: "What is the Stoic distinction between things 'up to us' (eph' hēmin) and things 'not up to us' — and why does it form the entire basis of Stoic ethics?", answer: "Epictetus (Enchiridion): only our judgments, impulses, desires, and aversions are eph' hēmin — everything external (body, reputation, property, other people's actions) is not up to us. Ethical foundation: if we assign value only to what is in our control, we cannot be genuinely harmed by external events — misfortune harms us only if we judge it harmful. This dismantles the basis for fear, grief, and rage (reactions to externals). Stoics advocated 'preferred indifferents' (proēgmena adiaphora) for health, wealth, and reputation — accept them if available, pursue them if rational, but never make them conditions of happiness. Virtue (aretē) alone is the genuine good.", acceptableAnswers: ["only judgments desires impulses aversions are eph hēmin; all externals including body reputation not up to us", "externals cannot genuinely harm if not assigned value as conditions of happiness", "virtue sole genuine good; preferred indifferents for health wealth not conditions of happiness"] },
       { id: "sto_200_02", categoryId: "stoicism", tier: 200, prompt: "Marcus Aurelius's Meditations were never intended for publication. What does this tell us about how Stoicism was actually practiced — and what makes the text philosophically unusual?", answer: "Meditations (Greek: 'Ta eis heauton' — 'Things to Himself'): written during military campaigns on the Danube (~170–180 CE), a private self-addressed journal of philosophical exercises — never published in Marcus's lifetime. Philosophically unusual: (1) it's repetitive — Marcus revisits the same themes (impermanence, duty, the smallness of the self) obsessively, suggesting struggle rather than mastery; (2) the confessional tone — an emperor writing to himself reveals self-doubt and irritation, the difficulty of living Stoic principles; (3) it's philosophy as practice, not theory — each entry is an exercise in attention rather than a systematic argument. Pierre Hadot's term: Stoicism as daily askēsis (spiritual exercise), not a completed worldview.", acceptableAnswers: ["Ta eis heauton Things to Himself private journal never intended for publication", "repetitive content suggests struggle not mastery; confessional tone reveals emperor's self-doubt", "Pierre Hadot Stoicism as daily askēsis spiritual exercise not systematic doctrine"] },
@@ -49856,6 +50330,7 @@ const CATEGORIES: Category[] = [
     name: "The Mongol Empire",
     culture: "universal",
     description: "Genghis Khan's world conquest, the Pax Mongolica, and the complex legacy of history's largest contiguous land empire.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Expansion_of_the_Mongol_Empire_1206%E2%80%931294.gif/500px-Expansion_of_the_Mongol_Empire_1206%E2%80%931294.gif",
     questions: [
       { id: "mon_200_01", categoryId: "mongol_empire", tier: 200, prompt: "Genghis Khan's birth name was Temüjin. What does 'Genghis Khan' mean — and at what specific event was the title conferred on him?", answer: "'Genghis Khan' most likely means 'Universal Ruler' or 'Oceanic Ruler' — an all-encompassing sovereign. The title was conferred at the kurultai (great assembly) of 1206, when all the Mongol and steppe tribes formally submitted to his authority on the banks of the Onon River, unifying the steppe peoples for the first time under a single ruler.", acceptableAnswers: ["Universal Ruler or Oceanic Ruler conferred at the 1206 kurultai", "Universal/All-Encompassing Khan, kurultai great assembly 1206", "Temüjin became Genghis Khan at 1206 great assembly"] },
       { id: "mon_200_02", categoryId: "mongol_empire", tier: 200, prompt: "The Battle of Ain Jalut (1260) halted the westward Mongol advance permanently. Who defeated whom — and why were the Mongols unusually vulnerable at that moment?", answer: "The Mamluks of Egypt, under Qutuz and Baybars, defeated the Mongol force commanded by Kitbuqa. The Mongols were uniquely vulnerable: the Great Khan Möngke had just died, requiring major Mongol forces to return east for the succession crisis. The Mamluks were themselves former steppe cavalry warriors, making them the one force capable of matching Mongol tactics. The defeat ended Mongol expansion into Africa and the Levant permanently.", acceptableAnswers: ["Mamluks under Qutuz and Baybars defeated Mongols under Kitbuqa", "Mongols weakened by Möngke Khan's death pulling forces east for succession", "Mamluks — former steppe warriors — defeated Mongols at Ain Jalut 1260"] },
@@ -49874,6 +50349,7 @@ const CATEGORIES: Category[] = [
     name: "Norse Mythology",
     culture: "universal",
     description: "Odin, Ragnarök, and the nine worlds — the deep structure of Norse cosmology, its primary sources, and what it reveals about the worldview that produced it.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Tj%C3%A4ngvide.jpg/500px-Tj%C3%A4ngvide.jpg",
     questions: [
       { id: "nors_200_01", categoryId: "norse_mythology", tier: 200, prompt: "Odin made two famous self-sacrifices for knowledge. What were they — and what do they reveal about his character as a deity?", answer: "First: Odin sacrificed his eye at Mimir's Well in exchange for a drink of its wisdom. Second: he hung himself on Yggdrasil for nine days, self-pierced with a spear, without food or water — 'given to Odin, myself to myself' (Hávamál) — to discover the runes. Together they define Odin as a deity of willed ordeal and knowledge-seeking: he follows the shamanic pattern of initiatory death-and-revelation, willing to pay any price for power. This makes him unpredictable and dangerous even to those he favors.", acceptableAnswers: ["eye sacrificed at Mimir's Well; self-hanged on Yggdrasil nine days for runes", "sacrificed eye for wisdom; hung nine days on World Tree self-pierced with spear to discover runes", "both self-sacrifices for knowledge — Mimir's Well (eye) and Yggdrasil hanging (runes)"] },
       { id: "nors_200_02", categoryId: "norse_mythology", tier: 200, prompt: "Three wells are found at Yggdrasil's roots. What is each — and what happens there?", answer: "Urðarbrunnr (the Well of Urðr): where the three Norns weave fate and water the World Tree with sacred water and clay, keeping it alive. Mímisbrunnr (Mimir's Well): the well of wisdom beneath the root extending into Jotunheim — where Odin sacrificed his eye. Hvergelmir: in Niflheim, the primordial spring and source of all rivers, where the corpse-gnawer Níðhöggr ceaselessly gnaws the root below it.", acceptableAnswers: ["Urðarbrunnr (Norns weave fate), Mímisbrunnr (wisdom, Odin's eye), Hvergelmir (Niflheim, Níðhöggr gnaws)", "three wells: Urð's Well of fate, Mimir's Well of wisdom, Hvergelmir source of rivers", "Norns' well / Mimir's wisdom well / Hvergelmir in Niflheim with Níðhöggr"] },
@@ -49892,6 +50368,7 @@ const CATEGORIES: Category[] = [
     name: "The Enlightenment",
     culture: "universal",
     description: "Kant, Voltaire, Locke, Rousseau, and the radical project of grounding all knowledge and authority in human reason — and the contradictions it generated.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Les_salons_au_XVIIIe_si%C3%A8cle_-_Histoire_Image.jpg/500px-Les_salons_au_XVIIIe_si%C3%A8cle_-_Histoire_Image.jpg",
     questions: [
       { id: "enl_200_01", categoryId: "the_enlightenment", tier: 200, prompt: "Kant defined Enlightenment as 'the courage to use your own understanding' (Sapere aude). What was 'self-incurred immaturity' — and why did he think most people chose to remain in it?", answer: "Kant (1784, 'What is Enlightenment?'): immaturity is the inability to use one's understanding without another's guidance — self-incurred when the cause is not lack of understanding but lack of courage. Most people remain immature by choice because it is easier: books think for them, doctors prescribe, pastors comfort — the machinery of custodianship requires no effort from its user. Those in authority have strong incentives to keep people tame and dependent. Sapere aude ('Dare to know!') — borrowed from Horace — becomes Kant's motto for the individual act of taking responsibility for one's own reasoning.", acceptableAnswers: ["self-incurred immaturity: choosing not to think for yourself when you could; easier to let authorities think for you", "immaturity = using authorities instead of one's own reason, self-chosen because effortless; custodians profit from keeping people dependent", "Sapere aude — dare to know — courage to reason without a guardian's guidance"] },
       { id: "enl_200_02", categoryId: "the_enlightenment", tier: 200, prompt: "The Encyclopédie (1751–1772), edited by Diderot and d'Alembert, was more than a reference work. What radical project did it represent — and why was it suppressed twice by the French crown?", answer: "The Encyclopédie was the first systematic attempt to organize all human knowledge by reason rather than divine authority — its very structure (a tree of knowledge with theology as a branch of philosophy rather than its foundation) was a provocation. The cross-references embedded subversive arguments: the entry on 'Political Authority' questioned divine-right monarchy; entries on religion invited skeptical comparison. It was seized in 1752 and again in 1759. Yet Malesherbes, the royal censor sympathetic to the philosophes, secretly preserved the manuscripts during one seizure. ~4,000 copies eventually circulated to educated elites across Europe, representing the first coordinated assault on Church and crown authority through the medium of organized knowledge.", acceptableAnswers: ["organized all knowledge by reason not divine authority; tree of knowledge placed theology under philosophy", "cross-references embedded arguments against monarchy and religion; suppressed 1752 and 1759 but Malesherbes preserved manuscripts", "first coordinated assault on Church and crown through organized knowledge; ~4,000 copies to European elites"] },
@@ -49910,6 +50387,7 @@ const CATEGORIES: Category[] = [
     name: "The Harlem Renaissance",
     culture: "universal",
     description: "Langston Hughes, Zora Neale Hurston, Du Bois, Garvey — the 1920s cultural explosion in Harlem and the debates it generated about race, art, and American identity.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Three_Harlem_Women%2C_ca._1925.png/500px-Three_Harlem_Women%2C_ca._1925.png",
     questions: [
       { id: "harl_200_01", categoryId: "harlem_renaissance", tier: 200, prompt: "Alain Locke's 1925 anthology 'The New Negro' is considered the movement's manifesto. What was the 'New Negro' as Locke defined it — and what did the concept challenge?", answer: "Locke argued the 'Old Negro' was a figure of white imagination — a sociological abstraction, a minstrel stereotype, or a suffering victim seeking white sympathy. The 'New Negro' was a self-defining subject: educated, artistically sophisticated, proud of African heritage, urbanized and cosmopolitan, claiming American citizenship as an entitled member of a culture Black Americans had helped build — not as a supplicant. The core claim: race pride and cultural self-expression were political acts. Creating a serious body of Black literature and art that demanded recognition changed the terms of racial discourse more effectively than political argument alone.", acceptableAnswers: ["New Negro = self-defining subject proud of African heritage, not stereotype of white imagination seeking sympathy", "claimed citizenship as entitled member not supplicant; cultural self-expression was a political act", "challenged the 'Old Negro' of white imagination — minstrel stereotype or victimized abstraction — with self-defined, educated, cosmopolitan identity"] },
       { id: "harl_200_02", categoryId: "harlem_renaissance", tier: 200, prompt: "The Great Migration brought hundreds of thousands of Black Americans north. What drove the movement — and why was Harlem specifically the center of the Renaissance?", answer: "Push factors: Jim Crow laws, sharecropping peonage, lynching, the Red Summer of 1919, and the boll weevil destroying Southern cotton crops from 1915. Pull factors: wartime industrial labor demand (WWI cut European immigration, factories needed workers), higher wages, and legal escape from formal segregation. Why Harlem: a real estate collapse of 1904–1910 left Harlem overbuilt; Black entrepreneur Philip Payton convinced white landlords to rent to Black tenants at premium rates. The resulting critical mass attracted Black institutions — churches, the NAACP, newspapers, clubs — creating a concentrated intellectual and cultural infrastructure that nowhere else in America had.", acceptableAnswers: ["push: Jim Crow, boll weevil, lynching; pull: WWI factory jobs; Harlem: Philip Payton's real estate strategy created critical mass", "Red Summer 1919, sharecropping, and boll weevil push; WWI industrial demand pull; Harlem overbuilt in 1904-1910 real estate collapse opened to Black tenants", "Philip Payton convinced overbuilt Harlem landlords to rent to Black tenants creating the institutional concentration"] },
@@ -49928,6 +50406,7 @@ const CATEGORIES: Category[] = [
     name: "The Habsburg Dynasty",
     culture: "universal",
     description: "Six centuries of European power through dynastic marriage, religious war, and the impossible project of governing a multi-ethnic empire.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Arms_of_Counts_of_Habsbourg.svg/500px-Arms_of_Counts_of_Habsbourg.svg.png",
     questions: [
       { id: "habs_200_01", categoryId: "habsburg_dynasty", tier: 200, prompt: "Emperor Frederick III adopted the motto 'AEIOU' — one interpretation became famous. What did it mean — and why was the multilingual ambiguity itself politically useful?", answer: "'Austriae Est Imperare Orbi Universo' — 'It is Austria's destiny to rule the world.' The German version: 'Alles Erdreich ist Österreich Unterthan' (All the world is subject to Austria). Frederick III (reigned 1440–1493) was the first to adopt it, and the same five letters produced empire-claiming slogans in multiple languages simultaneously — it meant different things to different linguistic audiences while asserting identical imperial ambition. The deliberate untranslatability allowed the motto to function across the multilingual Habsburg lands as a unifying symbol that each group could read in its own tongue.", acceptableAnswers: ["Austriae Est Imperare Orbi Universo — Austria is destined to rule the world; same letters work in German too", "multilingual ambiguity: different language audiences read the same motto as their own destiny; Frederick III adopted it first", "AEIOU = imperial destiny in both Latin and German — multilingual empire needed a motto everyone could claim"] },
       { id: "habs_200_02", categoryId: "habsburg_dynasty", tier: 200, prompt: "'Bella gerant alii, tu felix Austria nube' — 'Let others wage war; you, happy Austria, marry!' How did Habsburg marriage strategy actually work — and which specific marriages demonstrated its power most dramatically?", answer: "The Habsburgs accumulated empire not by conquest but by strategic betrothal: each marriage was negotiated as an inheritance claim. Maximilian I married Mary of Burgundy in 1477, gaining the Netherlands; their son Philip married Joanna of Castile, making their grandson Charles V ruler of Spain, the New World, Netherlands, and the Holy Roman Empire — achieved through two marriages, not a single war. Ferdinand I's marriage to Anna of Bohemia and Hungary in 1515 brought those kingdoms when the Jagiellonian dynasty died at Mohács (1526). The strategy accumulated one of history's largest empires through dynastic genealogy rather than military conquest.", acceptableAnswers: ["Maximilian married Mary of Burgundy (Netherlands); Philip married Joanna of Castile (Spain + New World) producing Charles V — empire through two marriages", "Ferdinand I married Anna of Bohemia-Hungary; Charles V united Spain Netherlands HRE through genealogy not conquest", "each marriage was an inheritance claim; 1515 double wedding secured Bohemia and Hungary when Jagiellonians died at Mohács 1526"] },
@@ -49946,6 +50425,7 @@ const CATEGORIES: Category[] = [
     name: "Ancient Phoenicia",
     culture: "universal",
     description: "The traders who gave the world its alphabet, Tyrian purple, and Carthage — and what archaeology is revising about what we thought we knew.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Phoenicia_map-en.svg/500px-Phoenicia_map-en.svg.png",
     questions: [
       { id: "pho_200_01", categoryId: "ancient_phoenicia", tier: 200, prompt: "The Phoenician alphabet had ~22 letters. What crucial innovation distinguished it from all earlier writing systems — and why did this make it the ancestor of most alphabets used today?", answer: "The Phoenician script was a pure abjad — 22 consonants, no vowels, no logograms, no syllabic elements. Earlier systems (Egyptian hieroglyphics, Mesopotamian cuneiform, Mycenaean Linear B) all mixed logograms, syllabic signs, and phonetic elements requiring hundreds of signs to master. Phoenician reduced all spoken language to 22 symbols representing consonants only, making literacy achievable in days rather than years of scribal training. The Greeks added vowels (~800 BCE), creating the first true alphabet. From the Phoenician-Greek script descend Latin, Cyrillic, Arabic, Hebrew, and most of the world's alphabets.", acceptableAnswers: ["pure abjad: 22 consonants only, no logograms or syllabic elements — reduced writing to 22 signs mastered in days not years", "first purely phonemic script without logograms; Greeks added vowels creating first true alphabet; ancestor of Latin Arabic Hebrew Cyrillic", "22 consonants only vs hundreds of mixed signs in cuneiform/hieroglyphics — democratized literacy"] },
       { id: "pho_200_02", categoryId: "ancient_phoenicia", tier: 200, prompt: "Tyrian purple dye was the most valuable luxury commodity in the ancient Mediterranean. Where did it come from — and what made it so extraordinarily expensive?", answer: "Extracted from the hypobranchial gland of the Murex snail (primarily Murex brandaris and Hexaplex trunculus). The process: thousands of snails were collected, crushed, and the gland extract exposed to air and sunlight to develop the color — the smell was reportedly appalling. Approximately 12,000 snails were needed to produce 1.5 grams of dye — enough for a single toga hem. The color was also uniquely permanent and actually intensified with exposure to sunlight rather than fading. The cost made purple fabric synonymous with royalty and imperial authority across the Mediterranean world.", acceptableAnswers: ["extracted from Murex snail gland; ~12,000 snails for 1.5g — enough for one toga hem", "Murex brandaris snail hypobranchial gland; thousands of snails per gram; color intensified rather than faded — uniquely permanent", "labor-intensive snail extraction (~12,000 per 1.5g), terrible smell, permanent non-fading color made it the ancient world's most valuable textile pigment"] },
@@ -49964,6 +50444,7 @@ const CATEGORIES: Category[] = [
     name: "Surrealism",
     culture: "universal",
     description: "André Breton, Salvador Dalí, and the movement that tried to liberate the unconscious — and ended up selling watches and fur teacups.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/b/b9/MagrittePipe.jpg",
     questions: [
       { id: "sur_200_01", categoryId: "surrealism", tier: 200, prompt: "André Breton's First Surrealist Manifesto (1924) defined surrealism as 'pure psychic automatism.' What was automatism as a Surrealist technique — and what was Breton's relationship to Freud's psychoanalysis?", answer: "Automatism: writing, drawing, or painting with the conscious critical mind suspended — allowing the unconscious to speak without rational censorship. The technique included automatic writing (writing whatever came to mind without stopping), chance collage, and spontaneous drawing. Breton had worked as a psychiatric nurse during WWI and encountered Freudian free-association techniques; the Surrealist artistic method was a direct transposition of the clinical method into art. Breton visited Freud in Vienna in 1921. Freud himself was unimpressed — he thought the conscious artistic expression of unconscious content was a lesser substitute for real psychoanalytic interpretation, and found Breton's enthusiasm somewhat embarrassing.", acceptableAnswers: ["automatism: suspending conscious mind to let unconscious speak through writing or drawing without censorship", "Freudian free-association transposed into art; Breton visited Freud 1921 but Freud was unimpressed, found artistic automatism inferior to real analysis", "psychic automatism from Freud's free-association; WWI psychiatric nurse background; Freud visited 1921 and dismissed Surrealist application"] },
       { id: "sur_200_02", categoryId: "surrealism", tier: 200, prompt: "Salvador Dalí's paranoiac-critical method was his alternative to automatism. What was it — and how did it produce images like the melting watches in 'The Persistence of Memory' (1931)?", answer: "Dalí's paranoiac-critical method: a deliberate simulation of paranoid thought, cultivating the obsessive irrational associations that paranoia generates — then executing those associations with hyper-realistic technical precision. Unlike automatism (disengaging the critical mind), the paranoiac-critical method activates a specific irrational faculty while maintaining complete painterly control. The melting watches were reportedly inspired by observing a melting piece of Camembert cheese left in the sun — his paranoiac faculty connected the softening cheese to the relativity of time. The result is dreamlike content rendered with trompe-l'oeil illusionism — the uncanniness comes entirely from irrational subject matter, not from any distortion of technique.", acceptableAnswers: ["paranoiac-critical: deliberately simulate paranoid irrational associations then execute with precise realist technique — opposite of automatism", "Camembert melting in sun suggested melting watches — paranoiac faculty made the connection; hyper-realist execution made it uncanny", "cultivating paranoid associations (not suspending reason) + perfect illusionist technique = irrational content in realistic painting"] },
@@ -49982,6 +50463,7 @@ const CATEGORIES: Category[] = [
     name: "The Crusades",
     culture: "universal",
     description: "Two centuries of religious warfare in the Levant — the politics behind the piety, what actually happened, and what the myth gets wrong.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Combat_deuxi%C3%A8me_croisade.jpg/500px-Combat_deuxi%C3%A8me_croisade.jpg",
     questions: [
       { id: "cru_200_01", categoryId: "the_crusades", tier: 200, prompt: "Pope Urban II launched the First Crusade at Clermont in 1095. What specific combination of events and motivations produced such a massive popular response?", answer: "Byzantine context: Emperor Alexios I Komnenos had lost much of Anatolia after the Battle of Manzikert (1071) and requested Western military assistance. Urban's appeal at Clermont: promised plenary indulgence (remission of temporal punishment for sins) for crusaders; invoked aid to Eastern Christian 'brothers'; called for liberation of Jerusalem. The massive response drew on several converging forces: (1) primogeniture left younger sons without inheritance — the Crusade offered land and adventure; (2) the Truce of God movement had tried to limit internal European violence, which now had a sacred external outlet; (3) genuine popular piety at its peak — the cult of relics and pilgrimage gave Jerusalem unique emotional power; (4) the ongoing Pope vs. Emperor (Henry IV) conflict made crusade loyalty a political statement against imperial authority.", acceptableAnswers: ["Manzikert 1071 lost Anatolia; Alexios I requested help; Urban promised plenary indulgence; younger sons' land ambitions + genuine pilgrimage piety + political anti-imperial statement", "plenary indulgence + Jerusalem's religious power + primogeniture land pressure + Truce of God violence channeled outward", "Urban II at Clermont: Byzantine appeal + indulgence promise + piety + political dimensions against Henry IV produced unprecedented response"] },
       { id: "cru_200_02", categoryId: "the_crusades", tier: 200, prompt: "The four Crusader states developed a distinctive legal and political culture. What made their feudalism different from European feudalism — and why?", answer: "The Assizes of Jerusalem (the Crusader law code): royal authority was constrained far more tightly by the High Court of barons than in any European kingdom. Why: Crusader kings were constantly dependent on voluntary noble support for military defense — they could not afford to alienate their vassals as European kings often could. The barons developed sophisticated constitutional arguments about rights and limits on royal power decades before Magna Carta (1215). Also distinctive: pragmatic coexistence with Muslim and Eastern Christian populations — separate courts for separate communities, local customs largely respected. This wasn't tolerance in a modern sense but a practical accommodation born of minority rule — the Crusaders never had the demographic base to rule purely by force.", acceptableAnswers: ["Assizes of Jerusalem: barons constrained king more than any European equivalent; kings dependent on voluntary noble military support", "developed constitutional arguments limiting royal power before Magna Carta; pragmatic coexistence with Muslim/Eastern Christian communities", "minority rule required accommodation; High Court constrained kings more than Europe; separate community courts for different populations"] },
@@ -50000,6 +50482,7 @@ const CATEGORIES: Category[] = [
     name: "Zoroastrianism",
     culture: "universal",
     description: "The ancient Iranian religion that may have shaped Judaism, Christianity, and Islam — its theology, its surviving community, and its contested role in world religious history.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Faravahar_on_Fire_Temple%2C_Yazd.jpg/500px-Faravahar_on_Fire_Temple%2C_Yazd.jpg",
     questions: [
       { id: "zor_200_01", categoryId: "zoroastrianism", tier: 200, prompt: "Zoroastrianism is described as both monotheistic and dualistic — which seems contradictory. How does this work in Zoroastrian theology?", answer: "Ahura Mazda (Wise Lord) is the supreme good deity — in this sense Zoroastrianism is monotheistic. But Ahura Mazda faces a genuine cosmic adversary: Angra Mainyu (Ahriman, Destructive Spirit), the source of all evil and death. This is genuine dualism: good and evil are metaphysically distinct forces in ongoing cosmic conflict. The apparent contradiction resolves partly through eschatology: in most Zoroastrian traditions, Ahura Mazda will ultimately prevail — evil is real and active now but not eternal; the cosmos moves toward renovation (frashkart). The prophet Zarathustra taught this through the Gathas (hymns in the Avesta): the universe is a battle between Asha (truth/cosmic order) and Druj (lie/chaos) in which all beings, human and divine, must choose sides.", acceptableAnswers: ["Ahura Mazda = supreme good (monotheistic tendency); Angra Mainyu = real cosmic evil force (dualistic); resolved by eschatology — Ahura Mazda ultimately wins", "genuine dualism (two real cosmic forces) within monotheistic framework (one supreme good deity); Asha vs Druj; frashkart renovation as final resolution", "battle between Asha (truth) and Druj (lie) in which humans choose sides; not eternal dualism because Ahura Mazda ultimately prevails"] },
       { id: "zor_200_02", categoryId: "zoroastrianism", tier: 200, prompt: "Zoroastrians are often called 'fire worshippers' by outsiders. What is the actual theological role of fire — and why is the label theologically wrong?", answer: "Fire in Zoroastrianism is not a deity but a symbol and medium: it represents Ahura Mazda's divine light, purity, and Asha (truth). Keeping a sacred flame burning is an act of maintaining cosmic order — the fire is a visible representation of divine presence and a medium for prayer, not an object of worship itself. The highest class of sacred fire, Atash Bahram ('Fire of Fires'), requires gathering and purifying fires from 16 different professional sources in elaborate ceremonies. Calling Zoroastrians 'fire worshippers' makes the same category error as calling Catholics 'bread worshippers' — confusing the symbol and medium for the deity being approached through it.", acceptableAnswers: ["fire represents Ahura Mazda's light and Asha (truth) — a symbol and prayer medium, not a deity worshipped in itself", "Atash Bahram highest fire requires 16 source fires; fire-worshipper label = confusing medium for object, like calling Catholics bread worshippers", "fire = medium and symbol of divine presence; maintaining it = maintaining cosmic order; not worship of fire itself"] },
@@ -50469,6 +50952,7 @@ const CATEGORIES: Category[] = [
     name: "Breaking Bad",
     culture: "american",
     description: "Walter White's transformation from chemistry teacher to Heisenberg",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Breaking_Bad_logo.svg/500px-Breaking_Bad_logo.svg.png",
     questions: [
       {
         id: "brb_200_01",
@@ -51190,6 +51674,7 @@ const CATEGORIES: Category[] = [
     name: "Michael Phelps & Olympic Swimming",
     culture: "universal",
     description: "The greatest Olympian in history and the science of elite swimming",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Michael_Phelps_Rio_Olympics_2016.jpg/500px-Michael_Phelps_Rio_Olympics_2016.jpg",
     questions: [
       {
         id: "mph_200_01",
@@ -51280,6 +51765,7 @@ const CATEGORIES: Category[] = [
     name: "Wayne Gretzky & The NHL",
     culture: "universal",
     description: "The Great One's records, the trade to LA, and hockey's greatest era",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Andrew_Scheer_with_Wayne_Gretzky_%2848055697168%29_%28cropped%29.jpg/500px-Andrew_Scheer_with_Wayne_Gretzky_%2848055697168%29_%28cropped%29.jpg",
     questions: [
       {
         id: "grt_200_01",
@@ -51911,6 +52397,7 @@ const CATEGORIES: Category[] = [
     name: "Tom Brady & The NFL Dynasty",
     culture: "american",
     description: "Seven Super Bowls, the greatest comeback, and two dynastic runs",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Tom_Brady_-_240422_191334_%28cropped%29_%28cropped%29.jpg/500px-25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Tom_Brady_-_240422_191334_%28cropped%29_%28cropped%29.jpg",
     questions: [
       {
         id: "tbr_200_01",
@@ -52001,6 +52488,7 @@ const CATEGORIES: Category[] = [
     name: "Pelé & Brazilian Football",
     culture: "universal",
     description: "The greatest footballer ever — Santos, the Seleção, and three World Cups",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/5/5e/Pele_con_brasil_%28cropped%29.jpg",
     questions: [
       {
         id: "plb_200_01",
@@ -52091,6 +52579,7 @@ const CATEGORIES: Category[] = [
     name: "Simone Biles & Elite Gymnastics",
     culture: "universal",
     description: "The greatest gymnast in history and the physics of what she does",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Simone_Biles_National_Team_2024.jpg/500px-Simone_Biles_National_Team_2024.jpg",
     questions: [
       {
         id: "smb_200_01",
@@ -52902,6 +53391,7 @@ const CATEGORIES: Category[] = [
     name: "Sidney Crosby & The Pittsburgh Penguins",
     culture: "universal",
     description: "The Golden Goal, back-to-back Cups, and the greatest pure hockey player ever",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Sidney_Crosby_2019-01-06_1.jpg/500px-Sidney_Crosby_2019-01-06_1.jpg",
     questions: [
       {
         id: "crb_200_01",
@@ -53172,6 +53662,7 @@ const CATEGORIES: Category[] = [
     name: "Hades",
     culture: "universal",
     description: "Zagreus escapes the Underworld with Olympian boons — and the story behind each run",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Persephone_Hades_BM_Vase_E82_%28cropped%29.jpg/500px-Persephone_Hades_BM_Vase_E82_%28cropped%29.jpg",
     questions: [
       {
         id: "hds_200_01",
@@ -53713,6 +54204,7 @@ const CATEGORIES: Category[] = [
     name: "Fargo (FX Series)",
     culture: "american",
     description: "Noah Hawley's anthology — Midwestern crime, moral rot, and unexpected darkness",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Fargo_%28TV_logo%29.svg/500px-Fargo_%28TV_logo%29.svg.png",
     questions: [
       {
         id: "frg_200_01",
@@ -54344,6 +54836,7 @@ const CATEGORIES: Category[] = [
     name: "The Americans",
     culture: "american",
     description: "KGB spies living as a suburban couple in 1980s Washington DC",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/The_americans_2013_title_logo.svg/500px-The_americans_2013_title_logo.svg.png",
     questions: [
       {
         id: "tam_200_01",
@@ -54434,6 +54927,7 @@ const CATEGORIES: Category[] = [
     name: "Bird vs. Magic: The 1980s NBA",
     culture: "american",
     description: "Larry Bird and Magic Johnson — the rivalry that saved professional basketball",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/bb/Larrybird.jpg",
     questions: [
       {
         id: "bmd_200_01",
@@ -54524,6 +55018,7 @@ const CATEGORIES: Category[] = [
     name: "Lance Armstrong & The Doping Era",
     culture: "universal",
     description: "Seven Tour de France titles, cancer survival, and the greatest sports fraud in history",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Lance_Armstrong_%28Tour_Down_Under_2009%29.jpg/500px-Lance_Armstrong_%28Tour_Down_Under_2009%29.jpg",
     questions: [
       {
         id: "lnc_200_01",
@@ -54614,6 +55109,7 @@ const CATEGORIES: Category[] = [
     name: "Fallout: New Vegas",
     culture: "american",
     description: "The Mojave Wasteland, the NCR-Legion-House war, and the road to Hoover Dam",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/43/Free_depiction_of_the_Fallout_New_Vegas_Xbox_360_box_art_%28cropped%29.png",
     questions: [
       {
         id: "fnv_200_01",
@@ -54957,6 +55453,7 @@ const CATEGORIES: Category[] = [
     name: "The Wire",
     culture: "universal",
     description: "Deep questions on Baltimore institutions, characters, and the show's systemic critique",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/The_Wire_logo.svg/500px-The_Wire_logo.svg.png",
     questions: [
       {
         id: "wir_200_01",
@@ -55362,6 +55859,7 @@ const CATEGORIES: Category[] = [
     name: "VALORANT Esports",
     culture: "universal",
     description: "Deep questions on VCT, agents, and VALORANT's competitive scene",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Valorant_Champions_Tour_logo.png/500px-Valorant_Champions_Tour_logo.png",
     questions: [
       {
         id: "vlt_200_01",
@@ -55443,6 +55941,7 @@ const CATEGORIES: Category[] = [
     name: "Cristiano Ronaldo",
     culture: "universal",
     description: "Deep questions on Ronaldo's career, records, and rivalries",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/President_Donald_Trump_meets_with_Cristiano_Ronaldo_in_the_Oval_Office_%2854933344262%29_%28cropped_and_rotated%29.jpg/500px-President_Donald_Trump_meets_with_Cristiano_Ronaldo_in_the_Oval_Office_%2854933344262%29_%28cropped_and_rotated%29.jpg",
     questions: [
       {
         id: "cr7_200_01",
@@ -56417,6 +56916,7 @@ const CATEGORIES: Category[] = [
     name: "Monster",
     culture: "universal",
     description: "Deep questions on Naoki Urasawa's psychological thriller about Dr. Tenma",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Arminianism_as_five-headed_monster.JPG/500px-Arminianism_as_five-headed_monster.JPG",
     questions: [
       {
         id: "mns_200_01",
@@ -56823,6 +57323,7 @@ const CATEGORIES: Category[] = [
     name: "The Boys (Amazon)",
     culture: "universal",
     description: "Deep questions on Vought International, the Seven, and the show's satire",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/The_Boys_TV_series_logo.svg/500px-The_Boys_TV_series_logo.svg.png",
     questions: [
       {
         id: "boy_200_01",
@@ -57228,6 +57729,7 @@ const CATEGORIES: Category[] = [
     name: "NFL Quarterback Deep Cuts",
     culture: "universal",
     description: "Deep questions on the most important position in American football history",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Tom_Brady_-_240422_191334_%28cropped%29_%28cropped%29.jpg/500px-25th_Laureus_World_Sports_Awards_-_Red_Carpet_-_Tom_Brady_-_240422_191334_%28cropped%29_%28cropped%29.jpg",
     questions: [
       {
         id: "nqb_200_01",
@@ -57309,6 +57811,7 @@ const CATEGORIES: Category[] = [
     name: "Tour de France History",
     culture: "universal",
     description: "Deep questions on the Tour's history, legends, and controversies",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Tour_de_France_logo_%28black_background%29.svg/500px-Tour_de_France_logo_%28black_background%29.svg.png",
     questions: [
       {
         id: "tdf_200_01",
@@ -57472,6 +57975,7 @@ const CATEGORIES: Category[] = [
     name: "Chess: Kasparov, Fischer & Beyond",
     culture: "universal",
     description: "Deep questions on world chess champions, matches, and the game's competitive history",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/aa/Kasparov-12.jpg",
     questions: [
       {
         id: "che_200_01",
@@ -57634,6 +58138,7 @@ const CATEGORIES: Category[] = [
     name: "Shiki",
     culture: "universal",
     description: "Deep questions on the vampire horror anime and its moral ambiguity",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Kana_%26_Romaji_Chart.svg/500px-Kana_%26_Romaji_Chart.svg.png",
     questions: [
       {
         id: "ski_200_01",
@@ -58040,6 +58545,7 @@ const CATEGORIES: Category[] = [
     name: "Breaking Bad",
     culture: "universal",
     description: "Deep questions on Walter White, chemistry, and Vince Gilligan's moral transformation drama",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Breaking_Bad_logo.svg/500px-Breaking_Bad_logo.svg.png",
     questions: [
       {
         id: "brb_200_01",
@@ -58283,6 +58789,7 @@ const CATEGORIES: Category[] = [
     name: "Muhammad Ali",
     culture: "universal",
     description: "Deep questions on Ali's fights, politics, and legacy",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Muhammad_Ali_NYWTS.jpg/500px-Muhammad_Ali_NYWTS.jpg",
     questions: [
       {
         id: "ali_200_01",
@@ -58364,6 +58871,7 @@ const CATEGORIES: Category[] = [
     name: "Formula 1 Deep History",
     culture: "universal",
     description: "Deep questions on F1 eras, technical regulations, and championship controversies",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Deep_Learning.jpg/500px-Deep_Learning.jpg",
     questions: [
       {
         id: "f1h_200_01",
@@ -58851,6 +59359,7 @@ const CATEGORIES: Category[] = [
     name: "Peaky Blinders",
     culture: "universal",
     description: "Deep questions on Peaky Blinders — characters, history, and the Shelby family's rise",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Harry_Fowles_Peaky_Blinder.jpg/500px-Harry_Fowles_Peaky_Blinder.jpg",
     questions: [
       {
         id: "pkb_200_01",
@@ -59567,6 +60076,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Hamburg, Revolver, backward tapes, and the end of Abbey Road — the studio innovations and lesser-known corners of the Beatles' catalog.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Aankomst_Beatles_op_Schiphol%2C_de_Beatles_op_de_vliegtuigtrap_met_aan_hun_voeten_%2C_Bestanddeelnr_916-5123.jpg/500px-Aankomst_Beatles_op_Schiphol%2C_de_Beatles_op_de_vliegtuigtrap_met_aan_hun_voeten_%2C_Bestanddeelnr_916-5123.jpg",
     questions: [
       {
         id: "btldp_200_01",
@@ -59998,6 +60508,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Vikings, the Varangian Guard, the Swedish Empire, and the Nordic Model — a thousand years of Scandinavian history.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/1730_Homann_Map_of_Scandinavia%2C_Norway%2C_Sweden%2C_Denmark%2C_Finland_and_the_Baltics_-_Geographicus_-_Scandinavia-homann-1730.jpg/500px-1730_Homann_Map_of_Scandinavia%2C_Norway%2C_Sweden%2C_Denmark%2C_Finland_and_the_Baltics_-_Geographicus_-_Scandinavia-homann-1730.jpg",
     questions: [
       {
         id: "nordic_200_01",
@@ -60101,6 +60612,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Terra nullius, the Stolen Generations, Gallipoli, the Whitlam dismissal, and the 2023 Voice referendum — Australia's contested past and present.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Ticonderoga_Bay%2C_Port_Phillip_Bay_seen_from_Portsea_Hotel%2C_Portsea%2C_Victoria%2C_Australia_01.jpg/500px-Ticonderoga_Bay%2C_Port_Phillip_Bay_seen_from_Portsea_Hotel%2C_Portsea%2C_Victoria%2C_Australia_01.jpg",
     questions: [
       {
         id: "aus_200_01",
@@ -60207,6 +60719,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "DNA structure, the central dogma, CRISPR, PCR, mRNA vaccines, and AlphaFold — the molecules that define modern biology.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Extended_Central_Dogma_with_Enzymes.jpg/500px-Extended_Central_Dogma_with_Enzymes.jpg",
     questions: [
       {
         id: "molbio_200_01",
@@ -60435,6 +60948,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "From Creep to Kid A — Radiohead's restless reinvention across alternative rock, electronic, and orchestral territory.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/RadioheadO2211125_composite.jpg/500px-RadioheadO2211125_composite.jpg",
     questions: [
       {
         id: "rdh_200_01",
@@ -60543,6 +61057,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "2001, The Shining, Clockwork Orange, Barry Lyndon — the perfectionism and symbolism of cinema's most meticulous director.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Stanley_Kubrick_in_Dr._Strangelove_Trailer_%284%29_Cropped.jpg/500px-Stanley_Kubrick_in_Dr._Strangelove_Trailer_%284%29_Cropped.jpg",
     questions: [
       {
         id: "kubrick_200_01",
@@ -60753,6 +61268,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "The Estates-General, the Bastille, the Terror, Robespierre, and Napoleon's rise — 1789 to 1799.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Anonymous_-_Prise_de_la_Bastille.jpg/500px-Anonymous_-_Prise_de_la_Bastille.jpg",
     questions: [
       {
         id: "frrev_200_01",
@@ -60857,6 +61373,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Wave-particle duality, Schrödinger's cat, Heisenberg uncertainty, Bell's theorem, and quantum entanglement.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Hydrogen_Density_Plots.png/500px-Hydrogen_Density_Plots.png",
     questions: [
       {
         id: "qm_200_01",
@@ -60975,6 +61492,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Bleach, Nevermind, In Utero — Kurt Cobain, grunge, Sub Pop, and the band that changed rock radio overnight.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/2/2e/Nirvana_around_1992_%28high_quality%29_%28cropped%29.jpg",
     questions: [
       {
         id: "nirv_200_01",
@@ -61078,6 +61596,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Senna, Schumacher, Hamilton, Verstappen — the technical complexity and drama of the world's premier motorsport.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/2010_Malaysian_GP_opening_lap.jpg/500px-2010_Malaysian_GP_opening_lap.jpg",
     questions: [
       {
         id: "f1_200_01",
@@ -61294,6 +61813,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "The King of Pop — Thriller, the moonwalk, Off the Wall, and the music videos that redefined the medium.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg/500px-Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg",
     questions: [
       {
         id: "mj_200_01",
@@ -61387,6 +61907,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Psycho, Vertigo, Rear Window, the MacGuffin, and the 'Master of Suspense' — Hitchcock's grammar of fear.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Hitchcock%2C_Alfred_02.jpg/500px-Hitchcock%2C_Alfred_02.jpg",
     questions: [
       {
         id: "hitch_200_01",
@@ -61607,6 +62128,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Democracy, the Persian Wars, Socrates, the Peloponnesian War, and Alexander — the foundations of Western civilization.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Map_of_Greece%2C_Archipelago_and_part_of_Anadoli%3B_Louis_Stanislas_d%27Arcy_Delarochette_1791.jpg/500px-Map_of_Greece%2C_Archipelago_and_part_of_Anadoli%3B_Louis_Stanislas_d%27Arcy_Delarochette_1791.jpg",
     questions: [
       {
         id: "agrk_200_01",
@@ -61710,6 +62232,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Phineas Gage, H.M., Broca's area, neuroplasticity, and the default mode network — how the brain works and what happens when it doesn't.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/PurkinjeCell.jpg/500px-PurkinjeCell.jpg",
     questions: [
       {
         id: "neuro_200_01",
@@ -61829,6 +62352,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "The Cambridge Five, the U-2 incident, Oleg Penkovsky, Aldrich Ames, and the shadow war between the CIA and KGB.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Fuchs-klaus_e.jpg/500px-Fuchs-klaus_e.jpg",
     questions: [
       {
         id: "cwe_200_01",
@@ -62067,6 +62591,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Supergiant's roguelite — Zagreus escaping the Underworld, boons from the Olympians, and a story told through repeated death.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Persephone_Hades_BM_Vase_E82_%28cropped%29.jpg/500px-Persephone_Hades_BM_Vase_E82_%28cropped%29.jpg",
     questions: [
       {
         id: "hades_200_01",
@@ -62283,6 +62808,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Seven Samurai, Rashomon, Ran, Ikiru — the visual mastery and moral seriousness of Japan's greatest filmmaker.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Akirakurosawa-onthesetof7samurai-1953-page88.jpg/500px-Akirakurosawa-onthesetof7samurai-1953-page88.jpg",
     questions: [
       {
         id: "krsw_200_01",
@@ -62502,6 +63028,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Ho Chi Minh, the Tet Offensive, the Pentagon Papers, Agent Orange, My Lai, and the fall of Saigon.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg/500px-U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg",
     questions: [
       {
         id: "viet_200_01",
@@ -62622,6 +63149,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Mendel's laws, natural selection, Hardy-Weinberg equilibrium, horizontal gene transfer, Hox genes, and endosymbiosis.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Darwin_Tree_1837.png/500px-Darwin_Tree_1837.png",
     questions: [
       {
         id: "gen_200_01",
@@ -62740,6 +63268,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "The Big Three, the Grand Slams, Billie Jean King, Serena Williams, and the politics and physics of the greatest sport.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Centre_Court.jpg/500px-Centre_Court.jpg",
     questions: [
       {
         id: "ten_200_01",
@@ -63081,6 +63610,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Kashmir, Stairway, the blues foundation, John Bonham's drumming, and the band that defined heavy rock.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Led_Zeppelin_-_promotional_image_%281971%29.jpg/500px-Led_Zeppelin_-_promotional_image_%281971%29.jpg",
     questions: [
       {
         id: "lz_200_01",
@@ -63191,6 +63721,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "The 1970s American film renaissance — Coppola, Scorsese, Spielberg, Altman, and the decade that remade cinema.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Bonnie_and_Clyde_%281967_teaser_poster%29.jpg/500px-Bonnie_and_Clyde_%281967_teaser_poster%29.jpg",
     questions: [
       {
         id: "nwh_200_01",
@@ -63423,6 +63954,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Sarajevo, the trenches, the Somme, mustard gas, the Armistice, and the war that remade the modern world.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Bataille_de_Verdun_1916.jpg/500px-Bataille_de_Verdun_1916.jpg",
     questions: [
       {
         id: "wwi_200_01",
@@ -63537,6 +64069,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Food webs, keystone species, trophic cascades, the sixth mass extinction, and the science of biodiversity.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/2016_EPI_Ecosystem_Vitality_Objective_-_Biodiversity_and_Habitat_%2826170609028%29.jpg/500px-2016_EPI_Ecosystem_Vitality_Objective_-_Biodiversity_and_Habitat_%2826170609028%29.jpg",
     questions: [
       {
         id: "eco_200_01",
@@ -63652,6 +64185,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Ali vs. Foreman, Tyson's rise and fall, Sugar Ray Robinson, and the sport that shaped the 20th century.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Pancho_Villa_BNF.jpeg/500px-Pancho_Villa_BNF.jpeg",
     questions: [
       {
         id: "box_200_01",
@@ -63763,6 +64297,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Simón Bolívar, José de San Martín, Miguel Hidalgo, Toussaint Louverture, and the liberation of the Americas from Spanish rule.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Congreso_de_Chilpancingo.png/500px-Congreso_de_Chilpancingo.png",
     questions: [
       {
         id: "latam_200_01",
@@ -64083,6 +64618,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Ziggy Stardust, the Thin White Duke, the Berlin Trilogy, Let's Dance, and Blackstar — five decades of reinvention.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/e8/David-Bowie_Chicago_2002-08-08_photoby_Adam-Bielawski-cropped.jpg",
     questions: [
       {
         id: "bowie_200_01",
@@ -64181,6 +64717,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Fargo, The Big Lebowski, No Country for Old Men, and the absurdist moral universe of Joel and Ethan Coen.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/e/e2/Coen_brothers_Cannes_2015_2_%28CROPPED%29.jpg",
     questions: [
       {
         id: "coen_200_01",
@@ -64397,6 +64934,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "The Raj, the slave trade, the Opium Wars, Cecil Rhodes, the Partition of India, and the empire on which the sun never set.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Great_Britain_%281707%E2%80%931800%29.svg/500px-Flag_of_Great_Britain_%281707%E2%80%931800%29.svg.png",
     questions: [
       {
         id: "brit_200_01",
@@ -64506,6 +65044,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "E=mc², time dilation, curved spacetime, gravitational waves, and why GPS satellites need Einstein.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/BBH_gravitational_lensing_of_gw150914.webm/500px--BBH_gravitational_lensing_of_gw150914.webm.jpg",
     questions: [
       {
         id: "rel_200_01",
@@ -64607,6 +65146,7 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description:
       "Don Bradman's 99.94, the Ashes, the West Indies' golden era, Sachin Tendulkar, and the rise of T20.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Pollock_to_Hussey.jpg/500px-Pollock_to_Hussey.jpg",
     questions: [
       {
         id: "ckt_200_01",
@@ -64978,6 +65518,7 @@ const CATEGORIES: Category[] = [
     name: "Ingmar Bergman",
     culture: "universal",
     description: "The Swedish director whose films plumbed existential dread, faith, death, and the silence of God across six decades.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Ingmar_Bergman_%281966%29.jpg/500px-Ingmar_Bergman_%281966%29.jpg",
     questions: [
       {
         id: "brg_200_01",
@@ -65142,6 +65683,7 @@ const CATEGORIES: Category[] = [
     name: "Prince",
     culture: "american",
     description: "The Minneapolis genius who fused funk, rock, R&B, pop, and gospel into a singular catalog that he fiercely controlled.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Prince_William_attends_Holocaust_Memorial_Day_%2854290704867%29%28cropped_3%29.jpg/500px-Prince_William_attends_Holocaust_Memorial_Day_%2854290704867%29%28cropped_3%29.jpg",
     questions: [
       {
         id: "prnc_200_01",
@@ -65224,6 +65766,7 @@ const CATEGORIES: Category[] = [
     name: "David Lynch",
     culture: "american",
     description: "The surrealist auteur behind Blue Velvet, Mulholland Drive, Twin Peaks, and Eraserhead — cinema's foremost explorer of the American nightmare.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/David_Lynch_%281990%29.jpg/500px-David_Lynch_%281990%29.jpg",
     questions: [
       {
         id: "lnch_200_01",
@@ -65306,6 +65849,7 @@ const CATEGORIES: Category[] = [
     name: "The Ottoman Empire",
     culture: "islamic",
     description: "Six centuries of Islamic imperial rule centered in Constantinople, from the fall of Byzantium to the birth of modern Turkey.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Flag_of_the_Ottoman_Empire_%281844%E2%80%931922%29.svg/500px-Flag_of_the_Ottoman_Empire_%281844%E2%80%931922%29.svg.png",
     questions: [
       {
         id: "otm_200_01",
@@ -65388,6 +65932,7 @@ const CATEGORIES: Category[] = [
     name: "Cognitive Science",
     culture: "universal",
     description: "The interdisciplinary study of mind and intelligence — spanning philosophy, neuroscience, linguistics, AI, and psychology.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Cognitive_Science_Hexagon.svg/500px-Cognitive_Science_Hexagon.svg.png",
     questions: [
       {
         id: "cog_200_01",
@@ -65636,6 +66181,7 @@ const CATEGORIES: Category[] = [
     name: "Golden Age Hip-Hop",
     culture: "american",
     description: "The late 1980s and 1990s era when hip-hop achieved artistic maturity — from Public Enemy to Nas, Biggie, and Wu-Tang.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Run-DMC_Beastie_Boys_1987_press_photo.jpg/500px-Run-DMC_Beastie_Boys_1987_press_photo.jpg",
     questions: [
       {
         id: "ghh_200_01",
@@ -65800,6 +66346,7 @@ const CATEGORIES: Category[] = [
     name: "The Spanish Civil War",
     culture: "universal",
     description: "The 1936–1939 conflict between Republican Spain and Franco's Nationalists — a rehearsal for World War II and a crucible for international idealism.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_11_%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B1%D1%80%D0%B8%D0%B3%D0%B0%D0%B4%D0%B0_%D0%B2_%D0%B1%D0%BE%D1%8E_%D0%BF%D0%BE%D0%B4_%D0%91%D0%B5%D0%BB%D1%8C%D1%87%D0%B8%D1%82%D0%B5._1937-edit.jpg/500px-%D0%98%D1%81%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%B0%D1%8F_11_%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B1%D1%80%D0%B8%D0%B3%D0%B0%D0%B4%D0%B0_%D0%B2_%D0%B1%D0%BE%D1%8E_%D0%BF%D0%BE%D0%B4_%D0%91%D0%B5%D0%BB%D1%8C%D1%87%D0%B8%D1%82%D0%B5._1937-edit.jpg",
     questions: [
       {
         id: "scw_200_01",
@@ -65882,6 +66429,7 @@ const CATEGORIES: Category[] = [
     name: "Particle Physics",
     culture: "universal",
     description: "The Standard Model, the Higgs boson, quarks, and the forces that bind the fabric of the universe at its smallest scales.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Standard_Model_of_Elementary_Particles.svg/500px-Standard_Model_of_Elementary_Particles.svg.png",
     questions: [
       {
         id: "prt_200_01",
@@ -65964,6 +66512,7 @@ const CATEGORIES: Category[] = [
     name: "Olympic History",
     culture: "universal",
     description: "From ancient Olympia to modern spectacle — the politics, records, and unforgettable moments of the Games.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Si%C3%A8ge_CIO_2020_%281%29.jpg/500px-Si%C3%A8ge_CIO_2020_%281%29.jpg",
     questions: [
       {
         id: "oly_200_01",
@@ -66046,6 +66595,7 @@ const CATEGORIES: Category[] = [
     name: "American Civil Rights Movement",
     culture: "american",
     description: "The mid-20th century struggle to end racial segregation and disenfranchisement — its leaders, legislation, and landmark moments.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Civil_Rights_March_on_Washington%2C_D.C._%28Leaders_marching_from_the_Washington_Monument_to_the_Lincoln_Memorial%29_-_NARA_-_542010.jpg/500px-Civil_Rights_March_on_Washington%2C_D.C._%28Leaders_marching_from_the_Washington_Monument_to_the_Lincoln_Memorial%29_-_NARA_-_542010.jpg",
     questions: [
       {
         id: "acr_200_01",
@@ -66376,6 +66926,7 @@ const CATEGORIES: Category[] = [
     name: "Wong Kar-wai",
     culture: "universal",
     description: "Hong Kong's master of mood — whose films about longing, memory, and time dissolve plot into pure sensation.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Wong_Kar-wai_Berlin_cropped.jpg/500px-Wong_Kar-wai_Berlin_cropped.jpg",
     questions: [
       {
         id: "wkw_200_01",
@@ -66458,6 +67009,7 @@ const CATEGORIES: Category[] = [
     name: "Mughal Empire: Deep Cut",
     culture: "islamic",
     description: "Beyond Akbar and the Taj Mahal — the religious politics, architectural patronage, and decline of the greatest Islamic empire in South Asia.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Early_Maratha_History-Joppen.jpg/500px-Early_Maratha_History-Joppen.jpg",
     questions: [
       {
         id: "mgd_200_01",
@@ -66540,6 +67092,7 @@ const CATEGORIES: Category[] = [
     name: "Immunology",
     culture: "universal",
     description: "How the body recognizes and destroys pathogens — from innate immunity to T cells, B cells, vaccines, and autoimmune disease.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/MRSA%2C_Ingestion_by_Neutrophil.jpg/500px-MRSA%2C_Ingestion_by_Neutrophil.jpg",
     questions: [
       {
         id: "imm_200_01",
@@ -66704,6 +67257,7 @@ const CATEGORIES: Category[] = [
     name: "Circassian History",
     culture: "circassian",
     description: "The history of the Circassian people — from ancient Caucasian kingdoms to the Russo-Circassian War, the Genocide, and the diaspora.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Circassian_flag.svg/500px-Circassian_flag.svg.png",
     questions: [
       {
         id: "cir_200_01",
@@ -67116,6 +67670,7 @@ const CATEGORIES: Category[] = [
     name: "Cold War Crises",
     culture: "universal",
     description: "The Berlin Blockade, Korean War, Cuban Missile Crisis, and other flashpoints that brought the world to the brink of nuclear war.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Cold_War_border_changes.png/500px-Cold_War_border_changes.png",
     questions: [
       {
         id: "cwc_200_01",
@@ -67198,6 +67753,7 @@ const CATEGORIES: Category[] = [
     name: "Climate Science: Deep Cut",
     culture: "universal",
     description: "Beyond the basics — tipping points, feedback loops, paleoclimate, and the geopolitics of decarbonization.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Change_in_Average_Temperature_With_Fahrenheit.svg/500px-Change_in_Average_Temperature_With_Fahrenheit.svg.png",
     questions: [
       {
         id: "cls2_200_01",
@@ -67280,6 +67836,7 @@ const CATEGORIES: Category[] = [
     name: "Golf History",
     culture: "universal",
     description: "The major championships, legendary courses, iconic moments, and players who defined the sport from Old Tom Morris to Tiger Woods.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/The_MacDonald_boys_playing_golf.jpg/500px-The_MacDonald_boys_playing_golf.jpg",
     questions: [
       {
         id: "glf_200_01",
@@ -67362,6 +67919,7 @@ const CATEGORIES: Category[] = [
     name: "Ancient Rome",
     culture: "universal",
     description: "From the Republic's founding to Caesar's assassination, the Principate, and the fall of the Western Empire in 476 AD.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Roman_Republic_Empire_map.gif/500px-Roman_Republic_Empire_map.gif",
     questions: [
       {
         id: "anr_200_01",
@@ -67444,6 +68002,7 @@ const CATEGORIES: Category[] = [
     name: "Arab Nationalism & the Modern Middle East",
     culture: "arabic",
     description: "From the Arab Revolt of 1916 to Nasser's pan-Arabism, the PLO, and the post-colonial reshaping of the Arab world.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Flag_of_the_Arab_revolt_%281.2_ratio%29.png/500px-Flag_of_the_Arab_revolt_%281.2_ratio%29.png",
     questions: [
       {
         id: "arb_200_01",
@@ -67692,6 +68251,7 @@ const CATEGORIES: Category[] = [
     name: "Bob Marley & Reggae",
     culture: "universal",
     description: "The Wailers, Rastafari, Trench Town, and how Jamaican reggae became the soundtrack of global resistance.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/0/0b/Rita-Marley.jpg",
     questions: [
       {
         id: "reg_200_01",
@@ -67774,6 +68334,7 @@ const CATEGORIES: Category[] = [
     name: "Coppola & Scorsese",
     culture: "american",
     description: "The two titans of 1970s New Hollywood — their masterworks, creative obsessions, and lasting impact on American cinema.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Martin_Scorsese-68749.jpg/500px-Martin_Scorsese-68749.jpg",
     questions: [
       {
         id: "cps_200_01",
@@ -67938,6 +68499,7 @@ const CATEGORIES: Category[] = [
     name: "Oceanography",
     culture: "universal",
     description: "Ocean currents, deep sea ecosystems, plate tectonics beneath the seafloor, and the science of Earth's most unexplored realm.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Thermohaline_Circulation_2.png/500px-Thermohaline_Circulation_2.png",
     questions: [
       {
         id: "ocn_200_01",
@@ -68020,6 +68582,7 @@ const CATEGORIES: Category[] = [
     name: "Basketball History",
     culture: "american",
     description: "From James Naismith's peach baskets to the global NBA — the dynasties, superstars, and defining moments of basketball.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Dr._James_Naismith.jpg/500px-Dr._James_Naismith.jpg",
     questions: [
       {
         id: "bsk_200_01",
@@ -68102,6 +68665,7 @@ const CATEGORIES: Category[] = [
     name: "The Weimar Republic",
     culture: "universal",
     description: "Germany's fragile democracy between the wars — hyperinflation, cultural renaissance, political extremism, and why it failed.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Germany_%283-2%29.svg/500px-Flag_of_Germany_%283-2%29.svg.png",
     questions: [
       {
         id: "wmr_200_01",
