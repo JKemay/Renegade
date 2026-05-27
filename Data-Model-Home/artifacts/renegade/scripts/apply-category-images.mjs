@@ -34,9 +34,10 @@ function main() {
       continue;
     }
 
-    // Find the category block by id and check if imageUrl already exists nearby
+    // Category IDs are alphanumeric + underscores — no escaping needed.
+    // Double-escaped backslashes so RegExp() receives literal \s\S and \n.
     const idPattern = new RegExp(
-      `(\s{4}id:\s*"${id.replace(/[.*+?^${}()|[\]\]/g, "\$&")}"[\s\S]*?)(\n\s{4}questions:)`,
+      `(    id: "${id}"[\\s\\S]*?)(\\n    questions:)`,
       "m"
     );
 
@@ -54,8 +55,7 @@ function main() {
     }
 
     // Insert imageUrl before the questions: field
-    const insert = `\n    imageUrl: "${url}",`;
-    src = src.replace(idPattern, `$1${insert}$2`);
+    src = src.replace(idPattern, `$1\n    imageUrl: "${url}",$2`);
     applied++;
     console.log(`+ [${id}] applied`);
   }
