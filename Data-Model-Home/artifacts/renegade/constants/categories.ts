@@ -31166,10 +31166,10 @@ const CATEGORIES: Category[] = [
         answer: "Riichiro Inagaki, Weekly Shonen Jump",
         acceptableAnswers: ["Riichiro Inagaki", "Inagaki", "Shonen Jump"],
       },
-      { id: "ds_200_03", categoryId: "anime_dr_stone", tier: 200, prompt: "What does Senku use as the key ingredient in the 'revival fluid' to de-petrify humans — a substance found naturally near waterfalls and caves?", answer: "Nital / nitric acid (combined with ethanol) — specifically from bat guano and cave environments", acceptableAnswers: ["nital", "nitric acid", "revival fluid from nital", "bat guano nitric acid"] },
-      { id: "ds_400_03", categoryId: "anime_dr_stone", tier: 400, prompt: "Tsukasa Shishio — Senku's chief antagonist — opposes rebuilding modern civilization. What is his core philosophical reason?", answer: "He wants to build a world for the pure and young — killing any petrified adults to prevent corrupt modern society from being restored", acceptableAnswers: ["kill the corrupt adults", "doesn't want modern civilization", "world for the pure", "eliminate adult society"] },
-      { id: "ds_400_04", categoryId: "anime_dr_stone", tier: 400, prompt: "The Kingdom of Science's first major technological milestone — used to establish superiority — was creating what substance that Senku calls 'the thing that will change the world'?", answer: "Sulfa drug / antibiotics (specifically Sulfonamide)", acceptableAnswers: ["sulfa drugs", "antibiotics", "sulfonamide", "medicine"] },
-      { id: "ds_600_03", categoryId: "anime_dr_stone", tier: 600, prompt: "Dr. Stone's science is famously accurate enough to be used as supplemental teaching material. Which real-world chemistry process does Senku use to create iron and eventually steel from scratch?", answer: "Iron smelting using blast furnace principles — reducing iron ore with coke (charcoal) and limestone at high heat", acceptableAnswers: ["smelting", "blast furnace", "iron smelting from ore", "reducing iron ore"] },
+      { id: "anidr_200_03", categoryId: "anime_dr_stone", tier: 200, prompt: "What does Senku use as the key ingredient in the 'revival fluid' to de-petrify humans — a substance found naturally near waterfalls and caves?", answer: "Nital / nitric acid (combined with ethanol) — specifically from bat guano and cave environments", acceptableAnswers: ["nital", "nitric acid", "revival fluid from nital", "bat guano nitric acid"] },
+      { id: "anidr_400_03", categoryId: "anime_dr_stone", tier: 400, prompt: "Tsukasa Shishio — Senku's chief antagonist — opposes rebuilding modern civilization. What is his core philosophical reason?", answer: "He wants to build a world for the pure and young — killing any petrified adults to prevent corrupt modern society from being restored", acceptableAnswers: ["kill the corrupt adults", "doesn't want modern civilization", "world for the pure", "eliminate adult society"] },
+      { id: "anidr_400_04", categoryId: "anime_dr_stone", tier: 400, prompt: "The Kingdom of Science's first major technological milestone — used to establish superiority — was creating what substance that Senku calls 'the thing that will change the world'?", answer: "Sulfa drug / antibiotics (specifically Sulfonamide)", acceptableAnswers: ["sulfa drugs", "antibiotics", "sulfonamide", "medicine"] },
+      { id: "anidr_600_03", categoryId: "anime_dr_stone", tier: 600, prompt: "Dr. Stone's science is famously accurate enough to be used as supplemental teaching material. Which real-world chemistry process does Senku use to create iron and eventually steel from scratch?", answer: "Iron smelting using blast furnace principles — reducing iron ore with coke (charcoal) and limestone at high heat", acceptableAnswers: ["smelting", "blast furnace", "iron smelting from ore", "reducing iron ore"] },
     ],
   },
 
@@ -33738,9 +33738,9 @@ const CATEGORIES: Category[] = [
           "Ian Cardoni and Harry Belden",
         ],
       },
-      { id: "rm2_200_03", categoryId: "mv_rick_morty_2", tier: 200, prompt: "Rick Sanchez is described as 'the smartest man in the universe' — but what is the root cause of his nihilism and alcoholism according to the show?", answer: "He witnessed Beth's mother — his wife Diane — killed in an attack by an alternate Rick, which destroyed his belief in meaning and family", acceptableAnswers: ["wife Diane was killed", "loss of his wife", "Diane's death", "alternate Rick killed his wife"] },
-      { id: "rm2_400_03", categoryId: "mv_rick_morty_2", tier: 400, prompt: "The 'Pickle Rick' episode is one of the most iconic — but the post-credits scene with the therapist Dr. Wong makes the key meta-point. What does she say about why Rick turned himself into a pickle?", answer: "She says Rick turned into a pickle to avoid a family therapy session — that his intelligence is used to avoid emotional vulnerability, not solve problems", acceptableAnswers: ["to avoid therapy", "avoids emotional vulnerability", "uses intelligence to escape feelings", "avoiding family therapy"] },
-      { id: "rm2_600_03", categoryId: "mv_rick_morty_2", tier: 600, prompt: "The Citadel of Ricks — a society built by infinite versions of Rick — satirizes which specific socioeconomic structure? What class system exists there?", answer: "It satirizes capitalism and social class — Morties are the working class/underclass who serve Ricks, with some Morties rising to political power while most remain exploited labor", acceptableAnswers: ["capitalism", "class system with Mortys as workers", "Mortys as the underclass", "capitalist class structure"] },
+      { id: "mvric_200_03", categoryId: "mv_rick_morty_2", tier: 200, prompt: "Rick Sanchez is described as 'the smartest man in the universe' — but what is the root cause of his nihilism and alcoholism according to the show?", answer: "He witnessed Beth's mother — his wife Diane — killed in an attack by an alternate Rick, which destroyed his belief in meaning and family", acceptableAnswers: ["wife Diane was killed", "loss of his wife", "Diane's death", "alternate Rick killed his wife"] },
+      { id: "mvric_400_03", categoryId: "mv_rick_morty_2", tier: 400, prompt: "The 'Pickle Rick' episode is one of the most iconic — but the post-credits scene with the therapist Dr. Wong makes the key meta-point. What does she say about why Rick turned himself into a pickle?", answer: "She says Rick turned into a pickle to avoid a family therapy session — that his intelligence is used to avoid emotional vulnerability, not solve problems", acceptableAnswers: ["to avoid therapy", "avoids emotional vulnerability", "uses intelligence to escape feelings", "avoiding family therapy"] },
+      { id: "mvric_600_03", categoryId: "mv_rick_morty_2", tier: 600, prompt: "The Citadel of Ricks — a society built by infinite versions of Rick — satirizes which specific socioeconomic structure? What class system exists there?", answer: "It satirizes capitalism and social class — Morties are the working class/underclass who serve Ricks, with some Morties rising to political power while most remain exploited labor", acceptableAnswers: ["capitalism", "class system with Mortys as workers", "Mortys as the underclass", "capitalist class structure"] },
     ],
   },
 
@@ -34836,7 +34836,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Chess"],
       },
       {
-        id: "tec_600_03",
+        id: "techis_600_03",
         categoryId: "tech_history",
         tier: 600,
         prompt:
@@ -39014,7 +39014,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Belgium and Netherlands", "Netherlands and Belgium", "Belgium and Holland"],
       },
       {
-        id: "geo_600_03",
+        id: "geobiz_600_03",
         categoryId: "geo_bizarre_borders",
         tier: 600,
         prompt: "What is the name of the Spanish exclave located on the northern coast of Morocco, which is surrounded by Moroccan territory and the Mediterranean Sea?",
@@ -45966,15 +45966,15 @@ const CATEGORIES: Category[] = [
     culture: "american",
     description: "The greatest players, dynasties, and moments in NBA history.",
     questions: [
-      { id: "nba_200_01", categoryId: "nba_legends", tier: 200, prompt: "This player won 6 NBA titles with the Chicago Bulls and is widely considered the greatest basketball player of all time.", answer: "Michael Jordan", acceptableAnswers: ["Jordan", "MJ"] },
-      { id: "nba_200_02", categoryId: "nba_legends", tier: 200, prompt: "LeBron James won his first NBA championship with this team in 2012.", answer: "Miami Heat", acceptableAnswers: ["Heat"] },
-      { id: "nba_200_03", categoryId: "nba_legends", tier: 200, prompt: "Kobe Bryant wore two jersey numbers during his career with the Lakers. Name either one.", answer: "8 or 24", acceptableAnswers: ["8", "24", "number 8", "number 24"] },
-      { id: "nba_400_01", categoryId: "nba_legends", tier: 400, prompt: "This player holds the all-time NBA scoring record, surpassing Kareem Abdul-Jabbar in February 2023.", answer: "LeBron James", acceptableAnswers: ["LeBron", "James"] },
-      { id: "nba_400_02", categoryId: "nba_legends", tier: 400, prompt: "Nicknamed 'The Answer,' this 76ers point guard won the 2001 NBA MVP award despite the team losing in the Finals.", answer: "Allen Iverson", acceptableAnswers: ["Iverson", "AI"] },
-      { id: "nba_400_03", categoryId: "nba_legends", tier: 400, prompt: "Which team did Kevin Durant leave in 2016, shocking the NBA world and joining Stephen Curry's Golden State Warriors?", answer: "Oklahoma City Thunder", acceptableAnswers: ["OKC", "Thunder", "OKC Thunder"] },
-      { id: "nba_600_01", categoryId: "nba_legends", tier: 600, prompt: "Wilt Chamberlain scored 100 points in a single game on March 2, 1962. Against which team?", answer: "New York Knicks", acceptableAnswers: ["Knicks"] },
-      { id: "nba_600_02", categoryId: "nba_legends", tier: 600, prompt: "Which player averaged 50.4 points per game in the 1961–62 season — still the highest single-season scoring average in NBA history?", answer: "Wilt Chamberlain", acceptableAnswers: ["Chamberlain", "Wilt"] },
-      { id: "nba_600_03", categoryId: "nba_legends", tier: 600, prompt: "Magic Johnson and Larry Bird were the defining rivalry of the 1980s NBA. Which team did Bird lead to three championships in the 1980s?", answer: "Boston Celtics", acceptableAnswers: ["Celtics"] },
+      { id: "nbaleg_200_01", categoryId: "nba_legends", tier: 200, prompt: "This player won 6 NBA titles with the Chicago Bulls and is widely considered the greatest basketball player of all time.", answer: "Michael Jordan", acceptableAnswers: ["Jordan", "MJ"] },
+      { id: "nbaleg_200_02", categoryId: "nba_legends", tier: 200, prompt: "LeBron James won his first NBA championship with this team in 2012.", answer: "Miami Heat", acceptableAnswers: ["Heat"] },
+      { id: "nbaleg_200_03", categoryId: "nba_legends", tier: 200, prompt: "Kobe Bryant wore two jersey numbers during his career with the Lakers. Name either one.", answer: "8 or 24", acceptableAnswers: ["8", "24", "number 8", "number 24"] },
+      { id: "nbaleg_400_01", categoryId: "nba_legends", tier: 400, prompt: "This player holds the all-time NBA scoring record, surpassing Kareem Abdul-Jabbar in February 2023.", answer: "LeBron James", acceptableAnswers: ["LeBron", "James"] },
+      { id: "nbaleg_400_02", categoryId: "nba_legends", tier: 400, prompt: "Nicknamed 'The Answer,' this 76ers point guard won the 2001 NBA MVP award despite the team losing in the Finals.", answer: "Allen Iverson", acceptableAnswers: ["Iverson", "AI"] },
+      { id: "nbaleg_400_03", categoryId: "nba_legends", tier: 400, prompt: "Which team did Kevin Durant leave in 2016, shocking the NBA world and joining Stephen Curry's Golden State Warriors?", answer: "Oklahoma City Thunder", acceptableAnswers: ["OKC", "Thunder", "OKC Thunder"] },
+      { id: "nbaleg_600_01", categoryId: "nba_legends", tier: 600, prompt: "Wilt Chamberlain scored 100 points in a single game on March 2, 1962. Against which team?", answer: "New York Knicks", acceptableAnswers: ["Knicks"] },
+      { id: "nbaleg_600_02", categoryId: "nba_legends", tier: 600, prompt: "Which player averaged 50.4 points per game in the 1961–62 season — still the highest single-season scoring average in NBA history?", answer: "Wilt Chamberlain", acceptableAnswers: ["Chamberlain", "Wilt"] },
+      { id: "nbaleg_600_03", categoryId: "nba_legends", tier: 600, prompt: "Magic Johnson and Larry Bird were the defining rivalry of the 1980s NBA. Which team did Bird lead to three championships in the 1980s?", answer: "Boston Celtics", acceptableAnswers: ["Celtics"] },
     ],
   },
   {
@@ -46059,14 +46059,14 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description: "Detailed knowledge of Breaking Bad — chemistry, characters, and plot points beyond the obvious.",
     questions: [
-      { id: "bbd_200_01", categoryId: "breaking_bad_deep", tier: 200, prompt: "Walter White's street name as a drug kingpin is 'Heisenberg.' Which real German physicist inspired this alias?", answer: "Werner Heisenberg", acceptableAnswers: ["Heisenberg"] },
+      { id: "brebad_200_01", categoryId: "breaking_bad_deep", tier: 200, prompt: "Walter White's street name as a drug kingpin is 'Heisenberg.' Which real German physicist inspired this alias?", answer: "Werner Heisenberg", acceptableAnswers: ["Heisenberg"] },
       { id: "bbd_200_02", categoryId: "breaking_bad_deep", tier: 200, prompt: "What color is Walter White and Jesse Pinkman's signature methamphetamine product that makes it unique in the drug market?", answer: "Blue", acceptableAnswers: ["blue tint", "crystal blue"] },
       { id: "bbd_200_03", categoryId: "breaking_bad_deep", tier: 200, prompt: "In 'Breaking Bad,' what is the name of the fast food chicken chain that Gus Fring uses as a front for his drug operation?", answer: "Los Pollos Hermanos", acceptableAnswers: ["Pollos Hermanos", "Los Pollos"] },
-      { id: "bbd_400_01", categoryId: "breaking_bad_deep", tier: 400, prompt: "Hank Schrader discovers Walter White is Heisenberg after finding a copy of which Walt Whitman poetry collection inscribed by Gale Boetticher?", answer: "Leaves of Grass", acceptableAnswers: ["Leaves of Grass by Walt Whitman"] },
-      { id: "bbd_400_02", categoryId: "breaking_bad_deep", tier: 400, prompt: "Mike Ehrmantraut's granddaughter — the one he works to provide for — is named what?", answer: "Kaylee", acceptableAnswers: ["Kayleigh"] },
+      { id: "brebad_400_01", categoryId: "breaking_bad_deep", tier: 400, prompt: "Hank Schrader discovers Walter White is Heisenberg after finding a copy of which Walt Whitman poetry collection inscribed by Gale Boetticher?", answer: "Leaves of Grass", acceptableAnswers: ["Leaves of Grass by Walt Whitman"] },
+      { id: "brebad_400_02", categoryId: "breaking_bad_deep", tier: 400, prompt: "Mike Ehrmantraut's granddaughter — the one he works to provide for — is named what?", answer: "Kaylee", acceptableAnswers: ["Kayleigh"] },
       { id: "bbd_400_03", categoryId: "breaking_bad_deep", tier: 400, prompt: "In which New Mexico city is most of Breaking Bad set?", answer: "Albuquerque", acceptableAnswers: ["ABQ"] },
-      { id: "bbd_600_01", categoryId: "breaking_bad_deep", tier: 600, prompt: "The chemical Walter White uses to dissolve bodies is hydrofluoric acid. He uses a bathtub which dissolves — what material should the container actually be made of to safely hold HF?", answer: "Plastic / polyethylene", acceptableAnswers: ["plastic", "polyethylene", "HDPE"] },
-      { id: "bbd_600_02", categoryId: "breaking_bad_deep", tier: 600, prompt: "Gus Fring's backstory is tied to which South American country where the Cartel murdered his partner Max Arciniega?", answer: "Chile", acceptableAnswers: [] },
+      { id: "brebad_600_01", categoryId: "breaking_bad_deep", tier: 600, prompt: "The chemical Walter White uses to dissolve bodies is hydrofluoric acid. He uses a bathtub which dissolves — what material should the container actually be made of to safely hold HF?", answer: "Plastic / polyethylene", acceptableAnswers: ["plastic", "polyethylene", "HDPE"] },
+      { id: "brebad_600_02", categoryId: "breaking_bad_deep", tier: 600, prompt: "Gus Fring's backstory is tied to which South American country where the Cartel murdered his partner Max Arciniega?", answer: "Chile", acceptableAnswers: [] },
       { id: "bbd_600_03", categoryId: "breaking_bad_deep", tier: 600, prompt: "In the series finale, Walter White destroys the Neo-Nazi compound using a machine gun hidden in his car trunk. What programming method does he use to trigger the gun?", answer: "Remote-controlled rotating turret / garage door opener mechanism", acceptableAnswers: ["remote control", "rotating turret", "machine gun in trunk", "M60 turret"] },
     ],
   },
@@ -46115,14 +46115,14 @@ const CATEGORIES: Category[] = [
     description: "In-depth Circassian history — the Caucasian War, diaspora, traditions, and identity.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Circassian_flag.svg/500px-Circassian_flag.svg.png",
     questions: [
-      { id: "chd_200_01", categoryId: "circassian_history_deep", tier: 200, prompt: "The Circassian Genocide and mass exile of 1864 is commemorated every year on which date in May?", answer: "May 21", acceptableAnswers: ["21st of May", "21 May"] },
+      { id: "cirhis_200_01", categoryId: "circassian_history_deep", tier: 200, prompt: "The Circassian Genocide and mass exile of 1864 is commemorated every year on which date in May?", answer: "May 21", acceptableAnswers: ["21st of May", "21 May"] },
       { id: "chd_200_02", categoryId: "circassian_history_deep", tier: 200, prompt: "The Circassian code of conduct and ethics — the moral philosophy governing behavior, hospitality, and honor — is called what in Circassian?", answer: "Xabze", acceptableAnswers: ["Adyghe Xabze", "Habze", "Xase"] },
       { id: "chd_200_03", categoryId: "circassian_history_deep", tier: 200, prompt: "Circassians call themselves by which ethnonym — meaning 'the people'?", answer: "Adyghe", acceptableAnswers: ["Adyge", "Adygea"] },
-      { id: "chd_400_01", categoryId: "circassian_history_deep", tier: 400, prompt: "The Battle of Kbaada (Krasnaya Polyana) in 1864 marked the final military defeat of the Circassians. Under which Russian Tsar did this conquest occur?", answer: "Alexander II", acceptableAnswers: ["Tsar Alexander II", "Czar Alexander II"] },
-      { id: "chd_400_02", categoryId: "circassian_history_deep", tier: 400, prompt: "Imam Shamil — the great resistance leader of the northeast Caucasus — fought the Russian Empire for decades. He was from which Caucasian people?", answer: "Avar (Dagestani)", acceptableAnswers: ["Avar", "Dagestani", "Avars"] },
+      { id: "cirhis_400_01", categoryId: "circassian_history_deep", tier: 400, prompt: "The Battle of Kbaada (Krasnaya Polyana) in 1864 marked the final military defeat of the Circassians. Under which Russian Tsar did this conquest occur?", answer: "Alexander II", acceptableAnswers: ["Tsar Alexander II", "Czar Alexander II"] },
+      { id: "cirhis_400_02", categoryId: "circassian_history_deep", tier: 400, prompt: "Imam Shamil — the great resistance leader of the northeast Caucasus — fought the Russian Empire for decades. He was from which Caucasian people?", answer: "Avar (Dagestani)", acceptableAnswers: ["Avar", "Dagestani", "Avars"] },
       { id: "chd_400_03", categoryId: "circassian_history_deep", tier: 400, prompt: "Circassian cavalry soldiers who served in the Ottoman Empire's elite guard units were known by which Turkish name?", answer: "Çerkes", acceptableAnswers: ["Cerkes", "Circassian cavalry"] },
-      { id: "chd_600_01", categoryId: "circassian_history_deep", tier: 600, prompt: "The Circassian diaspora in Jordan was historically settled by the Ottomans in specific areas. In which year did the first Circassian settlers arrive in what is now Amman?", answer: "1878", acceptableAnswers: ["1878", "late 1870s"] },
-      { id: "chd_600_02", categoryId: "circassian_history_deep", tier: 600, prompt: "The two main Circassian tribes with the largest presence in Jordan are the Kabardians and which other tribe?", answer: "Shapsug", acceptableAnswers: ["Shapsugs", "Shapsugh"] },
+      { id: "cirhis_600_01", categoryId: "circassian_history_deep", tier: 600, prompt: "The Circassian diaspora in Jordan was historically settled by the Ottomans in specific areas. In which year did the first Circassian settlers arrive in what is now Amman?", answer: "1878", acceptableAnswers: ["1878", "late 1870s"] },
+      { id: "cirhis_600_02", categoryId: "circassian_history_deep", tier: 600, prompt: "The two main Circassian tribes with the largest presence in Jordan are the Kabardians and which other tribe?", answer: "Shapsug", acceptableAnswers: ["Shapsugs", "Shapsugh"] },
       { id: "chd_600_03", categoryId: "circassian_history_deep", tier: 600, prompt: "What was the name of the Circassian national council that functioned as a governing body during the resistance period — meeting to decide collective war strategy?", answer: "Majlis (council)", acceptableAnswers: ["Majlis", "national assembly", "Circassian council"] },
     ],
   },
@@ -46153,14 +46153,14 @@ const CATEGORIES: Category[] = [
     description: "Mesopotamia, Persia, Greece, Rome, Egypt — the knowledge historians actually argue about.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Egypt.Giza.Sphinx.02.jpg/500px-Egypt.Giza.Sphinx.02.jpg",
     questions: [
-      { id: "anc_200_01", categoryId: "ancient_civilizations", tier: 200, prompt: "The ancient city of Babylon was located in which modern-day country?", answer: "Iraq", acceptableAnswers: [] },
-      { id: "anc_200_02", categoryId: "ancient_civilizations", tier: 200, prompt: "The Great Library of Alexandria, one of the largest libraries in the ancient world, was located in which country?", answer: "Egypt", acceptableAnswers: [] },
+      { id: "ancciv_200_01", categoryId: "ancient_civilizations", tier: 200, prompt: "The ancient city of Babylon was located in which modern-day country?", answer: "Iraq", acceptableAnswers: [] },
+      { id: "ancciv_200_02", categoryId: "ancient_civilizations", tier: 200, prompt: "The Great Library of Alexandria, one of the largest libraries in the ancient world, was located in which country?", answer: "Egypt", acceptableAnswers: [] },
       { id: "anc_200_03", categoryId: "ancient_civilizations", tier: 200, prompt: "Which Greek philosopher taught Alexander the Great when he was a young prince in Macedonia?", answer: "Aristotle", acceptableAnswers: [] },
-      { id: "anc_400_01", categoryId: "ancient_civilizations", tier: 400, prompt: "The Achaemenid Persian Empire was founded by which ruler in the 6th century BC — known as 'the Great' and celebrated for his religious tolerance?", answer: "Cyrus the Great", acceptableAnswers: ["Cyrus", "Kourosh"] },
-      { id: "anc_400_02", categoryId: "ancient_civilizations", tier: 400, prompt: "The Code of Hammurabi — one of the oldest written law codes — was created by the king of which ancient civilization around 1754 BC?", answer: "Babylon", acceptableAnswers: ["Babylonian Empire", "Babylonians"] },
+      { id: "ancciv_400_01", categoryId: "ancient_civilizations", tier: 400, prompt: "The Achaemenid Persian Empire was founded by which ruler in the 6th century BC — known as 'the Great' and celebrated for his religious tolerance?", answer: "Cyrus the Great", acceptableAnswers: ["Cyrus", "Kourosh"] },
+      { id: "ancciv_400_02", categoryId: "ancient_civilizations", tier: 400, prompt: "The Code of Hammurabi — one of the oldest written law codes — was created by the king of which ancient civilization around 1754 BC?", answer: "Babylon", acceptableAnswers: ["Babylonian Empire", "Babylonians"] },
       { id: "anc_400_03", categoryId: "ancient_civilizations", tier: 400, prompt: "The Battle of Thermopylae (480 BC) pitted a small Greek force led by King Leonidas against the Persian army of which Persian king?", answer: "Xerxes I", acceptableAnswers: ["Xerxes", "Xerxes the Great"] },
-      { id: "anc_600_01", categoryId: "ancient_civilizations", tier: 600, prompt: "Which ancient Sumerian text — predating the Biblical flood narrative — tells the story of a hero named Utnapishtim who builds a boat to survive a great flood?", answer: "Epic of Gilgamesh", acceptableAnswers: ["Gilgamesh", "the Gilgamesh epic"] },
-      { id: "anc_600_02", categoryId: "ancient_civilizations", tier: 600, prompt: "The Nabataean civilization built the city of Petra in modern Jordan. What does the word 'Petra' mean in Greek?", answer: "Rock / Stone", acceptableAnswers: ["rock", "stone"] },
+      { id: "ancciv_600_01", categoryId: "ancient_civilizations", tier: 600, prompt: "Which ancient Sumerian text — predating the Biblical flood narrative — tells the story of a hero named Utnapishtim who builds a boat to survive a great flood?", answer: "Epic of Gilgamesh", acceptableAnswers: ["Gilgamesh", "the Gilgamesh epic"] },
+      { id: "ancciv_600_02", categoryId: "ancient_civilizations", tier: 600, prompt: "The Nabataean civilization built the city of Petra in modern Jordan. What does the word 'Petra' mean in Greek?", answer: "Rock / Stone", acceptableAnswers: ["rock", "stone"] },
       { id: "anc_600_03", categoryId: "ancient_civilizations", tier: 600, prompt: "In which year did the Western Roman Empire officially fall — traditionally marking the end of ancient Rome?", answer: "476 AD", acceptableAnswers: ["476", "AD 476"] },
     ],
   },
@@ -46191,14 +46191,14 @@ const CATEGORIES: Category[] = [
     description: "Foundational psychology — Freud, Pavlov, Milgram, cognitive biases, and how the human mind works.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/51_Professor_Zimbardo_in_Wroc%C5%82aw_2019_%28cropped%29.jpg/500px-51_Professor_Zimbardo_in_Wroc%C5%82aw_2019_%28cropped%29.jpg",
     questions: [
-      { id: "psy_200_01", categoryId: "psychology_fundamentals", tier: 200, prompt: "Which psychologist is associated with classical conditioning — teaching a dog to salivate at the sound of a bell?", answer: "Ivan Pavlov", acceptableAnswers: ["Pavlov"] },
-      { id: "psy_200_02", categoryId: "psychology_fundamentals", tier: 200, prompt: "Sigmund Freud divided the human psyche into three parts: the id, the ego, and the ___.", answer: "Superego", acceptableAnswers: ["super-ego"] },
+      { id: "psyfun_200_01", categoryId: "psychology_fundamentals", tier: 200, prompt: "Which psychologist is associated with classical conditioning — teaching a dog to salivate at the sound of a bell?", answer: "Ivan Pavlov", acceptableAnswers: ["Pavlov"] },
+      { id: "psyfun_200_02", categoryId: "psychology_fundamentals", tier: 200, prompt: "Sigmund Freud divided the human psyche into three parts: the id, the ego, and the ___.", answer: "Superego", acceptableAnswers: ["super-ego"] },
       { id: "psy_200_03", categoryId: "psychology_fundamentals", tier: 200, prompt: "The Milgram experiment shocked the world by showing that most participants would administer dangerous electric shocks because they were ordered to by whom?", answer: "An authority figure / experimenter", acceptableAnswers: ["authority figure", "the experimenter", "the researcher"] },
-      { id: "psy_400_01", categoryId: "psychology_fundamentals", tier: 400, prompt: "The 'bystander effect' was studied following which 1964 murder in New York where 38 witnesses reportedly failed to call police?", answer: "Kitty Genovese murder", acceptableAnswers: ["Kitty Genovese", "the Genovese case"] },
-      { id: "psy_400_02", categoryId: "psychology_fundamentals", tier: 400, prompt: "Abraham Maslow's famous 'Hierarchy of Needs' places which human need at the very top of the pyramid?", answer: "Self-actualization", acceptableAnswers: ["self actualization"] },
+      { id: "psyfun_400_01", categoryId: "psychology_fundamentals", tier: 400, prompt: "The 'bystander effect' was studied following which 1964 murder in New York where 38 witnesses reportedly failed to call police?", answer: "Kitty Genovese murder", acceptableAnswers: ["Kitty Genovese", "the Genovese case"] },
+      { id: "psyfun_400_02", categoryId: "psychology_fundamentals", tier: 400, prompt: "Abraham Maslow's famous 'Hierarchy of Needs' places which human need at the very top of the pyramid?", answer: "Self-actualization", acceptableAnswers: ["self actualization"] },
       { id: "psy_400_03", categoryId: "psychology_fundamentals", tier: 400, prompt: "The cognitive bias where we believe events were more predictable after they've occurred than they actually were is called what?", answer: "Hindsight bias", acceptableAnswers: ["hindsight bias", "knew-it-all-along effect"] },
-      { id: "psy_600_01", categoryId: "psychology_fundamentals", tier: 600, prompt: "The Stanford Prison Experiment (1971) was stopped early because participants became too immersed in their roles. Who conducted this controversial experiment?", answer: "Philip Zimbardo", acceptableAnswers: ["Zimbardo"] },
-      { id: "psy_600_02", categoryId: "psychology_fundamentals", tier: 600, prompt: "What is the term for the psychological phenomenon where a traumatic bond forms between a hostage and their captor — named after a 1973 bank robbery?", answer: "Stockholm Syndrome", acceptableAnswers: ["Stockholm syndrome"] },
+      { id: "psyfun_600_01", categoryId: "psychology_fundamentals", tier: 600, prompt: "The Stanford Prison Experiment (1971) was stopped early because participants became too immersed in their roles. Who conducted this controversial experiment?", answer: "Philip Zimbardo", acceptableAnswers: ["Zimbardo"] },
+      { id: "psyfun_600_02", categoryId: "psychology_fundamentals", tier: 600, prompt: "What is the term for the psychological phenomenon where a traumatic bond forms between a hostage and their captor — named after a 1973 bank robbery?", answer: "Stockholm Syndrome", acceptableAnswers: ["Stockholm syndrome"] },
       { id: "psy_600_03", categoryId: "psychology_fundamentals", tier: 600, prompt: "Carl Jung introduced the concept of the 'collective unconscious.' What did he call the unconscious part of the psyche that contains traits a person denies in themselves?", answer: "The Shadow", acceptableAnswers: ["shadow", "the Shadow archetype"] },
     ],
   },
@@ -46359,15 +46359,15 @@ const CATEGORIES: Category[] = [
     description: "The companies and people who built the modern tech industry — their pivotal decisions and humble origins.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/509306957DH00068_TechCrunch.jpg/500px-509306957DH00068_TechCrunch.jpg",
     questions: [
-      { id: "tec_200_01", categoryId: "technology_pioneers", tier: 200, prompt: "Apple was founded in 1976 in which US state — in a garage in Los Altos, California?", answer: "California", acceptableAnswers: ["CA"] },
-      { id: "tec_200_02", categoryId: "technology_pioneers", tier: 200, prompt: "Which social network — launched in 2004 by Mark Zuckerberg — was initially only available to Harvard students?", answer: "Facebook", acceptableAnswers: ["TheFacebook"] },
-      { id: "tec_200_03", categoryId: "technology_pioneers", tier: 200, prompt: "Google was founded by Larry Page and which other Stanford PhD student?", answer: "Sergey Brin", acceptableAnswers: ["Brin"] },
-      { id: "tec_400_01", categoryId: "technology_pioneers", tier: 400, prompt: "Amazon started as an online bookstore in 1994. Jeff Bezos ran it out of his garage in which US city?", answer: "Bellevue, Washington", acceptableAnswers: ["Bellevue", "Seattle area", "Washington State"] },
-      { id: "tec_400_02", categoryId: "technology_pioneers", tier: 400, prompt: "Microsoft was founded in 1975 by Bill Gates and which childhood friend who co-wrote the company's first BASIC interpreter?", answer: "Paul Allen", acceptableAnswers: ["Allen"] },
-      { id: "tec_400_03", categoryId: "technology_pioneers", tier: 400, prompt: "The iPhone was first announced by Steve Jobs in January 2007. He described it as three things: a widescreen iPod, a phone, and an ___.", answer: "Internet communicator", acceptableAnswers: ["internet device", "revolutionary internet device"] },
-      { id: "tec_600_01", categoryId: "technology_pioneers", tier: 600, prompt: "Twitter was founded in 2006 by four co-founders. Jack Dorsey is the most famous, but name one other co-founder.", answer: "Noah Glass, Biz Stone, or Ev Williams", acceptableAnswers: ["Noah Glass", "Biz Stone", "Evan Williams", "Ev Williams"] },
-      { id: "tec_600_02", categoryId: "technology_pioneers", tier: 600, prompt: "Netflix originally started as a DVD-by-mail rental service in 1997. In which year did it launch its streaming service?", answer: "2007", acceptableAnswers: [] },
-      { id: "tec_600_03", categoryId: "technology_pioneers", tier: 600, prompt: "The first message ever sent over ARPANET — the precursor to the internet — in 1969 was intended to be 'login' but crashed after which two letters?", answer: "LO", acceptableAnswers: ["lo"] },
+      { id: "tecpio_200_01", categoryId: "technology_pioneers", tier: 200, prompt: "Apple was founded in 1976 in which US state — in a garage in Los Altos, California?", answer: "California", acceptableAnswers: ["CA"] },
+      { id: "tecpio_200_02", categoryId: "technology_pioneers", tier: 200, prompt: "Which social network — launched in 2004 by Mark Zuckerberg — was initially only available to Harvard students?", answer: "Facebook", acceptableAnswers: ["TheFacebook"] },
+      { id: "tecpio_200_03", categoryId: "technology_pioneers", tier: 200, prompt: "Google was founded by Larry Page and which other Stanford PhD student?", answer: "Sergey Brin", acceptableAnswers: ["Brin"] },
+      { id: "tecpio_400_01", categoryId: "technology_pioneers", tier: 400, prompt: "Amazon started as an online bookstore in 1994. Jeff Bezos ran it out of his garage in which US city?", answer: "Bellevue, Washington", acceptableAnswers: ["Bellevue", "Seattle area", "Washington State"] },
+      { id: "tecpio_400_02", categoryId: "technology_pioneers", tier: 400, prompt: "Microsoft was founded in 1975 by Bill Gates and which childhood friend who co-wrote the company's first BASIC interpreter?", answer: "Paul Allen", acceptableAnswers: ["Allen"] },
+      { id: "tecpio_400_03", categoryId: "technology_pioneers", tier: 400, prompt: "The iPhone was first announced by Steve Jobs in January 2007. He described it as three things: a widescreen iPod, a phone, and an ___.", answer: "Internet communicator", acceptableAnswers: ["internet device", "revolutionary internet device"] },
+      { id: "tecpio_600_01", categoryId: "technology_pioneers", tier: 600, prompt: "Twitter was founded in 2006 by four co-founders. Jack Dorsey is the most famous, but name one other co-founder.", answer: "Noah Glass, Biz Stone, or Ev Williams", acceptableAnswers: ["Noah Glass", "Biz Stone", "Evan Williams", "Ev Williams"] },
+      { id: "tecpio_600_02", categoryId: "technology_pioneers", tier: 600, prompt: "Netflix originally started as a DVD-by-mail rental service in 1997. In which year did it launch its streaming service?", answer: "2007", acceptableAnswers: [] },
+      { id: "tecpio_600_03", categoryId: "technology_pioneers", tier: 600, prompt: "The first message ever sent over ARPANET — the precursor to the internet — in 1969 was intended to be 'login' but crashed after which two letters?", answer: "LO", acceptableAnswers: ["lo"] },
     ],
   },
   {
@@ -46453,14 +46453,14 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description: "Deep knowledge of the biggest shonen anime — power systems, lore, and hidden details.",
     questions: [
-      { id: "asd_200_01", categoryId: "anime_shonen_deep", tier: 200, prompt: "In 'Naruto,' the Nine-Tails fox demon sealed inside Naruto is named what?", answer: "Kurama", acceptableAnswers: [] },
+      { id: "anisho_200_01", categoryId: "anime_shonen_deep", tier: 200, prompt: "In 'Naruto,' the Nine-Tails fox demon sealed inside Naruto is named what?", answer: "Kurama", acceptableAnswers: [] },
       { id: "asd_200_02", categoryId: "anime_shonen_deep", tier: 200, prompt: "In 'Dragon Ball Z,' what is the name of the transformation that makes Saiyans' hair turn golden and multiplies their power?", answer: "Super Saiyan", acceptableAnswers: ["SSJ", "Super Saiyan transformation"] },
       { id: "asd_200_03", categoryId: "anime_shonen_deep", tier: 200, prompt: "In 'My Hero Academia,' Deku's real name is Izuku Midoriya. What does 'Deku' mean as an insult?", answer: "Someone who can't do anything / useless person", acceptableAnswers: ["useless", "can't do anything", "wooden doll"] },
-      { id: "asd_400_01", categoryId: "anime_shonen_deep", tier: 400, prompt: "In 'Attack on Titan,' the Founding Titan's power can only be used if the holder has royal blood. Which character first exploits a loophole to activate this power?", answer: "Eren Yeager (using Historia / Zeke's royal blood)", acceptableAnswers: ["Eren", "Eren Yeager"] },
-      { id: "asd_400_02", categoryId: "anime_shonen_deep", tier: 400, prompt: "In 'One Piece,' Luffy's Gear 5 awakening is actually a different fruit than everyone thought. The true name of Luffy's Devil Fruit is the Hito Hito no Mi, Model: ___.", answer: "Nika", acceptableAnswers: ["Nika (Sun God)", "Sun God Nika"] },
+      { id: "anisho_400_01", categoryId: "anime_shonen_deep", tier: 400, prompt: "In 'Attack on Titan,' the Founding Titan's power can only be used if the holder has royal blood. Which character first exploits a loophole to activate this power?", answer: "Eren Yeager (using Historia / Zeke's royal blood)", acceptableAnswers: ["Eren", "Eren Yeager"] },
+      { id: "anisho_400_02", categoryId: "anime_shonen_deep", tier: 400, prompt: "In 'One Piece,' Luffy's Gear 5 awakening is actually a different fruit than everyone thought. The true name of Luffy's Devil Fruit is the Hito Hito no Mi, Model: ___.", answer: "Nika", acceptableAnswers: ["Nika (Sun God)", "Sun God Nika"] },
       { id: "asd_400_03", categoryId: "anime_shonen_deep", tier: 400, prompt: "In 'Demon Slayer,' Tanjiro's Water Breathing comes from which trainer — whose harsh training methods involve wearing heavy weighted clothing and doing extreme endurance work?", answer: "Sakonji Urokodaki", acceptableAnswers: ["Urokodaki"] },
-      { id: "asd_600_01", categoryId: "anime_shonen_deep", tier: 600, prompt: "In 'Hunter x Hunter,' Nen is the power system. What is the name of the Nen type that lets a user emit their aura from their body at range — one of the rarest abilities?", answer: "Emission", acceptableAnswers: ["emitters", "emission type"] },
-      { id: "asd_600_02", categoryId: "anime_shonen_deep", tier: 600, prompt: "In 'Fullmetal Alchemist Brotherhood,' the Philosopher's Stone is made from which ingredient — the dark secret behind the military's power?", answer: "Human lives / souls", acceptableAnswers: ["human souls", "people's lives", "living humans"] },
+      { id: "anisho_600_01", categoryId: "anime_shonen_deep", tier: 600, prompt: "In 'Hunter x Hunter,' Nen is the power system. What is the name of the Nen type that lets a user emit their aura from their body at range — one of the rarest abilities?", answer: "Emission", acceptableAnswers: ["emitters", "emission type"] },
+      { id: "anisho_600_02", categoryId: "anime_shonen_deep", tier: 600, prompt: "In 'Fullmetal Alchemist Brotherhood,' the Philosopher's Stone is made from which ingredient — the dark secret behind the military's power?", answer: "Human lives / souls", acceptableAnswers: ["human souls", "people's lives", "living humans"] },
       { id: "asd_600_03", categoryId: "anime_shonen_deep", tier: 600, prompt: "In 'Naruto,' the Six Paths of Pain are controlled by Nagato through what visual jutsu that he implanted in the bodies of deceased people?", answer: "Rinnegan", acceptableAnswers: [] },
     ],
   },
@@ -46475,11 +46475,11 @@ const CATEGORIES: Category[] = [
       { id: "mem_200_01", categoryId: "middle_east_modern", tier: 200, prompt: "The Arab-Israeli War of 1948 is called 'Al-Nakba' (The Catastrophe) by Palestinians. Which event triggered the war?", answer: "The declaration of the State of Israel on May 14, 1948", acceptableAnswers: ["Israeli independence declaration", "establishment of Israel", "Israel declared independence"] },
       { id: "mem_200_02", categoryId: "middle_east_modern", tier: 200, prompt: "The Six-Day War of 1967 saw Israel capture which Egyptian territory — a large peninsula bordering the Suez Canal?", answer: "Sinai Peninsula", acceptableAnswers: ["Sinai"] },
       { id: "mem_200_03", categoryId: "middle_east_modern", tier: 200, prompt: "The Arab Spring of 2010–2011 began in which country, triggered by the self-immolation of street vendor Mohamed Bouazizi?", answer: "Tunisia", acceptableAnswers: [] },
-      { id: "mem_400_01", categoryId: "middle_east_modern", tier: 400, prompt: "Which Egyptian president nationalized the Suez Canal in 1956, triggering an invasion by Britain, France, and Israel?", answer: "Gamal Abdel Nasser", acceptableAnswers: ["Nasser", "Abdel Nasser"] },
+      { id: "mideas_400_01", categoryId: "middle_east_modern", tier: 400, prompt: "Which Egyptian president nationalized the Suez Canal in 1956, triggering an invasion by Britain, France, and Israel?", answer: "Gamal Abdel Nasser", acceptableAnswers: ["Nasser", "Abdel Nasser"] },
       { id: "mem_400_02", categoryId: "middle_east_modern", tier: 400, prompt: "The Iran-Iraq War lasted from 1980 to 1988. It was one of the deadliest conflicts of the 20th century. Which country invaded first?", answer: "Iraq (invaded Iran)", acceptableAnswers: ["Iraq"] },
       { id: "mem_400_03", categoryId: "middle_east_modern", tier: 400, prompt: "The Oslo Accords of 1993 — the first direct peace agreement between Israel and the PLO — were secretly negotiated in which Scandinavian city?", answer: "Oslo, Norway", acceptableAnswers: ["Oslo"] },
-      { id: "mem_600_01", categoryId: "middle_east_modern", tier: 600, prompt: "Muammar Gaddafi ruled Libya for 42 years before being overthrown in 2011. He came to power through a 1969 military coup that overthrew which Libyan king?", answer: "King Idris I", acceptableAnswers: ["King Idris", "Idris"] },
-      { id: "mem_600_02", categoryId: "middle_east_modern", tier: 600, prompt: "The Camp David Accords (1978) brokered by US President Carter led to a peace treaty between Egypt and Israel. Egyptian President Anwar Sadat was later assassinated by members of which group?", answer: "Egyptian Islamic Jihad (military extremists)", acceptableAnswers: ["Egyptian Islamic Jihad", "Islamic extremists", "military extremists"] },
+      { id: "mideas_600_01", categoryId: "middle_east_modern", tier: 600, prompt: "Muammar Gaddafi ruled Libya for 42 years before being overthrown in 2011. He came to power through a 1969 military coup that overthrew which Libyan king?", answer: "King Idris I", acceptableAnswers: ["King Idris", "Idris"] },
+      { id: "mideas_600_02", categoryId: "middle_east_modern", tier: 600, prompt: "The Camp David Accords (1978) brokered by US President Carter led to a peace treaty between Egypt and Israel. Egyptian President Anwar Sadat was later assassinated by members of which group?", answer: "Egyptian Islamic Jihad (military extremists)", acceptableAnswers: ["Egyptian Islamic Jihad", "Islamic extremists", "military extremists"] },
       { id: "mem_600_03", categoryId: "middle_east_modern", tier: 600, prompt: "The Battle of Karbala (680 AD) — which split Islam into Sunni and Shia — saw the death of which grandson of the Prophet Muhammad?", answer: "Hussein ibn Ali (Imam Hussein)", acceptableAnswers: ["Hussein", "Imam Hussein", "Al-Hussein"] },
     ],
   },
@@ -46623,14 +46623,14 @@ const CATEGORIES: Category[] = [
     description: "Jordanian slang, expressions, and dialect quirks — things only locals would know.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/d/d6/Map_Arabic_in_the_Levant.jpg",
     questions: [
-      { id: "jad_200_01", categoryId: "arabic_dialect_jordan", tier: 200, prompt: "In Jordanian Arabic, what does 'wain reyeh?' mean in English?", answer: "Where are you going?", acceptableAnswers: ["where you going", "where are you going"] },
-      { id: "jad_200_02", categoryId: "arabic_dialect_jordan", tier: 200, prompt: "When a Jordanian says 'mashalla aleik,' what are they expressing?", answer: "Admiration / praise for you (warding off the evil eye)", acceptableAnswers: ["admiration", "praise", "blessing", "may God protect you"] },
+      { id: "aradia_200_01", categoryId: "arabic_dialect_jordan", tier: 200, prompt: "In Jordanian Arabic, what does 'wain reyeh?' mean in English?", answer: "Where are you going?", acceptableAnswers: ["where you going", "where are you going"] },
+      { id: "aradia_200_02", categoryId: "arabic_dialect_jordan", tier: 200, prompt: "When a Jordanian says 'mashalla aleik,' what are they expressing?", answer: "Admiration / praise for you (warding off the evil eye)", acceptableAnswers: ["admiration", "praise", "blessing", "may God protect you"] },
       { id: "jad_200_03", categoryId: "arabic_dialect_jordan", tier: 200, prompt: "In Jordanian dialect, the word 'hashki' is used to say what?", answer: "I'm telling you / listen to me", acceptableAnswers: ["let me tell you", "I swear", "listen"] },
-      { id: "jad_400_01", categoryId: "arabic_dialect_jordan", tier: 400, prompt: "Jordanians often use the word 'zaki' / 'zakia' as a compliment. What does it mean?", answer: "Smart / clever / sharp", acceptableAnswers: ["clever", "smart", "sharp"] },
-      { id: "jad_400_02", categoryId: "arabic_dialect_jordan", tier: 400, prompt: "The expression 'ya ibni/ya binti' literally means 'my son/my daughter' — but how is it actually used in Jordanian daily conversation?", answer: "As a general term of endearment / affection toward anyone, not just children", acceptableAnswers: ["term of endearment for anyone", "general affection", "like saying kid / buddy"] },
+      { id: "aradia_400_01", categoryId: "arabic_dialect_jordan", tier: 400, prompt: "Jordanians often use the word 'zaki' / 'zakia' as a compliment. What does it mean?", answer: "Smart / clever / sharp", acceptableAnswers: ["clever", "smart", "sharp"] },
+      { id: "aradia_400_02", categoryId: "arabic_dialect_jordan", tier: 400, prompt: "The expression 'ya ibni/ya binti' literally means 'my son/my daughter' — but how is it actually used in Jordanian daily conversation?", answer: "As a general term of endearment / affection toward anyone, not just children", acceptableAnswers: ["term of endearment for anyone", "general affection", "like saying kid / buddy"] },
       { id: "jad_400_03", categoryId: "arabic_dialect_jordan", tier: 400, prompt: "In Jordan, when someone says 'alla ysalmak' as a response, what expression did they just reply to?", answer: "A greeting of thanks or 'shukran' (thank you)", acceptableAnswers: ["shukran / thank you", "a compliment", "any polite expression"] },
-      { id: "jad_600_01", categoryId: "arabic_dialect_jordan", tier: 600, prompt: "The Jordanian word 'meshwar' is used casually — but what does it literally mean, and how is it used today?", answer: "Literally 'a journey/errand' — used casually to mean going out or running an errand", acceptableAnswers: ["errand", "trip", "going out on an errand"] },
-      { id: "jad_600_02", categoryId: "arabic_dialect_jordan", tier: 600, prompt: "The Jordanian insult 'ibn il-hara' literally translates to what, and what does it imply?", answer: "Son of the neighborhood / son of the alley — implying someone is rough or lowly", acceptableAnswers: ["son of the alley", "son of the neighborhood", "street kid"] },
+      { id: "aradia_600_01", categoryId: "arabic_dialect_jordan", tier: 600, prompt: "The Jordanian word 'meshwar' is used casually — but what does it literally mean, and how is it used today?", answer: "Literally 'a journey/errand' — used casually to mean going out or running an errand", acceptableAnswers: ["errand", "trip", "going out on an errand"] },
+      { id: "aradia_600_02", categoryId: "arabic_dialect_jordan", tier: 600, prompt: "The Jordanian insult 'ibn il-hara' literally translates to what, and what does it imply?", answer: "Son of the neighborhood / son of the alley — implying someone is rough or lowly", acceptableAnswers: ["son of the alley", "son of the neighborhood", "street kid"] },
       { id: "jad_600_03", categoryId: "arabic_dialect_jordan", tier: 600, prompt: "In Jordanian Bedouin culture, when guests arrive unexpectedly and a host says 'ahlan wa sahlan,' what is the literal translation of this hospitality greeting?", answer: "You are family and at ease (literally: welcome as family on gentle terrain)", acceptableAnswers: ["welcome, you are family", "you are among family and ease", "welcome"] },
     ],
   },
@@ -46678,14 +46678,14 @@ const CATEGORIES: Category[] = [
     culture: "arabic",
     description: "The great Arab poets, their masterworks, and the stories that shaped Arabic literary tradition.",
     questions: [
-      { id: "ald_200_01", categoryId: "arabic_literature_deep2", tier: 200, prompt: "Mahmoud Darwish is Palestine's national poet. His poem 'On This Earth' opens with the famous line: 'On this earth what makes life worth living — on this earth is the Lady of Earth, the mother of beginnings, the mother of endings...' From which collection?", answer: "Why Did You Leave the Horse Alone", acceptableAnswers: ["Why Did You Leave the Horse Alone", "various collections"] },
+      { id: "aralit_200_01", categoryId: "arabic_literature_deep2", tier: 200, prompt: "Mahmoud Darwish is Palestine's national poet. His poem 'On This Earth' opens with the famous line: 'On this earth what makes life worth living — on this earth is the Lady of Earth, the mother of beginnings, the mother of endings...' From which collection?", answer: "Why Did You Leave the Horse Alone", acceptableAnswers: ["Why Did You Leave the Horse Alone", "various collections"] },
       { id: "ald_200_02", categoryId: "arabic_literature_deep2", tier: 200, prompt: "'One Thousand and One Nights' (Arabian Nights) centers on a storyteller named Scheherazade who tells stories to a king to delay her execution. What is the king's name?", answer: "Shahryar", acceptableAnswers: ["Shahriyar", "Shahrayar"] },
       { id: "ald_200_03", categoryId: "arabic_literature_deep2", tier: 200, prompt: "Which Egyptian novelist won the Nobel Prize in Literature in 1988 — the first Arab writer to do so?", answer: "Naguib Mahfouz", acceptableAnswers: ["Mahfouz", "Najib Mahfuz"] },
-      { id: "ald_400_01", categoryId: "arabic_literature_deep2", tier: 400, prompt: "Al-Mutanabbi — the greatest Arabic poet — was born in which Iraqi city and took his name after claiming to be a prophet?", answer: "Kufa", acceptableAnswers: ["Al-Kufa", "Kufa, Iraq"] },
-      { id: "ald_400_02", categoryId: "arabic_literature_deep2", tier: 400, prompt: "The Maqamat — a form of rhymed Arabic prose fiction — was perfected by which 11th-century writer from Basra?", answer: "Al-Hariri of Basra", acceptableAnswers: ["Al-Hariri", "Hariri"] },
+      { id: "aralit_400_01", categoryId: "arabic_literature_deep2", tier: 400, prompt: "Al-Mutanabbi — the greatest Arabic poet — was born in which Iraqi city and took his name after claiming to be a prophet?", answer: "Kufa", acceptableAnswers: ["Al-Kufa", "Kufa, Iraq"] },
+      { id: "aralit_400_02", categoryId: "arabic_literature_deep2", tier: 400, prompt: "The Maqamat — a form of rhymed Arabic prose fiction — was perfected by which 11th-century writer from Basra?", answer: "Al-Hariri of Basra", acceptableAnswers: ["Al-Hariri", "Hariri"] },
       { id: "ald_400_03", categoryId: "arabic_literature_deep2", tier: 400, prompt: "Gibran Khalil Gibran — born in Lebanon — wrote 'The Prophet' in which language, making it accessible globally?", answer: "English", acceptableAnswers: [] },
-      { id: "ald_600_01", categoryId: "arabic_literature_deep2", tier: 600, prompt: "The 'Muallaqat' are seven pre-Islamic odes hung in the Kaaba in Mecca. The author of the most celebrated of these — Imru' al-Qais — was a prince from which Arabian tribe?", answer: "Kindah", acceptableAnswers: ["Banu Kinda", "Kinda tribe"] },
-      { id: "ald_600_02", categoryId: "arabic_literature_deep2", tier: 600, prompt: "Naguib Mahfouz's 'Cairo Trilogy' follows three generations of a Cairo family. The three novels are named after three streets in Cairo — what is the first novel called?", answer: "Palace Walk (Bayn al-Qasrayn)", acceptableAnswers: ["Palace Walk", "Bayn al-Qasrayn"] },
+      { id: "aralit_600_01", categoryId: "arabic_literature_deep2", tier: 600, prompt: "The 'Muallaqat' are seven pre-Islamic odes hung in the Kaaba in Mecca. The author of the most celebrated of these — Imru' al-Qais — was a prince from which Arabian tribe?", answer: "Kindah", acceptableAnswers: ["Banu Kinda", "Kinda tribe"] },
+      { id: "aralit_600_02", categoryId: "arabic_literature_deep2", tier: 600, prompt: "Naguib Mahfouz's 'Cairo Trilogy' follows three generations of a Cairo family. The three novels are named after three streets in Cairo — what is the first novel called?", answer: "Palace Walk (Bayn al-Qasrayn)", acceptableAnswers: ["Palace Walk", "Bayn al-Qasrayn"] },
       { id: "ald_600_03", categoryId: "arabic_literature_deep2", tier: 600, prompt: "The poet Abu Nuwas — famous for writing about wine and pleasure in Abbasid Baghdad — is referenced in which classic Arabic literary work as a companion of Harun al-Rashid?", answer: "One Thousand and One Nights", acceptableAnswers: ["Arabian Nights", "Alf Layla wa Layla"] },
     ],
   },
@@ -46735,14 +46735,14 @@ const CATEGORIES: Category[] = [
     description: "The pharaohs, gods, and monuments of ancient Egypt — beyond the basics.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Head_of_Nectanebo_II-MBA_Lyon_H1701-IMG_0204.jpg/500px-Head_of_Nectanebo_II-MBA_Lyon_H1701-IMG_0204.jpg",
     questions: [
-      { id: "aed_200_01", categoryId: "egypt_ancient_deep", tier: 200, prompt: "Which Egyptian pharaoh built the Great Pyramid of Giza — the largest of the three pyramids?", answer: "Khufu (Cheops)", acceptableAnswers: ["Khufu", "Cheops"] },
+      { id: "egyanc_200_01", categoryId: "egypt_ancient_deep", tier: 200, prompt: "Which Egyptian pharaoh built the Great Pyramid of Giza — the largest of the three pyramids?", answer: "Khufu (Cheops)", acceptableAnswers: ["Khufu", "Cheops"] },
       { id: "aed_200_02", categoryId: "egypt_ancient_deep", tier: 200, prompt: "The Sphinx of Giza has the body of a lion and the face of which pharaoh, according to most Egyptologists?", answer: "Khafre", acceptableAnswers: ["Khafra", "Chephren"] },
       { id: "aed_200_03", categoryId: "egypt_ancient_deep", tier: 200, prompt: "Ancient Egyptian writing used pictographic symbols called what?", answer: "Hieroglyphics", acceptableAnswers: ["hieroglyphs"] },
-      { id: "aed_400_01", categoryId: "egypt_ancient_deep", tier: 400, prompt: "The Rosetta Stone — discovered in 1799 — enabled scholars to decode Egyptian hieroglyphics because it contained the same text in three scripts. Which French scholar is credited with the final decipherment in 1822?", answer: "Jean-François Champollion", acceptableAnswers: ["Champollion"] },
-      { id: "aed_400_02", categoryId: "egypt_ancient_deep", tier: 400, prompt: "Which female pharaoh ruled Egypt for over 20 years disguised as a male ruler — depicted in statues with a false beard?", answer: "Hatshepsut", acceptableAnswers: [] },
+      { id: "egyanc_400_01", categoryId: "egypt_ancient_deep", tier: 400, prompt: "The Rosetta Stone — discovered in 1799 — enabled scholars to decode Egyptian hieroglyphics because it contained the same text in three scripts. Which French scholar is credited with the final decipherment in 1822?", answer: "Jean-François Champollion", acceptableAnswers: ["Champollion"] },
+      { id: "egyanc_400_02", categoryId: "egypt_ancient_deep", tier: 400, prompt: "Which female pharaoh ruled Egypt for over 20 years disguised as a male ruler — depicted in statues with a false beard?", answer: "Hatshepsut", acceptableAnswers: [] },
       { id: "aed_400_03", categoryId: "egypt_ancient_deep", tier: 400, prompt: "Tutankhamun became famous when his tomb was discovered nearly intact in 1922. Which British archaeologist made this discovery?", answer: "Howard Carter", acceptableAnswers: ["Carter"] },
-      { id: "aed_600_01", categoryId: "egypt_ancient_deep", tier: 600, prompt: "The religious revolution of Akhenaten — who promoted monotheism centered on the sun disc 'Aten' — was reversed after his death. Akhenaten is believed by some scholars to be which pharaoh's father?", answer: "Tutankhamun", acceptableAnswers: ["Tut", "Tutankhamun"] },
-      { id: "aed_600_02", categoryId: "egypt_ancient_deep", tier: 600, prompt: "The ancient Egyptian concept of the soul had multiple parts. The 'ka' was the life force, the 'ba' was personality — but which element was preserved in a mummy's canopic jars?", answer: "Internal organs (liver, lungs, stomach, intestines)", acceptableAnswers: ["organs", "internal organs", "liver lungs stomach"] },
+      { id: "egyanc_600_01", categoryId: "egypt_ancient_deep", tier: 600, prompt: "The religious revolution of Akhenaten — who promoted monotheism centered on the sun disc 'Aten' — was reversed after his death. Akhenaten is believed by some scholars to be which pharaoh's father?", answer: "Tutankhamun", acceptableAnswers: ["Tut", "Tutankhamun"] },
+      { id: "egyanc_600_02", categoryId: "egypt_ancient_deep", tier: 600, prompt: "The ancient Egyptian concept of the soul had multiple parts. The 'ka' was the life force, the 'ba' was personality — but which element was preserved in a mummy's canopic jars?", answer: "Internal organs (liver, lungs, stomach, intestines)", acceptableAnswers: ["organs", "internal organs", "liver lungs stomach"] },
       { id: "aed_600_03", categoryId: "egypt_ancient_deep", tier: 600, prompt: "Cleopatra VII — the last pharaoh of Egypt — was not Egyptian by blood. She was of which dynasty's descent?", answer: "Ptolemaic (Greek/Macedonian)", acceptableAnswers: ["Ptolemaic", "Greek", "Macedonian Greek"] },
     ],
   },
@@ -46773,14 +46773,14 @@ const CATEGORIES: Category[] = [
     description: "The scholars, inventions, and institutions of the Islamic Golden Age — from Al-Kindi to Ibn Rushd.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Al-Idrisi%27s_world_map.JPG/500px-Al-Idrisi%27s_world_map.JPG",
     questions: [
-      { id: "iga_200_01", categoryId: "islamic_golden_age_v2", tier: 200, prompt: "Al-Khwarizmi — the 9th-century mathematician — gave his name to the modern word 'algorithm.' His other major contribution gave us the word 'algebra.' What is the title of his algebra book?", answer: "Al-Kitab al-mukhtasar fi hisab al-jabr wal-muqabala (The Compendious Book on Calculation by Completion and Balancing)", acceptableAnswers: ["Al-Jabr", "the algebra book"] },
+      { id: "islgol_200_01", categoryId: "islamic_golden_age_v2", tier: 200, prompt: "Al-Khwarizmi — the 9th-century mathematician — gave his name to the modern word 'algorithm.' His other major contribution gave us the word 'algebra.' What is the title of his algebra book?", answer: "Al-Kitab al-mukhtasar fi hisab al-jabr wal-muqabala (The Compendious Book on Calculation by Completion and Balancing)", acceptableAnswers: ["Al-Jabr", "the algebra book"] },
       { id: "iga_200_02", categoryId: "islamic_golden_age_v2", tier: 200, prompt: "Ibn Sina (Avicenna) wrote the 'Canon of Medicine' — a medical encyclopedia used in European universities for centuries. He was from which modern country?", answer: "Uzbekistan (then Persia)", acceptableAnswers: ["Persia", "Iran", "Uzbekistan", "Central Asia"] },
       { id: "iga_200_03", categoryId: "islamic_golden_age_v2", tier: 200, prompt: "The House of Wisdom (Bayt al-Hikma) — the great Islamic scholarly institution — was located in which city?", answer: "Baghdad", acceptableAnswers: [] },
-      { id: "iga_400_01", categoryId: "islamic_golden_age_v2", tier: 400, prompt: "Al-Biruni — the 11th-century polymath — accurately calculated the circumference of the Earth using triangulation from a mountain. His estimate was within a few percent of the correct value. What was he measuring from?", answer: "A mountain peak in Pakistan (Nandana) using the angle of depression to the horizon", acceptableAnswers: ["a mountain", "using mountain peak and geometry"] },
-      { id: "iga_400_02", categoryId: "islamic_golden_age_v2", tier: 400, prompt: "Ibn al-Haytham (Alhazen) wrote the 'Book of Optics' in the 11th century — describing how vision works and inventing the camera obscura. From which country did he operate?", answer: "Egypt (Cairo, under Fatimid Caliphate)", acceptableAnswers: ["Egypt", "Cairo"] },
+      { id: "islgol_400_01", categoryId: "islamic_golden_age_v2", tier: 400, prompt: "Al-Biruni — the 11th-century polymath — accurately calculated the circumference of the Earth using triangulation from a mountain. His estimate was within a few percent of the correct value. What was he measuring from?", answer: "A mountain peak in Pakistan (Nandana) using the angle of depression to the horizon", acceptableAnswers: ["a mountain", "using mountain peak and geometry"] },
+      { id: "islgol_400_02", categoryId: "islamic_golden_age_v2", tier: 400, prompt: "Ibn al-Haytham (Alhazen) wrote the 'Book of Optics' in the 11th century — describing how vision works and inventing the camera obscura. From which country did he operate?", answer: "Egypt (Cairo, under Fatimid Caliphate)", acceptableAnswers: ["Egypt", "Cairo"] },
       { id: "iga_400_03", categoryId: "islamic_golden_age_v2", tier: 400, prompt: "Which Islamic scholar is considered the father of sociology — writing 'Muqaddimah' (Introduction to History) in 1377, analyzing the rise and fall of civilizations?", answer: "Ibn Khaldun", acceptableAnswers: ["Khaldun"] },
-      { id: "iga_600_01", categoryId: "islamic_golden_age_v2", tier: 600, prompt: "The Islamic astronomer Al-Battani (Albategnius) corrected Ptolemy's calculations and produced more accurate astronomical tables in the 9th century. His work later influenced which Polish astronomer's heliocentric model?", answer: "Nicolaus Copernicus", acceptableAnswers: ["Copernicus"] },
-      { id: "iga_600_02", categoryId: "islamic_golden_age_v2", tier: 600, prompt: "Al-Zahrawi (Albucasis) — the 10th-century Andalusian physician — is considered the father of modern surgery. Which surgical tool, still used today, did he invent or refine?", answer: "Surgical instruments including forceps, scalpels, and surgical catgut (ligature)", acceptableAnswers: ["forceps", "surgical catgut", "ligature", "surgical tools"] },
+      { id: "islgol_600_01", categoryId: "islamic_golden_age_v2", tier: 600, prompt: "The Islamic astronomer Al-Battani (Albategnius) corrected Ptolemy's calculations and produced more accurate astronomical tables in the 9th century. His work later influenced which Polish astronomer's heliocentric model?", answer: "Nicolaus Copernicus", acceptableAnswers: ["Copernicus"] },
+      { id: "islgol_600_02", categoryId: "islamic_golden_age_v2", tier: 600, prompt: "Al-Zahrawi (Albucasis) — the 10th-century Andalusian physician — is considered the father of modern surgery. Which surgical tool, still used today, did he invent or refine?", answer: "Surgical instruments including forceps, scalpels, and surgical catgut (ligature)", acceptableAnswers: ["forceps", "surgical catgut", "ligature", "surgical tools"] },
       { id: "iga_600_03", categoryId: "islamic_golden_age_v2", tier: 600, prompt: "The philosopher Ibn Rushd (Averroes) wrote extensive commentaries on Aristotle, which were translated into Latin and deeply influenced medieval European philosophy. He was born in which Spanish city?", answer: "Córdoba", acceptableAnswers: ["Cordoba", "Córdoba, Spain"] },
     ],
   },
@@ -46886,15 +46886,15 @@ const CATEGORIES: Category[] = [
     description: "The rivalries, records, and technique of tennis — from Federer vs. Nadal to Serena's dominance.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Djokovic_EBN17_%2826%29_%2835046150944%29.jpg/500px-Djokovic_EBN17_%2826%29_%2835046150944%29.jpg",
     questions: [
-      { id: "ten_200_01", categoryId: "tennis_deep", tier: 200, prompt: "Roger Federer, Rafael Nadal, and Novak Djokovic — the 'Big Three' of tennis — between them won how many Grand Slam singles titles combined (as of 2024)?", answer: "65 total (Djokovic 24, Nadal 22, Federer 20)", acceptableAnswers: ["65", "over 60"] },
-      { id: "ten_200_02", categoryId: "tennis_deep", tier: 200, prompt: "Which tennis player holds the record for most Grand Slam singles titles in women's tennis with 23 titles — officially retiring in 2023?", answer: "Serena Williams", acceptableAnswers: ["Serena"] },
-      { id: "ten_200_03", categoryId: "tennis_deep", tier: 200, prompt: "Wimbledon — the oldest Grand Slam — requires players to wear what color clothing?", answer: "Predominantly white", acceptableAnswers: ["white", "all white"] },
-      { id: "ten_400_01", categoryId: "tennis_deep", tier: 400, prompt: "Rafael Nadal holds the record for the most French Open titles. How many did he win — earning him the nickname 'King of Clay'?", answer: "14", acceptableAnswers: ["fourteen"] },
-      { id: "ten_400_02", categoryId: "tennis_deep", tier: 400, prompt: "The famous 2008 Wimbledon final — widely considered the greatest match ever played — was between Federer and Nadal. Who won?", answer: "Rafael Nadal", acceptableAnswers: ["Nadal"] },
-      { id: "ten_400_03", categoryId: "tennis_deep", tier: 400, prompt: "Novak Djokovic completed the 'Golden Slam' by winning all four Grand Slams and which other competition in a single calendar year?", answer: "Olympic gold medal (he has not achieved the Golden Slam — he won all 4 majors in 2021 but lost the Olympic final)", acceptableAnswers: ["he did not complete the Golden Slam", "lost Olympic final", "Calendar Slam (not Golden)"] },
-      { id: "ten_600_01", categoryId: "tennis_deep", tier: 600, prompt: "The serve-and-volley style — attacking the net after serving — was dominant in the 1980s–90s but has largely disappeared. Which surface change contributed most to its decline?", answer: "Slowing down of grass courts at Wimbledon and the dominance of baseline play / slow clay courts", acceptableAnswers: ["slower courts", "baseline game took over", "Wimbledon slowed its grass"] },
-      { id: "ten_600_02", categoryId: "tennis_deep", tier: 600, prompt: "The first Open Era Grand Slam was the French Open in 1968. What does 'Open Era' mean in tennis?", answer: "Professional players were allowed to compete alongside amateurs for the first time", acceptableAnswers: ["pros allowed to compete", "amateur/pro separation ended"] },
-      { id: "ten_600_03", categoryId: "tennis_deep", tier: 600, prompt: "Steffi Graf is the only player to achieve the 'Golden Slam' — all 4 Grand Slams plus Olympic gold in a single year. In which year did she accomplish this?", answer: "1988", acceptableAnswers: [] },
+      { id: "tendee_200_01", categoryId: "tennis_deep", tier: 200, prompt: "Roger Federer, Rafael Nadal, and Novak Djokovic — the 'Big Three' of tennis — between them won how many Grand Slam singles titles combined (as of 2024)?", answer: "65 total (Djokovic 24, Nadal 22, Federer 20)", acceptableAnswers: ["65", "over 60"] },
+      { id: "tendee_200_02", categoryId: "tennis_deep", tier: 200, prompt: "Which tennis player holds the record for most Grand Slam singles titles in women's tennis with 23 titles — officially retiring in 2023?", answer: "Serena Williams", acceptableAnswers: ["Serena"] },
+      { id: "tendee_200_03", categoryId: "tennis_deep", tier: 200, prompt: "Wimbledon — the oldest Grand Slam — requires players to wear what color clothing?", answer: "Predominantly white", acceptableAnswers: ["white", "all white"] },
+      { id: "tendee_400_01", categoryId: "tennis_deep", tier: 400, prompt: "Rafael Nadal holds the record for the most French Open titles. How many did he win — earning him the nickname 'King of Clay'?", answer: "14", acceptableAnswers: ["fourteen"] },
+      { id: "tendee_400_02", categoryId: "tennis_deep", tier: 400, prompt: "The famous 2008 Wimbledon final — widely considered the greatest match ever played — was between Federer and Nadal. Who won?", answer: "Rafael Nadal", acceptableAnswers: ["Nadal"] },
+      { id: "tendee_400_03", categoryId: "tennis_deep", tier: 400, prompt: "Novak Djokovic completed the 'Golden Slam' by winning all four Grand Slams and which other competition in a single calendar year?", answer: "Olympic gold medal (he has not achieved the Golden Slam — he won all 4 majors in 2021 but lost the Olympic final)", acceptableAnswers: ["he did not complete the Golden Slam", "lost Olympic final", "Calendar Slam (not Golden)"] },
+      { id: "tendee_600_01", categoryId: "tennis_deep", tier: 600, prompt: "The serve-and-volley style — attacking the net after serving — was dominant in the 1980s–90s but has largely disappeared. Which surface change contributed most to its decline?", answer: "Slowing down of grass courts at Wimbledon and the dominance of baseline play / slow clay courts", acceptableAnswers: ["slower courts", "baseline game took over", "Wimbledon slowed its grass"] },
+      { id: "tendee_600_02", categoryId: "tennis_deep", tier: 600, prompt: "The first Open Era Grand Slam was the French Open in 1968. What does 'Open Era' mean in tennis?", answer: "Professional players were allowed to compete alongside amateurs for the first time", acceptableAnswers: ["pros allowed to compete", "amateur/pro separation ended"] },
+      { id: "tendee_600_03", categoryId: "tennis_deep", tier: 600, prompt: "Steffi Graf is the only player to achieve the 'Golden Slam' — all 4 Grand Slams plus Olympic gold in a single year. In which year did she accomplish this?", answer: "1988", acceptableAnswers: [] },
     ],
   },
   {
@@ -46942,15 +46942,15 @@ const CATEGORIES: Category[] = [
     description: "Six centuries of Ottoman rule — sultans, janissaries, millets, and the empire's collapse.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Coat_of_arms_of_the_Ottoman_Empire_%281882%E2%80%931922%29.svg/500px-Coat_of_arms_of_the_Ottoman_Empire_%281882%E2%80%931922%29.svg.png",
     questions: [
-      { id: "ott_200_01", categoryId: "ottoman_deep", tier: 200, prompt: "Which Ottoman sultan conquered Constantinople in 1453, ending the Byzantine Empire?", answer: "Mehmed II (Mehmed the Conqueror)", acceptableAnswers: ["Mehmed II", "Mehmed the Conqueror", "Sultan Mehmed"] },
-      { id: "ott_200_02", categoryId: "ottoman_deep", tier: 200, prompt: "The elite Ottoman soldiers — enslaved boys taken from Christian families, converted to Islam, and trained as warriors — were called what?", answer: "Janissaries", acceptableAnswers: ["Janissary", "Yeniçeri"] },
-      { id: "ott_200_03", categoryId: "ottoman_deep", tier: 200, prompt: "The Ottoman capital was Istanbul (formerly Constantinople). What was the palace complex where the Ottoman sultans lived and governed?", answer: "Topkapi Palace", acceptableAnswers: ["Topkapi"] },
-      { id: "ott_400_01", categoryId: "ottoman_deep", tier: 400, prompt: "Suleiman the Magnificent — considered the greatest Ottoman sultan — expanded the empire to its largest extent. He also reformed which aspect of Ottoman society — creating a legal code named after himself?", answer: "Ottoman legal code (Kanun / Kanuni)", acceptableAnswers: ["law / Kanun", "legal reforms", "Kanuni"] },
-      { id: "ott_400_02", categoryId: "ottoman_deep", tier: 400, prompt: "The 'millet system' — which allowed non-Muslim communities to self-govern in personal matters — granted autonomy to which religious groups?", answer: "Greek Orthodox Christians, Armenian Christians, and Jews (later expanded)", acceptableAnswers: ["Christians and Jews", "religious minorities", "Greeks, Armenians, Jews"] },
-      { id: "ott_400_03", categoryId: "ottoman_deep", tier: 400, prompt: "The Ottoman siege of Vienna in 1683 — which failed and began the empire's decline — was lifted when which Christian military force arrived to relieve the city?", answer: "Polish-Lithuanian Commonwealth / Jan III Sobieski's forces", acceptableAnswers: ["Jan Sobieski", "Polish forces", "Holy League"] },
-      { id: "ott_600_01", categoryId: "ottoman_deep", tier: 600, prompt: "The 'devshirme' system — where Ottoman officials collected Christian boys from the Balkans to raise as Muslim soldiers and bureaucrats — was eventually abolished in which century?", answer: "17th century (early 1600s)", acceptableAnswers: ["17th century", "1600s"] },
-      { id: "ott_600_02", categoryId: "ottoman_deep", tier: 600, prompt: "Which Ottoman sultan introduced the Tanzimat reforms in 1839 — modernization edicts that guaranteed equality of rights to all Ottoman citizens regardless of religion?", answer: "Mahmud II (the reforms were issued under Abdulmejid I)", acceptableAnswers: ["Abdulmejid I", "Mahmud II", "Tanzimat sultans"] },
-      { id: "ott_600_03", categoryId: "ottoman_deep", tier: 600, prompt: "The Ottoman Empire officially ended when the last sultan was deposed. In which year did the Republic of Turkey formally replace the Ottoman Sultanate?", answer: "1922", acceptableAnswers: ["1922 (sultanate abolished)", "1923 (republic declared)"] },
+      { id: "ottdee_200_01", categoryId: "ottoman_deep", tier: 200, prompt: "Which Ottoman sultan conquered Constantinople in 1453, ending the Byzantine Empire?", answer: "Mehmed II (Mehmed the Conqueror)", acceptableAnswers: ["Mehmed II", "Mehmed the Conqueror", "Sultan Mehmed"] },
+      { id: "ottdee_200_02", categoryId: "ottoman_deep", tier: 200, prompt: "The elite Ottoman soldiers — enslaved boys taken from Christian families, converted to Islam, and trained as warriors — were called what?", answer: "Janissaries", acceptableAnswers: ["Janissary", "Yeniçeri"] },
+      { id: "ottdee_200_03", categoryId: "ottoman_deep", tier: 200, prompt: "The Ottoman capital was Istanbul (formerly Constantinople). What was the palace complex where the Ottoman sultans lived and governed?", answer: "Topkapi Palace", acceptableAnswers: ["Topkapi"] },
+      { id: "ottdee_400_01", categoryId: "ottoman_deep", tier: 400, prompt: "Suleiman the Magnificent — considered the greatest Ottoman sultan — expanded the empire to its largest extent. He also reformed which aspect of Ottoman society — creating a legal code named after himself?", answer: "Ottoman legal code (Kanun / Kanuni)", acceptableAnswers: ["law / Kanun", "legal reforms", "Kanuni"] },
+      { id: "ottdee_400_02", categoryId: "ottoman_deep", tier: 400, prompt: "The 'millet system' — which allowed non-Muslim communities to self-govern in personal matters — granted autonomy to which religious groups?", answer: "Greek Orthodox Christians, Armenian Christians, and Jews (later expanded)", acceptableAnswers: ["Christians and Jews", "religious minorities", "Greeks, Armenians, Jews"] },
+      { id: "ottdee_400_03", categoryId: "ottoman_deep", tier: 400, prompt: "The Ottoman siege of Vienna in 1683 — which failed and began the empire's decline — was lifted when which Christian military force arrived to relieve the city?", answer: "Polish-Lithuanian Commonwealth / Jan III Sobieski's forces", acceptableAnswers: ["Jan Sobieski", "Polish forces", "Holy League"] },
+      { id: "ottdee_600_01", categoryId: "ottoman_deep", tier: 600, prompt: "The 'devshirme' system — where Ottoman officials collected Christian boys from the Balkans to raise as Muslim soldiers and bureaucrats — was eventually abolished in which century?", answer: "17th century (early 1600s)", acceptableAnswers: ["17th century", "1600s"] },
+      { id: "ottdee_600_02", categoryId: "ottoman_deep", tier: 600, prompt: "Which Ottoman sultan introduced the Tanzimat reforms in 1839 — modernization edicts that guaranteed equality of rights to all Ottoman citizens regardless of religion?", answer: "Mahmud II (the reforms were issued under Abdulmejid I)", acceptableAnswers: ["Abdulmejid I", "Mahmud II", "Tanzimat sultans"] },
+      { id: "ottdee_600_03", categoryId: "ottoman_deep", tier: 600, prompt: "The Ottoman Empire officially ended when the last sultan was deposed. In which year did the Republic of Turkey formally replace the Ottoman Sultanate?", answer: "1922", acceptableAnswers: ["1922 (sultanate abolished)", "1923 (republic declared)"] },
     ],
   },
   {
@@ -47015,14 +47015,14 @@ const CATEGORIES: Category[] = [
     description: "Government programs, corporate cover-ups, and plots that were actually real — not theories.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Dollarnote_siegel_hq.jpg/500px-Dollarnote_siegel_hq.jpg",
     questions: [
-      { id: "cfc_200_01", categoryId: "conspiracy_facts", tier: 200, prompt: "The US government secretly tested LSD and other drugs on unwitting subjects from the 1950s–70s in a CIA program called what?", answer: "MKUltra", acceptableAnswers: ["MK Ultra", "MKULTRA"] },
+      { id: "confac_200_01", categoryId: "conspiracy_facts", tier: 200, prompt: "The US government secretly tested LSD and other drugs on unwitting subjects from the 1950s–70s in a CIA program called what?", answer: "MKUltra", acceptableAnswers: ["MK Ultra", "MKULTRA"] },
       { id: "cfc_200_02", categoryId: "conspiracy_facts", tier: 200, prompt: "The NSA was secretly collecting bulk telephone metadata from millions of ordinary Americans — revealed by which whistleblower in 2013?", answer: "Edward Snowden", acceptableAnswers: ["Snowden"] },
       { id: "cfc_200_03", categoryId: "conspiracy_facts", tier: 200, prompt: "The Tuskegee Syphilis Study (1932–1972) secretly withheld treatment from Black men to study the disease's progression. Who ran this study?", answer: "US Public Health Service (US government)", acceptableAnswers: ["US government", "USPHS", "US Public Health Service"] },
-      { id: "cfc_400_01", categoryId: "conspiracy_facts", tier: 400, prompt: "Operation Paperclip was a secret US program to recruit Nazi scientists after WWII. Which type of program directly benefited from these scientists — including Wernher von Braun?", answer: "NASA / US space program", acceptableAnswers: ["NASA", "space program", "US rocket program"] },
-      { id: "cfc_400_02", categoryId: "conspiracy_facts", tier: 400, prompt: "The tobacco industry's internal documents — revealed in the 1990s — proved executives had known about the link between smoking and cancer since the 1950s and deliberately what?", answer: "Concealed it and marketed cigarettes as safe", acceptableAnswers: ["concealed it", "hid the evidence", "covered up the cancer link"] },
+      { id: "confac_400_01", categoryId: "conspiracy_facts", tier: 400, prompt: "Operation Paperclip was a secret US program to recruit Nazi scientists after WWII. Which type of program directly benefited from these scientists — including Wernher von Braun?", answer: "NASA / US space program", acceptableAnswers: ["NASA", "space program", "US rocket program"] },
+      { id: "confac_400_02", categoryId: "conspiracy_facts", tier: 400, prompt: "The tobacco industry's internal documents — revealed in the 1990s — proved executives had known about the link between smoking and cancer since the 1950s and deliberately what?", answer: "Concealed it and marketed cigarettes as safe", acceptableAnswers: ["concealed it", "hid the evidence", "covered up the cancer link"] },
       { id: "cfc_400_03", categoryId: "conspiracy_facts", tier: 400, prompt: "The COINTELPRO program — run by J. Edgar Hoover's FBI from 1956–1971 — secretly surveilled, infiltrated, and disrupted which types of organizations?", answer: "Civil rights, socialist, and activist organizations (including MLK, Black Panthers, anti-war groups)", acceptableAnswers: ["civil rights groups", "Black Panthers", "MLK's organization"] },
-      { id: "cfc_600_01", categoryId: "conspiracy_facts", tier: 600, prompt: "Project AZORIAN (1974) was a secret CIA operation to recover what from the Pacific Ocean floor?", answer: "A sunken Soviet submarine (K-129)", acceptableAnswers: ["Soviet submarine", "K-129 submarine"] },
-      { id: "cfc_600_02", categoryId: "conspiracy_facts", tier: 600, prompt: "The 'Bagel Protocol' — a real British intelligence operation during WWII — planted false invasion plans on a dead body floated ashore in Spain. What was this operation officially named?", answer: "Operation Mincemeat", acceptableAnswers: ["Mincemeat"] },
+      { id: "confac_600_01", categoryId: "conspiracy_facts", tier: 600, prompt: "Project AZORIAN (1974) was a secret CIA operation to recover what from the Pacific Ocean floor?", answer: "A sunken Soviet submarine (K-129)", acceptableAnswers: ["Soviet submarine", "K-129 submarine"] },
+      { id: "confac_600_02", categoryId: "conspiracy_facts", tier: 600, prompt: "The 'Bagel Protocol' — a real British intelligence operation during WWII — planted false invasion plans on a dead body floated ashore in Spain. What was this operation officially named?", answer: "Operation Mincemeat", acceptableAnswers: ["Mincemeat"] },
       { id: "cfc_600_03", categoryId: "conspiracy_facts", tier: 600, prompt: "Facebook's internal documents — leaked by whistleblower Frances Haugen in 2021 — revealed the company knew its algorithm amplified which type of content?", answer: "Divisive and emotionally charged content / outrage and misinformation", acceptableAnswers: ["outrage", "divisive content", "misinformation"] },
     ],
   },
@@ -47053,15 +47053,15 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description: "The mental shortcuts and systematic errors that distort human judgment and decision-making.",
     questions: [
-      { id: "cob_200_01", categoryId: "psychology_biases", tier: 200, prompt: "The 'confirmation bias' leads people to seek out information that confirms what they already believe. What type of information do they unconsciously avoid?", answer: "Information that contradicts their existing beliefs", acceptableAnswers: ["contradicting information", "information that challenges their views"] },
-      { id: "cob_200_02", categoryId: "psychology_biases", tier: 200, prompt: "The 'sunk cost fallacy' describes why people continue investing in a failing project. What causes this irrational behavior?", answer: "They focus on what they've already lost/invested rather than future prospects", acceptableAnswers: ["they don't want to waste past investment", "prior investment traps them"] },
-      { id: "cob_200_03", categoryId: "psychology_biases", tier: 200, prompt: "The 'Dunning-Kruger effect' describes which counterintuitive relationship between competence and confidence?", answer: "People with low competence overestimate their ability, while experts underestimate themselves", acceptableAnswers: ["incompetent people think they're experts", "low skill people overestimate ability"] },
-      { id: "cob_400_01", categoryId: "psychology_biases", tier: 400, prompt: "The 'anchoring bias' occurs when people rely too heavily on the first piece of information they encounter. Give a real-world example of how retailers exploit this.", answer: "Showing a high original price before the 'sale' price makes the deal seem better than it is", acceptableAnswers: ["original price anchor", "crossing out higher price", "MSRP before sale price"] },
-      { id: "cob_400_02", categoryId: "psychology_biases", tier: 400, prompt: "What is 'availability heuristic' — and why does it make people overestimate the risk of plane crashes vs. car crashes?", answer: "We judge frequency by how easily examples come to mind — plane crashes get more news coverage so they feel more common", acceptableAnswers: ["memorable events feel more frequent", "scary news makes risks seem higher"] },
-      { id: "cob_400_03", categoryId: "psychology_biases", tier: 400, prompt: "The 'in-group/out-group bias' causes people to favor members of their own group. Which famous experiment demonstrated this using random groups divided by arbitrary characteristics?", answer: "Tajfel's minimal group paradigm", acceptableAnswers: ["Tajfel experiment", "minimal group experiment"] },
-      { id: "cob_600_01", categoryId: "psychology_biases", tier: 600, prompt: "Daniel Kahneman — who won the Nobel Prize in Economics — described two systems of thinking: System 1 (fast, intuitive) and System 2 (slow, deliberate). In which book did he popularize this framework?", answer: "Thinking, Fast and Slow", acceptableAnswers: ["Thinking Fast and Slow"] },
-      { id: "cob_600_02", categoryId: "psychology_biases", tier: 600, prompt: "What is the 'fundamental attribution error' — one of the most robust findings in social psychology?", answer: "We attribute others' behavior to their character/personality but our own behavior to circumstances", acceptableAnswers: ["blaming others' character but excusing our own behavior as situational"] },
-      { id: "cob_600_03", categoryId: "psychology_biases", tier: 600, prompt: "The 'narrative fallacy' — described by Nassim Taleb — refers to our tendency to do what with random or unconnected events?", answer: "Create post-hoc stories/narratives that make random events seem connected and inevitable", acceptableAnswers: ["create stories from random events", "see patterns in randomness"] },
+      { id: "psybia_200_01", categoryId: "psychology_biases", tier: 200, prompt: "The 'confirmation bias' leads people to seek out information that confirms what they already believe. What type of information do they unconsciously avoid?", answer: "Information that contradicts their existing beliefs", acceptableAnswers: ["contradicting information", "information that challenges their views"] },
+      { id: "psybia_200_02", categoryId: "psychology_biases", tier: 200, prompt: "The 'sunk cost fallacy' describes why people continue investing in a failing project. What causes this irrational behavior?", answer: "They focus on what they've already lost/invested rather than future prospects", acceptableAnswers: ["they don't want to waste past investment", "prior investment traps them"] },
+      { id: "psybia_200_03", categoryId: "psychology_biases", tier: 200, prompt: "The 'Dunning-Kruger effect' describes which counterintuitive relationship between competence and confidence?", answer: "People with low competence overestimate their ability, while experts underestimate themselves", acceptableAnswers: ["incompetent people think they're experts", "low skill people overestimate ability"] },
+      { id: "psybia_400_01", categoryId: "psychology_biases", tier: 400, prompt: "The 'anchoring bias' occurs when people rely too heavily on the first piece of information they encounter. Give a real-world example of how retailers exploit this.", answer: "Showing a high original price before the 'sale' price makes the deal seem better than it is", acceptableAnswers: ["original price anchor", "crossing out higher price", "MSRP before sale price"] },
+      { id: "psybia_400_02", categoryId: "psychology_biases", tier: 400, prompt: "What is 'availability heuristic' — and why does it make people overestimate the risk of plane crashes vs. car crashes?", answer: "We judge frequency by how easily examples come to mind — plane crashes get more news coverage so they feel more common", acceptableAnswers: ["memorable events feel more frequent", "scary news makes risks seem higher"] },
+      { id: "psybia_400_03", categoryId: "psychology_biases", tier: 400, prompt: "The 'in-group/out-group bias' causes people to favor members of their own group. Which famous experiment demonstrated this using random groups divided by arbitrary characteristics?", answer: "Tajfel's minimal group paradigm", acceptableAnswers: ["Tajfel experiment", "minimal group experiment"] },
+      { id: "psybia_600_01", categoryId: "psychology_biases", tier: 600, prompt: "Daniel Kahneman — who won the Nobel Prize in Economics — described two systems of thinking: System 1 (fast, intuitive) and System 2 (slow, deliberate). In which book did he popularize this framework?", answer: "Thinking, Fast and Slow", acceptableAnswers: ["Thinking Fast and Slow"] },
+      { id: "psybia_600_02", categoryId: "psychology_biases", tier: 600, prompt: "What is the 'fundamental attribution error' — one of the most robust findings in social psychology?", answer: "We attribute others' behavior to their character/personality but our own behavior to circumstances", acceptableAnswers: ["blaming others' character but excusing our own behavior as situational"] },
+      { id: "psybia_600_03", categoryId: "psychology_biases", tier: 600, prompt: "The 'narrative fallacy' — described by Nassim Taleb — refers to our tendency to do what with random or unconnected events?", answer: "Create post-hoc stories/narratives that make random events seem connected and inevitable", acceptableAnswers: ["create stories from random events", "see patterns in randomness"] },
     ],
   },
   {
@@ -47108,14 +47108,14 @@ const CATEGORIES: Category[] = [
     description: "Formula 1's greatest drivers, championship battles, and technical innovations — beyond the basics.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/1996_McLaren_F1_Chassis_No_63_6.1_Front.jpg/500px-1996_McLaren_F1_Chassis_No_63_6.1_Front.jpg",
     questions: [
-      { id: "f1d_200_01", categoryId: "formula1_deep2", tier: 200, prompt: "Which F1 driver holds the most World Championship titles — with 7 titles?", answer: "Michael Schumacher and Lewis Hamilton (both have 7)", acceptableAnswers: ["Michael Schumacher", "Lewis Hamilton", "both Schumacher and Hamilton"] },
+      { id: "fordee_200_01", categoryId: "formula1_deep2", tier: 200, prompt: "Which F1 driver holds the most World Championship titles — with 7 titles?", answer: "Michael Schumacher and Lewis Hamilton (both have 7)", acceptableAnswers: ["Michael Schumacher", "Lewis Hamilton", "both Schumacher and Hamilton"] },
       { id: "f1d_200_02", categoryId: "formula1_deep2", tier: 200, prompt: "The Monaco Grand Prix is considered the most prestigious race in F1. In which city is it held?", answer: "Monaco (Monte Carlo)", acceptableAnswers: ["Monaco", "Monte Carlo"] },
       { id: "f1d_200_03", categoryId: "formula1_deep2", tier: 200, prompt: "Max Verstappen won 3 consecutive F1 World Championships from 2021 to 2023 with which team?", answer: "Red Bull Racing", acceptableAnswers: ["Red Bull"] },
-      { id: "f1d_400_01", categoryId: "formula1_deep2", tier: 400, prompt: "Ayrton Senna — considered the greatest F1 driver by many — died during the 1994 San Marino Grand Prix. Which corner did his fatal accident occur at?", answer: "Tamburello corner (Imola)", acceptableAnswers: ["Tamburello", "Imola"] },
-      { id: "f1d_400_02", categoryId: "formula1_deep2", tier: 400, prompt: "Which F1 constructor — an Austrian energy drink company — has the most Constructor's Championships as of 2024?", answer: "Red Bull Racing (with 6 constructor titles as of 2023)", acceptableAnswers: ["Red Bull", "Ferrari (historically most overall)"] },
+      { id: "fordee_400_01", categoryId: "formula1_deep2", tier: 400, prompt: "Ayrton Senna — considered the greatest F1 driver by many — died during the 1994 San Marino Grand Prix. Which corner did his fatal accident occur at?", answer: "Tamburello corner (Imola)", acceptableAnswers: ["Tamburello", "Imola"] },
+      { id: "fordee_400_02", categoryId: "formula1_deep2", tier: 400, prompt: "Which F1 constructor — an Austrian energy drink company — has the most Constructor's Championships as of 2024?", answer: "Red Bull Racing (with 6 constructor titles as of 2023)", acceptableAnswers: ["Red Bull", "Ferrari (historically most overall)"] },
       { id: "f1d_400_03", categoryId: "formula1_deep2", tier: 400, prompt: "The 'undercut' strategy in F1 involves pitting earlier than your rival to gain an advantage from fresh tires. Why does this work?", answer: "New tires are significantly faster — a driver can post quick laps in 'free air' while their rival is stuck behind traffic on old tires, emerging ahead when the rival eventually pits", acceptableAnswers: ["fresh tires are faster and you gain time while rival is on old tires"] },
-      { id: "f1d_600_01", categoryId: "formula1_deep2", tier: 600, prompt: "Niki Lauda survived a near-fatal crash at the 1976 German Grand Prix at the Nürburgring — suffering severe burns. He returned to racing just how many weeks later?", answer: "6 weeks (42 days)", acceptableAnswers: ["6 weeks", "six weeks", "42 days"] },
-      { id: "f1d_600_02", categoryId: "formula1_deep2", tier: 600, prompt: "The 2021 Abu Dhabi Grand Prix finale — where Verstappen won the title from Hamilton on the final lap — became controversial for a decision made by the race director. What did he do?", answer: "He allowed only lapped cars between Hamilton and Verstappen to unlap themselves (not all lapped cars), giving Verstappen a clean last lap attack on fresh tires", acceptableAnswers: ["only some lapped cars unlapped", "gave Verstappen unfair advantage on last lap", "controversial safety car call"] },
+      { id: "fordee_600_01", categoryId: "formula1_deep2", tier: 600, prompt: "Niki Lauda survived a near-fatal crash at the 1976 German Grand Prix at the Nürburgring — suffering severe burns. He returned to racing just how many weeks later?", answer: "6 weeks (42 days)", acceptableAnswers: ["6 weeks", "six weeks", "42 days"] },
+      { id: "fordee_600_02", categoryId: "formula1_deep2", tier: 600, prompt: "The 2021 Abu Dhabi Grand Prix finale — where Verstappen won the title from Hamilton on the final lap — became controversial for a decision made by the race director. What did he do?", answer: "He allowed only lapped cars between Hamilton and Verstappen to unlap themselves (not all lapped cars), giving Verstappen a clean last lap attack on fresh tires", acceptableAnswers: ["only some lapped cars unlapped", "gave Verstappen unfair advantage on last lap", "controversial safety car call"] },
       { id: "f1d_600_03", categoryId: "formula1_deep2", tier: 600, prompt: "Which F1 driver — nicknamed 'The Professor' — won 4 championships with Williams and Renault and was famous for his ultra-smooth, cerebral driving style?", answer: "Alain Prost", acceptableAnswers: ["Prost"] },
     ],
   },
@@ -47446,14 +47446,14 @@ const CATEGORIES: Category[] = [
     description: "The history, religions, and civilization of India — from the Mughal Empire to Bollywood.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/North_Gateway_-_Rear_Side_-_Stupa_1_-_Sanchi_Hill_2013-02-21_4480-4481.JPG/500px-North_Gateway_-_Rear_Side_-_Stupa_1_-_Sanchi_Hill_2013-02-21_4480-4481.JPG",
     questions: [
-      { id: "icd_200_01", categoryId: "india_culture_deep", tier: 200, prompt: "The Taj Mahal was built by Mughal Emperor Shah Jahan as a mausoleum for which person?", answer: "His wife Mumtaz Mahal", acceptableAnswers: ["Mumtaz Mahal", "his wife"] },
+      { id: "indcul_200_01", categoryId: "india_culture_deep", tier: 200, prompt: "The Taj Mahal was built by Mughal Emperor Shah Jahan as a mausoleum for which person?", answer: "His wife Mumtaz Mahal", acceptableAnswers: ["Mumtaz Mahal", "his wife"] },
       { id: "icd_200_02", categoryId: "india_culture_deep", tier: 200, prompt: "Mahatma Gandhi led India's independence movement against British rule using which core philosophy of nonviolent resistance?", answer: "Satyagraha (non-violent resistance / civil disobedience)", acceptableAnswers: ["Satyagraha", "non-violent resistance", "civil disobedience"] },
       { id: "icd_200_03", categoryId: "india_culture_deep", tier: 200, prompt: "Which river — considered sacred in Hinduism — is the longest river in the Indian subcontinent?", answer: "Ganges (Ganga)", acceptableAnswers: ["Ganges", "Ganga"] },
-      { id: "icd_400_01", categoryId: "india_culture_deep", tier: 400, prompt: "The Mughal Emperor Akbar is considered the greatest of the Mughals. What was his religious policy — unique for a Muslim emperor ruling a Hindu-majority population?", answer: "Din-i-Ilahi — religious tolerance and synthesis; he abolished the jizya tax on Hindus and welcomed scholars of all faiths", acceptableAnswers: ["religious tolerance", "Din-i-Ilahi", "abolished jizya tax"] },
-      { id: "icd_400_02", categoryId: "india_culture_deep", tier: 400, prompt: "The caste system in India divided society into four main varnas. Which varna was considered the highest — the priestly and scholarly class?", answer: "Brahmin", acceptableAnswers: ["Brahmins", "Brahman"] },
+      { id: "indcul_400_01", categoryId: "india_culture_deep", tier: 400, prompt: "The Mughal Emperor Akbar is considered the greatest of the Mughals. What was his religious policy — unique for a Muslim emperor ruling a Hindu-majority population?", answer: "Din-i-Ilahi — religious tolerance and synthesis; he abolished the jizya tax on Hindus and welcomed scholars of all faiths", acceptableAnswers: ["religious tolerance", "Din-i-Ilahi", "abolished jizya tax"] },
+      { id: "indcul_400_02", categoryId: "india_culture_deep", tier: 400, prompt: "The caste system in India divided society into four main varnas. Which varna was considered the highest — the priestly and scholarly class?", answer: "Brahmin", acceptableAnswers: ["Brahmins", "Brahman"] },
       { id: "icd_400_03", categoryId: "india_culture_deep", tier: 400, prompt: "Bollywood — the Hindi-language film industry — is based in which Indian city?", answer: "Mumbai (formerly Bombay)", acceptableAnswers: ["Mumbai", "Bombay"] },
-      { id: "icd_600_01", categoryId: "india_culture_deep", tier: 600, prompt: "The Partition of India in 1947 — which created Pakistan and India — led to one of the largest mass migrations in history. Approximately how many people were displaced?", answer: "10–20 million people (estimates vary widely)", acceptableAnswers: ["10 to 20 million", "millions of people"] },
-      { id: "icd_600_02", categoryId: "india_culture_deep", tier: 600, prompt: "The Indus Valley Civilization (3300–1300 BC) was one of the world's earliest urban civilizations. Its two largest cities — Mohenjo-daro and Harappa — are in which modern country?", answer: "Pakistan", acceptableAnswers: [] },
+      { id: "indcul_600_01", categoryId: "india_culture_deep", tier: 600, prompt: "The Partition of India in 1947 — which created Pakistan and India — led to one of the largest mass migrations in history. Approximately how many people were displaced?", answer: "10–20 million people (estimates vary widely)", acceptableAnswers: ["10 to 20 million", "millions of people"] },
+      { id: "indcul_600_02", categoryId: "india_culture_deep", tier: 600, prompt: "The Indus Valley Civilization (3300–1300 BC) was one of the world's earliest urban civilizations. Its two largest cities — Mohenjo-daro and Harappa — are in which modern country?", answer: "Pakistan", acceptableAnswers: [] },
       { id: "icd_600_03", categoryId: "india_culture_deep", tier: 600, prompt: "Ashoka the Great — the Mauryan emperor who converted to Buddhism after a devastating war — famously spread Buddhist teachings throughout Asia. Which war caused his conversion?", answer: "The Kalinga War (261 BC) — where 100,000 people were killed and he was overcome by grief", acceptableAnswers: ["Kalinga War", "Battle of Kalinga"] },
     ],
   },
@@ -47671,15 +47671,15 @@ const CATEGORIES: Category[] = [
     culture: "american",
     description: "The greatest players, dynasties, and moments in NFL history — beyond the basics.",
     questions: [
-      { id: "nfl_200_01", categoryId: "nfl_deep", tier: 200, prompt: "Tom Brady won 7 Super Bowls — more than any team in NFL history. He won 6 with the New England Patriots and 1 with which team?", answer: "Tampa Bay Buccaneers", acceptableAnswers: ["Tampa Bay", "Buccaneers"] },
-      { id: "nfl_200_02", categoryId: "nfl_deep", tier: 200, prompt: "The Super Bowl halftime show is one of the most watched musical performances annually. Which artist performed in the 2023 Super Bowl halftime show?", answer: "Rihanna", acceptableAnswers: [] },
-      { id: "nfl_200_03", categoryId: "nfl_deep", tier: 200, prompt: "Which position does the quarterback's main protection group play?", answer: "Offensive line", acceptableAnswers: ["offensive linemen", "O-line"] },
-      { id: "nfl_400_01", categoryId: "nfl_deep", tier: 400, prompt: "The 'Immaculate Reception' (1972) is considered the greatest play in NFL history. Which Pittsburgh Steelers running back caught a deflected pass for the touchdown?", answer: "Franco Harris", acceptableAnswers: ["Harris"] },
-      { id: "nfl_400_02", categoryId: "nfl_deep", tier: 400, prompt: "The NFL Draft's first overall pick is highly coveted. Which team has had the most first overall picks in NFL history — known for consistently being the worst team?", answer: "Cleveland Browns", acceptableAnswers: ["Cleveland Browns", "the Browns"] },
-      { id: "nfl_400_03", categoryId: "nfl_deep", tier: 400, prompt: "Patrick Mahomes set the NFL record for the highest single-season passer rating. He plays for which AFC West team?", answer: "Kansas City Chiefs", acceptableAnswers: ["Chiefs", "KC Chiefs"] },
-      { id: "nfl_600_01", categoryId: "nfl_deep", tier: 600, prompt: "The '46 Defense' — one of the most influential defensive schemes in NFL history — was developed by which Chicago Bears defensive coordinator in the 1980s?", answer: "Buddy Ryan", acceptableAnswers: ["Ryan"] },
-      { id: "nfl_600_02", categoryId: "nfl_deep", tier: 600, prompt: "Which NFL running back holds the single-season rushing record with 2,105 yards, set in 1984?", answer: "Eric Dickerson", acceptableAnswers: ["Dickerson"] },
-      { id: "nfl_600_03", categoryId: "nfl_deep", tier: 600, prompt: "The 'West Coast Offense' — characterized by short horizontal passes to stretch the defense — was pioneered by which San Francisco 49ers head coach?", answer: "Bill Walsh", acceptableAnswers: ["Walsh"] },
+      { id: "nfldee_200_01", categoryId: "nfl_deep", tier: 200, prompt: "Tom Brady won 7 Super Bowls — more than any team in NFL history. He won 6 with the New England Patriots and 1 with which team?", answer: "Tampa Bay Buccaneers", acceptableAnswers: ["Tampa Bay", "Buccaneers"] },
+      { id: "nfldee_200_02", categoryId: "nfl_deep", tier: 200, prompt: "The Super Bowl halftime show is one of the most watched musical performances annually. Which artist performed in the 2023 Super Bowl halftime show?", answer: "Rihanna", acceptableAnswers: [] },
+      { id: "nfldee_200_03", categoryId: "nfl_deep", tier: 200, prompt: "Which position does the quarterback's main protection group play?", answer: "Offensive line", acceptableAnswers: ["offensive linemen", "O-line"] },
+      { id: "nfldee_400_01", categoryId: "nfl_deep", tier: 400, prompt: "The 'Immaculate Reception' (1972) is considered the greatest play in NFL history. Which Pittsburgh Steelers running back caught a deflected pass for the touchdown?", answer: "Franco Harris", acceptableAnswers: ["Harris"] },
+      { id: "nfldee_400_02", categoryId: "nfl_deep", tier: 400, prompt: "The NFL Draft's first overall pick is highly coveted. Which team has had the most first overall picks in NFL history — known for consistently being the worst team?", answer: "Cleveland Browns", acceptableAnswers: ["Cleveland Browns", "the Browns"] },
+      { id: "nfldee_400_03", categoryId: "nfl_deep", tier: 400, prompt: "Patrick Mahomes set the NFL record for the highest single-season passer rating. He plays for which AFC West team?", answer: "Kansas City Chiefs", acceptableAnswers: ["Chiefs", "KC Chiefs"] },
+      { id: "nfldee_600_01", categoryId: "nfl_deep", tier: 600, prompt: "The '46 Defense' — one of the most influential defensive schemes in NFL history — was developed by which Chicago Bears defensive coordinator in the 1980s?", answer: "Buddy Ryan", acceptableAnswers: ["Ryan"] },
+      { id: "nfldee_600_02", categoryId: "nfl_deep", tier: 600, prompt: "Which NFL running back holds the single-season rushing record with 2,105 yards, set in 1984?", answer: "Eric Dickerson", acceptableAnswers: ["Dickerson"] },
+      { id: "nfldee_600_03", categoryId: "nfl_deep", tier: 600, prompt: "The 'West Coast Offense' — characterized by short horizontal passes to stretch the defense — was pioneered by which San Francisco 49ers head coach?", answer: "Bill Walsh", acceptableAnswers: ["Walsh"] },
     ],
   },
   {
@@ -47689,14 +47689,14 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description: "Bach, Beethoven, Mozart, and the composers whose work still fills concert halls 300 years later.",
     questions: [
-      { id: "cmd_200_01", categoryId: "classical_music_deep", tier: 200, prompt: "Ludwig van Beethoven composed his famous 9th Symphony — including 'Ode to Joy' — while completely what?", answer: "Deaf", acceptableAnswers: [] },
+      { id: "clamus_200_01", categoryId: "classical_music_deep", tier: 200, prompt: "Ludwig van Beethoven composed his famous 9th Symphony — including 'Ode to Joy' — while completely what?", answer: "Deaf", acceptableAnswers: [] },
       { id: "cmd_200_02", categoryId: "classical_music_deep", tier: 200, prompt: "Wolfgang Amadeus Mozart began composing at age 5 and performed for European royalty as a child. He died at age 35 in 1791 — but left how many completed compositions?", answer: "Over 600 (626 works catalogued in the Köchel catalogue)", acceptableAnswers: ["over 600", "626", "about 600"] },
       { id: "cmd_200_03", categoryId: "classical_music_deep", tier: 200, prompt: "Which composer wrote 'The Four Seasons' — a set of four violin concertos representing the seasons of the year?", answer: "Antonio Vivaldi", acceptableAnswers: ["Vivaldi"] },
-      { id: "cmd_400_01", categoryId: "classical_music_deep", tier: 400, prompt: "Johann Sebastian Bach's 'Well-Tempered Clavier' was revolutionary because it demonstrated that a keyboard instrument could play in all 24 keys — made possible by which tuning system?", answer: "Equal temperament (well temperament)", acceptableAnswers: ["equal temperament", "well temperament"] },
-      { id: "cmd_400_02", categoryId: "classical_music_deep", tier: 400, prompt: "What is the difference between a symphony and a concerto in classical music?", answer: "A symphony is for full orchestra with no soloist; a concerto features a solo instrument performing with the orchestra", acceptableAnswers: ["symphony is full orchestra, concerto features a soloist"] },
+      { id: "clamus_400_01", categoryId: "classical_music_deep", tier: 400, prompt: "Johann Sebastian Bach's 'Well-Tempered Clavier' was revolutionary because it demonstrated that a keyboard instrument could play in all 24 keys — made possible by which tuning system?", answer: "Equal temperament (well temperament)", acceptableAnswers: ["equal temperament", "well temperament"] },
+      { id: "clamus_400_02", categoryId: "classical_music_deep", tier: 400, prompt: "What is the difference between a symphony and a concerto in classical music?", answer: "A symphony is for full orchestra with no soloist; a concerto features a solo instrument performing with the orchestra", acceptableAnswers: ["symphony is full orchestra, concerto features a soloist"] },
       { id: "cmd_400_03", categoryId: "classical_music_deep", tier: 400, prompt: "Pyotr Ilyich Tchaikovsky composed three of the most beloved ballets ever written. Name all three.", answer: "Swan Lake, The Nutcracker, and Sleeping Beauty", acceptableAnswers: ["Swan Lake, Nutcracker, Sleeping Beauty"] },
-      { id: "cmd_600_01", categoryId: "classical_music_deep", tier: 600, prompt: "The famous 'Moonlight Sonata' by Beethoven (Op. 27, No. 2) is officially titled what — suggesting it wasn't meant to evoke moonlight at all?", answer: "Piano Sonata No. 14 in C♯ minor / Quasi una Fantasia (the moonlight title was given by a critic after Beethoven's death)", acceptableAnswers: ["Quasi una Fantasia", "piano sonata quasi una fantasia"] },
-      { id: "cmd_600_02", categoryId: "classical_music_deep", tier: 600, prompt: "Which Russian composer — known for shocking, dissonant modernist works — scandalized audiences with 'The Rite of Spring' ballet in 1913, causing a near-riot at its Paris premiere?", answer: "Igor Stravinsky", acceptableAnswers: ["Stravinsky"] },
+      { id: "clamus_600_01", categoryId: "classical_music_deep", tier: 600, prompt: "The famous 'Moonlight Sonata' by Beethoven (Op. 27, No. 2) is officially titled what — suggesting it wasn't meant to evoke moonlight at all?", answer: "Piano Sonata No. 14 in C♯ minor / Quasi una Fantasia (the moonlight title was given by a critic after Beethoven's death)", acceptableAnswers: ["Quasi una Fantasia", "piano sonata quasi una fantasia"] },
+      { id: "clamus_600_02", categoryId: "classical_music_deep", tier: 600, prompt: "Which Russian composer — known for shocking, dissonant modernist works — scandalized audiences with 'The Rite of Spring' ballet in 1913, causing a near-riot at its Paris premiere?", answer: "Igor Stravinsky", acceptableAnswers: ["Stravinsky"] },
       { id: "cmd_600_03", categoryId: "classical_music_deep", tier: 600, prompt: "The 'BWV' numbers used to catalogue Bach's works stand for what German phrase?", answer: "Bach-Werke-Verzeichnis (Bach Works Catalogue)", acceptableAnswers: ["Bach Works Catalogue", "Bach-Werke-Verzeichnis"] },
     ],
   },
@@ -47707,14 +47707,14 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description: "The theories that broke intuition — relativity, quantum mechanics, and the nature of reality.",
     questions: [
-      { id: "phd_200_01", categoryId: "physics_deep", tier: 200, prompt: "Einstein's Special Theory of Relativity states that as an object approaches the speed of light, its mass increases and time does what relative to a stationary observer?", answer: "Slows down (time dilation)", acceptableAnswers: ["slows down", "time dilation"] },
+      { id: "phydee_200_01", categoryId: "physics_deep", tier: 200, prompt: "Einstein's Special Theory of Relativity states that as an object approaches the speed of light, its mass increases and time does what relative to a stationary observer?", answer: "Slows down (time dilation)", acceptableAnswers: ["slows down", "time dilation"] },
       { id: "phd_200_02", categoryId: "physics_deep", tier: 200, prompt: "What is a 'photon' — the fundamental particle of light?", answer: "A massless particle that carries electromagnetic radiation — the quantum of light", acceptableAnswers: ["particle of light", "massless light particle"] },
       { id: "phd_200_03", categoryId: "physics_deep", tier: 200, prompt: "Newton's first law of motion states that an object in motion stays in motion unless acted upon by what?", answer: "An external force", acceptableAnswers: ["a force", "external force"] },
-      { id: "phd_400_01", categoryId: "physics_deep", tier: 400, prompt: "Heisenberg's Uncertainty Principle states that you cannot simultaneously know both the exact position and exact momentum of a particle. What does this mean for the nature of reality?", answer: "At the quantum level, reality is fundamentally probabilistic — the act of measurement itself disturbs what is being measured", acceptableAnswers: ["reality is probabilistic at quantum level", "measurement disturbs the particle"] },
-      { id: "phd_400_02", categoryId: "physics_deep", tier: 400, prompt: "Schrödinger's Cat is a thought experiment showing a paradox in quantum mechanics. What is the paradox?", answer: "Until observed, the cat is both alive and dead simultaneously — the quantum superposition of states persists until measurement collapses the wave function", acceptableAnswers: ["cat is both alive and dead until observed", "superposition collapses upon measurement"] },
+      { id: "phydee_400_01", categoryId: "physics_deep", tier: 400, prompt: "Heisenberg's Uncertainty Principle states that you cannot simultaneously know both the exact position and exact momentum of a particle. What does this mean for the nature of reality?", answer: "At the quantum level, reality is fundamentally probabilistic — the act of measurement itself disturbs what is being measured", acceptableAnswers: ["reality is probabilistic at quantum level", "measurement disturbs the particle"] },
+      { id: "phydee_400_02", categoryId: "physics_deep", tier: 400, prompt: "Schrödinger's Cat is a thought experiment showing a paradox in quantum mechanics. What is the paradox?", answer: "Until observed, the cat is both alive and dead simultaneously — the quantum superposition of states persists until measurement collapses the wave function", acceptableAnswers: ["cat is both alive and dead until observed", "superposition collapses upon measurement"] },
       { id: "phd_400_03", categoryId: "physics_deep", tier: 400, prompt: "What is 'dark energy' — the mysterious force that makes up about 68% of the universe?", answer: "An unknown force causing the accelerating expansion of the universe — its nature is one of the biggest unsolved problems in physics", acceptableAnswers: ["accelerates expansion of the universe", "unknown force causing accelerating expansion"] },
-      { id: "phd_600_01", categoryId: "physics_deep", tier: 600, prompt: "The 'Standard Model' of particle physics describes the fundamental particles and forces. Which force is NOT included in the Standard Model — making unifying it with the others physics' biggest unsolved problem?", answer: "Gravity", acceptableAnswers: [] },
-      { id: "phd_600_02", categoryId: "physics_deep", tier: 600, prompt: "Hawking Radiation is theoretical radiation emitted by black holes — which would eventually cause them to evaporate. Why does this happen according to Stephen Hawking?", answer: "Virtual particle-antiparticle pairs form near the event horizon — one falls in, one escapes, causing the black hole to slowly lose mass", acceptableAnswers: ["virtual particles near event horizon cause energy loss", "particle-antiparticle pairs near black hole"] },
+      { id: "phydee_600_01", categoryId: "physics_deep", tier: 600, prompt: "The 'Standard Model' of particle physics describes the fundamental particles and forces. Which force is NOT included in the Standard Model — making unifying it with the others physics' biggest unsolved problem?", answer: "Gravity", acceptableAnswers: [] },
+      { id: "phydee_600_02", categoryId: "physics_deep", tier: 600, prompt: "Hawking Radiation is theoretical radiation emitted by black holes — which would eventually cause them to evaporate. Why does this happen according to Stephen Hawking?", answer: "Virtual particle-antiparticle pairs form near the event horizon — one falls in, one escapes, causing the black hole to slowly lose mass", acceptableAnswers: ["virtual particles near event horizon cause energy loss", "particle-antiparticle pairs near black hole"] },
       { id: "phd_600_03", categoryId: "physics_deep", tier: 600, prompt: "What is 'quantum entanglement' — which Einstein called 'spooky action at a distance'?", answer: "Two entangled particles instantly affect each other regardless of distance — measuring one instantly determines the state of the other, even across the universe", acceptableAnswers: ["particles affect each other instantly across any distance", "measuring one affects the other instantly"] },
     ],
   },
@@ -47859,15 +47859,15 @@ const CATEGORIES: Category[] = [
     description: "Beyond box scores — the records, history, and inside knowledge serious fans know.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Jairo_Martinez_in_2023.jpg/500px-Jairo_Martinez_in_2023.jpg",
     questions: [
-      { id: "bb_200_01", categoryId: "baseball_deep", tier: 200, prompt: "DiMaggio's 56-game hitting streak in 1941 is the most famous record in baseball. Which team was he playing for?", answer: "New York Yankees", acceptableAnswers: ["Yankees", "New York Yankees"] },
-      { id: "bb_200_02", categoryId: "baseball_deep", tier: 200, prompt: "The 'infield fly rule' is one of baseball's most unusual rules. When does it apply?", answer: "When there are runners on first and second (or bases loaded) with fewer than two outs — the batter is automatically out if a fair infield fly is hit, preventing infielders from intentionally dropping it to get a double play", acceptableAnswers: ["runners on first and second", "force play situation", "less than two outs with runners"] },
-      { id: "bb_200_03", categoryId: "baseball_deep", tier: 200, prompt: "Cal Ripken Jr. broke Lou Gehrig's record for consecutive games played — playing in 2,632 straight games. For which team?", answer: "Baltimore Orioles", acceptableAnswers: ["Baltimore Orioles", "Orioles"] },
-      { id: "bb_400_01", categoryId: "baseball_deep", tier: 400, prompt: "The 1919 Black Sox Scandal involved eight Chicago White Sox players accused of throwing the World Series. Who was the gambler who allegedly fixed it?", answer: "Arnold Rothstein — a New York gambler believed to have bankrolled the fix, though never formally charged", acceptableAnswers: ["Arnold Rothstein", "Rothstein"] },
-      { id: "bb_400_02", categoryId: "baseball_deep", tier: 400, prompt: "Nolan Ryan holds the career record for strikeouts with 5,714. Which pitcher is in second place?", answer: "Randy Johnson with 4,875 strikeouts", acceptableAnswers: ["Randy Johnson"] },
-      { id: "bb_400_03", categoryId: "baseball_deep", tier: 400, prompt: "The 'Green Monster' — the famous left field wall at Fenway Park — is 37 feet tall. Why was it built so high originally?", answer: "To prevent people outside the park from watching games for free — the wall blocked the view from the buildings and streets beyond left field", acceptableAnswers: ["block view from outside", "prevent free viewing", "stop non-paying fans from seeing"] },
-      { id: "bb_600_01", categoryId: "baseball_deep", tier: 600, prompt: "Moneyball — the 2003 book and 2011 film — focused on the Oakland A's and their use of sabermetrics. Which specific statistic did GM Billy Beane prioritize over traditional scouting metrics?", answer: "On-base percentage (OBP) — Beane valued getting on base above all traditional 'tools' like batting average, arguing OBP was the most undervalued and predictive offensive statistic", acceptableAnswers: ["on-base percentage", "OBP"] },
-      { id: "bb_600_02", categoryId: "baseball_deep", tier: 600, prompt: "The only perfect game thrown in World Series history was by which pitcher — and against which opponent?", answer: "Don Larsen of the New York Yankees — perfect game against the Brooklyn Dodgers in Game 5 of the 1956 World Series", acceptableAnswers: ["Don Larsen", "1956"] },
-      { id: "bb_600_03", categoryId: "baseball_deep", tier: 600, prompt: "WAR (Wins Above Replacement) is the most comprehensive modern baseball stat. Which two players — one from each league — had the highest career WAR in MLB history as of 2024?", answer: "Babe Ruth (position player — ~183 WAR) and Walter Johnson (pitcher — ~164 WAR), though Cy Young and Barry Bonds also rank extremely high", acceptableAnswers: ["Babe Ruth", "Walter Johnson", "Cy Young", "Barry Bonds"] },
+      { id: "basdee_200_01", categoryId: "baseball_deep", tier: 200, prompt: "DiMaggio's 56-game hitting streak in 1941 is the most famous record in baseball. Which team was he playing for?", answer: "New York Yankees", acceptableAnswers: ["Yankees", "New York Yankees"] },
+      { id: "basdee_200_02", categoryId: "baseball_deep", tier: 200, prompt: "The 'infield fly rule' is one of baseball's most unusual rules. When does it apply?", answer: "When there are runners on first and second (or bases loaded) with fewer than two outs — the batter is automatically out if a fair infield fly is hit, preventing infielders from intentionally dropping it to get a double play", acceptableAnswers: ["runners on first and second", "force play situation", "less than two outs with runners"] },
+      { id: "basdee_200_03", categoryId: "baseball_deep", tier: 200, prompt: "Cal Ripken Jr. broke Lou Gehrig's record for consecutive games played — playing in 2,632 straight games. For which team?", answer: "Baltimore Orioles", acceptableAnswers: ["Baltimore Orioles", "Orioles"] },
+      { id: "basdee_400_01", categoryId: "baseball_deep", tier: 400, prompt: "The 1919 Black Sox Scandal involved eight Chicago White Sox players accused of throwing the World Series. Who was the gambler who allegedly fixed it?", answer: "Arnold Rothstein — a New York gambler believed to have bankrolled the fix, though never formally charged", acceptableAnswers: ["Arnold Rothstein", "Rothstein"] },
+      { id: "basdee_400_02", categoryId: "baseball_deep", tier: 400, prompt: "Nolan Ryan holds the career record for strikeouts with 5,714. Which pitcher is in second place?", answer: "Randy Johnson with 4,875 strikeouts", acceptableAnswers: ["Randy Johnson"] },
+      { id: "basdee_400_03", categoryId: "baseball_deep", tier: 400, prompt: "The 'Green Monster' — the famous left field wall at Fenway Park — is 37 feet tall. Why was it built so high originally?", answer: "To prevent people outside the park from watching games for free — the wall blocked the view from the buildings and streets beyond left field", acceptableAnswers: ["block view from outside", "prevent free viewing", "stop non-paying fans from seeing"] },
+      { id: "basdee_600_01", categoryId: "baseball_deep", tier: 600, prompt: "Moneyball — the 2003 book and 2011 film — focused on the Oakland A's and their use of sabermetrics. Which specific statistic did GM Billy Beane prioritize over traditional scouting metrics?", answer: "On-base percentage (OBP) — Beane valued getting on base above all traditional 'tools' like batting average, arguing OBP was the most undervalued and predictive offensive statistic", acceptableAnswers: ["on-base percentage", "OBP"] },
+      { id: "basdee_600_02", categoryId: "baseball_deep", tier: 600, prompt: "The only perfect game thrown in World Series history was by which pitcher — and against which opponent?", answer: "Don Larsen of the New York Yankees — perfect game against the Brooklyn Dodgers in Game 5 of the 1956 World Series", acceptableAnswers: ["Don Larsen", "1956"] },
+      { id: "basdee_600_03", categoryId: "baseball_deep", tier: 600, prompt: "WAR (Wins Above Replacement) is the most comprehensive modern baseball stat. Which two players — one from each league — had the highest career WAR in MLB history as of 2024?", answer: "Babe Ruth (position player — ~183 WAR) and Walter Johnson (pitcher — ~164 WAR), though Cy Young and Barry Bonds also rank extremely high", acceptableAnswers: ["Babe Ruth", "Walter Johnson", "Cy Young", "Barry Bonds"] },
     ],
   },
   {
@@ -47934,15 +47934,15 @@ const CATEGORIES: Category[] = [
     description: "From the Inca Empire to independence movements — the continent's defining moments.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Karta_sydamerika_1892.jpg/500px-Karta_sydamerika_1892.jpg",
     questions: [
-      { id: "sah_200_01", categoryId: "south_american_history", tier: 200, prompt: "Simón Bolívar is called 'El Libertador' for leading independence movements across South America. He was born in which country?", answer: "Venezuela (born in Caracas, 1783)", acceptableAnswers: ["Venezuela"] },
-      { id: "sah_200_02", categoryId: "south_american_history", tier: 200, prompt: "The Inca Empire at its height was the largest empire in pre-Columbian America. Its capital city was — and is now the capital of which country?", answer: "Cusco (Cuzco) — now in Peru", acceptableAnswers: ["Cusco", "Cuzco", "Peru"] },
-      { id: "sah_200_03", categoryId: "south_american_history", tier: 200, prompt: "The Amazon River is the world's largest river by water volume. It flows into which ocean?", answer: "Atlantic Ocean (it empties into the Atlantic near Macapá, Brazil)", acceptableAnswers: ["Atlantic Ocean", "Atlantic"] },
-      { id: "sah_400_01", categoryId: "south_american_history", tier: 400, prompt: "Francisco Pizarro conquered the Inca Empire in 1532 with fewer than 200 soldiers. What specific event allowed him to capture the Inca Emperor Atahualpa so easily?", answer: "The Ambush of Cajamarca — Pizarro's men surprised and kidnapped Atahualpa at a meeting, using cannon fire and cavalry to massacre thousands of unarmed Inca nobles", acceptableAnswers: ["Battle of Cajamarca", "Ambush of Cajamarca", "Cajamarca"] },
-      { id: "sah_400_02", categoryId: "south_american_history", tier: 400, prompt: "Argentina's 'Dirty War' (1976–1983) refers to what — and how many people were 'disappeared'?", answer: "A military junta's campaign of kidnapping, torture, and murder of political dissidents — an estimated 10,000–30,000 people were 'disappeared' (desaparecidos)", acceptableAnswers: ["military dictatorship killings", "desaparecidos", "political disappearances", "30,000 disappeared"] },
-      { id: "sah_400_03", categoryId: "south_american_history", tier: 400, prompt: "The War of the Triple Alliance (1864–1870) was the deadliest war in Latin American history. Paraguay fought against which three allied nations?", answer: "Brazil, Argentina, and Uruguay — Paraguay lost 60–90% of its male population, making it the most demographically devastating war in modern Western history", acceptableAnswers: ["Brazil, Argentina, Uruguay", "Brazil Argentina Uruguay"] },
-      { id: "sah_600_01", categoryId: "south_american_history", tier: 600, prompt: "Salvador Allende — the first democratically elected Marxist president — was overthrown in a coup in 1973. He was killed during the attack on what building?", answer: "La Moneda Presidential Palace in Santiago, Chile — Allende died (officially by suicide) as Pinochet's forces bombed and stormed the palace on September 11, 1973", acceptableAnswers: ["La Moneda", "Presidential Palace", "La Moneda Palace"] },
-      { id: "sah_600_02", categoryId: "south_american_history", tier: 600, prompt: "The Potosí silver mine in what is now Bolivia was the largest single source of silver in the world from the 16th–18th centuries. What percentage of all Spanish silver in this era came from Potosí?", answer: "Roughly 60% of the world's silver supply — it funded the entire Spanish Empire and made Potosí temporarily one of the largest cities in the Americas (population 200,000 in 1650)", acceptableAnswers: ["60%", "majority", "most"] },
-      { id: "sah_600_03", categoryId: "south_american_history", tier: 600, prompt: "José de San Martín is the other great South American liberator alongside Bolívar. What happened at their only meeting — the Guayaquil Conference of 1822?", answer: "Bolívar and San Martín met privately for two days and no record of their conversation exists. San Martín then unexpectedly resigned his command and withdrew from the independence campaign entirely, leaving Bolívar as the dominant figure — historians still debate what was said", acceptableAnswers: ["San Martín resigned", "no record exists", "San Martín withdrew", "Guayaquil"] },
+      { id: "souame_200_01", categoryId: "south_american_history", tier: 200, prompt: "Simón Bolívar is called 'El Libertador' for leading independence movements across South America. He was born in which country?", answer: "Venezuela (born in Caracas, 1783)", acceptableAnswers: ["Venezuela"] },
+      { id: "souame_200_02", categoryId: "south_american_history", tier: 200, prompt: "The Inca Empire at its height was the largest empire in pre-Columbian America. Its capital city was — and is now the capital of which country?", answer: "Cusco (Cuzco) — now in Peru", acceptableAnswers: ["Cusco", "Cuzco", "Peru"] },
+      { id: "souame_200_03", categoryId: "south_american_history", tier: 200, prompt: "The Amazon River is the world's largest river by water volume. It flows into which ocean?", answer: "Atlantic Ocean (it empties into the Atlantic near Macapá, Brazil)", acceptableAnswers: ["Atlantic Ocean", "Atlantic"] },
+      { id: "souame_400_01", categoryId: "south_american_history", tier: 400, prompt: "Francisco Pizarro conquered the Inca Empire in 1532 with fewer than 200 soldiers. What specific event allowed him to capture the Inca Emperor Atahualpa so easily?", answer: "The Ambush of Cajamarca — Pizarro's men surprised and kidnapped Atahualpa at a meeting, using cannon fire and cavalry to massacre thousands of unarmed Inca nobles", acceptableAnswers: ["Battle of Cajamarca", "Ambush of Cajamarca", "Cajamarca"] },
+      { id: "souame_400_02", categoryId: "south_american_history", tier: 400, prompt: "Argentina's 'Dirty War' (1976–1983) refers to what — and how many people were 'disappeared'?", answer: "A military junta's campaign of kidnapping, torture, and murder of political dissidents — an estimated 10,000–30,000 people were 'disappeared' (desaparecidos)", acceptableAnswers: ["military dictatorship killings", "desaparecidos", "political disappearances", "30,000 disappeared"] },
+      { id: "souame_400_03", categoryId: "south_american_history", tier: 400, prompt: "The War of the Triple Alliance (1864–1870) was the deadliest war in Latin American history. Paraguay fought against which three allied nations?", answer: "Brazil, Argentina, and Uruguay — Paraguay lost 60–90% of its male population, making it the most demographically devastating war in modern Western history", acceptableAnswers: ["Brazil, Argentina, Uruguay", "Brazil Argentina Uruguay"] },
+      { id: "souame_600_01", categoryId: "south_american_history", tier: 600, prompt: "Salvador Allende — the first democratically elected Marxist president — was overthrown in a coup in 1973. He was killed during the attack on what building?", answer: "La Moneda Presidential Palace in Santiago, Chile — Allende died (officially by suicide) as Pinochet's forces bombed and stormed the palace on September 11, 1973", acceptableAnswers: ["La Moneda", "Presidential Palace", "La Moneda Palace"] },
+      { id: "souame_600_02", categoryId: "south_american_history", tier: 600, prompt: "The Potosí silver mine in what is now Bolivia was the largest single source of silver in the world from the 16th–18th centuries. What percentage of all Spanish silver in this era came from Potosí?", answer: "Roughly 60% of the world's silver supply — it funded the entire Spanish Empire and made Potosí temporarily one of the largest cities in the Americas (population 200,000 in 1650)", acceptableAnswers: ["60%", "majority", "most"] },
+      { id: "souame_600_03", categoryId: "south_american_history", tier: 600, prompt: "José de San Martín is the other great South American liberator alongside Bolívar. What happened at their only meeting — the Guayaquil Conference of 1822?", answer: "Bolívar and San Martín met privately for two days and no record of their conversation exists. San Martín then unexpectedly resigned his command and withdrew from the independence campaign entirely, leaving Bolívar as the dominant figure — historians still debate what was said", acceptableAnswers: ["San Martín resigned", "no record exists", "San Martín withdrew", "Guayaquil"] },
     ],
   },
   {
@@ -48717,15 +48717,15 @@ const CATEGORIES: Category[] = [
     description: "Beyond D-Day and Hiroshima — the specific decisions, people, and moments that decided the war.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/World_War_II_Casualties.svg/500px-World_War_II_Casualties.svg.png",
     questions: [
-      { id: "ww2_200_01", categoryId: "wwii_deep_cuts", tier: 200, prompt: "The Enigma machine was the German military's encryption system. How was it broken — and where was the decryption work done?", answer: "At Bletchley Park, England — primarily by mathematician Alan Turing, who built the 'Bombe' electromechanical device to test possible settings. The initial break came via Polish mathematicians (Marian Rejewski) who reconstructed Enigma before the war. British intelligence called the decoded intelligence 'Ultra.' Historians estimate Ultra shortened the war by 2–4 years. Turing's contribution was kept secret for decades — he was prosecuted for homosexuality in 1952 and chemically castrated; he died in 1954.", acceptableAnswers: ["Bletchley Park", "Alan Turing", "Polish mathematicians broke it first", "Ultra intelligence", "Bombe machine"] },
-      { id: "ww2_200_02", categoryId: "wwii_deep_cuts", tier: 200, prompt: "Operation Barbarossa (June 22, 1941) — Germany's invasion of the Soviet Union — was the largest military operation in history. Why did Stalin refuse to believe it was coming despite extensive warnings?", answer: "Stalin received over 100 warnings — from Soviet intelligence, British intelligence (based on Enigma), and his own spy Richard Sorge in Tokyo. He dismissed them as British provocations designed to drag the USSR into war. He had a psychological block: he believed Hitler was rational enough to not fight on two fronts, and he feared any defensive preparations might provoke the attack. When the invasion came, initial Soviet commanders who reported it were told they were panicking — Stalin took hours to accept reality.", acceptableAnswers: ["Stalin dismissed over 100 warnings", "believed it was British provocation", "trusted Hitler was rational", "Richard Sorge warned him", "took hours to accept reality"] },
-      { id: "ww2_200_03", categoryId: "wwii_deep_cuts", tier: 200, prompt: "The Battle of Britain (Summer–Autumn 1940) was the first major campaign fought entirely by air forces. What was Hitler's strategic logic for not invading Britain in 1940 — after France fell in just 6 weeks?", answer: "Hitler initially hoped Britain would negotiate peace — he admired the British Empire and didn't want to destroy it. When Churchill refused to negotiate, Hitler ordered air superiority as a precondition for the naval invasion (Operation Sea Lion). The Luftwaffe nearly won by targeting RAF airfields — then switched to bombing London (the Blitz), giving the RAF time to recover. The RAF's radar network (the first operational radar defense system) and the Spitfire/Hurricane were decisive. Churchill's famous: 'Never in the field of human conflict was so much owed by so many to so few.'", acceptableAnswers: ["hoped Britain would negotiate", "switched from airfields to Blitz", "radar network decisive", "Sea Lion postponed then cancelled"] },
-      { id: "ww2_400_01", categoryId: "wwii_deep_cuts", tier: 400, prompt: "The Wannsee Conference (January 20, 1942) lasted only 90 minutes but made one of history's most horrific decisions. What was decided — and who chaired it?", answer: "Reinhard Heydrich (head of the Reich Security Main Office) chaired it; Adolf Eichmann took minutes. The conference coordinated the 'Final Solution to the Jewish Question' — the systematic murder of all Jews in European territories under German control (approximately 11 million). It did not decide to kill Jews — that decision had already been made — but coordinated the bureaucratic and logistical machinery across all government departments. The surviving Wannsee Protocol is one of the most chilling documents in history.", acceptableAnswers: ["Reinhard Heydrich chaired", "coordinated Final Solution logistics", "Eichmann took minutes", "decision already made but bureaucracy coordinated"] },
-      { id: "ww2_400_02", categoryId: "wwii_deep_cuts", tier: 400, prompt: "The Lend-Lease Act (1941) allowed the US to supply Britain and the USSR before entering the war. What was the constitutional trick used to get around the Neutrality Acts — and what scale of aid was involved?", answer: "The 'lend-lease' fiction — instead of selling weapons (prohibited by Neutrality Acts), FDR proposed 'lending' or 'leasing' them, with repayment to be determined later. He used the analogy of lending a garden hose to a neighbor whose house is on fire. Total Lend-Lease aid: ~$50 billion (1941–1945, ~$690 billion in 2023 dollars). The USSR received $11 billion — including half the trucks and much of the food that sustained the Soviet war effort. Britain received ~$31 billion. The USSR officially paid off its Lend-Lease debt only in 2006.", acceptableAnswers: ["fiction of lending not selling", "garden hose analogy", "$50 billion total", "USSR received trucks and food", "paid off 2006"] },
-      { id: "ww2_400_03", categoryId: "wwii_deep_cuts", tier: 400, prompt: "The Kamikaze program (1944–1945) sent Japanese pilots on suicide missions against Allied ships. What was the military logic — and was it effective?", answer: "Military logic: conventional air attacks had become ineffective as Allied anti-aircraft defenses improved; a human-guided bomb would be far more accurate than conventional bombs. The divine wind mythology also played a role. Effectiveness: more effective than conventional bombing — kamikaze attacks sank 47 US ships and damaged 368 more; they killed approximately 5,000 US sailors (the largest cause of US Navy casualties in the Pacific). This effectiveness contributed to US planners' estimates that invading Japan would cost enormous casualties — influencing the atomic bomb decision.", acceptableAnswers: ["more accurate than conventional bombs", "sank 47 ships damaged 368", "5,000 US sailors killed", "influenced atomic bomb decision"] },
-      { id: "ww2_600_01", categoryId: "wwii_deep_cuts", tier: 600, prompt: "Field Marshal Erwin Rommel's involvement in the July 20, 1944 plot against Hitler is still debated. What was his actual involvement — and how was he killed?", answer: "Rommel was aware of plots against Hitler but was not directly involved in the July 20 assassination attempt. However, after the plot's failure, the Gestapo found names connecting him to conspirators. Rather than prosecute the most popular German general publicly (risking morale), Hitler offered Rommel a choice: trial for treason, or a quiet suicide with state funeral and protection for his family. On October 14, 1944, two generals arrived at his home with a cyanide capsule. He took it — he died within minutes. The official cause of death was listed as his earlier (genuine) wounds from an Allied air attack.", acceptableAnswers: ["aware of plot but not directly involved", "given choice of trial or suicide", "took cyanide capsule at home", "official cause listed as war wounds"] },
-      { id: "ww2_600_02", categoryId: "wwii_deep_cuts", tier: 600, prompt: "Operation Mincemeat (1943) was a British deception operation so absurd it seems invented. What was it — and did it work?", answer: "British intelligence obtained a corpse (Glyndwr Michael, a Welsh tramp), dressed him as 'Major William Martin, Royal Marines,' equipped him with fake documents suggesting the Allies would invade Sardinia and Greece (not Sicily), and released the body from a submarine off the Spanish coast, where Axis intelligence would find it. Spain passed the documents to German intelligence, which believed them. Hitler diverted forces to Greece and Sardinia. The actual Sicily invasion (Operation Husky, July 1943) faced significantly reduced resistance. Ben Macintyre's book is the definitive account.", acceptableAnswers: ["corpse dressed as British officer with fake documents", "diverted German forces from Sicily", "released from submarine off Spain", "Glyndwr Michael the body used", "Operation Mincemeat worked"] },
-      { id: "ww2_600_03", categoryId: "wwii_deep_cuts", tier: 600, prompt: "The firebombing of Dresden (February 13–15, 1945) has been contested as a war crime ever since. What happened — and what does the historical evidence actually show about civilian deaths and military necessity?", answer: "British and American air forces dropped approximately 3,900 tons of bombs on Dresden in four raids, causing a firestorm. German propaganda (and later neo-Nazis and some critics) claimed 200,000–500,000 dead. A 2010 German historical commission found approximately 22,700–25,000 deaths. Dresden was not purely a civilian city — it had significant military production and railway infrastructure. However, it was bombed when Germany was clearly losing, the psychological terror function was explicit in planning, and Churchill later expressed discomfort with it. It remains in a contested category — not equivalent to the Holocaust, but a morally complex use of strategic bombing.", acceptableAnswers: ["22,700-25,000 actual deaths not 200,000", "German propaganda inflated numbers", "had military infrastructure", "late in war when unnecessary argued", "firestorm bombing"] },
+      { id: "wwidee_200_01", categoryId: "wwii_deep_cuts", tier: 200, prompt: "The Enigma machine was the German military's encryption system. How was it broken — and where was the decryption work done?", answer: "At Bletchley Park, England — primarily by mathematician Alan Turing, who built the 'Bombe' electromechanical device to test possible settings. The initial break came via Polish mathematicians (Marian Rejewski) who reconstructed Enigma before the war. British intelligence called the decoded intelligence 'Ultra.' Historians estimate Ultra shortened the war by 2–4 years. Turing's contribution was kept secret for decades — he was prosecuted for homosexuality in 1952 and chemically castrated; he died in 1954.", acceptableAnswers: ["Bletchley Park", "Alan Turing", "Polish mathematicians broke it first", "Ultra intelligence", "Bombe machine"] },
+      { id: "wwidee_200_02", categoryId: "wwii_deep_cuts", tier: 200, prompt: "Operation Barbarossa (June 22, 1941) — Germany's invasion of the Soviet Union — was the largest military operation in history. Why did Stalin refuse to believe it was coming despite extensive warnings?", answer: "Stalin received over 100 warnings — from Soviet intelligence, British intelligence (based on Enigma), and his own spy Richard Sorge in Tokyo. He dismissed them as British provocations designed to drag the USSR into war. He had a psychological block: he believed Hitler was rational enough to not fight on two fronts, and he feared any defensive preparations might provoke the attack. When the invasion came, initial Soviet commanders who reported it were told they were panicking — Stalin took hours to accept reality.", acceptableAnswers: ["Stalin dismissed over 100 warnings", "believed it was British provocation", "trusted Hitler was rational", "Richard Sorge warned him", "took hours to accept reality"] },
+      { id: "wwidee_200_03", categoryId: "wwii_deep_cuts", tier: 200, prompt: "The Battle of Britain (Summer–Autumn 1940) was the first major campaign fought entirely by air forces. What was Hitler's strategic logic for not invading Britain in 1940 — after France fell in just 6 weeks?", answer: "Hitler initially hoped Britain would negotiate peace — he admired the British Empire and didn't want to destroy it. When Churchill refused to negotiate, Hitler ordered air superiority as a precondition for the naval invasion (Operation Sea Lion). The Luftwaffe nearly won by targeting RAF airfields — then switched to bombing London (the Blitz), giving the RAF time to recover. The RAF's radar network (the first operational radar defense system) and the Spitfire/Hurricane were decisive. Churchill's famous: 'Never in the field of human conflict was so much owed by so many to so few.'", acceptableAnswers: ["hoped Britain would negotiate", "switched from airfields to Blitz", "radar network decisive", "Sea Lion postponed then cancelled"] },
+      { id: "wwidee_400_01", categoryId: "wwii_deep_cuts", tier: 400, prompt: "The Wannsee Conference (January 20, 1942) lasted only 90 minutes but made one of history's most horrific decisions. What was decided — and who chaired it?", answer: "Reinhard Heydrich (head of the Reich Security Main Office) chaired it; Adolf Eichmann took minutes. The conference coordinated the 'Final Solution to the Jewish Question' — the systematic murder of all Jews in European territories under German control (approximately 11 million). It did not decide to kill Jews — that decision had already been made — but coordinated the bureaucratic and logistical machinery across all government departments. The surviving Wannsee Protocol is one of the most chilling documents in history.", acceptableAnswers: ["Reinhard Heydrich chaired", "coordinated Final Solution logistics", "Eichmann took minutes", "decision already made but bureaucracy coordinated"] },
+      { id: "wwidee_400_02", categoryId: "wwii_deep_cuts", tier: 400, prompt: "The Lend-Lease Act (1941) allowed the US to supply Britain and the USSR before entering the war. What was the constitutional trick used to get around the Neutrality Acts — and what scale of aid was involved?", answer: "The 'lend-lease' fiction — instead of selling weapons (prohibited by Neutrality Acts), FDR proposed 'lending' or 'leasing' them, with repayment to be determined later. He used the analogy of lending a garden hose to a neighbor whose house is on fire. Total Lend-Lease aid: ~$50 billion (1941–1945, ~$690 billion in 2023 dollars). The USSR received $11 billion — including half the trucks and much of the food that sustained the Soviet war effort. Britain received ~$31 billion. The USSR officially paid off its Lend-Lease debt only in 2006.", acceptableAnswers: ["fiction of lending not selling", "garden hose analogy", "$50 billion total", "USSR received trucks and food", "paid off 2006"] },
+      { id: "wwidee_400_03", categoryId: "wwii_deep_cuts", tier: 400, prompt: "The Kamikaze program (1944–1945) sent Japanese pilots on suicide missions against Allied ships. What was the military logic — and was it effective?", answer: "Military logic: conventional air attacks had become ineffective as Allied anti-aircraft defenses improved; a human-guided bomb would be far more accurate than conventional bombs. The divine wind mythology also played a role. Effectiveness: more effective than conventional bombing — kamikaze attacks sank 47 US ships and damaged 368 more; they killed approximately 5,000 US sailors (the largest cause of US Navy casualties in the Pacific). This effectiveness contributed to US planners' estimates that invading Japan would cost enormous casualties — influencing the atomic bomb decision.", acceptableAnswers: ["more accurate than conventional bombs", "sank 47 ships damaged 368", "5,000 US sailors killed", "influenced atomic bomb decision"] },
+      { id: "wwidee_600_01", categoryId: "wwii_deep_cuts", tier: 600, prompt: "Field Marshal Erwin Rommel's involvement in the July 20, 1944 plot against Hitler is still debated. What was his actual involvement — and how was he killed?", answer: "Rommel was aware of plots against Hitler but was not directly involved in the July 20 assassination attempt. However, after the plot's failure, the Gestapo found names connecting him to conspirators. Rather than prosecute the most popular German general publicly (risking morale), Hitler offered Rommel a choice: trial for treason, or a quiet suicide with state funeral and protection for his family. On October 14, 1944, two generals arrived at his home with a cyanide capsule. He took it — he died within minutes. The official cause of death was listed as his earlier (genuine) wounds from an Allied air attack.", acceptableAnswers: ["aware of plot but not directly involved", "given choice of trial or suicide", "took cyanide capsule at home", "official cause listed as war wounds"] },
+      { id: "wwidee_600_02", categoryId: "wwii_deep_cuts", tier: 600, prompt: "Operation Mincemeat (1943) was a British deception operation so absurd it seems invented. What was it — and did it work?", answer: "British intelligence obtained a corpse (Glyndwr Michael, a Welsh tramp), dressed him as 'Major William Martin, Royal Marines,' equipped him with fake documents suggesting the Allies would invade Sardinia and Greece (not Sicily), and released the body from a submarine off the Spanish coast, where Axis intelligence would find it. Spain passed the documents to German intelligence, which believed them. Hitler diverted forces to Greece and Sardinia. The actual Sicily invasion (Operation Husky, July 1943) faced significantly reduced resistance. Ben Macintyre's book is the definitive account.", acceptableAnswers: ["corpse dressed as British officer with fake documents", "diverted German forces from Sicily", "released from submarine off Spain", "Glyndwr Michael the body used", "Operation Mincemeat worked"] },
+      { id: "wwidee_600_03", categoryId: "wwii_deep_cuts", tier: 600, prompt: "The firebombing of Dresden (February 13–15, 1945) has been contested as a war crime ever since. What happened — and what does the historical evidence actually show about civilian deaths and military necessity?", answer: "British and American air forces dropped approximately 3,900 tons of bombs on Dresden in four raids, causing a firestorm. German propaganda (and later neo-Nazis and some critics) claimed 200,000–500,000 dead. A 2010 German historical commission found approximately 22,700–25,000 deaths. Dresden was not purely a civilian city — it had significant military production and railway infrastructure. However, it was bombed when Germany was clearly losing, the psychological terror function was explicit in planning, and Churchill later expressed discomfort with it. It remains in a contested category — not equivalent to the Holocaust, but a morally complex use of strategic bombing.", acceptableAnswers: ["22,700-25,000 actual deaths not 200,000", "German propaganda inflated numbers", "had military infrastructure", "late in war when unnecessary argued", "firestorm bombing"] },
     ],
   },
   {
@@ -48926,11 +48926,11 @@ const CATEGORIES: Category[] = [
       { id: "soc_200_01", categoryId: "sociology_theory", tier: 200, prompt: "Émile Durkheim studied suicide — a seemingly individual act — to demonstrate something about society. What was his argument — and how did he categorize suicides?", answer: "Durkheim's Suicide (1897): suicide rates vary systematically across social groups — suggesting social forces (not just individual psychology) drive them. His types: (1) Egoistic — too little social integration (the isolated individual); (2) Altruistic — too much integration (soldiers sacrificing themselves, religious martyrdom); (3) Anomic — too little moral regulation (during rapid social change, norms break down). The insight: social facts exist outside individuals and constrain behavior. Suicide rates are a 'social fact' — remarkably stable in populations year-to-year.", acceptableAnswers: ["egoistic altruistic anomic types", "social integration determines suicide rates", "social facts constrain individual behavior", "stable suicide rates suggest social causes"] },
       { id: "soc_200_02", categoryId: "sociology_theory", tier: 200, prompt: "Max Weber's 'Protestant Ethic and the Spirit of Capitalism' (1905) argued that religion caused economic transformation. What was the connection he identified?", answer: "Calvinist theology held that salvation was pre-determined (predestination) — you couldn't earn heaven by good works. This created anxiety: how do you know if you're saved? Success in your 'calling' (worldly occupation) became read as a sign of God's favor. This drove Calvinists to work intensively, reinvest profits rather than spend them on luxury (asceticism), and accumulate systematically — precisely the behaviors capitalism required. Weber argued this Protestant ethic was a necessary cultural precondition for capitalism's development in Western Europe, not present in Asia despite similar economic conditions.", acceptableAnswers: ["Calvinist predestination created anxiety about salvation", "worldly success as sign of God's favor", "reinvesting profits not luxury", "cultural precondition for capitalism"] },
       { id: "soc_200_03", categoryId: "sociology_theory", tier: 200, prompt: "Pierre Bourdieu introduced the concept of 'cultural capital.' What does it mean — and how does it explain why educational credentials alone don't determine social mobility?", answer: "Cultural capital: non-financial assets that provide social advantages — knowledge, skills, tastes, manners, and cultural awareness that are socially valued. Types: embodied (the way you carry yourself, speak, your accent, tastes); objectified (cultural objects — books, art); institutionalized (credentials, degrees). Explains credential limits: two people with the same degree may have very different cultural capital — the person who attended elite schools, whose parents had professional networks, who knows how to navigate elite social situations, will succeed over an equally credentialed person without these assets. Cultural capital is largely inherited.", acceptableAnswers: ["non-financial socially valued assets", "accent manner taste knowledge", "inherited not just earned", "explains why same degree gives different outcomes"] },
-      { id: "soc_400_01", categoryId: "sociology_theory", tier: 400, prompt: "Irving Goffman's 'dramaturgical theory' (The Presentation of Self in Everyday Life, 1959) sees all social interaction as theater. Explain the front stage/back stage concept — and give a specific example.", answer: "Front stage: the performance we give when an audience is watching — we manage impressions, follow social norms, maintain a 'face.' Back stage: where we relax the performance — in the kitchen before guests arrive, in the staff room, in private with intimates. We all have different 'scripts' for different stages. Example: a waiter is all professionalism and courtesy on the dining room floor (front stage) — complaining about customers, dropping formality, and violating decorum in the kitchen (back stage). The self is not a fixed entity but a continuously managed performance.", acceptableAnswers: ["front stage performance for audience", "back stage relaxed private", "waiter example", "self is managed performance not fixed entity"] },
+      { id: "socthe_400_01", categoryId: "sociology_theory", tier: 400, prompt: "Irving Goffman's 'dramaturgical theory' (The Presentation of Self in Everyday Life, 1959) sees all social interaction as theater. Explain the front stage/back stage concept — and give a specific example.", answer: "Front stage: the performance we give when an audience is watching — we manage impressions, follow social norms, maintain a 'face.' Back stage: where we relax the performance — in the kitchen before guests arrive, in the staff room, in private with intimates. We all have different 'scripts' for different stages. Example: a waiter is all professionalism and courtesy on the dining room floor (front stage) — complaining about customers, dropping formality, and violating decorum in the kitchen (back stage). The self is not a fixed entity but a continuously managed performance.", acceptableAnswers: ["front stage performance for audience", "back stage relaxed private", "waiter example", "self is managed performance not fixed entity"] },
       { id: "soc_400_02", categoryId: "sociology_theory", tier: 400, prompt: "Stanley Milgram's small world experiment (1967) — separate from his obedience studies — demonstrated the 'six degrees of separation' concept. How was the experiment designed — and why is the 'six degrees' concept more complex than popularized?", answer: "Milgram sent letters to random people in Nebraska and Kansas, asking them to reach a target person in Boston using only personal (first-name) contacts — each participant forwarded to someone they knew who might be closer to the target. Average chain length: 5.5–6 steps. 'Six degrees' is more complex: (1) only about 29% of chains actually completed (most got stuck); (2) successful chains went through a small number of highly connected 'hubs' — not truly random; (3) the study was done before social media; network analysis now suggests the true number for online social networks is much shorter (Facebook reported 3.5 degrees in 2016).", acceptableAnswers: ["letters passed through personal contacts to target", "5.5 steps average", "only 29% of chains completed", "hubs not random connections", "Facebook 3.5 degrees 2016"] },
       { id: "soc_400_03", categoryId: "sociology_theory", tier: 400, prompt: "Howard Becker's labeling theory of deviance argues that deviance is not a property of an act but a social construction. Explain — and give an example of how the same act becomes deviant or not depending on who does it.", answer: "Labeling theory: an act is only 'deviant' if society labels it so — deviance is relative to social context, who is doing it, and who is watching. Being labeled deviant creates a 'deviant career' — the label becomes a master status that overrides all other identities. Example: a white collar person killing someone in a car accident while drunk is likely seen as a tragedy (accident); the same act by a Black man in a poor neighborhood is more likely to be prosecuted as a crime (evidence from studies of identical BAC levels, different prosecution rates). Or: cannabis possession — same act, wildly different enforcement by race, class, and geography.", acceptableAnswers: ["deviance is socially constructed not inherent", "same act labeled differently by who does it", "labeling creates deviant career", "DUI example or cannabis enforcement"] },
-      { id: "soc_600_01", categoryId: "sociology_theory", tier: 600, prompt: "The concept of 'intersectionality' (Kimberlé Crenshaw, 1989) emerged from legal theory but is now widely used and often misapplied. What does it actually describe — and what was Crenshaw's specific legal case?", answer: "Crenshaw introduced the term in a case involving Black women workers at General Motors — who were excluded from seniority lists because the seniority system protected white women (from GM's female workforce) and Black men (from the male workforce), but the GM floor where Black women worked was last-hired (during affirmative action policies) and first-fired. Black women's discrimination wasn't captured by either race OR gender discrimination claims — you needed both axes simultaneously. Intersectionality: discrimination operates across multiple overlapping systems simultaneously; you can't understand one form of discrimination by ignoring others. It's a legal analysis tool, not a general worldview label.", acceptableAnswers: ["Black women fell through gap between race and gender discrimination", "General Motors case", "Crenshaw 1989 legal origin", "multiple overlapping discrimination systems", "legal tool not general worldview"] },
-      { id: "soc_600_02", categoryId: "sociology_theory", tier: 600, prompt: "Norbert Elias's 'The Civilizing Process' (1939) traced how manners changed over centuries. What was his argument — and what specific behaviors did he trace?", answer: "Elias argued that 'civilization' (in the sense of self-restraint, manners, table etiquette) is not inherent but is historically produced — as European courts developed from medieval warrior cultures, courtiers needed to control bodily functions and aggressive impulses to navigate court life. He traced: spitting (gradually moved from the floor to spittoons to eliminated); nose-blowing (handkerchiefs emerged as private containers for what was previously done publicly); eating meat (bones were first carved at the table in front of guests, then removed to the kitchen — distancing violence from consumption); table manners (forks, individual plates). As state monopoly on violence expanded, the threshold for violence in daily life rose — and self-restraint was internalized.", acceptableAnswers: ["self-restraint is historical not inherent", "courtly life required impulse control", "spitting nose-blowing table manners traced", "state monopoly on violence increased self-restraint"] },
+      { id: "socthe_600_01", categoryId: "sociology_theory", tier: 600, prompt: "The concept of 'intersectionality' (Kimberlé Crenshaw, 1989) emerged from legal theory but is now widely used and often misapplied. What does it actually describe — and what was Crenshaw's specific legal case?", answer: "Crenshaw introduced the term in a case involving Black women workers at General Motors — who were excluded from seniority lists because the seniority system protected white women (from GM's female workforce) and Black men (from the male workforce), but the GM floor where Black women worked was last-hired (during affirmative action policies) and first-fired. Black women's discrimination wasn't captured by either race OR gender discrimination claims — you needed both axes simultaneously. Intersectionality: discrimination operates across multiple overlapping systems simultaneously; you can't understand one form of discrimination by ignoring others. It's a legal analysis tool, not a general worldview label.", acceptableAnswers: ["Black women fell through gap between race and gender discrimination", "General Motors case", "Crenshaw 1989 legal origin", "multiple overlapping discrimination systems", "legal tool not general worldview"] },
+      { id: "socthe_600_02", categoryId: "sociology_theory", tier: 600, prompt: "Norbert Elias's 'The Civilizing Process' (1939) traced how manners changed over centuries. What was his argument — and what specific behaviors did he trace?", answer: "Elias argued that 'civilization' (in the sense of self-restraint, manners, table etiquette) is not inherent but is historically produced — as European courts developed from medieval warrior cultures, courtiers needed to control bodily functions and aggressive impulses to navigate court life. He traced: spitting (gradually moved from the floor to spittoons to eliminated); nose-blowing (handkerchiefs emerged as private containers for what was previously done publicly); eating meat (bones were first carved at the table in front of guests, then removed to the kitchen — distancing violence from consumption); table manners (forks, individual plates). As state monopoly on violence expanded, the threshold for violence in daily life rose — and self-restraint was internalized.", acceptableAnswers: ["self-restraint is historical not inherent", "courtly life required impulse control", "spitting nose-blowing table manners traced", "state monopoly on violence increased self-restraint"] },
       { id: "soc_600_03", categoryId: "sociology_theory", tier: 600, prompt: "The 'moral panic' concept (Stanley Cohen, Folk Devils and Moral Panics, 1972) describes how societies react disproportionately to specific threats. Describe the concept — and give one historical example showing all its elements.", answer: "Moral panic: a societal overreaction to a perceived threat — disproportionate to the actual danger — usually focused on a specific group ('folk devils') who are portrayed as threatening core social values. Elements: (1) a condition/group is defined as a threat; (2) news media present a stereotyped representation; (3) moral authorities (police, clergy, politicians) make pronouncements; (4) experts offer diagnoses and solutions; (5) the condition disappears or recedes. Historical example: 1980s 'Satanic Panic' — widespread US belief that childcare centers were conducting ritual Satanic abuse; hundreds of prosecutions, most later overturned. Or: UK Mods vs. Rockers (Cohen's original case); or video game violence; or 'stranger danger' kidnapping fears.", acceptableAnswers: ["folk devils disproportionate threat", "media stereotyping moral authority pronouncements", "satanic panic example", "mods vs rockers original case", "video game violence"] },
     ],
   },
@@ -49053,15 +49053,15 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description: "From Bach to Beethoven to Puccini — the composers and works that defined Western music.",
     questions: [
-      { id: "opera_200_01", categoryId: "opera_classical", tier: 200, prompt: "Wolfgang Amadeus Mozart died at 35, leaving an unfinished Requiem. What was the commission — and how was it completed?", answer: "In July 1791, a mysterious stranger (later identified as Franz Walsegg, who wanted to pass it off as his own) commissioned a Requiem in secrecy. Mozart, already ill, worked on it obsessively until his death on December 5, 1791. He completed: the Introitus and much of the Kyrie; left incomplete or sketched movements; the Lacrimosa breaks off after 8 bars. Mozart's wife Constanze needed the payment — she asked Mozart's student Franz Xaver Süssmayr to complete it (most familiar version today). Whether Süssmayr's completion respects Mozart's intentions has been debated for 200 years; at least 17 alternative completions have been made.", acceptableAnswers: ["Walsegg commissioned anonymously", "died December 5 1791 at 35", "Süssmayr completed it", "Lacrimosa breaks off after 8 bars", "17 alternative completions"] },
-      { id: "opera_200_02", categoryId: "opera_classical", tier: 200, prompt: "Beethoven's 9th Symphony (1824) is famous for its final movement. What is surprising about its composition — and what was the premiere like?", answer: "The 9th Symphony includes a full chorus and four vocal soloists in the final movement (the 'Ode to Joy') — unprecedented in a symphony. What's surprising: Beethoven was almost entirely deaf when he composed it and conducted the premiere (with actual conductor Michael Umlauf giving real tempos behind him). When the final movement ended, the audience stood and gave multiple curtain calls — Beethoven, still facing the orchestra, didn't know until a soloist turned him around to see the audience. He reportedly wept. The premiere in Vienna, 1824.", acceptableAnswers: ["Beethoven was deaf when composed it", "included chorus and soloists unprecedented", "didn't know audience applauded until turned around", "premiered 1824"] },
-      { id: "opera_200_03", categoryId: "opera_classical", tier: 200, prompt: "Giacomo Puccini's La Bohème (1896) is the most performed opera in the world. What is it about — and which later Broadway musical borrowed extensively from it?", answer: "La Bohème: four bohemian artists (poet, painter, musician, philosopher) living in poverty in Paris; the love story of Rodolfo (poet) and Mimì (seamstress dying of tuberculosis). The final act ends with Mimì's death. Jonathan Larson's Rent (1996 Broadway) is a direct modern adaptation — set in the East Village with AIDS replacing tuberculosis, drag queens and musicians replacing Puccini's bohemians, but the same plot structure. Rent also borrowed the name 'Musetta's Waltz' (as 'Santa Fe') and parallel character mapping.", acceptableAnswers: ["bohemian artists in Paris poverty and love", "Mimì dies of tuberculosis", "Rent is the modern Broadway adaptation", "AIDS replaces tuberculosis in Rent"] },
-      { id: "opera_400_01", categoryId: "opera_classical", tier: 400, prompt: "Richard Wagner's concept of 'Gesamtkunstwerk' (total artwork) transformed opera — and his personal life and antisemitism create an ongoing controversy. What was the Gesamtkunstwerk — and what is the specific dilemma facing performers and audiences?", answer: "Gesamtkunstwerk ('total artwork'): Wagner wanted opera to unite all arts — music, poetry, drama, visual art, staging, dance — in a single unified aesthetic experience, unlike Italian opera which he saw as a concert in costumes. He built the Bayreuth Festspielhaus specifically to his specifications (hidden orchestra pit, amphitheater seating, darkened house). The dilemma: Wagner was the most virulently antisemitic composer in history (Das Judenthum in der Musik, 1850 — Jews are incapable of true artistic creation); his work was enthusiastically used by the Nazis and played at concentration camps. His descendants ran Bayreuth under Nazi patronage. Can you separate the art from the creator? Israel philharmonia has not officially performed Wagner since the Holocaust; other orchestras do.", acceptableAnswers: ["total artwork uniting all arts", "Bayreuth Festspielhaus built for it", "antisemitism in Das Judenthum", "Nazis used his music", "Israel doesn't perform Wagner officially"] },
-      { id: "opera_400_02", categoryId: "opera_classical", tier: 400, prompt: "Johann Sebastian Bach produced thousands of works but died in relative obscurity. Who was responsible for the Bach revival — and what does it say about how musical reputations are created?", answer: "Felix Mendelssohn conducted a performance of Bach's St. Matthew Passion in Berlin (1829) — the first performance since Bach's death in 1750 (79 years earlier). Mendelssohn had been given a manuscript copy by his grandmother; he was 20 years old. The success of the performance launched the 'Bach Revival' — the systematic rediscovery and publication of Bach's works. This illustrates: musical reputations are constructed by performers, institutions, and critics over time; the 'great composers' canon is not self-evident but built through advocacy and gatekeeping. Bach himself was considered a somewhat old-fashioned craftsman in his own time.", acceptableAnswers: ["Mendelssohn conducted St Matthew Passion 1829", "79 years after Bach's death", "Mendelssohn was 20 years old", "canon is constructed not self-evident", "Bach considered old-fashioned in his time"] },
-      { id: "opera_400_03", categoryId: "opera_classical", tier: 400, prompt: "The 'Romantic era' in classical music (c.1820–1900) prioritized emotional expression over formal structure. Name two Romantic composers and explain what specific musical innovation each introduced.", answer: "Franz Liszt: (1) Invented the symphonic poem (tone poem) — a single-movement orchestral work depicting a narrative, poem, or painting (e.g., Les Préludes); (2) The piano recital format (first performed a concert of solo piano music without other performers — scandalous in an era of mixed concerts); (3) Piano technique — invented or codified most advanced piano techniques. Frédéric Chopin: (1) Elevated the nocturne to a serious form; (2) Developed rubato as a systematic expressive technique (flexible tempo that breathes); (3) Piano pedaling as an architectural element; (4) Wrote exclusively for piano, treating it as the complete instrument. Or: Berlioz — invented the idée fixe (recurring theme representing a character), expanded orchestra to 200+ instruments, and wrote the first important orchestration treatise.", acceptableAnswers: ["Liszt invented symphonic poem and solo recital", "Chopin nocturne and rubato", "Berlioz idée fixe and huge orchestra", "any two with their innovations"] },
-      { id: "opera_600_01", categoryId: "opera_classical", tier: 600, prompt: "The premiere of Stravinsky's The Rite of Spring (1913) caused a riot. What happened — and why was the music so provocative to the Paris audience?", answer: "The Ballets Russes premiere at the Théâtre des Champs-Élysées on May 29, 1913: the music began; the audience began booing, hissing, and shouting; the noise grew so loud that Stravinsky and Diaghilev left the hall; choreographer Nijinsky stood in the wings shouting counts to the dancers who couldn't hear the orchestra; a fistfight broke out in the audience; police were called. Why provocative: Stravinsky's polyrhythm (multiple simultaneous time signatures), polytonality (multiple keys at once), brutal asymmetric rhythms, and the pounding 'Augurs of Spring' opening were unlike anything heard in a concert hall. The ballet's subject (pagan fertility ritual with a young girl dancing herself to death) was also deliberately primitive and un-refined.", acceptableAnswers: ["booing hissing riot at premiere", "police called fistfights", "polyrhythm polytonality asymmetric rhythm", "Nijinsky shouting counts dancers couldn't hear", "pagan ritual subject deliberately primitive"] },
-      { id: "opera_600_02", categoryId: "opera_classical", tier: 600, prompt: "Shostakovich lived and composed under Stalin — and the question of whether his music contains hidden political resistance or loyal conformity is still debated. What was 'Lady Macbeth of Mtsensk' — and what happened in 1936?", answer: "Lady Macbeth of Mtsensk (1930–32): an opera depicting a woman who commits murder for passion — musically explicit, modern, complex, and sexual. It was performed 80+ times with great acclaim. On January 28, 1936, Pravda published 'Muddle Instead of Music' — widely assumed to be written on Stalin's orders (possibly by Stalin himself, after he attended a performance and disliked it). The article condemned Shostakovich's music as 'petty bourgeois formalism,' cacophony, and 'leftist bedlam.' Shostakovich was expected to be arrested; he slept with a packed bag by his door. Instead, he produced his 5th Symphony (1937) — which some read as ironic acquiescence (too triumphant to be sincere) and others as genuine capitulation. His posthumous memoir (Testimony) claims resistance; many scholars doubt its authenticity.", acceptableAnswers: ["Lady Macbeth condemned by Pravda 1936", "Muddle Instead of Music Stalin's response", "slept with packed bag expecting arrest", "5th Symphony ambiguous capitulation or resistance", "Testimony memoir disputed"] },
-      { id: "opera_600_03", categoryId: "opera_classical", tier: 600, prompt: "The female singer known as Maria Callas transformed operatic performance in the 20th century. What specifically did she change — and what was the 'bel canto revival' she led?", answer: "Callas (1923–1977) changed: (1) Reclaimed the forgotten bel canto repertoire (Bellini, Donizetti, early Verdi) — operas not performed for 50+ years because no soprano could execute their demanding vocal lines; (2) Reintegrated dramatic acting into opera — she studied the text and dramatically justified every musical phrase rather than treating opera as a recital in costume; (3) Accepted a voice of unusual timbral complexity (critics called it uneven — she had distinct registers that didn't blend smoothly) and used this to portray psychological complexity; (4) Created a new paradigm where vocal beauty was subordinate to dramatic truth. Her Violetta, Norma, Lucia, and Tosca set performance standards still studied. Her rivalry with Renata Tebaldi divided audiences.", acceptableAnswers: ["reclaimed bel canto repertoire", "dramatic acting integrated with singing", "unusual voice used for psychological complexity", "Bellini Donizetti early Verdi revived", "drama over vocal beauty"] },
+      { id: "opecla_200_01", categoryId: "opera_classical", tier: 200, prompt: "Wolfgang Amadeus Mozart died at 35, leaving an unfinished Requiem. What was the commission — and how was it completed?", answer: "In July 1791, a mysterious stranger (later identified as Franz Walsegg, who wanted to pass it off as his own) commissioned a Requiem in secrecy. Mozart, already ill, worked on it obsessively until his death on December 5, 1791. He completed: the Introitus and much of the Kyrie; left incomplete or sketched movements; the Lacrimosa breaks off after 8 bars. Mozart's wife Constanze needed the payment — she asked Mozart's student Franz Xaver Süssmayr to complete it (most familiar version today). Whether Süssmayr's completion respects Mozart's intentions has been debated for 200 years; at least 17 alternative completions have been made.", acceptableAnswers: ["Walsegg commissioned anonymously", "died December 5 1791 at 35", "Süssmayr completed it", "Lacrimosa breaks off after 8 bars", "17 alternative completions"] },
+      { id: "opecla_200_02", categoryId: "opera_classical", tier: 200, prompt: "Beethoven's 9th Symphony (1824) is famous for its final movement. What is surprising about its composition — and what was the premiere like?", answer: "The 9th Symphony includes a full chorus and four vocal soloists in the final movement (the 'Ode to Joy') — unprecedented in a symphony. What's surprising: Beethoven was almost entirely deaf when he composed it and conducted the premiere (with actual conductor Michael Umlauf giving real tempos behind him). When the final movement ended, the audience stood and gave multiple curtain calls — Beethoven, still facing the orchestra, didn't know until a soloist turned him around to see the audience. He reportedly wept. The premiere in Vienna, 1824.", acceptableAnswers: ["Beethoven was deaf when composed it", "included chorus and soloists unprecedented", "didn't know audience applauded until turned around", "premiered 1824"] },
+      { id: "opecla_200_03", categoryId: "opera_classical", tier: 200, prompt: "Giacomo Puccini's La Bohème (1896) is the most performed opera in the world. What is it about — and which later Broadway musical borrowed extensively from it?", answer: "La Bohème: four bohemian artists (poet, painter, musician, philosopher) living in poverty in Paris; the love story of Rodolfo (poet) and Mimì (seamstress dying of tuberculosis). The final act ends with Mimì's death. Jonathan Larson's Rent (1996 Broadway) is a direct modern adaptation — set in the East Village with AIDS replacing tuberculosis, drag queens and musicians replacing Puccini's bohemians, but the same plot structure. Rent also borrowed the name 'Musetta's Waltz' (as 'Santa Fe') and parallel character mapping.", acceptableAnswers: ["bohemian artists in Paris poverty and love", "Mimì dies of tuberculosis", "Rent is the modern Broadway adaptation", "AIDS replaces tuberculosis in Rent"] },
+      { id: "opecla_400_01", categoryId: "opera_classical", tier: 400, prompt: "Richard Wagner's concept of 'Gesamtkunstwerk' (total artwork) transformed opera — and his personal life and antisemitism create an ongoing controversy. What was the Gesamtkunstwerk — and what is the specific dilemma facing performers and audiences?", answer: "Gesamtkunstwerk ('total artwork'): Wagner wanted opera to unite all arts — music, poetry, drama, visual art, staging, dance — in a single unified aesthetic experience, unlike Italian opera which he saw as a concert in costumes. He built the Bayreuth Festspielhaus specifically to his specifications (hidden orchestra pit, amphitheater seating, darkened house). The dilemma: Wagner was the most virulently antisemitic composer in history (Das Judenthum in der Musik, 1850 — Jews are incapable of true artistic creation); his work was enthusiastically used by the Nazis and played at concentration camps. His descendants ran Bayreuth under Nazi patronage. Can you separate the art from the creator? Israel philharmonia has not officially performed Wagner since the Holocaust; other orchestras do.", acceptableAnswers: ["total artwork uniting all arts", "Bayreuth Festspielhaus built for it", "antisemitism in Das Judenthum", "Nazis used his music", "Israel doesn't perform Wagner officially"] },
+      { id: "opecla_400_02", categoryId: "opera_classical", tier: 400, prompt: "Johann Sebastian Bach produced thousands of works but died in relative obscurity. Who was responsible for the Bach revival — and what does it say about how musical reputations are created?", answer: "Felix Mendelssohn conducted a performance of Bach's St. Matthew Passion in Berlin (1829) — the first performance since Bach's death in 1750 (79 years earlier). Mendelssohn had been given a manuscript copy by his grandmother; he was 20 years old. The success of the performance launched the 'Bach Revival' — the systematic rediscovery and publication of Bach's works. This illustrates: musical reputations are constructed by performers, institutions, and critics over time; the 'great composers' canon is not self-evident but built through advocacy and gatekeeping. Bach himself was considered a somewhat old-fashioned craftsman in his own time.", acceptableAnswers: ["Mendelssohn conducted St Matthew Passion 1829", "79 years after Bach's death", "Mendelssohn was 20 years old", "canon is constructed not self-evident", "Bach considered old-fashioned in his time"] },
+      { id: "opecla_400_03", categoryId: "opera_classical", tier: 400, prompt: "The 'Romantic era' in classical music (c.1820–1900) prioritized emotional expression over formal structure. Name two Romantic composers and explain what specific musical innovation each introduced.", answer: "Franz Liszt: (1) Invented the symphonic poem (tone poem) — a single-movement orchestral work depicting a narrative, poem, or painting (e.g., Les Préludes); (2) The piano recital format (first performed a concert of solo piano music without other performers — scandalous in an era of mixed concerts); (3) Piano technique — invented or codified most advanced piano techniques. Frédéric Chopin: (1) Elevated the nocturne to a serious form; (2) Developed rubato as a systematic expressive technique (flexible tempo that breathes); (3) Piano pedaling as an architectural element; (4) Wrote exclusively for piano, treating it as the complete instrument. Or: Berlioz — invented the idée fixe (recurring theme representing a character), expanded orchestra to 200+ instruments, and wrote the first important orchestration treatise.", acceptableAnswers: ["Liszt invented symphonic poem and solo recital", "Chopin nocturne and rubato", "Berlioz idée fixe and huge orchestra", "any two with their innovations"] },
+      { id: "opecla_600_01", categoryId: "opera_classical", tier: 600, prompt: "The premiere of Stravinsky's The Rite of Spring (1913) caused a riot. What happened — and why was the music so provocative to the Paris audience?", answer: "The Ballets Russes premiere at the Théâtre des Champs-Élysées on May 29, 1913: the music began; the audience began booing, hissing, and shouting; the noise grew so loud that Stravinsky and Diaghilev left the hall; choreographer Nijinsky stood in the wings shouting counts to the dancers who couldn't hear the orchestra; a fistfight broke out in the audience; police were called. Why provocative: Stravinsky's polyrhythm (multiple simultaneous time signatures), polytonality (multiple keys at once), brutal asymmetric rhythms, and the pounding 'Augurs of Spring' opening were unlike anything heard in a concert hall. The ballet's subject (pagan fertility ritual with a young girl dancing herself to death) was also deliberately primitive and un-refined.", acceptableAnswers: ["booing hissing riot at premiere", "police called fistfights", "polyrhythm polytonality asymmetric rhythm", "Nijinsky shouting counts dancers couldn't hear", "pagan ritual subject deliberately primitive"] },
+      { id: "opecla_600_02", categoryId: "opera_classical", tier: 600, prompt: "Shostakovich lived and composed under Stalin — and the question of whether his music contains hidden political resistance or loyal conformity is still debated. What was 'Lady Macbeth of Mtsensk' — and what happened in 1936?", answer: "Lady Macbeth of Mtsensk (1930–32): an opera depicting a woman who commits murder for passion — musically explicit, modern, complex, and sexual. It was performed 80+ times with great acclaim. On January 28, 1936, Pravda published 'Muddle Instead of Music' — widely assumed to be written on Stalin's orders (possibly by Stalin himself, after he attended a performance and disliked it). The article condemned Shostakovich's music as 'petty bourgeois formalism,' cacophony, and 'leftist bedlam.' Shostakovich was expected to be arrested; he slept with a packed bag by his door. Instead, he produced his 5th Symphony (1937) — which some read as ironic acquiescence (too triumphant to be sincere) and others as genuine capitulation. His posthumous memoir (Testimony) claims resistance; many scholars doubt its authenticity.", acceptableAnswers: ["Lady Macbeth condemned by Pravda 1936", "Muddle Instead of Music Stalin's response", "slept with packed bag expecting arrest", "5th Symphony ambiguous capitulation or resistance", "Testimony memoir disputed"] },
+      { id: "opecla_600_03", categoryId: "opera_classical", tier: 600, prompt: "The female singer known as Maria Callas transformed operatic performance in the 20th century. What specifically did she change — and what was the 'bel canto revival' she led?", answer: "Callas (1923–1977) changed: (1) Reclaimed the forgotten bel canto repertoire (Bellini, Donizetti, early Verdi) — operas not performed for 50+ years because no soprano could execute their demanding vocal lines; (2) Reintegrated dramatic acting into opera — she studied the text and dramatically justified every musical phrase rather than treating opera as a recital in costume; (3) Accepted a voice of unusual timbral complexity (critics called it uneven — she had distinct registers that didn't blend smoothly) and used this to portray psychological complexity; (4) Created a new paradigm where vocal beauty was subordinate to dramatic truth. Her Violetta, Norma, Lucia, and Tosca set performance standards still studied. Her rivalry with Renata Tebaldi divided audiences.", acceptableAnswers: ["reclaimed bel canto repertoire", "dramatic acting integrated with singing", "unusual voice used for psychological complexity", "Bellini Donizetti early Verdi revived", "drama over vocal beauty"] },
     ],
   },
   {
@@ -49333,15 +49333,15 @@ const CATEGORIES: Category[] = [
     description: "The Maya, Aztec, and Inca — three of history's most sophisticated civilizations and the Spanish conquest that destroyed them.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Mesoamerica_english.PNG/500px-Mesoamerica_english.PNG",
     questions: [
-      { id: "meso_200_01", categoryId: "mesoamerica", tier: 200, prompt: "The Maya calendar system included a 365-day solar calendar and a 260-day ritual calendar that together produced a 52-year cycle. The 2012 'Maya apocalypse' was based on what misunderstanding?", answer: "A Long Count calendar cycle ended in December 2012 — but this was like an odometer rolling over, not an apocalypse prediction. The Maya themselves recorded dates far beyond 2012 in their inscriptions.", acceptableAnswers: ["a calendar cycle ended, not an apocalypse prediction", "Long Count cycle ending not an end-of-world prophecy", "odometer rolling over not a doomsday"] },
-      { id: "meso_200_02", categoryId: "mesoamerica", tier: 200, prompt: "The Aztec capital Tenochtitlan, built on an island in Lake Texcoco, was conquered by Hernán Cortés in what year — and is now the site of which modern city?", answer: "1521; Mexico City", acceptableAnswers: ["1521 and Mexico City", "Tenochtitlan became Mexico City in 1521"] },
-      { id: "meso_200_03", categoryId: "mesoamerica", tier: 200, prompt: "The Inca Empire's road network stretched over 40,000 km through the Andes. Because the Inca had no writing system, how did they record data and communicate information?", answer: "Quipu — knotted strings encoding numerical information through knot type, position, and color", acceptableAnswers: ["quipu", "knotted strings", "quipu knotted cords"] },
-      { id: "meso_400_01", categoryId: "mesoamerica", tier: 400, prompt: "Hernán Cortés was able to conquer the Aztec Empire (population ~15 million) with roughly 600 Spanish soldiers. Beyond steel and firearms, what was the single most decisive factor in his victory?", answer: "Smallpox and other epidemic diseases — which killed an estimated 50–90% of the indigenous population within decades of contact. Also critical: Cortés's alliance with the Tlaxcalans and other peoples who resented Aztec rule and provided the vast majority of his military force.", acceptableAnswers: ["smallpox epidemic killed majority of population", "disease plus indigenous allies", "Tlaxcalan alliance and epidemic disease", "90% population loss from European diseases"] },
-      { id: "meso_400_02", categoryId: "mesoamerica", tier: 400, prompt: "Chichen Itza's El Castillo pyramid is designed so that on the spring and autumn equinox, shadows create the illusion of what creature descending the staircase?", answer: "A serpent (feathered serpent / Kukulcán / Quetzalcóatl)", acceptableAnswers: ["a serpent", "snake", "Kukulcán", "Quetzalcoatl descending the stairs"] },
-      { id: "meso_400_03", categoryId: "mesoamerica", tier: 400, prompt: "The Aztec practice of large-scale human sacrifice was central to their cosmology. What did they believe the sacrifices maintained?", answer: "The continued motion of the sun and the existence of the current world ('Fifth Sun') — the gods had sacrificed themselves to create the sun, and humans must repay this blood debt. Without sacrifice, the sun would stop and the world would end.", acceptableAnswers: ["kept the sun moving", "maintained the Fifth Sun", "repaid blood debt to gods who sacrificed themselves", "prevented the world from ending"] },
-      { id: "meso_600_01", categoryId: "mesoamerica", tier: 600, prompt: "The Maya city of Tikal and the central Mexican city of Teotihuacan had a documented relationship in the 4th century CE that surprised archaeologists. What did the evidence show?", answer: "Teotihuacan militarily intervened at Tikal in 378 CE — a 'Teotihuacan-affiliated' warlord (Siyaj K'ak' / 'Fire is Born') arrived and installed a new ruling dynasty, displacing the existing king. This shows long-distance political and military contact between civilizations separated by 1,000 km, previously underestimated.", acceptableAnswers: ["Teotihuacan militarily installed a dynasty at Tikal 378 CE", "Siyaj K'ak installed as ruler of Tikal by Teotihuacan", "1000km political intervention shows civilizations were connected", "Teotihuacan imperialism reached the Maya"] },
-      { id: "meso_600_02", categoryId: "mesoamerica", tier: 600, prompt: "The 'Maya Collapse' of the Terminal Classic period (800–900 CE) saw the abandonment of major southern lowland cities. What is the current scholarly consensus about its causes?", answer: "A combination of factors: prolonged drought cycles (paleoclimatic evidence from lake sediments), overpopulation and agricultural degradation, elite warfare and political fragmentation, and the collapse of trade networks. There was no single cause — it was a systemic collapse. The northern Maya (Yucatán) continued for centuries; 'collapse' applies mainly to the southern lowland cities.", acceptableAnswers: ["drought, overpopulation, warfare, and trade collapse combined", "multi-causal: climate drought plus political fragmentation", "southern lowlands only, northern Maya continued", "systemic collapse not single cause"] },
-      { id: "meso_600_03", categoryId: "mesoamerica", tier: 600, prompt: "Francisco Pizarro conquered the Inca Empire in 1532 with approximately 168 soldiers. He captured Emperor Atahualpa at the Battle of Cajamarca. What happened immediately afterward that sealed the conquest?", answer: "Atahualpa offered a massive ransom — filling a room with gold and twice with silver — which Pizarro accepted. Then Pizarro executed Atahualpa anyway, despite the ransom. With the Sapa Inca dead and no heir installed, the centralized command structure of the Inca Empire collapsed, leaving millions without coordinated leadership against a few hundred Spaniards.", acceptableAnswers: ["Pizarro executed Atahualpa after collecting the ransom", "killing Atahualpa collapsed the centralized Inca command structure", "ransom paid then emperor killed anyway", "empire collapsed without the Inca at its center"] },
+      { id: "mesoam_200_01", categoryId: "mesoamerica", tier: 200, prompt: "The Maya calendar system included a 365-day solar calendar and a 260-day ritual calendar that together produced a 52-year cycle. The 2012 'Maya apocalypse' was based on what misunderstanding?", answer: "A Long Count calendar cycle ended in December 2012 — but this was like an odometer rolling over, not an apocalypse prediction. The Maya themselves recorded dates far beyond 2012 in their inscriptions.", acceptableAnswers: ["a calendar cycle ended, not an apocalypse prediction", "Long Count cycle ending not an end-of-world prophecy", "odometer rolling over not a doomsday"] },
+      { id: "mesoam_200_02", categoryId: "mesoamerica", tier: 200, prompt: "The Aztec capital Tenochtitlan, built on an island in Lake Texcoco, was conquered by Hernán Cortés in what year — and is now the site of which modern city?", answer: "1521; Mexico City", acceptableAnswers: ["1521 and Mexico City", "Tenochtitlan became Mexico City in 1521"] },
+      { id: "mesoam_200_03", categoryId: "mesoamerica", tier: 200, prompt: "The Inca Empire's road network stretched over 40,000 km through the Andes. Because the Inca had no writing system, how did they record data and communicate information?", answer: "Quipu — knotted strings encoding numerical information through knot type, position, and color", acceptableAnswers: ["quipu", "knotted strings", "quipu knotted cords"] },
+      { id: "mesoam_400_01", categoryId: "mesoamerica", tier: 400, prompt: "Hernán Cortés was able to conquer the Aztec Empire (population ~15 million) with roughly 600 Spanish soldiers. Beyond steel and firearms, what was the single most decisive factor in his victory?", answer: "Smallpox and other epidemic diseases — which killed an estimated 50–90% of the indigenous population within decades of contact. Also critical: Cortés's alliance with the Tlaxcalans and other peoples who resented Aztec rule and provided the vast majority of his military force.", acceptableAnswers: ["smallpox epidemic killed majority of population", "disease plus indigenous allies", "Tlaxcalan alliance and epidemic disease", "90% population loss from European diseases"] },
+      { id: "mesoam_400_02", categoryId: "mesoamerica", tier: 400, prompt: "Chichen Itza's El Castillo pyramid is designed so that on the spring and autumn equinox, shadows create the illusion of what creature descending the staircase?", answer: "A serpent (feathered serpent / Kukulcán / Quetzalcóatl)", acceptableAnswers: ["a serpent", "snake", "Kukulcán", "Quetzalcoatl descending the stairs"] },
+      { id: "mesoam_400_03", categoryId: "mesoamerica", tier: 400, prompt: "The Aztec practice of large-scale human sacrifice was central to their cosmology. What did they believe the sacrifices maintained?", answer: "The continued motion of the sun and the existence of the current world ('Fifth Sun') — the gods had sacrificed themselves to create the sun, and humans must repay this blood debt. Without sacrifice, the sun would stop and the world would end.", acceptableAnswers: ["kept the sun moving", "maintained the Fifth Sun", "repaid blood debt to gods who sacrificed themselves", "prevented the world from ending"] },
+      { id: "mesoam_600_01", categoryId: "mesoamerica", tier: 600, prompt: "The Maya city of Tikal and the central Mexican city of Teotihuacan had a documented relationship in the 4th century CE that surprised archaeologists. What did the evidence show?", answer: "Teotihuacan militarily intervened at Tikal in 378 CE — a 'Teotihuacan-affiliated' warlord (Siyaj K'ak' / 'Fire is Born') arrived and installed a new ruling dynasty, displacing the existing king. This shows long-distance political and military contact between civilizations separated by 1,000 km, previously underestimated.", acceptableAnswers: ["Teotihuacan militarily installed a dynasty at Tikal 378 CE", "Siyaj K'ak installed as ruler of Tikal by Teotihuacan", "1000km political intervention shows civilizations were connected", "Teotihuacan imperialism reached the Maya"] },
+      { id: "mesoam_600_02", categoryId: "mesoamerica", tier: 600, prompt: "The 'Maya Collapse' of the Terminal Classic period (800–900 CE) saw the abandonment of major southern lowland cities. What is the current scholarly consensus about its causes?", answer: "A combination of factors: prolonged drought cycles (paleoclimatic evidence from lake sediments), overpopulation and agricultural degradation, elite warfare and political fragmentation, and the collapse of trade networks. There was no single cause — it was a systemic collapse. The northern Maya (Yucatán) continued for centuries; 'collapse' applies mainly to the southern lowland cities.", acceptableAnswers: ["drought, overpopulation, warfare, and trade collapse combined", "multi-causal: climate drought plus political fragmentation", "southern lowlands only, northern Maya continued", "systemic collapse not single cause"] },
+      { id: "mesoam_600_03", categoryId: "mesoamerica", tier: 600, prompt: "Francisco Pizarro conquered the Inca Empire in 1532 with approximately 168 soldiers. He captured Emperor Atahualpa at the Battle of Cajamarca. What happened immediately afterward that sealed the conquest?", answer: "Atahualpa offered a massive ransom — filling a room with gold and twice with silver — which Pizarro accepted. Then Pizarro executed Atahualpa anyway, despite the ransom. With the Sapa Inca dead and no heir installed, the centralized command structure of the Inca Empire collapsed, leaving millions without coordinated leadership against a few hundred Spaniards.", acceptableAnswers: ["Pizarro executed Atahualpa after collecting the ransom", "killing Atahualpa collapsed the centralized Inca command structure", "ransom paid then emperor killed anyway", "empire collapsed without the Inca at its center"] },
     ],
   },
   {
@@ -49730,12 +49730,12 @@ const CATEGORIES: Category[] = [
       { id: "myth_200_01", categoryId: "mythology_world", tier: 200, prompt: "In Yoruba mythology (West Africa), what deity — one of the most powerful Orishas — is associated with thunder, lightning, and justice, and was brought to the Americas through the slave trade, where he became 'Shango' in Caribbean religions?", answer: "Shango (Ṣàngó)", acceptableAnswers: ["Shango", "Sango", "Ṣàngó"] },
       { id: "myth_200_02", categoryId: "mythology_world", tier: 200, prompt: "In Mesopotamian mythology, the 'Epic of Gilgamesh' contains what story that directly parallels a biblical narrative?", answer: "A great flood — Utnapishtim (the Babylonian Noah) is warned by the gods, builds a boat, and survives a flood that destroys humanity. He releases birds (including a dove and a raven) to test whether land is visible — directly paralleling Genesis.", acceptableAnswers: ["the flood story / great flood parallel to Noah", "Utnapishtim and the flood parallel to Genesis", "great flood dove and raven same as Noah"] },
       { id: "myth_200_03", categoryId: "mythology_world", tier: 200, prompt: "In Norse mythology, Ragnarök is the apocalyptic end of the world. Which two gods fight each other to mutual death — the wolf Fenrir kills Odin, and Odin's son Víðarr kills Fenrir?", answer: "Odin is killed by Fenrir the wolf, and Víðarr (Odin's son) kills Fenrir in revenge", acceptableAnswers: ["Odin killed by Fenrir, Vidar kills Fenrir", "Fenrir kills Odin then Vidar kills Fenrir", "Odin and Fenrir kill each other"] },
-      { id: "myth_400_01", categoryId: "mythology_world", tier: 400, prompt: "Slavic mythology, while poorly documented compared to Norse or Greek, features a central cosmic battle between what two divine forces — sometimes called the White God and the Black God?", answer: "Belobog (the White God, light, good) and Chernobog (the Black God, darkness, evil) — a dualistic cosmic conflict. Chernobog appears in Disney's 'Fantasia' (1940). The poorly-documented nature of Slavic mythology is partly because Christianization destroyed most records.", acceptableAnswers: ["Belobog vs Chernobog (White God vs Black God)", "dualistic light vs dark divine conflict", "Chernobog and Belobog white and black gods"] },
+      { id: "mytwor_400_01", categoryId: "mythology_world", tier: 400, prompt: "Slavic mythology, while poorly documented compared to Norse or Greek, features a central cosmic battle between what two divine forces — sometimes called the White God and the Black God?", answer: "Belobog (the White God, light, good) and Chernobog (the Black God, darkness, evil) — a dualistic cosmic conflict. Chernobog appears in Disney's 'Fantasia' (1940). The poorly-documented nature of Slavic mythology is partly because Christianization destroyed most records.", acceptableAnswers: ["Belobog vs Chernobog (White God vs Black God)", "dualistic light vs dark divine conflict", "Chernobog and Belobog white and black gods"] },
       { id: "myth_400_02", categoryId: "mythology_world", tier: 400, prompt: "The Aztec creation myth described successive worlds that were destroyed — the current world being the 'Fifth Sun.' What were the four previous suns destroyed by — and why does this cosmology require human sacrifice?", answer: "Previous suns destroyed by: jaguar (First Sun), wind (Second Sun), rain of fire (Third Sun), flood (Fourth Sun). Each was ruled by a different deity who destroyed it. The Fifth Sun was created at Teotihuacan when the gods sacrificed themselves to generate its motion. Humans must repay this debt through sacrifice — without blood, the sun stops moving and the fifth world ends. The cosmology makes sacrifice cosmologically necessary, not merely ritual.", acceptableAnswers: ["jaguar wind fire flood destroyed four previous suns", "fifth sun created by gods' self-sacrifice requiring human blood debt", "sacrifice keeps the sun moving without it fifth world ends"] },
       { id: "myth_400_03", categoryId: "mythology_world", tier: 400, prompt: "The Hindu epic Mahabharata is the longest poem in world literature at ~100,000 verses. Its central war involves what family conflict — and what philosophical teaching does Krishna reveal to Arjuna before the battle?", answer: "The war between the Pandava brothers (dharmic side) and their cousins the Kauravas for the throne of Hastinapura — both sides are descendants of the same family. Krishna's teaching to Arjuna before battle is the Bhagavad Gita: act according to your dharma without attachment to results; the eternal soul cannot be killed; perform your duty.", acceptableAnswers: ["Pandavas vs Kauravas cousin family civil war", "Bhagavad Gita: act from duty without attachment to outcomes", "soul cannot be killed so act from dharma not fear"] },
-      { id: "myth_600_01", categoryId: "mythology_world", tier: 600, prompt: "Joseph Campbell's 'monomyth' or 'Hero's Journey' claims that all world mythologies follow the same basic structure. What is the academic critique of this claim?", answer: "Campbell's framework is critiqued as: (1) selection bias — he chose myths that fit and dismissed those that didn't; (2) falsifiably vague — the categories ('call to adventure,' 'road of trials') are abstract enough to fit almost any narrative; (3) ethnocentric — the heroic individual journey is a specifically Western/individualist narrative structure not universal; (4) reduces mythological diversity to a single template, erasing cultural specificity. Folklorists like Alan Dundes also argued Campbell confused structural analysis with meaning-claim.", acceptableAnswers: ["selection bias chose myths that fit and ignored exceptions", "vague categories fit any narrative making it unfalsifiable", "ethnocentric individual hero journey not universal", "erases cultural specificity by forcing one template"] },
-      { id: "myth_600_02", categoryId: "mythology_world", tier: 600, prompt: "The Yoruba concept of 'Ori' is central to their cosmology and differs fundamentally from Western religious concepts of the soul. What is Ori — and why is it significant?", answer: "Ori is each person's personal deity — the inner spiritual head — chosen by the person before birth during a heavenly consultation. Ori determines destiny, but destiny can be modified through prayer, sacrifice, and moral choices. Significantly: Ori takes precedence even over the major Orishas (like Shango or Ogun) — you must first appeal to your own Ori before appealing to cosmic deities, because Ori is more intimately connected to your fate. This is unusual in comparative religion: a personal deity who was chosen by the self before birth and ranks above cosmic divine powers.", acceptableAnswers: ["personal inner deity chosen by self before birth", "Ori determines destiny but can be modified through prayer", "Ori outranks even major Orishas in personal religious appeal", "unusual: self-chosen pre-birth personal deity above cosmic powers"] },
-      { id: "myth_600_03", categoryId: "mythology_world", tier: 600, prompt: "Mircea Eliade's theory of the 'sacred and profane' (1957) argues that myth functions to enable a ritual return to what he calls 'illud tempus' — primordial time. What does this mean — and what has been the main scholarly critique?", answer: "Illud tempus is the mythic 'time of the beginning' — the time of creation when the gods acted and the world was made. Ritual re-enactment of myth collapses ordinary time and returns the participant to this sacred origin time, renewing the world's power. Eliade argued this is a universal structure of religious experience. Critique (Jonathan Z. Smith and others): Eliade invented a unified 'archaic religion' by selectively combining evidence from disparate traditions; his categories (sacred, profane, hierophany) are not universally applicable; he romanticized non-Western religion as timeless spirituality vs modern secular alienation — an orientalist projection.", acceptableAnswers: ["illud tempus is primordial origin time ritual returns to it", "Eliade invented unified archaic religion from selective evidence", "Jonathan Z Smith: categories not universally applicable", "romanticized non-Western religion as timeless vs modern alienation"] },
+      { id: "mytwor_600_01", categoryId: "mythology_world", tier: 600, prompt: "Joseph Campbell's 'monomyth' or 'Hero's Journey' claims that all world mythologies follow the same basic structure. What is the academic critique of this claim?", answer: "Campbell's framework is critiqued as: (1) selection bias — he chose myths that fit and dismissed those that didn't; (2) falsifiably vague — the categories ('call to adventure,' 'road of trials') are abstract enough to fit almost any narrative; (3) ethnocentric — the heroic individual journey is a specifically Western/individualist narrative structure not universal; (4) reduces mythological diversity to a single template, erasing cultural specificity. Folklorists like Alan Dundes also argued Campbell confused structural analysis with meaning-claim.", acceptableAnswers: ["selection bias chose myths that fit and ignored exceptions", "vague categories fit any narrative making it unfalsifiable", "ethnocentric individual hero journey not universal", "erases cultural specificity by forcing one template"] },
+      { id: "mytwor_600_02", categoryId: "mythology_world", tier: 600, prompt: "The Yoruba concept of 'Ori' is central to their cosmology and differs fundamentally from Western religious concepts of the soul. What is Ori — and why is it significant?", answer: "Ori is each person's personal deity — the inner spiritual head — chosen by the person before birth during a heavenly consultation. Ori determines destiny, but destiny can be modified through prayer, sacrifice, and moral choices. Significantly: Ori takes precedence even over the major Orishas (like Shango or Ogun) — you must first appeal to your own Ori before appealing to cosmic deities, because Ori is more intimately connected to your fate. This is unusual in comparative religion: a personal deity who was chosen by the self before birth and ranks above cosmic divine powers.", acceptableAnswers: ["personal inner deity chosen by self before birth", "Ori determines destiny but can be modified through prayer", "Ori outranks even major Orishas in personal religious appeal", "unusual: self-chosen pre-birth personal deity above cosmic powers"] },
+      { id: "mytwor_600_03", categoryId: "mythology_world", tier: 600, prompt: "Mircea Eliade's theory of the 'sacred and profane' (1957) argues that myth functions to enable a ritual return to what he calls 'illud tempus' — primordial time. What does this mean — and what has been the main scholarly critique?", answer: "Illud tempus is the mythic 'time of the beginning' — the time of creation when the gods acted and the world was made. Ritual re-enactment of myth collapses ordinary time and returns the participant to this sacred origin time, renewing the world's power. Eliade argued this is a universal structure of religious experience. Critique (Jonathan Z. Smith and others): Eliade invented a unified 'archaic religion' by selectively combining evidence from disparate traditions; his categories (sacred, profane, hierophany) are not universally applicable; he romanticized non-Western religion as timeless spirituality vs modern secular alienation — an orientalist projection.", acceptableAnswers: ["illud tempus is primordial origin time ritual returns to it", "Eliade invented unified archaic religion from selective evidence", "Jonathan Z Smith: categories not universally applicable", "romanticized non-Western religion as timeless vs modern alienation"] },
     ],
   },
   {
@@ -49934,14 +49934,14 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description: "From Superman to Maus to Watchmen — how sequential art became a serious literary medium.",
     questions: [
-      { id: "gn_200_01", categoryId: "graphic_novels", tier: 200, prompt: "Art Spiegelman's 'Maus' (1991) is the only comic to win a Pulitzer Prize Special Award. What does it depict — and what is distinctive about its choice of animals to represent people?", answer: "Maus depicts Spiegelman's father Vladek's experience as a Holocaust survivor in Auschwitz, interwoven with Art's present-day relationship with his father. Jews are depicted as mice, Nazis as cats, Poles as pigs, and Americans as dogs — the animals literalize the Nazi dehumanization while also using the 'cat and mouse' metaphor to structure the power relationships.", acceptableAnswers: ["Holocaust survival story using mice as Jews and cats as Nazis", "Pulitzer-winning Holocaust memoir in comic form", "literalizes Nazi dehumanization through animal allegory"] },
-      { id: "gn_200_02", categoryId: "graphic_novels", tier: 200, prompt: "Alan Moore and Dave Gibbons's 'Watchmen' (1986–87) deconstructed the superhero genre by asking what superheroes would be like if they were psychologically realistic. What was its central premise about superhero morality?", answer: "That costumed vigilantes in the real world would be psychologically damaged, morally compromised, and potentially fascistic — taking the law into their own hands requires a disturbing certainty about one's own righteousness. It also asked: who watches the watchmen?", acceptableAnswers: ["psychologically realistic superheroes would be damaged and morally compromised", "vigilante justice requires disturbing certainty about own righteousness", "who watches the watchmen — accountability of those who police others"] },
+      { id: "granov_200_01", categoryId: "graphic_novels", tier: 200, prompt: "Art Spiegelman's 'Maus' (1991) is the only comic to win a Pulitzer Prize Special Award. What does it depict — and what is distinctive about its choice of animals to represent people?", answer: "Maus depicts Spiegelman's father Vladek's experience as a Holocaust survivor in Auschwitz, interwoven with Art's present-day relationship with his father. Jews are depicted as mice, Nazis as cats, Poles as pigs, and Americans as dogs — the animals literalize the Nazi dehumanization while also using the 'cat and mouse' metaphor to structure the power relationships.", acceptableAnswers: ["Holocaust survival story using mice as Jews and cats as Nazis", "Pulitzer-winning Holocaust memoir in comic form", "literalizes Nazi dehumanization through animal allegory"] },
+      { id: "granov_200_02", categoryId: "graphic_novels", tier: 200, prompt: "Alan Moore and Dave Gibbons's 'Watchmen' (1986–87) deconstructed the superhero genre by asking what superheroes would be like if they were psychologically realistic. What was its central premise about superhero morality?", answer: "That costumed vigilantes in the real world would be psychologically damaged, morally compromised, and potentially fascistic — taking the law into their own hands requires a disturbing certainty about one's own righteousness. It also asked: who watches the watchmen?", acceptableAnswers: ["psychologically realistic superheroes would be damaged and morally compromised", "vigilante justice requires disturbing certainty about own righteousness", "who watches the watchmen — accountability of those who police others"] },
       { id: "gn_200_03", categoryId: "graphic_novels", tier: 200, prompt: "The 'Comics Code Authority' (CCA), established in 1954 in response to Fredric Wertham's 'Seduction of the Innocent,' regulated American comics for decades. What did it ban?", answer: "Graphic violence, vampires, werewolves, ghouls, crime that was presented sympathetically, 'good vs evil' ambiguity in which good didn't triumph, and overt sexuality — essentially anything that might corrupt 'youth.' The code killed EC Comics (Tales from the Crypt, etc.) and forced the industry toward sanitized superhero and teen content.", acceptableAnswers: ["graphic violence vampires werewolves crime ambiguity and sexuality", "killed EC Comics and forced sanitized superhero content", "Wertham's moral panic led to industry self-censorship code"] },
-      { id: "gn_400_01", categoryId: "graphic_novels", tier: 400, prompt: "Will Eisner's 'A Contract with God' (1978) is often cited as one of the first modern 'graphic novels.' What does the term 'graphic novel' itself reveal about the commercial and cultural politics of the comic book medium?", answer: "The term 'graphic novel' was partly a marketing strategy to position comics as legitimate literature suitable for bookstores and library collections rather than newsstands — to escape the stigma of 'comic books' as disposable children's entertainment. Eisner himself embraced the term to signal literary seriousness (A Contract with God deals with faith, loss, and urban immigrant life). Critics note the term is often applied inconsistently and is sometimes condescending — it implies regular comics aren't 'real' literature.", acceptableAnswers: ["marketing term to escape comic book stigma and enter bookstores", "signal literary seriousness and separate from disposable children's entertainment", "inconsistently applied and condescending implying regular comics aren't real literature", "Eisner used it to signal A Contract With God was literary not disposable"] },
-      { id: "gn_400_02", categoryId: "graphic_novels", tier: 400, prompt: "Scott McCloud's 'Understanding Comics' (1993) — itself a comic — is the definitive theoretical text on the medium. What did McCloud argue makes comics formally unique as an art form?", answer: "McCloud focused on 'closure' in the 'gutter' (the space between panels) — unlike film, which shows continuous motion, comics show discrete moments and ask readers to complete the action in their imagination between panels. The reader is an active co-creator, not a passive viewer. McCloud also argued comics can use time differently from any other medium — a single panel can represent a sound, a frozen moment, or an extended duration depending on how it's drawn and sequenced.", acceptableAnswers: ["closure in the gutter: reader completes action between panels", "reader is active co-creator not passive viewer unlike film", "gutter between panels is where comics' unique power lives", "comics can represent time differently using the same tools"] },
+      { id: "granov_400_01", categoryId: "graphic_novels", tier: 400, prompt: "Will Eisner's 'A Contract with God' (1978) is often cited as one of the first modern 'graphic novels.' What does the term 'graphic novel' itself reveal about the commercial and cultural politics of the comic book medium?", answer: "The term 'graphic novel' was partly a marketing strategy to position comics as legitimate literature suitable for bookstores and library collections rather than newsstands — to escape the stigma of 'comic books' as disposable children's entertainment. Eisner himself embraced the term to signal literary seriousness (A Contract with God deals with faith, loss, and urban immigrant life). Critics note the term is often applied inconsistently and is sometimes condescending — it implies regular comics aren't 'real' literature.", acceptableAnswers: ["marketing term to escape comic book stigma and enter bookstores", "signal literary seriousness and separate from disposable children's entertainment", "inconsistently applied and condescending implying regular comics aren't real literature", "Eisner used it to signal A Contract With God was literary not disposable"] },
+      { id: "granov_400_02", categoryId: "graphic_novels", tier: 400, prompt: "Scott McCloud's 'Understanding Comics' (1993) — itself a comic — is the definitive theoretical text on the medium. What did McCloud argue makes comics formally unique as an art form?", answer: "McCloud focused on 'closure' in the 'gutter' (the space between panels) — unlike film, which shows continuous motion, comics show discrete moments and ask readers to complete the action in their imagination between panels. The reader is an active co-creator, not a passive viewer. McCloud also argued comics can use time differently from any other medium — a single panel can represent a sound, a frozen moment, or an extended duration depending on how it's drawn and sequenced.", acceptableAnswers: ["closure in the gutter: reader completes action between panels", "reader is active co-creator not passive viewer unlike film", "gutter between panels is where comics' unique power lives", "comics can represent time differently using the same tools"] },
       { id: "gn_400_03", categoryId: "graphic_novels", tier: 400, prompt: "The manga industry (Japanese comics) produces roughly 40% of all printed material in Japan. How does manga's publication model differ fundamentally from American comic books?", answer: "Manga is published in thick weekly or monthly anthology magazines (Shonen Jump, etc.) for serialization — a creator's story runs for months or years in magazine chapters, then chapters are compiled into 'tankobon' volumes sold as books. This gives manga: (1) longer story arcs with sustained character development; (2) one creator (mangaka) typically writes and draws (vs American team-based production); (3) enormous genre diversity (not just superhero); (4) massive print runs through the anthology system. American comics are typically team-produced, monthly individual issues, and dominated by superhero genre.", acceptableAnswers: ["weekly anthology magazine serialization compiled into tankobon volumes", "single creator mangaka vs American team production", "longer sustained story arcs vs monthly issue format", "enormous genre diversity vs American superhero dominance"] },
-      { id: "gn_600_01", categoryId: "graphic_novels", tier: 600, prompt: "Chris Ware's 'Building Stories' (2012) was published as 14 separate objects (books, newspapers, a game board, a pamphlet) in a box with no prescribed reading order. What does this format argue about the nature of narrative and memory?", answer: "Ware argues that memory and experience are not linear — we don't live our lives in chronological order and we don't remember them that way. The non-hierarchical, non-sequential format forces the reader to construct their own order and their own connections between the stories, mimicking how memory actually works. Each reading of Building Stories can produce a different experience of the same material. The physical objects also argue that format is not neutral — the size, texture, and shape of a book is part of its meaning.", acceptableAnswers: ["non-linear format mimics how memory and experience actually work", "reader constructs their own sequence mimicking memory's non-linearity", "each reading can produce different experience same material", "physical format is part of the meaning not neutral container"] },
-      { id: "gn_600_02", categoryId: "graphic_novels", tier: 600, prompt: "The Hernandez Brothers (Gilbert and Jaime) created 'Love and Rockets' (since 1982) — widely considered the greatest American alternative comics series. What made it a landmark in representation?", answer: "Love and Rockets depicted working-class Latino/a characters (primarily in Jaime's 'Locas' strip set in the fictional Hoppers, based on East LA) with psychological complexity and non-heroic everyday lives — at a time when Latinos in American fiction were absent, stereotyped, or minor characters. The characters are allowed to age, change, fail, and have complicated sexual and social lives. Gilbert's 'Palomar' stories (set in a fictional Latin American village) explored magical realism with similar complexity. Both were punk rock and feminist in sensibility.", acceptableAnswers: ["working-class Latino characters with psychological complexity not stereotypes", "characters allowed to age fail and have complicated lives", "Locas set in East LA Hoppers Palomar in Latin American village", "landmark Latino representation when absent from American fiction"] },
+      { id: "granov_600_01", categoryId: "graphic_novels", tier: 600, prompt: "Chris Ware's 'Building Stories' (2012) was published as 14 separate objects (books, newspapers, a game board, a pamphlet) in a box with no prescribed reading order. What does this format argue about the nature of narrative and memory?", answer: "Ware argues that memory and experience are not linear — we don't live our lives in chronological order and we don't remember them that way. The non-hierarchical, non-sequential format forces the reader to construct their own order and their own connections between the stories, mimicking how memory actually works. Each reading of Building Stories can produce a different experience of the same material. The physical objects also argue that format is not neutral — the size, texture, and shape of a book is part of its meaning.", acceptableAnswers: ["non-linear format mimics how memory and experience actually work", "reader constructs their own sequence mimicking memory's non-linearity", "each reading can produce different experience same material", "physical format is part of the meaning not neutral container"] },
+      { id: "granov_600_02", categoryId: "graphic_novels", tier: 600, prompt: "The Hernandez Brothers (Gilbert and Jaime) created 'Love and Rockets' (since 1982) — widely considered the greatest American alternative comics series. What made it a landmark in representation?", answer: "Love and Rockets depicted working-class Latino/a characters (primarily in Jaime's 'Locas' strip set in the fictional Hoppers, based on East LA) with psychological complexity and non-heroic everyday lives — at a time when Latinos in American fiction were absent, stereotyped, or minor characters. The characters are allowed to age, change, fail, and have complicated sexual and social lives. Gilbert's 'Palomar' stories (set in a fictional Latin American village) explored magical realism with similar complexity. Both were punk rock and feminist in sensibility.", acceptableAnswers: ["working-class Latino characters with psychological complexity not stereotypes", "characters allowed to age fail and have complicated lives", "Locas set in East LA Hoppers Palomar in Latin American village", "landmark Latino representation when absent from American fiction"] },
       { id: "gn_600_03", categoryId: "graphic_novels", tier: 600, prompt: "The superhero genre's origin in the late 1930s — Superman in 1938, Batman in 1939 — has been analyzed as reflecting specific anxieties of the Depression era and Jewish-American immigrant experience. What is the argument?", answer: "Superman's creators (Siegel and Shuster) were young Jewish men from Cleveland. Several scholars (including Danny Fingeroth in 'Disguised as Clark Kent') argue: Superman embodies the immigrant fantasy of assimilation with a hidden true identity (Clark Kent / Kal-El); his powers allow him to overcome the social exclusion immigrant Jews experienced; his escape from a destroyed world parallels the European Jewish experience. More broadly, Depression-era superheroes offered fantasies of individual power and justice to audiences experiencing economic helplessness. The genre's 'secret identity' structure has also been read as reflecting the experience of people who must hide their 'true' selves in a hostile society.", acceptableAnswers: ["Siegel and Shuster were Jewish immigrants; Superman embodies assimilation with hidden true identity", "immigrant fantasy of hidden true self behind Clark Kent persona", "Depression-era powerlessness countered by individual fantasy power", "secret identity structure reflects hiding true self in hostile society"] },
     ],
   },
@@ -50029,15 +50029,15 @@ const CATEGORIES: Category[] = [
     description: "Plate tectonics, geological time, mass extinctions, and the evidence that the Earth is a dynamic, living system.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Grand_canyon_march_2013.jpg/500px-Grand_canyon_march_2013.jpg",
     questions: [
-      { id: "geo_200_01", categoryId: "geology", tier: 200, prompt: "The theory of plate tectonics — developed fully in the 1960s — explains why continents are where they are. What observation did Alfred Wegener make in 1912 that first suggested continents had moved?", answer: "The coastlines of South America and Africa fit together like puzzle pieces; fossils of the same extinct species were found on both continents (Glossopteris fern, Mesosaurus reptile); and similar rock formations matched across the ocean. He called the original supercontinent 'Pangaea.' He was rejected because he couldn't explain the mechanism.", acceptableAnswers: ["South America and Africa coastlines fit together like puzzle pieces", "same fossils found on both continents", "Pangaea as original supercontinent he lacked a mechanism"] },
-      { id: "geo_200_02", categoryId: "geology", tier: 200, prompt: "The geological time scale divides Earth's history into eons, eras, periods, and epochs. Approximately how old is Earth — and how much of that time predates complex multicellular life?", answer: "Earth is approximately 4.5 billion years old. Complex multicellular life (the Cambrian Explosion) began only ~540 million years ago — about 88% of Earth's history preceded it.", acceptableAnswers: ["4.5 billion years old", "88% of Earth's history before multicellular complex life", "4.5 billion years with complex life only last 540 million years"] },
-      { id: "geo_200_03", categoryId: "geology", tier: 200, prompt: "The 'supercontinent cycle' refers to the repeated assembly and breakup of supercontinents. Before Pangaea, there was an earlier supercontinent. What was it called?", answer: "Rodinia (assembled ~1.1 billion years ago, broke up ~750 million years ago) — and before that, Columbia/Nuna (~1.8 billion years ago). The cycle will continue: the next supercontinent (Amasia or Pangaea Proxima) is predicted to form in ~250 million years.", acceptableAnswers: ["Rodinia", "Rodinia ~1.1 billion years ago", "Rodinia then Columbia before that"] },
-      { id: "geo_400_01", categoryId: "geology", tier: 400, prompt: "The 'Snowball Earth' hypothesis (proposed by Joseph Kirschvink, 1992) suggests that Earth was completely or nearly completely frozen 700–600 million years ago. What evidence supports it — and what ended the deep freeze?", answer: "Evidence: glacial deposits (diamictites) found at what were paleomagnetically tropical latitudes at the time; 'cap carbonates' (layers of carbonate rock immediately above glacial deposits, indicating rapid CO₂ drawdown). End mechanism: volcanism (unaffected by ice) continued emitting CO₂ for millions of years; without rain (which washes out CO₂), greenhouse gases built up until they broke the ice. The rapid warming following snowball may have provided the selective pressure for the Cambrian explosion of complex life.", acceptableAnswers: ["glacial deposits at tropical latitudes indicate global ice", "cap carbonates show rapid CO2 drawdown", "volcanism built up CO2 without rain to wash it out until warming broke ice", "snowball end may have driven Cambrian explosion"] },
-      { id: "geo_400_02", categoryId: "geology", tier: 400, prompt: "The Chicxulub impact (66 million years ago, Yucatán Peninsula) ended the Cretaceous and killed the non-avian dinosaurs. What are the four mechanisms by which the impact caused a mass extinction?", answer: "(1) Impact winter — debris ejected into atmosphere blocked sunlight, killing plants (photosynthesis collapse) within months; (2) Wildfires — the initial heat wave and falling ejecta ignited global wildfires; (3) Acid rain — sulfur from Yucatán's evaporitic rocks produced sulfuric acid rain; (4) Climate disruption — after the initial cooling, CO₂ from burning vegetation produced prolonged warming. The primary killer was impact winter (photosynthesis collapse), which cascaded through the food web.", acceptableAnswers: ["impact winter blocking sunlight, wildfires, acid rain, climate disruption", "photosynthesis collapse as primary killer via sunlight blockage", "sulfur from Yucatan produced acid rain", "ejecta heat ignited global wildfires"] },
-      { id: "geo_400_03", categoryId: "geology", tier: 400, prompt: "The 'Great Oxidation Event' (~2.4 billion years ago) fundamentally changed Earth's atmosphere and was caused by what organism — and why was it catastrophic for existing life?", answer: "Cyanobacteria ('blue-green algae') evolved oxygenic photosynthesis — splitting water molecules and releasing oxygen as a byproduct. Before this, Earth's atmosphere was reducing (no free oxygen). Oxygen is a powerful oxidizer and was toxic to most existing anaerobic life — the Great Oxidation Event was Earth's first mass extinction (the 'oxygen catastrophe'). It also reacted with atmospheric methane, reducing greenhouse warming and possibly triggering 'Huronian glaciation' — an early Snowball Earth event.", acceptableAnswers: ["cyanobacteria evolved oxygenic photosynthesis releasing oxygen", "oxygen was toxic to existing anaerobic life first mass extinction", "Huronian glaciation triggered by methane reduction from oxygen", "oxygen catastrophe killed most existing anaerobic life"] },
-      { id: "geo_600_01", categoryId: "geology", tier: 600, prompt: "The debate between 'gradualism' (slow uniform geological processes) and 'catastrophism' (sudden violent events) defined 19th-century geology and spilled into biology. How did each school of thought develop — and what is the current synthesis?", answer: "Catastrophism (early 19th century, Cuvier): extinction events in the fossil record reflected catastrophic floods and divine interventions; each geological period ended in mass extinction. Gradualism / Uniformitarianism (Hutton, Lyell): 'the present is the key to the past' — geological change is slow, uniform, and continuous; no special catastrophes needed. Darwin adopted Lyell's uniformitarianism for biological evolution. Current synthesis: both are right — most geological change is gradual (erosion, deposition, slow plate movement), but punctuated by real catastrophes (mass extinctions, major volcanic events, impacts). Gould and Eldredge's punctuated equilibrium in biology parallels this geological synthesis.", acceptableAnswers: ["gradualism: present is key to past Lyell Hutton", "catastrophism: Cuvier mass extinctions from sudden events", "current synthesis: mostly gradual punctuated by real catastrophes", "Gould punctuated equilibrium parallels geological synthesis"] },
-      { id: "geo_600_02", categoryId: "geology", tier: 600, prompt: "The discovery of seafloor spreading (Harry Hess, 1960) provided the mechanism that Wegener lacked. What was the evidence — and why did its discovery have the same revolutionary character in geology that evolution had in biology?", answer: "Evidence: (1) Mid-ocean ridges are where new seafloor is created — magma wells up and solidifies, pushing ocean crust apart; (2) Magnetization 'stripes' on either side of ridges recorded Earth's magnetic field reversals, showing that new seafloor was symmetrically dated from the ridge outward; (3) Oceanic crust is younger near ridges and older away — measuring it confirmed spreading rates. Revolutionary character: like evolution, seafloor spreading unified a vast range of previously disconnected geological observations (earthquakes, volcanoes, fossil distributions, mountain belts) into a single explanatory framework — plate tectonics.", acceptableAnswers: ["mid-ocean ridges create new seafloor from magma", "magnetic reversal stripes symmetrical on both sides confirm spreading", "oceanic crust younger near ridges confirmed the model", "unified geology like evolution unified biology"] },
-      { id: "geo_600_03", categoryId: "geology", tier: 600, prompt: "The 'Permian-Triassic extinction' (~252 million years ago) was the most severe mass extinction in Earth's history, killing ~96% of marine species and ~70% of land species. What is the leading hypothesis for its cause — and why is it terrifying for contemporary climate science?", answer: "Leading hypothesis: massive Siberian Traps volcanism (flood basalts) released enormous quantities of CO₂ and sulfur over ~1 million years, triggering: global warming (5–10°C), ocean acidification (dissolving marine organisms' calcium carbonate shells), anoxic dead zones in oceans, and possibly ozone layer damage. Terrifying for climate: the rate of CO₂ injection from the Siberian Traps was the closest geological analogue to current human CO₂ emissions (though ours is faster). The 'great dying' shows what sustained CO₂-driven ocean warming and acidification can do at species level — and the recovery took ~10 million years.", acceptableAnswers: ["Siberian Traps volcanism releasing CO2 over 1 million years", "global warming ocean acidification and anoxic dead zones", "closest geological analogue to current human CO2 rate", "recovery took 10 million years after 96% marine extinction"] },
+      { id: "geolog_200_01", categoryId: "geology", tier: 200, prompt: "The theory of plate tectonics — developed fully in the 1960s — explains why continents are where they are. What observation did Alfred Wegener make in 1912 that first suggested continents had moved?", answer: "The coastlines of South America and Africa fit together like puzzle pieces; fossils of the same extinct species were found on both continents (Glossopteris fern, Mesosaurus reptile); and similar rock formations matched across the ocean. He called the original supercontinent 'Pangaea.' He was rejected because he couldn't explain the mechanism.", acceptableAnswers: ["South America and Africa coastlines fit together like puzzle pieces", "same fossils found on both continents", "Pangaea as original supercontinent he lacked a mechanism"] },
+      { id: "geolog_200_02", categoryId: "geology", tier: 200, prompt: "The geological time scale divides Earth's history into eons, eras, periods, and epochs. Approximately how old is Earth — and how much of that time predates complex multicellular life?", answer: "Earth is approximately 4.5 billion years old. Complex multicellular life (the Cambrian Explosion) began only ~540 million years ago — about 88% of Earth's history preceded it.", acceptableAnswers: ["4.5 billion years old", "88% of Earth's history before multicellular complex life", "4.5 billion years with complex life only last 540 million years"] },
+      { id: "geolog_200_03", categoryId: "geology", tier: 200, prompt: "The 'supercontinent cycle' refers to the repeated assembly and breakup of supercontinents. Before Pangaea, there was an earlier supercontinent. What was it called?", answer: "Rodinia (assembled ~1.1 billion years ago, broke up ~750 million years ago) — and before that, Columbia/Nuna (~1.8 billion years ago). The cycle will continue: the next supercontinent (Amasia or Pangaea Proxima) is predicted to form in ~250 million years.", acceptableAnswers: ["Rodinia", "Rodinia ~1.1 billion years ago", "Rodinia then Columbia before that"] },
+      { id: "geolog_400_01", categoryId: "geology", tier: 400, prompt: "The 'Snowball Earth' hypothesis (proposed by Joseph Kirschvink, 1992) suggests that Earth was completely or nearly completely frozen 700–600 million years ago. What evidence supports it — and what ended the deep freeze?", answer: "Evidence: glacial deposits (diamictites) found at what were paleomagnetically tropical latitudes at the time; 'cap carbonates' (layers of carbonate rock immediately above glacial deposits, indicating rapid CO₂ drawdown). End mechanism: volcanism (unaffected by ice) continued emitting CO₂ for millions of years; without rain (which washes out CO₂), greenhouse gases built up until they broke the ice. The rapid warming following snowball may have provided the selective pressure for the Cambrian explosion of complex life.", acceptableAnswers: ["glacial deposits at tropical latitudes indicate global ice", "cap carbonates show rapid CO2 drawdown", "volcanism built up CO2 without rain to wash it out until warming broke ice", "snowball end may have driven Cambrian explosion"] },
+      { id: "geolog_400_02", categoryId: "geology", tier: 400, prompt: "The Chicxulub impact (66 million years ago, Yucatán Peninsula) ended the Cretaceous and killed the non-avian dinosaurs. What are the four mechanisms by which the impact caused a mass extinction?", answer: "(1) Impact winter — debris ejected into atmosphere blocked sunlight, killing plants (photosynthesis collapse) within months; (2) Wildfires — the initial heat wave and falling ejecta ignited global wildfires; (3) Acid rain — sulfur from Yucatán's evaporitic rocks produced sulfuric acid rain; (4) Climate disruption — after the initial cooling, CO₂ from burning vegetation produced prolonged warming. The primary killer was impact winter (photosynthesis collapse), which cascaded through the food web.", acceptableAnswers: ["impact winter blocking sunlight, wildfires, acid rain, climate disruption", "photosynthesis collapse as primary killer via sunlight blockage", "sulfur from Yucatan produced acid rain", "ejecta heat ignited global wildfires"] },
+      { id: "geolog_400_03", categoryId: "geology", tier: 400, prompt: "The 'Great Oxidation Event' (~2.4 billion years ago) fundamentally changed Earth's atmosphere and was caused by what organism — and why was it catastrophic for existing life?", answer: "Cyanobacteria ('blue-green algae') evolved oxygenic photosynthesis — splitting water molecules and releasing oxygen as a byproduct. Before this, Earth's atmosphere was reducing (no free oxygen). Oxygen is a powerful oxidizer and was toxic to most existing anaerobic life — the Great Oxidation Event was Earth's first mass extinction (the 'oxygen catastrophe'). It also reacted with atmospheric methane, reducing greenhouse warming and possibly triggering 'Huronian glaciation' — an early Snowball Earth event.", acceptableAnswers: ["cyanobacteria evolved oxygenic photosynthesis releasing oxygen", "oxygen was toxic to existing anaerobic life first mass extinction", "Huronian glaciation triggered by methane reduction from oxygen", "oxygen catastrophe killed most existing anaerobic life"] },
+      { id: "geolog_600_01", categoryId: "geology", tier: 600, prompt: "The debate between 'gradualism' (slow uniform geological processes) and 'catastrophism' (sudden violent events) defined 19th-century geology and spilled into biology. How did each school of thought develop — and what is the current synthesis?", answer: "Catastrophism (early 19th century, Cuvier): extinction events in the fossil record reflected catastrophic floods and divine interventions; each geological period ended in mass extinction. Gradualism / Uniformitarianism (Hutton, Lyell): 'the present is the key to the past' — geological change is slow, uniform, and continuous; no special catastrophes needed. Darwin adopted Lyell's uniformitarianism for biological evolution. Current synthesis: both are right — most geological change is gradual (erosion, deposition, slow plate movement), but punctuated by real catastrophes (mass extinctions, major volcanic events, impacts). Gould and Eldredge's punctuated equilibrium in biology parallels this geological synthesis.", acceptableAnswers: ["gradualism: present is key to past Lyell Hutton", "catastrophism: Cuvier mass extinctions from sudden events", "current synthesis: mostly gradual punctuated by real catastrophes", "Gould punctuated equilibrium parallels geological synthesis"] },
+      { id: "geolog_600_02", categoryId: "geology", tier: 600, prompt: "The discovery of seafloor spreading (Harry Hess, 1960) provided the mechanism that Wegener lacked. What was the evidence — and why did its discovery have the same revolutionary character in geology that evolution had in biology?", answer: "Evidence: (1) Mid-ocean ridges are where new seafloor is created — magma wells up and solidifies, pushing ocean crust apart; (2) Magnetization 'stripes' on either side of ridges recorded Earth's magnetic field reversals, showing that new seafloor was symmetrically dated from the ridge outward; (3) Oceanic crust is younger near ridges and older away — measuring it confirmed spreading rates. Revolutionary character: like evolution, seafloor spreading unified a vast range of previously disconnected geological observations (earthquakes, volcanoes, fossil distributions, mountain belts) into a single explanatory framework — plate tectonics.", acceptableAnswers: ["mid-ocean ridges create new seafloor from magma", "magnetic reversal stripes symmetrical on both sides confirm spreading", "oceanic crust younger near ridges confirmed the model", "unified geology like evolution unified biology"] },
+      { id: "geolog_600_03", categoryId: "geology", tier: 600, prompt: "The 'Permian-Triassic extinction' (~252 million years ago) was the most severe mass extinction in Earth's history, killing ~96% of marine species and ~70% of land species. What is the leading hypothesis for its cause — and why is it terrifying for contemporary climate science?", answer: "Leading hypothesis: massive Siberian Traps volcanism (flood basalts) released enormous quantities of CO₂ and sulfur over ~1 million years, triggering: global warming (5–10°C), ocean acidification (dissolving marine organisms' calcium carbonate shells), anoxic dead zones in oceans, and possibly ozone layer damage. Terrifying for climate: the rate of CO₂ injection from the Siberian Traps was the closest geological analogue to current human CO₂ emissions (though ours is faster). The 'great dying' shows what sustained CO₂-driven ocean warming and acidification can do at species level — and the recovery took ~10 million years.", acceptableAnswers: ["Siberian Traps volcanism releasing CO2 over 1 million years", "global warming ocean acidification and anoxic dead zones", "closest geological analogue to current human CO2 rate", "recovery took 10 million years after 96% marine extinction"] },
     ],
   },
   {
@@ -50066,15 +50066,15 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description: "Bauhaus functionalism, Corbusier's cities in the sky, Brutalism, and the postmodern revenge — how architecture reflects ideology.",
     questions: [
-      { id: "arch_200_01", categoryId: "architecture_movements", tier: 200, prompt: "Walter Gropius founded the Bauhaus school in Germany in 1919. What was its core educational philosophy — and what political event ended it?", answer: "Bauhaus ('house of building') aimed to unify fine arts and applied crafts in a single school — teaching art, craft, and industrial design as integrated disciplines, training 'complete' creative practitioners. The Nazis forced it to close in 1933 (it was associated with modernism, internationalism, and communist sympathies); many faculty fled to the US, bringing modernist design to American institutions.", acceptableAnswers: ["unified fine arts and applied crafts in one school", "art craft and industrial design integrated not separated", "Nazis closed it 1933 faculty fled to US bringing modernism"] },
-      { id: "arch_200_02", categoryId: "architecture_movements", tier: 200, prompt: "Le Corbusier's famous dictum described a house as what — and what did this suggest about his architectural ideology?", answer: "'A machine for living in' (une machine à habiter) — suggesting that architecture should be engineered for human functional needs with the efficiency of a machine, stripping away ornament and decorative tradition.", acceptableAnswers: ["a machine for living in", "une machine a habiter — architecture as functional engineering"] },
-      { id: "arch_200_03", categoryId: "architecture_movements", tier: 200, prompt: "The Seagram Building (1958, Mies van der Rohe) and the Lever House (1952, Skidmore Owings & Merrill) established what became the dominant office tower style worldwide. What is this style called — and what are its visual characteristics?", answer: "International Style — glass curtain wall, steel frame, flat roof, absence of ornament, rectangular volume. The style spread globally as corporations in the 1950s–80s built identical-looking glass towers worldwide.", acceptableAnswers: ["International Style", "glass curtain wall steel frame flat roof no ornament", "International Modernism"] },
-      { id: "arch_400_01", categoryId: "architecture_movements", tier: 400, prompt: "Brutalism (1950s–70s) produced many of the world's most controversial buildings. What is it architecturally — and why do critics now defend buildings they once wanted to demolish?", answer: "Brutalism: raw, unfinished concrete (béton brut — from which the name derives) as the primary material; massive, sculptural forms; expressed structural elements; often utopian social housing aspirations. Currently defended because: (1) the buildings are irreplaceable examples of a specific moment in architectural thought; (2) demolition has a significant carbon cost; (3) appreciation for their formal qualities and honesty has grown with generational distance from their failures; (4) many failed not architecturally but because of social policy failures (under-resourced public housing).", acceptableAnswers: ["raw concrete béton brut from which name derives", "defended because irreplaceable carbon cost of demolition and social policy not architectural failure", "massive sculptural concrete with utopian social housing aspirations", "failures were social policy not architectural failures"] },
-      { id: "arch_400_02", categoryId: "architecture_movements", tier: 400, prompt: "Jane Jacobs argued against urban renewal and tower-block housing estates. Robert Moses was her primary antagonist in New York. What did she argue towers in the park (like Pruitt-Igoe) systematically failed to provide?", answer: "Jacobs argued Pruitt-Igoe and similar towers-in-parks failed to provide: (1) 'eyes on the street' — the continuous surveillance of public space by people coming and going at all hours from mixed-use buildings; (2) short city blocks creating permeability and multiple routes; (3) a mix of old and new buildings at different price points; (4) sufficient density. The tower-in-park model created superblocks of residential-only use where public space was surveilled only occasionally, making it dangerous.", acceptableAnswers: ["eyes on the street from mixed use buildings at all hours", "short blocks permeability mix of old and new buildings density", "residential-only towers lacked natural surveillance of streets", "public space unsafe without continuous eyes from mixed use"] },
-      { id: "arch_400_03", categoryId: "architecture_movements", tier: 400, prompt: "Postmodern architecture (Robert Venturi, Charles Moore, Philip Johnson, 1970s–90s) was a direct critique of modernism. What did Venturi's 'Learning from Las Vegas' (1972) argue?", answer: "Learning from Las Vegas argued that architects should study (rather than dismiss as vulgar) the commercial vernacular landscape of the Las Vegas Strip — its signs, billboards, neon, and 'decorated sheds.' Against modernism's 'form follows function' and its refusal of ornament, Venturi argued for the 'decorated shed' (ordinary building + applied symbols) over the 'duck' (building whose form IS the symbol — Modernism). Meaning in architecture comes from applied symbols and communication, not pure form.", acceptableAnswers: ["study Las Vegas commercial vernacular rather than dismiss it", "decorated shed vs duck: symbols applied vs form as symbol", "against modernist rejection of ornament and communication", "meaning comes from applied symbols not pure form"] },
-      { id: "arch_600_01", categoryId: "architecture_movements", tier: 600, prompt: "The demolition of Pruitt-Igoe (St. Louis, 1972–76) was called by Charles Jencks 'the death of modern architecture.' What does this verdict obscure about why Pruitt-Igoe failed?", answer: "The verdict obscures: Pruitt-Igoe failed primarily because: (1) the city of St. Louis systematically underfunded maintenance — elevators not repaired, heating not maintained, pipes leaking; (2) federal policy (the 'wealthy exemption') meant that working-class families with any income improvement were forced to leave, concentrating extreme poverty; (3) St. Louis lost half its population to white flight and suburbanization — reducing the tax base for public services; (4) the building was designed to segregation-era assumptions about race and class. The actual design (by Minoru Yamasaki, same architect as the World Trade Center) was not exceptionally bad architecturally — the failure was social policy, not architectural form.", acceptableAnswers: ["underfunded maintenance and concentrated poverty through federal housing policy", "white flight and population loss destroyed the city's tax base", "Yamasaki's design not the problem social policy was", "Jencks blamed architecture for social policy failure"] },
-      { id: "arch_600_02", categoryId: "architecture_movements", tier: 600, prompt: "Frank Gehry's Guggenheim Bilbao (1997) is often cited as the paradigm of 'starchitecture' — its iconic form transforming the city's economy. What is the 'Bilbao Effect' — and why have economists found it difficult to reproduce?", answer: "Bilbao Effect: the Guggenheim transformed a declining Basque industrial city into a cultural tourism destination — the building became the attraction, not just the art inside. Bilbao's economy measurably improved. Difficult to reproduce because: (1) the effect depended on timing (Bilbao was unique at the moment starchitecture was new and shocking — the form was genuinely surprising); (2) subsequent 'starchitect' museums (many built in the 2000s) didn't replicate the economic transformation because the form was no longer surprising; (3) Bilbao had pre-existing factors (Basque capital, good transport links, strong government) that amplified the building's effect.", acceptableAnswers: ["iconic building transformed Bilbao into cultural tourism destination", "difficult to reproduce because novelty was specific to 1997 timing", "subsequent starchitect buildings didn't work because form was no longer surprising", "pre-existing Basque capital factors amplified Bilbao's success"] },
-      { id: "arch_600_03", categoryId: "architecture_movements", tier: 600, prompt: "Rem Koolhaas's OMA (Office for Metropolitan Architecture) approach to architecture — articulated in 'Delirious New York' (1978) and 'S,M,L,XL' (1995) — defined a new architectural practice. What is 'Bigness' — and how does it relate to the critique of architectural meaning?", answer: "Koolhaas's 'Bigness' thesis: buildings above a certain scale can no longer be controlled by a single architectural concept — their interior is disconnected from the exterior; different programs can coexist without relating to each other; the building's parts cannot 'add up' to a coherent whole. Bigness liberates architecture from the pressure to mean something as a unified aesthetic object. The CCTV headquarters (Beijing, 2012) is the paradigm: a structural loop that encloses a complex of unrelated programs, whose exterior form reflects no single interior logic. OMA practices 'research' on the city itself as an unpredictable, productive system rather than design from a pre-given aesthetic ideology.", acceptableAnswers: ["buildings above a scale cannot be controlled by a single concept", "interior disconnected from exterior programs coexist without relating", "liberates architecture from pressure to mean as unified object", "CCTV paradigm: form reflects no single interior logic"] },
+      { id: "arcmov_200_01", categoryId: "architecture_movements", tier: 200, prompt: "Walter Gropius founded the Bauhaus school in Germany in 1919. What was its core educational philosophy — and what political event ended it?", answer: "Bauhaus ('house of building') aimed to unify fine arts and applied crafts in a single school — teaching art, craft, and industrial design as integrated disciplines, training 'complete' creative practitioners. The Nazis forced it to close in 1933 (it was associated with modernism, internationalism, and communist sympathies); many faculty fled to the US, bringing modernist design to American institutions.", acceptableAnswers: ["unified fine arts and applied crafts in one school", "art craft and industrial design integrated not separated", "Nazis closed it 1933 faculty fled to US bringing modernism"] },
+      { id: "arcmov_200_02", categoryId: "architecture_movements", tier: 200, prompt: "Le Corbusier's famous dictum described a house as what — and what did this suggest about his architectural ideology?", answer: "'A machine for living in' (une machine à habiter) — suggesting that architecture should be engineered for human functional needs with the efficiency of a machine, stripping away ornament and decorative tradition.", acceptableAnswers: ["a machine for living in", "une machine a habiter — architecture as functional engineering"] },
+      { id: "arcmov_200_03", categoryId: "architecture_movements", tier: 200, prompt: "The Seagram Building (1958, Mies van der Rohe) and the Lever House (1952, Skidmore Owings & Merrill) established what became the dominant office tower style worldwide. What is this style called — and what are its visual characteristics?", answer: "International Style — glass curtain wall, steel frame, flat roof, absence of ornament, rectangular volume. The style spread globally as corporations in the 1950s–80s built identical-looking glass towers worldwide.", acceptableAnswers: ["International Style", "glass curtain wall steel frame flat roof no ornament", "International Modernism"] },
+      { id: "arcmov_400_01", categoryId: "architecture_movements", tier: 400, prompt: "Brutalism (1950s–70s) produced many of the world's most controversial buildings. What is it architecturally — and why do critics now defend buildings they once wanted to demolish?", answer: "Brutalism: raw, unfinished concrete (béton brut — from which the name derives) as the primary material; massive, sculptural forms; expressed structural elements; often utopian social housing aspirations. Currently defended because: (1) the buildings are irreplaceable examples of a specific moment in architectural thought; (2) demolition has a significant carbon cost; (3) appreciation for their formal qualities and honesty has grown with generational distance from their failures; (4) many failed not architecturally but because of social policy failures (under-resourced public housing).", acceptableAnswers: ["raw concrete béton brut from which name derives", "defended because irreplaceable carbon cost of demolition and social policy not architectural failure", "massive sculptural concrete with utopian social housing aspirations", "failures were social policy not architectural failures"] },
+      { id: "arcmov_400_02", categoryId: "architecture_movements", tier: 400, prompt: "Jane Jacobs argued against urban renewal and tower-block housing estates. Robert Moses was her primary antagonist in New York. What did she argue towers in the park (like Pruitt-Igoe) systematically failed to provide?", answer: "Jacobs argued Pruitt-Igoe and similar towers-in-parks failed to provide: (1) 'eyes on the street' — the continuous surveillance of public space by people coming and going at all hours from mixed-use buildings; (2) short city blocks creating permeability and multiple routes; (3) a mix of old and new buildings at different price points; (4) sufficient density. The tower-in-park model created superblocks of residential-only use where public space was surveilled only occasionally, making it dangerous.", acceptableAnswers: ["eyes on the street from mixed use buildings at all hours", "short blocks permeability mix of old and new buildings density", "residential-only towers lacked natural surveillance of streets", "public space unsafe without continuous eyes from mixed use"] },
+      { id: "arcmov_400_03", categoryId: "architecture_movements", tier: 400, prompt: "Postmodern architecture (Robert Venturi, Charles Moore, Philip Johnson, 1970s–90s) was a direct critique of modernism. What did Venturi's 'Learning from Las Vegas' (1972) argue?", answer: "Learning from Las Vegas argued that architects should study (rather than dismiss as vulgar) the commercial vernacular landscape of the Las Vegas Strip — its signs, billboards, neon, and 'decorated sheds.' Against modernism's 'form follows function' and its refusal of ornament, Venturi argued for the 'decorated shed' (ordinary building + applied symbols) over the 'duck' (building whose form IS the symbol — Modernism). Meaning in architecture comes from applied symbols and communication, not pure form.", acceptableAnswers: ["study Las Vegas commercial vernacular rather than dismiss it", "decorated shed vs duck: symbols applied vs form as symbol", "against modernist rejection of ornament and communication", "meaning comes from applied symbols not pure form"] },
+      { id: "arcmov_600_01", categoryId: "architecture_movements", tier: 600, prompt: "The demolition of Pruitt-Igoe (St. Louis, 1972–76) was called by Charles Jencks 'the death of modern architecture.' What does this verdict obscure about why Pruitt-Igoe failed?", answer: "The verdict obscures: Pruitt-Igoe failed primarily because: (1) the city of St. Louis systematically underfunded maintenance — elevators not repaired, heating not maintained, pipes leaking; (2) federal policy (the 'wealthy exemption') meant that working-class families with any income improvement were forced to leave, concentrating extreme poverty; (3) St. Louis lost half its population to white flight and suburbanization — reducing the tax base for public services; (4) the building was designed to segregation-era assumptions about race and class. The actual design (by Minoru Yamasaki, same architect as the World Trade Center) was not exceptionally bad architecturally — the failure was social policy, not architectural form.", acceptableAnswers: ["underfunded maintenance and concentrated poverty through federal housing policy", "white flight and population loss destroyed the city's tax base", "Yamasaki's design not the problem social policy was", "Jencks blamed architecture for social policy failure"] },
+      { id: "arcmov_600_02", categoryId: "architecture_movements", tier: 600, prompt: "Frank Gehry's Guggenheim Bilbao (1997) is often cited as the paradigm of 'starchitecture' — its iconic form transforming the city's economy. What is the 'Bilbao Effect' — and why have economists found it difficult to reproduce?", answer: "Bilbao Effect: the Guggenheim transformed a declining Basque industrial city into a cultural tourism destination — the building became the attraction, not just the art inside. Bilbao's economy measurably improved. Difficult to reproduce because: (1) the effect depended on timing (Bilbao was unique at the moment starchitecture was new and shocking — the form was genuinely surprising); (2) subsequent 'starchitect' museums (many built in the 2000s) didn't replicate the economic transformation because the form was no longer surprising; (3) Bilbao had pre-existing factors (Basque capital, good transport links, strong government) that amplified the building's effect.", acceptableAnswers: ["iconic building transformed Bilbao into cultural tourism destination", "difficult to reproduce because novelty was specific to 1997 timing", "subsequent starchitect buildings didn't work because form was no longer surprising", "pre-existing Basque capital factors amplified Bilbao's success"] },
+      { id: "arcmov_600_03", categoryId: "architecture_movements", tier: 600, prompt: "Rem Koolhaas's OMA (Office for Metropolitan Architecture) approach to architecture — articulated in 'Delirious New York' (1978) and 'S,M,L,XL' (1995) — defined a new architectural practice. What is 'Bigness' — and how does it relate to the critique of architectural meaning?", answer: "Koolhaas's 'Bigness' thesis: buildings above a certain scale can no longer be controlled by a single architectural concept — their interior is disconnected from the exterior; different programs can coexist without relating to each other; the building's parts cannot 'add up' to a coherent whole. Bigness liberates architecture from the pressure to mean something as a unified aesthetic object. The CCTV headquarters (Beijing, 2012) is the paradigm: a structural loop that encloses a complex of unrelated programs, whose exterior form reflects no single interior logic. OMA practices 'research' on the city itself as an unpredictable, productive system rather than design from a pre-given aesthetic ideology.", acceptableAnswers: ["buildings above a scale cannot be controlled by a single concept", "interior disconnected from exterior programs coexist without relating", "liberates architecture from pressure to mean as unified object", "CCTV paradigm: form reflects no single interior logic"] },
     ],
   },
   // ── Wave 29 ──────────────────────────────────────────────────────────────
@@ -50086,15 +50086,15 @@ const CATEGORIES: Category[] = [
     description: "Black holes, dark matter, gravitational waves, and the deepest questions about the cosmos.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/NIEdot362.jpg/500px-NIEdot362.jpg",
     questions: [
-      { id: "astro_200_01", categoryId: "astrophysics", tier: 200, prompt: "What is the 'event horizon' of a black hole — and why does the information paradox it creates matter for physics?", answer: "The event horizon is the boundary beyond which nothing — not even light — can escape. The information paradox: Hawking radiation (thermal, random) carries no information about what fell in — if information is truly lost, this violates quantum mechanics' core principle of unitarity (all quantum processes are reversible in principle). Proposals like the holographic principle and firewall paradox attempt to resolve it.", acceptableAnswers: ["boundary beyond which nothing including light escapes", "Hawking radiation random carries no information violating unitarity", "information apparently destroyed conflicts with quantum mechanics reversibility"] },
-      { id: "astro_200_02", categoryId: "astrophysics", tier: 200, prompt: "What is the difference between dark matter and dark energy — and what distinct observational evidence supports each?", answer: "Dark matter: invisible matter exerting gravitational effects — evidence: galaxy rotation curves (stars orbit too fast for visible matter), gravitational lensing by invisible mass, structure formation. Dark energy: force causing accelerating expansion — evidence: 1998 supernova survey showing distant supernovae dimmer than expected. Together ~95% of the universe's energy content.", acceptableAnswers: ["dark matter gravity effects without visible matter galaxy rotation curves lensing", "dark energy accelerating expansion discovered via supernova dimness 1998", "dark matter pulls together dark energy pushes apart together 95% of universe"] },
-      { id: "astro_200_03", categoryId: "astrophysics", tier: 200, prompt: "The 2015 LIGO detection of gravitational waves was called historic. What exactly was detected — and why did it open a new window on the universe?", answer: "LIGO directly detected gravitational waves — ripples in spacetime from two merging black holes 1.3 billion light-years away (GW150914). Significance: confirmed Einstein's general relativity prediction (100 years after 1915); opened gravitational wave astronomy — phenomena invisible to light telescopes (black hole mergers, neutron star collisions) can now be studied; revealed a new class of unexpectedly massive stellar black holes.", acceptableAnswers: ["first direct detection of gravitational waves confirming general relativity", "two merging black holes 1.3 billion light years away GW150914", "new observational window: phenomena invisible to light telescopes now detectable"] },
-      { id: "astro_400_01", categoryId: "astrophysics", tier: 400, prompt: "What is the 'fine-tuned universe' problem — and why is the multiverse proposed as a response philosophically contested?", answer: "The universe's fundamental constants appear set with extraordinary precision for stars, chemistry, and life to exist — slightly different values and no complex structures form. Three responses: (1) Multiverse — if infinite universes exist with different constants, we necessarily live in one with life-permitting constants (anthropic principle); (2) Design — fine-tuning as evidence of intentional creation; (3) Deflationary — no reference class of non-life-permitting universes exists, making 'fine-tuned' question-begging. Multiverse is contested because it's currently unfalsifiable.", acceptableAnswers: ["fundamental constants appear precisely set for life to exist", "multiverse anthropic principle design and deflationary no reference class as three responses", "multiverse unfalsifiable so fine-tuning argument philosophically contested"] },
-      { id: "astro_400_02", categoryId: "astrophysics", tier: 400, prompt: "What is a neutron star — and why do pulsars allow some of the most precise measurements in physics?", answer: "Neutron stars: collapsed stellar cores (after supernova) so dense electrons and protons merge into neutrons — roughly 1.4 solar masses in a 20km sphere. Pulsars emit electromagnetic beams from their poles as they spin, with extraordinary stability rivaling atomic clocks. The first binary pulsar (Hulse-Taylor, 1974) confirmed gravitational wave emission by measuring orbital decay matching general relativity predictions — winning the 1993 Nobel Prize.", acceptableAnswers: ["collapsed stellar core where electrons and protons merge into neutrons ~20km sphere", "pulsars spin with atomic-clock stability enabling precise measurements", "Hulse-Taylor binary pulsar measured orbital decay matching GR predictions Nobel 1993"] },
-      { id: "astro_400_03", categoryId: "astrophysics", tier: 400, prompt: "What is the cosmic microwave background (CMB) — and what did the Planck satellite's precise measurements reveal about the universe's composition?", answer: "The CMB is thermal radiation left from ~380,000 years after the Big Bang, when the universe cooled enough for electrons to combine with protons (recombination), making it transparent. It's a near-perfect blackbody at 2.725K with tiny temperature fluctuations (1 part in 100,000) that seeded large-scale structure. Planck results: ~68% dark energy, ~27% dark matter, ~5% ordinary matter; age = 13.8 billion years; geometry = flat.", acceptableAnswers: ["thermal radiation from 380,000 years after Big Bang when universe became transparent", "temperature fluctuations seeded large-scale structure of the universe", "Planck: 68% dark energy 27% dark matter 5% ordinary matter 13.8 billion years flat geometry"] },
-      { id: "astro_600_01", categoryId: "astrophysics", tier: 600, prompt: "What is the Fermi Paradox — and which resolution (Great Filter, Rare Earth, self-destruction, zoo) do you find most scientifically compelling and why must you defend your reasoning?", answer: "Fermi Paradox: the contradiction between high probability estimates for intelligent extraterrestrial life and total absence of evidence. Key resolutions: (1) Great Filter — some step toward space-colonizing life is nearly impossible (could be behind us [good] or ahead [bad/catastrophic]); (2) Rare Earth — complex life requires extraordinarily specific conditions rarely met; (3) Self-destruction — civilizations consistently destroy themselves before achieving interstellar communication; (4) Zoo hypothesis — we're deliberately not contacted; (5) Detection limitation — we haven't looked long or specifically enough. Each requires assumptions we cannot test, so any compelling argument must state its assumptions.", acceptableAnswers: ["contradiction between probability of alien life and total absence of evidence", "Great Filter rare Earth self-destruction detection limits zoo hypothesis as resolutions", "Great Filter most alarming if it is ahead of us catastrophic if behind us is reassuring"] },
-      { id: "astro_600_02", categoryId: "astrophysics", tier: 600, prompt: "What is cosmic inflation — what problems does it solve, what prediction has been confirmed, and what remains unconfirmed?", answer: "Inflation: exponential expansion in the first ~10^-32 seconds after the Big Bang (Alan Guth, 1980). Solves: the flatness problem (why is spatial geometry so precisely flat?), the horizon problem (why is the CMB uniform across causally disconnected regions?), and the magnetic monopole problem. Confirmed: the CMB's specific pattern of temperature fluctuations matches inflationary predictions. Unconfirmed: primordial gravitational waves (B-mode CMB polarization) — BICEP2 announced detection in 2014 but the signal was galactic dust contamination.", acceptableAnswers: ["exponential expansion in first 10^-32 seconds solving flatness horizon monopole problems", "CMB temperature fluctuation pattern confirmed", "primordial gravitational waves unconfirmed BICEP2 result was dust contamination"] },
-      { id: "astro_600_03", categoryId: "astrophysics", tier: 600, prompt: "What is the holographic principle — and how does it relate to resolving the black hole information paradox?", answer: "Holographic principle: all information in a volume of space can be encoded on its 2D boundary surface. Proposed by 't Hooft and Susskind from black hole thermodynamics — Bekenstein-Hawking entropy is proportional to surface area, not volume. Relation to information paradox: if information is encoded on the event horizon rather than destroyed in the interior, Hawking radiation could encode information in subtle quantum correlations, preserving unitarity. The AdS/CFT correspondence (Maldacena, 1997) provides a mathematical realization: a gravitational theory in a volume is exactly equivalent to a quantum field theory on its boundary.", acceptableAnswers: ["all volume information encodeable on 2D boundary surface", "Bekenstein-Hawking entropy proportional to surface area not volume", "AdS/CFT gravitational theory in volume equals QFT on boundary — information preserved not lost"] },
+      { id: "astrop_200_01", categoryId: "astrophysics", tier: 200, prompt: "What is the 'event horizon' of a black hole — and why does the information paradox it creates matter for physics?", answer: "The event horizon is the boundary beyond which nothing — not even light — can escape. The information paradox: Hawking radiation (thermal, random) carries no information about what fell in — if information is truly lost, this violates quantum mechanics' core principle of unitarity (all quantum processes are reversible in principle). Proposals like the holographic principle and firewall paradox attempt to resolve it.", acceptableAnswers: ["boundary beyond which nothing including light escapes", "Hawking radiation random carries no information violating unitarity", "information apparently destroyed conflicts with quantum mechanics reversibility"] },
+      { id: "astrop_200_02", categoryId: "astrophysics", tier: 200, prompt: "What is the difference between dark matter and dark energy — and what distinct observational evidence supports each?", answer: "Dark matter: invisible matter exerting gravitational effects — evidence: galaxy rotation curves (stars orbit too fast for visible matter), gravitational lensing by invisible mass, structure formation. Dark energy: force causing accelerating expansion — evidence: 1998 supernova survey showing distant supernovae dimmer than expected. Together ~95% of the universe's energy content.", acceptableAnswers: ["dark matter gravity effects without visible matter galaxy rotation curves lensing", "dark energy accelerating expansion discovered via supernova dimness 1998", "dark matter pulls together dark energy pushes apart together 95% of universe"] },
+      { id: "astrop_200_03", categoryId: "astrophysics", tier: 200, prompt: "The 2015 LIGO detection of gravitational waves was called historic. What exactly was detected — and why did it open a new window on the universe?", answer: "LIGO directly detected gravitational waves — ripples in spacetime from two merging black holes 1.3 billion light-years away (GW150914). Significance: confirmed Einstein's general relativity prediction (100 years after 1915); opened gravitational wave astronomy — phenomena invisible to light telescopes (black hole mergers, neutron star collisions) can now be studied; revealed a new class of unexpectedly massive stellar black holes.", acceptableAnswers: ["first direct detection of gravitational waves confirming general relativity", "two merging black holes 1.3 billion light years away GW150914", "new observational window: phenomena invisible to light telescopes now detectable"] },
+      { id: "astrop_400_01", categoryId: "astrophysics", tier: 400, prompt: "What is the 'fine-tuned universe' problem — and why is the multiverse proposed as a response philosophically contested?", answer: "The universe's fundamental constants appear set with extraordinary precision for stars, chemistry, and life to exist — slightly different values and no complex structures form. Three responses: (1) Multiverse — if infinite universes exist with different constants, we necessarily live in one with life-permitting constants (anthropic principle); (2) Design — fine-tuning as evidence of intentional creation; (3) Deflationary — no reference class of non-life-permitting universes exists, making 'fine-tuned' question-begging. Multiverse is contested because it's currently unfalsifiable.", acceptableAnswers: ["fundamental constants appear precisely set for life to exist", "multiverse anthropic principle design and deflationary no reference class as three responses", "multiverse unfalsifiable so fine-tuning argument philosophically contested"] },
+      { id: "astrop_400_02", categoryId: "astrophysics", tier: 400, prompt: "What is a neutron star — and why do pulsars allow some of the most precise measurements in physics?", answer: "Neutron stars: collapsed stellar cores (after supernova) so dense electrons and protons merge into neutrons — roughly 1.4 solar masses in a 20km sphere. Pulsars emit electromagnetic beams from their poles as they spin, with extraordinary stability rivaling atomic clocks. The first binary pulsar (Hulse-Taylor, 1974) confirmed gravitational wave emission by measuring orbital decay matching general relativity predictions — winning the 1993 Nobel Prize.", acceptableAnswers: ["collapsed stellar core where electrons and protons merge into neutrons ~20km sphere", "pulsars spin with atomic-clock stability enabling precise measurements", "Hulse-Taylor binary pulsar measured orbital decay matching GR predictions Nobel 1993"] },
+      { id: "astrop_400_03", categoryId: "astrophysics", tier: 400, prompt: "What is the cosmic microwave background (CMB) — and what did the Planck satellite's precise measurements reveal about the universe's composition?", answer: "The CMB is thermal radiation left from ~380,000 years after the Big Bang, when the universe cooled enough for electrons to combine with protons (recombination), making it transparent. It's a near-perfect blackbody at 2.725K with tiny temperature fluctuations (1 part in 100,000) that seeded large-scale structure. Planck results: ~68% dark energy, ~27% dark matter, ~5% ordinary matter; age = 13.8 billion years; geometry = flat.", acceptableAnswers: ["thermal radiation from 380,000 years after Big Bang when universe became transparent", "temperature fluctuations seeded large-scale structure of the universe", "Planck: 68% dark energy 27% dark matter 5% ordinary matter 13.8 billion years flat geometry"] },
+      { id: "astrop_600_01", categoryId: "astrophysics", tier: 600, prompt: "What is the Fermi Paradox — and which resolution (Great Filter, Rare Earth, self-destruction, zoo) do you find most scientifically compelling and why must you defend your reasoning?", answer: "Fermi Paradox: the contradiction between high probability estimates for intelligent extraterrestrial life and total absence of evidence. Key resolutions: (1) Great Filter — some step toward space-colonizing life is nearly impossible (could be behind us [good] or ahead [bad/catastrophic]); (2) Rare Earth — complex life requires extraordinarily specific conditions rarely met; (3) Self-destruction — civilizations consistently destroy themselves before achieving interstellar communication; (4) Zoo hypothesis — we're deliberately not contacted; (5) Detection limitation — we haven't looked long or specifically enough. Each requires assumptions we cannot test, so any compelling argument must state its assumptions.", acceptableAnswers: ["contradiction between probability of alien life and total absence of evidence", "Great Filter rare Earth self-destruction detection limits zoo hypothesis as resolutions", "Great Filter most alarming if it is ahead of us catastrophic if behind us is reassuring"] },
+      { id: "astrop_600_02", categoryId: "astrophysics", tier: 600, prompt: "What is cosmic inflation — what problems does it solve, what prediction has been confirmed, and what remains unconfirmed?", answer: "Inflation: exponential expansion in the first ~10^-32 seconds after the Big Bang (Alan Guth, 1980). Solves: the flatness problem (why is spatial geometry so precisely flat?), the horizon problem (why is the CMB uniform across causally disconnected regions?), and the magnetic monopole problem. Confirmed: the CMB's specific pattern of temperature fluctuations matches inflationary predictions. Unconfirmed: primordial gravitational waves (B-mode CMB polarization) — BICEP2 announced detection in 2014 but the signal was galactic dust contamination.", acceptableAnswers: ["exponential expansion in first 10^-32 seconds solving flatness horizon monopole problems", "CMB temperature fluctuation pattern confirmed", "primordial gravitational waves unconfirmed BICEP2 result was dust contamination"] },
+      { id: "astrop_600_03", categoryId: "astrophysics", tier: 600, prompt: "What is the holographic principle — and how does it relate to resolving the black hole information paradox?", answer: "Holographic principle: all information in a volume of space can be encoded on its 2D boundary surface. Proposed by 't Hooft and Susskind from black hole thermodynamics — Bekenstein-Hawking entropy is proportional to surface area, not volume. Relation to information paradox: if information is encoded on the event horizon rather than destroyed in the interior, Hawking radiation could encode information in subtle quantum correlations, preserving unitarity. The AdS/CFT correspondence (Maldacena, 1997) provides a mathematical realization: a gravitational theory in a volume is exactly equivalent to a quantum field theory on its boundary.", acceptableAnswers: ["all volume information encodeable on 2D boundary surface", "Bekenstein-Hawking entropy proportional to surface area not volume", "AdS/CFT gravitational theory in volume equals QFT on boundary — information preserved not lost"] },
     ],
   },
   {
@@ -50335,11 +50335,11 @@ const CATEGORIES: Category[] = [
       { id: "mon_200_01", categoryId: "mongol_empire", tier: 200, prompt: "Genghis Khan's birth name was Temüjin. What does 'Genghis Khan' mean — and at what specific event was the title conferred on him?", answer: "'Genghis Khan' most likely means 'Universal Ruler' or 'Oceanic Ruler' — an all-encompassing sovereign. The title was conferred at the kurultai (great assembly) of 1206, when all the Mongol and steppe tribes formally submitted to his authority on the banks of the Onon River, unifying the steppe peoples for the first time under a single ruler.", acceptableAnswers: ["Universal Ruler or Oceanic Ruler conferred at the 1206 kurultai", "Universal/All-Encompassing Khan, kurultai great assembly 1206", "Temüjin became Genghis Khan at 1206 great assembly"] },
       { id: "mon_200_02", categoryId: "mongol_empire", tier: 200, prompt: "The Battle of Ain Jalut (1260) halted the westward Mongol advance permanently. Who defeated whom — and why were the Mongols unusually vulnerable at that moment?", answer: "The Mamluks of Egypt, under Qutuz and Baybars, defeated the Mongol force commanded by Kitbuqa. The Mongols were uniquely vulnerable: the Great Khan Möngke had just died, requiring major Mongol forces to return east for the succession crisis. The Mamluks were themselves former steppe cavalry warriors, making them the one force capable of matching Mongol tactics. The defeat ended Mongol expansion into Africa and the Levant permanently.", acceptableAnswers: ["Mamluks under Qutuz and Baybars defeated Mongols under Kitbuqa", "Mongols weakened by Möngke Khan's death pulling forces east for succession", "Mamluks — former steppe warriors — defeated Mongols at Ain Jalut 1260"] },
       { id: "mon_200_03", categoryId: "mongol_empire", tier: 200, prompt: "The Mongol yam (örtöö) relay system was the ancient world's most efficient communications network. How did it work — and what capability did it give the empire?", answer: "Fresh horses and riders were stationed every 25–40 miles across the empire's roads. Riders rode in continuous relay, never slowing for a tired horse, and could cover 200+ miles per day — messages traveled from one end of the empire to the other in days. It made the Mongol Empire the first to administer a continent-spanning territory in near-real time, enabling both military coordination and commercial passage via the diplomatic passport (the paiza).", acceptableAnswers: ["fresh horses every 25-40 miles relay system, 200+ miles per day", "yam relay: new horses at stations, riders never stop, fastest ancient courier network", "posts every 25-40 miles enabling 200+ miles per day — continent-spanning real-time administration"] },
-      { id: "mon_400_01", categoryId: "mongol_empire", tier: 400, prompt: "The Mongol siege of Baghdad in 1258 ended the Abbasid Caliphate. How was the Caliph Al-Musta'sim executed — and why does the city's destruction represent a civilizational watershed?", answer: "Al-Musta'sim was wrapped in carpet or felt and trampled by horses — a Mongol taboo against spilling royal blood. The destruction: the House of Wisdom and its libraries were burned and the Tigris reportedly ran black with ink from thrown manuscripts; an Abbasid Caliphate that had lasted since 750 CE ended overnight. The Islamic world's intellectual center was permanently damaged — the Mamluks later revived a nominal Abbasid Caliphate in Cairo, but Baghdad never recovered its scholarly preeminence.", acceptableAnswers: ["wrapped in carpet trampled by horses — Mongol taboo against spilling royal blood", "House of Wisdom destroyed, Tigris ran black with ink, Abbasid Caliphate ended", "royal blood taboo: rolled in felt; Baghdad's libraries destroyed ending 500-year Islamic intellectual center"] },
+      { id: "monemp_400_01", categoryId: "mongol_empire", tier: 400, prompt: "The Mongol siege of Baghdad in 1258 ended the Abbasid Caliphate. How was the Caliph Al-Musta'sim executed — and why does the city's destruction represent a civilizational watershed?", answer: "Al-Musta'sim was wrapped in carpet or felt and trampled by horses — a Mongol taboo against spilling royal blood. The destruction: the House of Wisdom and its libraries were burned and the Tigris reportedly ran black with ink from thrown manuscripts; an Abbasid Caliphate that had lasted since 750 CE ended overnight. The Islamic world's intellectual center was permanently damaged — the Mamluks later revived a nominal Abbasid Caliphate in Cairo, but Baghdad never recovered its scholarly preeminence.", acceptableAnswers: ["wrapped in carpet trampled by horses — Mongol taboo against spilling royal blood", "House of Wisdom destroyed, Tigris ran black with ink, Abbasid Caliphate ended", "royal blood taboo: rolled in felt; Baghdad's libraries destroyed ending 500-year Islamic intellectual center"] },
       { id: "mon_400_02", categoryId: "mongol_empire", tier: 400, prompt: "After Möngke Khan's death the empire fractured into four khanates. Name them, state who ruled each, and explain how differently each related to local culture.", answer: "Yuan Dynasty (China, Kublai Khan — most assimilated: adopted Chinese bureaucracy, patronized Buddhism, governed through Chinese administrative structures); Ilkhanate (Persia, Hulegu's dynasty — converted to Islam under Ghazan Khan 1295, absorbed Persian culture and patronized Persian art and science); Golden Horde (the Kipchak steppe and Russia, descendants of Jochi — converted to Islam under Öz Beg Khan 1313, collected tribute from Russian princes); Chagatai Khanate (Central Asia — most conservative, retained traditional nomadic Mongol culture longest, resisted permanent urban settlement).", acceptableAnswers: ["Yuan China Kublai; Ilkhanate Persia Hulegu; Golden Horde Russia; Chagatai Central Asia", "four khanates: Yuan (China, assimilated), Ilkhanate (Persia, became Muslim), Golden Horde (Russia/steppe), Chagatai (Central Asia, most traditional)", "Yuan/Ilkhanate/Golden Horde/Chagatai — ranging from fully assimilated Chinese bureaucracy to conservative nomadic tradition"] },
       { id: "mon_400_03", categoryId: "mongol_empire", tier: 400, prompt: "The Secret History of the Mongols is the oldest surviving Mongolian literary text. What is its genre, when was it likely written, and why is it an unusual primary source for Genghis Khan's life?", answer: "Likely written c.1227–1240s, shortly after Genghis Khan's death, probably under Ögedei's patronage. Genre: a mythological-genealogical epic combining shamanic cosmology (divine wolf-and-doe ancestry) with what reads as genuine historical detail about Temüjin's rise. Unusual as a source: unlike official court histories, it shows Temüjin's crimes, betrayals, and moments of weakness alongside his greatness — suggesting it was meant for internal dynastic use rather than propaganda. Its survival depended on a 14th-century Chinese transliteration since the original manuscript was lost.", acceptableAnswers: ["mythological-genealogical epic written c.1227-1240 under Ögedei, uniquely shows Temüjin's weaknesses and crimes", "oldest Mongolian text: sacred origin myth combined with apparently genuine historical detail, written shortly after Genghis's death", "internal dynastic document not propaganda — shows Temüjin's betrayals and crimes unlike official histories"] },
-      { id: "mon_600_01", categoryId: "mongol_empire", tier: 600, prompt: "The Pax Mongolica enabled unprecedented Eurasian connectivity. What did it actually enable — and how should historians weigh the 'peace' against the demographic cost of establishing it?", answer: "Enabled: the Silk Road functioned at peak capacity (Ibn Battuta, Marco Polo, and Rabban Sauma all traveled under Mongol protection); the paiza diplomatic passport created a proto-visa system; technology transfer (paper, printing, gunpowder, bubonic plague) moved at continental scale for the first time; direct diplomatic contact between Europe and China became possible. The cost: modern estimates of Mongol conquest deaths range from 10–40 million; northern China may have lost 50% of its population; Central Asian agricultural systems (qanat irrigation networks) were permanently destroyed in some regions, reducing the area's population-carrying capacity for centuries. The 'peace' was achieved on a landscape of unprecedented devastation — the Pax and the destruction are inseparable.", acceptableAnswers: ["Silk Road at peak capacity, paiza passport system, technology transfer including plague — built on 10-40 million dead", "Marco Polo Ibn Battuta Rabban Sauma traveled under Pax; China lost 50% northern population; irrigation systems permanently destroyed", "connectivity and civilizational destruction are inseparable — the Pax required a depopulated and terrorized world to function"] },
-      { id: "mon_600_02", categoryId: "mongol_empire", tier: 600, prompt: "The Black Death (1346–1353) spread along Mongol trade routes. What was the specific chain of events connecting the Mongol communication infrastructure to Europe's ~30–60% population loss?", answer: "Yersinia pestis (bubonic plague) originated in Central Asian rodent reservoirs. The yam system and Pax Mongolica trade routes created continuous human-and-rodent contact chains from Inner Asia to the Black Sea — the first time such unbroken corridors existed. The specific trigger event: the Mongol siege of Kaffa (Crimea, 1346), where Mongol forces reportedly catapulted plague-infected corpses over the walls — the first documented biological warfare. Genoese merchants fleeing Kaffa brought the plague to Messina, Sicily in 1347. The same infrastructure that accelerated trade across Eurasia made the plague's spread from Central Asia to the Mediterranean possible in under 15 years.", acceptableAnswers: ["Mongol siege of Kaffa 1346 catapulting plague corpses; Genoese fled to Messina 1347", "yam relay and Pax Mongolica trade routes created continuous corridor from Central Asian rodent reservoirs to Black Sea to Europe", "biological warfare at Kaffa + unbroken Silk Road corridor = plague reaching Mediterranean in 15 years from Central Asia"] },
+      { id: "monemp_600_01", categoryId: "mongol_empire", tier: 600, prompt: "The Pax Mongolica enabled unprecedented Eurasian connectivity. What did it actually enable — and how should historians weigh the 'peace' against the demographic cost of establishing it?", answer: "Enabled: the Silk Road functioned at peak capacity (Ibn Battuta, Marco Polo, and Rabban Sauma all traveled under Mongol protection); the paiza diplomatic passport created a proto-visa system; technology transfer (paper, printing, gunpowder, bubonic plague) moved at continental scale for the first time; direct diplomatic contact between Europe and China became possible. The cost: modern estimates of Mongol conquest deaths range from 10–40 million; northern China may have lost 50% of its population; Central Asian agricultural systems (qanat irrigation networks) were permanently destroyed in some regions, reducing the area's population-carrying capacity for centuries. The 'peace' was achieved on a landscape of unprecedented devastation — the Pax and the destruction are inseparable.", acceptableAnswers: ["Silk Road at peak capacity, paiza passport system, technology transfer including plague — built on 10-40 million dead", "Marco Polo Ibn Battuta Rabban Sauma traveled under Pax; China lost 50% northern population; irrigation systems permanently destroyed", "connectivity and civilizational destruction are inseparable — the Pax required a depopulated and terrorized world to function"] },
+      { id: "monemp_600_02", categoryId: "mongol_empire", tier: 600, prompt: "The Black Death (1346–1353) spread along Mongol trade routes. What was the specific chain of events connecting the Mongol communication infrastructure to Europe's ~30–60% population loss?", answer: "Yersinia pestis (bubonic plague) originated in Central Asian rodent reservoirs. The yam system and Pax Mongolica trade routes created continuous human-and-rodent contact chains from Inner Asia to the Black Sea — the first time such unbroken corridors existed. The specific trigger event: the Mongol siege of Kaffa (Crimea, 1346), where Mongol forces reportedly catapulted plague-infected corpses over the walls — the first documented biological warfare. Genoese merchants fleeing Kaffa brought the plague to Messina, Sicily in 1347. The same infrastructure that accelerated trade across Eurasia made the plague's spread from Central Asia to the Mediterranean possible in under 15 years.", acceptableAnswers: ["Mongol siege of Kaffa 1346 catapulting plague corpses; Genoese fled to Messina 1347", "yam relay and Pax Mongolica trade routes created continuous corridor from Central Asian rodent reservoirs to Black Sea to Europe", "biological warfare at Kaffa + unbroken Silk Road corridor = plague reaching Mediterranean in 15 years from Central Asia"] },
       { id: "mon_600_03", categoryId: "mongol_empire", tier: 600, prompt: "Genghis Khan's policy of religious tolerance is often called enlightened. Assess this claim with specific evidence — and explain what it actually reveals about Mongol statecraft.", answer: "Evidence for tolerance: religious practitioners of all faiths were exempt from taxation; Genghis met with Daoist masters and debated theology; Nestorian Christians, Buddhists, Muslims, and shamanists all served in his court and family (Hulegu's wife was Nestorian; Kublai Khan hosted Franciscan friars). Structural explanation: Mongol tengriism held that multiple supernatural forces existed and competing them for favor was sensible — pragmatic pluralism, not principled. Practical reason: religious institutions (monasteries, mosques, churches) provided administrative networks useful for governing conquered populations. Limits: when religious institutions threatened political authority or rebellion, they were destroyed without hesitation — Baghdad's destruction showed that preservation of Islamic learning was entirely subordinate to conquest logistics. The tolerance was real but conditional and entirely instrumental.", acceptableAnswers: ["tax exemption for all clergy, multiple faiths at court — but Baghdad destroyed showing limits of tolerance", "tengriism's logic: multiple supernatural forces worth cultivating; pragmatic not principled pluralism", "tolerance real but conditional — instrumental for administration; destroyed when religious institutions threatened political order"] },
     ],
   },
@@ -50430,11 +50430,11 @@ const CATEGORIES: Category[] = [
       { id: "pho_200_01", categoryId: "ancient_phoenicia", tier: 200, prompt: "The Phoenician alphabet had ~22 letters. What crucial innovation distinguished it from all earlier writing systems — and why did this make it the ancestor of most alphabets used today?", answer: "The Phoenician script was a pure abjad — 22 consonants, no vowels, no logograms, no syllabic elements. Earlier systems (Egyptian hieroglyphics, Mesopotamian cuneiform, Mycenaean Linear B) all mixed logograms, syllabic signs, and phonetic elements requiring hundreds of signs to master. Phoenician reduced all spoken language to 22 symbols representing consonants only, making literacy achievable in days rather than years of scribal training. The Greeks added vowels (~800 BCE), creating the first true alphabet. From the Phoenician-Greek script descend Latin, Cyrillic, Arabic, Hebrew, and most of the world's alphabets.", acceptableAnswers: ["pure abjad: 22 consonants only, no logograms or syllabic elements — reduced writing to 22 signs mastered in days not years", "first purely phonemic script without logograms; Greeks added vowels creating first true alphabet; ancestor of Latin Arabic Hebrew Cyrillic", "22 consonants only vs hundreds of mixed signs in cuneiform/hieroglyphics — democratized literacy"] },
       { id: "pho_200_02", categoryId: "ancient_phoenicia", tier: 200, prompt: "Tyrian purple dye was the most valuable luxury commodity in the ancient Mediterranean. Where did it come from — and what made it so extraordinarily expensive?", answer: "Extracted from the hypobranchial gland of the Murex snail (primarily Murex brandaris and Hexaplex trunculus). The process: thousands of snails were collected, crushed, and the gland extract exposed to air and sunlight to develop the color — the smell was reportedly appalling. Approximately 12,000 snails were needed to produce 1.5 grams of dye — enough for a single toga hem. The color was also uniquely permanent and actually intensified with exposure to sunlight rather than fading. The cost made purple fabric synonymous with royalty and imperial authority across the Mediterranean world.", acceptableAnswers: ["extracted from Murex snail gland; ~12,000 snails for 1.5g — enough for one toga hem", "Murex brandaris snail hypobranchial gland; thousands of snails per gram; color intensified rather than faded — uniquely permanent", "labor-intensive snail extraction (~12,000 per 1.5g), terrible smell, permanent non-fading color made it the ancient world's most valuable textile pigment"] },
       { id: "pho_200_03", categoryId: "ancient_phoenicia", tier: 200, prompt: "The Phoenician city of Byblos gave the world the word 'Bible.' How does the etymology work?", answer: "Byblos (modern Jubayl, Lebanon) was the main trading port for Egyptian papyrus exported to Greece. The Greeks used the city's name as a common noun — byblos/biblos — for papyrus itself, because that was where it came from. 'Biblos' then generalized to mean any written document or book. The plural, 'ta biblia' ('the books'), became the Greek title for the Hebrew scriptures — eventually rendered in Latin as 'Biblia' and into English as 'Bible.' A Phoenician trading port's commercial dominance in one commodity worked its way into the name of the world's most-read text.", acceptableAnswers: ["Byblos was main papyrus trading port so Greeks used city name 'byblos/biblos' for papyrus then books; ta biblia = the books = Bible", "Byblos → biblos (Greek for papyrus from that port) → biblia (books) → Bible", "commercial dominance in papyrus trade made Byblos synonymous with papyrus/books — ta biblia → Bible"] },
-      { id: "pho_400_01", categoryId: "ancient_phoenicia", tier: 400, prompt: "Carthage was traditionally founded by the Phoenician queen Dido (Elissa) around 814 BCE. What is the bull's hide legend — and what is the archaeology's relationship to the traditional date?", answer: "The legend: Dido was told she could have as much land as could be covered by a bull's hide. She cut the hide into thin strips and surrounded Byrsa hill — the founding citadel. 'Byrsa' was interpreted by Greeks as meaning 'hide' (it may actually derive from the Punic word for fortress). The traditional date of 814 BCE aligns roughly with the oldest Phoenician archaeological evidence from Carthage (~800 BCE), though some scholars prefer a date closer to 750 BCE based on material culture. The site became one of the Mediterranean's great cities, controlling western Mediterranean trade until Rome destroyed it in 146 BCE after the Third Punic War.", acceptableAnswers: ["Dido cut bull hide into strips to encircle Byrsa hill; 814 BCE traditional date; archaeology suggests ~800-750 BCE material culture", "Elissa/Dido hide-strip legend founding Byrsa citadel; Byrsa possibly from Punic for fortress not Greek for hide", "bull hide cut to strips encircle maximum land; traditional 814 BCE; archaeological evidence from ~800 BCE aligns approximately"] },
+      { id: "ancpho_400_01", categoryId: "ancient_phoenicia", tier: 400, prompt: "Carthage was traditionally founded by the Phoenician queen Dido (Elissa) around 814 BCE. What is the bull's hide legend — and what is the archaeology's relationship to the traditional date?", answer: "The legend: Dido was told she could have as much land as could be covered by a bull's hide. She cut the hide into thin strips and surrounded Byrsa hill — the founding citadel. 'Byrsa' was interpreted by Greeks as meaning 'hide' (it may actually derive from the Punic word for fortress). The traditional date of 814 BCE aligns roughly with the oldest Phoenician archaeological evidence from Carthage (~800 BCE), though some scholars prefer a date closer to 750 BCE based on material culture. The site became one of the Mediterranean's great cities, controlling western Mediterranean trade until Rome destroyed it in 146 BCE after the Third Punic War.", acceptableAnswers: ["Dido cut bull hide into strips to encircle Byrsa hill; 814 BCE traditional date; archaeology suggests ~800-750 BCE material culture", "Elissa/Dido hide-strip legend founding Byrsa citadel; Byrsa possibly from Punic for fortress not Greek for hide", "bull hide cut to strips encircle maximum land; traditional 814 BCE; archaeological evidence from ~800 BCE aligns approximately"] },
       { id: "pho_400_02", categoryId: "ancient_phoenicia", tier: 400, prompt: "The Periplus of Hanno describes a Carthaginian naval expedition down the West African coast. What did Hanno reportedly encounter — and why is the scholarly debate about how far he actually reached still unresolved?", answer: "Hanno (5th–6th century BCE) reportedly led ~60 ships and 30,000 colonists south along the African coast, founding several colonies before proceeding further for exploration. The text describes volcanic activity (probably Mount Cameroon or the Canary Islands), strange coastal peoples, and 'Gorgades' — wild hairy people they captured whose skins were brought back to Carthage. These 'Gorgades' are often identified as the first recorded encounter with gorillas (the word 'gorilla' comes from this text, coined by Thomas Savage in 1847). Scholarly debate: the dating of the original text is disputed (may be a later reconstruction); estimates of how far south he reached range from Morocco/Senegal to Cameroon or even beyond; no archaeological evidence of Carthaginian presence confirms the southernmost claims.", acceptableAnswers: ["volcanic activity, 'Gorgades' hairy wild people — possibly first recorded gorilla encounter; word gorilla derives from this text", "periplus describes Mount Cameroon (probably) and Gorgades; scholarly debate: Morocco to Cameroon range for how far he reached, text dating uncertain", "Hanno possibly reached Cameroon; 'Gorgades' gave Thomas Savage the name 'gorilla' in 1847; extent disputed due to uncertain text dating"] },
       { id: "pho_400_03", categoryId: "ancient_phoenicia", tier: 400, prompt: "Punic — the Phoenician dialect of North Africa — survived for centuries after Carthage's destruction. How long did it last, and what evidence do we have?", answer: "Punic survived as a spoken language in North Africa until at least the 4th–5th century CE — a remarkable ~600 years after Rome destroyed Carthage in 146 BCE. Augustine of Hippo (354–430 CE) mentioned that Punic was still spoken in his region of North Africa and that some of his clergy used it. 'Neo-Punic' inscriptions continue into the 1st–2nd century CE. Substrate evidence: Latin inscriptions from North Africa show Punic vocabulary and syntax (the 'Punic Latin' substrate); place names from North Africa and Iberia preserve Phoenician: Cádiz = Gadir (enclosure/port); Cartagena = Qart Hadasht (New City); Malaga = Malaka (factory/trading post). The Phoenician commercial and cultural presence left a permanent linguistic layer beneath Roman North Africa.", acceptableAnswers: ["Augustine (4th-5th century CE) said Punic still spoken in North Africa — ~600 years after Carthage's 146 BCE destruction", "Neo-Punic inscriptions to 1st-2nd century CE; Augustine's clergy used Punic; Cádiz=Gadir, Cartagena=Qart Hadasht preserve Phoenician place names", "survived to Augustine's time; substrate in Latin inscriptions; Iberian place names (Gadir, Qart Hadasht) from Phoenician"] },
-      { id: "pho_600_01", categoryId: "ancient_phoenicia", tier: 600, prompt: "The tophets of Carthage — sacred precincts with cremated infant remains — are at the center of one of archaeology's most contested debates. What does the evidence show, and where do scholars disagree?", answer: "Ancient accusation: Classical and Biblical sources (Diodorus, Plutarch, the Hebrew Bible) describe Carthaginians systematically sacrificing children, especially firstborn sons, to Baal Hammon and Tanit. Archaeological evidence: tophet sites at Carthage (and other Punic sites) contain urns with cremated remains of infants and young children, dedicatory stelae, and votive inscriptions. This confirms the sites were used for child cremation and dedication to the gods. The debate: Stager and Wolff (1984) argued for systematic child sacrifice — the inscriptions use sacrificial language (mlk offerings). Jeffrey Schwartz et al. (2010–12) found high proportions of stillborns and very young infants who may have died naturally — cremation possibly as memorial rites for those who died before being fully 'born' into society. Compromise position: the tophets likely served both functions — some ritual sacrifice alongside natural-death cremation — and the proportion remains contested.", acceptableAnswers: ["confirmed: cremated infant remains and votive stelae; debated: Stager argued systematic mlk sacrifice vs Schwartz finding stillborns suggesting natural-death memorial", "tophets real; scholarly split between systematic sacrifice (Stager) and mostly natural-death memorial cremation (Schwartz) — likely both", "mlk offering inscriptions support sacrifice reading; high stillborn proportion supports memorial reading; modern consensus: probably both functions"] },
-      { id: "pho_600_02", categoryId: "ancient_phoenicia", tier: 600, prompt: "Sidon is often credited with inventing glass-blowing. What is the evidence for this — and how did this single innovation change the ancient economy?", answer: "Core-formed glass (making vessels around a clay core) had existed since ~1500 BCE in Mesopotamia and Egypt. The Phoenicians were key Mediterranean distributors but not the inventors of this technique. The transformative innovation — glass-blowing, using a hollow tube to expand molten glass — is attested in the Syro-Palestinian region (including Sidon) from approximately the 1st century BCE. Sidonian glass became famous throughout the Roman Empire: Sidonian glassblowers emigrated across Roman territories, and many Roman glass vessels bear Sidonian craftsmen's signatures. The economic transformation: before blowing, glass vessels were prohibitively expensive luxury objects (each requiring hours of labor). Blowing made thin-walled vessels producible in minutes, enabling mass production and democratizing glass — turning a royal luxury into a common household commodity across the Mediterranean within a century or two.", acceptableAnswers: ["glass-blowing (~1st century BCE) attested in Sidon/Syro-Palestinian region; Sidonian craftsmen emigrated across Roman Empire leaving signatures", "before blowing: expensive luxury (hours per vessel); blowing: minutes per vessel, mass production, glass democratized from royal luxury to common household item", "Sidonian glass famous in Rome; blowing invention democratized glass as core-forming had made it a luxury; economic transformation from luxury to commodity"] },
+      { id: "ancpho_600_01", categoryId: "ancient_phoenicia", tier: 600, prompt: "The tophets of Carthage — sacred precincts with cremated infant remains — are at the center of one of archaeology's most contested debates. What does the evidence show, and where do scholars disagree?", answer: "Ancient accusation: Classical and Biblical sources (Diodorus, Plutarch, the Hebrew Bible) describe Carthaginians systematically sacrificing children, especially firstborn sons, to Baal Hammon and Tanit. Archaeological evidence: tophet sites at Carthage (and other Punic sites) contain urns with cremated remains of infants and young children, dedicatory stelae, and votive inscriptions. This confirms the sites were used for child cremation and dedication to the gods. The debate: Stager and Wolff (1984) argued for systematic child sacrifice — the inscriptions use sacrificial language (mlk offerings). Jeffrey Schwartz et al. (2010–12) found high proportions of stillborns and very young infants who may have died naturally — cremation possibly as memorial rites for those who died before being fully 'born' into society. Compromise position: the tophets likely served both functions — some ritual sacrifice alongside natural-death cremation — and the proportion remains contested.", acceptableAnswers: ["confirmed: cremated infant remains and votive stelae; debated: Stager argued systematic mlk sacrifice vs Schwartz finding stillborns suggesting natural-death memorial", "tophets real; scholarly split between systematic sacrifice (Stager) and mostly natural-death memorial cremation (Schwartz) — likely both", "mlk offering inscriptions support sacrifice reading; high stillborn proportion supports memorial reading; modern consensus: probably both functions"] },
+      { id: "ancpho_600_02", categoryId: "ancient_phoenicia", tier: 600, prompt: "Sidon is often credited with inventing glass-blowing. What is the evidence for this — and how did this single innovation change the ancient economy?", answer: "Core-formed glass (making vessels around a clay core) had existed since ~1500 BCE in Mesopotamia and Egypt. The Phoenicians were key Mediterranean distributors but not the inventors of this technique. The transformative innovation — glass-blowing, using a hollow tube to expand molten glass — is attested in the Syro-Palestinian region (including Sidon) from approximately the 1st century BCE. Sidonian glass became famous throughout the Roman Empire: Sidonian glassblowers emigrated across Roman territories, and many Roman glass vessels bear Sidonian craftsmen's signatures. The economic transformation: before blowing, glass vessels were prohibitively expensive luxury objects (each requiring hours of labor). Blowing made thin-walled vessels producible in minutes, enabling mass production and democratizing glass — turning a royal luxury into a common household commodity across the Mediterranean within a century or two.", acceptableAnswers: ["glass-blowing (~1st century BCE) attested in Sidon/Syro-Palestinian region; Sidonian craftsmen emigrated across Roman Empire leaving signatures", "before blowing: expensive luxury (hours per vessel); blowing: minutes per vessel, mass production, glass democratized from royal luxury to common household item", "Sidonian glass famous in Rome; blowing invention democratized glass as core-forming had made it a luxury; economic transformation from luxury to commodity"] },
       { id: "pho_600_03", categoryId: "ancient_phoenicia", tier: 600, prompt: "Alexander the Great's 7-month siege of Tyre (332 BCE) was triggered by a religious dispute. What was the religious-political logic — and how does the episode reveal the intersection of religion, sovereignty, and imperial propaganda?", answer: "Alexander demanded the right to sacrifice at Tyre's temple of Melqart — the chief god of Tyre, whom the Greeks identified with Heracles/Hercules (interpretatio graeca). The Tyrians refused: to allow Alexander into the sacred precinct of their city god would be to acknowledge Macedonian sovereignty over their divine patron — a form of political submission. Alexander claimed descent from Heracles, making the sacrifice also a statement of his divine heritage and legitimacy over Melqart's domains. The siege: Tyre was an island city with the strongest naval fleet in the eastern Mediterranean; Alexander built a mole (causeway) from the mainland over seven months, an extraordinary engineering feat. After the city fell, Alexander sacrificed at the temple — symbolically claiming Heracles' heritage, Tyrian religious authority, and the blessing of the deity the Tyrians had tried to protect from him. The episode shows religion functioning as a sovereignty claim: controlling who accesses the divine is equivalent to controlling who has political legitimacy in that territory.", acceptableAnswers: ["Tyrians refused because admitting Alexander to Melqart temple = acknowledging Macedonian sovereignty over city god; interpretatio graeca: Melqart = Heracles", "Alexander claimed Heracles descent making Melqart sacrifice a dynastic legitimacy claim; Tyrian refusal = protecting sovereignty through religion", "7-month siege including mole-building; post-conquest sacrifice claimed Heracles heritage AND Tyrian divine authority — religion as sovereignty instrument"] },
     ],
   },
@@ -55472,7 +55472,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["a stick-up man who robs drug dealers with a personal code", "omar refuses to hurt civilians and is openly gay", "he operates by his own code within the criminal world"],
       },
       {
-        id: "wir_200_03",
+        id: "tvthe_200_03",
         categoryId: "tv_the_wire",
         tier: 200,
         prompt: "What does The Wire's seasonal structure represent — and what institution does each season primarily focus on?",
@@ -55496,7 +55496,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["mcnulty fakes a serial killer to get resources; media laps it up", "the hoax critiques how media ignores real problems but sensationalizes spectacle", "fabricated serial killer exposes institutional media failure"],
       },
       {
-        id: "wir_400_03",
+        id: "tvthe_400_03",
         categoryId: "tv_the_wire",
         tier: 400,
         prompt: "Who is Stringer Bell — and what is the tragic irony of his attempt to 'go legitimate'?",
@@ -55520,7 +55520,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["four boys represent different systemic fates — one saved, others destroyed", "their fates show that structure determines outcome more than individual character", "namond saved, michael becomes omar, randy labeled snitch, dukie becomes addict"],
       },
       {
-        id: "wir_600_03",
+        id: "tvthe_600_03",
         categoryId: "tv_the_wire",
         tier: 600,
         prompt: "How does The Wire use the character arc of Proposition Joe to critique the limits of 'cooperation' within an inherently violent system?",
@@ -56853,7 +56853,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["migi infiltrated shinichi's hand instead of brain — they're forced into a partnership instead of takeover", "the parasite in shinichi's right hand; they share a body as equals rather than parasite controlling host", "migi is unique because the partial infiltration forces genuine cooperation rather than domination"],
       },
       {
-        id: "psy_200_03",
+        id: "anipar_200_03",
         categoryId: "anime_parasyte",
         tier: 200,
         prompt: "What is the central ecological argument Parasyte makes through the parasite characters who ask 'what is humanity doing to the planet'?",
@@ -56877,7 +56877,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["a parasite teacher who develops maternal feeling and dies protecting her child — blurring human/parasite distinction", "reiko is significant because she shows parasites can develop emotion given experience", "she dies protecting her infant like a human mother — the show's strongest argument that the two species aren't fundamentally different"],
       },
       {
-        id: "psy_400_03",
+        id: "anipar_400_03",
         categoryId: "anime_parasyte",
         tier: 400,
         prompt: "What is the political subplot involving Hirokawa — and how does it connect the parasites to actual human political behavior?",
@@ -56901,7 +56901,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["satomi is criticized as passive but defended as the necessary human anchor in a hybridization story", "she represents what shinichi fights to preserve — not a character but a thematic stake", "her simplicity is either a writing weakness or an essential fixed point depending on how you read the show's structure"],
       },
       {
-        id: "psy_600_03",
+        id: "anipar_600_03",
         categoryId: "anime_parasyte",
         tier: 600,
         prompt: "How does Hitoshi Iwaaki's manga (1988-1995) reflect the ecological anxieties of late-Showa-era Japan — and how did the 2014 anime update this context?",
@@ -57994,7 +57994,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["the greatest human chess player; lost to ibm deep blue in 1997 — the first champion defeated by a computer", "kasparov accused ibm of cheating after deep blue's 1997 victory; later advocated human-computer collaboration", "his 1997 defeat by deep blue is considered one of the defining moments in artificial intelligence history"],
       },
       {
-        id: "che_200_03",
+        id: "spche_200_03",
         categoryId: "sp_chess_history",
         tier: 200,
         prompt: "What is the 'Immortal Game' — and why is it considered the most beautiful chess game ever played?",
@@ -58018,7 +58018,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["five championship matches from 1984-1990; their 1984 match termination was a political controversy", "karpov was the soviet chess establishment's champion; kasparov was an outsider — as much politics as chess", "campomanes terminated the 1984 match controversially after kasparov was mounting a comeback"],
       },
       {
-        id: "che_400_03",
+        id: "spche_400_03",
         categoryId: "sp_chess_history",
         tier: 400,
         prompt: "What is Magnus Carlsen's 'rapid and blitz dominance' argument — and why does it represent a departure from classical chess supremacy?",
@@ -58042,7 +58042,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["carlsen accused niemann of cheating after losing to him; chess.com found statistical anomalies in online games", "the niemann scandal raised the question of wireless computer assistance in over-the-board tournament chess", "carlsen withdrew from sinquefield cup without explanation; a defamation suit and statistical investigation followed"],
       },
       {
-        id: "che_600_03",
+        id: "spche_600_03",
         categoryId: "sp_chess_history",
         tier: 600,
         prompt: "How did AlphaZero's 2017 games against Stockfish change human chess understanding — specifically regarding pawn structure?",
@@ -58303,7 +58303,7 @@ const CATEGORIES: Category[] = [
     description: "Deep questions on Grace Field House, the demons, and Kaiu Shirai's thriller",
     questions: [
       {
-        id: "pnv_200_01",
+        id: "anipro_200_01",
         categoryId: "anime_promised_neverland",
         tier: 200,
         prompt: "What is the Grace Field House — and what is the reveal that defines the series?",
@@ -58311,7 +58311,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["an orphanage that is actually a farm raising children to be eaten by demons", "the house is a cattle farm where children are raised as high-quality food for demons", "the reveal is that the loving orphanage is a farm — the children are livestock, not wards"],
       },
       {
-        id: "pnv_200_02",
+        id: "anipro_200_02",
         categoryId: "anime_promised_neverland",
         tier: 200,
         prompt: "Who are Emma, Norman, and Ray — and what triangle of approaches do they represent?",
@@ -58319,7 +58319,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["emma is idealist wanting to save everyone, norman is strategic genius, ray is the pragmatic realist spy", "three approaches: idealism (emma), tactical brilliance (norman), and realism accepting sacrifice (ray)", "emma refuses to leave anyone behind, norman calculates perfectly, ray has been a spy for isabella — representing hope, tactics, and realism"],
       },
       {
-        id: "pnv_200_03",
+        id: "anipro_200_03",
         categoryId: "anime_promised_neverland",
         tier: 200,
         prompt: "Who is Isabella — and what makes her one of anime's most complex antagonists?",
@@ -58327,7 +58327,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["a former farm child who became a collaborator; loves the children but delivers them to death anyway", "complex because she's not sadistic — she grieves every shipment while being unable to refuse the system", "isabella represents willing collaboration with evil because survival demanded it and love coexists with complicity"],
       },
       {
-        id: "pnv_400_01",
+        id: "anipro_400_01",
         categoryId: "anime_promised_neverland",
         tier: 400,
         prompt: "What is 'The Promise' — and how does it structure the world the children escape into?",
@@ -58335,7 +58335,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["an ancient agreement dividing the world between humans and demons, establishing farms as the demon food supply", "the promise created the farm system — emma wants to renegotiate it for a world without human farming", "the ancient pact that divided the world; farms exist because the promise allows it — changing it is emma's ultimate goal"],
       },
       {
-        id: "pnv_400_02",
+        id: "anipro_400_02",
         categoryId: "anime_promised_neverland",
         tier: 400,
         prompt: "Why is the manga's ending so controversial — and how does it differ from what Season 1 set up?",
@@ -58343,7 +58343,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["the manga's ending was rushed with plot holes; season 2 anime's compression was considered even worse and near non-canon", "season 1 is near-perfect but the manga's final arc compressed enormous world-building badly", "emma's memory erasure and rushed promise renegotiation was a disappointing resolution to what the early story set up"],
       },
       {
-        id: "pnv_400_03",
+        id: "anipro_400_03",
         categoryId: "anime_promised_neverland",
         tier: 400,
         prompt: "What is the 'pen and tracking system' — and how does it serve as the central cat-and-mouse mechanism?",
@@ -58351,7 +58351,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["numbered tracking devices in left ears that alert caretakers if children go beyond permitted areas", "the tracking system creates the tactical thriller structure — the children must solve it without triggering alerts", "ear trackers make the escape a chess problem: finding routes and timing that evade detection defines the first arc"],
       },
       {
-        id: "pnv_600_01",
+        id: "anipro_600_01",
         categoryId: "anime_promised_neverland",
         tier: 600,
         prompt: "How does The Promised Neverland's first arc use the tension between institutional care and exploitation — and what real-world parallel does it invoke?",
@@ -58359,7 +58359,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["grace field's genuine care improves the product — mirrors institutions that provide real services while exploiting recipients", "like prisons, company towns, or colonial welfare: benevolence and exploitation aren't mutually exclusive", "the farm externalizes the logic of benevolent exploitation — care and consumption aren't contradictions when the care serves the consumption"],
       },
       {
-        id: "pnv_600_02",
+        id: "anipro_600_02",
         categoryId: "anime_promised_neverland",
         tier: 600,
         prompt: "What is the specific narrative role of Norman's sacrifice in the first arc — and why does it avoid being a conventional heroic death?",
@@ -58367,7 +58367,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["norman does nothing heroic — he accepts shipment passively, showing intelligence can't overcome systemic power", "the horror is that the smartest person in the system is helpless against the administrative turn of fate", "conventional sacrifice involves dying doing something; norman's sacrifice is accepting passivity — strategy fails against systemic inevitability"],
       },
       {
-        id: "pnv_600_03",
+        id: "anipro_600_03",
         categoryId: "anime_promised_neverland",
         tier: 600,
         prompt: "How does Kaiu Shirai's use of food imagery throughout the series function as consistent symbolic commentary?",
@@ -60299,7 +60299,7 @@ const CATEGORIES: Category[] = [
       "Objection! Phoenix Wright, Miles Edgeworth, and the courtroom drama that defined visual novel gaming.",
     questions: [
       {
-        id: "ace_200_01",
+        id: "gamace_200_01",
         categoryId: "game_ace_attorney",
         tier: 200,
         prompt:
@@ -60308,7 +60308,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Phoenix Wright", "Phoenix", "Nick"],
       },
       {
-        id: "ace_200_02",
+        id: "gamace_200_02",
         categoryId: "game_ace_attorney",
         tier: 200,
         prompt:
@@ -60317,7 +60317,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Objection", "Objection!"],
       },
       {
-        id: "ace_200_03",
+        id: "gamace_200_03",
         categoryId: "game_ace_attorney",
         tier: 200,
         prompt:
@@ -60326,7 +60326,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["trial", "trial phase", "court", "courtroom", "cross-examination"],
       },
       {
-        id: "ace_400_01",
+        id: "gamace_400_01",
         categoryId: "game_ace_attorney",
         tier: 400,
         prompt:
@@ -60335,7 +60335,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Miles Edgeworth", "Edgeworth"],
       },
       {
-        id: "ace_400_02",
+        id: "gamace_400_02",
         categoryId: "game_ace_attorney",
         tier: 400,
         prompt:
@@ -60344,7 +60344,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Perceive", "the Perceive ability", "bracelet ability"],
       },
       {
-        id: "ace_400_03",
+        id: "gamace_400_03",
         categoryId: "game_ace_attorney",
         tier: 400,
         prompt:
@@ -60353,7 +60353,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Diego Armando", "Godot", "Diego"],
       },
       {
-        id: "ace_600_01",
+        id: "gamace_600_01",
         categoryId: "game_ace_attorney",
         tier: 600,
         prompt:
@@ -60362,7 +60362,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Ryunosuke Naruhodo", "Ryunosuke", "Naruhodo"],
       },
       {
-        id: "ace_600_02",
+        id: "gamace_600_02",
         categoryId: "game_ace_attorney",
         tier: 600,
         prompt:
@@ -60375,7 +60375,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "ace_600_03",
+        id: "gamace_600_03",
         categoryId: "game_ace_attorney",
         tier: 600,
         prompt:
@@ -60969,7 +60969,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Paul Thomas Anderson", "PTA"],
       },
       {
-        id: "rdh_200_03",
+        id: "musrad_200_03",
         categoryId: "music_radiohead",
         tier: 200,
         prompt:
@@ -61001,7 +61001,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Nigel Godrich", "Godrich"],
       },
       {
-        id: "rdh_400_03",
+        id: "musrad_400_03",
         categoryId: "music_radiohead",
         tier: 400,
         prompt:
@@ -61036,7 +61036,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "rdh_600_03",
+        id: "musrad_600_03",
         categoryId: "music_radiohead",
         tier: 600,
         prompt:
@@ -62235,7 +62235,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/PurkinjeCell.jpg/500px-PurkinjeCell.jpg",
     questions: [
       {
-        id: "neuro_200_01",
+        id: "scineu_200_01",
         categoryId: "sci_neuroscience",
         tier: 200,
         prompt:
@@ -62248,7 +62248,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "neuro_200_02",
+        id: "scineu_200_02",
         categoryId: "sci_neuroscience",
         tier: 200,
         prompt:
@@ -62257,7 +62257,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["synapses", "a synapse", "the synaptic cleft"],
       },
       {
-        id: "neuro_200_03",
+        id: "scineu_200_03",
         categoryId: "sci_neuroscience",
         tier: 200,
         prompt:
@@ -62266,7 +62266,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["neuroplasticity", "neural plasticity", "brain plasticity"],
       },
       {
-        id: "neuro_400_01",
+        id: "scineu_400_01",
         categoryId: "sci_neuroscience",
         tier: 400,
         prompt:
@@ -62279,7 +62279,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "neuro_400_02",
+        id: "scineu_400_02",
         categoryId: "sci_neuroscience",
         tier: 400,
         prompt:
@@ -62292,7 +62292,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "neuro_400_03",
+        id: "scineu_400_03",
         categoryId: "sci_neuroscience",
         tier: 400,
         prompt:
@@ -62305,7 +62305,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "neuro_600_01",
+        id: "scineu_600_01",
         categoryId: "sci_neuroscience",
         tier: 600,
         prompt:
@@ -62318,7 +62318,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "neuro_600_02",
+        id: "scineu_600_02",
         categoryId: "sci_neuroscience",
         tier: 600,
         prompt:
@@ -62331,7 +62331,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "neuro_600_03",
+        id: "scineu_600_03",
         categoryId: "sci_neuroscience",
         tier: 600,
         prompt:
@@ -63031,7 +63031,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg/500px-U.S._Army_UH-1H_Hueys_insert_ARVN_troops_at_Kh%C3%A2m_%C4%90%E1%BB%A9c%2C_Vietnam%2C_12_July_1970_%2879431435%29.jpg",
     questions: [
       {
-        id: "viet_200_01",
+        id: "hisvie_200_01",
         categoryId: "hist_vietnam_war",
         tier: 200,
         prompt:
@@ -63040,7 +63040,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["France", "the French", "French colonialism"],
       },
       {
-        id: "viet_200_02",
+        id: "hisvie_200_02",
         categoryId: "hist_vietnam_war",
         tier: 200,
         prompt:
@@ -63054,7 +63054,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "viet_200_03",
+        id: "hisvie_200_03",
         categoryId: "hist_vietnam_war",
         tier: 200,
         prompt:
@@ -63067,7 +63067,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "viet_400_01",
+        id: "hisvie_400_01",
         categoryId: "hist_vietnam_war",
         tier: 400,
         prompt:
@@ -63080,7 +63080,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "viet_400_02",
+        id: "hisvie_400_02",
         categoryId: "hist_vietnam_war",
         tier: 400,
         prompt:
@@ -63093,7 +63093,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "viet_400_03",
+        id: "hisvie_400_03",
         categoryId: "hist_vietnam_war",
         tier: 400,
         prompt:
@@ -63102,7 +63102,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Lieutenant William Calley", "William Calley", "Lt. Calley"],
       },
       {
-        id: "viet_600_01",
+        id: "hisvie_600_01",
         categoryId: "hist_vietnam_war",
         tier: 600,
         prompt:
@@ -63115,7 +63115,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "viet_600_02",
+        id: "hisvie_600_02",
         categoryId: "hist_vietnam_war",
         tier: 600,
         prompt:
@@ -63128,7 +63128,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "viet_600_03",
+        id: "hisvie_600_03",
         categoryId: "hist_vietnam_war",
         tier: 600,
         prompt:
@@ -63152,7 +63152,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Darwin_Tree_1837.png/500px-Darwin_Tree_1837.png",
     questions: [
       {
-        id: "gen_200_01",
+        id: "scigen_200_01",
         categoryId: "sci_genetics_evolution",
         tier: 200,
         prompt:
@@ -63165,7 +63165,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "gen_200_02",
+        id: "scigen_200_02",
         categoryId: "sci_genetics_evolution",
         tier: 200,
         prompt:
@@ -63174,7 +63174,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["natural selection", "survival of the fittest", "natural selection / survival of the fittest"],
       },
       {
-        id: "gen_200_03",
+        id: "scigen_200_03",
         categoryId: "sci_genetics_evolution",
         tier: 200,
         prompt:
@@ -63183,7 +63183,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Uracil", "uracil (U)"],
       },
       {
-        id: "gen_400_01",
+        id: "scigen_400_01",
         categoryId: "sci_genetics_evolution",
         tier: 400,
         prompt:
@@ -63197,7 +63197,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "gen_400_02",
+        id: "scigen_400_02",
         categoryId: "sci_genetics_evolution",
         tier: 400,
         prompt:
@@ -63206,7 +63206,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["conjugation", "plasmid transfer", "conjugation / plasmid transfer", "transduction", "transformation"],
       },
       {
-        id: "gen_400_03",
+        id: "scigen_400_03",
         categoryId: "sci_genetics_evolution",
         tier: 400,
         prompt:
@@ -63219,7 +63219,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "gen_600_01",
+        id: "scigen_600_01",
         categoryId: "sci_genetics_evolution",
         tier: 600,
         prompt:
@@ -63232,7 +63232,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "gen_600_02",
+        id: "scigen_600_02",
         categoryId: "sci_genetics_evolution",
         tier: 600,
         prompt:
@@ -63246,7 +63246,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "gen_600_03",
+        id: "scigen_600_03",
         categoryId: "sci_genetics_evolution",
         tier: 600,
         prompt:
@@ -63289,7 +63289,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Roland Garros", "the French Open", "French Open"],
       },
       {
-        id: "ten_200_03",
+        id: "spoten_200_03",
         categoryId: "sport_tennis_history",
         tier: 200,
         prompt:
@@ -63325,7 +63325,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "ten_400_03",
+        id: "spoten_400_03",
         categoryId: "sport_tennis_history",
         tier: 400,
         prompt:
@@ -63364,7 +63364,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "ten_600_03",
+        id: "spoten_600_03",
         categoryId: "sport_tennis_history",
         tier: 600,
         prompt:
@@ -63387,7 +63387,7 @@ const CATEGORIES: Category[] = [
       "Japanese occupation, the Korean War armistice, the Miracle on the Han River, democratic transition, and Hallyu.",
     questions: [
       {
-        id: "kor_200_01",
+        id: "hiskor_200_01",
         categoryId: "hist_korean_history",
         tier: 200,
         prompt:
@@ -63396,7 +63396,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["World War II", "WWII", "the Second World War"],
       },
       {
-        id: "kor_200_02",
+        id: "hiskor_200_02",
         categoryId: "hist_korean_history",
         tier: 200,
         prompt:
@@ -63405,7 +63405,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["armistice", "armistice agreement", "the Korean Armistice Agreement"],
       },
       {
-        id: "kor_200_03",
+        id: "hiskor_200_03",
         categoryId: "hist_korean_history",
         tier: 200,
         prompt:
@@ -63414,7 +63414,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Hallyu", "the Korean Wave", "Hanryu"],
       },
       {
-        id: "kor_400_01",
+        id: "hiskor_400_01",
         categoryId: "hist_korean_history",
         tier: 400,
         prompt:
@@ -63423,7 +63423,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["the US and USSR", "United States and Soviet Union", "America and the Soviet Union"],
       },
       {
-        id: "kor_400_02",
+        id: "hiskor_400_02",
         categoryId: "hist_korean_history",
         tier: 400,
         prompt:
@@ -63432,7 +63432,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Inchon Landing", "Battle of Inchon", "the Inchon landings"],
       },
       {
-        id: "kor_400_03",
+        id: "hiskor_400_03",
         categoryId: "hist_korean_history",
         tier: 400,
         prompt:
@@ -63441,7 +63441,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Miracle on the Han River", "the Han River miracle", "Han River miracle"],
       },
       {
-        id: "kor_600_01",
+        id: "hiskor_600_01",
         categoryId: "hist_korean_history",
         tier: 600,
         prompt:
@@ -63454,7 +63454,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "kor_600_02",
+        id: "hiskor_600_02",
         categoryId: "hist_korean_history",
         tier: 600,
         prompt:
@@ -63467,7 +63467,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "kor_600_03",
+        id: "hiskor_600_03",
         categoryId: "hist_korean_history",
         tier: 600,
         prompt:
@@ -63957,7 +63957,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Bataille_de_Verdun_1916.jpg/500px-Bataille_de_Verdun_1916.jpg",
     questions: [
       {
-        id: "wwi_200_01",
+        id: "hiswwi_200_01",
         categoryId: "hist_wwi",
         tier: 200,
         prompt:
@@ -63970,7 +63970,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "wwi_200_02",
+        id: "hiswwi_200_02",
         categoryId: "hist_wwi",
         tier: 200,
         prompt:
@@ -63979,7 +63979,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["trench warfare", "trench war"],
       },
       {
-        id: "wwi_200_03",
+        id: "hiswwi_200_03",
         categoryId: "hist_wwi",
         tier: 200,
         prompt: "WWI ended on which date — the 'eleventh hour of the eleventh day of the eleventh month'?",
@@ -63987,7 +63987,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["November 11, 1918", "11/11/1918", "the 11th of November 1918"],
       },
       {
-        id: "wwi_400_01",
+        id: "hiswwi_400_01",
         categoryId: "hist_wwi",
         tier: 400,
         prompt:
@@ -64000,7 +64000,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "wwi_400_02",
+        id: "hiswwi_400_02",
         categoryId: "hist_wwi",
         tier: 400,
         prompt:
@@ -64013,7 +64013,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "wwi_400_03",
+        id: "hiswwi_400_03",
         categoryId: "hist_wwi",
         tier: 400,
         prompt:
@@ -64022,7 +64022,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["mustard gas", "sulfur mustard", "yperite"],
       },
       {
-        id: "wwi_600_01",
+        id: "hiswwi_600_01",
         categoryId: "hist_wwi",
         tier: 600,
         prompt:
@@ -64035,7 +64035,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "wwi_600_02",
+        id: "hiswwi_600_02",
         categoryId: "hist_wwi",
         tier: 600,
         prompt:
@@ -64048,7 +64048,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "wwi_600_03",
+        id: "hiswwi_600_03",
         categoryId: "hist_wwi",
         tier: 600,
         prompt:
@@ -64300,7 +64300,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Congreso_de_Chilpancingo.png/500px-Congreso_de_Chilpancingo.png",
     questions: [
       {
-        id: "latam_200_01",
+        id: "hislat_200_01",
         categoryId: "hist_latin_independence",
         tier: 200,
         prompt:
@@ -64309,7 +64309,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Simón Bolívar", "Simon Bolivar", "Bolívar", "Bolivar"],
       },
       {
-        id: "latam_200_02",
+        id: "hislat_200_02",
         categoryId: "hist_latin_independence",
         tier: 200,
         prompt:
@@ -64318,7 +64318,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Miguel Hidalgo", "Hidalgo", "Father Hidalgo", "Miguel Hidalgo y Costilla"],
       },
       {
-        id: "latam_200_03",
+        id: "hislat_200_03",
         categoryId: "hist_latin_independence",
         tier: 200,
         prompt:
@@ -64327,7 +64327,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Toussaint Louverture", "Toussaint L'Ouverture", "Louverture"],
       },
       {
-        id: "latam_400_01",
+        id: "hislat_400_01",
         categoryId: "hist_latin_independence",
         tier: 400,
         prompt:
@@ -64336,7 +64336,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["the Andes", "the Andes Mountains", "the Andes mountain range"],
       },
       {
-        id: "latam_400_02",
+        id: "hislat_400_02",
         categoryId: "hist_latin_independence",
         tier: 400,
         prompt:
@@ -64349,7 +64349,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "latam_400_03",
+        id: "hislat_400_03",
         categoryId: "hist_latin_independence",
         tier: 400,
         prompt:
@@ -64362,7 +64362,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "latam_600_01",
+        id: "hislat_600_01",
         categoryId: "hist_latin_independence",
         tier: 600,
         prompt:
@@ -64375,7 +64375,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "latam_600_02",
+        id: "hislat_600_02",
         categoryId: "hist_latin_independence",
         tier: 600,
         prompt:
@@ -64388,7 +64388,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "latam_600_03",
+        id: "hislat_600_03",
         categoryId: "hist_latin_independence",
         tier: 600,
         prompt:
@@ -64434,7 +64434,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["existential boredom", "depression", "he's bored — nothing is a challenge", "loss of purpose and joy from being too powerful"],
       },
       {
-        id: "opm_200_03",
+        id: "anione_200_03",
         categoryId: "anime_one_punch_man",
         tier: 200,
         prompt: "Saitama's disciple, a cyborg seeking to become stronger to avenge his destroyed body, is named what?",
@@ -64458,7 +64458,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["S-Class", "S Class", "S rank"],
       },
       {
-        id: "opm_400_03",
+        id: "anione_400_03",
         categoryId: "anime_one_punch_man",
         tier: 400,
         prompt: "Saitama explains he achieved his strength through a training regimen he claims is laughably simple. What does it consist of?",
@@ -64492,7 +64492,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "opm_600_03",
+        id: "anione_600_03",
         categoryId: "anime_one_punch_man",
         tier: 600,
         prompt: "The Monster Association arc introduces the concept of 'monster cells' — humans who abandon their humanity to gain power. What does this arc argue thematically about the relationship between strength and identity?",
@@ -64937,7 +64937,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Great_Britain_%281707%E2%80%931800%29.svg/500px-Flag_of_Great_Britain_%281707%E2%80%931800%29.svg.png",
     questions: [
       {
-        id: "brit_200_01",
+        id: "hisbri_200_01",
         categoryId: "hist_british_empire",
         tier: 200,
         prompt: "The British Raj — direct Crown rule over India — lasted from 1858 until which year, when India and Pakistan gained independence simultaneously?",
@@ -64945,7 +64945,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["1947"],
       },
       {
-        id: "brit_200_02",
+        id: "hisbri_200_02",
         categoryId: "hist_british_empire",
         tier: 200,
         prompt: "Britain abolished the slave trade in 1807 and slavery throughout the empire in 1833. At the time of abolition, what group received financial compensation from the British government?",
@@ -64957,7 +64957,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "brit_200_03",
+        id: "hisbri_200_03",
         categoryId: "hist_british_empire",
         tier: 200,
         prompt: "The Opium Wars (1839–42 and 1856–60) were fought between Britain and China. What was Britain defending — specifically what trade that China's Qing government was trying to suppress?",
@@ -64969,7 +64969,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "brit_400_01",
+        id: "hisbri_400_01",
         categoryId: "hist_british_empire",
         tier: 400,
         prompt: "The Partition of India (August 1947) divided British India along religious lines into two nations. Who drew the boundary — with catastrophic results he reportedly never revisited?",
@@ -64980,7 +64980,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "brit_400_02",
+        id: "hisbri_400_02",
         categoryId: "hist_british_empire",
         tier: 400,
         prompt: "Cecil Rhodes — British imperialist and Cape Colony prime minister — famously said he would 'annex the planets if he could.' His will established which prestigious scholarship program still operating today?",
@@ -64988,7 +64988,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Rhodes Scholarship", "Rhodes Scholarships", "the Rhodes Scholarship to Oxford"],
       },
       {
-        id: "brit_400_03",
+        id: "hisbri_400_03",
         categoryId: "hist_british_empire",
         tier: 400,
         prompt: "The Boer War (1899–1902) was fought between Britain and Dutch-descended settlers in South Africa. What controversial innovation did Britain use to control the civilian Boer population — a practice that killed tens of thousands through disease and starvation?",
@@ -65000,7 +65000,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "brit_600_01",
+        id: "hisbri_600_01",
         categoryId: "hist_british_empire",
         tier: 600,
         prompt: "The 'Scramble for Africa' (1880s–1914) saw European powers partition the African continent at the Berlin Conference (1884–85). No African representatives attended. What was the lasting structural consequence of the borders drawn?",
@@ -65012,7 +65012,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "brit_600_02",
+        id: "hisbri_600_02",
         categoryId: "hist_british_empire",
         tier: 600,
         prompt: "Winston Churchill's policies during the 1943 Bengal Famine — in which 2–3 million Indians died — remain deeply contested. What specific decisions and attitudes has historian Madhusree Mukerjee and others documented?",
@@ -65024,7 +65024,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "brit_600_03",
+        id: "hisbri_600_03",
         categoryId: "hist_british_empire",
         tier: 600,
         prompt: "The British Empire's legacy is contested between those who emphasize infrastructure (railways, rule of law, common language) and those who emphasize extraction and violence. What is the fundamental methodological problem with the 'net balance sheet' approach to evaluating colonialism?",
@@ -66846,7 +66846,7 @@ const CATEGORIES: Category[] = [
     description: "From Bach's counterpoint to Beethoven's deafness to Mahler's symphonies — the lives and innovations of Western classical music's giants.",
     questions: [
       {
-        id: "cls_200_01",
+        id: "muscla_200_01",
         categoryId: "music_classical_composers",
         tier: 200,
         prompt: "Beethoven composed his Ninth Symphony — including the 'Ode to Joy' finale — after going completely deaf. The symphony premiered in which year?",
@@ -66854,7 +66854,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["1824"],
       },
       {
-        id: "cls_200_02",
+        id: "muscla_200_02",
         categoryId: "music_classical_composers",
         tier: 200,
         prompt: "Johann Sebastian Bach's collection of 48 preludes and fugues in all major and minor keys, designed partly to demonstrate equal temperament tuning, is called what?",
@@ -66862,7 +66862,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["The Well-Tempered Clavier", "Das Wohltemperierte Klavier"],
       },
       {
-        id: "cls_200_03",
+        id: "muscla_200_03",
         categoryId: "music_classical_composers",
         tier: 200,
         prompt: "Which Austrian composer, Mozart's contemporary and rival of legend, wrote over 100 symphonies and is called the 'Father of the Symphony'?",
@@ -66870,7 +66870,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Haydn", "Joseph Haydn"],
       },
       {
-        id: "cls_400_01",
+        id: "muscla_400_01",
         categoryId: "music_classical_composers",
         tier: 400,
         prompt: "Frédéric Chopin spent most of his adult life in Paris as an exile from which country, whose national spirit infuses his mazurkas and polonaises?",
@@ -66878,7 +66878,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Poland"],
       },
       {
-        id: "cls_400_02",
+        id: "muscla_400_02",
         categoryId: "music_classical_composers",
         tier: 400,
         prompt: "Gustav Mahler's symphonies are famous for their enormous scale and emotional extremes. His unfinished Tenth Symphony was left at his death in 1911 — but his Ninth Symphony has a morbid distinction. What is it?",
@@ -66886,7 +66886,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Curse of the Ninth", "he died after completing it", "tried to avoid the ninth", "superstition about ninth symphonies"],
       },
       {
-        id: "cls_400_03",
+        id: "muscla_400_03",
         categoryId: "music_classical_composers",
         tier: 400,
         prompt: "Dmitri Shostakovich composed under the constant threat of Stalin's regime. His Fifth Symphony (1937) was written after official condemnation of his opera. What did Stalin's newspaper Pravda call this opera, in a famous editorial?",
@@ -66894,7 +66894,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Muddle Instead of Music", "chaos instead of music", "Lady Macbeth of Mtsensk"],
       },
       {
-        id: "cls_600_01",
+        id: "muscla_600_01",
         categoryId: "music_classical_composers",
         tier: 600,
         prompt: "The premiere of Stravinsky's 'The Rite of Spring' in 1913 caused a riot in the audience. At which Paris venue did this notorious premiere take place?",
@@ -66902,7 +66902,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Théâtre des Champs-Élysées", "Theatre des Champs-Elysees", "Champs-Elysées theatre"],
       },
       {
-        id: "cls_600_02",
+        id: "muscla_600_02",
         categoryId: "music_classical_composers",
         tier: 600,
         prompt: "Arnold Schoenberg developed the twelve-tone (dodecaphonic) technique, using all 12 chromatic pitches equally. What was his earlier compositional style called — the late Romantic, tonally saturated style of works like 'Verklärte Nacht'?",
@@ -66910,7 +66910,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["post-Romantic", "late Romantic", "tonal", "Romantic expressionism"],
       },
       {
-        id: "cls_600_03",
+        id: "muscla_600_03",
         categoryId: "music_classical_composers",
         tier: 600,
         prompt: "Franz Schubert died at 31 but completed over 600 works. His 'Unfinished Symphony' (No. 8 in B minor) has only two movements. Why did Schubert never complete it — what is the scholarly consensus?",
@@ -67260,7 +67260,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Circassian_flag.svg/500px-Circassian_flag.svg.png",
     questions: [
       {
-        id: "cir_200_01",
+        id: "hiscir_200_01",
         categoryId: "hist_circassian_history",
         tier: 200,
         prompt: "The Circassian Genocide occurred at the end of which 19th-century conflict, when the Russian Empire completed its conquest of the Caucasus?",
@@ -67268,7 +67268,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Russo-Circassian War", "Caucasian War", "Russian conquest of the Caucasus"],
       },
       {
-        id: "cir_200_02",
+        id: "hiscir_200_02",
         categoryId: "hist_circassian_history",
         tier: 200,
         prompt: "The mass exile of Circassians after 1864 sent survivors mainly to which empire, where much of the diaspora settled in what are now Turkey, Jordan, and Syria?",
@@ -67276,7 +67276,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Ottoman Empire", "Ottoman", "Turkey"],
       },
       {
-        id: "cir_200_03",
+        id: "hiscir_200_03",
         categoryId: "hist_circassian_history",
         tier: 200,
         prompt: "Circassians are indigenous to which mountain range between the Black Sea and the Caspian Sea?",
@@ -67284,7 +67284,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Caucasus", "Caucasus Mountains", "the Caucasus"],
       },
       {
-        id: "cir_400_01",
+        id: "hiscir_400_01",
         categoryId: "hist_circassian_history",
         tier: 400,
         prompt: "The Circassian warrior chief who led resistance against Russian imperial expansion for 25 years — from 1836 until his capture in 1864 — is considered the last Circassian supreme commander. Who was he?",
@@ -67292,7 +67292,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Muhammad Amin", "Mohammed Amin", "Naib Amin"],
       },
       {
-        id: "cir_400_02",
+        id: "hiscir_400_02",
         categoryId: "hist_circassian_history",
         tier: 400,
         prompt: "The Circassian code of ethics and chivalry — governing hospitality, honor, and behavior — is called what in Adyghe?",
@@ -67300,7 +67300,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Xabze", "Adyghe Xabze", "Habze", "Adyghe Habze"],
       },
       {
-        id: "cir_400_03",
+        id: "hiscir_400_03",
         categoryId: "hist_circassian_history",
         tier: 400,
         prompt: "The 2014 Winter Olympics in Sochi were controversial for the Circassian community because Sochi is located in the historical Circassian homeland. What date — May 21st — do Circassians worldwide commemorate each year?",
@@ -67308,7 +67308,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Circassian Genocide Day", "Circassian Remembrance Day", "May 21", "Day of Mourning"],
       },
       {
-        id: "cir_600_01",
+        id: "hiscir_600_01",
         categoryId: "hist_circassian_history",
         tier: 600,
         prompt: "The Circassian diaspora in Jordan has a unique historical relationship with the Hashemite monarchy. Circassian guards served as the royal bodyguard of which Hashemite ruler who founded Transjordan, and continue to guard the palace today?",
@@ -67316,7 +67316,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["King Abdullah I", "Abdullah I", "the Hashemite royal family", "Abdullah I of Jordan"],
       },
       {
-        id: "cir_600_02",
+        id: "hiscir_600_02",
         categoryId: "hist_circassian_history",
         tier: 600,
         prompt: "Circassian women were historically prized in Ottoman and Middle Eastern courts for their perceived beauty, leading to a significant slave trade. The term used in European Orientalist art for idealized female beauty — 'the Circassian beauty' — became a trope in whose paintings, and in what context in American circus history?",
@@ -67324,7 +67324,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["P.T. Barnum", "Barnum", "Ingres", "Orientalist paintings", "circus Circassian Beauties"],
       },
       {
-        id: "cir_600_03",
+        id: "hiscir_600_03",
         categoryId: "hist_circassian_history",
         tier: 600,
         prompt: "The Circassian language family belongs to which language family, considered one of the most phonologically complex in the world with up to 84 consonants in some dialects?",
@@ -67360,7 +67360,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["human transmutation", "resurrecting their mother", "suit of armor"],
       },
       {
-        id: "fma_200_03",
+        id: "aniful_200_03",
         categoryId: "anime_fullmetal_alchemist",
         tier: 200,
         prompt: "The seven Homunculi in FMA:B are named after the seven deadly sins. Which Homunculus, created by Father, serves as the primary antagonist and seeks to become a perfect being by absorbing God?",
@@ -67384,7 +67384,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["ancient Egypt", "Egypt", "Islamic alchemy", "Hellenistic"],
       },
       {
-        id: "fma_400_03",
+        id: "aniful_400_03",
         categoryId: "anime_fullmetal_alchemist",
         tier: 400,
         prompt: "FMA:Brotherhood's Scar is an Ishvalan survivor who kills State Alchemists. He uses his brother's research tattooed on his arm to deconstruct matter. What is the unique ability of his right arm?",
@@ -67408,7 +67408,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Armenian Genocide", "Japanese wartime atrocities", "WWII", "real genocides"],
       },
       {
-        id: "fma_600_03",
+        id: "aniful_600_03",
         categoryId: "anime_fullmetal_alchemist",
         tier: 600,
         prompt: "FMA:Brotherhood's Father was originally a homunculus created from a portion of the soul of which real historical figure, who is depicted as a slave in Xerxes in the series?",
@@ -68105,7 +68105,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Emission", "Emitter"],
       },
       {
-        id: "hxh_200_03",
+        id: "anihun_200_03",
         categoryId: "anime_hunter_x_hunter",
         tier: 200,
         prompt: "Killua Zoldyck is Gon's best friend and comes from a family of professional assassins. What ability does he develop that allows him to convert his aura into electricity?",
@@ -68129,7 +68129,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["rubber and gum", "elasticity and adhesion"],
       },
       {
-        id: "hxh_400_03",
+        id: "anihun_400_03",
         categoryId: "anime_hunter_x_hunter",
         tier: 400,
         prompt: "The Yorknew City arc centers on the Phantom Troupe, a group of thieves with spider tattoos. Their leader, who killed all of Kurapika's clan for their scarlet eyes, is named what?",
@@ -68153,7 +68153,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["shortens his lifespan", "life span cost", "loses hours of life"],
       },
       {
-        id: "hxh_600_03",
+        id: "anihun_600_03",
         categoryId: "anime_hunter_x_hunter",
         tier: 600,
         prompt: "Togashi's wife is also a famous manga author. Who is she, and what is her most famous work — also adapted into a hit anime?",
@@ -69455,7 +69455,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Jerry Rice", "Rice"],
       },
       {
-        id: "nfl_200_03",
+        id: "sponfl_200_03",
         categoryId: "sport_nfl_history",
         tier: 200,
         prompt: "The Pittsburgh Steelers had won the most Super Bowls of any franchise in NFL history as of the early 2020s. How many Super Bowl titles had they won?",
@@ -69480,7 +69480,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["23", "twenty-three"],
       },
       {
-        id: "nfl_400_03",
+        id: "sponfl_400_03",
         categoryId: "sport_nfl_history",
         tier: 400,
         prompt: "Deflategate resulted in Tom Brady's four-game suspension after the 2014 AFC Championship Game. Which team did the Patriots defeat in that game — the contest where the under-inflated footballs were first reported?",
@@ -69506,13 +69506,184 @@ const CATEGORIES: Category[] = [
         explanation: "The controversy was whether the ball hit Fuqua or Raiders safety Jack Tatum; if it had gone from Fuqua to Harris, it would have been illegal under the rules at the time.",
       },
       {
-        id: "nfl_600_03",
+        id: "sponfl_600_03",
         categoryId: "sport_nfl_history",
         tier: 600,
         prompt: "The 'Minneapolis Miracle' in the 2018 NFC Divisional Playoff saw Stefon Diggs catch a walk-off touchdown as time expired. Which Saints defensive back failed to make the tackle on Diggs, allowing the score?",
         answer: "Marcus Williams",
         acceptableAnswers: ["Marcus Williams", "Williams"],
         explanation: "Williams whiffed on the tackle attempt, allowing Diggs to run untouched into the end zone for a 61-yard touchdown to win 29-24.",
+      },
+    ],
+  },
+  {
+    id: "vg_zelda_botw",
+    group: "Video Games",
+    name: "Zelda: BotW & TotK",
+    culture: "universal",
+    description: "Deep questions on Breath of the Wild and Tears of the Kingdom — open-world Hyrule at its most ambitious.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/c/ce/The_Legend_of_Zelda_Breath_of_the_Wild.jpg",
+    questions: [
+      {
+        id: "zld_200_01",
+        categoryId: "vg_zelda_botw",
+        tier: 200,
+        prompt: "In Breath of the Wild, Link has been asleep for 100 years and awakens with no memory. Which ancient evil — sealed beneath Hyrule Castle — has he been resurrected to stop?",
+        answer: "Calamity Ganon",
+        acceptableAnswers: ["Calamity Ganon", "Ganon"],
+      },
+      {
+        id: "zld_200_02",
+        categoryId: "vg_zelda_botw",
+        tier: 200,
+        prompt: "In Breath of the Wild, climbing is a core mechanic — but one weather condition makes every surface unclimbable by causing Link to lose grip and slide. What is it?",
+        answer: "Rain",
+        acceptableAnswers: ["Rain", "Raining", "Wet surfaces"],
+      },
+      {
+        id: "zld_200_03",
+        categoryId: "vg_zelda_botw",
+        tier: 200,
+        prompt: "In Tears of the Kingdom, Link gains a new hand power that lets him combine weapons and objects together — permanently merging their properties. What is this ability called?",
+        answer: "Fuse",
+        acceptableAnswers: ["Fuse"],
+      },
+      {
+        id: "zld_400_01",
+        categoryId: "vg_zelda_botw",
+        tier: 400,
+        prompt: "In Breath of the Wild, each Divine Beast is piloted by a Champion. The elephant-shaped Divine Beast Vah Ruta — located in the Lanayru region — belongs to which Champion?",
+        answer: "Mipha",
+        acceptableAnswers: ["Mipha", "Mipha the Zora Champion"],
+        explanation: "Mipha is the Zora Champion who controlled Vah Ruta. After her death fighting Calamity Ganon, her spirit remains trapped inside until Link frees her.",
+      },
+      {
+        id: "zld_400_02",
+        categoryId: "vg_zelda_botw",
+        tier: 400,
+        prompt: "In Breath of the Wild, the Sheikah Slate ability that temporarily freezes a physical object in place — allowing you to build up kinetic energy in it before releasing — is called what?",
+        answer: "Stasis",
+        acceptableAnswers: ["Stasis", "Stasis+"],
+      },
+      {
+        id: "zld_400_03",
+        categoryId: "vg_zelda_botw",
+        tier: 400,
+        prompt: "In Tears of the Kingdom, Link gains an ability that lets him pass upward through solid ceilings by jumping into them from below. What is this ability called?",
+        answer: "Ascend",
+        acceptableAnswers: ["Ascend"],
+      },
+      {
+        id: "zld_600_01",
+        categoryId: "vg_zelda_botw",
+        tier: 600,
+        prompt: "In Breath of the Wild speedrunning, a technique called 'Windbombing' allows Link to fly massive distances. What two actions must be timed nearly simultaneously to execute it?",
+        answer: "A remote bomb detonates to launch Link into the air; a second bomb then detonates while Link is mid-air with the paraglider open — the game stacks both velocity values, sending him flying across the map",
+        acceptableAnswers: ["two bomb blasts timed with the paraglider", "double bomb detonation with paraglider", "bomb launches then second bomb mid-air with paraglider", "windbomb two bombs paraglider"],
+        explanation: "Windbombing is a foundational BotW speedrun tech. The game incorrectly adds the velocity from both explosions rather than capping it, allowing Link to fly from one side of Hyrule to the other in seconds.",
+      },
+      {
+        id: "zld_600_02",
+        categoryId: "vg_zelda_botw",
+        tier: 600,
+        prompt: "In Tears of the Kingdom, Ganondorf's title is not 'Demon King' by accident — it is a designation that appears in ancient Hyrulean records. What Gerudo title does King Rauru use when first naming Ganondorf's threat to the court?",
+        answer: "Demon King (Migan no Ō in Japanese)",
+        acceptableAnswers: ["Demon King", "Migan no O", "King of Demons"],
+        explanation: "Rauru calls Ganondorf the 'Demon King' — a title that refers to the Calamity's ancient origin. This is the same Ganondorf whose sealed remains Link discovered under Hyrule Castle at the game's opening.",
+      },
+      {
+        id: "zld_600_03",
+        categoryId: "vg_zelda_botw",
+        tier: 600,
+        prompt: "In Breath of the Wild, Princess Zelda owned a legendary white horse she rode throughout the game's memories. Where exactly can Link find this horse in the open world, and what is it called?",
+        answer: "The Royal White Stallion — found at Safula Hill near Outskirt Stable, roaming freely; it's the same bloodline as Zelda's personal horse from the memories",
+        acceptableAnswers: ["Royal White Stallion", "Zelda's white horse at Safula Hill", "white horse at Outskirt Stable area"],
+        explanation: "A hidden side quest called 'The Royal White Stallion' tasks Link with finding and taming this horse, which has a max bond ceiling and is the only horse of its breed in the game.",
+      },
+    ],
+  },
+  {
+    id: "movie_matrix",
+    group: "Movies & TV",
+    name: "The Matrix",
+    culture: "universal",
+    description: "Red pill or blue pill — questions on the trilogy, philosophy, and the machines that keep humanity asleep.",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg",
+    questions: [
+      {
+        id: "mtx_200_01",
+        categoryId: "movie_matrix",
+        tier: 200,
+        prompt: "In The Matrix, Morpheus offers Neo two pills — one red, one blue. What happens if Neo takes the red pill?",
+        answer: "He wakes up in the real world and sees the Matrix for what it truly is",
+        acceptableAnswers: ["he wakes up in the real world", "he sees reality", "he learns the truth", "he escapes the simulation"],
+      },
+      {
+        id: "mtx_200_02",
+        categoryId: "movie_matrix",
+        tier: 200,
+        prompt: "In The Matrix, what is the name of the primary AI antagonist — the suited agent who pursues Neo and can replicate himself into any human body inside the simulation?",
+        answer: "Agent Smith",
+        acceptableAnswers: ["Agent Smith", "Smith"],
+      },
+      {
+        id: "mtx_200_03",
+        categoryId: "movie_matrix",
+        tier: 200,
+        prompt: "The Matrix reveals that humans are not free — they are being used as an energy source by the machines. What are the machines harvesting from human bodies?",
+        answer: "Bioelectricity / body heat — humans are used as living batteries",
+        acceptableAnswers: ["bioelectricity", "body heat", "energy", "batteries", "electrical energy"],
+      },
+      {
+        id: "mtx_400_01",
+        categoryId: "movie_matrix",
+        tier: 400,
+        prompt: "In The Matrix, Morpheus shows Neo 'the woman in the red dress' — a distraction inside a training simulation. What is the specific lesson Morpheus is teaching with this demonstration?",
+        answer: "That the Matrix is full of distractions designed to get you killed — you cannot afford to be distracted by what the simulation presents; focus or die",
+        acceptableAnswers: ["never get distracted in the Matrix", "distractions will get you killed", "don't look at the woman in the red dress", "focus on the threat not the simulation"],
+      },
+      {
+        id: "mtx_400_02",
+        categoryId: "movie_matrix",
+        tier: 400,
+        prompt: "In The Matrix Reloaded, The Architect reveals something devastating about Neo's true role. What does he tell Neo about being 'the One'?",
+        answer: "The One is not a liberator but a systemic control mechanism — Neo is the sixth iteration; the Matrix has been rebooted five times before, and the prophecy itself is a built-in pressure valve to manage inevitable anomalies",
+        acceptableAnswers: ["Neo is not the first One", "the Matrix has been rebooted six times", "the prophecy is a control mechanism", "Neo is the sixth One", "the One is part of the system"],
+      },
+      {
+        id: "mtx_400_03",
+        categoryId: "movie_matrix",
+        tier: 400,
+        prompt: "In The Matrix, what is the name of Morpheus's hovercraft — the ship from which the crew plugs into the Matrix?",
+        answer: "The Nebuchadnezzar",
+        acceptableAnswers: ["The Nebuchadnezzar", "Nebuchadnezzar"],
+        explanation: "Named after the biblical Babylonian king, the Nebuchadnezzar (hull mark: Mark III No. 11) is one of the oldest ships in the human resistance fleet.",
+      },
+      {
+        id: "mtx_600_01",
+        categoryId: "movie_matrix",
+        tier: 600,
+        prompt: "The Matrix's iconic 'bullet time' effect revolutionized cinema. What was the actual physical technique used on set to create the illusion of frozen time?",
+        answer: "A rig of approximately 120 still cameras arranged in an arc around the subject, triggered in rapid sequence — each captured a slightly different angle of the same frozen moment, which were then composited into a smooth 360-degree pan",
+        acceptableAnswers: ["120 cameras arranged in an arc", "still cameras triggered in sequence", "camera array composited together", "multiple still cameras stitched together"],
+        explanation: "The Wachowskis and cinematographer Bill Pope worked with visual effects supervisor John Gaeta to develop the technique. Each camera fired a fraction of a second apart, and the resulting stills were stitched together with CGI gap-filling to create the seamless bullet-time pan.",
+      },
+      {
+        id: "mtx_600_02",
+        categoryId: "movie_matrix",
+        tier: 600,
+        prompt: "In The Matrix: Revolutions, Neo defeats Agent Smith by allowing Smith to assimilate him. At that moment the machines delete Smith through Neo's body. What specifically caused the machines to intervene at that exact point?",
+        answer: "When Smith copied himself onto Neo, Neo's connection to the Machine City's power core gave the machines a direct link to read Neo's consciousness — they could see Smith had become an existential threat to the system itself, so they deleted Smith through Neo's body, using the connection Neo had established with Deus Ex Machina",
+        acceptableAnswers: ["Smith was connected to Neo who was connected to the machines", "Neo's connection to the machine core let them delete Smith", "machines could see through Neo's link that Smith threatened the whole system", "the truce connection let machines destroy Smith through Neo"],
+      },
+      {
+        id: "mtx_600_03",
+        categoryId: "movie_matrix",
+        tier: 600,
+        prompt: "At the start of The Matrix, Neo hides illegal software inside a hollowed-out copy of a real book. What is that book, and why is it the perfect choice given the film's central theme?",
+        answer: "'Simulacra and Simulation' by Jean Baudrillard — its central thesis (modern society has replaced reality with symbols and signs, making 'the real' inaccessible) is the direct philosophical foundation of the Matrix's entire premise",
+        acceptableAnswers: ["Simulacra and Simulation", "Simulacra and Simulation by Baudrillard", "Jean Baudrillard"],
+        explanation: "The Wachowskis required Keanu Reeves to read Baudrillard's book before filming. The hollow prop copy is opened to the 'On Nihilism' chapter — the same chapter that inspired the Wachowskis most directly.",
       },
     ],
   },
