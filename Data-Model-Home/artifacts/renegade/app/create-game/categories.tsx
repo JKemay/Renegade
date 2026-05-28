@@ -1,3 +1,4 @@
+import { Image } from "expo-image";
 import { useRouter } from "expo-router";
 import React, { useMemo, useState } from "react";
 import {
@@ -162,38 +163,48 @@ export default function CategoriesScreen() {
           },
         ]}
       >
-        <Text
-          style={[
-            styles.cardName,
-            {
-              color: picked ? teamColor : colors.foreground,
-              fontFamily: "Inter_700Bold",
-            },
-          ]}
-          numberOfLines={2}
-        >
-          {cat.name}
-        </Text>
-        {picked && (
+        {cat.imageUrl ? (
+          <Image
+            source={{ uri: cat.imageUrl }}
+            style={styles.cardImage}
+            contentFit="cover"
+            transition={200}
+          />
+        ) : null}
+        <View style={styles.cardBody}>
           <Text
             style={[
-              styles.cardHint,
-              { color: teamColor, fontFamily: "Inter_400Regular" },
+              styles.cardName,
+              {
+                color: picked ? teamColor : colors.foreground,
+                fontFamily: "Inter_700Bold",
+              },
             ]}
+            numberOfLines={2}
           >
-            Tap to remove
+            {cat.name}
           </Text>
-        )}
-        {!picked && noQuestions && (
-          <Text
-            style={[
-              styles.cardHint,
-              { color: colors.mutedForeground, fontFamily: "Inter_400Regular" },
-            ]}
-          >
-            Coming soon
-          </Text>
-        )}
+          {picked && (
+            <Text
+              style={[
+                styles.cardHint,
+                { color: teamColor, fontFamily: "Inter_400Regular" },
+              ]}
+            >
+              Tap to remove
+            </Text>
+          )}
+          {!picked && noQuestions && (
+            <Text
+              style={[
+                styles.cardHint,
+                { color: colors.mutedForeground, fontFamily: "Inter_400Regular" },
+              ]}
+            >
+              Coming soon
+            </Text>
+          )}
+        </View>
       </Pressable>
     );
   };
@@ -560,10 +571,16 @@ const styles = StyleSheet.create({
     width: "48%",
     borderWidth: 1.5,
     borderRadius: 12,
-    padding: 12,
-    gap: 4,
+    overflow: "hidden",
     minHeight: 68,
-    justifyContent: "center",
+  },
+  cardImage: {
+    width: "100%",
+    height: 80,
+  },
+  cardBody: {
+    padding: 10,
+    gap: 4,
   },
   cardName: { fontSize: 13, lineHeight: 18 },
   cardHint: { fontSize: 10, lineHeight: 14 },
