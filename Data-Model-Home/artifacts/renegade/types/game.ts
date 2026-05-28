@@ -16,6 +16,7 @@ export interface Category {
   name: string;
   culture: "circassian" | "jordanian" | "arabic" | "american" | "islamic" | "universal";
   description: string;
+  imageUrl?: string;
   questions: Question[];
 }
 
