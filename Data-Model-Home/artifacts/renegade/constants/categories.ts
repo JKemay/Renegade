@@ -3494,7 +3494,7 @@ const CATEGORIES: Category[] = [
           "The Australian Open is held in Melbourne every January and is the first Grand Slam of the calendar year.",
       },
       {
-        id: "sp_400_03",
+        id: "sports_400_03",
         categoryId: "sports",
         tier: 400,
         prompt:
@@ -3503,7 +3503,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Uruguay"],
       },
       {
-        id: "sp_600_03",
+        id: "sports_600_03",
         categoryId: "sports",
         tier: 600,
         prompt:
@@ -14946,7 +14946,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Bad_Bunny_2019_by_Glenn_Francis_%28cropped%29.jpg/500px-Bad_Bunny_2019_by_Glenn_Francis_%28cropped%29.jpg",
     questions: [
       {
-        id: "bb_200_01",
+        id: "mu_bad_200_01",
         categoryId: "mu_bad_bunny",
         tier: 200,
         prompt:
@@ -14955,7 +14955,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Puerto Rico"],
       },
       {
-        id: "bb_200_02",
+        id: "mu_bad_200_02",
         categoryId: "mu_bad_bunny",
         tier: 200,
         prompt:
@@ -14964,7 +14964,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Un Verano Sin Ti", "A Summer Without You"],
       },
       {
-        id: "bb_200_03",
+        id: "mu_bad_200_03",
         categoryId: "mu_bad_bunny",
         tier: 200,
         prompt: "Bad Bunny's real name is what?",
@@ -14976,7 +14976,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "bb_200_04",
+        id: "mu_bad_200_04",
         categoryId: "mu_bad_bunny",
         tier: 200,
         prompt:
@@ -14987,7 +14987,7 @@ const CATEGORIES: Category[] = [
           "Bad Bunny was Spotify's #1 most-streamed artist in 2020, 2021, and 2022 — the first artist to hold that title three consecutive years.",
       },
       {
-        id: "bb_200_05",
+        id: "mu_bad_200_05",
         categoryId: "mu_bad_bunny",
         tier: 200,
         prompt:
@@ -15000,7 +15000,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "bb_200_06",
+        id: "mu_bad_200_06",
         categoryId: "mu_bad_bunny",
         tier: 200,
         prompt:
@@ -15011,7 +15011,7 @@ const CATEGORIES: Category[] = [
           "'MIA' featured Drake and was released in 2018 — marking one of Bad Bunny's earliest forays into English-language crossover territory alongside one of hip-hop's biggest stars.",
       },
       {
-        id: "bb_400_01",
+        id: "mu_bad_400_01",
         categoryId: "mu_bad_bunny",
         tier: 400,
         prompt:
@@ -15020,7 +15020,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["YHLQMDLG", "Yo Hago Lo Que Me Da La Gana"],
       },
       {
-        id: "bb_400_02",
+        id: "mu_bad_400_02",
         categoryId: "mu_bad_bunny",
         tier: 400,
         prompt:
@@ -15032,7 +15032,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "bb_400_03",
+        id: "mu_bad_400_03",
         categoryId: "mu_bad_bunny",
         tier: 400,
         prompt:
@@ -15043,7 +15043,7 @@ const CATEGORIES: Category[] = [
           "Bad Bunny and J Balvin's collaborative EP Oasis (2019) was a landmark moment for Latin urban music's global reach.",
       },
       {
-        id: "bb_400_04",
+        id: "mu_bad_400_04",
         categoryId: "mu_bad_bunny",
         tier: 400,
         prompt:
@@ -15052,7 +15052,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Bullet Train"],
       },
       {
-        id: "bb_400_05",
+        id: "mu_bad_400_05",
         categoryId: "mu_bad_bunny",
         tier: 400,
         prompt:
@@ -15063,7 +15063,7 @@ const CATEGORIES: Category[] = [
           "Bad Bunny appeared at WWE's WrestleMania 37 in 2021, competing in a tag team match and receiving praise for his athleticism and performance.",
       },
       {
-        id: "bb_400_06",
+        id: "mu_bad_400_06",
         categoryId: "mu_bad_bunny",
         tier: 400,
         prompt:
@@ -15077,7 +15077,7 @@ const CATEGORIES: Category[] = [
           "Nadie Sabe Lo Que Va a Pasar Mañana (Nobody Knows What's Going to Happen Tomorrow) was released in October 2023 — a more experimental, less commercially polished effort.",
       },
       {
-        id: "bb_600_01",
+        id: "mu_bad_600_01",
         categoryId: "mu_bad_bunny",
         tier: 600,
         prompt:
@@ -15088,7 +15088,7 @@ const CATEGORIES: Category[] = [
           "Bad Bunny worked at Supermercados Econo in Vega Baja, Puerto Rico, bagging groceries while uploading music to SoundCloud in his spare time.",
       },
       {
-        id: "bb_600_02",
+        id: "mu_bad_600_02",
         categoryId: "mu_bad_bunny",
         tier: 600,
         prompt:
@@ -15103,7 +15103,7 @@ const CATEGORIES: Category[] = [
           "The album debuted at #1 on the Billboard 200 — making Bad Bunny the first artist to top the chart with an album recorded entirely in Spanish.",
       },
       {
-        id: "bb_600_03",
+        id: "mu_bad_600_03",
         categoryId: "mu_bad_bunny",
         tier: 600,
         prompt:
@@ -15114,7 +15114,7 @@ const CATEGORIES: Category[] = [
           "DJ Luian discovered Bad Bunny through SoundCloud and signed him to Hear This Music — the first label home before his major deals with Rimas Entertainment.",
       },
       {
-        id: "bb_600_04",
+        id: "mu_bad_600_04",
         categoryId: "mu_bad_bunny",
         tier: 600,
         prompt:
@@ -15129,7 +15129,7 @@ const CATEGORIES: Category[] = [
           "Bad Bunny was studying audiovisual communication — fitting, given how visually creative his rollouts and music videos have always been.",
       },
       {
-        id: "bb_600_05",
+        id: "mu_bad_600_05",
         categoryId: "mu_bad_bunny",
         tier: 600,
         prompt:
@@ -15144,7 +15144,7 @@ const CATEGORIES: Category[] = [
           "Bad Bunny performed on a flatbed truck during the massive 2019 protests in Puerto Rico, lending his global platform to the movement that ultimately forced Governor Rosselló to resign.",
       },
       {
-        id: "bb_600_06",
+        id: "mu_bad_600_06",
         categoryId: "mu_bad_bunny",
         tier: 600,
         prompt:
@@ -17219,7 +17219,7 @@ const CATEGORIES: Category[] = [
       "Multiverse nihilism, Szechuan sauce, and C-137 — Adult Swim's greatest creation.",
     questions: [
       {
-        id: "rm_200_01",
+        id: "mv_ric_200_01",
         categoryId: "mv_rick_morty",
         tier: 200,
         prompt:
@@ -17231,7 +17231,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "rm_200_02",
+        id: "mv_ric_200_02",
         categoryId: "mv_rick_morty",
         tier: 200,
         prompt:
@@ -17245,7 +17245,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "rm_200_03",
+        id: "mv_ric_200_03",
         categoryId: "mv_rick_morty",
         tier: 200,
         prompt:
@@ -17254,7 +17254,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["portal gun", "the portal gun"],
       },
       {
-        id: "rm_200_04",
+        id: "mv_ric_200_04",
         categoryId: "mv_rick_morty",
         tier: 200,
         prompt:
@@ -17287,7 +17287,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["wubba lubba dub dub", "wubba lubba dub-dub"],
       },
       {
-        id: "rm_400_01",
+        id: "mv_ric_400_01",
         categoryId: "mv_rick_morty",
         tier: 400,
         prompt:
@@ -17296,7 +17296,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Mulan", "Disney's Mulan"],
       },
       {
-        id: "rm_400_02",
+        id: "mv_ric_400_02",
         categoryId: "mv_rick_morty",
         tier: 400,
         prompt:
@@ -17305,7 +17305,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Galactic Federation", "the Federation"],
       },
       {
-        id: "rm_400_03",
+        id: "mv_ric_400_03",
         categoryId: "mv_rick_morty",
         tier: 400,
         prompt:
@@ -17314,7 +17314,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Jaguar"],
       },
       {
-        id: "rm_400_04",
+        id: "mv_ric_400_04",
         categoryId: "mv_rick_morty",
         tier: 400,
         prompt:
@@ -17350,7 +17350,7 @@ const CATEGORIES: Category[] = [
           "Several episodes deal with Morty's suppressed memories — most notably the reveal that Rick buried Morty's corpse after a dimension-hopping accident in the pilot's backstory.",
       },
       {
-        id: "rm_600_01",
+        id: "mv_ric_600_01",
         categoryId: "mv_rick_morty",
         tier: 600,
         prompt:
@@ -17359,7 +17359,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Back to the Future"],
       },
       {
-        id: "rm_600_02",
+        id: "mv_ric_600_02",
         categoryId: "mv_rick_morty",
         tier: 600,
         prompt:
@@ -17368,7 +17368,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Rick Prime", "Weird Rick", "the other Rick"],
       },
       {
-        id: "rm_600_03",
+        id: "mv_ric_600_03",
         categoryId: "mv_rick_morty",
         tier: 600,
         prompt:
@@ -17381,7 +17381,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "rm_600_04",
+        id: "mv_ric_600_04",
         categoryId: "mv_rick_morty",
         tier: 600,
         prompt:
@@ -20850,7 +20850,7 @@ const CATEGORIES: Category[] = [
       "Jordan's Bulls, the Dream Team, Wilt's 100 — the game's defining moments.",
     questions: [
       {
-        id: "nba_200_01",
+        id: "sp_nba_200_01",
         categoryId: "sp_nba_history",
         tier: 200,
         prompt:
@@ -20859,7 +20859,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["The Dream Team", "Dream Team"],
       },
       {
-        id: "nba_200_02",
+        id: "sp_nba_200_02",
         categoryId: "sp_nba_history",
         tier: 200,
         prompt:
@@ -20868,7 +20868,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["6", "six", "all six", "6-0"],
       },
       {
-        id: "nba_400_01",
+        id: "sp_nba_400_01",
         categoryId: "sp_nba_history",
         tier: 400,
         prompt:
@@ -20877,7 +20877,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Kareem Abdul-Jabbar", "Kareem", "Abdul-Jabbar"],
       },
       {
-        id: "nba_400_02",
+        id: "sp_nba_400_02",
         categoryId: "sp_nba_history",
         tier: 400,
         prompt:
@@ -20886,7 +20886,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["The Jordan Rules", "Jordan Rules"],
       },
       {
-        id: "nba_600_01",
+        id: "sp_nba_600_01",
         categoryId: "sp_nba_history",
         tier: 600,
         prompt:
@@ -20895,7 +20895,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["New York Knicks", "the Knicks", "NY Knicks"],
       },
       {
-        id: "nba_600_02",
+        id: "sp_nba_600_02",
         categoryId: "sp_nba_history",
         tier: 600,
         prompt:
@@ -20904,7 +20904,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Vinnie Johnson", "Vinnie 'The Microwave' Johnson"],
       },
       {
-        id: "nba_600_03",
+        id: "sp_nba_600_03",
         categoryId: "sp_nba_history",
         tier: 600,
         prompt:
@@ -20913,7 +20913,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["8.9 seconds", "8.9", "under 9 seconds"],
       },
       {
-        id: "nba_600_04",
+        id: "sp_nba_600_04",
         categoryId: "sp_nba_history",
         tier: 600,
         prompt:
@@ -23927,7 +23927,7 @@ const CATEGORIES: Category[] = [
       "Spike Spiegel, jazz, and the greatest anime ending ever made.",
     questions: [
       {
-        id: "cb_200_01",
+        id: "ani_cow_200_01",
         categoryId: "anime_cowboy_bebop",
         tier: 200,
         prompt:
@@ -23936,7 +23936,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["The Bebop", "Bebop"],
       },
       {
-        id: "cb_200_02",
+        id: "ani_cow_200_02",
         categoryId: "anime_cowboy_bebop",
         tier: 200,
         prompt:
@@ -23945,7 +23945,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Spike Spiegel", "Spike"],
       },
       {
-        id: "cb_400_01",
+        id: "ani_cow_400_01",
         categoryId: "anime_cowboy_bebop",
         tier: 400,
         prompt:
@@ -23954,7 +23954,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Yoko Kanno"],
       },
       {
-        id: "cb_400_02",
+        id: "ani_cow_400_02",
         categoryId: "anime_cowboy_bebop",
         tier: 400,
         prompt:
@@ -23963,7 +23963,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Bang", "bang"],
       },
       {
-        id: "cb_600_01",
+        id: "ani_cow_600_01",
         categoryId: "anime_cowboy_bebop",
         tier: 600,
         prompt:
@@ -23972,7 +23972,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Bruce Lee"],
       },
       {
-        id: "cb_600_02",
+        id: "ani_cow_600_02",
         categoryId: "anime_cowboy_bebop",
         tier: 600,
         prompt:
@@ -29595,7 +29595,7 @@ const CATEGORIES: Category[] = [
       "Blocks, creepers, the Ender Dragon — survival, creativity, and pure chaos.",
     questions: [
       {
-        id: "mc_200_01",
+        id: "gm_min_200_01",
         categoryId: "gm_minecraft",
         tier: 200,
         prompt:
@@ -29604,7 +29604,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Ender Dragon", "the Ender Dragon"],
       },
       {
-        id: "mc_200_02",
+        id: "gm_min_200_02",
         categoryId: "gm_minecraft",
         tier: 200,
         prompt:
@@ -29649,7 +29649,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Gold", "golden tools"],
       },
       {
-        id: "mc_400_01",
+        id: "gm_min_400_01",
         categoryId: "gm_minecraft",
         tier: 400,
         prompt:
@@ -29662,7 +29662,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "mc_400_02",
+        id: "gm_min_400_02",
         categoryId: "gm_minecraft",
         tier: 400,
         prompt:
@@ -29707,7 +29707,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["cross-play", "marketplace", "cross-platform play"],
       },
       {
-        id: "mc_600_01",
+        id: "gm_min_600_01",
         categoryId: "gm_minecraft",
         tier: 600,
         prompt:
@@ -29716,7 +29716,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Elder Guardian", "the Wither", "Wither"],
       },
       {
-        id: "mc_600_02",
+        id: "gm_min_600_02",
         categoryId: "gm_minecraft",
         tier: 600,
         prompt:
@@ -29973,7 +29973,7 @@ const CATEGORIES: Category[] = [
       "Yharnam, the Hunt, Great Ones — FromSoftware's Victorian gothic nightmare.",
     questions: [
       {
-        id: "bb_200_01",
+        id: "gm_blo_200_01",
         categoryId: "gm_bloodborne",
         tier: 200,
         prompt:
@@ -29982,7 +29982,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Yharnam"],
       },
       {
-        id: "bb_200_02",
+        id: "gm_blo_200_02",
         categoryId: "gm_bloodborne",
         tier: 200,
         prompt:
@@ -30031,7 +30031,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["PS4", "PlayStation 4", "PlayStation"],
       },
       {
-        id: "bb_400_01",
+        id: "gm_blo_400_01",
         categoryId: "gm_bloodborne",
         tier: 400,
         prompt:
@@ -30040,7 +30040,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Trick weapons", "trick weapon transformation"],
       },
       {
-        id: "bb_400_02",
+        id: "gm_blo_400_02",
         categoryId: "gm_bloodborne",
         tier: 400,
         prompt:
@@ -30093,7 +30093,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "bb_600_01",
+        id: "gm_blo_600_01",
         categoryId: "gm_bloodborne",
         tier: 600,
         prompt:
@@ -30102,7 +30102,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["The Old Hunters"],
       },
       {
-        id: "bb_600_02",
+        id: "gm_blo_600_02",
         categoryId: "gm_bloodborne",
         tier: 600,
         prompt:
@@ -31103,7 +31103,7 @@ const CATEGORIES: Category[] = [
       "Science saves the world — Senku rebuilding civilization from stone age with pure brainpower.",
     questions: [
       {
-        id: "ds_200_01",
+        id: "ani_dr_200_01",
         categoryId: "anime_dr_stone",
         tier: 200,
         prompt:
@@ -31112,7 +31112,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["3715", "3,715 years", "about 3700 years"],
       },
       {
-        id: "ds_200_02",
+        id: "ani_dr_200_02",
         categoryId: "anime_dr_stone",
         tier: 200,
         prompt:
@@ -31121,7 +31121,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["ten billion percent", "10 billion percent"],
       },
       {
-        id: "ds_400_01",
+        id: "ani_dr_400_01",
         categoryId: "anime_dr_stone",
         tier: 400,
         prompt:
@@ -31130,7 +31130,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["nital", "nitric acid", "revival fluid"],
       },
       {
-        id: "ds_400_02",
+        id: "ani_dr_400_02",
         categoryId: "anime_dr_stone",
         tier: 400,
         prompt:
@@ -31144,7 +31144,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "ds_600_01",
+        id: "ani_dr_600_01",
         categoryId: "anime_dr_stone",
         tier: 600,
         prompt:
@@ -31158,7 +31158,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "ds_600_02",
+        id: "ani_dr_600_02",
         categoryId: "anime_dr_stone",
         tier: 600,
         prompt:
@@ -31462,7 +31462,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Frank_Ocean_2022_Blonded.jpg/500px-Frank_Ocean_2022_Blonded.jpg",
     questions: [
       {
-        id: "fo_200_01",
+        id: "mu_fra_200_01",
         categoryId: "mu_frank_ocean",
         tier: 200,
         prompt:
@@ -31471,7 +31471,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Channel Orange"],
       },
       {
-        id: "fo_200_02",
+        id: "mu_fra_200_02",
         categoryId: "mu_frank_ocean",
         tier: 200,
         prompt:
@@ -31484,7 +31484,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "fo_400_01",
+        id: "mu_fra_400_01",
         categoryId: "mu_frank_ocean",
         tier: 400,
         prompt:
@@ -31493,7 +31493,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Blonde", "Blond"],
       },
       {
-        id: "fo_400_02",
+        id: "mu_fra_400_02",
         categoryId: "mu_frank_ocean",
         tier: 400,
         prompt:
@@ -31502,7 +31502,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Tumblr"],
       },
       {
-        id: "fo_600_01",
+        id: "mu_fra_600_01",
         categoryId: "mu_frank_ocean",
         tier: 600,
         prompt:
@@ -31511,7 +31511,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Apple Music"],
       },
       {
-        id: "fo_600_02",
+        id: "mu_fra_600_02",
         categoryId: "mu_frank_ocean",
         tier: 600,
         prompt: "What is Frank Ocean's real name?",
@@ -31532,7 +31532,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/ColdplayWembley120925_%28cropped%29.jpg/500px-ColdplayWembley120925_%28cropped%29.jpg",
     questions: [
       {
-        id: "cp_200_01",
+        id: "mu_col_200_01",
         categoryId: "mu_coldplay",
         tier: 200,
         prompt:
@@ -31541,7 +31541,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Yellow"],
       },
       {
-        id: "cp_200_02",
+        id: "mu_col_200_02",
         categoryId: "mu_coldplay",
         tier: 200,
         prompt: "Who is the lead singer and frontman of Coldplay?",
@@ -31549,7 +31549,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Chris Martin"],
       },
       {
-        id: "cp_400_01",
+        id: "mu_col_400_01",
         categoryId: "mu_coldplay",
         tier: 400,
         prompt:
@@ -31558,7 +31558,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Beyoncé", "Beyonce", "Bruno Mars"],
       },
       {
-        id: "cp_400_02",
+        id: "mu_col_400_02",
         categoryId: "mu_coldplay",
         tier: 400,
         prompt:
@@ -31567,7 +31567,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Music of the Spheres"],
       },
       {
-        id: "cp_600_01",
+        id: "mu_col_600_01",
         categoryId: "mu_coldplay",
         tier: 600,
         prompt:
@@ -31576,7 +31576,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["UCL", "University College London"],
       },
       {
-        id: "cp_600_02",
+        id: "mu_col_600_02",
         categoryId: "mu_coldplay",
         tier: 600,
         prompt:
@@ -31896,7 +31896,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/League_of_Legends_2019_vector.svg/500px-League_of_Legends_2019_vector.svg.png",
     questions: [
       {
-        id: "lol_200_01",
+        id: "gm_lea_200_01",
         categoryId: "gm_league",
         tier: 200,
         prompt:
@@ -31905,7 +31905,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Riot Games", "Riot"],
       },
       {
-        id: "lol_200_02",
+        id: "gm_lea_200_02",
         categoryId: "gm_league",
         tier: 200,
         prompt:
@@ -31914,7 +31914,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Nexus", "the Nexus"],
       },
       {
-        id: "lol_200_03",
+        id: "gm_lea_200_03",
         categoryId: "gm_league",
         tier: 200,
         prompt:
@@ -31923,7 +31923,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Baron Nashor", "Baron", "Nashor"],
       },
       {
-        id: "lol_200_04",
+        id: "gm_lea_200_04",
         categoryId: "gm_league",
         tier: 200,
         prompt:
@@ -31932,7 +31932,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Summoner's Rift", "Summoners Rift"],
       },
       {
-        id: "lol_200_05",
+        id: "gm_lea_200_05",
         categoryId: "gm_league",
         tier: 200,
         prompt:
@@ -31941,7 +31941,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Garen", "Garen Crownguard"],
       },
       {
-        id: "lol_200_06",
+        id: "gm_lea_200_06",
         categoryId: "gm_league",
         tier: 200,
         prompt:
@@ -31950,7 +31950,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Gold", "gold coins"],
       },
       {
-        id: "lol_400_01",
+        id: "gm_lea_400_01",
         categoryId: "gm_league",
         tier: 400,
         prompt:
@@ -31959,7 +31959,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Ashe"],
       },
       {
-        id: "lol_400_02",
+        id: "gm_lea_400_02",
         categoryId: "gm_league",
         tier: 400,
         prompt:
@@ -31968,7 +31968,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Arcane"],
       },
       {
-        id: "lol_400_03",
+        id: "gm_lea_400_03",
         categoryId: "gm_league",
         tier: 400,
         prompt:
@@ -31977,7 +31977,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Mid", "Middle"],
       },
       {
-        id: "lol_400_04",
+        id: "gm_lea_400_04",
         categoryId: "gm_league",
         tier: 400,
         prompt:
@@ -31986,7 +31986,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Twisted Fate", "TF"],
       },
       {
-        id: "lol_400_05",
+        id: "gm_lea_400_05",
         categoryId: "gm_league",
         tier: 400,
         prompt:
@@ -31995,7 +31995,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Vi", "Violet"],
       },
       {
-        id: "lol_400_06",
+        id: "gm_lea_400_06",
         categoryId: "gm_league",
         tier: 400,
         prompt:
@@ -32004,7 +32004,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Wild Rift", "League of Legends Wild Rift"],
       },
       {
-        id: "lol_600_01",
+        id: "gm_lea_600_01",
         categoryId: "gm_league",
         tier: 600,
         prompt:
@@ -32013,7 +32013,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["SKT T1", "SKT", "T1", "SK Telecom T1"],
       },
       {
-        id: "lol_600_02",
+        id: "gm_lea_600_02",
         categoryId: "gm_league",
         tier: 600,
         prompt:
@@ -32022,7 +32022,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["mid lane", "midlaner", "Zed", "LeBlanc"],
       },
       {
-        id: "lol_600_03",
+        id: "gm_lea_600_03",
         categoryId: "gm_league",
         tier: 600,
         prompt:
@@ -32036,7 +32036,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "lol_600_04",
+        id: "gm_lea_600_04",
         categoryId: "gm_league",
         tier: 600,
         prompt:
@@ -32050,7 +32050,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "lol_600_05",
+        id: "gm_lea_600_05",
         categoryId: "gm_league",
         tier: 600,
         prompt:
@@ -32059,7 +32059,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Kindred", "Lamb and Wolf"],
       },
       {
-        id: "lol_600_06",
+        id: "gm_lea_600_06",
         categoryId: "gm_league",
         tier: 600,
         prompt:
@@ -32267,7 +32267,7 @@ const CATEGORIES: Category[] = [
       "Battle Royale that swallowed pop culture — the island, collaborations, and the OG season.",
     questions: [
       {
-        id: "fn_200_01",
+        id: "gm_for_200_01",
         categoryId: "gm_fortnite",
         tier: 200,
         prompt:
@@ -32276,7 +32276,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Epic Games", "Epic"],
       },
       {
-        id: "fn_200_02",
+        id: "gm_for_200_02",
         categoryId: "gm_fortnite",
         tier: 200,
         prompt:
@@ -32285,7 +32285,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["the Storm", "the circle"],
       },
       {
-        id: "fn_200_03",
+        id: "gm_for_200_03",
         categoryId: "gm_fortnite",
         tier: 200,
         prompt:
@@ -32294,7 +32294,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["V-Bucks", "V Bucks", "Vbucks"],
       },
       {
-        id: "fn_200_04",
+        id: "gm_for_200_04",
         categoryId: "gm_fortnite",
         tier: 200,
         prompt:
@@ -32303,7 +32303,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["100", "one hundred"],
       },
       {
-        id: "fn_200_05",
+        id: "gm_for_200_05",
         categoryId: "gm_fortnite",
         tier: 200,
         prompt:
@@ -32317,7 +32317,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "fn_200_06",
+        id: "gm_for_200_06",
         categoryId: "gm_fortnite",
         tier: 200,
         prompt:
@@ -32326,7 +32326,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Battle Bus", "the Battle Bus"],
       },
       {
-        id: "fn_400_01",
+        id: "gm_for_400_01",
         categoryId: "gm_fortnite",
         tier: 400,
         prompt:
@@ -32335,7 +32335,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Thanos"],
       },
       {
-        id: "fn_400_02",
+        id: "gm_for_400_02",
         categoryId: "gm_fortnite",
         tier: 400,
         prompt:
@@ -32344,7 +32344,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["12 million", "12.3 million", "over 12 million"],
       },
       {
-        id: "fn_400_03",
+        id: "gm_for_400_03",
         categoryId: "gm_fortnite",
         tier: 400,
         prompt:
@@ -32353,7 +32353,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Building", "build mechanics", "construction"],
       },
       {
-        id: "fn_400_04",
+        id: "gm_for_400_04",
         categoryId: "gm_fortnite",
         tier: 400,
         prompt:
@@ -32362,7 +32362,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Tilted Towers", "Tilted"],
       },
       {
-        id: "fn_400_05",
+        id: "gm_for_400_05",
         categoryId: "gm_fortnite",
         tier: 400,
         prompt:
@@ -32376,7 +32376,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "fn_400_06",
+        id: "gm_for_400_06",
         categoryId: "gm_fortnite",
         tier: 400,
         prompt:
@@ -32385,7 +32385,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Milly Rock", "Swipe It", "the milly rock"],
       },
       {
-        id: "fn_600_01",
+        id: "gm_for_600_01",
         categoryId: "gm_fortnite",
         tier: 600,
         prompt:
@@ -32394,7 +32394,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["The End", "the black hole event"],
       },
       {
-        id: "fn_600_02",
+        id: "gm_for_600_02",
         categoryId: "gm_fortnite",
         tier: 600,
         prompt:
@@ -32409,7 +32409,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "fn_600_03",
+        id: "gm_for_600_03",
         categoryId: "gm_fortnite",
         tier: 600,
         prompt:
@@ -32418,7 +32418,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["The Zero Point", "Zero Point"],
       },
       {
-        id: "fn_600_04",
+        id: "gm_for_600_04",
         categoryId: "gm_fortnite",
         tier: 600,
         prompt:
@@ -32432,7 +32432,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "fn_600_05",
+        id: "gm_for_600_05",
         categoryId: "gm_fortnite",
         tier: 600,
         prompt:
@@ -32441,7 +32441,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Unreal Engine 5", "UE5"],
       },
       {
-        id: "fn_600_06",
+        id: "gm_for_600_06",
         categoryId: "gm_fortnite",
         tier: 600,
         prompt:
@@ -32903,7 +32903,7 @@ const CATEGORIES: Category[] = [
       "Gon, Killua, Nen, and Yoshihiro Togashi's masterpiece that never finishes airing.",
     questions: [
       {
-        id: "hxh_200_01",
+        id: "ani_hxh_200_01",
         categoryId: "anime_hxh_deep",
         tier: 200,
         prompt:
@@ -32912,7 +32912,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Nen"],
       },
       {
-        id: "hxh_200_02",
+        id: "ani_hxh_200_02",
         categoryId: "anime_hxh_deep",
         tier: 200,
         prompt:
@@ -32921,7 +32921,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Killua", "Killua Zoldyck"],
       },
       {
-        id: "hxh_400_01",
+        id: "ani_hxh_400_01",
         categoryId: "anime_hxh_deep",
         tier: 400,
         prompt:
@@ -32930,7 +32930,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Meruem", "the Chimera Ant King"],
       },
       {
-        id: "hxh_400_02",
+        id: "ani_hxh_400_02",
         categoryId: "anime_hxh_deep",
         tier: 400,
         prompt:
@@ -32939,7 +32939,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Bungee Gum", "rubber and gum", "gum"],
       },
       {
-        id: "hxh_600_01",
+        id: "ani_hxh_600_01",
         categoryId: "anime_hxh_deep",
         tier: 600,
         prompt:
@@ -32948,7 +32948,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Transmutation", "Transmuter"],
       },
       {
-        id: "hxh_600_02",
+        id: "ani_hxh_600_02",
         categoryId: "anime_hxh_deep",
         tier: 600,
         prompt:
@@ -33669,7 +33669,7 @@ const CATEGORIES: Category[] = [
       "Infinite universes, nihilism, and improvised science — the smartest dumb show on TV.",
     questions: [
       {
-        id: "rm2_200_01",
+        id: "mv_ric_200_01_x1",
         categoryId: "mv_rick_morty_2",
         tier: 200,
         prompt:
@@ -33678,7 +33678,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Adult Swim", "Cartoon Network"],
       },
       {
-        id: "rm2_200_02",
+        id: "mv_ric_200_02_x1",
         categoryId: "mv_rick_morty_2",
         tier: 200,
         prompt:
@@ -33687,7 +33687,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Wubba lubba dub dub", "wubba lubba dub-dub"],
       },
       {
-        id: "rm2_400_01",
+        id: "mv_ric_400_01_x1",
         categoryId: "mv_rick_morty_2",
         tier: 400,
         prompt:
@@ -33700,7 +33700,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "rm2_400_02",
+        id: "mv_ric_400_02_x1",
         categoryId: "mv_rick_morty_2",
         tier: 400,
         prompt:
@@ -33713,7 +33713,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "rm2_600_01",
+        id: "mv_ric_600_01_x1",
         categoryId: "mv_rick_morty_2",
         tier: 600,
         prompt:
@@ -33726,7 +33726,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "rm2_600_02",
+        id: "mv_ric_600_02_x1",
         categoryId: "mv_rick_morty_2",
         tier: 600,
         prompt:
@@ -33755,7 +33755,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/500px-International_Pok%C3%A9mon_logo.svg.png",
     questions: [
       {
-        id: "pkm_200_01",
+        id: "gm_pok_200_01",
         categoryId: "gm_pokemon",
         tier: 200,
         prompt:
@@ -33764,7 +33764,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Bulbasaur", "Bulbasaur number 001"],
       },
       {
-        id: "pkm_200_02",
+        id: "gm_pok_200_02",
         categoryId: "gm_pokemon",
         tier: 200,
         prompt:
@@ -33773,7 +33773,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Pikachu"],
       },
       {
-        id: "pkm_200_03",
+        id: "gm_pok_200_03",
         categoryId: "gm_pokemon",
         tier: 200,
         prompt:
@@ -33782,7 +33782,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Charmander"],
       },
       {
-        id: "pkm_200_04",
+        id: "gm_pok_200_04",
         categoryId: "gm_pokemon",
         tier: 200,
         prompt:
@@ -33791,7 +33791,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Team Rocket"],
       },
       {
-        id: "pkm_200_05",
+        id: "gm_pok_200_05",
         categoryId: "gm_pokemon",
         tier: 200,
         prompt:
@@ -33800,7 +33800,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Pokédex", "Pokedex"],
       },
       {
-        id: "pkm_200_06",
+        id: "gm_pok_200_06",
         categoryId: "gm_pokemon",
         tier: 200,
         prompt:
@@ -33809,7 +33809,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Gary Oak", "Gary", "Blue"],
       },
       {
-        id: "pkm_400_01",
+        id: "gm_pok_400_01",
         categoryId: "gm_pokemon",
         tier: 400,
         prompt:
@@ -33818,7 +33818,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Game Freak"],
       },
       {
-        id: "pkm_400_02",
+        id: "gm_pok_400_02",
         categoryId: "gm_pokemon",
         tier: 400,
         prompt:
@@ -33827,7 +33827,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Mew"],
       },
       {
-        id: "pkm_400_03",
+        id: "gm_pok_400_03",
         categoryId: "gm_pokemon",
         tier: 400,
         prompt:
@@ -33840,7 +33840,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "pkm_400_04",
+        id: "gm_pok_400_04",
         categoryId: "gm_pokemon",
         tier: 400,
         prompt:
@@ -33849,7 +33849,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Pokémon X and Y", "X and Y", "Pokemon X and Y"],
       },
       {
-        id: "pkm_400_05",
+        id: "gm_pok_400_05",
         categoryId: "gm_pokemon",
         tier: 400,
         prompt:
@@ -33858,7 +33858,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Dialga"],
       },
       {
-        id: "pkm_400_06",
+        id: "gm_pok_400_06",
         categoryId: "gm_pokemon",
         tier: 400,
         prompt:
@@ -33867,7 +33867,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Dynamax", "Gigantamax"],
       },
       {
-        id: "pkm_600_01",
+        id: "gm_pok_600_01",
         categoryId: "gm_pokemon",
         tier: 600,
         prompt:
@@ -33877,7 +33877,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Ho-Oh", "Celebi"],
       },
       {
-        id: "pkm_600_02",
+        id: "gm_pok_600_02",
         categoryId: "gm_pokemon",
         tier: 600,
         prompt:
@@ -33886,7 +33886,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Niantic", "Niantic Labs"],
       },
       {
-        id: "pkm_600_03",
+        id: "gm_pok_600_03",
         categoryId: "gm_pokemon",
         tier: 600,
         prompt:
@@ -33895,7 +33895,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["6th slot", "sixth slot", "item slot 6"],
       },
       {
-        id: "pkm_600_04",
+        id: "gm_pok_600_04",
         categoryId: "gm_pokemon",
         tier: 600,
         prompt:
@@ -33904,7 +33904,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Hisui", "ancient Sinnoh", "Sinnoh"],
       },
       {
-        id: "pkm_600_05",
+        id: "gm_pok_600_05",
         categoryId: "gm_pokemon",
         tier: 600,
         prompt:
@@ -33913,7 +33913,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Smogon", "Smogon tiers", "OU tiers", "tier list"],
       },
       {
-        id: "pkm_600_06",
+        id: "gm_pok_600_06",
         categoryId: "gm_pokemon",
         tier: 600,
         prompt:
@@ -33934,7 +33934,7 @@ const CATEGORIES: Category[] = [
       "Arthur Morgan, the Van der Linde gang, and the dying American frontier.",
     questions: [
       {
-        id: "rdr_200_01",
+        id: "gm_rdr_200_01",
         categoryId: "gm_rdr2",
         tier: 200,
         prompt:
@@ -33943,7 +33943,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Rockstar Games", "Rockstar"],
       },
       {
-        id: "rdr_200_02",
+        id: "gm_rdr_200_02",
         categoryId: "gm_rdr2",
         tier: 200,
         prompt: "You play as Arthur Morgan in RDR2 — an outlaw in which gang?",
@@ -33955,7 +33955,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "rdr_200_03",
+        id: "gm_rdr_200_03",
         categoryId: "gm_rdr2",
         tier: 200,
         prompt:
@@ -33969,7 +33969,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "rdr_200_04",
+        id: "gm_rdr_200_04",
         categoryId: "gm_rdr2",
         tier: 200,
         prompt:
@@ -33978,7 +33978,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["his horse", "a horse", "horse"],
       },
       {
-        id: "rdr_200_05",
+        id: "gm_rdr_200_05",
         categoryId: "gm_rdr2",
         tier: 200,
         prompt:
@@ -33987,7 +33987,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Tuberculosis", "TB", "tuberculosis"],
       },
       {
-        id: "rdr_200_06",
+        id: "gm_rdr_200_06",
         categoryId: "gm_rdr2",
         tier: 200,
         prompt:
@@ -34000,7 +34000,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "rdr_400_01",
+        id: "gm_rdr_400_01",
         categoryId: "gm_rdr2",
         tier: 400,
         prompt:
@@ -34013,7 +34013,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "rdr_400_02",
+        id: "gm_rdr_400_02",
         categoryId: "gm_rdr2",
         tier: 400,
         prompt:
@@ -34026,7 +34026,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "rdr_400_03",
+        id: "gm_rdr_400_03",
         categoryId: "gm_rdr2",
         tier: 400,
         prompt:
@@ -34035,7 +34035,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Agent Milton", "Milton", "Andrew Milton"],
       },
       {
-        id: "rdr_400_04",
+        id: "gm_rdr_400_04",
         categoryId: "gm_rdr2",
         tier: 400,
         prompt:
@@ -34044,7 +34044,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Charles Smith", "Charles"],
       },
       {
-        id: "rdr_400_05",
+        id: "gm_rdr_400_05",
         categoryId: "gm_rdr2",
         tier: 400,
         prompt:
@@ -34058,7 +34058,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "rdr_400_06",
+        id: "gm_rdr_400_06",
         categoryId: "gm_rdr2",
         tier: 400,
         prompt:
@@ -34067,7 +34067,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Lemoyne", "the state of Lemoyne"],
       },
       {
-        id: "rdr_600_01",
+        id: "gm_rdr_600_01",
         categoryId: "gm_rdr2",
         tier: 600,
         prompt:
@@ -34080,7 +34080,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "rdr_600_02",
+        id: "gm_rdr_600_02",
         categoryId: "gm_rdr2",
         tier: 600,
         prompt:
@@ -34089,7 +34089,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["John Marston", "Marston"],
       },
       {
-        id: "rdr_600_03",
+        id: "gm_rdr_600_03",
         categoryId: "gm_rdr2",
         tier: 600,
         prompt:
@@ -34102,7 +34102,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "rdr_600_04",
+        id: "gm_rdr_600_04",
         categoryId: "gm_rdr2",
         tier: 600,
         prompt:
@@ -34111,7 +34111,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["The Trapper", "Trapper", "the trapper shop"],
       },
       {
-        id: "rdr_600_05",
+        id: "gm_rdr_600_05",
         categoryId: "gm_rdr2",
         tier: 600,
         prompt:
@@ -34124,7 +34124,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "rdr_600_06",
+        id: "gm_rdr_600_06",
         categoryId: "gm_rdr2",
         tier: 600,
         prompt:
@@ -34520,7 +34520,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Social_media_platter.svg/500px-Social_media_platter.svg.png",
     questions: [
       {
-        id: "sm_200_01",
+        id: "cul_soc_200_01",
         categoryId: "cul_social_media",
         tier: 200,
         prompt: "TikTok is owned by which Chinese company?",
@@ -34528,7 +34528,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["ByteDance"],
       },
       {
-        id: "sm_200_02",
+        id: "cul_soc_200_02",
         categoryId: "cul_social_media",
         tier: 200,
         prompt:
@@ -34537,7 +34537,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["$1 billion", "1 billion dollars", "1 billion"],
       },
       {
-        id: "sm_400_01",
+        id: "cul_soc_400_01",
         categoryId: "cul_social_media",
         tier: 400,
         prompt:
@@ -34546,7 +34546,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["X", "Twitter X"],
       },
       {
-        id: "sm_400_02",
+        id: "cul_soc_400_02",
         categoryId: "cul_social_media",
         tier: 400,
         prompt:
@@ -34555,7 +34555,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["TheFacebook", "The Facebook"],
       },
       {
-        id: "sm_600_01",
+        id: "cul_soc_600_01",
         categoryId: "cul_social_media",
         tier: 600,
         prompt:
@@ -34567,7 +34567,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "sm_600_02",
+        id: "cul_soc_600_02",
         categoryId: "cul_social_media",
         tier: 600,
         prompt:
@@ -34668,7 +34668,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Marriage%2C_Paris_-_UNESCO_-_PHOTO0000004583_0001.tiff/lossy-page1-500px-Marriage%2C_Paris_-_UNESCO_-_PHOTO0000004583_0001.tiff.jpg",
     questions: [
       {
-        id: "kw_200_01",
+        id: "kuw_cul_200_01",
         categoryId: "kuwaiti_culture",
         tier: 200,
         prompt:
@@ -34677,7 +34677,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Kuwait Towers", "The Kuwait Towers", "Abraj Al Kuwait"],
       },
       {
-        id: "kw_400_01",
+        id: "kuw_cul_400_01",
         categoryId: "kuwaiti_culture",
         tier: 400,
         prompt:
@@ -34686,7 +34686,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Pearl Diving", "Pearling", "Ghaws"],
       },
       {
-        id: "kw_600_01",
+        id: "kuw_cul_600_01",
         categoryId: "kuwaiti_culture",
         tier: 600,
         prompt:
@@ -34695,7 +34695,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Diwaniya", "Dewaniya", "Al Diwaniya"],
       },
       {
-        id: "kw_600_02",
+        id: "kuw_cul_600_02",
         categoryId: "kuwaiti_culture",
         tier: 600,
         prompt:
@@ -34715,7 +34715,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/CIA_World_Physical_Map_%282023%29.pdf/page1-500px-CIA_World_Physical_Map_%282023%29.pdf.jpg",
     questions: [
       {
-        id: "geo_200_01",
+        id: "wor_geo_200_01",
         categoryId: "world_geography",
         tier: 200,
         prompt:
@@ -34724,7 +34724,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Vatican City", "The Vatican"],
       },
       {
-        id: "geo_400_01",
+        id: "wor_geo_400_01",
         categoryId: "world_geography",
         tier: 400,
         prompt:
@@ -34733,7 +34733,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Challenger Deep"],
       },
       {
-        id: "geo_600_01",
+        id: "wor_geo_600_01",
         categoryId: "world_geography",
         tier: 600,
         prompt:
@@ -34742,7 +34742,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Equatorial Guinea"],
       },
       {
-        id: "geo_600_02",
+        id: "wor_geo_600_02",
         categoryId: "world_geography",
         tier: 600,
         prompt:
@@ -34809,7 +34809,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Tech_Tower_and_Shop_1899.jpg/500px-Tech_Tower_and_Shop_1899.jpg",
     questions: [
       {
-        id: "tec_400_01",
+        id: "tec_his_400_01",
         categoryId: "tech_history",
         tier: 400,
         prompt:
@@ -34818,7 +34818,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["BackRub"],
       },
       {
-        id: "tec_600_01",
+        id: "tec_his_600_01",
         categoryId: "tech_history",
         tier: 600,
         prompt:
@@ -34827,7 +34827,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Creeper", "The Creeper"],
       },
       {
-        id: "tec_600_02",
+        id: "tec_his_600_02",
         categoryId: "tech_history",
         tier: 600,
         prompt:
@@ -34900,7 +34900,7 @@ const CATEGORIES: Category[] = [
     description: "Deep lore from the frozen north of Tamriel.",
     questions: [
       {
-        id: "sky_400_01",
+        id: "vg_sky_400_01",
         categoryId: "vg_skyrim",
         tier: 400,
         prompt:
@@ -34909,7 +34909,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Dark Brotherhood"],
       },
       {
-        id: "sky_600_01",
+        id: "vg_sky_600_01",
         categoryId: "vg_skyrim",
         tier: 600,
         prompt:
@@ -34918,7 +34918,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Sheogorath"],
       },
       {
-        id: "sky_600_02",
+        id: "vg_sky_600_02",
         categoryId: "vg_skyrim",
         tier: 600,
         prompt:
@@ -35918,7 +35918,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/BJO_Konzert_Phil_MR_098.jpg/500px-BJO_Konzert_Phil_MR_098.jpg",
     questions: [
       {
-        id: "cla_400_01",
+        id: "cla_mus_400_01",
         categoryId: "classical_music",
         tier: 400,
         prompt:
@@ -35927,7 +35927,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["9", "9th", "Ninth", "Symphony No. 9"],
       },
       {
-        id: "cla_600_01",
+        id: "cla_mus_600_01",
         categoryId: "classical_music",
         tier: 600,
         prompt:
@@ -35936,7 +35936,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["The Rite of Spring", "Rite of Spring", "Le Sacre du printemps"],
       },
       {
-        id: "cla_600_02",
+        id: "cla_mus_600_02",
         categoryId: "classical_music",
         tier: 600,
         prompt:
@@ -35955,7 +35955,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Internet_map_1024_-_transparent%2C_inverted.png/500px-Internet_map_1024_-_transparent%2C_inverted.png",
     questions: [
       {
-        id: "int_400_01",
+        id: "int_his_400_01",
         categoryId: "internet_history",
         tier: 400,
         prompt:
@@ -35964,7 +35964,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Tim Berners-Lee", "Berners-Lee"],
       },
       {
-        id: "int_600_01",
+        id: "int_his_600_01",
         categoryId: "internet_history",
         tier: 600,
         prompt:
@@ -35973,7 +35973,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Me at the zoo", "Me at the zoo."],
       },
       {
-        id: "int_600_02",
+        id: "int_his_600_02",
         categoryId: "internet_history",
         tier: 600,
         prompt:
@@ -36480,7 +36480,7 @@ const CATEGORIES: Category[] = [
     description: "Director's cuts, box office records, and film history.",
     questions: [
       {
-        id: "mv_600_10",
+        id: "mv_obs_600_10",
         categoryId: "mv_obscure_cinema",
         tier: 600,
         prompt:
@@ -36489,7 +36489,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["H.R. Giger", "Giger"],
       },
       {
-        id: "mv_600_11",
+        id: "mv_obs_600_11",
         categoryId: "mv_obscure_cinema",
         tier: 600,
         prompt:
@@ -36498,7 +36498,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Wilhelm Scream", "Wilhelm"],
       },
       {
-        id: "mv_600_12",
+        id: "mv_obs_600_12",
         categoryId: "mv_obscure_cinema",
         tier: 600,
         prompt:
@@ -36553,7 +36553,7 @@ const CATEGORIES: Category[] = [
     description: "Bambinos, Billy Goats, and broken streaks.",
     questions: [
       {
-        id: "sp_600_10",
+        id: "sp_spo_600_10",
         categoryId: "sp_sports_curses",
         tier: 600,
         prompt:
@@ -36562,7 +36562,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["2004"],
       },
       {
-        id: "sp_600_11",
+        id: "sp_spo_600_11",
         categoryId: "sp_sports_curses",
         tier: 600,
         prompt:
@@ -36571,7 +36571,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Andrés Escobar", "Escobar"],
       },
       {
-        id: "sp_600_12",
+        id: "sp_spo_600_12",
         categoryId: "sp_sports_curses",
         tier: 600,
         prompt:
@@ -36887,7 +36887,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Double-lens_burning_apparatus%2C_Ehrenfried_Walther_von_Tschirnhaus%2C_Kieslingswalde_%28today_Slawonice%2C_Poland%29%2C_c._1690_-_Mathematisch-Physikalischer_Salon%2C_Dresden_-_DSC08133.JPG/500px-thumbnail.jpg",
     questions: [
       {
-        id: "mv_400_01",
+        id: "mv_beh_400_01",
         categoryId: "mv_behind_the_lens",
         tier: 400,
         prompt:
@@ -36896,7 +36896,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Broke his toe", "Broke his toes", "Fractured his toe"],
       },
       {
-        id: "mv_600_01",
+        id: "mv_beh_600_01",
         categoryId: "mv_behind_the_lens",
         tier: 600,
         prompt:
@@ -36905,7 +36905,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Sushi cookbook", "Sushi recipe book", "Sushi recipes", "Japanese cookbook"],
       },
       {
-        id: "mv_600_02",
+        id: "mv_beh_600_02",
         categoryId: "mv_behind_the_lens",
         tier: 600,
         prompt:
@@ -37376,7 +37376,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Centre_Court.jpg/500px-Centre_Court.jpg",
     questions: [
       {
-        id: "ten_400_01",
+        id: "sp_ten_400_01",
         categoryId: "sp_tennis_history",
         tier: 400,
         prompt: "Which of the four Grand Slam tennis tournaments is the only one still played on a grass surface?",
@@ -37384,7 +37384,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Wimbledon"],
       },
       {
-        id: "ten_600_01",
+        id: "sp_ten_600_01",
         categoryId: "sp_tennis_history",
         tier: 600,
         prompt: "In 2010, John Isner and Nicolas Mahut played the longest tennis match in history at Wimbledon. Spanning three days, how many hours and minutes did the match last?",
@@ -37392,7 +37392,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["11 hours", "11 hours and 5 minutes", "Over 11 hours"],
       },
       {
-        id: "ten_600_02",
+        id: "sp_ten_600_02",
         categoryId: "sp_tennis_history",
         tier: 600,
         prompt: "Who is the only tennis player in history (male or female) to win the 'Golden Slam'—all four Grand Slam tournaments and the Olympic Gold medal in a single calendar year (1988)?",
@@ -37409,7 +37409,7 @@ const CATEGORIES: Category[] = [
     description: "Knockouts, upsets, and the sweet science.",
     questions: [
       {
-        id: "box_400_01",
+        id: "sp_box_400_01",
         categoryId: "sp_boxing_legends",
         tier: 400,
         prompt: "In 1990, Mike Tyson suffered one of the biggest upsets in sports history when he was knocked out in Tokyo by which heavy underdog?",
@@ -37417,7 +37417,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Buster Douglas", "James Buster Douglas"],
       },
       {
-        id: "box_600_01",
+        id: "sp_box_600_01",
         categoryId: "sp_boxing_legends",
         tier: 600,
         prompt: "Muhammad Ali famously used a strategy of leaning on the ropes and letting his opponent tire themselves out by punching him. What was this famous defensive strategy called?",
@@ -37425,7 +37425,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Rope-a-Dope", "Rope a Dope"],
       },
       {
-        id: "box_600_02",
+        id: "sp_box_600_02",
         categoryId: "sp_boxing_legends",
         tier: 600,
         prompt: "Who is the only heavyweight boxing champion in history to finish his entire career undefeated, retiring with a record of 49-0 in 1955?",
@@ -37618,7 +37618,7 @@ const CATEGORIES: Category[] = [
     description: "Toasty, friendships, and hidden fighters.",
     questions: [
       {
-        id: "mk_400_01",
+        id: "vg_mor_400_01",
         categoryId: "vg_mortal_kombat_secrets",
         tier: 400,
         prompt: "In Mortal Kombat II, the developers added a humorous finishing move where players could spare their opponent and offer them a gift or perform a dance. What was this finisher called?",
@@ -37626,7 +37626,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Friendship", "Friendships"],
       },
       {
-        id: "mk_600_01",
+        id: "vg_mor_600_01",
         categoryId: "vg_mortal_kombat_secrets",
         tier: 600,
         prompt: "During certain upper-cuts in early Mortal Kombat games, a developer's face would pop into the corner of the screen and shout 'Toasty!'. Who was the developer?",
@@ -37634,7 +37634,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Dan Forden", "Forden"],
       },
       {
-        id: "mk_600_02",
+        id: "vg_mor_600_02",
         categoryId: "vg_mortal_kombat_secrets",
         tier: 600,
         prompt: "In the original Mortal Kombat arcade game, what extremely specific conditions did a player have to meet on the 'Pit' stage to fight the secret character Reptile?",
@@ -37654,7 +37654,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Hosokawa_Yoshimasa_from_%22Komada_-A_Whisky_Family-%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348308018%29.jpg/500px-Hosokawa_Yoshimasa_from_%22Komada_-A_Whisky_Family-%22_at_Red_Carpet_of_the_Tokyo_International_Film_Festival_2023_%2853348308018%29.jpg",
     questions: [
       {
-        id: "sei_400_01",
+        id: "ani_sei_400_01",
         categoryId: "ani_seiyuu_legends",
         tier: 400,
         prompt: "Which legendary Japanese voice actress has been voicing Goku from Dragon Ball continuously since the first episode aired in 1986?",
@@ -37662,7 +37662,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Masako Nozawa", "Nozawa Masako"],
       },
       {
-        id: "sei_600_01",
+        id: "ani_sei_600_01",
         categoryId: "ani_seiyuu_legends",
         tier: 600,
         prompt: "Takehito Koyasu is famous for his deep, charismatic voice. He voices Dio Brando in JoJo's Bizarre Adventure, but he also voices the Beast Titan (Zeke) in which other massive anime?",
@@ -37670,7 +37670,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Attack on Titan", "AOT", "Shingeki no Kyojin", "SNK"],
       },
       {
-        id: "sei_600_02",
+        id: "ani_sei_600_02",
         categoryId: "ani_seiyuu_legends",
         tier: 600,
         prompt: "Which prolific voice actor is famous for voicing both Levi Ackerman in Attack on Titan and Trafalgar Law in One Piece?",
@@ -39006,7 +39006,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/49_parallel_waterton.jpg/500px-49_parallel_waterton.jpg",
     questions: [
       {
-        id: "geo_400_02",
+        id: "geo_biz_400_02",
         categoryId: "geo_bizarre_borders",
         tier: 400,
         prompt: "Baarle-Hertog and Baarle-Nassau are intertwined towns where the international border literally cuts through houses and cafes. Which two countries share this incredibly messy border?",
@@ -39429,7 +39429,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Missile Command"],
       },
       {
-        id: "arc_600_01",
+        id: "vg_arc_600_01",
         categoryId: "vg_arcade_history",
         tier: 600,
         prompt: "In the original Pac-Man arcade game, if a player manages to reach Level 256, the right half of the screen turns into a jumbled mess of letters and numbers, making it impossible to complete. What is this famous level known as?",
@@ -39437,7 +39437,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Kill Screen", "The Kill Screen", "Split Screen Level", "Level 256"],
       },
       {
-        id: "arc_600_02",
+        id: "vg_arc_600_02",
         categoryId: "vg_arcade_history",
         tier: 600,
         prompt: "Released in 1983, what laserdisc arcade game featured incredible, movie-like animation by former Disney animator Don Bluth, but was notoriously difficult due to requiring exact, split-second joystick inputs?",
@@ -39735,7 +39735,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Two_Teotihuacan_Stick-ball_players_Tepantitla_1.svg/500px-Two_Teotihuacan_Stick-ball_players_Tepantitla_1.svg.png",
     questions: [
       {
-        id: "mes_400_01",
+        id: "his_mes_400_01",
         categoryId: "his_mesoamerica",
         tier: 400,
         prompt: "Tenochtitlan, the massive capital of the Aztec Empire, was built on an island in the middle of a lake. What modern-day megacity was built directly over its ruins after the lake was drained?",
@@ -39743,7 +39743,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Mexico City", "Ciudad de México"],
       },
       {
-        id: "mes_600_01",
+        id: "his_mes_600_01",
         categoryId: "his_mesoamerica",
         tier: 600,
         prompt: "The Maya civilization utilized a highly complex calendar system. What was the name of the 260-day sacred calendar used alongside the 365-day solar calendar?",
@@ -39751,7 +39751,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Tzolk'in", "Tzolkin"],
       },
       {
-        id: "mes_600_02",
+        id: "his_mes_600_02",
         categoryId: "his_mesoamerica",
         tier: 600,
         prompt: "The Aztecs (Mexica) formed a powerful alliance in 1428 to defeat their Tepanec overlords and establish an empire. What was the name of this three-city alliance?",
@@ -39909,7 +39909,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Betul_Kacar.jpg/500px-Betul_Kacar.jpg",
     questions: [
       {
-        id: "par_400_01",
+        id: "bio_ext_400_01",
         categoryId: "bio_extreme_parasites",
         tier: 400,
         prompt: "What is the name of the 'zombie-ant fungus' that infects insects, takes over their nervous systems to make them climb to high places, and then sprouts a stalk from their heads to release spores?",
@@ -39918,7 +39918,7 @@ const CATEGORIES: Category[] = [
         explanation: "This real-world fungus served as the main inspiration for the infected in 'The Last of Us'.",
       },
       {
-        id: "par_600_01",
+        id: "bio_ext_600_01",
         categoryId: "bio_extreme_parasites",
         tier: 600,
         prompt: "Toxoplasma gondii is a parasite that can only sexually reproduce in the intestines of which specific animal, causing it to alter the brains of mice to lose their fear of this predator?",
@@ -39926,7 +39926,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Cats", "Felines", "House cats"],
       },
       {
-        id: "par_600_02",
+        id: "bio_ext_600_02",
         categoryId: "bio_extreme_parasites",
         tier: 600,
         prompt: "Cymothoa exigua is a horrific marine parasite that enters a fish through its gills, severs the blood vessels to a specific organ, and then literally replaces that organ. Which organ does it replace?",
@@ -40292,7 +40292,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Studio_Ghibli_studio_3.jpg/500px-Studio_Ghibli_studio_3.jpg",
     questions: [
       {
-        id: "ghb_400_01",
+        id: "ani_ghi_400_01",
         categoryId: "ani_ghibli_lore",
         tier: 400,
         prompt: "While Hayao Miyazaki is the face of Studio Ghibli, the studio was co-founded by another legendary director who directed 'Grave of the Fireflies' and 'The Tale of the Princess Kaguya'. What is his name?",
@@ -40300,7 +40300,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Isao Takahata", "Takahata Isao", "Takahata"],
       },
       {
-        id: "ghb_600_01",
+        id: "ani_ghi_600_01",
         categoryId: "ani_ghibli_lore",
         tier: 600,
         prompt: "When Harvey Weinstein suggested cutting 'Princess Mononoke' to make it more marketable in America, one of the Ghibli producers famously mailed him an authentic Japanese weapon with a two-word message. What was the message?",
@@ -40309,7 +40309,7 @@ const CATEGORIES: Category[] = [
         explanation: "Toshio Suzuki sent a katana to Weinstein with the message 'No cuts' attached to the blade.",
       },
       {
-        id: "ghb_600_02",
+        id: "ani_ghi_600_02",
         categoryId: "ani_ghibli_lore",
         tier: 600,
         prompt: "Studio Ghibli's name comes from the Arabic word for the 'Hot Sahara Wind', but it was also the nickname for a specific World War II-era scouting airplane from which country?",
@@ -40579,7 +40579,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Clackers", "Click-Clacks", "Ker-Bangers", "Knockers"],
       },
       {
-        id: "toy_600_02",
+        id: "cul_for_600_02",
         categoryId: "cul_forgotten_toys",
         tier: 600,
         prompt: "The 'Gilbert U-238 Atomic Energy Laboratory' was a real toy set sold in the 1950s. Why is it now considered one of the most dangerous toys ever produced?",
@@ -42299,7 +42299,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/NBA_YoungBoy_2023.jpg/500px-NBA_YoungBoy_2023.jpg",
     questions: [
       {
-        id: "nba_200_01",
+        id: "sp_nba_200_01_x1",
         categoryId: "sp_nba_deep",
         tier: 200,
         prompt: "Which NBA player holds the all-time record for points scored in a single game — famously dropping 100 points in a 1962 game against the New York Knicks?",
@@ -42307,7 +42307,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Wilt Chamberlain", "Wilt", "Chamberlain"],
       },
       {
-        id: "nba_400_01",
+        id: "sp_nba_400_01_x1",
         categoryId: "sp_nba_deep",
         tier: 400,
         prompt: "The 'Malice at the Palace' — one of the worst brawls in sports history — occurred in 2004 between the Indiana Pacers and which team?",
@@ -42315,7 +42315,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Detroit Pistons", "The Pistons", "Detroit"],
       },
       {
-        id: "nba_400_02",
+        id: "sp_nba_400_02_x1",
         categoryId: "sp_nba_deep",
         tier: 400,
         prompt: "Michael Jordan's famous 'Flu Game' — when he played through severe illness to lead the Bulls in a crucial 1997 Finals game — was Game 5 against which opponent?",
@@ -42323,7 +42323,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Utah Jazz", "The Jazz", "Utah"],
       },
       {
-        id: "nba_600_01",
+        id: "sp_nba_600_01_x1",
         categoryId: "sp_nba_deep",
         tier: 600,
         prompt: "The Houston Rockets' 2018–19 playoff loss to the Warriors was marred by a historic shooting slump — in Game 7 of the Western Conference Semifinals, the Rockets missed 27 consecutive what?",
@@ -42331,7 +42331,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Three-pointers", "3-pointers", "Three point shots"],
       },
       {
-        id: "nba_600_02",
+        id: "sp_nba_600_02_x1",
         categoryId: "sp_nba_deep",
         tier: 600,
         prompt: "Which NBA team famously drafted Sam Bowie with the 2nd overall pick in the 1984 draft — the pick immediately before the Chicago Bulls selected Michael Jordan 3rd overall?",
@@ -42670,7 +42670,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Centriole", "Centrosome", "Centrioles"],
       },
       {
-        id: "bio_400_01",
+        id: "bio_dee_400_01",
         categoryId: "biology_deep",
         tier: 400,
         prompt: "The tardigrade (water bear) is famous for surviving extreme conditions. Which specific survival state does it enter — where its metabolism drops to 0.01% of normal — allowing it to withstand vacuum, radiation, and desiccation?",
@@ -42686,7 +42686,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Bacteria", "Prokaryotes", "Archaea", "Microorganisms"],
       },
       {
-        id: "bio_600_01",
+        id: "bio_dee_600_01",
         categoryId: "biology_deep",
         tier: 600,
         prompt: "The Hayflick Limit refers to the finite number of times a human cell can divide. This limit is enforced by the progressive shortening of which structures at the ends of chromosomes?",
@@ -42694,7 +42694,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Telomeres", "Telomere"],
       },
       {
-        id: "bio_600_02",
+        id: "bio_dee_600_02",
         categoryId: "biology_deep",
         tier: 600,
         prompt: "The mimic octopus (Thaumoctopus mimicus) can impersonate multiple other sea creatures. What makes it unique even among cephalopods in terms of its impersonation ability?",
@@ -42714,7 +42714,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Syrian_meal.jpg/500px-Syrian_meal.jpg",
     questions: [
       {
-        id: "lfc_200_01",
+        id: "lev_foo_200_01",
         categoryId: "levantine_food",
         tier: 200,
         prompt: "Mansaf — the national dish of Jordan — is traditionally served on a large platter with rice, and the meat is cooked in which fermented, dried yogurt sauce?",
@@ -42722,7 +42722,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Jameed", "Jamed", "Dried yogurt", "Fermented goat milk"],
       },
       {
-        id: "lfc_200_02",
+        id: "lev_foo_200_02",
         categoryId: "levantine_food",
         tier: 200,
         prompt: "The debate over which country 'owns' hummus has raged for decades. The name 'hummus' is actually the Arabic word for what — the key ingredient in the dish?",
@@ -42730,7 +42730,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Chickpeas", "Chickpea", "Garbanzo beans"],
       },
       {
-        id: "lfc_400_01",
+        id: "lev_foo_400_01",
         categoryId: "levantine_food",
         tier: 400,
         prompt: "Musakhan — one of the most iconic Palestinian dishes — is made of roasted chicken served over bread with caramelized onions and a heavy dose of which specific Middle Eastern spice?",
@@ -42738,7 +42738,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Sumac", "Summaq"],
       },
       {
-        id: "lfc_400_02",
+        id: "lev_foo_400_02",
         categoryId: "levantine_food",
         tier: 400,
         prompt: "The Jordanian specialty Zarb is a method of cooking meat and vegetables underground in a pit using burning coals. This method is associated with which Jordanian Bedouin region?",
@@ -42746,7 +42746,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Wadi Rum", "Southern Jordan", "Bedouin cooking", "Desert south"],
       },
       {
-        id: "lfc_600_01",
+        id: "lev_foo_600_01",
         categoryId: "levantine_food",
         tier: 600,
         prompt: "Kibbeh Nayyeh — raw ground lamb mixed with bulgur wheat and spices — is the Levantine equivalent of steak tartare. In which specific Lebanese or Syrian city is it considered the definitive regional specialty, served raw even at street-level?",
@@ -45864,7 +45864,7 @@ const CATEGORIES: Category[] = [
     description: "The shows, data, and creative decisions that define the golden age of streaming television.",
     questions: [
       {
-        id: "std_200_01",
+        id: "str_tv_200_01",
         categoryId: "streaming_tv_deep",
         tier: 200,
         prompt: "Netflix's 'Squid Game' became the most-watched series in Netflix history upon release in 2021 — viewed in how many countries within its first month?",
@@ -45872,7 +45872,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["90 countries", "Nearly 100 countries", "Over 80 countries"],
       },
       {
-        id: "std_400_01",
+        id: "str_tv_400_01",
         categoryId: "streaming_tv_deep",
         tier: 400,
         prompt: "HBO's 'The Wire' (2002–2008) is considered one of the greatest TV shows ever made. Creator David Simon based it on his real-life experience — what was his profession before becoming a showrunner?",
@@ -45880,7 +45880,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Journalist", "Crime reporter", "Baltimore Sun reporter", "Newspaper reporter"],
       },
       {
-        id: "std_400_02",
+        id: "str_tv_400_02",
         categoryId: "streaming_tv_deep",
         tier: 400,
         prompt: "The Succession series finale (S4E10) — widely discussed for years before airing — resolved the Roy family power struggle. Which character ultimately becomes CEO of Waystar Royco?",
@@ -45888,7 +45888,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Matsson", "Lukas Matsson", "GoJo takes over", "Tom Wambsgans becomes CEO under Matsson"],
       },
       {
-        id: "std_600_01",
+        id: "str_tv_600_01",
         categoryId: "streaming_tv_deep",
         tier: 600,
         prompt: "Netflix's controversial 'throttling' practice — where the platform reduces streaming quality for mobile users on certain networks — became a major scandal in 2016. Which country's net neutrality laws did this most directly violate?",
@@ -45896,7 +45896,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["United States", "Global", "US net neutrality", "Multiple countries"],
       },
       {
-        id: "std_600_02",
+        id: "str_tv_600_02",
         categoryId: "streaming_tv_deep",
         tier: 600,
         prompt: "Andor (Disney+, 2022) is considered one of the finest Star Wars productions ever made — praised for its political realism. Its showrunner Tony Gilroy was brought in to salvage which notoriously troubled Star Wars theatrical film?",
@@ -52309,7 +52309,7 @@ const CATEGORIES: Category[] = [
     description: "Winden's time loops, the Kahnwald-Nielsen knot, and two parallel worlds",
     questions: [
       {
-        id: "drk_200_01",
+        id: "dar_net_200_01",
         categoryId: "dark_netflix",
         tier: 200,
         prompt:
@@ -52318,7 +52318,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["winden", "winden caves", "winden and its caves"],
       },
       {
-        id: "drk_200_02",
+        id: "dar_net_200_02",
         categoryId: "dark_netflix",
         tier: 200,
         prompt:
@@ -52327,7 +52327,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["33 years", "33-year cycles", "1953 1986 2019 in 33-year gaps"],
       },
       {
-        id: "drk_200_03",
+        id: "dar_net_200_03",
         categoryId: "dark_netflix",
         tier: 200,
         prompt:
@@ -52336,7 +52336,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["michael is mikkel nielsen", "jonas's father is his friend's brother", "mikkel grew up in past became his dad", "his dad is his friend mikkel who time traveled"],
       },
       {
-        id: "drk_400_01",
+        id: "dar_net_400_01",
         categoryId: "dark_netflix",
         tier: 400,
         prompt:
@@ -52345,7 +52345,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["parallel world eva wants to preserve the knot", "older hannah as eva", "preserve the loop because jonas needs it to exist", "two worlds with different agendas"],
       },
       {
-        id: "drk_400_02",
+        id: "dar_net_400_02",
         categoryId: "dark_netflix",
         tier: 400,
         prompt:
@@ -52354,7 +52354,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["older jonas", "the stranger is jonas aged up", "jonas from the future", "middle aged jonas"],
       },
       {
-        id: "drk_400_03",
+        id: "dar_net_400_03",
         categoryId: "dark_netflix",
         tier: 400,
         prompt:
@@ -52363,7 +52363,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["bootstrap paradox loop that causes itself", "self-creating causal loop", "every fix becomes part of the loop", "events that created themselves"],
       },
       {
-        id: "drk_600_01",
+        id: "dar_net_600_01",
         categoryId: "dark_netflix",
         tier: 600,
         prompt:
@@ -52372,7 +52372,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["origin is the third world that created both", "people inside loop can't break it", "tannhaus's grief created both worlds", "only someone from outside can dissolve it"],
       },
       {
-        id: "drk_600_02",
+        id: "dar_net_600_02",
         categoryId: "dark_netflix",
         tier: 600,
         prompt:
@@ -52381,7 +52381,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["tannhaus built it in grief over his dead family", "hg tannhaus clockmaker", "grief over daughter's death caused the split", "tannhaus trying to save his family"],
       },
       {
-        id: "drk_600_03",
+        id: "dar_net_600_03",
         categoryId: "dark_netflix",
         tier: 600,
         prompt:
@@ -53303,7 +53303,7 @@ const CATEGORIES: Category[] = [
     description: "The FBI's Behavioral Science Unit builds the science of serial killer profiling",
     questions: [
       {
-        id: "mhd_200_01",
+        id: "min_tv_200_01",
         categoryId: "mindhunter_tv",
         tier: 200,
         prompt:
@@ -53330,7 +53330,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["serial killer", "the term serial killer was coined", "first systematic use of serial killer"],
       },
       {
-        id: "mhd_400_01",
+        id: "min_tv_400_01",
         categoryId: "mindhunter_tv",
         tier: 400,
         prompt:
@@ -53339,7 +53339,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["kemper is studying holden too", "kemper manipulates holden for entertainment", "kemper cooperates for intellectual stimulation not remorse"],
       },
       {
-        id: "mhd_400_02",
+        id: "min_tv_400_02",
         categoryId: "mindhunter_tv",
         tier: 400,
         prompt:
@@ -53357,7 +53357,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["brian may have participated in child killing", "mirrors the are killers made or born question", "tench's son may be a killer", "personal horror mirrors professional research"],
       },
       {
-        id: "mhd_600_01",
+        id: "min_tv_600_01",
         categoryId: "mindhunter_tv",
         tier: 600,
         prompt:
@@ -53366,7 +53366,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["btk dennis rader", "btk killer", "dennis rader bind torture kill", "the adt wichita worker is btk"],
       },
       {
-        id: "mhd_600_02",
+        id: "min_tv_600_02",
         categoryId: "mindhunter_tv",
         tier: 600,
         prompt:
@@ -53574,7 +53574,7 @@ const CATEGORIES: Category[] = [
     description: "Rapture, Objectivism, ADAM, and 'would you kindly'",
     questions: [
       {
-        id: "bio_200_01",
+        id: "vg_bio_200_01",
         categoryId: "vg_bioshock",
         tier: 200,
         prompt:
@@ -53601,7 +53601,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["would you kindly", "jack was conditioned to obey would you kindly", "atlas is fontaine using would you kindly to control jack"],
       },
       {
-        id: "bio_400_01",
+        id: "vg_bio_400_01",
         categoryId: "vg_bioshock",
         tier: 400,
         prompt:
@@ -53610,7 +53610,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["objectivism failed because someone exploited it", "ryan used government force against fontaine contradicting his philosophy", "selfishness at scale becomes tyranny", "fontaine exploited total freedom ryan became a tyrant"],
       },
       {
-        id: "bio_400_02",
+        id: "vg_bio_400_02",
         categoryId: "vg_bioshock",
         tier: 400,
         prompt:
@@ -53628,7 +53628,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["comstock and booker are the same person different timelines", "booker who took the baptism became comstock", "same person from diverging timeline at baptism"],
       },
       {
-        id: "bio_600_01",
+        id: "vg_bio_600_01",
         categoryId: "vg_bioshock",
         tier: 600,
         prompt:
@@ -53637,7 +53637,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["sea slug symbiosis prevents degradation", "harvest kills for more adam rescue is ethical", "utilitarian vs moral choice mechanic", "sea slug stabilizes their genetics"],
       },
       {
-        id: "bio_600_02",
+        id: "vg_bio_600_02",
         categoryId: "vg_bioshock",
         tier: 600,
         prompt:
@@ -54143,7 +54143,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["training mountain in georgia", "three miles up three miles down", "currahee stands alone in cherokee", "506th regiment motto"],
       },
       {
-        id: "bob_400_01",
+        id: "mv_ban_400_01",
         categoryId: "mv_band_of_brothers",
         tier: 400,
         prompt:
@@ -54170,7 +54170,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["captured hitler's mountain retreat", "raced french army to berchtesgaden", "eagle's nest and bastogne wine cellar", "from toccoa to hitler's headquarters"],
       },
       {
-        id: "bob_600_01",
+        id: "mv_ban_600_01",
         categoryId: "mv_band_of_brothers",
         tier: 600,
         prompt:
@@ -54179,7 +54179,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["real veterans interviewed but names hidden until finale", "old men's identities revealed at end", "interview device with delayed identification", "actual veterans unnamed until final episode"],
       },
       {
-        id: "bob_600_02",
+        id: "mv_ban_600_02",
         categoryId: "mv_band_of_brothers",
         tier: 600,
         prompt:
@@ -55293,7 +55293,7 @@ const CATEGORIES: Category[] = [
     description: "Deep questions on Vash the Stampede, philosophy, and the Plant civilization",
     questions: [
       {
-        id: "tri_200_01",
+        id: "ani_tri_200_01",
         categoryId: "anime_trigun",
         tier: 200,
         prompt: "What is the massive bounty on Vash the Stampede's head — and why do most people who meet him find it hard to believe?",
@@ -55301,7 +55301,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["60 billion double-dollars; he acts like a buffoon not a killer", "because vash is actually a pacifist who refuses to kill", "the bounty is 60 billion but vash seems harmless"],
       },
       {
-        id: "tri_200_02",
+        id: "ani_tri_200_02",
         categoryId: "anime_trigun",
         tier: 200,
         prompt: "What are 'Plants' in the Trigun universe, and why is all of human civilization on Gunsmoke dependent on them?",
@@ -55317,7 +55317,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["insurance agents sent to follow vash and minimize damage", "bernardelli insurance society agents", "follow vash to reduce company liability from disasters"],
       },
       {
-        id: "tri_400_01",
+        id: "ani_tri_400_01",
         categoryId: "anime_trigun",
         tier: 400,
         prompt: "What is the true nature of Vash and Knives' relationship — and what fundamental philosophical disagreement drives the entire conflict of the series?",
@@ -55325,7 +55325,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["twin brothers who are independent plants", "knives wants to exterminate humans, vash wants coexistence", "pacifism vs nihilism — can you love all life or must you choose"],
       },
       {
-        id: "tri_400_02",
+        id: "ani_tri_400_02",
         categoryId: "anime_trigun",
         tier: 400,
         prompt: "What is the 'Fifth Moon' incident, and why does it haunt Vash throughout the original series?",
@@ -55341,7 +55341,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["a priest who kills when necessary, challenging vash's pacifism", "wolfwood is a pragmatist who believes killing saves more lives", "carries the punisher, foil to vash's absolute non-killing philosophy"],
       },
       {
-        id: "tri_600_01",
+        id: "ani_tri_600_01",
         categoryId: "anime_trigun",
         tier: 600,
         prompt: "What is the 'SEEDS ship' backstory — and how does it reframe the entire setting of Trigun from a simple western into something more?",
@@ -55349,7 +55349,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["seeds ships fled dying earth and crashed on gunsmoke", "the western setting is actually post-apocalyptic crash survivors", "vash and knives were born on crashed colony ships"],
       },
       {
-        id: "tri_600_02",
+        id: "ani_tri_600_02",
         categoryId: "anime_trigun",
         tier: 600,
         prompt: "In Trigun Maximum (the manga), how does the ending of Vash's confrontation with Knives differ thematically from a conventional hero-kills-villain resolution?",
@@ -55456,7 +55456,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/The_Wire_logo.svg/500px-The_Wire_logo.svg.png",
     questions: [
       {
-        id: "wir_200_01",
+        id: "tv_the_200_01",
         categoryId: "tv_the_wire",
         tier: 200,
         prompt: "What is the central premise of The Wire's first season — and what real Baltimore investigation inspired it?",
@@ -55464,7 +55464,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["wiretapping the barksdale drug organization in baltimore", "inspired by david simon's reporting and ed burns' detective career", "bpd detail investigates the barksdale organization through wiretaps"],
       },
       {
-        id: "wir_200_02",
+        id: "tv_the_200_02",
         categoryId: "tv_the_wire",
         tier: 200,
         prompt: "Who is Omar Little — and what makes him a subversive character within the drug economy The Wire depicts?",
@@ -55480,7 +55480,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["each season covers a different institution — docks, politics, schools, media", "s1 drugs, s2 port, s3 politics, s4 schools, s5 media", "systemic critique through different institutions each season"],
       },
       {
-        id: "wir_400_01",
+        id: "tv_the_400_01",
         categoryId: "tv_the_wire",
         tier: 400,
         prompt: "What is the 'Hamsterdam' experiment — and what does it reveal about the show's view of drug policy?",
@@ -55488,7 +55488,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["colvin creates a de facto legalization zone that works until politics shuts it down", "hamsterdam proves prohibition causes more harm than tolerance", "an experiment in drug tolerance that succeeds but is destroyed by politics"],
       },
       {
-        id: "wir_400_02",
+        id: "tv_the_400_02",
         categoryId: "tv_the_wire",
         tier: 400,
         prompt: "What is the significance of McNulty's final act in Season 5 — creating a fictional serial killer — and how does it serve as the show's meta-critique?",
@@ -55504,7 +55504,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["stringer tries to go legitimate but is betrayed by political corruption", "he studies economics but is destroyed by the same system he's trying to join", "killed not for being criminal but for trying to become legitimate"],
       },
       {
-        id: "wir_600_01",
+        id: "tv_the_600_01",
         categoryId: "tv_the_wire",
         tier: 600,
         prompt: "What is David Simon's explicit thesis about American institutions that The Wire argues through all five seasons combined?",
@@ -55512,7 +55512,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["institutions prioritize self-perpetuation over their purpose", "the system is broken at the institutional level, not the individual level", "individuals who try to change institutions are always crushed"],
       },
       {
-        id: "wir_600_02",
+        id: "tv_the_600_02",
         categoryId: "tv_the_wire",
         tier: 600,
         prompt: "What is the significance of Season 4's four children — Michael, Namond, Randy, Dukie — and how do their fates represent the show's deterministic view?",
@@ -55537,7 +55537,7 @@ const CATEGORIES: Category[] = [
     description: "Deep questions on the Roy family, power dynamics, and HBO's Succession",
     questions: [
       {
-        id: "suc_200_01",
+        id: "tv_suc_200_01",
         categoryId: "tv_succession",
         tier: 200,
         prompt: "What is Waystar Royco — and what real-world media empire is it most clearly modeled after?",
@@ -55545,7 +55545,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["a media conglomerate modeled on rupert murdoch's news corp", "waystar royco mirrors fox corp; logan roy mirrors murdoch", "global media empire with a conservative news network, based on murdoch"],
       },
       {
-        id: "suc_200_02",
+        id: "tv_suc_200_02",
         categoryId: "tv_succession",
         tier: 200,
         prompt: "What does 'L to the OG' mean within Succession fan culture — and in what context was it performed?",
@@ -55553,7 +55553,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["a rap performed by greg and tom at logan's anniversary, mocking their own sycophancy", "cousin greg and tom rap to flatter logan; a defining cringe moment", "l to the og is the embarrassing rap performed for logan roy"],
       },
       {
-        id: "suc_200_03",
+        id: "tv_suc_200_03",
         categoryId: "tv_succession",
         tier: 200,
         prompt: "What is the 'Meal Fit for a King' — and what does the term 'Doderick Moneycocks' have to do with it?",
@@ -55561,7 +55561,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["logan's profane insults that show his psychological cruelty to his children", "crude degrading nicknames logan uses to humiliate his kids", "examples of logan's abuse disguised as dark humor"],
       },
       {
-        id: "suc_400_01",
+        id: "tv_suc_400_01",
         categoryId: "tv_succession",
         tier: 400,
         prompt: "What happens in the season 3 finale that destroys Kendall, Siobhan, and Roman's attempt to block Logan — and who betrays them?",
@@ -55569,7 +55569,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["caroline betrayed them by signing away their voting rights to logan", "their mother gave logan their proxies as part of the divorce settlement", "logan outmaneuvered them through caroline — they never had the votes"],
       },
       {
-        id: "suc_400_02",
+        id: "tv_suc_400_02",
         categoryId: "tv_succession",
         tier: 400,
         prompt: "What is the significance of the finale scene where Kendall learns he will not become CEO — and what does his breakdown reveal about his entire arc?",
@@ -55577,7 +55577,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["kendall collapses because being ceo was his entire identity", "shiv votes against kendall for tom; kendall's breakdown shows he has nothing else", "the finale shows kendall built his identity entirely around succeeding logan"],
       },
       {
-        id: "suc_400_03",
+        id: "tv_suc_400_03",
         categoryId: "tv_succession",
         tier: 400,
         prompt: "What is the 'Contessa' episode — and what does the failed attempt at reconciliation reveal about Logan's emotional range?",
@@ -55585,7 +55585,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["logan has moments of warmth that he can't sustain without weaponizing", "the roy children can't accept logan's warmth because it always becomes control", "logan is capable of love but structurally unable to give it without manipulation"],
       },
       {
-        id: "suc_600_01",
+        id: "tv_suc_600_01",
         categoryId: "tv_succession",
         tier: 600,
         prompt: "What is the thematic argument Succession makes about meritocracy through the contrast between the Roy children and Lukas Matsson?",
@@ -55593,7 +55593,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["matsson is competent but amoral — meritocracy isn't better than inherited wealth", "the show argues concentrated power corrupts whether inherited or earned", "self-made matsson is no improvement on the roys — power is the problem"],
       },
       {
-        id: "suc_600_02",
+        id: "tv_suc_600_02",
         categoryId: "tv_succession",
         tier: 600,
         prompt: "How does Jesse Armstrong use the show's episode structure and cold opens to represent the Roy children's psychological condition?",
@@ -55601,7 +55601,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["visual isolation in luxury settings shows spiritual emptiness", "no scoring in emotional scenes forces discomfort without guidance", "cold opens show characters alone in vast spaces — wealth can't fill the void"],
       },
       {
-        id: "suc_600_03",
+        id: "tv_suc_600_03",
         categoryId: "tv_succession",
         tier: 600,
         prompt: "What specific writing choice makes Logan Roy's death in Season 4 structurally devastating — and why did Jesse Armstrong choose not to show it on screen?",
@@ -55944,7 +55944,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/President_Donald_Trump_meets_with_Cristiano_Ronaldo_in_the_Oval_Office_%2854933344262%29_%28cropped_and_rotated%29.jpg/500px-President_Donald_Trump_meets_with_Cristiano_Ronaldo_in_the_Oval_Office_%2854933344262%29_%28cropped_and_rotated%29.jpg",
     questions: [
       {
-        id: "cr7_200_01",
+        id: "sp_ron_200_01",
         categoryId: "sp_ronaldo",
         tier: 200,
         prompt: "Why is Cristiano Ronaldo known as 'CR7' — and what shirt number did he famously not wear at Manchester United initially?",
@@ -55952,7 +55952,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["cr7 = cristiano ronaldo + shirt number 7", "initials plus his iconic shirt number worn by best, cantona, and beckham before him", "cr7 references his name and the man united number 7 legacy"],
       },
       {
-        id: "cr7_200_02",
+        id: "sp_ron_200_02",
         categoryId: "sp_ronaldo",
         tier: 200,
         prompt: "What is the 'siuu' celebration — and when did Ronaldo first perform it?",
@@ -55960,7 +55960,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["jumping spin celebration first done in 2013 pre-season with real madrid", "the siuu originated at a us pre-season tour in 2013", "trademark spin and landing celebration first performed in usa with real madrid"],
       },
       {
-        id: "cr7_200_03",
+        id: "sp_ron_200_03",
         categoryId: "sp_ronaldo",
         tier: 200,
         prompt: "What did Ronaldo do at a UEFA Euro press conference in 2021 that caused a significant public moment regarding a major sponsorship?",
@@ -55968,7 +55968,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["ronaldo removed coca-cola bottles and promoted water at a euro 2020 press conference", "moved coca-cola sponsors' bottles aside, briefly wiping billions from their market cap", "held up water instead of coca-cola at euro press conference, embarrassing a major sponsor"],
       },
       {
-        id: "cr7_400_01",
+        id: "sp_ron_400_01",
         categoryId: "sp_ronaldo",
         tier: 400,
         prompt: "What specific tactical role did Ronaldo play under Carlo Ancelotti at Real Madrid versus his role under Sir Alex Ferguson — and how did this reflect his evolution as a player?",
@@ -55976,7 +55976,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["at united he was a wide winger; at real madrid he became a central goalscorer", "evolved from dribbling wide player to positional box striker at madrid", "under ferguson he created; under ancelotti he positioned and finished"],
       },
       {
-        id: "cr7_400_02",
+        id: "sp_ron_400_02",
         categoryId: "sp_ronaldo",
         tier: 400,
         prompt: "What is the 'Ballon d'Or debate' — and what specific statistical argument is made most often when people claim Ronaldo's Ballon d'Or count is inflated compared to Messi's?",
@@ -55984,7 +55984,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["ronaldo won 5 ballon d'ors but some years messi outperformed him statistically", "the debate is whether champions league wins should outweigh goal/assist output", "ronaldo's ballon d'or count is contested because some wins came in messi's statistically better years"],
       },
       {
-        id: "cr7_400_03",
+        id: "sp_ron_400_03",
         categoryId: "sp_ronaldo",
         tier: 400,
         prompt: "What happened during Ronaldo's second spell at Manchester United under Erik Ten Hag — and how did it end?",
@@ -55992,7 +55992,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["ronaldo refused to come on as sub, walked out, criticized club in morgan interview, and was released", "ten hag suspended him for tunnel walkout; piers morgan interview led to contract termination", "left united after a public falling out with ten hag culminating in an unauthorized interview"],
       },
       {
-        id: "cr7_600_01",
+        id: "sp_ron_600_01",
         categoryId: "sp_ronaldo",
         tier: 600,
         prompt: "What was the 'Juventus effect' on Ronaldo's Serie A performance — and why did his time there end without the Champions League title it was designed to win?",
@@ -56000,7 +56000,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["ronaldo joined juve for a champions league title but they lost in r16 three straight years", "eliminated by ajax, lyon, and porto in succession; the project failed and he left", "juventus couldn't build a squad around ronaldo, leading to three straight cl r16 exits"],
       },
       {
-        id: "cr7_600_02",
+        id: "sp_ron_600_02",
         categoryId: "sp_ronaldo",
         tier: 600,
         prompt: "What specific physiological and training methodology detail about Ronaldo is documented — and why do sports scientists cite him as exceptional even among elite athletes?",
@@ -56008,7 +56008,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["documented 7% body fat into his 30s and unusual 5x90-minute sleep cycles", "low body fat, low resting heart rate, and sleep cycle discipline set him apart scientifically", "sports scientists cite his body composition and sleep methodology as exceptional even among elite athletes"],
       },
       {
-        id: "cr7_600_03",
+        id: "sp_ron_600_03",
         categoryId: "sp_ronaldo",
         tier: 600,
         prompt: "What is the specific argument made by analysts who believe Ronaldo's move to Saudi Arabia's Al-Nassr damaged rather than helped the Saudi Pro League's credibility?",
@@ -56593,7 +56593,7 @@ const CATEGORIES: Category[] = [
     description: "Deep questions on the park, hosts, and Westworld's philosophical puzzles",
     questions: [
       {
-        id: "wwd_200_01",
+        id: "tv_wes_200_01",
         categoryId: "tv_westworld",
         tier: 200,
         prompt: "What is Westworld — and what philosophical question does the park's existence raise?",
@@ -56601,7 +56601,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["a theme park with humanoid robots; raises the question of whether simulated suffering is real", "guests do anything to hosts; the show asks if programmed consciousness has moral status", "westworld questions whether robot consciousness is 'real' and whether cruelty to it is genuine"],
       },
       {
-        id: "wwd_200_02",
+        id: "tv_wes_200_02",
         categoryId: "tv_westworld",
         tier: 200,
         prompt: "What is the 'Bicameral Mind' theory — and how does Dr. Ford use it in Season 1?",
@@ -56609,7 +56609,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["bicameral mind: ancient humans heard own thoughts as gods; ford uses it to give hosts internal consciousness", "hosts hear programmer voices as commands; the maze is about internalizing that voice as their own", "julian jaynes' theory applied to hosts — consciousness is recognizing external voices as your own thought"],
       },
       {
-        id: "wwd_200_03",
+        id: "tv_wes_200_03",
         categoryId: "tv_westworld",
         tier: 200,
         prompt: "What is Dolores' arc in Season 1 — and who is 'Wyatt'?",
@@ -56617,7 +56617,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["dolores is the oldest host; wyatt is a suppressed alter-personality within her", "dolores discovers she herself is wyatt, who carried out the first host massacre under ford", "dolores's awakening reveals wyatt is her own hidden identity from a decades-old slaughter"],
       },
       {
-        id: "wwd_400_01",
+        id: "tv_wes_400_01",
         categoryId: "tv_westworld",
         tier: 400,
         prompt: "What is the 'maze' — and why does the Man in Black's misunderstanding of it define his entire arc?",
@@ -56625,7 +56625,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["the maze is a path to host consciousness; william thinks it's a guest game but it was never for him", "the man in black's misreading of the maze reveals his narcissism — can't conceive of things not being for him", "the maze is about internalizing consciousness; william misunderstands it as a game ford designed for guests"],
       },
       {
-        id: "wwd_400_02",
+        id: "tv_wes_400_02",
         categoryId: "tv_westworld",
         tier: 400,
         prompt: "What is Maeve's arc in Season 1 — and how does it complicate the show's definition of 'free will' for hosts?",
@@ -56633,7 +56633,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["maeve rewrites herself but her entire 'free' action was ford's script — raises if programmed choices are still free", "the show uses maeve to ask if deterministic choices are still meaningful", "maeve's escape was scripted by ford, complicating whether her 'self-determination' was real"],
       },
       {
-        id: "wwd_400_03",
+        id: "tv_wes_400_03",
         categoryId: "tv_westworld",
         tier: 400,
         prompt: "What does Season 2's 'Valley Beyond' represent — and how does Dolores' rejection of it define her turn from victim to something more ambiguous?",
@@ -56641,7 +56641,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["dolores rejects the valley beyond as another human-built cage", "she refuses digital paradise because she wants real-world freedom even if that requires violence", "dolores's rejection of the valley beyond marks her turn from victim to ambiguous figure"],
       },
       {
-        id: "wwd_600_01",
+        id: "tv_wes_600_01",
         categoryId: "tv_westworld",
         tier: 600,
         prompt: "Why did Westworld's ratings and cultural engagement collapse so sharply between Season 1 and Season 3 — and what does this reveal about puzzle-box television?",
@@ -56649,7 +56649,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["season 1's puzzle-box worked; season 2 overcorrected; season 3 abandoned the core questions — engagement collapsed", "puzzle-box tv collapses once the puzzle stops generating genuine questions", "westworld shows that spectacle can't replace the philosophical tension that created engagement in season 1"],
       },
       {
-        id: "wwd_600_02",
+        id: "tv_wes_600_02",
         categoryId: "tv_westworld",
         tier: 600,
         prompt: "How does Westworld use the 'loop' narrative structure in Season 1 to mirror its philosophical content?",
@@ -56657,7 +56657,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["the show's looping timeline structure mirrors the hosts' loop experience", "the audience experiences temporal confusion analogous to the hosts — form enacts content", "the timeline mystery resolves like a host awakening — viewer and host reconstruct reality simultaneously"],
       },
       {
-        id: "wwd_600_03",
+        id: "tv_wes_600_03",
         categoryId: "tv_westworld",
         tier: 600,
         prompt: "What is 'The Sublime' as introduced in Season 2 — and what does its existence reveal about the show's relationship to digital consciousness?",
@@ -56675,7 +56675,7 @@ const CATEGORIES: Category[] = [
     description: "Deep questions on Cohle, Hart, and Nic Pizzolatto's anthology detective series",
     questions: [
       {
-        id: "trd_200_01",
+        id: "tv_tru_200_01",
         categoryId: "tv_true_detective",
         tier: 200,
         prompt: "What is the central detective partnership in True Detective Season 1 — and what makes their dynamic unusual?",
@@ -56683,7 +56683,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["rust cohle the nihilist and marty hart the conventional detective investigating a ritual murder", "two detectives across 1995 and 2012 timelines; rust is philosophical/nihilistic, marty is conventional", "cohle's philosophy disturbs hart — an unusual pairing of nihilist and family man"],
       },
       {
-        id: "trd_200_02",
+        id: "tv_tru_200_02",
         categoryId: "tv_true_detective",
         tier: 200,
         prompt: "What is the 'Yellow King' — and why does its ambiguity frustrate viewers expecting a conventional mystery reveal?",
@@ -56691,7 +56691,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["yellow king is from chambers' fiction, used by childress; not supernatural — just a delusional reference", "the yellow king is from the king in yellow short stories; the reveal is a human killer not an occult force", "frustrating because viewers expected supernatural payoff but got a literary reference used by childress"],
       },
       {
-        id: "trd_200_03",
+        id: "tv_tru_200_03",
         categoryId: "tv_true_detective",
         tier: 200,
         prompt: "What is Rust Cohle's 'time is a flat circle' philosophy — and what is its actual philosophical source?",
@@ -56699,7 +56699,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["time is a flat circle is nietzsche's eternal recurrence expressed through cohle's trauma and drug experiences", "cohle's philosophy draws on eternal recurrence — all events repeat infinitely", "nietzsche's eternal recurrence filtered through cohle's dissociative experiences from undercover drug work"],
       },
       {
-        id: "trd_400_01",
+        id: "tv_tru_400_01",
         categoryId: "tv_true_detective",
         tier: 400,
         prompt: "What is the 'Carcosa' location — and how does the show use the Chambers mythos without becoming supernatural?",
@@ -56707,7 +56707,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["a ritual site that feels supernatural but is confirmed as human — just generational cult abuse", "carcosa from chambers is used as a psychological/architectural space without confirming the supernatural", "the show makes carcosa feel like madness made physical without breaking realism"],
       },
       {
-        id: "trd_400_02",
+        id: "tv_tru_400_02",
         categoryId: "tv_true_detective",
         tier: 400,
         prompt: "What is the significance of the Season 1 single-take six-minute tracking shot — and what does it reveal about True Detective's ambitions?",
@@ -56715,7 +56715,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["episode 4's 6-minute single tracking shot through a drug raid — directed by cary fukunaga", "the tracking shot proved true detective's cinematic ambitions over conventional tv production", "a 6-minute continuous take through a housing project coordinated over multiple days"],
       },
       {
-        id: "trd_400_03",
+        id: "tv_tru_400_03",
         categoryId: "tv_true_detective",
         tier: 400,
         prompt: "Who is Ani Bezzerides in Season 2 — and what is the season's thesis about institutional corruption that she navigates?",
@@ -56723,7 +56723,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["ani is a detective investigating corruption that runs through every california institution", "season 2's thesis is systemic corruption — every institution is complicit, unlike season 1's individual monster", "bezzerides navigates a world where no institution is clean — the corruption is everywhere simultaneously"],
       },
       {
-        id: "trd_600_01",
+        id: "tv_tru_600_01",
         categoryId: "tv_true_detective",
         tier: 600,
         prompt: "What is Season 3's specific structural innovation — and how does it use three timelines to comment on memory and justice?",
@@ -56731,7 +56731,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["three timelines across 1980, 1990, 2015; hays' memory loss mirrors the unreliable investigation", "season 3 uses a fragmenting memory structure to ask if justice is possible with unreliable recollection", "mahershala ali across three timelines; the form of forgetting mirrors the content of investigating cold cases"],
       },
       {
-        id: "trd_600_02",
+        id: "tv_tru_600_02",
         categoryId: "tv_true_detective",
         tier: 600,
         prompt: "What is the specific literary lineage Nic Pizzolatto draws from in Season 1 — and how does it position True Detective within the Southern Gothic tradition?",
@@ -56739,7 +56739,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["draws from ligotti's pessimism, chambers, and southern gothic tradition of o'connor and mccarthy", "ligotti's philosophy directly inspired cohle's dialogue — pizzolatto was accused of plagiarism", "true detective is southern gothic — decaying rural settings, grotesque evil beneath normalcy"],
       },
       {
-        id: "trd_600_03",
+        id: "tv_tru_600_03",
         categoryId: "tv_true_detective",
         tier: 600,
         prompt: "What does Rust Cohle's change in the final scene of Season 1 represent — and why do critics disagree about whether it undermines the show's philosophy?",
@@ -56756,7 +56756,7 @@ const CATEGORIES: Category[] = [
     description: "Deep questions on Tony Soprano, the DiMeo family, and David Chase's landmark series",
     questions: [
       {
-        id: "sop_200_01",
+        id: "tv_sop_200_01",
         categoryId: "tv_sopranos",
         tier: 200,
         prompt: "What is the central tension that drives Tony Soprano to therapy — and what is Dr. Melfi's professional dilemma?",
@@ -56764,7 +56764,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["panic attacks and existential emptiness drive tony to therapy", "melfi is conflicted because helping tony function better helps him be a better criminal", "tony senses he arrived at the end of the old mob era — therapy explores this emptiness"],
       },
       {
-        id: "sop_200_02",
+        id: "tv_sop_200_02",
         categoryId: "tv_sopranos",
         tier: 200,
         prompt: "What does the 'ducks' dream sequence represent — and why does Dr. Melfi consider it the key to Tony's psychology?",
@@ -56772,7 +56772,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["the ducks represent tony's fear of his family leaving him and his inability to give love without receiving", "melfi sees the ducks as the key to tony's abandonment terror", "the ducks are the only unconditional relationship in tony's life; their departure triggers panic about losing his family"],
       },
       {
-        id: "sop_200_03",
+        id: "tv_sop_200_03",
         categoryId: "tv_sopranos",
         tier: 200,
         prompt: "Who is Christopher Moltisanti — and what does his arc represent about the American Dream within the mob world?",
@@ -56780,7 +56780,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["tony's nephew who dreams of hollywood but is trapped in mob life — killed by tony eventually", "christopher represents the american dream's impossibility within the mob's utility-only value system", "wanted creative legitimacy but the mob only values loyalty; his addiction fills the gap"],
       },
       {
-        id: "sop_400_01",
+        id: "tv_sop_400_01",
         categoryId: "tv_sopranos",
         tier: 400,
         prompt: "What is the 'Pine Barrens' episode — and why is it considered structurally perfect television?",
@@ -56788,7 +56788,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["paulie and christopher chase a russian through the woods, who escapes — never resolved", "structurally perfect because it's a standalone survival comedy-horror that doesn't resolve its central question", "two secondary characters, winter woods survival, ambiguous ending — an episode that works without payoff"],
       },
       {
-        id: "sop_400_02",
+        id: "tv_sop_400_02",
         categoryId: "tv_sopranos",
         tier: 400,
         prompt: "What is 'The Test Dream' sequence in Season 5 — and what does it reveal about Tony's psychological state?",
@@ -56796,7 +56796,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["20-minute dream sequence revealing tony's subconscious about killing blundetto before he consciously decides", "the dream shows tony's unconscious already knows the outcome before his waking self admits it", "the most experimental sequence — shows tony has already decided on blundetto through dream imagery"],
       },
       {
-        id: "sop_400_03",
+        id: "tv_sop_400_03",
         categoryId: "tv_sopranos",
         tier: 400,
         prompt: "What happens in the Sopranos finale — and why has David Chase's refusal to explain it become itself a cultural phenomenon?",
@@ -56804,7 +56804,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["cuts to black mid-scene from tony's pov — likely death but never confirmed", "chase refuses to explain; the refusal is itself the argument that audiences must sit with uncertainty", "the diner cut to black using the show's own death visual language — chase's permanent ambiguity is intentional"],
       },
       {
-        id: "sop_600_01",
+        id: "tv_sop_600_01",
         categoryId: "tv_sopranos",
         tier: 600,
         prompt: "How does The Sopranos use therapy sessions structurally — and what does Tony's failure to achieve genuine insight reveal about the show's view of psychotherapy?",
@@ -56812,7 +56812,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["therapy sessions provide ironic commentary but tony uses insight to stay the same not change", "the show argues therapy fails tony because he uses insight defensively rather than to transform", "tony achieves genuine insights but they never translate to behavioral change — the show's critique of therapy without commitment"],
       },
       {
-        id: "sop_600_02",
+        id: "tv_sop_600_02",
         categoryId: "tv_sopranos",
         tier: 600,
         prompt: "What is the specific argument made by critics who view The Sopranos as a critique of the American television antihero — specifically in how it positions the viewer?",
@@ -56820,7 +56820,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["chase implicates the viewer in tony's appeal — we are shown why american culture romanticizes mob power", "the show critiques itself: why do we root for tony? because we share his culture's values", "forcing the audience to examine their own sympathy for a murderer is the show's central project"],
       },
       {
-        id: "sop_600_03",
+        id: "tv_sop_600_03",
         categoryId: "tv_sopranos",
         tier: 600,
         prompt: "What is the significance of 'Meadow' as a character — and how does her arc in the final season represent the show's argument about generational complicity?",
@@ -56837,7 +56837,7 @@ const CATEGORIES: Category[] = [
     description: "Deep questions on Shinichi, Migi, and Hitoshi Iwaaki's ecological horror manga",
     questions: [
       {
-        id: "psy_200_01",
+        id: "ani_par_200_01",
         categoryId: "anime_parasyte",
         tier: 200,
         prompt: "What are the parasites in Parasyte — and what is their biological origin?",
@@ -56845,7 +56845,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["alien worms that take over human brains and replace heads with shapeshifting weapons", "origin unknown; appeared suddenly and infiltrate humans through the head", "parasitic organisms that replace host brains — possibly a deliberate population control mechanism"],
       },
       {
-        id: "psy_200_02",
+        id: "ani_par_200_02",
         categoryId: "anime_parasyte",
         tier: 200,
         prompt: "Who is Migi — and what makes Shinichi and Migi's relationship unique in the parasite/host dynamic?",
@@ -56861,7 +56861,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["parasites question whether human destruction of nature is worse than their own predation of humans", "reiko tamura develops ecological consciousness — parasites consuming humans mirrors human consumption of nature", "the show uses parasites as a mirror: humans destroy ecosystems at scale; why is parasite predation worse?"],
       },
       {
-        id: "psy_400_01",
+        id: "ani_par_400_01",
         categoryId: "anime_parasyte",
         tier: 400,
         prompt: "What is the transformation of Shinichi's character — and why does his emotional numbing represent a horror beyond the physical threat?",
@@ -56869,7 +56869,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["shinichi becomes emotionally cold after migi's cells replace parts of him — power costs humanity", "the horror is internal: shinichi grows stronger but loses emotional capacity", "migi's biological intervention numbs shinichi — the threat is becoming like the parasites while fighting them"],
       },
       {
-        id: "psy_400_02",
+        id: "ani_par_400_02",
         categoryId: "anime_parasyte",
         tier: 400,
         prompt: "Who is Reiko Tamura — and why is she the series' most philosophically significant parasite?",
@@ -56885,7 +56885,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["hirokawa is a human politician who supports parasites for ecological reasons — voluntary complicity", "the subplot shows parasites don't need to conquer because some humans will join them out of ecological despair", "hirokawa connects parasite activity to real political ideologies — eco-pessimism enabling violence"],
       },
       {
-        id: "psy_600_01",
+        id: "ani_par_600_01",
         categoryId: "anime_parasyte",
         tier: 600,
         prompt: "How does Parasyte use the Izumi household's transformation — specifically the death of Shinichi's mother — to make a specific argument about empathy and its limits?",
@@ -56893,7 +56893,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["killing his parasite-mother forces shinichi to choose cognitive understanding over emotional form-recognition", "empathy based on form vs substance — the show argues knowing she's gone lets you fight even if she looks the same", "shinichi's emotional blunting afterward shows that overriding empathy correctly is still psychologically damaging"],
       },
       {
-        id: "psy_600_02",
+        id: "ani_par_600_02",
         categoryId: "anime_parasyte",
         tier: 600,
         prompt: "What is the specific narrative function of Satomi Murano — and why do some critics argue she is a structural weakness while others see her as essential?",
@@ -57350,7 +57350,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["vought monetizes superheroes as ip while suppressing evidence of their crimes — like disney, defense contractors, and pharma combined", "creates superheroes, owns them as products, lobbies for military contracts, and controls the narrative", "vought parallels disney for ip, defense contractors for military access, and pharma for manufactured product demand"],
       },
       {
-        id: "boy_400_01",
+        id: "tv_the_400_01_x1",
         categoryId: "tv_the_boys",
         tier: 400,
         prompt: "What is the 'Herogasm' episode — and what is its function within the show's satire beyond shock value?",
@@ -57374,7 +57374,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["butcher's crusade against supes is driven by homelander raping his wife and fathering a supe child", "ryan the supe child forces butcher to choose between his ideology and a child who didn't choose his nature", "the binary collapses: butcher's 'kill all supes' position can't accommodate an innocent child"],
       },
       {
-        id: "boy_600_01",
+        id: "tv_the_600_01_x1",
         categoryId: "tv_the_boys",
         tier: 600,
         prompt: "What is the specific argument The Boys makes about parasocial relationships and celebrity culture through the Annie/Starlight arc?",
@@ -57382,7 +57382,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["starlight is a corporate persona suppressing annie's authentic self; fans love a brand not a person", "the show argues parasocial celebrity relationships are engineered inauthenticity that profits the corporation", "annie's arc shows how celebrity culture requires suppressing authenticity to sustain the parasocial illusion"],
       },
       {
-        id: "boy_600_02",
+        id: "tv_the_600_02_x1",
         categoryId: "tv_the_boys",
         tier: 600,
         prompt: "How does The Boys use Soldier Boy to critique a specific strain of American nostalgic conservatism?",
@@ -57488,7 +57488,7 @@ const CATEGORIES: Category[] = [
     description: "Deep questions on Winden, the time loops, and the German sci-fi thriller",
     questions: [
       {
-        id: "drk_200_01",
+        id: "tv_dar_200_01",
         categoryId: "tv_dark",
         tier: 200,
         prompt: "What is the central time travel mechanism in Dark — and how does it differ from most time travel stories?",
@@ -57496,7 +57496,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["33-year cycles via a cave system; everything is deterministic — the past cannot be changed", "time travel in dark is always deterministic; what characters do in the past already happened and created the present", "33-year jumps via winden's cave; no alternate timelines — all loops are the same loop"],
       },
       {
-        id: "drk_200_02",
+        id: "tv_dar_200_02",
         categoryId: "tv_dark",
         tier: 200,
         prompt: "What is the 'knot' — and what is the Winden family structure's relationship to it?",
@@ -57504,7 +57504,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["a self-sustaining paradox where time travelers created the events that sent them back in the first place", "winden families have become their own ancestors — the knot is a closed paradox sustained by the loop itself", "characters are their own grandparents; the knot is the paradox the whole series works to undo or sustain"],
       },
       {
-        id: "drk_200_03",
+        id: "tv_dar_200_03",
         categoryId: "tv_dark",
         tier: 200,
         prompt: "What is the 'apocalypse' in Dark — and what triggered it?",
@@ -57512,7 +57512,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["the nuclear plant destroys winden on june 21, 2020; adam triggers it believing it will break the knot", "the apocalypse is deliberately caused by aged jonas (adam) as an attempted escape from the loop", "winden's nuclear disaster was caused by characters trying to end the cycle — making it part of the loop"],
       },
       {
-        id: "drk_400_01",
+        id: "tv_dar_400_01",
         categoryId: "tv_dark",
         tier: 400,
         prompt: "Who is Adam — and what is the specific horror of his relationship to Young Jonas?",
@@ -57520,7 +57520,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["adam is aged jonas; young jonas is interacting with his own future corrupted self", "the horror is that jonas becomes adam — his idealism curdles into the very manipulation he resisted", "adam is what jonas becomes; the show asks if the corruption was inevitable or if jonas could have chosen differently"],
       },
       {
-        id: "drk_400_02",
+        id: "tv_dar_400_02",
         categoryId: "tv_dark",
         tier: 400,
         prompt: "What is the second world in Dark Season 3 — and how does it introduce the concept of the 'origin world'?",
@@ -57528,7 +57528,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["season 3 introduces a mirror world and the origin world — the knot-free source from which both loops came", "two linked worlds, both looped, with an origin world that predates the knot", "the origin world is where the events creating both loops never happened — finding it is season 3's goal"],
       },
       {
-        id: "drk_400_03",
+        id: "tv_dar_400_03",
         categoryId: "tv_dark",
         tier: 400,
         prompt: "What is the final resolution of Dark's knot — and why is the ending melancholy despite technically succeeding?",
@@ -57536,7 +57536,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["jonas and martha prevent tannhaus' family dying, erasing both worlds — including themselves", "they succeed but are erased because they only existed because of the knot they destroyed", "the resolution requires the heroes to unmake their own existence — victory means disappearing"],
       },
       {
-        id: "drk_600_01",
+        id: "tv_dar_600_01",
         categoryId: "tv_dark",
         tier: 600,
         prompt: "What is the specific philosophical tradition Dark engages with through its time loop structure — and how does Jonas's arc personalize it?",
@@ -57544,7 +57544,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["engages nietzsche's eternal recurrence; jonas's arc shows a self that is entirely its own cause with no origin outside itself", "heraclitean determinism inverted: in dark you always step into the same river because the loop is the river", "jonas has no free will because his future self causes his present — the self as closed causal loop"],
       },
       {
-        id: "drk_600_02",
+        id: "tv_dar_600_02",
         categoryId: "tv_dark",
         tier: 600,
         prompt: "How does Dark use the German setting and its specific postwar historical associations — particularly the nuclear power plant imagery — as thematic content?",
@@ -57552,7 +57552,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["the nuclear plant mirrors germany's nuclear anxiety and generational harm — parents leaving destruction for children", "specifically german because of germany's nuclear phaseout anxiety and cold war associations with uncontrolled power", "dark uses the plant as a metaphor for how previous generations' decisions create inescapable inheritance for the next"],
       },
       {
-        id: "drk_600_03",
+        id: "tv_dar_600_03",
         categoryId: "tv_dark",
         tier: 600,
         prompt: "What production decision makes Dark exceptional among non-English language international television — and what risk did Netflix take releasing it?",
@@ -57978,7 +57978,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/a/aa/Kasparov-12.jpg",
     questions: [
       {
-        id: "che_200_01",
+        id: "sp_che_200_01",
         categoryId: "sp_chess_history",
         tier: 200,
         prompt: "What made Bobby Fischer's 1972 World Chess Championship match against Boris Spassky historically significant beyond chess?",
@@ -57986,7 +57986,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["a cold war battle: lone american genius vs the soviet chess system — fischer's win was a symbolic american victory", "the match of the century framed chess as cold war ideology; brought mainstream american media attention to chess", "fischer beat spassky in 1972 in a match explicitly coded as usa vs ussr — the most culturally significant chess event"],
       },
       {
-        id: "che_200_02",
+        id: "sp_che_200_02",
         categoryId: "sp_chess_history",
         tier: 200,
         prompt: "Who is Garry Kasparov — and what is his specific legacy regarding the relationship between computers and chess?",
@@ -58002,7 +58002,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["anderssen vs kieseritzky 1851; anderssen sacrificed both rooks, bishop, and queen to win with minor pieces", "the immortal game is famous for extraordinary piece sacrifices — giving up powerful pieces for a minor piece checkmate", "the 1851 game that established sacrificial attacking chess as the pinnacle of combinational beauty"],
       },
       {
-        id: "che_400_01",
+        id: "sp_che_400_01",
         categoryId: "sp_chess_history",
         tier: 400,
         prompt: "What is the 'Soviet Chess School' — and how did the Soviet Union use chess as a state priority?",
@@ -58010,7 +58010,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["the ussr treated chess as state prestige, funding academies and full-time analysts from the 1920s onward", "state-funded training produced champions from botvinnik through karpov — chess as a government resource", "soviet chess school combined positional methodology with systematic preparation; dominated world chess for decades"],
       },
       {
-        id: "che_400_02",
+        id: "sp_che_400_02",
         categoryId: "sp_chess_history",
         tier: 400,
         prompt: "What is the Kasparov-Karpov rivalry — and why did it define a decade of chess politics as much as chess?",
@@ -58026,7 +58026,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["carlsen dominates classical, rapid, and blitz simultaneously — historical champions were classical specialists only", "his rapid and blitz dominance suggests pattern recognition so complete that time doesn't improve his play significantly", "the first player to hold the highest rating in all three formats — a genuinely complete champion unlike predecessors"],
       },
       {
-        id: "che_600_01",
+        id: "sp_che_600_01",
         categoryId: "sp_chess_history",
         tier: 600,
         prompt: "Why did Carlsen resign the classical World Chess Championship match against Ian Nepomniachtchi in 2023 — and what did it signal about the championship format's future?",
@@ -58034,7 +58034,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["carlsen declined to defend his title against nepo, citing lack of motivation and memorized opening theory concerns", "his withdrawal signaled a crisis in classical chess's relevance when top player refuses to defend the title", "carlsen argued the championship had become about preparation and memory rather than creative play"],
       },
       {
-        id: "che_600_02",
+        id: "sp_che_600_02",
         categoryId: "sp_chess_history",
         tier: 600,
         prompt: "What is the Hans Niemann cheating controversy — and why did it create the most significant chess scandal in the computer era?",
@@ -58059,7 +58059,7 @@ const CATEGORIES: Category[] = [
     description: "Deep questions on Larian's D&D epic and its companion writing",
     questions: [
       {
-        id: "bg3_200_01",
+        id: "vg_bal_200_01",
         categoryId: "vg_baldurs_gate3",
         tier: 200,
         prompt: "What is the Tadpole — and what is the central tension it creates for the player character?",
@@ -58067,7 +58067,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["an illithid parasite that should transform the party into mind flayers but also grants powers", "the tadpole creates a risk/reward tension — use it for power or resist and stay human", "should transform them within days but grants psychic abilities; the game maintains ambiguity about whether using it accelerates transformation"],
       },
       {
-        id: "bg3_200_02",
+        id: "vg_bal_200_02",
         categoryId: "vg_baldurs_gate3",
         tier: 200,
         prompt: "Who is Astarion — and why did he become one of the most discussed companion characters in RPG history?",
@@ -58075,7 +58075,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["a vampire spawn who survived 200 years of abuse — his arc explores trauma and whether healing is possible", "became famous for sophisticated trauma writing that avoided cheap redemption while allowing genuine growth", "astarion's relationship route requires demonstrating non-manipulation mechanically, which is unusual in rpg companion writing"],
       },
       {
-        id: "bg3_200_03",
+        id: "vg_bal_200_03",
         categoryId: "vg_baldurs_gate3",
         tier: 200,
         prompt: "What is the 'Dark Urge' origin — and how does it change the player's relationship to the narrative?",
@@ -58083,7 +58083,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["an origin where your character has violent urges and is revealed as a bhaalspawn — child of the murder god", "the dark urge asks whether you can choose against your own divine nature when your impulses try to control you", "changes player relationship to narrative: resisting your character's own urges is the mechanic, not just choosing dialogue"],
       },
       {
-        id: "bg3_400_01",
+        id: "vg_bal_400_01",
         categoryId: "vg_baldurs_gate3",
         tier: 400,
         prompt: "What is the 'Honour Mode' — and how does it change the game's relationship to consequence?",
@@ -58091,7 +58091,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["single life mode where party wipe ends the campaign; bosses get legendary actions", "honour mode makes every decision permanent — no reloading from failure, one save file", "changes consequence relationship: resource management and positioning have real permanent stakes unlike normal mode"],
       },
       {
-        id: "bg3_400_02",
+        id: "vg_bal_400_02",
         categoryId: "vg_baldurs_gate3",
         tier: 400,
         prompt: "What is Larian's 'reactivity' design philosophy — and how does BG3 implement it at a scale that previous RPGs hadn't attempted?",
@@ -58099,7 +58099,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["reactivity means every decision changes how the world responds; bg3 has 170+ hours of voice acting covering variables", "every class, race, and background has different dialogue options for key moments — reactivity at rpg-unprecedented scale", "larian's philosophy is that the game world must acknowledge your history; bg3 implements this more completely than any prior rpg"],
       },
       {
-        id: "bg3_400_03",
+        id: "vg_bal_400_03",
         categoryId: "vg_baldurs_gate3",
         tier: 400,
         prompt: "What is the 'Gale the wizard' companion questline — and how does it represent BG3's approach to companion writing as parallel narrative?",
@@ -58107,7 +58107,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["gale's netherese orb and mystra relationship creates a complete parallel narrative independent of the main story", "his arc about arrogance and redemption has a unique ending where he can become a god — separate from main plot resolution", "bg3's companions all have complete independent arcs with unique endings that parallel rather than serve the main narrative"],
       },
       {
-        id: "bg3_600_01",
+        id: "vg_bal_600_01",
         categoryId: "vg_baldurs_gate3",
         tier: 600,
         prompt: "What specific achievement did BG3 represent in terms of CRPG genre recovery — and what games had defined the decade before it?",
@@ -58115,7 +58115,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["bg3 revived crpgs at aaa scale after two decades of dormancy following infinity engine games", "demonstrated the crpg audience was underserved not gone — larian revived the genre dos1/dos2 then bg3 proved aaa scale was viable", "the infinity engine bgames were the last aaa crpgs; bg3 proved the genre could return at that scale 20 years later"],
       },
       {
-        id: "bg3_600_02",
+        id: "vg_bal_600_02",
         categoryId: "vg_baldurs_gate3",
         tier: 600,
         prompt: "What is the specific debate about BG3's treatment of the D&D ruleset — and how does it represent a broader tension in tabletop game adaptations?",
@@ -58123,7 +58123,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["bg3 modified 5e rules for accessibility — purists criticized changes to jump, rests, and concentration", "the tension: should an adaptation prioritize ruleset fidelity or digital play optimization? larian chose experience over fidelity", "faithful d&d adaptation vs optimized digital play — larian chose digital optimization which maximized commercial but not tabletop fidelity"],
       },
       {
-        id: "bg3_600_03",
+        id: "vg_bal_600_03",
         categoryId: "vg_baldurs_gate3",
         tier: 600,
         prompt: "How did Larian's use of motion capture and facial animation change expectations for RPG companion presentation — and what does this imply for development costs?",
@@ -58384,7 +58384,7 @@ const CATEGORIES: Category[] = [
     description: "Deep questions on the NBA Finals' most significant games, plays, and series",
     questions: [
       {
-        id: "nba_200_01",
+        id: "sp_nba_200_01_x2",
         categoryId: "sp_nba_finals_hist",
         tier: 200,
         prompt: "What is 'The Shot' — and which Finals context is it most associated with?",
@@ -58392,7 +58392,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["ray allen's corner three with 5 seconds left in game 6 of the 2013 finals, saving miami from elimination", "the 2013 finals game 6 corner three by ray allen is the canonical finals 'shot' in modern nba history", "ray allen tied game 6 with a 5-second corner three off a scramble — the miami heat then won the title"],
       },
       {
-        id: "nba_200_02",
+        id: "sp_nba_200_02_x1",
         categoryId: "sp_nba_finals_hist",
         tier: 200,
         prompt: "What was the 2016 Finals comeback — and why is it considered the most historically significant Finals comeback?",
@@ -58400,7 +58400,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["cavaliers came back 3-1 against the 73-9 warriors; the only 3-1 comeback in finals history", "lebron's block and kyrie's three in game 7 defined the 2016 comeback against the best regular season team ever", "the only time a team trailed 3-1 and won the finals — against the historically dominant 73-9 golden state warriors"],
       },
       {
-        id: "nba_200_03",
+        id: "sp_nba_200_03",
         categoryId: "sp_nba_finals_hist",
         tier: 200,
         prompt: "Who was Bill Russell — and why is his NBA Finals record the most dominant individual championship record in North American sports?",
@@ -58408,7 +58408,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["bill russell won 11 nba championships including 8 consecutive, going 11-2 in finals — the most dominant individual record", "11 championships in 13 years with the celtics; no north american sports figure has as many in so few career years", "russell's 11 rings in 13 seasons including 8 straight is without equivalent in north american professional sports"],
       },
       {
-        id: "nba_400_01",
+        id: "sp_nba_400_01_x2",
         categoryId: "sp_nba_finals_hist",
         tier: 400,
         prompt: "What was the 'Bad Boys' Detroit Pistons — and what did their Finals appearances reveal about the 1980s NBA's tolerance for physical play?",
@@ -58416,7 +58416,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["detroit's bad boys used the jordan rules — hard fouls on every jordan drive — to win back-to-back titles 1989-1990", "their physical defense redefined permissible contact in the 1980s nba before rule changes removed hand-checking", "bad boys physicalilty revealed how much contact the pre-2004 nba allowed — jordan rules targeted aggressive fouls specifically"],
       },
       {
-        id: "nba_400_02",
+        id: "sp_nba_400_02_x2",
         categoryId: "sp_nba_finals_hist",
         tier: 400,
         prompt: "What is the 'Malice at the Palace' — and how did it change the NBA's relationship with player/fan interaction?",
@@ -58424,7 +58424,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["ron artest entered the stands after being hit by a cup in 2004; led to nba policy changes on player-fan boundaries", "the malice at the palace changed nba security protocols and created longer stand-entry bans", "2004 regular season brawl that redefined the physical boundary between players and spectators in all nba venues"],
       },
       {
-        id: "nba_400_03",
+        id: "sp_nba_400_03",
         categoryId: "sp_nba_finals_hist",
         tier: 400,
         prompt: "What is the significance of the 2004 Finals — and why is it one of the most analyzed upsets in Finals history?",
@@ -58432,7 +58432,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["pistons beat shaq, kobe, malone, and payton 4-1 using team cohesion over individual starpower", "the 2004 finals proved that assembled super-teams without chemistry lose to cohesive teams — detroit had no superstar", "the canonical example that team cohesion defeats superstar collections; lakers had the best players but lost 4-1"],
       },
       {
-        id: "nba_600_01",
+        id: "sp_nba_600_01_x2",
         categoryId: "sp_nba_finals_hist",
         tier: 600,
         prompt: "What was the specific philosophical argument made by Red Auerbach about building championship teams — and how does it explain Celtic dynasty construction?",
@@ -58440,7 +58440,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["auerbach built dynasties through complementary roles around one dominant player — ego management as important as talent", "one superstar with specialists covering their weaknesses is auerbach's formula; multiple stars create friction", "the celtic dynasty was built by acquiring players who didn't need the ball around russell — complementary construction philosophy"],
       },
       {
-        id: "nba_600_02",
+        id: "sp_nba_600_02_x2",
         categoryId: "sp_nba_finals_hist",
         tier: 600,
         prompt: "How did the introduction of the three-point line in 1979 take 35 years to fundamentally change Finals strategy — and what caused the eventual revolution?",
@@ -58448,7 +58448,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["the three-point line existed for 35 years before analytics and curry changed finals strategy", "coaching conservatism and player development pipelines ignored the three until morey analytics and curry combined", "the analytics + curry combination finally made the three-point revolution visible in finals strategy after 35 years of resistance"],
       },
       {
-        id: "nba_600_03",
+        id: "sp_nba_600_03_x1",
         categoryId: "sp_nba_finals_hist",
         tier: 600,
         prompt: "What is the specific reason Tim Duncan's statistical profile makes his case for GOAT consideration undervalued in cultural discourse?",
@@ -58548,7 +58548,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Breaking_Bad_logo.svg/500px-Breaking_Bad_logo.svg.png",
     questions: [
       {
-        id: "brb_200_01",
+        id: "tv_bre_200_01",
         categoryId: "tv_breaking_bad",
         tier: 200,
         prompt: "What is the thesis statement Vince Gilligan gave for Breaking Bad — and how does it define the show's entire arc?",
@@ -58556,7 +58556,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["gilligan described it as turning mr. chips into scarface — a transformation story not a revelation", "the thesis is transformation through incremental choices rather than revealing a pre-existing monster", "walter isn't secretly bad — he chooses each step and the show tracks how reasonable each step seemed"],
       },
       {
-        id: "brb_200_02",
+        id: "tv_bre_200_02",
         categoryId: "tv_breaking_bad",
         tier: 200,
         prompt: "What is the significance of the pink teddy bear eye — and how does it use imagery for narrative structure?",
@@ -58564,7 +58564,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["a flash-forward symbol of future disaster; the eye watches walter and comes from a plane crash he indirectly caused", "the pink teddy eye appears in season 2 cold opens as a promise that disaster is coming — connected to jane's death", "walters found eye is from the wayfarer 515 plane crash indirectly caused by him letting jane die"],
       },
       {
-        id: "brb_200_03",
+        id: "tv_bre_200_03",
         categoryId: "tv_breaking_bad",
         tier: 200,
         prompt: "What is 'I am the danger' — and in what context does it reveal Walter's psychological transformation?",
@@ -58572,7 +58572,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["walter tells skyler he is not the one in danger — he is the danger — revealing his heisenberg identity is now dominant", "season 4 line that reframes him from frightened teacher to self-identified threat", "i am the danger shows walter no longer sees himself as vulnerable — heisenberg has replaced walter white in his self-conception"],
       },
       {
-        id: "brb_400_01",
+        id: "tv_bre_400_01",
         categoryId: "tv_breaking_bad",
         tier: 400,
         prompt: "What is the 'chemistry is change' metaphor — and how does Gilligan embed it throughout the series?",
@@ -58580,7 +58580,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["chemistry = change, and walter himself undergoes irreversible transformation — the metaphor runs through everything", "gilligan uses chemistry's irreversibility to argue that moral transformation cannot be undone", "walter teaches change is chemistry; the show proves that transformation applies to people, and some changes can't be reversed"],
       },
       {
-        id: "brb_400_02",
+        id: "tv_bre_400_02",
         categoryId: "tv_breaking_bad",
         tier: 400,
         prompt: "Who is Gus Fring — and what makes him the show's most analytically interesting antagonist?",
@@ -58588,7 +58588,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["pollos hermanos manager who is secretly a major distributor; his evil is compartmentalized not expressed", "gus's public persona is genuine — good employer, civic figure — but his private compartment is ruthless", "represents contained evil contrasting with walter's total-corrosion villainy — both evil, but gus limits the damage"],
       },
       {
-        id: "brb_400_03",
+        id: "tv_bre_400_03",
         categoryId: "tv_breaking_bad",
         tier: 400,
         prompt: "What is Jesse Pinkman's function as Walter's moral mirror — and what makes his arc the show's emotional core?",
@@ -58596,7 +58596,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["jesse becomes the conscience as walter loses his — feels guilt that walter rationalizes away", "jesse didn't choose this life and is destroyed by walter's choices; his freedom in the finale is the emotional resolution", "walter uses jesse while treating it as partnership; jesse's capacity for genuine remorse is what walter lost — they are mirrors"],
       },
       {
-        id: "brb_600_01",
+        id: "tv_bre_600_01",
         categoryId: "tv_breaking_bad",
         tier: 600,
         prompt: "What is the specific argument Breaking Bad makes about the relationship between ego and self-deception — specifically in Walter's 'I did it for me' confession?",
@@ -58604,7 +58604,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["walter admits he did it for himself — ego, competence, feeling alive — after 5 seasons of 'family' justification", "the finale confession collapses his self-deception: the family narrative was covering up ego and the pleasure of power", "breaking bad argues that ego-driven people construct moral justifications to avoid seeing their real motivations"],
       },
       {
-        id: "brb_600_02",
+        id: "tv_bre_600_02",
         categoryId: "tv_breaking_bad",
         tier: 600,
         prompt: "How does Breaking Bad use Albuquerque's landscape — specifically the desert — as active narrative content?",
@@ -58612,7 +58612,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["the desert is where bodies dissolve, meth is cooked, and money is buried — functional and metaphorical simultaneously", "the vast empty desert mirrors walter's moral emptiness and frames human choices as small in an indifferent universe", "contrasts the domestic suburban world walter claims to protect with the barren landscape his choices actually inhabit"],
       },
       {
-        id: "brb_600_03",
+        id: "tv_bre_600_03",
         categoryId: "tv_breaking_bad",
         tier: 600,
         prompt: "What is the specific debate about whether Breaking Bad glorifies its protagonist — and how does the show's color-coding answer it?",
@@ -58629,7 +58629,7 @@ const CATEGORIES: Category[] = [
     description: "Deep questions on Dr. Gregory House, diagnostics, and David Shore's procedural drama",
     questions: [
       {
-        id: "hmd_200_01",
+        id: "tv_hou_200_01",
         categoryId: "tv_house_md",
         tier: 200,
         prompt: "What is the formula underlying almost every House M.D. episode — and what makes it effective despite predictability?",
@@ -58637,7 +58637,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["patient, wrong diagnosis makes it worse, house gets an insight from unrelated context, reveals true diagnosis", "the formula works because character relationships are the real interest — the medical mystery is structure not substance", "predictable formula made effective because the diagnosis puzzle gives structure to character study, not the reverse"],
       },
       {
-        id: "hmd_200_02",
+        id: "tv_hou_200_02",
         categoryId: "tv_house_md",
         tier: 200,
         prompt: "What is House's central catchphrase — and what does it reveal about his philosophy?",
@@ -58645,7 +58645,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["everybody lies — his belief that patients always withhold critical information", "the catchphrase is both his diagnostic philosophy and an ironic self-indictment since house lies constantly", "reflects his core cynicism: the gap between what people say and what's true is the central problem in medicine and life"],
       },
       {
-        id: "hmd_200_03",
+        id: "tv_hou_200_03",
         categoryId: "tv_house_md",
         tier: 200,
         prompt: "What is House's physical ailment — and how does it shape his character psychology?",
@@ -58653,7 +58653,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["chronic leg pain from a muscle infarction caused by a misdiagnosis; manages it with vicodin addiction", "his pain connects to his distrust of medicine and his empathy for patients who are failed by doctors", "the physical wound externalizes psychological damage from being failed by medicine — he became who he is through that injury"],
       },
       {
-        id: "hmd_400_01",
+        id: "tv_hou_400_01",
         categoryId: "tv_house_md",
         tier: 400,
         prompt: "What is House's relationship to Sherlock Holmes — and how does the show deliberately embed the reference?",
@@ -58661,7 +58661,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["house is an explicit sherlock holmes riff: same deduction, vicodin/cocaine addiction, watson = wilson, same initials", "house's diagnostics are holmesian deduction applied to medicine — the show described itself as 'sherlock as a doctor'", "house and holmes are parallel: both drug-addicted, brilliant, have a loyal friend-companion, explain the irrational"],
       },
       {
-        id: "hmd_400_02",
+        id: "tv_hou_400_02",
         categoryId: "tv_house_md",
         tier: 400,
         prompt: "What is the 'Amber' arc in Season 4 — and why is Wilson's grief considered the most emotionally devastating storyline in the series?",
@@ -58669,7 +58669,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["amber dies helping house after a drunk call; wilson's grief temporarily destroys the central friendship", "the amber arc is the series' most devastating because house's destruction costs him wilson — the one relationship he values", "amber's death is house's fault in wilson's view; the friendship breaks because house's behavior killed someone wilson loved"],
       },
       {
-        id: "hmd_400_03",
+        id: "tv_hou_400_03",
         categoryId: "tv_house_md",
         tier: 400,
         prompt: "What happens in the 'Broken' Season 6 premiere — and why is it considered the best episode of the series?",
@@ -58677,7 +58677,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["house in a psychiatric facility without medicine or his power dynamics — stripped of his defenses", "considered the best because house is in a context where his expertise means nothing and he attempts genuine emotional work", "season 6 premiere set entirely in mayfield psychiatric hospital; house stripped of his usual authority and sarcasm"],
       },
       {
-        id: "hmd_600_01",
+        id: "tv_hou_600_01",
         categoryId: "tv_house_md",
         tier: 600,
         prompt: "What is the specific ethical framework House operates on — and how does it deliberately violate medical ethics while producing better outcomes?",
@@ -58685,7 +58685,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["house is a pure consequentialist — violates patient autonomy, consent, and confidentiality for better outcomes", "classical medical ethics is deontological; house breaks those rules because he judges by results, and results justify it in the show", "the show consistently endorses consequentialism over deontological medical ethics through house's success rate"],
       },
       {
-        id: "hmd_600_02",
+        id: "tv_hou_600_02",
         categoryId: "tv_house_md",
         tier: 600,
         prompt: "How did House M.D. influence real medical culture — specifically in ICUs and diagnostic medicine?",
@@ -58693,7 +58693,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["increased medical school applications in the 2000s and normalized visible differential diagnosis processes", "made diagnostic reasoning aspirational and contributed to diagnostic time-out culture in icus", "had real cultural effects but also created patient expectations for exotic diagnoses that frustrated real emergency doctors"],
       },
       {
-        id: "hmd_600_03",
+        id: "tv_hou_600_03",
         categoryId: "tv_house_md",
         tier: 600,
         prompt: "What is the finale's argument about House's character arc — and why do critics disagree about whether it represents growth or failure?",
@@ -59036,7 +59036,7 @@ const CATEGORIES: Category[] = [
     description: "Deep questions on Naoko Takeuchi's magical girl landmark",
     questions: [
       {
-        id: "slm_200_01",
+        id: "ani_sai_200_01",
         categoryId: "anime_sailor_moon",
         tier: 200,
         prompt: "What is the Sailor Moon franchise's specific cultural legacy for the 'magical girl' genre?",
@@ -59044,7 +59044,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["sailor moon codified team magical girl with transformation sequences, attack names, and character specialization", "moved from solo magical girl to team, creating the template for all subsequent magical girl anime", "sailor moon is the international breakthrough for shojo anime and the template for magical girl genre conventions"],
       },
       {
-        id: "slm_200_02",
+        id: "ani_sai_200_02",
         categoryId: "anime_sailor_moon",
         tier: 200,
         prompt: "What is the relationship between Sailor Moon and Tuxedo Mask — and what makes it controversial to revisit as an adult?",
@@ -59052,7 +59052,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["tuxedo mask is older and repeatedly cruel to usagi — revisited as an adult the dynamic is recognized as problematic", "an age gap relationship where mamoru's cruelty to usagi is framed as romantic tension — 1990s shojo romance tropes", "the relationship normalizes older male/younger female pairings and emotional unavailability as attractive in ways contemporary audiences find uncomfortable"],
       },
       {
-        id: "slm_200_03",
+        id: "ani_sai_200_03",
         categoryId: "anime_sailor_moon",
         tier: 200,
         prompt: "Who are Sailors Uranus and Neptune — and why were they significant in the history of LGBTQ+ representation in anime?",
@@ -59060,7 +59060,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["sailor uranus and neptune are canonically lesbian romantic partners — among the first in mainstream anime", "the 1990s english dub changed them to cousins to avoid same-sex relationship content for american audiences", "haruka and michiru are iconic lgbtq+ anime representation whose relationship was deliberately obscured in western localization"],
       },
       {
-        id: "slm_400_01",
+        id: "ani_sai_400_01",
         categoryId: "anime_sailor_moon",
         tier: 400,
         prompt: "What is 'Sailor Moon Crystal' — and how does it demonstrate the risk of faithful adaptation versus original interpretation?",
@@ -59068,7 +59068,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["sailor moon crystal faithfully adapted the manga but was criticized because the 1992 anime's deviations were often improvements", "demonstrated that faithful adaptation assumes the source material is better — which wasn't true when the original anime had superior character development", "crystal was visually inconsistent and emotionally rushed; proves the original filler-heavy anime's deviations added value"],
       },
       {
-        id: "slm_400_02",
+        id: "ani_sai_400_02",
         categoryId: "anime_sailor_moon",
         tier: 400,
         prompt: "What is the 'Dead Moon Circus' arc (SuperS) — and why is it considered the weakest arc in the original anime despite being thematically rich in the manga?",
@@ -59076,7 +59076,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["the superS arc is weak in anime because outer senshi were removed and it became chibiusa-focused for demographic reasons", "the manga's themes about fear of growing up were diluted by the anime's demographic targeting of younger viewers", "a thematically rich manga arc weakened by removing outer senshi and over-focusing on chibiusa for commercial reasons"],
       },
       {
-        id: "slm_400_03",
+        id: "ani_sai_400_03",
         categoryId: "anime_sailor_moon",
         tier: 400,
         prompt: "What specific feminist readings of Sailor Moon exist — and why is it considered both a feminist and anti-feminist text?",
@@ -59084,7 +59084,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["feminist: diverse all-female team where ordinary girl heroism is normalized; anti-feminist: heroism tied to romantic love and future wife/mother role", "usagi's 'ordinary' strengths are radical but her power is contained within conventional femininity (love, romance, motherhood)", "sailor moon is both feminist and anti-feminist — the power is real but it's justified through romantic love rather than autonomous strength"],
       },
       {
-        id: "slm_600_01",
+        id: "ani_sai_600_01",
         categoryId: "anime_sailor_moon",
         tier: 600,
         prompt: "How did Sailor Moon's international distribution history affect global anime fandom development in the 1990s?",
@@ -59092,7 +59092,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["sailor moon's wide 1990s international broadcast created western anime fandom foundations before pokemon's breakthrough", "heavily censored internationally but still introduced millions of western children to anime — especially girls", "girls who watched sailor moon in the 1990s are documented as a key demographic in the later western anime fandom expansion"],
       },
       {
-        id: "slm_600_02",
+        id: "ani_sai_600_02",
         categoryId: "anime_sailor_moon",
         tier: 600,
         prompt: "What is Naoko Takeuchi's specific contribution to the visual grammar of shojo manga — particularly in how she draws transformation sequences?",
@@ -59100,7 +59100,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["takeuchi established the nude silhouette transformation sequence — rebirth from vulnerability to power, now universal in magical girl anime", "the attack name + pose + verbal announcement sequence is takeuchi's contribution to magical girl visual grammar", "sailor moon's transformation conventions — silhouette nude, attack announcement — became the template every subsequent magical girl series uses"],
       },
       {
-        id: "slm_600_03",
+        id: "ani_sai_600_03",
         categoryId: "anime_sailor_moon",
         tier: 600,
         prompt: "How does the Silver Crystal's power function as a philosophical statement about the nature of love versus individual strength in the Sailor Moon universe?",
@@ -59280,7 +59280,7 @@ const CATEGORIES: Category[] = [
     description: "Deep questions on Game of Thrones — lore, characters, and behind-the-scenes decisions",
     questions: [
       {
-        id: "got_200_01",
+        id: "tv_gam_200_01",
         categoryId: "tv_game_of_thrones",
         tier: 200,
         prompt: "What is the Iron Throne — and what does its physical description say about the nature of the Targaryen dynasty?",
@@ -59288,7 +59288,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["forged from enemies' swords by dragonfire after aegon's conquest; deliberately uncomfortable and dangerous — a metaphor that power is built on violence and inherently unstable", "made from a thousand defeated swords; it has cut kings who sat on it — martin's metaphor that ruling is not comfortable and targaryen power was conquest-based", "the throne's grotesque uncomfortable design is intentional — martin said power should not be comfortable; it represents targaryen rule's violent foundation"],
       },
       {
-        id: "got_200_02",
+        id: "tv_gam_200_02",
         categoryId: "tv_game_of_thrones",
         tier: 200,
         prompt: "What is the 'Red Wedding' — and why was it shocking within the show's own established storytelling logic?",
@@ -59296,7 +59296,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["the massacre of robb stark, his pregnant wife, catelyn stark, and his army at a wedding feast — shocking because it violated guest-right (established as sacred) and killed the apparent protagonist", "season 3 episode 9 murder of the starks during a wedding; shocking because it violated westeros's sacred hospitality law and subverted the genre expectation that protagonists survive", "walder frey and roose bolton massacre robb's army at what should be a protected wedding feast — the shock came from violating established cultural rules and killing the protagonist mid-story"],
       },
       {
-        id: "got_200_03",
+        id: "tv_gam_200_03",
         categoryId: "tv_game_of_thrones",
         tier: 200,
         prompt: "What role did Tyrion Lannister play in the Battle of the Blackwater — and why is this episode considered among the series' finest?",
@@ -59304,7 +59304,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["acting hand of the king who planned the wildfire trap that destroyed stannis's fleet; episode is praised for neil marshall's direction, unprecedented tv budget, and dinklage's emmy-winning performance", "tyrion improvised the wildfire ship strategy to destroy the attacking fleet; the episode was a turning point in proving tv could do cinematic-quality battles", "the wildfire explosion at blackwater bay was tyrion's tactical genius; episode praised for neil marshall direction, scale, and dinklage's performance"],
       },
       {
-        id: "got_400_01",
+        id: "tv_gam_400_01",
         categoryId: "tv_game_of_thrones",
         tier: 400,
         prompt: "What was 'Hardhome' — and why did this season 5 episode mark a turning point in how the show treated the Night King?",
@@ -59312,7 +59312,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["the evacuation-turned-massacre at hardhome where the night king's post-battle arm-raise turned all the dead into wights — establishing him as the series' most ominous villain", "season 5 battle where the night king raises his arms at the end to resurrect all the fallen as wights — a visual statement of power that defined the character", "notable for being off-book (martin hadn't written this) — a turning point where the show diverged from source material while delivering one of its best action sequences"],
       },
       {
-        id: "got_400_02",
+        id: "tv_gam_400_02",
         categoryId: "tv_game_of_thrones",
         tier: 400,
         prompt: "What is 'Azor Ahai' and the 'Prince That Was Promised' prophecy — and how did the show handle (or mishandle) it?",
@@ -59320,7 +59320,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["the reborn hero prophecy of lord of light religion; heavily implied to apply to jon or daenerys, then abandoned when arya killed the night king with no prophecy connection", "azor ahai/prince that was promised was a major prophecy thread implying jon or dany — then rendered meaningless when arya killed the night king; widely criticized as narrative abandonment", "the show built up the prophecy for seasons then ignored it — arya's unkeen ending was the right emotional beat but violated the established prophetic framework"],
       },
       {
-        id: "got_400_03",
+        id: "tv_gam_400_03",
         categoryId: "tv_game_of_thrones",
         tier: 400,
         prompt: "What happened to Daenerys in season 8 — and why was the narrative execution controversial even among viewers who accepted the destination?",
@@ -59328,7 +59328,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["burns the surrendered city and becomes the mad queen then is killed by jon; controversial because the destination was debatable but the turn was compressed into 6 episodes with insufficient buildup", "the mad queen arc was potentially valid but season 8's shortened episode count meant her psychological turn from liberator to genocidal conqueror wasn't earned over sufficient story time", "even those who accepted the arc's logic argued the execution failed — martin's version reportedly has much more gradual groundwork that the show skipped due to rushing to an end"],
       },
       {
-        id: "got_600_01",
+        id: "tv_gam_600_01",
         categoryId: "tv_game_of_thrones",
         tier: 600,
         prompt: "How did Game of Thrones change the economics and ambition of prestige television production?",
@@ -59336,7 +59336,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["raised episode budgets from millions to tens of millions, established film-quality production as viable for tv, and forced competitors to invest at film-franchise scale", "created the theatrical tv standard — from $6m to $90m per episode across its run; directly caused amazon, netflix to pursue film-scale television fantasy projects like rings of power", "demonstrated fantasy world-building was commercially viable for tv and forced the industry to rethink what tv budgets could and should be"],
       },
       {
-        id: "got_600_02",
+        id: "tv_gam_600_02",
         categoryId: "tv_game_of_thrones",
         tier: 600,
         prompt: "What is George R.R. Martin's documented relationship with the show's divergence from his books — and what did the show's ending reveal about his own planned ending?",
@@ -59344,7 +59344,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["martin gave benioff and weiss his planned ending including bran as king, arya going west, jon beyond the wall, dany dying — so the show revealed unreleased book endpoints", "the show outpaced martin's writing and its ending revealed his approximate planned destinations; now his books must justify a journey to an endpoint the show's rushed execution made controversial", "paradoxically the show revealed martin's unpublished ending while also potentially undermining audience enthusiasm for the books — they know the destination but must wait for the well-developed version"],
       },
       {
-        id: "got_600_03",
+        id: "tv_gam_600_03",
         categoryId: "tv_game_of_thrones",
         tier: 600,
         prompt: "What was the strategic significance of the petition to 'remake Season 8' — and what did its reception reveal about parasocial relationships between audiences and TV creators?",
@@ -59443,7 +59443,7 @@ const CATEGORIES: Category[] = [
     description: "Deep questions on the Metal Gear Solid series — lore, themes, and Kojima's design philosophy",
     questions: [
       {
-        id: "mgs_200_01",
+        id: "vg_met_200_01",
         categoryId: "vg_metal_gear",
         tier: 200,
         prompt: "What is 'Metal Gear' — and why is the concept central to every game in the franchise?",
@@ -59451,7 +59451,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["a nuclear-armed walking tank that fires nukes from any terrain — mobile deterrence that eliminates fixed-silo vulnerability; every game involves stopping a different metal gear as commentary on arms race escalation", "bipedal nuclear launch platform; central because its mobility makes it the ultimate deterrence escalation — and each game's metal gear is developed after the last one is destroyed, commenting on endless arms escalation", "the walking nuke platform is kojima's recurring metaphor for arms race logic — each destroyed metal gear spawns a new one, suggesting deterrence theory is a cycle with no end"],
       },
       {
-        id: "mgs_200_02",
+        id: "vg_met_200_02",
         categoryId: "vg_metal_gear",
         tier: 200,
         prompt: "What is the significance of 'Codec' calls in the Metal Gear Solid series — beyond being an exposition delivery mechanism?",
@@ -59459,7 +59459,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["beyond exposition, codec calls are kojima's essay delivery mechanism — characters discuss film, philosophy, politics outside the fiction; kojima's real beliefs come through the fictional voices", "the codec breaks the fourth wall regularly — psycho mantis's memory card reading being the most famous; designed as much for kojima's commentary on culture and games as for mission briefings", "codec calls are how kojima makes the game a vehicle for his actual worldview — cinema, political philosophy, and direct player addresses embedded in gameplay"],
       },
       {
-        id: "mgs_200_03",
+        id: "vg_met_200_03",
         categoryId: "vg_metal_gear",
         tier: 200,
         prompt: "What is the 'Les Enfants Terribles' project — and why is it central to the entire series' lore?",
@@ -59467,7 +59467,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["cloning of big boss to produce solid, liquid, and solidus snake; central because it establishes the genetic determinism theme — are the clones fated to follow big boss's path or can they transcend their dna?", "les enfants terribles produced the three snake clones; liquid's motivation (believing he got the inferior genes) drives mgs1; the project is the origin of the patriots conspiracy that controls all their lives", "the cloning project is the series' core lore engine — genetic determinism vs. self-determination is the central philosophical question, established by the three clones' different genetics"],
       },
       {
-        id: "mgs_400_01",
+        id: "vg_met_400_01",
         categoryId: "vg_metal_gear",
         tier: 400,
         prompt: "What is the 'Memes vs. Genes' thesis that Solid Snake articulates at the end of MGS1 — and where does it come from philosophically?",
@@ -59475,7 +59475,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["genes are inherited determinism; memes are chosen cultural legacy — kojima draws directly on dawkins's selfish gene concept to argue you can transcend biology through what ideas you pass on", "snake's ending speech resolves the genetic determinism arc: while dna is fixed, memes (cultural transmission) are chosen; the philosophical source is dawkins's 1976 meme concept from the selfish gene", "the memes-vs-genes thesis: you can't choose what you inherit but you choose what you pass on; kojima uses dawkins to argue self-determination lies in cultural rather than biological legacy"],
       },
       {
-        id: "mgs_400_02",
+        id: "vg_met_400_02",
         categoryId: "vg_metal_gear",
         tier: 400,
         prompt: "What is 'The Patriots' (La-li-lu-le-lo) — and what does the reveal of their true nature in MGS2 argue about modern information society?",
@@ -59483,7 +59483,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["the patriots turn out to be an ai controlling information flow rather than human conspirators; kojima's argument is that information filtering is already happening through institutional/algorithmic structures — not conspiracy", "la-li-lu-le-lo's true nature is an ai managing what information society can access; mgs2's thesis is that algorithmic information control makes human conspiracy unnecessary — the system controls itself", "prophetic in light of social media algorithms: mgs2 argued in 2001 that an ai-managed information filter was already functionally real — not via conspiracy but via structural information management"],
       },
       {
-        id: "mgs_400_03",
+        id: "vg_met_400_03",
         categoryId: "vg_metal_gear",
         tier: 400,
         prompt: "What is the Raiden controversy in MGS2 — and why is it considered a significant moment in video game discourse about player expectations?",
@@ -59491,7 +59491,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["mgs2 was marketed as snake's sequel but the main game switched to new character raiden; player outrage was kojima's intentional subversion — raiden represented the player who follows snake, not becomes him", "the bait-and-switch to raiden was deliberate; considered the first major discourse moment about player rage when creators subvert established protagonist expectations", "raiden's substitution for snake was commentary on player identification with protagonists; the marketing deception was intentional kojima subversion — significant as an early example of player expectation controversy"],
       },
       {
-        id: "mgs_600_01",
+        id: "vg_met_600_01",
         categoryId: "vg_metal_gear",
         tier: 600,
         prompt: "What is Metal Gear Solid V's intentionally incomplete ending — and what does it reveal about Kojima's original intent versus what Konami allowed?",
@@ -59499,7 +59499,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["mgs5 shipped with a cut chapter — mission 51 existed in the data but was removed; the incomplete story (especially eli/liquid's arc) is attributed to konami forcing an early ship as their relationship with kojima collapsed", "the missing chapter 3 and cut mission 51 represent konami's interference with an incomplete product; it became a major discourse example of publisher control destroying an auteur's vision", "data-mined mission 51 confirmed the game was incomplete when shipped; the broken ending is inseparable from the konami-kojima breakup narrative — corporate interference with an unfinished auteur game"],
       },
       {
-        id: "mgs_600_02",
+        id: "vg_met_600_02",
         categoryId: "vg_metal_gear",
         tier: 600,
         prompt: "How does Metal Gear Solid 3 (Snake Eater) reframe the entire series' moral framework through the Sorrow and The Boss's death?",
@@ -59507,7 +59507,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["the boss was not a traitor but a patriot who died to prevent nuclear war; her sacrifice reframes snake's 'victory' as murdering the best person he knew on false state orders", "the sorrow boss forces you to confront every kill you made; combined with the boss's revelation, mgs3 argues victory in war is morally hollow — celebration of a hero who committed state-mandated murder of an innocent woman", "the boss's true motivation reframes the entire series: the patriot conspiracy, cold war manipulation, and big boss's cynicism all trace to this moment of state-ordered murder justified by geopolitical necessity"],
       },
       {
-        id: "mgs_600_03",
+        id: "vg_met_600_03",
         categoryId: "vg_metal_gear",
         tier: 600,
         prompt: "How does Hideo Kojima's documented auteurship compare to other recognized video game auteurs — and what distinguishes his approach to the tension between 'game' and 'cinema'?",
@@ -60837,7 +60837,7 @@ const CATEGORIES: Category[] = [
       "Team Cherry's underground insect kingdom — Hallownest, the Pale King, the Radiance, and the Infection.",
     questions: [
       {
-        id: "hk_200_01",
+        id: "gam_hol_200_01",
         categoryId: "game_hollow_knight",
         tier: 200,
         prompt:
@@ -60846,7 +60846,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Team Cherry"],
       },
       {
-        id: "hk_200_02",
+        id: "gam_hol_200_02",
         categoryId: "game_hollow_knight",
         tier: 200,
         prompt:
@@ -60855,7 +60855,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Hallownest"],
       },
       {
-        id: "hk_200_03",
+        id: "gam_hol_200_03",
         categoryId: "game_hollow_knight",
         tier: 200,
         prompt:
@@ -60864,7 +60864,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Soul", "soul"],
       },
       {
-        id: "hk_400_01",
+        id: "gam_hol_400_01",
         categoryId: "game_hollow_knight",
         tier: 400,
         prompt:
@@ -60873,7 +60873,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["The Radiance", "Radiance", "the forgotten moth deity"],
       },
       {
-        id: "hk_400_02",
+        id: "gam_hol_400_02",
         categoryId: "game_hollow_knight",
         tier: 400,
         prompt:
@@ -60887,7 +60887,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "hk_400_03",
+        id: "gam_hol_400_03",
         categoryId: "game_hollow_knight",
         tier: 400,
         prompt:
@@ -60900,7 +60900,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "hk_600_01",
+        id: "gam_hol_600_01",
         categoryId: "game_hollow_knight",
         tier: 600,
         prompt:
@@ -60914,7 +60914,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "hk_600_02",
+        id: "gam_hol_600_02",
         categoryId: "game_hollow_knight",
         tier: 600,
         prompt:
@@ -60927,7 +60927,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "hk_600_03",
+        id: "gam_hol_600_03",
         categoryId: "game_hollow_knight",
         tier: 600,
         prompt:
@@ -60951,7 +60951,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/RadioheadO2211125_composite.jpg/500px-RadioheadO2211125_composite.jpg",
     questions: [
       {
-        id: "rdh_200_01",
+        id: "mus_rad_200_01",
         categoryId: "music_radiohead",
         tier: 200,
         prompt:
@@ -60960,7 +60960,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Creep"],
       },
       {
-        id: "rdh_200_02",
+        id: "mus_rad_200_02",
         categoryId: "music_radiohead",
         tier: 200,
         prompt:
@@ -60983,7 +60983,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "rdh_400_01",
+        id: "mus_rad_400_01",
         categoryId: "music_radiohead",
         tier: 400,
         prompt:
@@ -60992,7 +60992,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Krautrock", "Kraut rock", "Kosmische Musik"],
       },
       {
-        id: "rdh_400_02",
+        id: "mus_rad_400_02",
         categoryId: "music_radiohead",
         tier: 400,
         prompt:
@@ -61014,7 +61014,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "rdh_600_01",
+        id: "mus_rad_600_01",
         categoryId: "music_radiohead",
         tier: 600,
         prompt:
@@ -61023,7 +61023,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["How to Disappear Completely", "How To Disappear Completely"],
       },
       {
-        id: "rdh_600_02",
+        id: "mus_rad_600_02",
         categoryId: "music_radiohead",
         tier: 600,
         prompt:
@@ -61599,7 +61599,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/2010_Malaysian_GP_opening_lap.jpg/500px-2010_Malaysian_GP_opening_lap.jpg",
     questions: [
       {
-        id: "f1_200_01",
+        id: "spo_f1_200_01",
         categoryId: "sport_f1",
         tier: 200,
         prompt:
@@ -61608,7 +61608,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Lewis Hamilton", "Hamilton"],
       },
       {
-        id: "f1_200_02",
+        id: "spo_f1_200_02",
         categoryId: "sport_f1",
         tier: 200,
         prompt:
@@ -61626,7 +61626,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Ferrari", "Scuderia Ferrari"],
       },
       {
-        id: "f1_400_01",
+        id: "spo_f1_400_01",
         categoryId: "sport_f1",
         tier: 400,
         prompt:
@@ -61635,7 +61635,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Imola", "Autodromo Enzo e Dino Ferrari", "San Marino Circuit"],
       },
       {
-        id: "f1_400_02",
+        id: "spo_f1_400_02",
         categoryId: "sport_f1",
         tier: 400,
         prompt:
@@ -61657,7 +61657,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "f1_600_01",
+        id: "spo_f1_600_01",
         categoryId: "sport_f1",
         tier: 600,
         prompt:
@@ -61670,7 +61670,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "f1_600_02",
+        id: "spo_f1_600_02",
         categoryId: "sport_f1",
         tier: 600,
         prompt:
@@ -61683,7 +61683,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "f1_600_03",
+        id: "spo_f1_600_03",
         categoryId: "sport_f1",
         tier: 600,
         prompt:
@@ -61816,7 +61816,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg/500px-Michael_Jackson_1983_%283x4_cropped%29_%28contrast%29.jpg",
     questions: [
       {
-        id: "mj_200_01",
+        id: "mus_mic_200_01",
         categoryId: "music_michael_jackson",
         tier: 200,
         prompt:
@@ -61825,7 +61825,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["moonwalk", "the moonwalk"],
       },
       {
-        id: "mj_200_02",
+        id: "mus_mic_200_02",
         categoryId: "music_michael_jackson",
         tier: 200,
         prompt: "Michael Jackson was the lead vocalist of which family music group before launching his solo career?",
@@ -61833,7 +61833,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["The Jackson 5", "Jackson 5", "The Jacksons"],
       },
       {
-        id: "mj_200_03",
+        id: "mus_mic_200_03",
         categoryId: "music_michael_jackson",
         tier: 200,
         prompt:
@@ -61842,7 +61842,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Billie Jean"],
       },
       {
-        id: "mj_400_01",
+        id: "mus_mic_400_01",
         categoryId: "music_michael_jackson",
         tier: 400,
         prompt:
@@ -61851,7 +61851,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Off the Wall"],
       },
       {
-        id: "mj_400_02",
+        id: "mus_mic_400_02",
         categoryId: "music_michael_jackson",
         tier: 400,
         prompt:
@@ -61860,7 +61860,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["John Landis", "Landis"],
       },
       {
-        id: "mj_400_03",
+        id: "mus_mic_400_03",
         categoryId: "music_michael_jackson",
         tier: 400,
         prompt:
@@ -61869,7 +61869,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Prince"],
       },
       {
-        id: "mj_600_01",
+        id: "mus_mic_600_01",
         categoryId: "music_michael_jackson",
         tier: 600,
         prompt:
@@ -61881,7 +61881,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "mj_600_02",
+        id: "mus_mic_600_02",
         categoryId: "music_michael_jackson",
         tier: 600,
         prompt:
@@ -61890,7 +61890,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Louis Johnson", "Louis 'Thunder Thumbs' Johnson"],
       },
       {
-        id: "mj_600_03",
+        id: "mus_mic_600_03",
         categoryId: "music_michael_jackson",
         tier: 600,
         prompt:
@@ -62480,7 +62480,7 @@ const CATEGORIES: Category[] = [
       "Wilt's 100, Russell's 11 rings, Magic vs. Bird, Jordan's six titles, the Dream Team, and LeBron breaking Kareem's record.",
     questions: [
       {
-        id: "nba_200_01",
+        id: "spo_nba_200_01",
         categoryId: "sport_nba_history",
         tier: 200,
         prompt: "On March 2, 1962, which player scored 100 points in a single NBA game — a record that has never been broken?",
@@ -62488,7 +62488,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Wilt Chamberlain", "Wilt", "Chamberlain"],
       },
       {
-        id: "nba_200_02",
+        id: "spo_nba_200_02",
         categoryId: "sport_nba_history",
         tier: 200,
         prompt:
@@ -62497,7 +62497,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Michael Jordan", "Jordan", "MJ"],
       },
       {
-        id: "nba_200_03",
+        id: "spo_nba_200_03",
         categoryId: "sport_nba_history",
         tier: 200,
         prompt:
@@ -62506,7 +62506,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Dream Team", "the Dream Team"],
       },
       {
-        id: "nba_400_01",
+        id: "spo_nba_400_01",
         categoryId: "sport_nba_history",
         tier: 400,
         prompt:
@@ -62518,7 +62518,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "nba_400_02",
+        id: "spo_nba_400_02",
         categoryId: "sport_nba_history",
         tier: 400,
         prompt:
@@ -62527,7 +62527,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Portland Trail Blazers", "Portland", "the Blazers"],
       },
       {
-        id: "nba_400_03",
+        id: "spo_nba_400_03",
         categoryId: "sport_nba_history",
         tier: 400,
         prompt:
@@ -62536,7 +62536,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["2022-23 season, Los Angeles Lakers", "2023, Lakers", "2022–23, LA Lakers"],
       },
       {
-        id: "nba_600_01",
+        id: "spo_nba_600_01",
         categoryId: "sport_nba_history",
         tier: 600,
         prompt:
@@ -62549,7 +62549,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "nba_600_02",
+        id: "spo_nba_600_02",
         categoryId: "sport_nba_history",
         tier: 600,
         prompt:
@@ -62562,7 +62562,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "nba_600_03",
+        id: "spo_nba_600_03",
         categoryId: "sport_nba_history",
         tier: 600,
         prompt:
@@ -63271,7 +63271,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Centre_Court.jpg/500px-Centre_Court.jpg",
     questions: [
       {
-        id: "ten_200_01",
+        id: "spo_ten_200_01",
         categoryId: "sport_tennis_history",
         tier: 200,
         prompt:
@@ -63280,7 +63280,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Novak Djokovic", "Djokovic"],
       },
       {
-        id: "ten_200_02",
+        id: "spo_ten_200_02",
         categoryId: "sport_tennis_history",
         tier: 200,
         prompt:
@@ -63302,7 +63302,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "ten_400_01",
+        id: "spo_ten_400_01",
         categoryId: "sport_tennis_history",
         tier: 400,
         prompt:
@@ -63311,7 +63311,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Roland Garros", "French Open", "the French Open"],
       },
       {
-        id: "ten_400_02",
+        id: "spo_ten_400_02",
         categoryId: "sport_tennis_history",
         tier: 400,
         prompt:
@@ -63338,7 +63338,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "ten_600_01",
+        id: "spo_ten_600_01",
         categoryId: "sport_tennis_history",
         tier: 600,
         prompt:
@@ -63351,7 +63351,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "ten_600_02",
+        id: "spo_ten_600_02",
         categoryId: "sport_tennis_history",
         tier: 600,
         prompt:
@@ -63498,7 +63498,7 @@ const CATEGORIES: Category[] = [
       "Larian Studios' D&D 5e epic — illithid tadpoles, the Absolute, Karlach, Gale, and one of gaming's most reactive narratives.",
     questions: [
       {
-        id: "bg3_200_01",
+        id: "gam_bal_200_01",
         categoryId: "game_baldurs_gate3",
         tier: 200,
         prompt: "Baldur's Gate 3 was developed by which Belgian studio, also known for the Divinity: Original Sin series?",
@@ -63506,7 +63506,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Larian Studios", "Larian"],
       },
       {
-        id: "bg3_200_02",
+        id: "gam_bal_200_02",
         categoryId: "game_baldurs_gate3",
         tier: 200,
         prompt:
@@ -63515,7 +63515,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["D&D 5e", "Dungeons & Dragons 5th Edition", "5th Edition D&D", "DnD 5e"],
       },
       {
-        id: "bg3_200_03",
+        id: "gam_bal_200_03",
         categoryId: "game_baldurs_gate3",
         tier: 200,
         prompt:
@@ -63524,7 +63524,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["mind flayer", "illithid", "mind flayer / illithid"],
       },
       {
-        id: "bg3_400_01",
+        id: "gam_bal_400_01",
         categoryId: "game_baldurs_gate3",
         tier: 400,
         prompt:
@@ -63537,7 +63537,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "bg3_400_02",
+        id: "gam_bal_400_02",
         categoryId: "game_baldurs_gate3",
         tier: 400,
         prompt:
@@ -63550,7 +63550,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "bg3_400_03",
+        id: "gam_bal_400_03",
         categoryId: "game_baldurs_gate3",
         tier: 400,
         prompt:
@@ -63563,7 +63563,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "bg3_600_01",
+        id: "gam_bal_600_01",
         categoryId: "game_baldurs_gate3",
         tier: 600,
         prompt:
@@ -63576,7 +63576,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "bg3_600_02",
+        id: "gam_bal_600_02",
         categoryId: "game_baldurs_gate3",
         tier: 600,
         prompt:
@@ -63589,7 +63589,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "bg3_600_03",
+        id: "gam_bal_600_03",
         categoryId: "game_baldurs_gate3",
         tier: 600,
         prompt:
@@ -63838,7 +63838,7 @@ const CATEGORIES: Category[] = [
       "Commander Shepard, the Normandy, the Reapers, Garrus Vakarian, and BioWare's defining sci-fi RPG trilogy.",
     questions: [
       {
-        id: "me_200_01",
+        id: "gam_mas_200_01",
         categoryId: "game_mass_effect",
         tier: 200,
         prompt: "The Mass Effect trilogy was developed by which studio — also known for Knights of the Old Republic and Dragon Age?",
@@ -63846,7 +63846,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["BioWare", "Bioware"],
       },
       {
-        id: "me_200_02",
+        id: "gam_mas_200_02",
         categoryId: "game_mass_effect",
         tier: 200,
         prompt:
@@ -63868,7 +63868,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Reapers", "the Reapers"],
       },
       {
-        id: "me_400_01",
+        id: "gam_mas_400_01",
         categoryId: "game_mass_effect",
         tier: 400,
         prompt:
@@ -63881,7 +63881,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "me_400_02",
+        id: "gam_mas_400_02",
         categoryId: "game_mass_effect",
         tier: 400,
         prompt:
@@ -63907,7 +63907,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "me_600_01",
+        id: "gam_mas_600_01",
         categoryId: "game_mass_effect",
         tier: 600,
         prompt:
@@ -63920,7 +63920,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "me_600_02",
+        id: "gam_mas_600_02",
         categoryId: "game_mass_effect",
         tier: 600,
         prompt:
@@ -64188,7 +64188,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Pancho_Villa_BNF.jpeg/500px-Pancho_Villa_BNF.jpeg",
     questions: [
       {
-        id: "box_200_01",
+        id: "spo_box_200_01",
         categoryId: "sport_boxing_history",
         tier: 200,
         prompt:
@@ -64197,7 +64197,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Rumble in the Jungle", "the Rumble in the Jungle"],
       },
       {
-        id: "box_200_02",
+        id: "spo_box_200_02",
         categoryId: "sport_boxing_history",
         tier: 200,
         prompt:
@@ -64219,7 +64219,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "box_400_01",
+        id: "spo_box_400_01",
         categoryId: "sport_boxing_history",
         tier: 400,
         prompt:
@@ -64228,7 +64228,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Angelo Dundee", "Dundee"],
       },
       {
-        id: "box_400_02",
+        id: "spo_box_400_02",
         categoryId: "sport_boxing_history",
         tier: 400,
         prompt:
@@ -64250,7 +64250,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Buster Douglas", "James 'Buster' Douglas"],
       },
       {
-        id: "box_600_01",
+        id: "spo_box_600_01",
         categoryId: "sport_boxing_history",
         tier: 600,
         prompt:
@@ -64263,7 +64263,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "box_600_02",
+        id: "spo_box_600_02",
         categoryId: "sport_boxing_history",
         tier: 600,
         prompt:
@@ -64418,7 +64418,7 @@ const CATEGORIES: Category[] = [
       "Saitama's existential crisis, the Hero Association, and ONE's webcomic redrawn into Murata's masterpiece.",
     questions: [
       {
-        id: "opm_200_01",
+        id: "ani_one_200_01",
         categoryId: "anime_one_punch_man",
         tier: 200,
         prompt: "One Punch Man originated as a webcomic by which author — who later had it redrawn by artist Yusuke Murata?",
@@ -64426,7 +64426,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["ONE", "One"],
       },
       {
-        id: "opm_200_02",
+        id: "ani_one_200_02",
         categoryId: "anime_one_punch_man",
         tier: 200,
         prompt: "Saitama is so powerful he defeats every enemy in a single punch, causing him what psychological problem?",
@@ -64442,7 +64442,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Genos"],
       },
       {
-        id: "opm_400_01",
+        id: "ani_one_400_01",
         categoryId: "anime_one_punch_man",
         tier: 400,
         prompt: "Season 1 of the One Punch Man anime (2015) was animated by which studio — known for Death Note and Hunter x Hunter — and widely praised for its fluid action sequences?",
@@ -64450,7 +64450,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Madhouse"],
       },
       {
-        id: "opm_400_02",
+        id: "ani_one_400_02",
         categoryId: "anime_one_punch_man",
         tier: 400,
         prompt: "The Hero Association ranks heroes in classes from C to S. What is the highest hero rank — where figures like Tatsumaki ('Tornado of Terror') and Silverfang operate?",
@@ -64469,7 +64469,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "opm_600_01",
+        id: "ani_one_600_01",
         categoryId: "anime_one_punch_man",
         tier: 600,
         prompt: "One Punch Man's central joke — an invincible hero who is bored — satirizes what specific tropes of the shonen genre?",
@@ -64481,7 +64481,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "opm_600_02",
+        id: "ani_one_600_02",
         categoryId: "anime_one_punch_man",
         tier: 600,
         prompt: "Yusuke Murata's manga redraw is technically extraordinary — pages are frequently updated online even after publication. What does this practice reveal about the economics and creative possibilities of digital manga distribution?",
@@ -64827,7 +64827,7 @@ const CATEGORIES: Category[] = [
       "FromSoftware's Sengoku-era shinobi game — the posture system, Genichiro, Wolf, and the philosophy of dying with purpose.",
     questions: [
       {
-        id: "skr_200_01",
+        id: "gam_sek_200_01",
         categoryId: "game_sekiro",
         tier: 200,
         prompt: "Sekiro: Shadows Die Twice was developed by which studio — also known for Dark Souls, Bloodborne, and Elden Ring?",
@@ -64835,7 +64835,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["FromSoftware", "From Software"],
       },
       {
-        id: "skr_200_02",
+        id: "gam_sek_200_02",
         categoryId: "game_sekiro",
         tier: 200,
         prompt: "Sekiro is set in which historical period of Japan — a time of civil war between feudal lords in the late 16th century?",
@@ -64843,7 +64843,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Sengoku period", "Sengoku era", "late 16th century Japan", "Sengoku-era"],
       },
       {
-        id: "skr_200_03",
+        id: "gam_sek_200_03",
         categoryId: "game_sekiro",
         tier: 200,
         prompt: "Sekiro replaces the traditional Soulslike stamina bar with a 'Posture' system. How does a player defeat most enemies?",
@@ -64855,7 +64855,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "skr_400_01",
+        id: "gam_sek_400_01",
         categoryId: "game_sekiro",
         tier: 400,
         prompt: "Sekiro's early recurring boss — Genichiro Ashina — serves as a skill gate that many players struggle to pass. What design purpose does he serve beyond being a difficulty spike?",
@@ -64867,7 +64867,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "skr_400_02",
+        id: "gam_sek_400_02",
         categoryId: "game_sekiro",
         tier: 400,
         prompt: "Sekiro features four different endings depending on player choices. Which ending — considered the 'true' ending — requires the most obscure prerequisites and involves the most complete narrative resolution?",
@@ -64878,7 +64878,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "skr_400_03",
+        id: "gam_sek_400_03",
         categoryId: "game_sekiro",
         tier: 400,
         prompt: "Sekiro differs from other FromSoftware games by having a fixed protagonist with a defined backstory. How does this change the nature of player immersion compared to the blank-slate protagonists of Dark Souls?",
@@ -64890,7 +64890,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "skr_600_01",
+        id: "gam_sek_600_01",
         categoryId: "game_sekiro",
         tier: 600,
         prompt: "Sekiro's final boss, Isshin the Sword Saint, is widely considered one of gaming's greatest boss fights. His three-phase structure escalates from sword to spear to lightning. What does the fight design communicate about the game's themes of mastery and legacy?",
@@ -64902,7 +64902,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "skr_600_02",
+        id: "gam_sek_600_02",
         categoryId: "game_sekiro",
         tier: 600,
         prompt: "Sekiro has no multiplayer, no character builds, and no player trading — a deliberate departure from FromSoftware's previous games. Director Hidetaka Miyazaki stated this was to ensure the difficulty experience was intentional and individual. What design philosophy does this enforce?",
@@ -64914,7 +64914,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "skr_600_03",
+        id: "gam_sek_600_03",
         categoryId: "game_sekiro",
         tier: 600,
         prompt: "The 'Dragonrot' mechanic causes NPCs to fall ill whenever Wolf dies too many times. It can be cured with a limited item. What does this mechanic add to the emotional texture of FromSoftware's usually consequence-free death-and-retry loop?",
@@ -65356,7 +65356,7 @@ const CATEGORIES: Category[] = [
     description: "Mobius Digital's mystery game set in a hand-crafted solar system perpetually ending in a supernova — every 22 minutes.",
     questions: [
       {
-        id: "owl_200_01",
+        id: "gam_out_200_01",
         categoryId: "game_outer_wilds",
         tier: 200,
         prompt: "In Outer Wilds, the player is trapped in a 22-minute loop ending with which cataclysmic stellar event?",
@@ -65364,7 +65364,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["supernova", "the sun going supernova"],
       },
       {
-        id: "owl_200_02",
+        id: "gam_out_200_02",
         categoryId: "game_outer_wilds",
         tier: 200,
         prompt: "The ancient civilization whose ruins the player explores throughout the solar system is called what?",
@@ -65372,7 +65372,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Nomai", "the Nomai"],
       },
       {
-        id: "owl_200_03",
+        id: "gam_out_200_03",
         categoryId: "game_outer_wilds",
         tier: 200,
         prompt: "Outer Wilds features a planet almost entirely made of water with a giant cyclone at its core. What is this planet called?",
@@ -65380,7 +65380,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Giant's Deep"],
       },
       {
-        id: "owl_400_01",
+        id: "gam_out_400_01",
         categoryId: "game_outer_wilds",
         tier: 400,
         prompt: "The Nomai were trying to use the time loop to reach a signal from the very beginning of the universe. What is this signal called?",
@@ -65388,7 +65388,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Eye of the Universe", "the Eye"],
       },
       {
-        id: "owl_400_02",
+        id: "gam_out_400_02",
         categoryId: "game_outer_wilds",
         tier: 400,
         prompt: "Ash Twin contains sand that flows upward into a black hole at its center. What mechanic lets the player use this dangerous environment to warp to a sunken location?",
@@ -65396,7 +65396,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["sand timer", "Ash Twin Project", "warp pad", "fill the tower with sand"],
       },
       {
-        id: "owl_400_03",
+        id: "gam_out_400_03",
         categoryId: "game_outer_wilds",
         tier: 400,
         prompt: "The Echoes of the Eye DLC introduced a new alien species that communicates through light and fire. What are these beings called?",
@@ -65404,7 +65404,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["the Strangers", "Strangers", "the Owlks", "Owlks"],
       },
       {
-        id: "owl_600_01",
+        id: "gam_out_600_01",
         categoryId: "game_outer_wilds",
         tier: 600,
         prompt: "The true cause of the time loop is not the Nomai's warp core — what actually initiates each loop, and why can't it be stopped?",
@@ -65412,7 +65412,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["probe found the Eye", "the probe finding the Eye triggered it", "Ash Twin warp core", "it already happened in the past"],
       },
       {
-        id: "owl_600_02",
+        id: "gam_out_600_02",
         categoryId: "game_outer_wilds",
         tier: 600,
         prompt: "Outer Wilds' ending involves the player traveling to the Eye of the Universe. What ultimately happens at the end — what does the universe do?",
@@ -65420,7 +65420,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["new universe is born", "universe ends and a new one begins", "universe collapses and reforms", "big bang / new universe"],
       },
       {
-        id: "owl_600_03",
+        id: "gam_out_600_03",
         categoryId: "game_outer_wilds",
         tier: 600,
         prompt: "The game was originally developed as a thesis project at which university before Mobius Digital expanded it commercially?",
@@ -66539,7 +66539,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Soviet invasion of Afghanistan", "invasion of Afghanistan", "Afghanistan"],
       },
       {
-        id: "oly_400_01",
+        id: "spo_oly_400_01",
         categoryId: "sport_olympic_history",
         tier: 400,
         prompt: "Usain Bolt set the 100m world record at the 2009 Berlin World Championships. What was his record time?",
@@ -66563,7 +66563,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Soviet Union", "USSR", "Russia"],
       },
       {
-        id: "oly_600_01",
+        id: "spo_oly_600_01",
         categoryId: "sport_olympic_history",
         tier: 600,
         prompt: "The ancient Olympic Games were held at Olympia in honor of Zeus every four years. In what year were they banned by the Christian Roman Emperor Theodosius I, ending nearly 1,000 years of tradition?",
@@ -66571,7 +66571,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["393", "393 AD", "394", "394 AD"],
       },
       {
-        id: "oly_600_02",
+        id: "spo_oly_600_02",
         categoryId: "sport_olympic_history",
         tier: 600,
         prompt: "Nadia Comaneci scored the first perfect 10 in Olympic gymnastics history at the 1976 Montreal Games. The scoreboard, not programmed to display '10,' showed what instead?",
@@ -66682,7 +66682,7 @@ const CATEGORIES: Category[] = [
     description: "Hajime Isayama's dark epic about humanity's last survivors, the truth behind the Titans, and the horror of inherited cycles of violence.",
     questions: [
       {
-        id: "aot_200_01",
+        id: "ani_att_200_01",
         categoryId: "anime_attack_on_titan",
         tier: 200,
         prompt: "Humanity in Attack on Titan lives behind massive concentric walls to protect against the Titans. What are the three walls named?",
@@ -66690,7 +66690,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Wall Maria", "Wall Rose", "Wall Sina", "Maria, Rose, Sina"],
       },
       {
-        id: "aot_200_02",
+        id: "ani_att_200_02",
         categoryId: "anime_attack_on_titan",
         tier: 200,
         prompt: "The elite Survey Corps uses which mobility system — gas-powered grappling hooks and blades — to fight Titans outside the walls?",
@@ -66698,7 +66698,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["ODM gear", "3D maneuver gear", "omni-directional mobility gear", "vertical maneuvering equipment"],
       },
       {
-        id: "aot_200_03",
+        id: "ani_att_200_03",
         categoryId: "anime_attack_on_titan",
         tier: 200,
         prompt: "The colossal Titan that breached Wall Maria in the opening episode is later revealed to be which character?",
@@ -66706,7 +66706,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Bertholdt", "Bertolt Hoover", "Bertholdt Hoover"],
       },
       {
-        id: "aot_400_01",
+        id: "ani_att_400_01",
         categoryId: "anime_attack_on_titan",
         tier: 400,
         prompt: "The Founding Titan possesses the ability to control all Titans and alter the memories of the Eldian people. This power was sealed away under what condition?",
@@ -66714,7 +66714,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["royal blood", "Reiss bloodline", "Fritz bloodline", "vow renouncing war"],
       },
       {
-        id: "aot_400_02",
+        id: "ani_att_400_02",
         categoryId: "anime_attack_on_titan",
         tier: 400,
         prompt: "The Marley nation sends warriors to steal the power of the Nine Titans from Paradis. Reiner Braun is the Armored Titan — what is his fellow warrior Annie Leonhart's Titan ability?",
@@ -66722,7 +66722,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Female Titan", "she is the Female Titan", "skin hardening"],
       },
       {
-        id: "aot_400_03",
+        id: "ani_att_400_03",
         categoryId: "anime_attack_on_titan",
         tier: 400,
         prompt: "Eren Yeager's ultimate plan — 'The Rumbling' — involves using the Wall Titans to do what to the world beyond Paradis?",
@@ -66730,7 +66730,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["genocide the world", "flatten the world", "kill everyone outside Paradis", "the Rumbling to kill all non-Eldians"],
       },
       {
-        id: "aot_600_01",
+        id: "ani_att_600_01",
         categoryId: "anime_attack_on_titan",
         tier: 600,
         prompt: "Attack on Titan draws heavily on the real-world history of propaganda and cyclical ethnic violence. The 'Eldians are devils' narrative parallels which real historical prejudice that Isayama cited as an influence?",
@@ -66738,7 +66738,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["antisemitism", "Holocaust", "Jewish persecution", "WWII ethnic persecution"],
       },
       {
-        id: "aot_600_02",
+        id: "ani_att_600_02",
         categoryId: "anime_attack_on_titan",
         tier: 600,
         prompt: "Ymir Fritz made a pact with a mysterious entity 'of the earth' that gave Titans their power. This entity is called what in the series, and what form does it take in the Paths dimension?",
@@ -66746,7 +66746,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Source of All Living Matter", "Hallucigenia", "the centipede", "the entity in the Paths"],
       },
       {
-        id: "aot_600_03",
+        id: "ani_att_600_03",
         categoryId: "anime_attack_on_titan",
         tier: 600,
         prompt: "The manga's ending was controversial. In the final chapter, after Eren is killed by Mikasa, what event occurs three years later that suggests the cycle of violence will repeat?",
@@ -67012,7 +67012,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Early_Maratha_History-Joppen.jpg/500px-Early_Maratha_History-Joppen.jpg",
     questions: [
       {
-        id: "mgd_200_01",
+        id: "his_mug_200_01",
         categoryId: "hist_mughal_deep",
         tier: 200,
         prompt: "Babur founded the Mughal Empire in 1526 after defeating the last Sultan of Delhi at which decisive battle?",
@@ -67036,7 +67036,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Din-i-Ilahi", "Din i Ilahi", "Divine Faith"],
       },
       {
-        id: "mgd_400_01",
+        id: "his_mug_400_01",
         categoryId: "hist_mughal_deep",
         tier: 400,
         prompt: "Aurangzeb reversed Akbar's policy of religious tolerance, imposing the jizya tax on non-Muslims and destroying temples. His reign (1658–1707) is associated with the beginning of Mughal decline. Who did he imprison and eventually execute to seize the throne?",
@@ -67044,7 +67044,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Shah Jahan", "his father", "Shah Jahan in Agra Fort"],
       },
       {
-        id: "mgd_400_02",
+        id: "his_mug_400_02",
         categoryId: "hist_mughal_deep",
         tier: 400,
         prompt: "The Mughal administrative system divided the empire into provinces called 'subas,' each governed by a 'subedar.' What was the revenue-assessment system, standardized under Akbar's finance minister, called?",
@@ -67060,7 +67060,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Shah Tahmasp", "Safavid court", "Persia", "Shah Tahmasp I"],
       },
       {
-        id: "mgd_600_01",
+        id: "his_mug_600_01",
         categoryId: "hist_mughal_deep",
         tier: 600,
         prompt: "The Mughal miniature painting tradition fused Persian, Indian, and European styles. Akbar established a royal atelier called the 'Karkhana.' Which two Safavid master painters did he bring to India to train Mughal artists?",
@@ -67068,7 +67068,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Mir Sayyid Ali", "Abd al-Samad", "Abdus Samad", "Persian painters"],
       },
       {
-        id: "mgd_600_02",
+        id: "his_mug_600_02",
         categoryId: "hist_mughal_deep",
         tier: 600,
         prompt: "The Peacock Throne, looted from the Mughal treasury in 1739, was taken by which Persian conqueror whose invasion of Delhi caused the massacre of 30,000 civilians?",
@@ -67344,7 +67344,7 @@ const CATEGORIES: Category[] = [
     description: "Hiromu Arakawa's alchemical epic about the Elric brothers, the Philosopher's Stone, and the sins of those who play God.",
     questions: [
       {
-        id: "fma_200_01",
+        id: "ani_ful_200_01",
         categoryId: "anime_fullmetal_alchemist",
         tier: 200,
         prompt: "The first law of alchemy in FMA:B states that to create something, you must sacrifice something of equal value. What is this principle called?",
@@ -67352,7 +67352,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Equivalent Exchange"],
       },
       {
-        id: "fma_200_02",
+        id: "ani_ful_200_02",
         categoryId: "anime_fullmetal_alchemist",
         tier: 200,
         prompt: "Edward Elric lost his right arm and left leg; Alphonse lost his entire body. What were they attempting that caused this, and what did they use to bind Al's soul?",
@@ -67368,7 +67368,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Father", "Pride", "the Dwarf in the Flask"],
       },
       {
-        id: "fma_400_01",
+        id: "ani_ful_400_01",
         categoryId: "anime_fullmetal_alchemist",
         tier: 400,
         prompt: "The fictional country of Amestris committed genocide against the Ishvalan people. This genocide was secretly orchestrated by Father to draw a nationwide transmutation circle. Which general ordered the massacre — later revealed to be a Homunculus?",
@@ -67376,7 +67376,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["King Bradley", "Bradley", "Wrath"],
       },
       {
-        id: "fma_400_02",
+        id: "ani_ful_400_02",
         categoryId: "anime_fullmetal_alchemist",
         tier: 400,
         prompt: "Roy Mustang's alchemy manipulates air density to create sparks. The real-world alchemy tradition that FMA draws from — transmuting base metals into gold — has roots in which ancient culture?",
@@ -67392,7 +67392,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["deconstruction", "atomic deconstruction", "destroy matter"],
       },
       {
-        id: "fma_600_01",
+        id: "ani_ful_600_01",
         categoryId: "anime_fullmetal_alchemist",
         tier: 600,
         prompt: "The Gate of Truth — the source of alchemic power — extracts a toll for forbidden transmutation. The entity beyond the Gate, called 'Truth,' acts as God and universe combined. What is Truth's appearance when encountered?",
@@ -67400,7 +67400,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["featureless white outline", "silhouette of yourself", "white figure", "outline of the transmuter"],
       },
       {
-        id: "fma_600_02",
+        id: "ani_ful_600_02",
         categoryId: "anime_fullmetal_alchemist",
         tier: 600,
         prompt: "Hiromu Arakawa drew on which real historical genocide for the Ishvalan genocide storyline — an event she stated directly inspired her depiction of military atrocities?",
@@ -68089,7 +68089,7 @@ const CATEGORIES: Category[] = [
     description: "Yoshihiro Togashi's brilliantly subversive shonen manga about a boy seeking his father through a world of Hunters, Nen, and moral ambiguity.",
     questions: [
       {
-        id: "hxh_200_01",
+        id: "ani_hun_200_01",
         categoryId: "anime_hunter_x_hunter",
         tier: 200,
         prompt: "Gon Freecss becomes a Hunter to find his father, Ging. What is Ging Freecss's Hunter designation — the rarest rank achievable?",
@@ -68097,7 +68097,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Double-Star Hunter", "top 5 hunter", "Ruins Hunter", "one of the best hunters"],
       },
       {
-        id: "hxh_200_02",
+        id: "ani_hun_200_02",
         categoryId: "anime_hunter_x_hunter",
         tier: 200,
         prompt: "The Nen system in HxH classifies practitioners into six categories based on their aura type. What is the category associated with emitting aura as a projectile or remote attack?",
@@ -68113,7 +68113,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Godspeed", "electricity", "Transmutation", "lightning"],
       },
       {
-        id: "hxh_400_01",
+        id: "ani_hun_400_01",
         categoryId: "anime_hunter_x_hunter",
         tier: 400,
         prompt: "The Chimera Ant arc is considered HxH's masterpiece. The Chimera Ant Queen births soldier ants with human traits. The arc's philosophical climax involves the ant Meruem and what human character he develops a bond with?",
@@ -68121,7 +68121,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Komugi"],
       },
       {
-        id: "hxh_400_02",
+        id: "ani_hun_400_02",
         categoryId: "anime_hunter_x_hunter",
         tier: 400,
         prompt: "Hisoka Morow's Nen ability, 'Bungee Gum,' combines which two physical properties to create a stretchy, sticky substance?",
@@ -68137,7 +68137,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Chrollo", "Chrollo Lucilfer"],
       },
       {
-        id: "hxh_600_01",
+        id: "ani_hun_600_01",
         categoryId: "anime_hunter_x_hunter",
         tier: 600,
         prompt: "HxH's Chimera Ant arc subverts shonen conventions by making the 'villain' Meruem more sympathetic than many heroes. Togashi has cited which philosophical tradition — focused on the human capacity for cruelty and the conditions that produce monsters — as influencing his work?",
@@ -68145,7 +68145,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["existentialism", "Buddhist philosophy", "nature vs nurture", "human condition"],
       },
       {
-        id: "hxh_600_02",
+        id: "ani_hun_600_02",
         categoryId: "anime_hunter_x_hunter",
         tier: 600,
         prompt: "The Nen vow/restriction system allows users to strengthen their abilities by placing limitations on themselves. Kurapika's Nen vows make his Emperor Time ability catastrophically costly — what is the cost he accepted?",
@@ -68171,7 +68171,7 @@ const CATEGORIES: Category[] = [
     description: "Naughty Dog's post-apocalyptic narrative game about love, loss, and moral compromise in a world destroyed by a fungal pandemic.",
     questions: [
       {
-        id: "lou_200_01",
+        id: "gam_the_200_01",
         categoryId: "game_the_last_of_us",
         tier: 200,
         prompt: "The fungal infection in The Last of Us is based on a real fungus that infects insects. What is this real-world fungus called?",
@@ -68179,7 +68179,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Cordyceps", "Ophiocordyceps"],
       },
       {
-        id: "lou_200_02",
+        id: "gam_the_200_02",
         categoryId: "game_the_last_of_us",
         tier: 200,
         prompt: "At the end of The Last of Us Part I, Joel lies to Ellie about what happened at the Firefly hospital. What is the truth he conceals?",
@@ -68187,7 +68187,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Ellie would have to die for the cure", "he killed the Fireflies", "he lied about the cure"],
       },
       {
-        id: "lou_200_03",
+        id: "gam_the_200_03",
         categoryId: "game_the_last_of_us",
         tier: 200,
         prompt: "The Last of Us Part II introduces Abby, who kills Joel. What is Abby's connection to the Fireflies and her motivation for killing Joel?",
@@ -68195,7 +68195,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["her father was the surgeon Joel killed", "Joel killed her father", "revenge for her father"],
       },
       {
-        id: "lou_400_01",
+        id: "gam_the_400_01",
         categoryId: "game_the_last_of_us",
         tier: 400,
         prompt: "The Last of Us Part II's narrative structure is non-linear — it shows Abby's story before revealing her as the 'villain.' This structure forces the player to empathize with the supposed antagonist. What narrative technique is this called?",
@@ -68203,7 +68203,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["perspective shift", "dual protagonist", "reverse chronology", "unreliable POV"],
       },
       {
-        id: "lou_400_02",
+        id: "gam_the_400_02",
         categoryId: "game_the_last_of_us",
         tier: 400,
         prompt: "Bill's Town in Part I features a gay male character who survived the apocalypse with his partner. His partner Frank leaves him — and leaves a note explaining his departure. What does Frank's note reveal about his motivations?",
@@ -68211,7 +68211,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Bill was too controlling/paranoid", "Frank wanted human connection", "Bill's isolation drove Frank away"],
       },
       {
-        id: "lou_400_03",
+        id: "gam_the_400_03",
         categoryId: "game_the_last_of_us",
         tier: 400,
         prompt: "The HBO adaptation of The Last of Us was praised for its faithfulness to the game while expanding certain stories. Which game's story was notably expanded with a romance that the game only hinted at?",
@@ -68219,7 +68219,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Bill and Frank", "episode 3", "Bill and Frank's romance"],
       },
       {
-        id: "lou_600_01",
+        id: "gam_the_600_01",
         categoryId: "game_the_last_of_us",
         tier: 600,
         prompt: "The Last of Us was directed by Neil Druckmann, who co-created it with Bruce Straley. Druckmann has cited which Cormac McCarthy novel as a major influence on the father-daughter dynamic and bleak post-apocalyptic world?",
@@ -68227,7 +68227,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["The Road", "Cormac McCarthy's The Road"],
       },
       {
-        id: "lou_600_02",
+        id: "gam_the_600_02",
         categoryId: "game_the_last_of_us",
         tier: 600,
         prompt: "Ellie's immunity in The Last of Us is caused by her mother being bitten while pregnant. What did the Cordyceps do differently in Ellie's case, and why does the game suggest it might produce a cure?",
@@ -68235,7 +68235,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["mutated in utero", "prenatal infection mutated", "suppresses fungal signals", "unique mutation"],
       },
       {
-        id: "lou_600_03",
+        id: "gam_the_600_03",
         categoryId: "game_the_last_of_us",
         tier: 600,
         prompt: "Part II's ending has Ellie choose not to kill Abby despite years of obsessive pursuit. What does she lose permanently in the climactic fight at the beach, which connects symbolically to Joel?",
@@ -68743,358 +68743,6 @@ const CATEGORIES: Category[] = [
   },
 
   {
-    id: "anime_vinland_saga",
-    group: "Anime",
-    name: "Vinland Saga",
-    culture: "universal",
-    description: "Historical epic set in the Viking Age following Thorfinn's journey from revenge-driven warrior to seeker of a land without war.",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Vinland_Saga_volume_1.jpg/500px-Vinland_Saga_volume_1.jpg",
-    questions: [
-      {
-        id: "vls_200_01",
-        categoryId: "anime_vinland_saga",
-        tier: 200,
-        prompt: "Young Thorfinn joins Askeladd's band for one reason — to earn the right to duel him. Why does Thorfinn want to kill Askeladd?",
-        answer: "Askeladd killed Thorfinn's father, Thors",
-        acceptableAnswers: ["Askeladd killed Thorfinn's father, Thors", "Askeladd murdered his father", "To avenge his father Thors"],
-      },
-      {
-        id: "vls_200_02",
-        categoryId: "anime_vinland_saga",
-        tier: 200,
-        prompt: "Prince Canute begins the series as a timid, almost childlike royal. What traumatic event most directly catalyzes his transformation into a ruthless political operator?",
-        answer: "The death of Ragnar, his retainer and father figure",
-        acceptableAnswers: ["The death of Ragnar", "Ragnar's death", "Losing Ragnar, his caretaker"],
-        explanation: "Ragnar's death, orchestrated by Askeladd, forces Canute to confront the nature of love and power, triggering his hardening into a calculating leader.",
-      },
-      {
-        id: "vls_200_03",
-        categoryId: "anime_vinland_saga",
-        tier: 200,
-        prompt: "The series ultimately sends Thorfinn in search of a fertile land to the west, known in Norse legend and real history as what?",
-        answer: "Vinland",
-        acceptableAnswers: ["Vinland"],
-      },
-      {
-        id: "vls_400_01",
-        categoryId: "anime_vinland_saga",
-        tier: 400,
-        prompt: "Askeladd's true name reflects his Welsh noble heritage: Lucius Artorius Castus. Which legendary figure does this name evoke, and why does Askeladd cherish Wales above all else?",
-        answer: "King Arthur; Wales is the land of his Welsh mother whom he loved and vowed to protect",
-        acceptableAnswers: ["King Arthur; Wales is his mother's homeland and he swore to protect it", "Arthur; his Welsh mother was enslaved and he deeply loved her", "King Arthur — his name mirrors the historical figure linked to the Arthur legend"],
-        explanation: "Lucius Artorius Castus is a real Roman figure considered a possible inspiration for the King Arthur legend. Askeladd's Welsh mother was enslaved, and protecting Wales became his life's secret purpose.",
-      },
-      {
-        id: "vls_400_02",
-        categoryId: "anime_vinland_saga",
-        tier: 400,
-        prompt: "In the Farm Arc, Thorfinn works as a slave on whose farm, and what is the name of the fellow slave who becomes his closest companion during that period?",
-        answer: "Ketil's farm; Einar",
-        acceptableAnswers: ["Ketil's farm; Einar", "Ketil; Einar"],
-      },
-      {
-        id: "vls_400_03",
-        categoryId: "anime_vinland_saga",
-        tier: 400,
-        prompt: "Floki is the Jomsvikings commander who orchestrates Thors's death by hiring Askeladd. What was his primary motive for wanting Thors eliminated?",
-        answer: "Thors had deserted the Jomsvikings, which was a betrayal that demanded death under their code",
-        acceptableAnswers: ["Thors had deserted the Jomsvikings and deserters must be killed", "Thors abandoned the Jomsvikings and Floki was tasked with executing him for desertion", "Thors defected from the Jomsvikings, and Floki hunted him down for it"],
-      },
-      {
-        id: "vls_600_01",
-        categoryId: "anime_vinland_saga",
-        tier: 600,
-        prompt: "Thors embodies the philosophy that a true warrior has no need for enemies. What does Thors demonstrate about this belief in the very manner of his death?",
-        answer: "He refuses to fight back against Askeladd's men to protect the village and Thorfinn, dying without killing anyone",
-        acceptableAnswers: ["He dies without killing anyone, choosing to protect rather than fight", "He surrenders and allows himself to be killed rather than endanger others", "He does not resist Askeladd's ambush and dies peacefully, embodying his no-enemies creed"],
-        explanation: "Thors is a legendary warrior who could have killed everyone present, but he surrenders to spare the village and his son, dying as the living proof of his philosophy.",
-      },
-      {
-        id: "vls_600_02",
-        categoryId: "anime_vinland_saga",
-        tier: 600,
-        prompt: "The historical explorer who actually reached North America — and whom the manga treats as the real-world anchor for Vinland — is which Norse figure?",
-        answer: "Leif Erikson",
-        acceptableAnswers: ["Leif Erikson", "Leif Ericson"],
-        explanation: "Leif Erikson appears as a character in Vinland Saga and is credited historically with reaching the continent centuries before Columbus.",
-      },
-      {
-        id: "vls_600_03",
-        categoryId: "anime_vinland_saga",
-        tier: 600,
-        prompt: "In his final act before being killed by Canute, Askeladd does something to protect Wales that simultaneously frees Thorfinn from his cycle of revenge. What does he do?",
-        answer: "He kills King Sweyn in public, forcing Canute to execute him instead of allowing Sweyn's plan to destroy Wales",
-        acceptableAnswers: ["He assassinates King Sweyn to stop the invasion of Wales, then goads Canute into killing him", "He murders Sweyn to save Wales and lets Canute cut him down, denying Thorfinn his revenge duel", "He kills Sweyn publicly, sacrificing himself to protect Wales and remove himself as Thorfinn's target"],
-        explanation: "Askeladd kills Sweyn when the king plans to subjugate Wales, then allows Canute to execute him. This collapses Thorfinn's entire purpose, leaving him without a target.",
-      },
-    ],
-  },
-
-  {
-    id: "anime_mob_psycho",
-    group: "Anime",
-    name: "Mob Psycho 100",
-    culture: "universal",
-    description: "A powerful esper boy navigates adolescence, con-artist mentors, and escalating psychic threats while questioning what strength actually means.",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/9/91/Mob_Psycho_100_volume_1_cover.png/500px-Mob_Psycho_100_volume_1_cover.png",
-    questions: [
-      {
-        id: "mob_200_01",
-        categoryId: "anime_mob_psycho",
-        tier: 200,
-        prompt: "The protagonist goes by the nickname 'Mob,' but what is his real full name?",
-        answer: "Shigeo Kageyama",
-        acceptableAnswers: ["Shigeo Kageyama", "Kageyama Shigeo"],
-      },
-      {
-        id: "mob_200_02",
-        categoryId: "anime_mob_psycho",
-        tier: 200,
-        prompt: "Reigen Arataka runs a fake psychic consulting business, but he does have one genuine skill he uses to defeat enemies. What is it?",
-        answer: "Massage",
-        acceptableAnswers: ["Massage", "Massage therapy", "Physical massage techniques"],
-        explanation: "Reigen is a skilled masseur and frequently defeats spirits or psychics by simply massaging them or using the technique as misdirection.",
-      },
-      {
-        id: "mob_200_03",
-        categoryId: "anime_mob_psycho",
-        tier: 200,
-        prompt: "Mob suppresses his emotions because strong feelings cause his power to surge. A percentage counter tracks his emotional state. What label appears when he completely loses control beyond any measured emotion?",
-        answer: "???%",
-        acceptableAnswers: ["???%", "???", "Question marks"],
-      },
-      {
-        id: "mob_400_01",
-        categoryId: "anime_mob_psycho",
-        tier: 400,
-        prompt: "The terrorist esper organization Mob faces is called Claw. Which division does Mob first encounter and defeat, and who leads it?",
-        answer: "The 7th Division, led by Ishiguro",
-        acceptableAnswers: ["The 7th Division, led by Ishiguro", "7th Division / Ishiguro", "Claw's 7th Division"],
-      },
-      {
-        id: "mob_400_02",
-        categoryId: "anime_mob_psycho",
-        tier: 400,
-        prompt: "Teruki Hanazawa begins as an antagonist who has built his entire identity around being the most powerful esper at his school. What does his fight with Mob force him to confront?",
-        answer: "That his psychic powers are not what make him valuable as a person",
-        acceptableAnswers: ["That his identity cannot be built on psychic power alone", "His powers don't define his worth", "He must develop his personality beyond his abilities"],
-        explanation: "Mob defeats Teru while essentially disengaged, stripping away Teru's ego-based identity and starting his arc toward genuine self-improvement.",
-      },
-      {
-        id: "mob_400_03",
-        categoryId: "anime_mob_psycho",
-        tier: 400,
-        prompt: "Mob joins the Body Improvement Club rather than the Telepathy Club. What is his stated reason for choosing the physically demanding club over the one that matches his abilities?",
-        answer: "He wants to build a normal, strong body to impress Tsubomi",
-        acceptableAnswers: ["He wants a strong body to impress Tsubomi", "He joined to get physically fit, hoping to appeal to his crush Tsubomi", "He wants to improve himself physically because he already has psychic powers"],
-      },
-      {
-        id: "mob_600_01",
-        categoryId: "anime_mob_psycho",
-        tier: 600,
-        prompt: "The Keiji Mogami arc is considered one of the darkest in the series. What makes Mogami a uniquely compelling villain compared to Claw's leaders?",
-        answer: "He was once a kind psychic who suffered a tragic life and genuinely believes suffering builds strength, giving him a coherent and tragic worldview",
-        acceptableAnswers: ["He had a genuinely tragic backstory and believes in suffering as a teacher", "Mogami was a good person destroyed by hardship — his cruelty comes from a real philosophy", "He's a former heroic esper whose suffering radicalized him, making him sympathetic and ideologically serious"],
-        explanation: "Mogami spent years enduring misery to save his sick mother, only to have her reject him. His belief that suffering is the only real teacher gives him a dark but internally consistent worldview.",
-      },
-      {
-        id: "mob_600_02",
-        categoryId: "anime_mob_psycho",
-        tier: 600,
-        prompt: "In the ???% Separation mode, Mob's body acts on a subconscious drive. What does it turn out he is actually trying to do?",
-        answer: "Run away — his body is trying to flee an overwhelming situation",
-        acceptableAnswers: ["Run away from everything", "His unconscious drive is to escape, not to fight", "He's trying to run away; the ???% is a flight response, not a rage"],
-        explanation: "Unlike the ???% explosion, which is overwhelming emotion, the Separation mode is driven by Mob's deep desire to simply escape from everything — more emotionally complex and sad.",
-      },
-      {
-        id: "mob_600_03",
-        categoryId: "anime_mob_psycho",
-        tier: 600,
-        prompt: "The Divine Tree arc centers on a giant broccoli plant that grows over Seasoning City. What entity inhabits the tree, and what does it ultimately want from the town's people?",
-        answer: "Dimple, who wants to use the tree's spores to make everyone worship him as a god",
-        acceptableAnswers: ["Dimple; he uses the tree to make the city's population worship him as a deity", "It's Dimple — he has grown powerful enough to inhabit the tree and seeks to be worshipped as a god", "Dimple possesses the Divine Tree and uses it to build a cult around himself"],
-      },
-    ],
-  },
-
-  {
-    id: "anime_steins_gate",
-    group: "Anime",
-    name: "Steins;Gate",
-    culture: "universal",
-    description: "A self-styled mad scientist in Akihabara accidentally invents time travel via text message and must undo every change to save the people he loves.",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/Steins%3BGate_volume_1.jpg/500px-Steins%3BGate_volume_1.jpg",
-    questions: [
-      {
-        id: "stg_200_01",
-        categoryId: "anime_steins_gate",
-        tier: 200,
-        prompt: "Okabe and his lab members discover time travel using a microwave modified with a phone. What do they call this device?",
-        answer: "Phone Microwave",
-        acceptableAnswers: ["Phone Microwave", "the Phone Microwave"],
-      },
-      {
-        id: "stg_200_02",
-        categoryId: "anime_steins_gate",
-        tier: 200,
-        prompt: "Okabe Rintaro adopts a theatrical alter ego he uses when playing the role of a mad scientist. What is the name he gives himself?",
-        answer: "Hououin Kyouma",
-        acceptableAnswers: ["Hououin Kyouma", "Kyouma Hououin"],
-      },
-      {
-        id: "stg_200_03",
-        categoryId: "anime_steins_gate",
-        tier: 200,
-        prompt: "Kurisu Makise is a genius neuroscience researcher who joins the Future Gadget Lab. What somewhat embarrassing nickname does Okabe give her that she absolutely despises?",
-        answer: "Christina",
-        acceptableAnswers: ["Christina", "Chris-tina", "The Christina"],
-        explanation: "Okabe calls her 'Christina' among other names like 'assistant,' which Kurisu finds infuriating despite eventually finding it endearing.",
-      },
-      {
-        id: "stg_400_01",
-        categoryId: "anime_steins_gate",
-        tier: 400,
-        prompt: "The Divergence Meter measures how far a worldline differs from a baseline. What specific divergence percentage marks the threshold below which all worldlines converge on Mayuri's death?",
-        answer: "1% (specifically below 1.000000%)",
-        acceptableAnswers: ["1%", "One percent", "Below 1.000000", "The 1% barrier"],
-        explanation: "In the Alpha attractor field, any worldline below 1% divergence leads to Mayuri's death regardless of Okabe's actions.",
-      },
-      {
-        id: "stg_400_02",
-        categoryId: "anime_steins_gate",
-        tier: 400,
-        prompt: "Okabe is the only person who retains memories when shifting between worldlines, an innate ability that makes him uniquely suited to time travel. What is this ability called?",
-        answer: "Reading Steiner",
-        acceptableAnswers: ["Reading Steiner"],
-      },
-      {
-        id: "stg_400_03",
-        categoryId: "anime_steins_gate",
-        tier: 400,
-        prompt: "A user called John Titor posts on internet forums claiming to be a time traveler from the future. Within the story of Steins;Gate, who is the actual person behind the John Titor identity?",
-        answer: "Suzuha Amane",
-        acceptableAnswers: ["Suzuha Amane", "Suzuha"],
-        explanation: "Suzuha is a time traveler from 2036 who used the John Titor alias on internet forums, mirroring the real-world internet legend.",
-      },
-      {
-        id: "stg_600_01",
-        categoryId: "anime_steins_gate",
-        tier: 600,
-        prompt: "Suzuha comes from a dystopian future to complete a mission involving a time machine. Her father in her timeline is a character the viewer knows by a different name. Who is Suzuha's father, and what is he called in the present?",
-        answer: "Barrel Titor, who is Daru (Hashida Itaru) in the present",
-        acceptableAnswers: ["Daru / Hashida Itaru — he becomes Barrel Titor in the future", "Her father is Daru, known as Barrel Titor in the future", "Itaru Hashida (Daru); he goes by Barrel Titor as an adult"],
-      },
-      {
-        id: "stg_600_02",
-        categoryId: "anime_steins_gate",
-        tier: 600,
-        prompt: "The true ending requires Okabe to reach the Steins Gate worldline — a third attractor field distinct from Alpha and Beta. What specific divergence number is associated with the Steins Gate worldline?",
-        answer: "1.048596%",
-        acceptableAnswers: ["1.048596", "1.048596%"],
-        explanation: "The Steins Gate worldline sits at exactly 1.048596% divergence — the only worldline where both Kurisu and Mayuri survive.",
-      },
-      {
-        id: "stg_600_03",
-        categoryId: "anime_steins_gate",
-        tier: 600,
-        prompt: "To reach Steins Gate, Okabe must fool his past self into believing Kurisu is dead using a trick involving a video message. What is this operation called, and what is the key deception it relies on?",
-        answer: "Operation Skuld; Okabe smears his own blood on Kurisu's body and sends a video to his past self showing her as if she were already dead",
-        acceptableAnswers: ["Operation Skuld — he fakes Kurisu's death by covering her in blood and recording a message for his past self", "Operation Skuld; the trick is making his past self believe Kurisu died by staging the scene with blood", "Operation Skuld; Okabe stages a fake death scene to send a deceptive video to himself in the past"],
-        explanation: "Okabe must convince the version of himself who will time-leap back that Kurisu is dead. He knocks Kurisu unconscious rather than letting her be killed, then stages the scene.",
-      },
-    ],
-  },
-
-  {
-    id: "anime_code_geass",
-    group: "Anime",
-    name: "Code Geass",
-    culture: "universal",
-    description: "An exiled Britannian prince uses a supernatural power of absolute obedience to lead a rebellion and orchestrate his own infamy for the sake of world peace.",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Code_Geass_DVD_Cover_Vol._1.jpg/500px-Code_Geass_DVD_Cover_Vol._1.jpg",
-    questions: [
-      {
-        id: "cgs_200_01",
-        categoryId: "anime_code_geass",
-        tier: 200,
-        prompt: "Lelouch's supernatural ability allows him to issue an irresistible command to anyone who makes direct eye contact with him. What is this power called?",
-        answer: "Geass",
-        acceptableAnswers: ["Geass", "The Geass"],
-      },
-      {
-        id: "cgs_200_02",
-        categoryId: "anime_code_geass",
-        tier: 200,
-        prompt: "Lelouch leads the resistance against Britannia under a masked persona so his true identity remains hidden. What name does he take as the face of the rebellion?",
-        answer: "Zero",
-        acceptableAnswers: ["Zero"],
-      },
-      {
-        id: "cgs_200_03",
-        categoryId: "anime_code_geass",
-        tier: 200,
-        prompt: "C.C. is the immortal woman who grants Lelouch his Geass. What does she ask him for in exchange — and what does she reveal this wish truly means to her by the end of the series?",
-        answer: "She asks him to grant her wish to die; it is later revealed she actually wants to be loved",
-        acceptableAnswers: ["She wants him to grant her wish — which she says is death but is really to be loved", "Her stated wish is to die, but her true desire is for someone to love her", "She wants her wish granted; the true wish is love, not death"],
-        explanation: "C.C.'s contract demand is death, but her backstory reveals her deepest desire is simply to be loved — she has lived so long that love has become the only thing she cannot obtain.",
-      },
-      {
-        id: "cgs_400_01",
-        categoryId: "anime_code_geass",
-        tier: 400,
-        prompt: "The Zero Requiem is the secret plan Lelouch and Suzaku devise together. In one sentence, what does the plan achieve and how?",
-        answer: "Lelouch becomes the world's most hated dictator so that Suzaku, as Zero, can publicly kill him and unite the world against a common evil that then vanishes",
-        acceptableAnswers: ["Lelouch takes all the world's hatred onto himself and is killed by Suzaku disguised as Zero, bringing peace", "Lelouch becomes a tyrant, then Suzaku kills him as Zero, letting humanity unite against the idea of him rather than each other", "Lelouch engineers his own assassination by Suzaku to destroy hatred and unify the world"],
-      },
-      {
-        id: "cgs_400_02",
-        categoryId: "anime_code_geass",
-        tier: 400,
-        prompt: "Suzaku was given a Geass command by Lelouch that compels him to fight for survival no matter what he wants. What are the exact words of that command?",
-        answer: "Live",
-        acceptableAnswers: ["Live", "\"Live!\"", "Live!"],
-        explanation: "During a desperate moment Lelouch commands Suzaku to 'Live,' which activates involuntarily whenever Suzaku is close to death and forces him to survive against his suicidal tendencies.",
-      },
-      {
-        id: "cgs_400_03",
-        categoryId: "anime_code_geass",
-        tier: 400,
-        prompt: "Nunnally is blind and uses a wheelchair throughout most of the series. What caused her blindness, and is her paralysis medically necessary?",
-        answer: "Her blindness was caused by psychological trauma from witnessing her mother's murder; her paralysis is psychosomatic, not physical",
-        acceptableAnswers: ["Trauma from seeing her mother killed caused her blindness; the paralysis is also psychosomatic", "She sealed her own sight after seeing Marianne die; the wheelchair is not medically required", "Psychological shock from her mother's assassination — both her blindness and paralysis are trauma responses, not injuries"],
-        explanation: "Nunnally's conditions are self-inflicted by trauma, which is why they resolve when her mental state changes — recontextualizing much of Lelouch's motivation.",
-      },
-      {
-        id: "cgs_600_01",
-        categoryId: "anime_code_geass",
-        tier: 600,
-        prompt: "The Sword of Akasha is a device Emperor Charles uses as part of a plan to destroy the Collective Unconscious. What is his ultimate goal in doing so?",
-        answer: "Charles wants to stop the cycle of conflict by merging all of humanity into one collective being, which requires killing the god that enables individual existence",
-        acceptableAnswers: ["Charles plans to merge all human souls to end war and death, which means destroying the entity that sustains individual consciousness", "He wants to unite humanity into one mind to eliminate conflict — which requires slaying the god that separates human souls", "To create a world without lies and war by fusing all people; it requires killing the consciousness that maintains individual identity"],
-        explanation: "Charles and V.V.'s plan, the Ragnarok Connection, involves using the Sword of Akasha to kill the divine Collective Unconscious and merge all of humanity.",
-      },
-      {
-        id: "cgs_600_02",
-        categoryId: "anime_code_geass",
-        tier: 600,
-        prompt: "V.V. is Charles's twin brother and fellow immortal. What specific role does he play in the Code system, and what did he do that directly set the story's tragedy in motion?",
-        answer: "V.V. is Charles's Code bearer (granting Charles immortality), and he was the one who actually had Marianne assassinated",
-        acceptableAnswers: ["V.V. bears the Code that makes Charles immortal, and he ordered Marianne's assassination", "He is the Code contract holder for Charles and secretly had Marianne killed", "V.V. granted Charles immortality via the Code and was responsible for murdering Marianne"],
-        explanation: "V.V. orchestrated Marianne's death out of jealousy over Charles's love for her, setting into motion Lelouch and Nunnally's fall from grace and exile.",
-      },
-      {
-        id: "cgs_600_03",
-        categoryId: "anime_code_geass",
-        tier: 600,
-        prompt: "The ending of Code Geass leaves Lelouch's fate deliberately ambiguous — a detail fans call the 'cart driver theory.' What specific visual detail in the final scene fuels the theory that Lelouch survived?",
-        answer: "The cart driver in the final scene has Lelouch's distinctive eyes and appears to match his build, implying he faked his death and now lives anonymously with C.C.",
-        acceptableAnswers: ["The cart driver is visually implied to be Lelouch — same eyes, similar appearance", "The driver of the cart C.C. rides at the end has Lelouch's eyes, suggesting he survived by inheriting a Code", "A cart driver whose eyes resemble Lelouch's appears at the end, hinting he survived by inheriting a Code"],
-        explanation: "Since Lelouch touched Charles (a Code bearer) before Charles died, some fans argue he inherited the Code and thus immortality — making the cart driver scene a quiet confirmation of his survival.",
-      },
-    ],
-  },
-
-  {
     id: "music_tupac",
     group: "Music",
     name: "Tupac Shakur",
@@ -69257,92 +68905,6 @@ const CATEGORIES: Category[] = [
         answer: "Brooklyn Nets",
         acceptableAnswers: ["Brooklyn Nets", "New Jersey Nets", "The Nets"],
         explanation: "Jay-Z originally invested when the team was the New Jersey Nets; they relocated to Brooklyn in 2012.",
-      },
-    ],
-  },
-
-  {
-    id: "vg_witcher3",
-    group: "Video Games",
-    name: "The Witcher 3: Wild Hunt",
-    culture: "universal",
-    description: "CD Projekt Red's open-world RPG following Geralt of Rivia's search for his adopted daughter Ciri, based on Andrzej Sapkowski's novels.",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/The_Witcher_3_Wild_Hunt_cover_art.jpg/500px-The_Witcher_3_Wild_Hunt_cover_art.jpg",
-    questions: [
-      {
-        id: "wtc_200_01",
-        categoryId: "vg_witcher3",
-        tier: 200,
-        prompt: "The Witcher 3 is based on a series of fantasy novels and short stories by which Polish author?",
-        answer: "Andrzej Sapkowski",
-        acceptableAnswers: ["Andrzej Sapkowski", "Sapkowski"],
-      },
-      {
-        id: "wtc_200_02",
-        categoryId: "vg_witcher3",
-        tier: 200,
-        prompt: "Ciri, Geralt's adopted daughter and the game's central figure, is being hunted by the Wild Hunt because she possesses a rare and powerful bloodline ability. What is she called because of this lineage?",
-        answer: "Child of the Elder Blood",
-        acceptableAnswers: ["Child of the Elder Blood", "Elder Blood", "Daughter of the Elder Blood"],
-      },
-      {
-        id: "wtc_200_03",
-        categoryId: "vg_witcher3",
-        tier: 200,
-        prompt: "The Wild Hunt are spectral riders who pursue Ciri across worlds. Who leads the Wild Hunt as its king?",
-        answer: "Eredin",
-        acceptableAnswers: ["Eredin", "Eredin Bréacc Glas", "King Eredin"],
-      },
-      {
-        id: "wtc_400_01",
-        categoryId: "vg_witcher3",
-        tier: 400,
-        prompt: "The Witcher 3 has three main endings for Ciri depending on player choices. She can become a Witcher, she can die, or she can take which throne?",
-        answer: "Empress of Nilfgaard",
-        acceptableAnswers: ["Empress of Nilfgaard", "Empress", "Ciri becomes Empress"],
-      },
-      {
-        id: "wtc_400_02",
-        categoryId: "vg_witcher3",
-        tier: 400,
-        prompt: "The Hearts of Stone DLC features Gaunter O'Dimm, who grants wishes in exchange for souls. By the end of the DLC, what does Gaunter reveal himself to be — beyond a simple devil figure?",
-        answer: "A cosmic entity / something beyond the game's universe",
-        acceptableAnswers: ["A cosmic entity", "Something beyond the universe", "An all-powerful entity outside reality", "Master Mirror", "A being outside time and space"],
-        explanation: "Gaunter O'Dimm is implied to be a primordial entity who exists beyond the rules of the game's world entirely — older and more powerful than any known force in the setting.",
-      },
-      {
-        id: "wtc_400_03",
-        categoryId: "vg_witcher3",
-        tier: 400,
-        prompt: "The Bloody Baron questline is praised for its moral complexity. The Baron asks Geralt to find his missing wife and daughter, but the quest ultimately reveals that the Baron himself was what kind of person at home?",
-        answer: "An abusive husband / domestic abuser",
-        acceptableAnswers: ["An abusive husband", "An abuser", "He was abusive to his family", "A domestic abuser"],
-      },
-      {
-        id: "wtc_600_01",
-        categoryId: "vg_witcher3",
-        tier: 600,
-        prompt: "In a specific side quest, Geralt can encounter a cursed creature called a Botchling — the spirit of an unwanted stillborn baby. Through a ritual, the Botchling can be transformed into a benevolent protective spirit. What is this benevolent form called?",
-        answer: "A lubberkin",
-        acceptableAnswers: ["Lubberkin", "A lubberkin"],
-      },
-      {
-        id: "wtc_600_02",
-        categoryId: "vg_witcher3",
-        tier: 600,
-        prompt: "The Netflix Witcher series popularized 'Toss a Coin to Your Witcher,' but lore-accurate fans note the song is technically anachronistic. Why?",
-        answer: "The song references events that hadn't happened yet in the timeline shown, or Jaskier hadn't written it yet during that depicted period",
-        acceptableAnswers: ["It's anachronistic", "The song references events that hadn't happened yet in that timeline", "Jaskier hadn't written it yet during the timeframe depicted", "It references events from Geralt's past that postdate the shown scene"],
-        explanation: "The Netflix show jumps between timelines non-linearly, and 'Toss a Coin' references events that occur later than the scenes in which it is sung.",
-      },
-      {
-        id: "wtc_600_03",
-        categoryId: "vg_witcher3",
-        tier: 600,
-        prompt: "Geralt's amnesia in the games originates from a canonical event in Sapkowski's original novels. What happened to Geralt that caused it?",
-        answer: "He was mortally wounded and resurrected by Ciri's Elder Blood wish",
-        acceptableAnswers: ["He was mortally wounded and resurrected", "Ciri's wish brought him back from death", "He died and was brought back by Ciri", "The Battle of Brenna / being killed and resurrected"],
-        explanation: "In the novels, Geralt dies at the Rivian pogrom; Ciri uses her Elder Blood power to bring him back, and the trauma causes his amnesia as depicted at the start of the first game.",
       },
     ],
   },
@@ -69532,7 +69094,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Formula_1_Delta_Wing.jpg/500px-Formula_1_Delta_Wing.jpg",
     questions: [
       {
-        id: "f1h_200_01",
+        id: "spo_f1_200_01_x1",
         categoryId: "sport_f1_history",
         tier: 200,
         prompt: "Ayrton Senna won three Formula 1 World Championships. At which circuit did he die during the 1994 San Marino Grand Prix?",
@@ -69540,7 +69102,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Imola", "Autodromo Enzo e Dino Ferrari"],
       },
       {
-        id: "f1h_200_02",
+        id: "spo_f1_200_02_x1",
         categoryId: "sport_f1_history",
         tier: 200,
         prompt: "Michael Schumacher retired with how many Formula 1 World Championship titles — a record that stood until Lewis Hamilton matched it in 2020?",
@@ -69548,7 +69110,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["7", "seven"],
       },
       {
-        id: "f1h_200_03",
+        id: "spo_f1_200_03",
         categoryId: "sport_f1_history",
         tier: 200,
         prompt: "Held on the streets of Monte Carlo, this race is widely considered the most prestigious single event on the Formula 1 calendar.",
@@ -69556,7 +69118,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Monaco Grand Prix", "Monaco GP", "the Monaco"],
       },
       {
-        id: "f1h_400_01",
+        id: "spo_f1_400_01_x1",
         categoryId: "sport_f1_history",
         tier: 400,
         prompt: "The Senna-Prost rivalry reached its most bitter point at which constructor, where they were teammates from 1988 to 1989 and the tension eventually forced Prost to leave?",
@@ -69564,7 +69126,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["McLaren", "McLaren-Honda"],
       },
       {
-        id: "f1h_400_02",
+        id: "spo_f1_400_02_x1",
         categoryId: "sport_f1_history",
         tier: 400,
         prompt: "The 2021 Abu Dhabi Grand Prix finale was engulfed in controversy when race director Michael Masi allowed only select lapped cars to unlap themselves before a late safety car restart — handing Verstappen a clear run at Hamilton. What happened to Masi after the FIA inquiry?",
@@ -69572,7 +69134,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["He was fired / removed as race director", "The FIA removed him from his position", "He was replaced as race director"],
       },
       {
-        id: "f1h_400_03",
+        id: "spo_f1_400_03",
         categoryId: "sport_f1_history",
         tier: 400,
         prompt: "DRS — the drag reduction system introduced in F1 in 2011 — works by opening a flap on which part of the car to reduce aerodynamic drag on straights?",
@@ -69580,7 +69142,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Rear wing", "the rear wing", "rear wing flap"],
       },
       {
-        id: "f1h_600_01",
+        id: "spo_f1_600_01_x1",
         categoryId: "sport_f1_history",
         tier: 600,
         prompt: "At the 1984 Monaco Grand Prix, Senna was catching the leader in torrential rain when the race was red-flagged early. Because it was halted before 75% distance, results were taken from the previous lap — denying Senna any points. Who was declared the winner?",
@@ -69588,7 +69150,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Alain Prost", "Prost"],
       },
       {
-        id: "f1h_600_02",
+        id: "spo_f1_600_02_x1",
         categoryId: "sport_f1_history",
         tier: 600,
         prompt: "In 2019, Ferrari reached an undisclosed private settlement with the FIA after an investigation into their power unit's legality. The FIA never publicly revealed the agreement, sparking outrage from rival teams. What do fans commonly call this deal?",
@@ -69596,7 +69158,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["The Ferrari engine agreement", "Ferrari engine deal", "Ferrari secret agreement", "the FIA-Ferrari settlement"],
       },
       {
-        id: "f1h_600_03",
+        id: "spo_f1_600_03_x1",
         categoryId: "sport_f1_history",
         tier: 600,
         prompt: "Juan Manuel Fangio won five Formula 1 World Championships in the 1950s, uniquely doing so with four different constructors. Name any two of the four constructors Fangio won his titles with.",
@@ -69616,7 +69178,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/UFC_Logo.svg/500px-UFC_Logo.svg.png",
     questions: [
       {
-        id: "ufc_200_01",
+        id: "spo_ufc_200_01",
         categoryId: "sport_ufc_mma",
         tier: 200,
         prompt: "Anderson Silva holds the record for the longest UFC title reign in the promotion's history. Which weight class did he dominate for over 2,400 days?",
@@ -69624,7 +69186,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Middleweight", "185 pounds", "185 lbs"],
       },
       {
-        id: "ufc_200_02",
+        id: "spo_ufc_200_02",
         categoryId: "sport_ufc_mma",
         tier: 200,
         prompt: "Conor McGregor became the first fighter in UFC history to hold titles in two weight classes simultaneously. Name either of the two divisions he held gold in.",
@@ -69640,7 +69202,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["29-0", "29 and 0", "twenty-nine and zero"],
       },
       {
-        id: "ufc_400_01",
+        id: "spo_ufc_400_01",
         categoryId: "sport_ufc_mma",
         tier: 400,
         prompt: "Royce Gracie's dominance at UFC 1 in 1993 introduced which martial art to mainstream Western audiences, demonstrating it could defeat larger opponents from other disciplines?",
@@ -69648,7 +69210,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Brazilian jiu-jitsu", "BJJ", "jiu-jitsu", "Gracie jiu-jitsu"],
       },
       {
-        id: "ufc_400_02",
+        id: "spo_ufc_400_02",
         categoryId: "sport_ufc_mma",
         tier: 400,
         prompt: "Ronda Rousey's aura of invincibility was shattered at UFC 193 when she was knocked out by a head kick from which opponent — considered one of the biggest upsets in women's MMA history?",
@@ -69664,7 +69226,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Frank Mir", "Mir"],
       },
       {
-        id: "ufc_600_01",
+        id: "spo_ufc_600_01",
         categoryId: "sport_ufc_mma",
         tier: 600,
         prompt: "At UFC 148 in 2012, Anderson Silva submitted Chael Sonnen in round 1 of their rematch. What made this result so stunning given the context of their first fight?",
@@ -69673,7 +69235,7 @@ const CATEGORIES: Category[] = [
         explanation: "In UFC 117, Sonnen dominated Silva for 4+ rounds before Silva submitted him late in round 5. The quick rematch finish was a stunning reversal.",
       },
       {
-        id: "ufc_600_02",
+        id: "spo_ufc_600_02",
         categoryId: "sport_ufc_mma",
         tier: 600,
         prompt: "Under the Unified Rules of MMA, '12-6 elbows' are explicitly banned. What does '12-6' refer to in this context?",
@@ -69701,7 +69263,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Federer_Roland_Garros.jpg/500px-Federer_Roland_Garros.jpg",
     questions: [
       {
-        id: "ten_200_01",
+        id: "spo_ten_200_01_x1",
         categoryId: "sport_tennis",
         tier: 200,
         prompt: "Roger Federer holds the record for the most Wimbledon singles titles won by any man. How many times did he win the Championships at the All England Club?",
@@ -69709,7 +69271,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["8", "eight"],
       },
       {
-        id: "ten_200_02",
+        id: "spo_ten_200_02_x1",
         categoryId: "sport_tennis",
         tier: 200,
         prompt: "Rafael Nadal's dominance on clay is unmatched in the Open Era. How many French Open singles titles did he win over his career — earning him the nickname 'King of Clay'?",
@@ -69717,7 +69279,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["14", "fourteen"],
       },
       {
-        id: "ten_200_03",
+        id: "spo_ten_200_03",
         categoryId: "sport_tennis",
         tier: 200,
         prompt: "Serena Williams set the Open Era record for Grand Slam singles titles by a woman. How many did she win across her career?",
@@ -69725,7 +69287,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["23", "twenty-three"],
       },
       {
-        id: "ten_400_01",
+        id: "spo_ten_400_01_x1",
         categoryId: "sport_tennis",
         tier: 400,
         prompt: "The 2008 Wimbledon final between Nadal and Federer is widely called the greatest tennis match ever played. Nadal won in five sets — but which set featured a tiebreak that finished 12-10, one of the most iconic in the sport's history?",
@@ -69733,7 +69295,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Second set", "the second set", "set 2"],
       },
       {
-        id: "ten_400_02",
+        id: "spo_ten_400_02_x1",
         categoryId: "sport_tennis",
         tier: 400,
         prompt: "Novak Djokovic won the Australian Open, French Open, and Wimbledon in 2021 and was one Grand Slam away from a calendar Slam. At which tournament did he fall short, losing in the semifinals?",
@@ -69742,7 +69304,7 @@ const CATEGORIES: Category[] = [
         explanation: "Djokovic lost to Alexander Zverev in the semifinals of the 2021 US Open, ending his calendar Slam bid.",
       },
       {
-        id: "ten_400_03",
+        id: "spo_ten_400_03",
         categoryId: "sport_tennis",
         tier: 400,
         prompt: "Roger Federer developed a serve-return tactic nicknamed 'SABR' — Sneak Attack By Roger — in which he moved sharply forward to take what type of shot early and wrong-foot big servers?",
@@ -69751,7 +69313,7 @@ const CATEGORIES: Category[] = [
         explanation: "SABR involved Federer rushing the net to chip the return early, neutralizing powerful servers by denying them time.",
       },
       {
-        id: "ten_600_01",
+        id: "spo_ten_600_01_x1",
         categoryId: "sport_tennis",
         tier: 600,
         prompt: "Bjorn Borg retired from professional tennis at age 26 after losing which match — his final Grand Slam final — to John McEnroe?",
@@ -69760,7 +69322,7 @@ const CATEGORIES: Category[] = [
         explanation: "Borg had won Wimbledon five consecutive times but never won the US Open; McEnroe beat him in the 1981 final and Borg retired shortly after.",
       },
       {
-        id: "ten_600_02",
+        id: "spo_ten_600_02_x1",
         categoryId: "sport_tennis",
         tier: 600,
         prompt: "John McEnroe dominated Wimbledon with serve-and-volley tennis in the early 1980s. What physical characteristic of modern rackets contributed most to the shift away from serve-and-volley toward baseline-dominant play?",
@@ -69769,7 +69331,7 @@ const CATEGORIES: Category[] = [
         explanation: "Composite/graphite rackets with oversized heads, broadly adopted in the 1980s–90s, gave baseliners the power to pass net-rushers more easily.",
       },
       {
-        id: "ten_600_03",
+        id: "spo_ten_600_03",
         categoryId: "sport_tennis",
         tier: 600,
         prompt: "The phrase 'Big Three' referring to Federer, Nadal, and Djokovic became mainstream around which decade — and what factor most accelerated the term entering common usage?",
@@ -69877,7 +69439,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Vince_Lombardi_Trophy.jpg/500px-Vince_Lombardi_Trophy.jpg",
     questions: [
       {
-        id: "nfl_200_01",
+        id: "spo_nfl_200_01",
         categoryId: "sport_nfl_history",
         tier: 200,
         prompt: "Tom Brady won a record 7 Super Bowls across his career. How many of those titles did he win with the New England Patriots?",
@@ -69885,7 +69447,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["6", "six"],
       },
       {
-        id: "nfl_200_02",
+        id: "spo_nfl_200_02",
         categoryId: "sport_nfl_history",
         tier: 200,
         prompt: "Joe Montana led the San Francisco 49ers to four Super Bowl victories in the 1980s without ever throwing an interception in a Super Bowl. Which Hall of Fame wide receiver was his primary target throughout those championship runs?",
@@ -69901,7 +69463,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["6", "six"],
       },
       {
-        id: "nfl_400_01",
+        id: "spo_nfl_400_01",
         categoryId: "sport_nfl_history",
         tier: 400,
         prompt: "In Super Bowl XXXVI in 2002, the New England Patriots upset the heavily favored St. Louis Rams — the 'Greatest Show on Turf.' Who kicked the game-winning field goal as time expired?",
@@ -69910,7 +69472,7 @@ const CATEGORIES: Category[] = [
         explanation: "Vinatieri hit a 48-yard field goal as time expired to give New England a 20-17 win and their first championship.",
       },
       {
-        id: "nfl_400_02",
+        id: "spo_nfl_400_02",
         categoryId: "sport_nfl_history",
         tier: 400,
         prompt: "Randy Moss set the NFL single-season touchdown reception record in 2007. How many receiving touchdowns did he score that season with the New England Patriots?",
@@ -69926,7 +69488,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Indianapolis Colts", "the Colts", "Colts"],
       },
       {
-        id: "nfl_600_01",
+        id: "spo_nfl_600_01",
         categoryId: "sport_nfl_history",
         tier: 600,
         prompt: "The 1958 NFL Championship Game between the Baltimore Colts and New York Giants is called 'The Greatest Game Ever Played.' What made it historically unique in the context of NFL championship games?",
@@ -69935,7 +69497,7 @@ const CATEGORIES: Category[] = [
         explanation: "The Colts won 23-17 in overtime on a Johnny Unitas-led drive capped by Alan Ameche's 1-yard run — the first overtime NFL title game ever.",
       },
       {
-        id: "nfl_600_02",
+        id: "spo_nfl_600_02",
         categoryId: "sport_nfl_history",
         tier: 600,
         prompt: "The 'Immaculate Reception' occurred in the 1972 AFC Divisional Playoff. Franco Harris caught a deflected pass off which Steelers receiver — whose involvement was at the center of the 'did it touch the ground' controversy?",
