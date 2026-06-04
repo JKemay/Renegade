@@ -107,20 +107,18 @@ export default function QuestionScreen() {
     ? (game?.team2Aids ?? [])
     : (game?.team1Aids ?? []);
 
-  // --- Question lookup ---
+  // --- Question lookup (locked on mount so timer re-renders can't re-pick) ---
+  const [question] = useState(() => {
+    const cat = CATEGORIES.find((c) => c.id === categoryId);
+    const tierQs = cat?.questions.filter((q) => q.tier === tier) ?? [];
+    const unseen = tierQs.filter((q) => !isQuestionSeen(q.id));
+    const pool = unseen.length > 0 ? unseen : tierQs;
+    const picked = pool.length > 0 ? pool[(slotIndex + questionSeed) % pool.length] : null;
+    // Mark seen immediately so future screens won't re-pick this question
+    if (picked) addSeenQuestion(picked.id);
+    return picked;
+  });
   const category = CATEGORIES.find((c) => c.id === categoryId);
-  const tierQuestions = category?.questions.filter((q) => q.tier === tier) ?? [];
-  const unseenQuestions = tierQuestions.filter((q) => !isQuestionSeen(q.id));
-  // Fall back to full pool if every question in this tier has been seen
-  const pool = unseenQuestions.length > 0 ? unseenQuestions : tierQuestions;
-  const question =
-    pool.length > 0 ? pool[(slotIndex + questionSeed) % pool.length] : null;
-
-  // Mark the question seen immediately so the in-memory Set and AsyncStorage
-  // snapshot stay consistent even if the user force-quits before scoring.
-  useEffect(() => {
-    if (question?.id) addSeenQuestion(question.id);
-  }, [question?.id]);
 
   // --- Timer ---
   const [timeLeft, setTimeLeft] = useState(() => getBaseSeconds());
