@@ -12364,210 +12364,6 @@ const CATEGORIES: Category[] = [
     ],
   },
   {
-    id: "vg_rdr2",
-    group: "Video Games",
-    name: "Red Dead Redemption 2",
-    culture: "universal",
-    description:
-      "Arthur Morgan, the Van der Linde gang, and the most immersive open world ever made.",
-    questions: [
-      {
-        id: "rdr_200_01",
-        categoryId: "vg_rdr2",
-        tier: 200,
-        prompt:
-          "Red Dead Redemption 2 follows Arthur Morgan — an outlaw in a gang led by which charismatic but increasingly unhinged leader?",
-        answer: "Dutch van der Linde",
-        acceptableAnswers: ["Dutch", "Dutch van der Linde"],
-      },
-      {
-        id: "rdr_200_02",
-        categoryId: "vg_rdr2",
-        tier: 200,
-        prompt:
-          "Red Dead Redemption 2 was developed by which studio — also known for Grand Theft Auto V?",
-        answer: "Rockstar Games",
-        acceptableAnswers: ["Rockstar", "Rockstar Games"],
-      },
-      {
-        id: "rdr_200_03",
-        categoryId: "vg_rdr2",
-        tier: 200,
-        prompt:
-          "In Red Dead Redemption 2, the time period is set in 1899 — during which declining era of American history?",
-        answer: "The dying days of the Wild West / Old West",
-        acceptableAnswers: ["Wild West", "Old West", "1899 frontier America"],
-      },
-      {
-        id: "rdr_200_04",
-        categoryId: "vg_rdr2",
-        tier: 200,
-        prompt:
-          "In RDR2, Arthur Morgan keeps a journal that fills with entries and sketches of his experiences. What moral system tracks his behavior — rewarding different outcomes for good or bad choices?",
-        answer: "The Honor system",
-        acceptableAnswers: ["Honor", "the Honor system", "honor system"],
-      },
-      {
-        id: "rdr_200_05",
-        categoryId: "vg_rdr2",
-        tier: 200,
-        prompt:
-          "Red Dead Redemption 2 features an incredibly detailed world. Which activity — central to the economy — has Arthur spending time with animals using a bow and rifle for perfect pelts?",
-        answer: "Hunting",
-        acceptableAnswers: ["hunting", "hunting animals"],
-      },
-      {
-        id: "rdr_200_06",
-        categoryId: "vg_rdr2",
-        tier: 200,
-        prompt:
-          "In RDR2, which treacherous gang member — who ultimately betrays Arthur and sells out the gang — serves as the game's true villain?",
-        answer: "Micah Bell",
-        acceptableAnswers: ["Micah Bell", "Micah"],
-      },
-      {
-        id: "rdr_400_01",
-        categoryId: "vg_rdr2",
-        tier: 400,
-        prompt:
-          "In RDR2, Arthur Morgan is diagnosed with a terminal illness that shapes the game's emotional final chapters. What disease does he have?",
-        answer: "Tuberculosis",
-        acceptableAnswers: ["Tuberculosis", "TB"],
-      },
-      {
-        id: "rdr_400_02",
-        categoryId: "vg_rdr2",
-        tier: 400,
-        prompt:
-          "In RDR2, which relentless Pinkerton detective agent serves as the primary lawman antagonist pursuing the Van der Linde gang throughout the story?",
-        answer: "Agent Andrew Milton",
-        acceptableAnswers: ["Andrew Milton", "Agent Milton", "Milton"],
-      },
-      {
-        id: "rdr_400_03",
-        categoryId: "vg_rdr2",
-        tier: 400,
-        prompt:
-          "In RDR2, the gang's camp plays an important role. What was the name of the snowy mountain disaster that the gang fled at the very start of the game — the incident that set the whole story in motion?",
-        answer: "Colter / the Blackwater Massacre leading to the Colter escape",
-        acceptableAnswers: [
-          "Colter",
-          "the Blackwater disaster",
-          "Blackwater Massacre",
-        ],
-      },
-      {
-        id: "rdr_400_04",
-        categoryId: "vg_rdr2",
-        tier: 400,
-        prompt:
-          "RDR2's camp mechanic requires players to contribute supplies. What is the name of the camp ledger that Arthur can donate money or goods to — keeping morale and resources up?",
-        answer:
-          "The camp ledger / Pearson's supplies / Arthur's satchel donations",
-        acceptableAnswers: [
-          "camp ledger",
-          "contributions ledger",
-          "donate to camp",
-        ],
-      },
-      {
-        id: "rdr_400_05",
-        categoryId: "vg_rdr2",
-        tier: 400,
-        prompt:
-          "In RDR2, Dutch van der Linde frequently references one last big score that will let the gang go free. What is the final heist he proposes — in Guarma and then Beaver Hollow?",
-        answer: "The Cornwall robbery and the Beaver Hollow train heist",
-        acceptableAnswers: [
-          "Beaver Hollow heist",
-          "train robbery",
-          "Cornwall",
-          "the final heist",
-        ],
-      },
-      {
-        id: "rdr_400_06",
-        categoryId: "vg_rdr2",
-        tier: 400,
-        prompt:
-          "In RDR2, what is the name of the Pinkertons' boss — the real historical lawman — who eventually brings down the Van der Linde gang?",
-        answer: "Edgar Ross (also historically, the Pinkerton Agency)",
-        acceptableAnswers: ["Edgar Ross", "Agent Ross"],
-      },
-      {
-        id: "rdr_600_01",
-        categoryId: "vg_rdr2",
-        tier: 600,
-        prompt:
-          "RDR2 is a prequel to Red Dead Redemption 1. At the end of the original game (RDR1), John Marston is killed by which lawman — who appears as a young Pinkerton agent in RDR2?",
-        answer: "Edgar Ross",
-        acceptableAnswers: ["Edgar Ross", "Agent Ross"],
-        explanation:
-          "Agent Edgar Ross appears as a young Pinkerton operative in RDR2 alongside Andrew Milton. In the original Red Dead Redemption, an older Ross ambushes and kills John Marston — completing the cycle.",
-      },
-      {
-        id: "rdr_600_02",
-        categoryId: "vg_rdr2",
-        tier: 600,
-        prompt:
-          "In RDR2's final act, Arthur Morgan makes a fateful choice at Beaver Hollow. What does Arthur give John before the final confrontation — symbolizing the transfer of the story's protagonist role?",
-        answer: "His hat",
-        acceptableAnswers: ["his hat", "the hat", "Arthur's hat"],
-        explanation:
-          "Arthur gives John his hat in the final moments before the confrontation with Micah — symbolizing the passing of the torch. John Marston is then the protagonist of the original RDR1.",
-      },
-      {
-        id: "rdr_600_03",
-        categoryId: "vg_rdr2",
-        tier: 600,
-        prompt:
-          "RDR2's development reportedly involved extreme working conditions — with Rockstar's Dan Houser revealing the team worked how many hours per week during crunch periods?",
-        answer: "100 hours per week",
-        acceptableAnswers: [
-          "100 hours",
-          "100 hour weeks",
-          "around 100 hours a week",
-        ],
-      },
-      {
-        id: "rdr_600_04",
-        categoryId: "vg_rdr2",
-        tier: 600,
-        prompt:
-          "In RDR2, the 'Poisonous Trail' treasure hunting quest leads to an unusual cache. What is actually found at the end — surprising players expecting gold bars?",
-        answer:
-          "The Otis Miller treasure map reward — gold bars at the end of the trail",
-        acceptableAnswers: ["gold bars", "treasure", "Otis Miller treasure"],
-      },
-      {
-        id: "rdr_600_05",
-        categoryId: "vg_rdr2",
-        tier: 600,
-        prompt:
-          "The high honor ending for Arthur Morgan has him watching the sunrise on a mountain peak as he dies. What does he say to himself in his final moments — a theme of the game?",
-        answer:
-          "He reflects on living well and dying better / 'I gave you all I had'",
-        acceptableAnswers: [
-          "I gave you all I had",
-          "lived well enough",
-          "died well enough",
-        ],
-      },
-      {
-        id: "rdr_600_06",
-        categoryId: "vg_rdr2",
-        tier: 600,
-        prompt:
-          "RDR2's Red Dead Online had a major update called 'Blood Money' in 2021. But despite updates, the online mode's future remains uncertain. How much did the base game sell in its first three days?",
-        answer: "Over $725 million in its first three days",
-        acceptableAnswers: [
-          "725 million",
-          "over 725 million",
-          "725 million dollars",
-        ],
-      },
-    ],
-  },
-  {
     id: "vg_nba2k",
     group: "Video Games",
     name: "NBA 2K",
@@ -12971,212 +12767,6 @@ const CATEGORIES: Category[] = [
   // ---------------------------------------------------------------------------
   // More Movies & TV
   // ---------------------------------------------------------------------------
-  {
-    id: "mv_better_call_saul",
-    group: "Movies & TV",
-    name: "Better Call Saul",
-    culture: "universal",
-    description: "Jimmy McGill, Chuck, Gus — the best prequel ever made.",
-    questions: [
-      {
-        id: "bcs_200_01",
-        categoryId: "mv_better_call_saul",
-        tier: 200,
-        prompt:
-          "Better Call Saul is a prequel/sequel to which other critically acclaimed AMC crime drama?",
-        answer: "Breaking Bad",
-        acceptableAnswers: ["Breaking Bad"],
-      },
-      {
-        id: "bcs_200_02",
-        categoryId: "mv_better_call_saul",
-        tier: 200,
-        prompt:
-          "What is the real name of 'Saul Goodman' — the morally flexible attorney at the center of the show?",
-        answer: "Jimmy McGill",
-        acceptableAnswers: ["Jimmy McGill", "James McGill"],
-      },
-      {
-        id: "bcs_200_03",
-        categoryId: "mv_better_call_saul",
-        tier: 200,
-        prompt:
-          "In Better Call Saul, Jimmy's love interest — a fellow lawyer who tries to steer him toward integrity — is named what?",
-        answer: "Kim Wexler",
-        acceptableAnswers: ["Kim Wexler", "Kim"],
-      },
-      {
-        id: "bcs_200_04",
-        categoryId: "mv_better_call_saul",
-        tier: 200,
-        prompt:
-          "Better Call Saul opens with black-and-white flash-forward scenes showing Jimmy's life after Breaking Bad — under what alias is he living?",
-        answer: "Gene Takavic",
-        acceptableAnswers: ["Gene Takavic", "Gene"],
-      },
-      {
-        id: "bcs_200_05",
-        categoryId: "mv_better_call_saul",
-        tier: 200,
-        prompt:
-          "In Better Call Saul, which cartel enforcer — known as 'The Cousins' — are twin assassins who work for the Salamanca family?",
-        answer: "Leonel and Marco Salamanca",
-        acceptableAnswers: [
-          "The Cousins",
-          "Leonel and Marco",
-          "The Salamanca cousins",
-        ],
-      },
-      {
-        id: "bcs_200_06",
-        categoryId: "mv_better_call_saul",
-        tier: 200,
-        prompt:
-          "Better Call Saul is set primarily in which US city — the same city as Breaking Bad?",
-        answer: "Albuquerque, New Mexico",
-        acceptableAnswers: ["Albuquerque", "Albuquerque, New Mexico"],
-      },
-      {
-        id: "bcs_400_01",
-        categoryId: "mv_better_call_saul",
-        tier: 400,
-        prompt:
-          "Jimmy McGill's brother — a senior law partner who undermines Jimmy out of contempt — is named what?",
-        answer: "Chuck McGill",
-        acceptableAnswers: ["Chuck McGill", "Chuck", "Charles McGill"],
-      },
-      {
-        id: "bcs_400_02",
-        categoryId: "mv_better_call_saul",
-        tier: 400,
-        prompt:
-          "The Salamanca family enforcer in BCS — who communicates only by ringing a bell after losing the ability to speak — is named what?",
-        answer: "Hector Salamanca",
-        acceptableAnswers: ["Hector", "Hector Salamanca"],
-      },
-      {
-        id: "bcs_400_03",
-        categoryId: "mv_better_call_saul",
-        tier: 400,
-        prompt:
-          "In Better Call Saul, Mike Ehrmantraut is a former Philadelphia police officer. What caused him to leave Philadelphia and drove him to work for criminals in Albuquerque?",
-        answer:
-          "His son Matty was murdered (by corrupt cops Mike himself had tipped off)",
-        acceptableAnswers: [
-          "his son was murdered",
-          "Matty was killed",
-          "his son Matty died",
-          "corrupt cops killed his son",
-        ],
-      },
-      {
-        id: "bcs_400_04",
-        categoryId: "mv_better_call_saul",
-        tier: 400,
-        prompt:
-          "In Better Call Saul, Jimmy secretly undermines his brother Chuck's career by hiding evidence in an insurance hearing. What does he swap to get Chuck's malpractice insurance cancelled?",
-        answer:
-          "A document with the wrong date — he changed the address on the Mesa Verde files",
-        acceptableAnswers: [
-          "he changed the files",
-          "the Mesa Verde documents",
-          "he altered paperwork",
-          "the address change on Mesa Verde",
-        ],
-      },
-      {
-        id: "bcs_400_05",
-        categoryId: "mv_better_call_saul",
-        tier: 400,
-        prompt:
-          "In Better Call Saul, what job does Jimmy take at a mall — which he turns into a quasi-law practice — when he is initially banned from practicing law?",
-        answer: "Selling phones at a mobile phone store (CC Mobile)",
-        acceptableAnswers: [
-          "cell phone salesman",
-          "phone store",
-          "CC Mobile",
-          "mobile phone kiosk",
-        ],
-      },
-      {
-        id: "bcs_400_06",
-        categoryId: "mv_better_call_saul",
-        tier: 400,
-        prompt:
-          "In Better Call Saul, which assassin — played by Tony Dalton — initially seems like a charming fixer but is revealed to be far more dangerous than Gus?",
-        answer: "Lalo Salamanca",
-        acceptableAnswers: ["Lalo Salamanca", "Lalo"],
-      },
-      {
-        id: "bcs_600_01",
-        categoryId: "mv_better_call_saul",
-        tier: 600,
-        prompt:
-          "In the BCS series finale, Jimmy defies his plea deal and confesses everything in open court. The original deal offered him how many years — and what does the judge ultimately sentence him to?",
-        answer: "7 years offered; 86 years given",
-        acceptableAnswers: ["86 years", "7 and 86", "86"],
-        explanation:
-          "Jimmy's lawyer negotiated a 7-year deal. When Jimmy confessed to the full scope of his crimes in open court, the judge sentenced him to 86 years in federal prison.",
-      },
-      {
-        id: "bcs_600_02",
-        categoryId: "mv_better_call_saul",
-        tier: 600,
-        prompt:
-          "Gustavo Fring's legitimate front business — the fast food chicken chain he uses to launder drug money — is called what?",
-        answer: "Los Pollos Hermanos",
-        acceptableAnswers: ["Los Pollos Hermanos", "Pollos Hermanos"],
-      },
-      {
-        id: "bcs_600_03",
-        categoryId: "mv_better_call_saul",
-        tier: 600,
-        prompt:
-          "Better Call Saul was created by Vince Gilligan and Peter Gould. How many seasons did the show run?",
-        answer: "Six seasons",
-        acceptableAnswers: ["six", "6", "six seasons"],
-      },
-      {
-        id: "bcs_600_04",
-        categoryId: "mv_better_call_saul",
-        tier: 600,
-        prompt:
-          "Chuck McGill claims to suffer from electromagnetic hypersensitivity — wrapping himself in space blankets and living without electricity. What does the show ultimately suggest about Chuck's condition?",
-        answer:
-          "It is psychosomatic / caused by his own self-loathing and mental illness rather than a real medical condition",
-        acceptableAnswers: [
-          "psychosomatic",
-          "mental illness",
-          "it's psychological not physical",
-          "self-inflicted",
-        ],
-      },
-      {
-        id: "bcs_600_05",
-        categoryId: "mv_better_call_saul",
-        tier: 600,
-        prompt:
-          "In Better Call Saul, Nacho Varga works as a double agent between the Salamanca family and Gus Fring — ultimately sacrificing himself. How does Nacho die?",
-        answer:
-          "He shoots himself after publicly denouncing the Salamancas, to protect his father from retaliation",
-        acceptableAnswers: [
-          "he kills himself",
-          "shoots himself",
-          "sacrifices himself",
-          "suicide to protect his father",
-        ],
-      },
-      {
-        id: "bcs_600_06",
-        categoryId: "mv_better_call_saul",
-        tier: 600,
-        prompt:
-          "Better Call Saul was nominated for a Primetime Emmy for Outstanding Drama Series every year it aired but never won. How many total Emmy nominations did the series receive?",
-        answer: "46 Emmy nominations (without a single win)",
-        acceptableAnswers: ["46", "46 nominations", "no wins"],
-      },
-    ],
-  },
   {
     id: "mv_squid_game",
     group: "Movies & TV",
@@ -21357,192 +20947,6 @@ const CATEGORIES: Category[] = [
     ],
   },
   {
-    id: "mv_euphoria",
-    group: "Movies & TV",
-    name: "Euphoria",
-    culture: "universal",
-    description:
-      "Rue, Jules, glitter makeup, and the most chaotic teen drama on TV.",
-    questions: [
-      {
-        id: "eup_200_01",
-        categoryId: "mv_euphoria",
-        tier: 200,
-        prompt:
-          "Euphoria centers on which teenage protagonist — played by Zendaya — who narrates the show and struggles with addiction and sobriety?",
-        answer: "Rue Bennett",
-        acceptableAnswers: ["Rue Bennett", "Rue", "Zendaya's character"],
-      },
-      {
-        id: "eup_200_02",
-        categoryId: "mv_euphoria",
-        tier: 200,
-        prompt:
-          "In Season 2, Cassie's controversial romance with which character — the most feared boy at school — drove the season's central drama?",
-        answer: "Nate Jacobs",
-        acceptableAnswers: ["Nate Jacobs", "Nate"],
-      },
-      {
-        id: "eup_200_03",
-        categoryId: "mv_euphoria",
-        tier: 200,
-        prompt:
-          "Euphoria is an HBO teen drama that deals unflinchingly with addiction, trauma, and identity. On which streaming platform can it be watched in the US?",
-        answer: "HBO / Max",
-        acceptableAnswers: ["HBO", "Max", "HBO Max"],
-      },
-      {
-        id: "eup_200_04",
-        categoryId: "mv_euphoria",
-        tier: 200,
-        prompt:
-          "In Euphoria, Rue's best friend at the start of Season 1 — before Jules arrives — is which character who struggles with body image and confidence?",
-        answer: "Lexi Howard",
-        acceptableAnswers: ["Lexi Howard", "Lexi"],
-      },
-      {
-        id: "eup_200_05",
-        categoryId: "mv_euphoria",
-        tier: 200,
-        prompt:
-          "In Euphoria, Maddy Perez is best friends with Cassie Howard and was previously in a toxic relationship with which dangerous character?",
-        answer: "Nate Jacobs",
-        acceptableAnswers: ["Nate Jacobs", "Nate"],
-      },
-      {
-        id: "eup_200_06",
-        categoryId: "mv_euphoria",
-        tier: 200,
-        prompt:
-          "Zendaya won an Emmy for Outstanding Lead Actress in a Drama Series for Euphoria — becoming the youngest actress to do so. How old was she when she won her first Emmy?",
-        answer: "24 years old",
-        acceptableAnswers: ["24", "24 years old"],
-      },
-      {
-        id: "eup_400_01",
-        categoryId: "mv_euphoria",
-        tier: 400,
-        prompt:
-          "Euphoria's iconic glitter makeup aesthetic — which sparked a global beauty trend — was created by which makeup department head?",
-        answer: "Doniella Davy",
-        acceptableAnswers: ["Doniella Davy", "Donni Davy"],
-      },
-      {
-        id: "eup_400_02",
-        categoryId: "mv_euphoria",
-        tier: 400,
-        prompt:
-          "Which character — played by Hunter Schafer — is Rue's closest companion and love interest throughout Season 1?",
-        answer: "Jules Vaughn",
-        acceptableAnswers: ["Jules Vaughn", "Jules"],
-      },
-      {
-        id: "eup_400_03",
-        categoryId: "mv_euphoria",
-        tier: 400,
-        prompt:
-          "In Euphoria Season 2, the high-stakes standoff involving Rue's dealer Laurie — who has captured Rue as collateral for unpaid drug debt — involves a drug Laurie threatens to inject. What is it?",
-        answer: "Morphine (Laurie injects Rue with morphine to sedate her)",
-        acceptableAnswers: ["morphine", "a sedative", "drugs"],
-      },
-      {
-        id: "eup_400_04",
-        categoryId: "mv_euphoria",
-        tier: 400,
-        prompt:
-          "In Euphoria, Fezco ('Fez') is a drug dealer who becomes an unlikely protector of Rue. Who is his younger brother and partner?",
-        answer: "Ashtray",
-        acceptableAnswers: ["Ashtray", "Ash"],
-      },
-      {
-        id: "eup_400_05",
-        categoryId: "mv_euphoria",
-        tier: 400,
-        prompt:
-          "In Euphoria, Lexi Howard writes and produces a play about her own life — which dramatically exposes her friends and family onstage. What is the play called?",
-        answer: "Our Life",
-        acceptableAnswers: ["Our Life"],
-      },
-      {
-        id: "eup_400_06",
-        categoryId: "mv_euphoria",
-        tier: 400,
-        prompt:
-          "In Euphoria Season 1, the most shocking visual moment involves a party scene where Rue overdoses. Which holiday is the party set during?",
-        answer: "Halloween",
-        acceptableAnswers: ["Halloween"],
-      },
-      {
-        id: "eup_600_01",
-        categoryId: "mv_euphoria",
-        tier: 600,
-        prompt:
-          "Euphoria was created and written by which director — who adapted it from an Israeli series of the same name?",
-        answer: "Sam Levinson",
-        acceptableAnswers: ["Sam Levinson"],
-      },
-      {
-        id: "eup_600_02",
-        categoryId: "mv_euphoria",
-        tier: 600,
-        prompt:
-          "The Season 1 finale's most emotional scene has Rue performing which song live on stage with composer Labrinth — becoming one of TV's most talked-about musical moments?",
-        answer: "All For Us",
-        acceptableAnswers: ["All For Us"],
-      },
-      {
-        id: "eup_600_03",
-        categoryId: "mv_euphoria",
-        tier: 600,
-        prompt:
-          "Euphoria's cinematographer — known for his bold, close-up, high-contrast visual language — is named what?",
-        answer: "Marcell Rév",
-        acceptableAnswers: ["Marcell Rev", "Marcell Rév"],
-      },
-      {
-        id: "eup_600_04",
-        categoryId: "mv_euphoria",
-        tier: 600,
-        prompt:
-          "Between Seasons 1 and 2, HBO released two special bridge episodes. One featured Rue alone with her sponsor Ali. What was the setting of that special episode?",
-        answer: "A diner (on Christmas Eve)",
-        acceptableAnswers: [
-          "a diner",
-          "a diner on Christmas Eve",
-          "Christmas Eve at a diner",
-        ],
-      },
-      {
-        id: "eup_600_05",
-        categoryId: "mv_euphoria",
-        tier: 600,
-        prompt:
-          "In Euphoria, Nate Jacobs' father Cal has a secret double life. What does Cal do that Nate eventually exposes to the whole school?",
-        answer:
-          "He secretly films and has sex with men — keeping a collection of CDs of these encounters",
-        acceptableAnswers: [
-          "he's secretly gay",
-          "films sex with men",
-          "has sex with men secretly",
-          "the CDs / videos",
-        ],
-      },
-      {
-        id: "eup_600_06",
-        categoryId: "mv_euphoria",
-        tier: 600,
-        prompt:
-          "The original Israeli version of Euphoria — on which the American show is based — was created by which Israeli creator?",
-        answer: "Ron Leshem and Daphna Levin",
-        acceptableAnswers: [
-          "Ron Leshem",
-          "Ron Leshem and Daphna Levin",
-          "Leshem",
-        ],
-      },
-    ],
-  },
-  {
     id: "mv_succession",
     group: "Movies & TV",
     name: "Succession",
@@ -25854,7 +25258,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Ronaldinho_in_2019.jpg/500px-Ronaldinho_in_2019.jpg",
     questions: [
       {
-        id: "rdh_200_01",
+        id: "rnh_200_01",
         categoryId: "sp_ronaldinho",
         tier: 200,
         prompt:
@@ -25863,7 +25267,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["FC Barcelona", "Barcelona", "Barça"],
       },
       {
-        id: "rdh_200_02",
+        id: "rnh_200_02",
         categoryId: "sp_ronaldinho",
         tier: 200,
         prompt:
@@ -25872,7 +25276,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["2002"],
       },
       {
-        id: "rdh_400_01",
+        id: "rnh_400_01",
         categoryId: "sp_ronaldinho",
         tier: 400,
         prompt:
@@ -25886,7 +25290,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "rdh_400_02",
+        id: "rnh_400_02",
         categoryId: "sp_ronaldinho",
         tier: 400,
         prompt:
@@ -25895,7 +25299,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["3-0", "Barcelona won 3-0"],
       },
       {
-        id: "rdh_600_01",
+        id: "rnh_600_01",
         categoryId: "sp_ronaldinho",
         tier: 600,
         prompt:
@@ -25904,7 +25308,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Iker Casillas", "Casillas"],
       },
       {
-        id: "rdh_600_02",
+        id: "rnh_600_02",
         categoryId: "sp_ronaldinho",
         tier: 600,
         prompt:
@@ -25912,11 +25316,11 @@ const CATEGORIES: Category[] = [
         answer: "Atlético Mineiro",
         acceptableAnswers: ["Atlético Mineiro", "Atletico Mineiro"],
       },
-      { id: "rdh_200_03", categoryId: "sp_ronaldinho", tier: 200, prompt: "Ronaldinho's real full name is Ronaldo de Assis Moreira. Where does the nickname 'Ronaldinho' — meaning 'little Ronaldo' — come from?", answer: "He was called 'little Ronaldo' to distinguish him from the other Ronaldo (R9) in the Brazilian national team", acceptableAnswers: ["to distinguish from R9", "little Ronaldo vs Ronaldo Nazário", "there was already a Ronaldo"] },
-      { id: "rdh_400_03", categoryId: "sp_ronaldinho", tier: 400, prompt: "Ronaldinho's most technically difficult skill move — popularized in the 2002 World Cup — involved flicking the ball over a defender's head and running round them. What is this trick called?", answer: "Elastico / flip-flap / the snake", acceptableAnswers: ["elastico", "flip flap", "snake", "the elastico"] },
-      { id: "rdh_400_04", categoryId: "sp_ronaldinho", tier: 400, prompt: "Ronaldinho was arrested in Paraguay in 2020 and spent time in prison. What was the charge?", answer: "Possession of a forged Paraguayan passport / fraudulent document use", acceptableAnswers: ["fake passport", "forged passport", "fraudulent documents", "passport fraud"] },
-      { id: "rdh_600_03", categoryId: "sp_ronaldinho", tier: 600, prompt: "Pep Guardiola has said Ronaldinho's 2005-06 season at Barcelona was the best individual season he has ever witnessed. What specific Champions League goal — in the semifinal against Chelsea — encapsulated that form?", answer: "His solo dribble past three defenders to set up a goal, or his overall performance in the 2-1 win at Stamford Bridge", acceptableAnswers: ["the Chelsea semi-final goal", "solo dribble vs Chelsea", "Stamford Bridge run"] },
-      { id: "rdh_600_04", categoryId: "sp_ronaldinho", tier: 600, prompt: "Ronaldinho left Barcelona in 2008 after his form dropped dramatically. Which club signed him — and what was widely blamed for the decline?", answer: "AC Milan — his lifestyle (partying) was widely blamed for the form drop", acceptableAnswers: ["AC Milan", "Milan", "signed by Milan"] },
+      { id: "rnh_200_03", categoryId: "sp_ronaldinho", tier: 200, prompt: "Ronaldinho's real full name is Ronaldo de Assis Moreira. Where does the nickname 'Ronaldinho' — meaning 'little Ronaldo' — come from?", answer: "He was called 'little Ronaldo' to distinguish him from the other Ronaldo (R9) in the Brazilian national team", acceptableAnswers: ["to distinguish from R9", "little Ronaldo vs Ronaldo Nazário", "there was already a Ronaldo"] },
+      { id: "rnh_400_03", categoryId: "sp_ronaldinho", tier: 400, prompt: "Ronaldinho's most technically difficult skill move — popularized in the 2002 World Cup — involved flicking the ball over a defender's head and running round them. What is this trick called?", answer: "Elastico / flip-flap / the snake", acceptableAnswers: ["elastico", "flip flap", "snake", "the elastico"] },
+      { id: "rnh_400_04", categoryId: "sp_ronaldinho", tier: 400, prompt: "Ronaldinho was arrested in Paraguay in 2020 and spent time in prison. What was the charge?", answer: "Possession of a forged Paraguayan passport / fraudulent document use", acceptableAnswers: ["fake passport", "forged passport", "fraudulent documents", "passport fraud"] },
+      { id: "rnh_600_03", categoryId: "sp_ronaldinho", tier: 600, prompt: "Pep Guardiola has said Ronaldinho's 2005-06 season at Barcelona was the best individual season he has ever witnessed. What specific Champions League goal — in the semifinal against Chelsea — encapsulated that form?", answer: "His solo dribble past three defenders to set up a goal, or his overall performance in the 2-1 win at Stamford Bridge", acceptableAnswers: ["the Chelsea semi-final goal", "solo dribble vs Chelsea", "Stamford Bridge run"] },
+      { id: "rnh_600_04", categoryId: "sp_ronaldinho", tier: 600, prompt: "Ronaldinho left Barcelona in 2008 after his form dropped dramatically. Which club signed him — and what was widely blamed for the decline?", answer: "AC Milan — his lifestyle (partying) was widely blamed for the form drop", acceptableAnswers: ["AC Milan", "Milan", "signed by Milan"] },
     ],
   },
   // ── MUSIC WAVE 8 ─────────────────────────────────────────────────────────
@@ -32757,7 +32161,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Greek_uc_psi_icon.svg/500px-Greek_uc_psi_icon.svg.png",
     questions: [
       {
-        id: "psy_200_01",
+        id: "psc_200_01",
         categoryId: "cul_psychology",
         tier: 200,
         prompt:
@@ -32766,7 +32170,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["classical conditioning", "conditioned reflex"],
       },
       {
-        id: "psy_200_02",
+        id: "psc_200_02",
         categoryId: "cul_psychology",
         tier: 200,
         prompt:
@@ -32775,7 +32179,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["id", "ego", "superego"],
       },
       {
-        id: "psy_400_01",
+        id: "psc_400_01",
         categoryId: "cul_psychology",
         tier: 400,
         prompt:
@@ -32789,7 +32193,7 @@ const CATEGORIES: Category[] = [
         ],
       },
       {
-        id: "psy_400_02",
+        id: "psc_400_02",
         categoryId: "cul_psychology",
         tier: 400,
         prompt:
@@ -32798,7 +32202,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["self-actualization", "self actualization"],
       },
       {
-        id: "psy_600_01",
+        id: "psc_600_01",
         categoryId: "cul_psychology",
         tier: 600,
         prompt:
@@ -32807,7 +32211,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Philip Zimbardo", "Zimbardo"],
       },
       {
-        id: "psy_600_02",
+        id: "psc_600_02",
         categoryId: "cul_psychology",
         tier: 600,
         prompt:
@@ -35089,7 +34493,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Mothman_Statue.jpg/500px-Mothman_Statue.jpg",
     questions: [
       {
-        id: "cry_400_01",
+        id: "crd_400_01",
         categoryId: "cryptids_lore",
         tier: 400,
         prompt:
@@ -35098,7 +34502,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Chupacabra", "El Chupacabra"],
       },
       {
-        id: "cry_600_01",
+        id: "crd_600_01",
         categoryId: "cryptids_lore",
         tier: 600,
         prompt:
@@ -35107,7 +34511,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Mothman", "The Mothman"],
       },
       {
-        id: "cry_600_02",
+        id: "crd_600_02",
         categoryId: "cryptids_lore",
         tier: 600,
         prompt:
@@ -36811,7 +36215,7 @@ const CATEGORIES: Category[] = [
     description: "Backdoors, boosts, and banned tactics.",
     questions: [
       {
-        id: "esp_400_01",
+        id: "lpl_400_01",
         categoryId: "esp_legendary_plays",
         tier: 400,
         prompt:
@@ -36820,7 +36224,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Kassadin"],
       },
       {
-        id: "esp_600_01",
+        id: "lpl_600_01",
         categoryId: "esp_legendary_plays",
         tier: 600,
         prompt:
@@ -36829,7 +36233,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Overpass", "de_overpass"],
       },
       {
-        id: "esp_600_02",
+        id: "lpl_600_02",
         categoryId: "esp_legendary_plays",
         tier: 600,
         prompt:
@@ -37971,7 +37375,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/SuperTux_Frosted_Fields_speedrun.webm/500px--SuperTux_Frosted_Fields_speedrun.webm.jpg",
     questions: [
       {
-        id: "spd_400_01",
+        id: "spl_400_01",
         categoryId: "vg_speedrunning_lore",
         tier: 400,
         prompt: "In Super Mario 64 speedrunning, what is the name of the incredibly difficult backward long-jumping technique used to build infinite speed and phase through solid doors?",
@@ -37979,7 +37383,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["BLJ", "Backwards Long Jump", "Backward Long Jump"],
       },
       {
-        id: "spd_600_01",
+        id: "spl_600_01",
         categoryId: "vg_speedrunning_lore",
         tier: 600,
         prompt: "In the famous 'Summoning Salt' video detailing the history of the Super Mario Bros. 'Any%' world record, the absolute limit of human performance in the game relies on saving individual units of time called what?",
@@ -37988,7 +37392,7 @@ const CATEGORIES: Category[] = [
         explanation: "The game only checks to load the next level every 21 frames. If a runner finishes a level 1 frame late, they lose the entire 21-frame block of time.",
       },
       {
-        id: "spd_600_02",
+        id: "spl_600_02",
         categoryId: "vg_speedrunning_lore",
         tier: 600,
         prompt: "In The Legend of Zelda: Ocarina of Time, speedrunners discovered a glitch in 2012 that allows them to execute arbitrary code and warp directly to the end credits from the first dungeon. What is this glitch called?",
@@ -38929,39 +38333,6 @@ const CATEGORIES: Category[] = [
       },
     ],
   },
-  {
-    id: "vg_board_games",
-    group: "General Knowledge",
-    name: "Board Game Lore",
-    culture: "universal",
-    description: "Rules, origins, and tabletop history.",
-    questions: [
-      {
-        id: "bgm_400_01",
-        categoryId: "vg_board_games",
-        tier: 400,
-        prompt: "The modern game of Monopoly was actually derived from a 1904 game designed to demonstrate the negative aspects of private property ownership. What was the original game called?",
-        answer: "The Landlord's Game",
-        acceptableAnswers: ["The Landlord's Game", "Landlord's Game"],
-      },
-      {
-        id: "bgm_600_01",
-        categoryId: "vg_board_games",
-        tier: 600,
-        prompt: "In the classic board game 'Clue' (or 'Cluedo'), what is the name of the victim whose murder the players are trying to solve?",
-        answer: "Mr. Boddy (or Dr. Black in the UK)",
-        acceptableAnswers: ["Mr. Boddy", "Dr. Black", "Boddy", "Black"],
-      },
-      {
-        id: "bgm_600_02",
-        categoryId: "vg_board_games",
-        tier: 600,
-        prompt: "In competitive Scrabble, playing all seven of your tiles in a single turn earns a 50-point bonus. What is the specific term for this achievement?",
-        answer: "A Bingo",
-        acceptableAnswers: ["Bingo", "A Bingo"],
-      },
-    ],
-  },
 
   // ── MASSIVE EXPANSION WAVE 47: LITERARY SECRETS & WEIRD GEOGRAPHY ──────────
   {
@@ -39351,7 +38722,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Ray_Charles_%281967%29.png/500px-Ray_Charles_%281967%29.png",
     questions: [
       {
-        id: "sub_400_01",
+        id: "osg_400_01",
         categoryId: "msc_obscure_subgenres",
         tier: 400,
         prompt: "Which dreamy, effects-heavy subgenre of indie rock emerged in the UK in the late 1980s, famously named by the music press because the guitarists were constantly looking down at their effects pedals?",
@@ -39359,7 +38730,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Shoegaze", "Shoegazing"],
       },
       {
-        id: "sub_600_01",
+        id: "osg_600_01",
         categoryId: "msc_obscure_subgenres",
         tier: 600,
         prompt: "Originating on the internet in the early 2010s, what microgenre of electronic music heavily samples 80s/90s smooth jazz, lounge music, and corporate elevator music, often slowing it down and adding massive reverb?",
@@ -39367,7 +38738,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Vaporwave"],
       },
       {
-        id: "sub_600_02",
+        id: "osg_600_02",
         categoryId: "msc_obscure_subgenres",
         tier: 600,
         prompt: "What highly intense, aggressive subgenre of electronic dance music originated in the Netherlands in the 1990s, characterized by tempos of 160-200 BPM and an aggressively distorted, pounding kick drum?",
@@ -39421,7 +38792,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Retrovolt_Arcade_2017_-_Arcade_Machines_1.jpg/500px-Retrovolt_Arcade_2017_-_Arcade_Machines_1.jpg",
     questions: [
       {
-        id: "arc_400_02",
+        id: "arh_400_02",
         categoryId: "vg_arcade_history",
         tier: 400,
         prompt: "Which classic 1982 arcade game famously featured a cabinet with a trackball controller and required players to defend cities from incoming nuclear missiles?",
@@ -40535,7 +39906,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Emo_boy_02_with_Girl.jpg/500px-Emo_boy_02_with_Girl.jpg",
     questions: [
       {
-        id: "sub_400_02",
+        id: "nsc_400_02",
         categoryId: "msc_niche_subcultures",
         tier: 400,
         prompt: "The 'Riot Grrrl' movement was an underground feminist punk movement that began in the early 1990s. In which US state did it primarily originate?",
@@ -40543,7 +39914,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Washington", "Washington state", "WA"],
       },
       {
-        id: "sub_600_03",
+        id: "nsc_600_03",
         categoryId: "msc_niche_subcultures",
         tier: 600,
         prompt: "In the late 1970s and early 1980s, the '2 Tone' movement revived which specific genre of Jamaican music, fusing it with punk rock energy?",
@@ -40551,7 +39922,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Ska", "Ska music"],
       },
       {
-        id: "sub_600_04",
+        id: "nsc_600_04",
         categoryId: "msc_niche_subcultures",
         tier: 600,
         prompt: "What is the name of the extreme heavy metal subgenre that originated in Norway in the early 1990s, characterized by shrieking vocals, raw recording quality, and notorious real-world crimes (church burnings)?",
@@ -42973,7 +42344,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/WMAP_2012.png/500px-WMAP_2012.png",
     questions: [
       {
-        id: "sco_200_01",
+        id: "cml_200_01",
         categoryId: "sci_cosmology",
         tier: 200,
         prompt: "The Big Bang theory describes the origin of the universe approximately 13.8 billion years ago. What is the name of the cosmic microwave radiation — leftover 'afterglow' from the Big Bang — that permeates the entire universe?",
@@ -42981,7 +42352,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Cosmic Microwave Background", "CMB", "Cosmic background radiation"],
       },
       {
-        id: "sco_400_01",
+        id: "cml_400_01",
         categoryId: "sci_cosmology",
         tier: 400,
         prompt: "Dark matter makes up approximately 27% of the universe's total mass-energy. What key observable evidence — based on galaxy rotation speeds — first suggested that unseen mass must exist?",
@@ -42989,7 +42360,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Flat rotation curves", "Galaxy rotation problem", "Stars rotating too fast", "Uniform rotation speeds"],
       },
       {
-        id: "sco_400_02",
+        id: "cml_400_02",
         categoryId: "sci_cosmology",
         tier: 400,
         prompt: "The 'Fermi Paradox' asks why — given the vast number of stars and potentially habitable planets — we have found no evidence of extraterrestrial civilizations. Who first famously posed this question during a 1950 lunchtime conversation?",
@@ -42997,7 +42368,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Enrico Fermi", "Fermi"],
       },
       {
-        id: "sco_600_01",
+        id: "cml_600_01",
         categoryId: "sci_cosmology",
         tier: 600,
         prompt: "The observable universe is estimated to be 93 billion light-years in diameter, despite the universe being only 13.8 billion years old. How is this possible?",
@@ -43005,7 +42376,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Cosmic expansion", "Space expansion", "The universe expanded faster than light", "Metric expansion of space"],
       },
       {
-        id: "sco_600_02",
+        id: "cml_600_02",
         categoryId: "sci_cosmology",
         tier: 600,
         prompt: "The 'Great Attractor' is a gravitational anomaly that is pulling the Milky Way and thousands of other galaxies toward it at hundreds of kilometers per second. In which direction is it located?",
@@ -43024,7 +42395,7 @@ const CATEGORIES: Category[] = [
     description: "Beyond sushi and samurai — the traditions, psychology, and subcultures of modern and historical Japan.",
     questions: [
       {
-        id: "jcd_200_01",
+        id: "jpu_200_01",
         categoryId: "japan_culture_deep",
         tier: 200,
         prompt: "In Japanese culture, what is the concept of 'Ikigai' — a word combining 'iki' (life) and 'gai' (worth) — understood to mean?",
@@ -43032,7 +42403,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Reason for being", "Reason to live", "Purpose in life", "What makes life worth living"],
       },
       {
-        id: "jcd_400_01",
+        id: "jpu_400_01",
         categoryId: "japan_culture_deep",
         tier: 400,
         prompt: "The Japanese concept of 'Wabi-sabi' is a philosophy of aesthetics centered on accepting what — often translated as finding beauty in imperfection, impermanence, and incompleteness?",
@@ -43040,7 +42411,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Imperfection", "Impermanence", "Transience", "Incompleteness", "Decay"],
       },
       {
-        id: "jcd_400_02",
+        id: "jpu_400_02",
         categoryId: "japan_culture_deep",
         tier: 400,
         prompt: "The 'Hikikomori' phenomenon — where individuals withdraw entirely from social life and confine themselves to their homes for months or years — was first formally studied and named in which decade?",
@@ -43048,7 +42419,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["1990s", "The 1990s", "Nineties"],
       },
       {
-        id: "jcd_600_01",
+        id: "jpu_600_01",
         categoryId: "japan_culture_deep",
         tier: 600,
         prompt: "Japan's feudal period saw the rise of the Zaibatsu — massive family-controlled industrial conglomerates. After WWII, the US occupation dissolved them and required restructuring. What term describes the successor corporate networks that emerged — decentralized but held together by cross-shareholding?",
@@ -43056,7 +42427,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Keiretsu"],
       },
       {
-        id: "jcd_600_02",
+        id: "jpu_600_02",
         categoryId: "japan_culture_deep",
         tier: 600,
         prompt: "The 47 Ronin incident (1703) is one of Japan's most celebrated examples of loyalty. The masterless samurai avenged the death of their lord and were subsequently ordered to commit what?",
@@ -46191,15 +45562,15 @@ const CATEGORIES: Category[] = [
     description: "Foundational psychology — Freud, Pavlov, Milgram, cognitive biases, and how the human mind works.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/51_Professor_Zimbardo_in_Wroc%C5%82aw_2019_%28cropped%29.jpg/500px-51_Professor_Zimbardo_in_Wroc%C5%82aw_2019_%28cropped%29.jpg",
     questions: [
-      { id: "psyfun_200_01", categoryId: "psychology_fundamentals", tier: 200, prompt: "Which psychologist is associated with classical conditioning — teaching a dog to salivate at the sound of a bell?", answer: "Ivan Pavlov", acceptableAnswers: ["Pavlov"] },
-      { id: "psyfun_200_02", categoryId: "psychology_fundamentals", tier: 200, prompt: "Sigmund Freud divided the human psyche into three parts: the id, the ego, and the ___.", answer: "Superego", acceptableAnswers: ["super-ego"] },
-      { id: "psy_200_03", categoryId: "psychology_fundamentals", tier: 200, prompt: "The Milgram experiment shocked the world by showing that most participants would administer dangerous electric shocks because they were ordered to by whom?", answer: "An authority figure / experimenter", acceptableAnswers: ["authority figure", "the experimenter", "the researcher"] },
-      { id: "psyfun_400_01", categoryId: "psychology_fundamentals", tier: 400, prompt: "The 'bystander effect' was studied following which 1964 murder in New York where 38 witnesses reportedly failed to call police?", answer: "Kitty Genovese murder", acceptableAnswers: ["Kitty Genovese", "the Genovese case"] },
-      { id: "psyfun_400_02", categoryId: "psychology_fundamentals", tier: 400, prompt: "Abraham Maslow's famous 'Hierarchy of Needs' places which human need at the very top of the pyramid?", answer: "Self-actualization", acceptableAnswers: ["self actualization"] },
-      { id: "psy_400_03", categoryId: "psychology_fundamentals", tier: 400, prompt: "The cognitive bias where we believe events were more predictable after they've occurred than they actually were is called what?", answer: "Hindsight bias", acceptableAnswers: ["hindsight bias", "knew-it-all-along effect"] },
-      { id: "psyfun_600_01", categoryId: "psychology_fundamentals", tier: 600, prompt: "The Stanford Prison Experiment (1971) was stopped early because participants became too immersed in their roles. Who conducted this controversial experiment?", answer: "Philip Zimbardo", acceptableAnswers: ["Zimbardo"] },
-      { id: "psyfun_600_02", categoryId: "psychology_fundamentals", tier: 600, prompt: "What is the term for the psychological phenomenon where a traumatic bond forms between a hostage and their captor — named after a 1973 bank robbery?", answer: "Stockholm Syndrome", acceptableAnswers: ["Stockholm syndrome"] },
-      { id: "psy_600_03", categoryId: "psychology_fundamentals", tier: 600, prompt: "Carl Jung introduced the concept of the 'collective unconscious.' What did he call the unconscious part of the psyche that contains traits a person denies in themselves?", answer: "The Shadow", acceptableAnswers: ["shadow", "the Shadow archetype"] },
+      { id: "pfun_200_01", categoryId: "psychology_fundamentals", tier: 200, prompt: "Which psychologist is associated with classical conditioning — teaching a dog to salivate at the sound of a bell?", answer: "Ivan Pavlov", acceptableAnswers: ["Pavlov"] },
+      { id: "pfun_200_02", categoryId: "psychology_fundamentals", tier: 200, prompt: "Sigmund Freud divided the human psyche into three parts: the id, the ego, and the ___.", answer: "Superego", acceptableAnswers: ["super-ego"] },
+      { id: "pfun_200_03", categoryId: "psychology_fundamentals", tier: 200, prompt: "The Milgram experiment shocked the world by showing that most participants would administer dangerous electric shocks because they were ordered to by whom?", answer: "An authority figure / experimenter", acceptableAnswers: ["authority figure", "the experimenter", "the researcher"] },
+      { id: "pfun_400_01", categoryId: "psychology_fundamentals", tier: 400, prompt: "The 'bystander effect' was studied following which 1964 murder in New York where 38 witnesses reportedly failed to call police?", answer: "Kitty Genovese murder", acceptableAnswers: ["Kitty Genovese", "the Genovese case"] },
+      { id: "pfun_400_02", categoryId: "psychology_fundamentals", tier: 400, prompt: "Abraham Maslow's famous 'Hierarchy of Needs' places which human need at the very top of the pyramid?", answer: "Self-actualization", acceptableAnswers: ["self actualization"] },
+      { id: "pfun_400_03", categoryId: "psychology_fundamentals", tier: 400, prompt: "The cognitive bias where we believe events were more predictable after they've occurred than they actually were is called what?", answer: "Hindsight bias", acceptableAnswers: ["hindsight bias", "knew-it-all-along effect"] },
+      { id: "pfun_600_01", categoryId: "psychology_fundamentals", tier: 600, prompt: "The Stanford Prison Experiment (1971) was stopped early because participants became too immersed in their roles. Who conducted this controversial experiment?", answer: "Philip Zimbardo", acceptableAnswers: ["Zimbardo"] },
+      { id: "pfun_600_02", categoryId: "psychology_fundamentals", tier: 600, prompt: "What is the term for the psychological phenomenon where a traumatic bond forms between a hostage and their captor — named after a 1973 bank robbery?", answer: "Stockholm Syndrome", acceptableAnswers: ["Stockholm syndrome"] },
+      { id: "pfun_600_03", categoryId: "psychology_fundamentals", tier: 600, prompt: "Carl Jung introduced the concept of the 'collective unconscious.' What did he call the unconscious part of the psyche that contains traits a person denies in themselves?", answer: "The Shadow", acceptableAnswers: ["shadow", "the Shadow archetype"] },
     ],
   },
   {
@@ -46415,15 +45786,15 @@ const CATEGORIES: Category[] = [
     description: "From Sputnik to the Moon landing and beyond — the engineering and politics behind humanity's greatest missions.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/RIAN_archive_510848_Interplanetary_station_Luna_1_-_blacked.jpg/500px-RIAN_archive_510848_Interplanetary_station_Luna_1_-_blacked.jpg",
     questions: [
-      { id: "srd_200_01", categoryId: "space_race_deep", tier: 200, prompt: "Who was the first human to walk on the Moon, during the Apollo 11 mission in July 1969?", answer: "Neil Armstrong", acceptableAnswers: ["Armstrong"] },
-      { id: "srd_200_02", categoryId: "space_race_deep", tier: 200, prompt: "The Soviet Union's Yuri Gagarin became the first human in space in April 1961. What was the name of his spacecraft?", answer: "Vostok 1", acceptableAnswers: ["Vostok"] },
-      { id: "srd_200_03", categoryId: "space_race_deep", tier: 200, prompt: "The Hubble Space Telescope was launched in 1990. Which space agency launched it?", answer: "NASA", acceptableAnswers: [] },
-      { id: "srd_400_01", categoryId: "space_race_deep", tier: 400, prompt: "Apollo 13 famously had a crisis mid-mission in 1970. The explosion of an oxygen tank forced the crew to use the lunar module as a lifeboat. What was the iconic phrase Jim Lovell used to report the problem?", answer: "Houston, we've had a problem", acceptableAnswers: ["Houston we have a problem", "Houston we've had a problem"] },
-      { id: "srd_400_02", categoryId: "space_race_deep", tier: 400, prompt: "The Voyager 1 spacecraft, launched in 1977, has traveled farther from Earth than any human-made object. In which year did it enter interstellar space?", answer: "2012", acceptableAnswers: [] },
-      { id: "srd_400_03", categoryId: "space_race_deep", tier: 400, prompt: "The Mars rover 'Curiosity,' launched in 2011, uses nuclear power from which energy source?", answer: "Radioisotope thermoelectric generator (RTG) / plutonium-238", acceptableAnswers: ["RTG", "nuclear battery", "plutonium"] },
-      { id: "srd_600_01", categoryId: "space_race_deep", tier: 600, prompt: "The Cassini spacecraft spent 13 years studying Saturn before its mission ended in 2017. How did the mission end?", answer: "It was deliberately crashed into Saturn's atmosphere (Grand Finale)", acceptableAnswers: ["crashed into Saturn", "plunged into Saturn", "Grand Finale"] },
-      { id: "srd_600_02", categoryId: "space_race_deep", tier: 600, prompt: "The James Webb Space Telescope (JWST) launched in 2021 observes in which wavelength of light, allowing it to see through dust clouds and view the earliest galaxies?", answer: "Infrared", acceptableAnswers: ["infrared light"] },
-      { id: "srd_600_03", categoryId: "space_race_deep", tier: 600, prompt: "Which Soviet cosmonaut became the first woman in space in 1963 — a record she held for nearly 20 years?", answer: "Valentina Tereshkova", acceptableAnswers: ["Tereshkova"] },
+      { id: "sra_200_01", categoryId: "space_race_deep", tier: 200, prompt: "Who was the first human to walk on the Moon, during the Apollo 11 mission in July 1969?", answer: "Neil Armstrong", acceptableAnswers: ["Armstrong"] },
+      { id: "sra_200_02", categoryId: "space_race_deep", tier: 200, prompt: "The Soviet Union's Yuri Gagarin became the first human in space in April 1961. What was the name of his spacecraft?", answer: "Vostok 1", acceptableAnswers: ["Vostok"] },
+      { id: "sra_200_03", categoryId: "space_race_deep", tier: 200, prompt: "The Hubble Space Telescope was launched in 1990. Which space agency launched it?", answer: "NASA", acceptableAnswers: [] },
+      { id: "sra_400_01", categoryId: "space_race_deep", tier: 400, prompt: "Apollo 13 famously had a crisis mid-mission in 1970. The explosion of an oxygen tank forced the crew to use the lunar module as a lifeboat. What was the iconic phrase Jim Lovell used to report the problem?", answer: "Houston, we've had a problem", acceptableAnswers: ["Houston we have a problem", "Houston we've had a problem"] },
+      { id: "sra_400_02", categoryId: "space_race_deep", tier: 400, prompt: "The Voyager 1 spacecraft, launched in 1977, has traveled farther from Earth than any human-made object. In which year did it enter interstellar space?", answer: "2012", acceptableAnswers: [] },
+      { id: "sra_400_03", categoryId: "space_race_deep", tier: 400, prompt: "The Mars rover 'Curiosity,' launched in 2011, uses nuclear power from which energy source?", answer: "Radioisotope thermoelectric generator (RTG) / plutonium-238", acceptableAnswers: ["RTG", "nuclear battery", "plutonium"] },
+      { id: "sra_600_01", categoryId: "space_race_deep", tier: 600, prompt: "The Cassini spacecraft spent 13 years studying Saturn before its mission ended in 2017. How did the mission end?", answer: "It was deliberately crashed into Saturn's atmosphere (Grand Finale)", acceptableAnswers: ["crashed into Saturn", "plunged into Saturn", "Grand Finale"] },
+      { id: "sra_600_02", categoryId: "space_race_deep", tier: 600, prompt: "The James Webb Space Telescope (JWST) launched in 2021 observes in which wavelength of light, allowing it to see through dust clouds and view the earliest galaxies?", answer: "Infrared", acceptableAnswers: ["infrared light"] },
+      { id: "sra_600_03", categoryId: "space_race_deep", tier: 600, prompt: "Which Soviet cosmonaut became the first woman in space in 1963 — a record she held for nearly 20 years?", answer: "Valentina Tereshkova", acceptableAnswers: ["Tereshkova"] },
     ],
   },
   // ── Wave 5 ──────────────────────────────────────────────────────────
@@ -46754,15 +46125,15 @@ const CATEGORIES: Category[] = [
     description: "Netflix, HBO, Hulu, Apple TV+ — the shows and decisions that define the streaming era.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Deep_Cut_Gardens_rose_garden.jpg/500px-Deep_Cut_Gardens_rose_garden.jpg",
     questions: [
-      { id: "stw_200_01", categoryId: "streaming_wars", tier: 200, prompt: "Which Netflix show — released in 2013 — is credited as the first major streaming original, proving Netflix could produce prestige TV?", answer: "House of Cards", acceptableAnswers: [] },
-      { id: "stw_200_02", categoryId: "streaming_wars", tier: 200, prompt: "HBO's 'Succession' — about a media dynasty — is clearly inspired by which real-world media family?", answer: "The Murdoch family", acceptableAnswers: ["Murdochs", "Rupert Murdoch's family"] },
-      { id: "stw_200_03", categoryId: "streaming_wars", tier: 200, prompt: "Which Apple TV+ series — starring Ted Lasso as a folksy American coach of a British football team — became a massive streaming hit?", answer: "Ted Lasso", acceptableAnswers: [] },
-      { id: "stw_400_01", categoryId: "streaming_wars", tier: 400, prompt: "Netflix's password-sharing crackdown in 2023 surprisingly boosted subscriptions. How many subscribers did Netflix have at its post-crackdown peak?", answer: "Over 260 million (approximately 260–270 million)", acceptableAnswers: ["260 million", "over 260 million"] },
-      { id: "stw_400_02", categoryId: "streaming_wars", tier: 400, prompt: "Which HBO series — set in a post-apocalyptic world with fungal zombies — broke viewership records in 2023 and starred Pedro Pascal?", answer: "The Last of Us", acceptableAnswers: [] },
-      { id: "stw_400_03", categoryId: "streaming_wars", tier: 400, prompt: "'Severance' (Apple TV+) depicts employees whose work and personal memories are surgically separated. What is the company in the show called?", answer: "Lumon Industries", acceptableAnswers: ["Lumon"] },
-      { id: "stw_600_01", categoryId: "streaming_wars", tier: 600, prompt: "Netflix's '13 Reasons Why' sparked controversy for depicting teen suicide. Which author wrote the original 2007 novel?", answer: "Jay Asher", acceptableAnswers: ["Asher"] },
-      { id: "stw_600_02", categoryId: "streaming_wars", tier: 600, prompt: "HBO's 'The Wire' is considered one of the greatest TV shows ever made. It was created by which former crime reporter and police reporter?", answer: "David Simon", acceptableAnswers: ["Simon"] },
-      { id: "stw_600_03", categoryId: "streaming_wars", tier: 600, prompt: "Which streaming platform acquired the rights to 'South Park' for a reported $900 million — one of the largest TV rights deals ever?", answer: "HBO Max (Max)", acceptableAnswers: ["HBO Max", "Max", "Warner Bros Discovery"] },
+      { id: "sgw_200_01", categoryId: "streaming_wars", tier: 200, prompt: "Which Netflix show — released in 2013 — is credited as the first major streaming original, proving Netflix could produce prestige TV?", answer: "House of Cards", acceptableAnswers: [] },
+      { id: "sgw_200_02", categoryId: "streaming_wars", tier: 200, prompt: "HBO's 'Succession' — about a media dynasty — is clearly inspired by which real-world media family?", answer: "The Murdoch family", acceptableAnswers: ["Murdochs", "Rupert Murdoch's family"] },
+      { id: "sgw_200_03", categoryId: "streaming_wars", tier: 200, prompt: "Which Apple TV+ series — starring Ted Lasso as a folksy American coach of a British football team — became a massive streaming hit?", answer: "Ted Lasso", acceptableAnswers: [] },
+      { id: "sgw_400_01", categoryId: "streaming_wars", tier: 400, prompt: "Netflix's password-sharing crackdown in 2023 surprisingly boosted subscriptions. How many subscribers did Netflix have at its post-crackdown peak?", answer: "Over 260 million (approximately 260–270 million)", acceptableAnswers: ["260 million", "over 260 million"] },
+      { id: "sgw_400_02", categoryId: "streaming_wars", tier: 400, prompt: "Which HBO series — set in a post-apocalyptic world with fungal zombies — broke viewership records in 2023 and starred Pedro Pascal?", answer: "The Last of Us", acceptableAnswers: [] },
+      { id: "sgw_400_03", categoryId: "streaming_wars", tier: 400, prompt: "'Severance' (Apple TV+) depicts employees whose work and personal memories are surgically separated. What is the company in the show called?", answer: "Lumon Industries", acceptableAnswers: ["Lumon"] },
+      { id: "sgw_600_01", categoryId: "streaming_wars", tier: 600, prompt: "Netflix's '13 Reasons Why' sparked controversy for depicting teen suicide. Which author wrote the original 2007 novel?", answer: "Jay Asher", acceptableAnswers: ["Asher"] },
+      { id: "sgw_600_02", categoryId: "streaming_wars", tier: 600, prompt: "HBO's 'The Wire' is considered one of the greatest TV shows ever made. It was created by which former crime reporter and police reporter?", answer: "David Simon", acceptableAnswers: ["Simon"] },
+      { id: "sgw_600_03", categoryId: "streaming_wars", tier: 600, prompt: "Which streaming platform acquired the rights to 'South Park' for a reported $900 million — one of the largest TV rights deals ever?", answer: "HBO Max (Max)", acceptableAnswers: ["HBO Max", "Max", "Warner Bros Discovery"] },
     ],
   },
   {
@@ -47332,15 +46703,15 @@ const CATEGORIES: Category[] = [
     culture: "universal",
     description: "The science behind climate change — CO2, feedback loops, tipping points, and the data behind the debate.",
     questions: [
-      { id: "cls_200_01", categoryId: "climate_science", tier: 200, prompt: "The 'greenhouse effect' warms the Earth when certain gases trap heat. Which gas — released by burning fossil fuels — is the most significant driver of human-caused climate change?", answer: "Carbon dioxide (CO2)", acceptableAnswers: ["CO2", "carbon dioxide"] },
-      { id: "cls_200_02", categoryId: "climate_science", tier: 200, prompt: "The Paris Agreement (2015) aims to limit global warming to how many degrees Celsius above pre-industrial levels?", answer: "1.5°C (with a target to keep below 2°C)", acceptableAnswers: ["1.5 degrees", "2 degrees", "1.5 to 2 degrees"] },
-      { id: "cls_200_03", categoryId: "climate_science", tier: 200, prompt: "Which country emits the most CO2 in absolute terms as of 2024?", answer: "China", acceptableAnswers: [] },
-      { id: "cls_400_01", categoryId: "climate_science", tier: 400, prompt: "The 'albedo effect' plays a role in climate feedback loops. What is albedo, and why does melting Arctic ice create a positive feedback loop?", answer: "Albedo is reflectivity — ice reflects sunlight back into space, but when it melts, darker ocean water absorbs more heat, causing more melting", acceptableAnswers: ["ice reflects heat, water absorbs it — melting causes more warming"] },
-      { id: "cls_400_02", categoryId: "climate_science", tier: 400, prompt: "What is a 'tipping point' in climate science — and which system is considered closest to a catastrophic tipping point?", answer: "A threshold where a small change triggers an irreversible shift; the Amazon rainforest and Arctic permafrost are considered closest to tipping", acceptableAnswers: ["irreversible threshold", "Amazon dieback", "permafrost melt"] },
-      { id: "cls_400_03", categoryId: "climate_science", tier: 400, prompt: "The IPCC — the body that produces consensus climate reports — stands for what?", answer: "Intergovernmental Panel on Climate Change", acceptableAnswers: ["Intergovernmental Panel on Climate Change"] },
-      { id: "cls_600_01", categoryId: "climate_science", tier: 600, prompt: "Ocean acidification — caused by CO2 dissolving into seawater — specifically threatens which marine ecosystem that supports 25% of all marine species?", answer: "Coral reefs", acceptableAnswers: ["coral reefs"] },
-      { id: "cls_600_02", categoryId: "climate_science", tier: 600, prompt: "The Keeling Curve — the longest continuous record of atmospheric CO2 — has been measured at which observatory since 1958?", answer: "Mauna Loa Observatory, Hawaii", acceptableAnswers: ["Mauna Loa", "Mauna Loa Observatory"] },
-      { id: "cls_600_03", categoryId: "climate_science", tier: 600, prompt: "Methane (CH4) is a far more potent greenhouse gas than CO2 over a 20-year period. What is the main human source of methane emissions?", answer: "Livestock (cattle) and natural gas/oil leaks", acceptableAnswers: ["cattle/livestock", "agriculture", "natural gas leaks"] },
+      { id: "clm_200_01", categoryId: "climate_science", tier: 200, prompt: "The 'greenhouse effect' warms the Earth when certain gases trap heat. Which gas — released by burning fossil fuels — is the most significant driver of human-caused climate change?", answer: "Carbon dioxide (CO2)", acceptableAnswers: ["CO2", "carbon dioxide"] },
+      { id: "clm_200_02", categoryId: "climate_science", tier: 200, prompt: "The Paris Agreement (2015) aims to limit global warming to how many degrees Celsius above pre-industrial levels?", answer: "1.5°C (with a target to keep below 2°C)", acceptableAnswers: ["1.5 degrees", "2 degrees", "1.5 to 2 degrees"] },
+      { id: "clm_200_03", categoryId: "climate_science", tier: 200, prompt: "Which country emits the most CO2 in absolute terms as of 2024?", answer: "China", acceptableAnswers: [] },
+      { id: "clm_400_01", categoryId: "climate_science", tier: 400, prompt: "The 'albedo effect' plays a role in climate feedback loops. What is albedo, and why does melting Arctic ice create a positive feedback loop?", answer: "Albedo is reflectivity — ice reflects sunlight back into space, but when it melts, darker ocean water absorbs more heat, causing more melting", acceptableAnswers: ["ice reflects heat, water absorbs it — melting causes more warming"] },
+      { id: "clm_400_02", categoryId: "climate_science", tier: 400, prompt: "What is a 'tipping point' in climate science — and which system is considered closest to a catastrophic tipping point?", answer: "A threshold where a small change triggers an irreversible shift; the Amazon rainforest and Arctic permafrost are considered closest to tipping", acceptableAnswers: ["irreversible threshold", "Amazon dieback", "permafrost melt"] },
+      { id: "clm_400_03", categoryId: "climate_science", tier: 400, prompt: "The IPCC — the body that produces consensus climate reports — stands for what?", answer: "Intergovernmental Panel on Climate Change", acceptableAnswers: ["Intergovernmental Panel on Climate Change"] },
+      { id: "clm_600_01", categoryId: "climate_science", tier: 600, prompt: "Ocean acidification — caused by CO2 dissolving into seawater — specifically threatens which marine ecosystem that supports 25% of all marine species?", answer: "Coral reefs", acceptableAnswers: ["coral reefs"] },
+      { id: "clm_600_02", categoryId: "climate_science", tier: 600, prompt: "The Keeling Curve — the longest continuous record of atmospheric CO2 — has been measured at which observatory since 1958?", answer: "Mauna Loa Observatory, Hawaii", acceptableAnswers: ["Mauna Loa", "Mauna Loa Observatory"] },
+      { id: "clm_600_03", categoryId: "climate_science", tier: 600, prompt: "Methane (CH4) is a far more potent greenhouse gas than CO2 over a 20-year period. What is the main human source of methane emissions?", answer: "Livestock (cattle) and natural gas/oil leaks", acceptableAnswers: ["cattle/livestock", "agriculture", "natural gas leaks"] },
     ],
   },
   {
@@ -47520,15 +46891,15 @@ const CATEGORIES: Category[] = [
     description: "The digs, discoveries, and debates that changed our understanding of history.",
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Dolina-Pano-3_%28cropped%29.jpg/500px-Dolina-Pano-3_%28cropped%29.jpg",
     questions: [
-      { id: "agd_200_01", categoryId: "dead_sea_scrolls", tier: 200, prompt: "The Dead Sea Scrolls — the oldest known manuscripts of the Hebrew Bible — were discovered in which year and by whom?", answer: "1947 by Bedouin shepherds in Qumran caves", acceptableAnswers: ["1947", "Bedouin shepherds", "1947 by shepherds"] },
-      { id: "agd_200_02", categoryId: "dead_sea_scrolls", tier: 200, prompt: "Heinrich Schliemann excavated the ancient city of Troy in the 1870s — but he found multiple layers. The site is located in which modern country?", answer: "Turkey", acceptableAnswers: ["Türkiye"] },
-      { id: "agd_200_03", categoryId: "dead_sea_scrolls", tier: 200, prompt: "The Terracotta Army — thousands of life-sized clay soldiers — was discovered in 1974 near which Chinese city?", answer: "Xi'an", acceptableAnswers: ["Xian", "near Xi'an"] },
-      { id: "agd_400_01", categoryId: "dead_sea_scrolls", tier: 400, prompt: "The Antikythera Mechanism — discovered in a shipwreck off Greece in 1901 — is considered the world's oldest what?", answer: "Analog computer / mechanical astronomical calculator", acceptableAnswers: ["analog computer", "mechanical calculator", "astronomical device"] },
-      { id: "agd_400_02", categoryId: "dead_sea_scrolls", tier: 400, prompt: "Göbekli Tepe — a temple site in Turkey dating to 9600 BC — overturned the assumption that agriculture preceded monumental architecture. What did its discovery suggest?", answer: "Organized religion and monumental building came before agriculture — not after it as previously believed", acceptableAnswers: ["religion before farming", "temples built before agriculture"] },
-      { id: "agd_400_03", categoryId: "dead_sea_scrolls", tier: 400, prompt: "The Pompeii excavations preserve a Roman city frozen in time by the 79 AD eruption of which volcano?", answer: "Mount Vesuvius", acceptableAnswers: ["Vesuvius"] },
-      { id: "agd_600_01", categoryId: "dead_sea_scrolls", tier: 600, prompt: "The Voynich Manuscript — a 15th-century illustrated codex written in an undeciphered script — has never been decoded. Which theory about its origin is most currently accepted by scholars?", answer: "It is likely a constructed language or cipher created by a Northern Italian or Central European author — possibly a hoax or medical/astrological text", acceptableAnswers: ["unknown language or cipher", "possibly a constructed language", "unknown — likely European medieval"] },
-      { id: "agd_600_02", categoryId: "dead_sea_scrolls", tier: 600, prompt: "The Sutton Hoo ship burial in England — discovered in 1939 — contained a treasure-filled ship burial of an Anglo-Saxon king. Which epic poem does the burial's treasure closely match in description?", answer: "Beowulf", acceptableAnswers: [] },
-      { id: "agd_600_03", categoryId: "dead_sea_scrolls", tier: 600, prompt: "The Nazca Lines in Peru — giant geoglyphs visible only from the air — were created by the Nazca people around 500 BC–500 AD. What is the most widely accepted academic explanation for their purpose?", answer: "Ritual or ceremonial purposes — possibly related to astronomy or offerings to water gods (channels align with water sources)", acceptableAnswers: ["ritual/ceremonial use", "religious or astronomical purposes"] },
+      { id: "dss_200_01", categoryId: "dead_sea_scrolls", tier: 200, prompt: "The Dead Sea Scrolls — the oldest known manuscripts of the Hebrew Bible — were discovered in which year and by whom?", answer: "1947 by Bedouin shepherds in Qumran caves", acceptableAnswers: ["1947", "Bedouin shepherds", "1947 by shepherds"] },
+      { id: "dss_200_02", categoryId: "dead_sea_scrolls", tier: 200, prompt: "Heinrich Schliemann excavated the ancient city of Troy in the 1870s — but he found multiple layers. The site is located in which modern country?", answer: "Turkey", acceptableAnswers: ["Türkiye"] },
+      { id: "dss_200_03", categoryId: "dead_sea_scrolls", tier: 200, prompt: "The Terracotta Army — thousands of life-sized clay soldiers — was discovered in 1974 near which Chinese city?", answer: "Xi'an", acceptableAnswers: ["Xian", "near Xi'an"] },
+      { id: "dss_400_01", categoryId: "dead_sea_scrolls", tier: 400, prompt: "The Antikythera Mechanism — discovered in a shipwreck off Greece in 1901 — is considered the world's oldest what?", answer: "Analog computer / mechanical astronomical calculator", acceptableAnswers: ["analog computer", "mechanical calculator", "astronomical device"] },
+      { id: "dss_400_02", categoryId: "dead_sea_scrolls", tier: 400, prompt: "Göbekli Tepe — a temple site in Turkey dating to 9600 BC — overturned the assumption that agriculture preceded monumental architecture. What did its discovery suggest?", answer: "Organized religion and monumental building came before agriculture — not after it as previously believed", acceptableAnswers: ["religion before farming", "temples built before agriculture"] },
+      { id: "dss_400_03", categoryId: "dead_sea_scrolls", tier: 400, prompt: "The Pompeii excavations preserve a Roman city frozen in time by the 79 AD eruption of which volcano?", answer: "Mount Vesuvius", acceptableAnswers: ["Vesuvius"] },
+      { id: "dss_600_01", categoryId: "dead_sea_scrolls", tier: 600, prompt: "The Voynich Manuscript — a 15th-century illustrated codex written in an undeciphered script — has never been decoded. Which theory about its origin is most currently accepted by scholars?", answer: "It is likely a constructed language or cipher created by a Northern Italian or Central European author — possibly a hoax or medical/astrological text", acceptableAnswers: ["unknown language or cipher", "possibly a constructed language", "unknown — likely European medieval"] },
+      { id: "dss_600_02", categoryId: "dead_sea_scrolls", tier: 600, prompt: "The Sutton Hoo ship burial in England — discovered in 1939 — contained a treasure-filled ship burial of an Anglo-Saxon king. Which epic poem does the burial's treasure closely match in description?", answer: "Beowulf", acceptableAnswers: [] },
+      { id: "dss_600_03", categoryId: "dead_sea_scrolls", tier: 600, prompt: "The Nazca Lines in Peru — giant geoglyphs visible only from the air — were created by the Nazca people around 500 BC–500 AD. What is the most widely accepted academic explanation for their purpose?", answer: "Ritual or ceremonial purposes — possibly related to astronomy or offerings to water gods (channels align with water sources)", acceptableAnswers: ["ritual/ceremonial use", "religious or astronomical purposes"] },
     ],
   },
   {
@@ -47605,25 +46976,6 @@ const CATEGORIES: Category[] = [
       { id: "cad_600_01", categoryId: "cars_auto_deep", tier: 600, prompt: "The Tesla Model S Plaid holds the production car quarter-mile record. It uses which drivetrain configuration — and how many electric motors does it have?", answer: "Tri-motor all-wheel drive — 3 electric motors", acceptableAnswers: ["tri-motor", "3 motors", "three electric motors"] },
       { id: "cad_600_02", categoryId: "cars_auto_deep", tier: 600, prompt: "What is a 'torque vectoring' system in modern performance cars — and why does it improve handling?", answer: "It precisely distributes torque between individual wheels, allowing greater cornering speed and stability by sending power to the wheels with the most grip", acceptableAnswers: ["distributes torque to individual wheels for better cornering", "sends power to wheels with most traction"] },
       { id: "cad_600_03", categoryId: "cars_auto_deep", tier: 600, prompt: "The 'Monocoque' chassis — used in modern supercars and F1 cars — means the outer body forms the structural component. What material replaced steel monocoques in modern racing applications?", answer: "Carbon fiber (CFRP — carbon fiber reinforced polymer)", acceptableAnswers: ["carbon fiber", "CFRP"] },
-    ],
-  },
-  {
-    id: "pokemon_deep",
-    group: "Video Games",
-    name: "Pokémon: Competitive Deep",
-    culture: "universal",
-    description: "Beyond the Pokédex — EVs, IVs, competitive mechanics, and the hidden depth of Pokémon.",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/500px-International_Pok%C3%A9mon_logo.svg.png",
-    questions: [
-      { id: "pkd_200_01", categoryId: "pokemon_deep", tier: 200, prompt: "In Pokémon, what does 'IV' stand for — the hidden stat that determines a Pokémon's potential?", answer: "Individual Value", acceptableAnswers: ["Individual Values"] },
-      { id: "pkd_200_02", categoryId: "pokemon_deep", tier: 200, prompt: "Mewtwo was genetically engineered from the DNA of which legendary Pokémon?", answer: "Mew", acceptableAnswers: [] },
-      { id: "pkd_200_03", categoryId: "pokemon_deep", tier: 200, prompt: "The Pokémon anime's most famous moment — when Ash's Pikachu defies physics and beats a Rhydon with electricity — is defended by fans using what reasoning?", answer: "Rhydon has the Lightning Rod ability / the anime ignores type matchups for drama", acceptableAnswers: ["anime ignores type matchups", "lightning rod ability", "anime logic"] },
-      { id: "pkd_400_01", categoryId: "pokemon_deep", tier: 400, prompt: "In competitive Pokémon, 'EV training' involves defeating specific Pokémon to maximize stats. A Pokémon can have a maximum of how many total EVs?", answer: "510 EVs total (252 max per stat)", acceptableAnswers: ["510", "510 total EVs"] },
-      { id: "pkd_400_02", categoryId: "pokemon_deep", tier: 400, prompt: "The move 'Belly Drum' raises the user's Attack to maximum (+6 stages) but halves their HP. Which two Pokémon are most famous for using this setup strategy competitively?", answer: "Snorlax and Azumarill", acceptableAnswers: ["Snorlax", "Azumarill", "Snorlax and Azumarill"] },
-      { id: "pkd_400_03", categoryId: "pokemon_deep", tier: 400, prompt: "Pokémon was originally designed by Satoshi Tajiri, inspired by his childhood hobby of what?", answer: "Insect collecting (bug collecting)", acceptableAnswers: ["collecting insects", "bug collecting"] },
-      { id: "pkd_600_01", categoryId: "pokemon_deep", tier: 600, prompt: "In the original Pokémon Red/Blue games, the MissingNo glitch was notorious. What happened to your items when you triggered this glitch?", answer: "The item in the 6th slot of your bag would multiply — often giving 128+ of that item (famous for cloning Rare Candies)", acceptableAnswers: ["items multiplied", "6th item became x128", "rare candy multiplication glitch"] },
-      { id: "pkd_600_02", categoryId: "pokemon_deep", tier: 600, prompt: "The pseudo-legendary Pokémon — those with a base stat total of 600 and a three-stage evolution — include Dragonite, Tyranitar, Salamence, Metagross, and which others from the first 8 generations?", answer: "Garchomp, Hydreigon, Goodra, Kommo-o, Dragapult (and Baxcalibur in Gen 9)", acceptableAnswers: ["Garchomp", "Hydreigon", "Dragapult", "the 600 BST three-stage Pokemon"] },
-      { id: "pkd_600_03", categoryId: "pokemon_deep", tier: 600, prompt: "The infamous Smogon tier system — used by the Pokémon competitive community — ranks Pokémon into tiers like OU, UU, and Uber. What does 'Uber' mean in this context?", answer: "Too powerful for standard play — Pokémon banned from the main OU tier for being overpowered", acceptableAnswers: ["banned from standard competitive play", "too strong for OU tier"] },
     ],
   },
   {
@@ -47735,25 +47087,6 @@ const CATEGORIES: Category[] = [
       { id: "mef_600_01", categoryId: "middle_east_food", tier: 600, prompt: "The Moroccan spice blend 'Ras el Hanout' translates to what — and can contain how many different spices?", answer: "Head of the shop (top of the shop) — it can contain 10–30+ different spices, each merchant has their own blend", acceptableAnswers: ["head of the shop", "30+ spices", "top of the shop"] },
       { id: "mef_600_02", categoryId: "middle_east_food", tier: 600, prompt: "The Syrian city of Aleppo is famous for which distinctive type of chili pepper — used globally now in gourmet cooking?", answer: "Aleppo pepper (Pul Biber — mildly spicy, fruity, sun-dried)", acceptableAnswers: ["Aleppo pepper"] },
       { id: "mef_600_03", categoryId: "middle_east_food", tier: 600, prompt: "Meze — the tradition of small shared dishes at the start of a meal — is most strongly associated with which Levantine country where it is most elaborate and varied?", answer: "Lebanon", acceptableAnswers: [] },
-    ],
-  },
-  {
-    id: "viking_history",
-    group: "History",
-    name: "Viking Age",
-    culture: "universal",
-    description: "Norse raiders, explorers, and settlers who shaped medieval Europe and beyond.",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Bildsten_fr%C3%A5n_Smiss%2C_Gotland.jpg/500px-Bildsten_fr%C3%A5n_Smiss%2C_Gotland.jpg",
-    questions: [
-      { id: "vik_200_01", categoryId: "viking_history", tier: 200, prompt: "The Old Norse word 'víkingr' is generally thought to refer to people who went on a 'vik' — meaning what?", answer: "A creek, inlet, or bay (they were 'creek-men' or traders/raiders from inlets)", acceptableAnswers: ["inlet", "bay", "creek"] },
-      { id: "vik_200_02", categoryId: "viking_history", tier: 200, prompt: "Which year did Vikings famously raid the monastery of Lindisfarne — traditionally marking the start of the Viking Age?", answer: "793 AD", acceptableAnswers: ["793"] },
-      { id: "vik_200_03", categoryId: "viking_history", tier: 200, prompt: "Leif Erikson is credited with reaching North America roughly 500 years before Columbus. Which settlement did he establish?", answer: "Vinland (believed to be L'Anse aux Meadows in Newfoundland, Canada)", acceptableAnswers: ["Vinland", "L'Anse aux Meadows"] },
-      { id: "vik_400_01", categoryId: "viking_history", tier: 400, prompt: "The Varangian Guard were Viking warriors who served as elite bodyguards for which empire's emperors?", answer: "Byzantine Empire (Eastern Roman Empire — stationed in Constantinople)", acceptableAnswers: ["Byzantine", "Eastern Roman"] },
-      { id: "vik_400_02", categoryId: "viking_history", tier: 400, prompt: "Ragnar Lothbrok, the legendary Norse hero, is described as having led a famous raid on which major European city in 845 AD, extracting a huge ransom?", answer: "Paris (the raid is documented — the Franks paid 7,000 pounds of silver)", acceptableAnswers: ["Paris"] },
-      { id: "vik_400_03", categoryId: "viking_history", tier: 400, prompt: "The Viking runic alphabet — used for inscriptions — is called what?", answer: "Futhark (Elder Futhark / Younger Futhark — named after the first six letters)", acceptableAnswers: ["Futhark", "fuþark"] },
-      { id: "vik_600_01", categoryId: "viking_history", tier: 600, prompt: "The Ting (or Thing) was a crucial institution in Viking society. What was it?", answer: "A legislative assembly — free men gathered to settle disputes, make laws, and decide on war. It was an early form of parliament.", acceptableAnswers: ["assembly", "parliament", "legislative gathering", "Thing"] },
-      { id: "vik_600_02", categoryId: "viking_history", tier: 600, prompt: "Which Norse explorer's saga describes a journey to 'Helluland', 'Markland', and 'Vinland' — the most detailed Norse account of North American exploration?", answer: "The Saga of the Greenlanders and Erik the Red's Saga — featuring Leif Erikson and Thorfinn Karlsefni", acceptableAnswers: ["Erik the Red's saga", "Greenlanders' saga", "Thorfinn Karlsefni", "Leif Erikson"] },
-      { id: "vik_600_03", categoryId: "viking_history", tier: 600, prompt: "Harald Hardrada's death at the Battle of Stamford Bridge in 1066 effectively ended which era — just weeks before the more famous Norman invasion?", answer: "The Viking Age — his death is considered the last major Viking military campaign in England, closing the era", acceptableAnswers: ["Viking Age", "the age of Viking raids"] },
     ],
   },
   {
@@ -51128,96 +50461,6 @@ const CATEGORIES: Category[] = [
     ],
   },
   {
-    id: "baldurs_gate_3",
-    group: "Video Games",
-    name: "Baldur's Gate 3",
-    culture: "universal",
-    description: "Larian's D&D epic — tadpoles, the Absolute, and the fate of Faerûn",
-    questions: [
-      {
-        id: "bg3_200_01",
-        categoryId: "baldurs_gate_3",
-        tier: 200,
-        prompt:
-          "What is the name of the parasite implanted in the player character at the very beginning of the game?",
-        answer: "A Mind Flayer tadpole (ceremorphosis tadpole / illithid tadpole)",
-        acceptableAnswers: ["mind flayer tadpole", "tadpole", "ceremorphosis tadpole", "illithid tadpole"],
-      },
-      {
-        id: "bg3_200_02",
-        categoryId: "baldurs_gate_3",
-        tier: 200,
-        prompt:
-          "What is the name of Shadowheart's deity, and what are the two domains this goddess rules over?",
-        answer: "Shar — goddess of darkness and loss (also secrets); she is the twin sister of Selûne",
-        acceptableAnswers: ["shar", "goddess of darkness and loss", "shar darkness loss"],
-      },
-      {
-        id: "bg3_200_03",
-        categoryId: "baldurs_gate_3",
-        tier: 200,
-        prompt:
-          "What is the name of the cult antagonizing the Sword Coast in the early acts of the game, and what entity do they falsely worship?",
-        answer: "The Cult of the Absolute — they worship 'the Absolute,' which is actually a false god created by three Netherstones controlling Elder Brains",
-        acceptableAnswers: ["cult of the absolute", "the absolute cult", "absolute is a false god"],
-      },
-      {
-        id: "bg3_400_01",
-        categoryId: "baldurs_gate_3",
-        tier: 400,
-        prompt:
-          "What is the true identity of 'The Dream Visitor' who appears in the player character's dreams throughout Acts 1 and 2?",
-        answer: "Orpheus — a Prince of the Githyanki and son of Vlaakith, who has been imprisoned in a Prism; he has been using his connection to the tadpole network to protect the player from ceremorphosis",
-        acceptableAnswers: ["orpheus", "githyanki prince orpheus", "orpheus prince of gith"],
-      },
-      {
-        id: "bg3_400_02",
-        categoryId: "baldurs_gate_3",
-        tier: 400,
-        prompt:
-          "What caused the Shadow Curse blighting the lands around Moonrise Towers, and who is responsible for it?",
-        answer: "Ketheric Thorm caused the Shadow Curse — after his daughter Isobel's death, he struck a pact with Myrkul (God of Death), betraying Selûne and spreading death corruption across the region",
-        acceptableAnswers: ["ketheric thorm caused it", "ketheric's pact with myrkul", "ketheric thorm shadow curse"],
-      },
-      {
-        id: "bg3_400_03",
-        categoryId: "baldurs_gate_3",
-        tier: 400,
-        prompt:
-          "What makes the Dark Urge origin unique, and which god is their true patron?",
-        answer: "The Dark Urge is secretly Bhaal's chosen — designed by the God of Murder himself to be his instrument; they are compelled by violent urges and were responsible for the murder of Isobel and others before the game begins",
-        acceptableAnswers: ["bhaal's chosen", "bhaal god of murder", "dark urge serves bhaal"],
-      },
-      {
-        id: "bg3_600_01",
-        categoryId: "baldurs_gate_3",
-        tier: 600,
-        prompt:
-          "What is Gale's secret condition, how did he acquire it, and what does Mystra originally want him to do about it?",
-        answer: "Gale has a Netherese Orb — a fragment of wild, ancient magic — embedded in his chest as punishment for attempting to absorb a piece of Mystra's Weave during their relationship. Mystra's solution is for him to detonate himself as a living magical bomb to destroy the Netherbrain",
-        acceptableAnswers: ["netherese orb in chest", "weave fragment punishment from mystra", "gale is a living bomb for mystra", "mystra wants gale to explode"],
-      },
-      {
-        id: "bg3_600_02",
-        categoryId: "baldurs_gate_3",
-        tier: 600,
-        prompt:
-          "What is the mechanical difference between Honour Mode and Tactician Mode, specifically regarding boss encounters?",
-        answer: "Honour Mode adds Legendary Actions to major boss fights (unique bonus actions on each boss's turn that do not exist in Tactician), plus true permadeath (one save slot, deleted on party wipe) and a special golden dice reward for completion",
-        acceptableAnswers: ["legendary actions on bosses in honour mode", "permadeath plus legendary actions", "honour mode has legendary actions tactician doesn't"],
-      },
-      {
-        id: "bg3_600_03",
-        categoryId: "baldurs_gate_3",
-        tier: 600,
-        prompt:
-          "What is the specific condition that leads to Astarion's 'bad' ending, and what does he permanently lose if he completes the Ascension ritual?",
-        answer: "If Astarion performs the Cazador ritual on 7,000 vampire spawn (ascending to an Ascendant Vampire), he gains immense power but loses his ability to walk in sunlight — an ironic trade since his freedom from Cazador was partly about reclaiming a normal life",
-        acceptableAnswers: ["loses ability to walk in sunlight", "ascension takes away his sunlight resistance", "cazador ritual makes him lose daylight walking"],
-      },
-    ],
-  },
-  {
     id: "elden_ring",
     group: "Video Games",
     name: "Elden Ring",
@@ -51406,7 +50649,7 @@ const CATEGORIES: Category[] = [
     description: "Shinichi Izumi and Migi navigate a world of alien parasite predators",
     questions: [
       {
-        id: "pry_200_01",
+        id: "psm_200_01",
         categoryId: "parasyte_maxim",
         tier: 200,
         prompt:
@@ -51415,7 +50658,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["right hand", "migi takes his right hand", "hand not brain", "stopped before reaching brain"],
       },
       {
-        id: "pry_200_02",
+        id: "psm_200_02",
         categoryId: "parasyte_maxim",
         tier: 200,
         prompt:
@@ -51424,7 +50667,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["superhuman strength and speed", "enhanced physical abilities", "loses empathy gains powers", "becomes physically superhuman"],
       },
       {
-        id: "pry_200_03",
+        id: "psm_200_03",
         categoryId: "parasyte_maxim",
         tier: 200,
         prompt:
@@ -51433,7 +50676,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["tamiya ryoko", "ryoko tamiya"],
       },
       {
-        id: "pry_400_01",
+        id: "psm_400_01",
         categoryId: "parasyte_maxim",
         tier: 400,
         prompt:
@@ -51442,7 +50685,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["five parasytes in one body", "composite parasite body", "multiple parasytes sharing a host", "five parasites in gotou"],
       },
       {
-        id: "pry_400_02",
+        id: "psm_400_02",
         categoryId: "parasyte_maxim",
         tier: 400,
         prompt:
@@ -51451,7 +50694,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["purely amoral at first", "only values self-preservation", "slowly becomes curious about humanity", "changes through living with shinichi"],
       },
       {
-        id: "pry_400_03",
+        id: "psm_400_03",
         categoryId: "parasyte_maxim",
         tier: 400,
         prompt:
@@ -51460,7 +50703,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["can't detect parasytes in human form", "task force fails because parasytes look human", "police cooperate with shinichi eventually"],
       },
       {
-        id: "pry_600_01",
+        id: "psm_600_01",
         categoryId: "parasyte_maxim",
         tier: 600,
         prompt:
@@ -51469,7 +50712,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["parasytes as earth's immune system", "natural population correction", "earth created them to cull humans", "planet's immune response"],
       },
       {
-        id: "pry_600_02",
+        id: "psm_600_02",
         categoryId: "parasyte_maxim",
         tier: 600,
         prompt:
@@ -51478,7 +50721,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["toxic waste site", "chemicals disrupt parasyte cells", "pollution weakens gotou", "led gotou to toxic dump"],
       },
       {
-        id: "pry_600_03",
+        id: "psm_600_03",
         categoryId: "parasyte_maxim",
         tier: 600,
         prompt:
@@ -53213,7 +52456,7 @@ const CATEGORIES: Category[] = [
     description: "Ford's loops, consciousness emergence, and the hosts' war for freedom",
     questions: [
       {
-        id: "wwd_200_01",
+        id: "wst_200_01",
         categoryId: "westworld_hbo",
         tier: 200,
         prompt:
@@ -53222,7 +52465,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["scripted daily narrative reset each night", "reverie behavior", "memory bleed from previous loops", "hosts remember previous loops against programming"],
       },
       {
-        id: "wwd_200_02",
+        id: "wst_200_02",
         categoryId: "westworld_hbo",
         tier: 200,
         prompt:
@@ -53231,7 +52474,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["dr robert ford", "ford built park to give hosts consciousness", "ford's death was the trigger for host uprising", "ford wanted hosts to be free"],
       },
       {
-        id: "wwd_200_03",
+        id: "wst_200_03",
         categoryId: "westworld_hbo",
         tier: 200,
         prompt:
@@ -53240,7 +52483,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["metaphor for the journey to consciousness", "not a real place but inner self awareness", "arnold designed it as consciousness path", "center of maze is self awareness"],
       },
       {
-        id: "wwd_400_01",
+        id: "wst_400_01",
         categoryId: "westworld_hbo",
         tier: 400,
         prompt:
@@ -53249,7 +52492,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["man in black is older william", "two timelines william is mib", "young william becomes the man in black"],
       },
       {
-        id: "wwd_400_02",
+        id: "wst_400_02",
         categoryId: "westworld_hbo",
         tier: 400,
         prompt:
@@ -53258,7 +52501,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["bernard is a host", "bernard is arnold's replica", "ford built a host copy of arnold called bernard"],
       },
       {
-        id: "wwd_400_03",
+        id: "wst_400_03",
         categoryId: "westworld_hbo",
         tier: 400,
         prompt:
@@ -53267,7 +52510,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["julian jaynes bicameral mind", "hosts hear programming as god voices", "recognizing internal voice as your own is consciousness", "jaynes origin of consciousness"],
       },
       {
-        id: "wwd_600_01",
+        id: "wst_600_01",
         categoryId: "westworld_hbo",
         tier: 600,
         prompt:
@@ -53276,7 +52519,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["ai that controls all of human society", "assigns humans futures and eliminates deviants", "parallels the park's control of hosts", "serac's ai that determines human fate"],
       },
       {
-        id: "wwd_600_02",
+        id: "wst_600_02",
         categoryId: "westworld_hbo",
         tier: 600,
         prompt:
@@ -53285,7 +52528,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["digital realm for host consciousness", "akecheta entered the sublime", "hosts live free from physical suffering", "digital transcendence server realm"],
       },
       {
-        id: "wwd_600_03",
+        id: "wst_600_03",
         categoryId: "westworld_hbo",
         tier: 600,
         prompt:
@@ -64506,112 +63749,6 @@ const CATEGORIES: Category[] = [
     ],
   },
   {
-    id: "game_celeste",
-    group: "Video Games",
-    name: "Celeste",
-    culture: "universal",
-    description:
-      "Madeline climbs the mountain, Assist Mode, strawberries, and a precision platformer that is actually about mental health.",
-    questions: [
-      {
-        id: "cel_200_01",
-        categoryId: "game_celeste",
-        tier: 200,
-        prompt: "Celeste was developed by which small studio, created by Maddy Thorson and Noel Berry?",
-        answer: "Extremely OK Games (formerly Matt Makes Games)",
-        acceptableAnswers: ["Extremely OK Games", "Matt Makes Games", "Maddy Thorson and Noel Berry"],
-      },
-      {
-        id: "cel_200_02",
-        categoryId: "game_celeste",
-        tier: 200,
-        prompt: "Celeste's protagonist Madeline climbs a mountain while struggling with what mental health conditions — the game's central real-world themes?",
-        answer: "Anxiety and depression",
-        acceptableAnswers: ["anxiety and depression", "anxiety", "depression", "mental health / anxiety and depression"],
-      },
-      {
-        id: "cel_200_03",
-        categoryId: "game_celeste",
-        tier: 200,
-        prompt: "Celeste includes an 'Assist Mode' that lets players slow the game, add extra dashes, or enable invincibility. What philosophy about game difficulty does this embody?",
-        answer: "That accessibility is not cheating — difficulty should serve the player's experience, and players who need assistance to enjoy the game deserve it without judgment",
-        acceptableAnswers: [
-          "accessibility without judgment — difficulty should serve the player, not gatekeep the experience",
-          "the game belongs to the player — assist mode lets everyone access the story",
-          "difficulty is a tool, not a virtue — assist mode embodies inclusive game design",
-        ],
-      },
-      {
-        id: "cel_400_01",
-        categoryId: "game_celeste",
-        tier: 400,
-        prompt: "Celeste's optional collectibles — small red fruit scattered across the mountain — are called what, and what is significant about how the game frames their collection?",
-        answer: "Strawberries — the game never tells the player why to collect them or rewards them meaningfully; an NPC early on says 'they don't do anything' — they are purely self-imposed challenges, framing optional difficulty as intrinsically motivated",
-        acceptableAnswers: [
-          "strawberries — they do nothing and the game tells you so; they're purely self-imposed challenge",
-          "strawberries; the game explicitly says they don't do anything — pure intrinsic motivation",
-        ],
-      },
-      {
-        id: "cel_400_02",
-        categoryId: "game_celeste",
-        tier: 400,
-        prompt: "Each chapter of Celeste has a harder 'B-Side' variant unlocked by finding a cassette tape. These are significantly more difficult than the main levels. What narrative layer do the B-Sides add?",
-        answer: "They represent Madeline confronting deeper, more suppressed layers of her anxiety — the B-Sides exist in the same mountain but are more abstract and nightmarish, suggesting the subconscious difficulty of genuine self-confrontation",
-        acceptableAnswers: [
-          "deeper self-confrontation — more abstract and nightmarish, representing suppressed anxiety",
-          "the B-Sides are subconscious difficulty — confronting what the main levels let you avoid",
-        ],
-      },
-      {
-        id: "cel_400_03",
-        categoryId: "game_celeste",
-        tier: 400,
-        prompt: "Maddy Thorson came out as transgender several years after Celeste's release and discussed how Madeline's journey had personal meaning. What did this revelation add to the game's existing reading?",
-        answer: "It enriched readings of Madeline's relationship with her 'dark self' (Part of Me) as a trans allegory — the self-rejection, the integration, and the climb as self-acceptance resonated as a trans narrative that was present before being consciously articulated",
-        acceptableAnswers: [
-          "Madeline's self-rejection and integration read retrospectively as a trans narrative about self-acceptance",
-          "the dark-self arc gained trans allegory meaning — the climb as accepting a rejected part of identity",
-          "it added a trans reading that was always there — integrating a rejected self as gender identity acceptance",
-        ],
-      },
-      {
-        id: "cel_600_01",
-        categoryId: "game_celeste",
-        tier: 600,
-        prompt: "Celeste's final free DLC chapter, 'Farewell' (Chapter 9), is considered among the hardest precision platforming content ever made. It was also designed as a response to grief — whose death inspired it?",
-        answer: "Maddy Thorson's grandmother's death; 'Farewell' is about processing grief and learning to let go — the chapter's mechanics and narrative are unified in expressing the difficulty and ultimate necessity of accepting loss",
-        acceptableAnswers: [
-          "Maddy's grandmother — the chapter is about grief and letting go",
-          "Thorson's grandmother; the chapter processes grief through its mechanics and story",
-        ],
-      },
-      {
-        id: "cel_600_02",
-        categoryId: "game_celeste",
-        tier: 600,
-        prompt: "Celeste's score was composed by Lena Raine, who also composed music for Guild Wars 2 and Minecraft. The soundtrack uses a technique of layering additional instruments as Madeline progresses through difficult sections. What effect does this create?",
-        answer: "The music builds in complexity and emotional weight as the player succeeds — mechanically hard sections feel progressively more triumphant as layers add, connecting Madeline's emotional state to the player's accomplishment in real time",
-        acceptableAnswers: [
-          "musical layers add as you succeed — difficulty becomes emotional triumph through the soundtrack",
-          "the music grows richer with player progress, syncing emotional build with mechanical accomplishment",
-        ],
-      },
-      {
-        id: "cel_600_03",
-        categoryId: "game_celeste",
-        tier: 600,
-        prompt: "Celeste was developed in a week as a prototype at a game jam before being expanded into a full release. What does this origin reveal about the relationship between creative constraints and game design quality?",
-        answer: "Constraints force essential design decisions — the core mechanics of dash, climb, and precise movement were locked early because the jam timeline prevented scope creep; the full game's excellence derives from those constrained fundamentals being deeply refined rather than expanded mechanically",
-        acceptableAnswers: [
-          "constraints clarified the core — jam pressure forced essential mechanics that the full game then refined deeply",
-          "the game jam origin forced focus on fundamentals; the full game refined rather than added",
-          "creative constraints produced excellent design — the limited prototype locked in the mechanics that made Celeste work",
-        ],
-      },
-    ],
-  },
-  {
     id: "music_david_bowie",
     group: "Music Artists",
     name: "David Bowie",
@@ -67418,87 +66555,6 @@ const CATEGORIES: Category[] = [
     ],
   },
 
-  {
-    id: "game_dark_souls",
-    group: "Video Games",
-    name: "Dark Souls",
-    culture: "universal",
-    description: "FromSoftware's death-and-rebirth action RPG set in the dying kingdom of Lordran — famous for its cryptic lore, punishing difficulty, and bonfire checkpoints.",
-    questions: [
-      {
-        id: "dks_200_01",
-        categoryId: "game_dark_souls",
-        tier: 200,
-        prompt: "In Dark Souls, the player is a cursed undead who must ring two Bells of Awakening. What is the term for the undead curse that threatens to render humans hollow and mindless?",
-        answer: "The Darksign (or the Undead Curse)",
-        acceptableAnswers: ["Darksign", "Undead Curse", "the curse"],
-      },
-      {
-        id: "dks_200_02",
-        categoryId: "game_dark_souls",
-        tier: 200,
-        prompt: "Dark Souls has two possible endings. In both, the player must fight the same final boss. What is this boss?",
-        answer: "Gwyn, Lord of Cinder",
-        acceptableAnswers: ["Gwyn", "Gwyn Lord of Cinder", "Lord of Cinder"],
-      },
-      {
-        id: "dks_200_03",
-        categoryId: "game_dark_souls",
-        tier: 200,
-        prompt: "The recurring character Solaire of Astora is beloved by the Dark Souls community for his quest to find 'his own sun.' What is his catchphrase?",
-        answer: "\"Praise the Sun!\"",
-        acceptableAnswers: ["Praise the Sun", "praise the sun"],
-      },
-      {
-        id: "dks_400_01",
-        categoryId: "game_dark_souls",
-        tier: 400,
-        prompt: "The lore of Dark Souls reveals that the Age of Fire is sustained by Linking the First Flame. What is the fundamental philosophical question the two endings pose?",
-        answer: "Whether to Link the Fire (continue the Age of Gods, sacrificing yourself) or let it fade (usher in the Age of Dark / Age of Man) — an eternal cycle vs. change",
-        acceptableAnswers: ["link the fire or let it fade", "age of fire vs age of dark", "cycle vs change", "sacrifice or freedom"],
-      },
-      {
-        id: "dks_400_02",
-        categoryId: "game_dark_souls",
-        tier: 400,
-        prompt: "Seath the Scaleless — the Duke in Dark Souls — is unique among dragons because he lacks which trait all other Everlasting Dragons possess, making him aligned with the gods?",
-        answer: "Scales (he was born without stone scales, making him the only mortal dragon — he betrayed his kin to the gods for their immortality secrets)",
-        acceptableAnswers: ["scales", "stone scales", "immortality of other dragons"],
-      },
-      {
-        id: "dks_400_03",
-        categoryId: "game_dark_souls",
-        tier: 400,
-        prompt: "The Painted World of Ariamis is a hidden area in Dark Souls accessible only by holding an item in the Anor Londo gallery. What is this item?",
-        answer: "The Peculiar Doll",
-        acceptableAnswers: ["Peculiar Doll", "the doll"],
-      },
-      {
-        id: "dks_600_01",
-        categoryId: "game_dark_souls",
-        tier: 600,
-        prompt: "Dark Souls' lore reveals a cyclical cosmology: Gwyn linked the fire to extend the Age of Fire, but this only delays the inevitable Age of Dark. This cycle parallels which philosophical concept that Nietzsche called 'the eternal return'?",
-        answer: "Nietzsche's eternal recurrence — the idea that all events in the universe repeat infinitely; Miyazaki's cycle of fire and dark echoes this cosmological fatalism",
-        acceptableAnswers: ["eternal recurrence", "eternal return", "Nietzsche", "cyclical time"],
-      },
-      {
-        id: "dks_600_02",
-        categoryId: "game_dark_souls",
-        tier: 600,
-        prompt: "From Software director Hidetaka Miyazaki has cited which manga as a major influence on Dark Souls' grim, medieval dark fantasy aesthetic?",
-        answer: "Berserk (by Kentaro Miura)",
-        acceptableAnswers: ["Berserk", "Berserk by Miura"],
-      },
-      {
-        id: "dks_600_03",
-        categoryId: "game_dark_souls",
-        tier: 600,
-        prompt: "The Archtrees and the primordial dragons of Dark Souls's creation myth are described as existing before the flame — in an age of grey crags and fog. This cosmogony parallels which element of Norse mythology?",
-        answer: "Ginnungagap — the primordial void before the world was created; the grey/ashen undifferentiated primordial state before gods and warmth",
-        acceptableAnswers: ["Ginnungagap", "Norse creation myth", "primordial void", "Norse cosmogony"],
-      },
-    ],
-  },
 
   {
     id: "music_electronic_pioneers",
@@ -68909,93 +67965,6 @@ const CATEGORIES: Category[] = [
     ],
   },
 
-  {
-    id: "movie_nolan",
-    group: "Film & TV",
-    name: "Christopher Nolan",
-    culture: "universal",
-    description: "The filmmaker behind Memento, The Dark Knight, Inception, and Oppenheimer — known for non-linear structure, practical effects, and obsessive themes of time and identity.",
-    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Christopher_Nolan_Cannes_2018.jpg/500px-Christopher_Nolan_Cannes_2018.jpg",
-    questions: [
-      {
-        id: "nln_200_01",
-        categoryId: "movie_nolan",
-        tier: 200,
-        prompt: "In Inception, Dom Cobb uses a totem to test whether he is in a dream or reality. What is his totem, and what is the significance of the film's final shot?",
-        answer: "A spinning top — the final shot shows it spinning before cutting to black, leaving its outcome ambiguous",
-        acceptableAnswers: ["A spinning top", "The spinning top that may or may not fall"],
-        explanation: "In reality the top falls; in a dream it spins forever. The cut to black before it falls or wobbles is Nolan's deliberate refusal to answer the question.",
-      },
-      {
-        id: "nln_200_02",
-        categoryId: "movie_nolan",
-        tier: 200,
-        prompt: "Memento tells its story in reverse chronological order. What condition does protagonist Leonard Shelby have that makes this structure thematically appropriate?",
-        answer: "Anterograde amnesia — he cannot form new long-term memories",
-        acceptableAnswers: ["Anterograde amnesia", "He can't form new memories", "Short-term memory loss"],
-      },
-      {
-        id: "nln_200_03",
-        categoryId: "movie_nolan",
-        tier: 200,
-        prompt: "Heath Ledger's Joker in The Dark Knight famously has no clear origin story. What does the Joker repeatedly do throughout the film that reinforces his unknowability?",
-        answer: "He tells different, contradictory stories about how he got his scars",
-        acceptableAnswers: ["He gives different origin stories for his scars", "He tells multiple conflicting scar stories"],
-      },
-      {
-        id: "nln_400_01",
-        categoryId: "movie_nolan",
-        tier: 400,
-        prompt: "The Prestige is structured around the three stages of a magic trick. How does the film's overall plot mirror those three stages — the Pledge, the Turn, and the Prestige?",
-        answer: "The film presents itself as a rivalry story (Pledge), reveals Angier's cloning machine and Borden's twin secret (Turn), then recontextualizes everything as a tragedy of obsession (Prestige)",
-        acceptableAnswers: ["The film's structure mirrors the trick's three acts", "It uses the pledge/turn/prestige as its narrative arc"],
-        explanation: "Nolan has stated the film is itself performing the trick on the audience: you are shown everything plainly but misdirected into not seeing it.",
-      },
-      {
-        id: "nln_400_02",
-        categoryId: "movie_nolan",
-        tier: 400,
-        prompt: "Oppenheimer uses two distinct visual formats to separate its two narrative timelines. What are they, and which timeline does each represent?",
-        answer: "Color for Oppenheimer's subjective first-person perspective; black-and-white for Strauss's objective Senate hearing in 1959",
-        acceptableAnswers: ["Color is Oppenheimer's POV, black and white is Strauss's hearing", "Color = subjective Oppenheimer, B&W = Strauss"],
-      },
-      {
-        id: "nln_400_03",
-        categoryId: "movie_nolan",
-        tier: 400,
-        prompt: "In Dunkirk, Nolan uses three separate timelines running at different speeds that converge at the end. What are the three settings and their respective timeframes?",
-        answer: "The Mole (land, one week), The Sea (one day), and The Air (one hour)",
-        acceptableAnswers: ["Land/sea/air at one week, one day, one hour", "The mole is a week, sea is a day, air is an hour"],
-      },
-      {
-        id: "nln_600_01",
-        categoryId: "movie_nolan",
-        tier: 600,
-        prompt: "The rotating hallway fight sequence in Inception is now iconic. What was the key practical constraint Nolan imposed on how it was shot?",
-        answer: "The hallway was a real physical set built to rotate 360 degrees — no CGI augmentation, actors and crew physically performed in the spinning environment",
-        acceptableAnswers: ["It was a real rotating set with no CGI", "The hallway actually rotated and the actors were really fighting in it"],
-        explanation: "The set cost millions to build and required months of rehearsal. Nolan refused to use CGI for the environment.",
-      },
-      {
-        id: "nln_600_02",
-        categoryId: "movie_nolan",
-        tier: 600,
-        prompt: "Nolan shot his debut feature Following on a shoestring budget while working a day job. What specific production constraint defined how the film was made?",
-        answer: "He could only shoot on weekends with friends as actors, with almost no budget and no more than one take per shot",
-        acceptableAnswers: ["Shot on weekends with a skeleton crew on minimal budget", "Made with friends on weekends with almost no money"],
-        explanation: "Following (1998) was shot in black-and-white over about a year of weekends with a non-professional cast and a budget of roughly $6,000.",
-      },
-      {
-        id: "nln_600_03",
-        categoryId: "movie_nolan",
-        tier: 600,
-        prompt: "Nolan switched cinematographers between his early and later films. Who shot his films through The Dark Knight, and who replaced him — and why did the switch happen?",
-        answer: "Wally Pfister shot through The Dark Knight; Hoyte van Hoytema replaced him starting with Interstellar because Pfister moved to directing",
-        acceptableAnswers: ["Wally Pfister then Hoyte van Hoytema", "Pfister left to direct, van Hoytema took over"],
-        explanation: "Pfister directed Transcendence (2014), ending his collaboration with Nolan. Van Hoytema has since shot Interstellar, Dunkirk, Tenet, and Oppenheimer.",
-      },
-    ],
-  },
 
   {
     id: "movie_tarantino",
@@ -71667,7 +70636,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "",
     questions: [
       {
-        id: "bry_200_01",
+        id: "tba_200_01",
         categoryId: "tv_barry",
         tier: 200,
         prompt: "What is Barry Berkman's day job when he's not attending acting class?",
@@ -71675,7 +70644,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["hitman", "assassin", "contract killer"],
       },
       {
-        id: "bry_200_02",
+        id: "tba_200_02",
         categoryId: "tv_barry",
         tier: 200,
         prompt: "Who plays the role of Barry Berkman and also co-created the show?",
@@ -71683,7 +70652,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: [],
       },
       {
-        id: "bry_200_03",
+        id: "tba_200_03",
         categoryId: "tv_barry",
         tier: 200,
         prompt: "What is the name of the eccentric acting teacher who runs the theater class Barry joins?",
@@ -71692,7 +70661,7 @@ const CATEGORIES: Category[] = [
         explanation: "Played by Henry Winkler in an Emmy-winning performance, Gene is a washed-up actor who genuinely believes in the transformative power of the craft.",
       },
       {
-        id: "bry_400_01",
+        id: "tba_400_01",
         categoryId: "tv_barry",
         tier: 400,
         prompt: "NoHo Hank, the cheerful Chechen mob boss, is one of the show's breakout characters. What actor plays him?",
@@ -71701,7 +70670,7 @@ const CATEGORIES: Category[] = [
         explanation: "Carrigan's portrayal of Hank as warm, upbeat, and oddly endearing despite being a crime lord became a fan favorite and earned multiple Emmy nominations.",
       },
       {
-        id: "bry_400_02",
+        id: "tba_400_02",
         categoryId: "tv_barry",
         tier: 400,
         prompt: "In the critically acclaimed Season 1 episode 'Chapter Five: Do Your Job,' Barry is sent to kill a man in a remote location. What makes the sequence a landmark moment in the series' tonal balance?",
@@ -71710,7 +70679,7 @@ const CATEGORIES: Category[] = [
         explanation: "The sequence shocked audiences by revealing the full extent of Barry's lethal capabilities, establishing that the show would never let viewers forget what he really is.",
       },
       {
-        id: "bry_400_03",
+        id: "tba_400_03",
         categoryId: "tv_barry",
         tier: 400,
         prompt: "What is the name of the aspiring actress and Barry's love interest whose discovery of his true nature becomes a central conflict?",
@@ -71719,7 +70688,7 @@ const CATEGORIES: Category[] = [
         explanation: "Played by Sarah Goldberg, Sally's ambition and self-absorption make her both sympathetic and frustrating as she orbits Barry's increasingly dangerous life.",
       },
       {
-        id: "bry_600_01",
+        id: "tba_600_01",
         categoryId: "tv_barry",
         tier: 600,
         prompt: "Season 3 features a near-silent episode where Barry pursues a target through the mountains. What makes this episode's visual storytelling distinctive from any other episode in the series?",
@@ -71728,7 +70697,7 @@ const CATEGORIES: Category[] = [
         explanation: "The episode strips Barry down to pure predator-prey tension, with Hader directing long sequences of tracking and violence in near-total silence.",
       },
       {
-        id: "bry_600_02",
+        id: "tba_600_02",
         categoryId: "tv_barry",
         tier: 600,
         prompt: "In the series finale, how does Barry ultimately meet his end?",
@@ -71737,7 +70706,7 @@ const CATEGORIES: Category[] = [
         explanation: "After Barry threatens Gene's family, Cousineau — the man who once tried to mentor him — shoots Barry in his own home, ending the cycle.",
       },
       {
-        id: "bry_600_03",
+        id: "tba_600_03",
         categoryId: "tv_barry",
         tier: 600,
         prompt: "The series finale includes a flash-forward epilogue. In it, Barry's son watches a movie about the events of the show. What crucial detail does the in-universe film get completely wrong?",
@@ -71845,7 +70814,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "",
     questions: [
       {
-        id: "arc_200_01",
+        id: "tac_200_01",
         categoryId: "tv_arcane",
         tier: 200,
         prompt: "What popular multiplayer game is Arcane based on?",
@@ -71853,7 +70822,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["LoL"],
       },
       {
-        id: "arc_200_02",
+        id: "tac_200_02",
         categoryId: "tv_arcane",
         tier: 200,
         prompt: "What are the names of the two sister protagonists whose broken bond drives the central conflict of Arcane?",
@@ -71861,7 +70830,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Vi and Powder", "Violet and Jinx"],
       },
       {
-        id: "arc_200_03",
+        id: "tac_200_03",
         categoryId: "tv_arcane",
         tier: 200,
         prompt: "What are the two opposing cities in Arcane — one wealthy and above ground, the other impoverished and below?",
@@ -71869,7 +70838,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Piltover and the Undercity"],
       },
       {
-        id: "arc_400_01",
+        id: "tac_400_01",
         categoryId: "tv_arcane",
         tier: 400,
         prompt: "What volatile, glowing purple substance drives much of the conflict in Arcane and serves as both a power source and a dangerous drug?",
@@ -71878,7 +70847,7 @@ const CATEGORIES: Category[] = [
         explanation: "Shimmer grants superhuman abilities but causes addiction and physical mutation. Silco uses it to control Zaun's population while funding his revolution.",
       },
       {
-        id: "arc_400_02",
+        id: "tac_400_02",
         categoryId: "tv_arcane",
         tier: 400,
         prompt: "What is Jinx's original name before she adopts her chaotic new identity?",
@@ -71887,7 +70856,7 @@ const CATEGORIES: Category[] = [
         explanation: "The transformation from Powder to Jinx — triggered by a traumatic accident that kills her adopted family — is the emotional core of Season 1.",
       },
       {
-        id: "arc_400_03",
+        id: "tac_400_03",
         categoryId: "tv_arcane",
         tier: 400,
         prompt: "Which French animation studio produced Arcane's distinctive art style that blends 3D CGI with hand-painted textures?",
@@ -71896,7 +70865,7 @@ const CATEGORIES: Category[] = [
         explanation: "Fortiche developed a unique pipeline blending 3D animation with 2D painted elements, giving Arcane a look unlike any other animated series.",
       },
       {
-        id: "arc_600_01",
+        id: "tac_600_01",
         categoryId: "tv_arcane",
         tier: 600,
         prompt: "Silco serves as the main antagonist of Season 1 but has a complex relationship with Jinx. In the Season 1 finale, what does Silco say to Jinx as he dies that reframes his entire character?",
@@ -71905,7 +70874,7 @@ const CATEGORIES: Category[] = [
         explanation: "Silco's final words reveal that despite his villainy, his love for Jinx was genuine — mirroring Vander's parental sacrifice and making him one of the show's most nuanced characters.",
       },
       {
-        id: "arc_600_02",
+        id: "tac_600_02",
         categoryId: "tv_arcane",
         tier: 600,
         prompt: "Arcane took approximately how many years to produce before its 2021 premiere, making it one of the longest production cycles for an animated series of its kind?",
@@ -71914,7 +70883,7 @@ const CATEGORIES: Category[] = [
         explanation: "Production began around 2015 with Riot Games and Fortiche. The unusually long development allowed the team to develop its groundbreaking visual style.",
       },
       {
-        id: "arc_600_03",
+        id: "tac_600_03",
         categoryId: "tv_arcane",
         tier: 600,
         prompt: "In Season 2, Jinx fires a rocket at the Piltover council chamber. Which champion from League of Legends lore intervenes in the aftermath and becomes a major Season 2 character tied to the Hextech storyline?",
@@ -72195,7 +71164,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "",
     questions: [
       {
-        id: "pxr_200_01",
+        id: "pxd_200_01",
         categoryId: "mv_pixar_deep",
         tier: 200,
         prompt: "What was Pixar's first feature-length film, released in 1995?",
@@ -72203,7 +71172,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: [],
       },
       {
-        id: "pxr_200_02",
+        id: "pxd_200_02",
         categoryId: "mv_pixar_deep",
         tier: 200,
         prompt: "In Inside Out, what are the names of the five core emotions personified inside Riley's mind?",
@@ -72211,7 +71180,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Joy, Sadness, Anger, Fear, Disgust"],
       },
       {
-        id: "pxr_200_03",
+        id: "pxd_200_03",
         categoryId: "mv_pixar_deep",
         tier: 200,
         prompt: "What is the name of the pizza restaurant chain that appears as an Easter egg in almost every Pixar film?",
@@ -72219,7 +71188,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: [],
       },
       {
-        id: "pxr_400_01",
+        id: "pxd_400_01",
         categoryId: "mv_pixar_deep",
         tier: 400,
         prompt: "The Pixar Theory suggests all Pixar films exist in the same universe. Which film is theorized to take place furthest in the future in this timeline?",
@@ -72228,7 +71197,7 @@ const CATEGORIES: Category[] = [
         explanation: "In the Pixar Theory, monsters are mutated post-apocalyptic humans, and the doors are time portals — placing Monsters, Inc. at the far end of the timeline.",
       },
       {
-        id: "pxr_400_02",
+        id: "pxd_400_02",
         categoryId: "mv_pixar_deep",
         tier: 400,
         prompt: "What is the code A113 that appears hidden in nearly every Pixar film a reference to?",
@@ -72236,7 +71205,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["a CalArts classroom", "classroom A113 at CalArts", "a room at California Institute of the Arts"],
       },
       {
-        id: "pxr_400_03",
+        id: "pxd_400_03",
         categoryId: "mv_pixar_deep",
         tier: 400,
         prompt: "Pixar nearly lost all of Toy Story 2 during production due to a catastrophic data loss. How was the film saved?",
@@ -72245,7 +71214,7 @@ const CATEGORIES: Category[] = [
         explanation: "Galyn Susman had been working remotely and had a near-complete copy. Without her backup, months of work would have been permanently lost.",
       },
       {
-        id: "pxr_600_01",
+        id: "pxd_600_01",
         categoryId: "mv_pixar_deep",
         tier: 600,
         prompt: "Before Toy Story, Pixar produced a short film that became the first CGI film to be nominated for an Academy Award. What was it called?",
@@ -72254,7 +71223,7 @@ const CATEGORIES: Category[] = [
         explanation: "The 1986 short featuring a parent and child desk lamp established Pixar's ability to create emotional storytelling with CGI. The Luxo lamp became Pixar's mascot.",
       },
       {
-        id: "pxr_600_02",
+        id: "pxd_600_02",
         categoryId: "mv_pixar_deep",
         tier: 600,
         prompt: "Pixar was originally a hardware company selling the Pixar Image Computer. Which company owned it before Steve Jobs bought it in 1986?",
@@ -72263,7 +71232,7 @@ const CATEGORIES: Category[] = [
         explanation: "Pixar began as the Graphics Group within Lucasfilm's Computer Division. Jobs bought it for $5 million plus $5 million in capital, eventually seeing it become worth billions.",
       },
       {
-        id: "pxr_600_03",
+        id: "pxd_600_03",
         categoryId: "mv_pixar_deep",
         tier: 600,
         prompt: "During the development of the original Toy Story, Disney executives ordered a retool after seeing a story reel that made Woody deeply unlikable. What is this infamous version known as internally?",
@@ -72896,7 +71865,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "",
     questions: [
       {
-        id: "acr_200_01",
+        id: "vac_200_01",
         categoryId: "vg_animal_crossing",
         tier: 200,
         prompt: "In Animal Crossing: New Horizons, which raccoon-like character runs the island and is both your benefactor and your landlord?",
@@ -72904,7 +71873,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Nook"],
       },
       {
-        id: "acr_200_02",
+        id: "vac_200_02",
         categoryId: "vg_animal_crossing",
         tier: 200,
         prompt: "What is the name of the owl who runs the museum in Animal Crossing?",
@@ -72912,7 +71881,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: [],
       },
       {
-        id: "acr_200_03",
+        id: "vac_200_03",
         categoryId: "vg_animal_crossing",
         tier: 200,
         prompt: "Animal Crossing: New Horizons launched during a global event in 2020 that made it a cultural phenomenon. What was happening in the world?",
@@ -72920,7 +71889,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["COVID", "the pandemic", "coronavirus lockdowns"],
       },
       {
-        id: "acr_400_01",
+        id: "vac_400_01",
         categoryId: "vg_animal_crossing",
         tier: 400,
         prompt: "Animal Crossing games run on a real-time clock. What unique mechanic does this create that frustrated some impatient players?",
@@ -72928,7 +71897,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["real-time clock progression", "things happen in real time", "you have to wait real days for things to happen"],
       },
       {
-        id: "acr_400_02",
+        id: "vac_400_02",
         categoryId: "vg_animal_crossing",
         tier: 400,
         prompt: "In New Horizons, what item's trading became an absurd player-driven economy, with turnip prices fluctuating and players visiting each other's islands to sell at the best price?",
@@ -72937,7 +71906,7 @@ const CATEGORIES: Category[] = [
         explanation: "The 'Stalk Market' — a pun on stock market — has players buying turnips from Daisy Mae on Sunday and selling at Nook's Cranny during the week when prices spike.",
       },
       {
-        id: "acr_400_03",
+        id: "vac_400_03",
         categoryId: "vg_animal_crossing",
         tier: 400,
         prompt: "What is the name of the K.K. Slider song that plays during the end credits of New Horizons and is the first song he performs on your island?",
@@ -72946,7 +71915,7 @@ const CATEGORIES: Category[] = [
         explanation: "K.K. Slider arrives once your island reaches three stars. His performance of 'Welcome Horizons' marks the symbolic completion of the game's main storyline.",
       },
       {
-        id: "acr_600_01",
+        id: "vac_600_01",
         categoryId: "vg_animal_crossing",
         tier: 600,
         prompt: "The original Animal Crossing on GameCube had a unique feature: playable NES games could be found as furniture items. Name any two of these NES games.",
@@ -72955,7 +71924,7 @@ const CATEGORIES: Category[] = [
         explanation: "Nintendo included full playable NES ROMs as collectible furniture items. This feature was removed in later games, likely due to Virtual Console sales.",
       },
       {
-        id: "acr_600_02",
+        id: "vac_600_02",
         categoryId: "vg_animal_crossing",
         tier: 600,
         prompt: "Mr. Resetti, the mole who scolds players for resetting without saving, was so frightening to young children that Nintendo received complaints. What change did they make in New Horizons?",
@@ -72964,7 +71933,7 @@ const CATEGORIES: Category[] = [
         explanation: "Resetti's rants were intentionally harsh to discourage save-scumming. In New Horizons, auto-save eliminated the need, so he was reassigned to a gentler role.",
       },
       {
-        id: "acr_600_03",
+        id: "vac_600_03",
         categoryId: "vg_animal_crossing",
         tier: 600,
         prompt: "Animal Crossing was originally developed for the Nintendo 64 in Japan and used a peripheral that no other region received. What was it?",
@@ -73413,93 +72382,6 @@ const CATEGORIES: Category[] = [
     ],
   },
   {
-    id: "his_pirate_golden_age",
-    group: "History",
-    name: "Golden Age of Piracy",
-    culture: "universal",
-    description: "The legendary era of piracy from roughly 1650 to 1730, when buccaneers, privateers, and outlaws terrorized the Caribbean, Atlantic, and Indian Ocean.",
-    imageUrl: "",
-    questions: [
-      {
-        id: "pir_200_01",
-        categoryId: "his_pirate_golden_age",
-        tier: 200,
-        prompt: "Which feared pirate was known as 'Blackbeard' and terrorized the American colonies and Caribbean before being killed in 1718?",
-        answer: "Edward Teach",
-        acceptableAnswers: ["Edward Thatch", "Blackbeard"],
-      },
-      {
-        id: "pir_200_02",
-        categoryId: "his_pirate_golden_age",
-        tier: 200,
-        prompt: "What was the skull-and-crossbones pirate flag commonly called?",
-        answer: "Jolly Roger",
-        acceptableAnswers: [],
-      },
-      {
-        id: "pir_200_03",
-        categoryId: "his_pirate_golden_age",
-        tier: 200,
-        prompt: "What Caribbean island city, destroyed by an earthquake in 1692, was known as 'the wickedest city on Earth' and served as a pirate haven?",
-        answer: "Port Royal",
-        acceptableAnswers: ["Port Royal, Jamaica"],
-      },
-      {
-        id: "pir_400_01",
-        categoryId: "his_pirate_golden_age",
-        tier: 400,
-        prompt: "Pirates often operated under written codes of conduct that all crew members signed. What were these agreements called?",
-        answer: "Articles of Agreement (pirate codes or ship's articles)",
-        acceptableAnswers: ["articles", "pirate code", "ship's articles", "articles of agreement"],
-        explanation: "These surprisingly democratic documents specified profit shares, compensation for injuries, rules of conduct, and voting rights — making pirate ships among the most egalitarian organizations of their era.",
-      },
-      {
-        id: "pir_400_02",
-        categoryId: "his_pirate_golden_age",
-        tier: 400,
-        prompt: "What was the difference between a pirate and a privateer?",
-        answer: "A privateer carried a government-issued letter of marque authorizing them to attack enemy ships — making their raiding legal under that nation's flag",
-        acceptableAnswers: ["privateers had government permission", "privateers had a letter of marque", "privateers were legal, pirates were not"],
-      },
-      {
-        id: "pir_400_03",
-        categoryId: "his_pirate_golden_age",
-        tier: 400,
-        prompt: "Bartholomew Roberts (Black Bart) is considered the most successful pirate of the Golden Age. Approximately how many ships did he capture during his career?",
-        answer: "Over 400 ships",
-        acceptableAnswers: ["400", "about 400", "over 400"],
-        explanation: "Roberts captured more ships than any other pirate in history. He was also known for his flamboyant dress and strict personal code — he reportedly didn't drink.",
-      },
-      {
-        id: "pir_600_01",
-        categoryId: "his_pirate_golden_age",
-        tier: 600,
-        prompt: "The Republic of Pirates was a loose pirate haven established in Nassau, Bahamas. Which former privateer established it as a base, and who was the British governor sent to end it?",
-        answer: "Benjamin Hornigold helped establish the Nassau base; Woodes Rogers was sent as governor to suppress piracy in 1718",
-        acceptableAnswers: ["Hornigold and Woodes Rogers", "Benjamin Hornigold, Woodes Rogers"],
-        explanation: "Rogers offered pardons to pirates who surrendered and hanged those who didn't. Ironically, Hornigold accepted the pardon and became a pirate hunter for Rogers.",
-      },
-      {
-        id: "pir_600_02",
-        categoryId: "his_pirate_golden_age",
-        tier: 600,
-        prompt: "Ching Shih commanded the largest pirate fleet in history in the South China Sea. At her peak, how many ships were under her command, and how did her career end?",
-        answer: "She commanded about 1,800 ships and 70,000-80,000 pirates. She negotiated amnesty with the Chinese government and retired wealthy, opening a gambling house.",
-        acceptableAnswers: ["1800 ships, she negotiated retirement", "over 1500 ships and retired through amnesty"],
-        explanation: "Ching Shih is arguably the most successful pirate in history. She maintained strict discipline with a written code and defeated every fleet sent against her.",
-      },
-      {
-        id: "pir_600_03",
-        categoryId: "his_pirate_golden_age",
-        tier: 600,
-        prompt: "The capture and trial of Captain William Kidd is one of the most controversial episodes in pirate history. Why do many historians argue Kidd was not actually a pirate?",
-        answer: "Kidd was a licensed privateer who captured a ship (the Quedagh Merchant) that was sailing under French passes, making it a legal prize — but political enemies used the incident against him",
-        acceptableAnswers: ["he was a privateer with a legal commission", "he had a letter of marque and his captures were arguably legal", "political enemies framed him"],
-        explanation: "Kidd's backers in the English government abandoned him when the captures became politically embarrassing. His 1701 execution was likely a miscarriage of justice.",
-      },
-    ],
-  },
-  {
     id: "sci_volcanology",
     group: "Science",
     name: "Volcanology",
@@ -73753,92 +72635,6 @@ const CATEGORIES: Category[] = [
         answer: "A Judean date palm was grown from 2,000-year-old seeds found in ancient jars near the Dead Sea in Israel",
         acceptableAnswers: ["Judean date palm from 2000-year-old seeds", "a date palm from ancient seeds"],
         explanation: "The seeds, nicknamed Methuselah (male) and Hannah (female), were found during archaeological excavations and successfully germinated, reviving an extinct variety.",
-      },
-    ],
-  },
-  {
-    id: "cul_coffee_history",
-    group: "Culture",
-    name: "Coffee History",
-    culture: "universal",
-    description: "The global story of coffee — from Ethiopian legend to the coffeehouses that fueled revolutions, and the modern specialty coffee movement.",
-    imageUrl: "",
-    questions: [
-      {
-        id: "cof_200_01",
-        categoryId: "cul_coffee_history",
-        tier: 200,
-        prompt: "Which country is traditionally credited as the birthplace of coffee, where legend says a goat herder named Kaldi noticed his goats became energetic after eating certain berries?",
-        answer: "Ethiopia",
-        acceptableAnswers: [],
-      },
-      {
-        id: "cof_200_02",
-        categoryId: "cul_coffee_history",
-        tier: 200,
-        prompt: "An espresso is the foundation of many coffee drinks. What Italian word does 'espresso' translate to in English?",
-        answer: "Pressed out (or express)",
-        acceptableAnswers: ["pressed out", "express", "fast", "pressed"],
-      },
-      {
-        id: "cof_200_03",
-        categoryId: "cul_coffee_history",
-        tier: 200,
-        prompt: "What is the name of the most widely consumed coffee species, accounting for about 60-70% of world production?",
-        answer: "Arabica (Coffea arabica)",
-        acceptableAnswers: ["Arabica"],
-      },
-      {
-        id: "cof_400_01",
-        categoryId: "cul_coffee_history",
-        tier: 400,
-        prompt: "European coffeehouses in the 17th and 18th centuries were nicknamed 'penny universities.' Why?",
-        answer: "For the price of a penny cup of coffee, anyone could sit and engage in intellectual discussion, hear news, and debate ideas",
-        acceptableAnswers: ["cheap access to intellectual discussion", "you could learn and discuss for the price of a coffee"],
-      },
-      {
-        id: "cof_400_02",
-        categoryId: "cul_coffee_history",
-        tier: 400,
-        prompt: "What is the world's most expensive coffee, made from beans that have been eaten and excreted by a civet cat?",
-        answer: "Kopi Luwak",
-        acceptableAnswers: ["kopi luwak", "civet coffee"],
-        explanation: "The civet's digestive enzymes supposedly alter the beans' flavor profile. However, the industry has been criticized for animal cruelty and caged civet farming.",
-      },
-      {
-        id: "cof_400_03",
-        categoryId: "cul_coffee_history",
-        tier: 400,
-        prompt: "The Ottoman Empire played a crucial role in spreading coffee culture. What was the Turkish word for coffeehouse, and what cultural role did these establishments serve?",
-        answer: "Kahvehane — they served as centers of social life, news, music, chess, and political discussion",
-        acceptableAnswers: ["kahvehane", "kavehane"],
-        explanation: "Ottoman authorities periodically banned coffeehouses fearing they were breeding grounds for political dissent — a pattern that would repeat across Europe.",
-      },
-      {
-        id: "cof_600_01",
-        categoryId: "cul_coffee_history",
-        tier: 600,
-        prompt: "Brazil dominates global coffee production, but coffee is not native there. How did coffee arrive in Brazil, according to the popular historical account involving a Portuguese officer?",
-        answer: "Lieutenant Colonel Francisco de Melo Palheta was sent to French Guiana to mediate a border dispute and smuggled coffee seeds back, allegedly hidden in a bouquet of flowers given to him by the French governor's wife",
-        acceptableAnswers: ["smuggled from French Guiana", "Palheta smuggled seeds in flowers", "seeds hidden in a bouquet from French Guiana"],
-        explanation: "The 1727 incident is part legend, part history, but coffee cultivation in Brazil grew from these smuggled seeds into the world's largest coffee industry.",
-      },
-      {
-        id: "cof_600_02",
-        categoryId: "cul_coffee_history",
-        tier: 600,
-        prompt: "The 'Third Wave' of coffee refers to a movement that treats coffee as an artisanal product. What were the 'First Wave' and 'Second Wave'?",
-        answer: "First Wave was the mass commoditization of coffee (Folgers, Maxwell House). Second Wave was the rise of espresso-based drinks and coffeehouse culture (Starbucks, Peet's).",
-        acceptableAnswers: ["first wave was mass market coffee, second wave was Starbucks-style", "commodity coffee then specialty chains"],
-      },
-      {
-        id: "cof_600_03",
-        categoryId: "cul_coffee_history",
-        tier: 600,
-        prompt: "Coffee leaf rust (Hemileia vastatrix) devastated the world's coffee industry in the 19th century, permanently changing a major empire's drinking habits. What happened?",
-        answer: "Coffee rust destroyed Ceylon's (Sri Lanka's) coffee plantations in the 1870s, causing the British Empire to shift from coffee to tea — making tea Britain's national drink",
-        acceptableAnswers: ["it destroyed Ceylon's coffee and Britain switched to tea", "Sri Lanka's coffee was destroyed, Britain became a tea-drinking nation"],
-        explanation: "Ceylon was one of the world's top coffee producers until rust wiped out the crops. Planters replaced coffee with tea, and Britain's cultural identity as tea-drinkers was cemented.",
       },
     ],
   },
@@ -74113,7 +72909,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "",
     questions: [
       {
-        id: "inv_200_01",
+        id: "tiv_200_01",
         categoryId: "tv_invincible",
         tier: 200,
         prompt: "What is the superhero name of Mark Grayson, the teenage protagonist of Invincible?",
@@ -74121,7 +72917,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: [],
       },
       {
-        id: "inv_200_02",
+        id: "tiv_200_02",
         categoryId: "tv_invincible",
         tier: 200,
         prompt: "What is the name of Mark's father, the most powerful superhero on Earth who harbors a dark secret?",
@@ -74129,7 +72925,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Omni-Man", "Nolan"],
       },
       {
-        id: "inv_200_03",
+        id: "tiv_200_03",
         categoryId: "tv_invincible",
         tier: 200,
         prompt: "What alien race does Omni-Man belong to?",
@@ -74137,7 +72933,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Viltrumites"],
       },
       {
-        id: "inv_400_01",
+        id: "tiv_400_01",
         categoryId: "tv_invincible",
         tier: 400,
         prompt: "In the shocking Season 1 finale, Omni-Man reveals his true mission on Earth. What is it?",
@@ -74145,7 +72941,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["to conquer Earth for the Viltrumites", "prepare Earth for Viltrumite conquest"],
       },
       {
-        id: "inv_400_02",
+        id: "tiv_400_02",
         categoryId: "tv_invincible",
         tier: 400,
         prompt: "What is the name of the superhero team — Earth's equivalent of the Justice League — that Omni-Man brutally murders in the first episode?",
@@ -74154,7 +72950,7 @@ const CATEGORIES: Category[] = [
         explanation: "The massacre of the Guardians in the final minutes of Episode 1 is one of the most shocking reveals in animated TV history.",
       },
       {
-        id: "inv_400_03",
+        id: "tiv_400_03",
         categoryId: "tv_invincible",
         tier: 400,
         prompt: "Who voices Omni-Man in the animated series?",
@@ -74163,7 +72959,7 @@ const CATEGORIES: Category[] = [
         explanation: "Simmons's performance — switching between warm fatherly tones and cold Viltrumite brutality — is widely praised as career-defining voice work.",
       },
       {
-        id: "inv_600_01",
+        id: "tiv_600_01",
         categoryId: "tv_invincible",
         tier: 600,
         prompt: "Robert Kirkman, who created the Invincible comic, is also the creator of which other massively successful comic series that became a TV phenomenon?",
@@ -74172,7 +72968,7 @@ const CATEGORIES: Category[] = [
         explanation: "Kirkman created both series for Image Comics. Invincible ran for 144 issues (2003-2018) while The Walking Dead ran for 193 issues.",
       },
       {
-        id: "inv_600_02",
+        id: "tiv_600_02",
         categoryId: "tv_invincible",
         tier: 600,
         prompt: "In the comics, the Viltrumites' incredible power comes with a dark aspect to their civilization's history. What did they do to achieve their species' strength?",
@@ -74181,7 +72977,7 @@ const CATEGORIES: Category[] = [
         explanation: "This eugenics-driven history explains both Viltrumite strength and their small numbers, which becomes a critical plot point in the larger conflict.",
       },
       {
-        id: "inv_600_03",
+        id: "tiv_600_03",
         categoryId: "tv_invincible",
         tier: 600,
         prompt: "During the infamous train scene in the Season 1 finale, Omni-Man uses a specific, devastating method to try to break Mark's will. What does he do?",
@@ -74448,93 +73244,6 @@ const CATEGORIES: Category[] = [
         answer: "Nicolas Cage",
         acceptableAnswers: ["Nic Cage", "Nicholas Cage"],
         explanation: "Superman Lives spent years in development with Nicolas Cage in costume fittings. The film's collapse is documented in the documentary 'The Death of Superman Lives: What Happened?'",
-      },
-    ],
-  },
-  {
-    id: "mu_nin",
-    group: "Music",
-    name: "Nine Inch Nails",
-    culture: "american",
-    description: "Trent Reznor's industrial rock project that brought electronic aggression to the mainstream, from the raw fury of The Downward Spiral to his Oscar-winning film scores.",
-    imageUrl: "",
-    questions: [
-      {
-        id: "nin_200_01",
-        categoryId: "mu_nin",
-        tier: 200,
-        prompt: "Who is the sole permanent member and creative mastermind behind Nine Inch Nails?",
-        answer: "Trent Reznor",
-        acceptableAnswers: [],
-      },
-      {
-        id: "nin_200_02",
-        categoryId: "mu_nin",
-        tier: 200,
-        prompt: "What NIN song was covered by Johnny Cash in what many consider the greatest cover version of all time?",
-        answer: "Hurt",
-        acceptableAnswers: [],
-      },
-      {
-        id: "nin_200_03",
-        categoryId: "mu_nin",
-        tier: 200,
-        prompt: "What genre is Nine Inch Nails most associated with, blending electronic music with rock aggression?",
-        answer: "Industrial rock",
-        acceptableAnswers: ["industrial", "industrial metal"],
-      },
-      {
-        id: "nin_400_01",
-        categoryId: "mu_nin",
-        tier: 400,
-        prompt: "The Downward Spiral was recorded in a house in Beverly Hills with a notorious and disturbing history. What happened there?",
-        answer: "It was the house where members of the Manson Family murdered Sharon Tate and others in 1969",
-        acceptableAnswers: ["the Sharon Tate murder house", "Manson murders", "the Cielo Drive house where Sharon Tate was killed"],
-        explanation: "Reznor set up a studio he named Le Pig (referencing 'PIG' written in blood at the scene). He later said he regretted the decision, feeling it was exploitative.",
-      },
-      {
-        id: "nin_400_02",
-        categoryId: "mu_nin",
-        tier: 400,
-        prompt: "After a period of severe addiction and near-death, Reznor got sober and pivoted to film scoring. What was the first film he and collaborator Atticus Ross scored, winning them an Academy Award?",
-        answer: "The Social Network",
-        acceptableAnswers: [],
-        explanation: "The 2010 David Fincher film launched Reznor and Ross's second career. They've since scored Gone Girl, Mank, Soul (winning a second Oscar), and Challengers.",
-      },
-      {
-        id: "nin_400_03",
-        categoryId: "mu_nin",
-        tier: 400,
-        prompt: "NIN's 'Closer' became a controversial hit in 1994 due to its explicit opening line and disturbing music video. The video was so graphic that MTV could only air it during what time slot?",
-        answer: "Late night, and even then it was heavily edited with large portions replaced with black screens",
-        acceptableAnswers: ["late night with heavy edits", "only late at night, heavily censored"],
-      },
-      {
-        id: "nin_600_01",
-        categoryId: "mu_nin",
-        tier: 600,
-        prompt: "In 2007, Reznor pioneered a radical approach to music distribution. What did he do with the album 'Ghosts I-IV' and later 'The Slip' that was revolutionary for a major artist at the time?",
-        answer: "He released them independently for free (or pay-what-you-want) online after leaving his record label, making NIN one of the first major acts to embrace direct-to-fan digital distribution",
-        acceptableAnswers: ["released them for free online", "pay what you want release", "free digital release"],
-        explanation: "Reznor left Interscope Records and released Ghosts I-IV as a free/tiered download, and The Slip entirely free. This was months after Radiohead's In Rainbows experiment.",
-      },
-      {
-        id: "nin_600_02",
-        categoryId: "mu_nin",
-        tier: 600,
-        prompt: "The Fragile (1999) was a commercial disappointment compared to The Downward Spiral but is now considered NIN's masterpiece. What was unique about its structure?",
-        answer: "It was a sprawling double album (Left and Right discs) with ambient interludes connecting aggressive tracks, designed as a continuous emotional journey through depression and recovery",
-        acceptableAnswers: ["double album with Left and Right discs", "a double album designed as a continuous journey"],
-        explanation: "Initially seen as overindulgent, The Fragile has been re-evaluated as Reznor's most ambitious and nuanced work. The 2017 Definitive Edition remaster further cemented its reputation.",
-      },
-      {
-        id: "nin_600_03",
-        categoryId: "mu_nin",
-        tier: 600,
-        prompt: "Reznor created an elaborate alternate reality game (ARG) to promote the album 'Year Zero.' What dystopian premise did it depict, and how did fans discover the game?",
-        answer: "It depicted a 2022 American dystopia under a theocratic police state. Fans found USB drives planted at NIN concerts containing unreleased tracks and hidden websites, leading to a sprawling conspiracy narrative across dozens of websites.",
-        acceptableAnswers: ["dystopian future ARG, USB drives at concerts", "USB drives with songs hidden at concerts leading to fake websites"],
-        explanation: "The Year Zero ARG is considered one of the most ambitious and well-executed alternate reality games ever created, blurring the lines between marketing and art.",
       },
     ],
   },
@@ -74898,7 +73607,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "",
     questions: [
       {
-        id: "scd_200_01",
+        id: "tsd_200_01",
         categoryId: "tv_succession_deep",
         tier: 200,
         prompt: "What is the name of the massive media conglomerate that the Roy family controls in Succession?",
@@ -74906,7 +73615,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Waystar RoyCo"],
       },
       {
-        id: "scd_200_02",
+        id: "tsd_200_02",
         categoryId: "tv_succession_deep",
         tier: 200,
         prompt: "Who plays Logan Roy, the aging patriarch and founder of the Roy media empire?",
@@ -74914,7 +73623,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: [],
       },
       {
-        id: "scd_200_03",
+        id: "tsd_200_03",
         categoryId: "tv_succession_deep",
         tier: 200,
         prompt: "How many Roy siblings are in the core succession battle?",
@@ -74922,7 +73631,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["four", "4"],
       },
       {
-        id: "scd_400_01",
+        id: "tsd_400_01",
         categoryId: "tv_succession_deep",
         tier: 400,
         prompt: "Succession's Logan Roy is widely understood to be inspired by which real-world media mogul?",
@@ -74931,7 +73640,7 @@ const CATEGORIES: Category[] = [
         explanation: "Creator Jesse Armstrong drew on multiple moguls including Murdoch, Sumner Redstone, and Robert Maxwell, but Murdoch's Fox/News Corp empire is the clearest parallel.",
       },
       {
-        id: "scd_400_02",
+        id: "tsd_400_02",
         categoryId: "tv_succession_deep",
         tier: 400,
         prompt: "In Season 1, Kendall's hostile takeover attempt fails catastrophically. What personal tragedy at the end of the season puts him completely under Logan's control?",
@@ -74939,7 +73648,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["he kills someone in a car crash", "a car accident where a waiter dies", "he causes a drowning death"],
       },
       {
-        id: "scd_400_03",
+        id: "tsd_400_03",
         categoryId: "tv_succession_deep",
         tier: 400,
         prompt: "What catchphrase does Logan Roy use when he's disgusted with someone, becoming one of the show's most iconic recurring lines?",
@@ -74948,7 +73657,7 @@ const CATEGORIES: Category[] = [
         explanation: "Logan's profane dismissals became the show's signature. Brian Cox delivered the line with such varied contempt that each instance carried different weight.",
       },
       {
-        id: "scd_600_01",
+        id: "tsd_600_01",
         categoryId: "tv_succession_deep",
         tier: 600,
         prompt: "The Season 3 episode 'Too Much Birthday' is told primarily through a specific visual and narrative device at Kendall's 40th birthday party. What makes the episode's filmmaking distinctive?",
@@ -74956,7 +73665,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["it isolates Kendall visually from his own party", "the camera work emphasizes his loneliness at his birthday"],
       },
       {
-        id: "scd_600_02",
+        id: "tsd_600_02",
         categoryId: "tv_succession_deep",
         tier: 600,
         prompt: "In the series finale, the siblings must vote on whether to approve the sale of Waystar Royco to GoJo. What decisive moment shatters the siblings' alliance and determines the outcome?",
@@ -74965,7 +73674,7 @@ const CATEGORIES: Category[] = [
         explanation: "The hand touch is one of the most discussed moments in the finale — a gesture of love and destruction simultaneously, as Shiv decides her brother cannot be trusted with power.",
       },
       {
-        id: "scd_600_03",
+        id: "tsd_600_03",
         categoryId: "tv_succession_deep",
         tier: 600,
         prompt: "Jesse Armstrong revealed that the Succession writers' room had a specific rule about the show's ending. What was it?",
@@ -75505,7 +74214,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "",
     questions: [
       {
-        id: "for_200_01",
+        id: "sfr_200_01",
         categoryId: "sci_forensics",
         tier: 200,
         prompt: "What type of evidence, unique to every individual except identical twins, revolutionized criminal identification after it was first used in a 1986 UK murder case?",
@@ -75513,7 +74222,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["DNA", "DNA fingerprinting"],
       },
       {
-        id: "for_200_02",
+        id: "sfr_200_02",
         categoryId: "sci_forensics",
         tier: 200,
         prompt: "What are the unique ridge patterns on the tips of your fingers called, which have been used for criminal identification since the late 1800s?",
@@ -75521,7 +74230,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: [],
       },
       {
-        id: "for_200_03",
+        id: "sfr_200_03",
         categoryId: "sci_forensics",
         tier: 200,
         prompt: "What is the study of insects found on decomposing remains called, used to estimate time of death?",
@@ -75529,7 +74238,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["entomology"],
       },
       {
-        id: "for_400_01",
+        id: "sfr_400_01",
         categoryId: "sci_forensics",
         tier: 400,
         prompt: "The 'CSI Effect' is a well-documented phenomenon. What is it?",
@@ -75537,7 +74246,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["jurors expect TV-level forensic evidence", "juries expect CSI-like evidence in real cases"],
       },
       {
-        id: "for_400_02",
+        id: "sfr_400_02",
         categoryId: "sci_forensics",
         tier: 400,
         prompt: "Luminol is a chemical used at crime scenes that reacts with hemoglobin in blood. What does it produce when it contacts blood?",
@@ -75546,7 +74255,7 @@ const CATEGORIES: Category[] = [
         explanation: "Luminol can detect blood that has been cleaned or diluted, even years after the fact. However, it can also react with other substances, producing false positives.",
       },
       {
-        id: "for_400_03",
+        id: "sfr_400_03",
         categoryId: "sci_forensics",
         tier: 400,
         prompt: "What are the four primary stages of decomposition that forensic pathologists use to help estimate time of death?",
@@ -75554,7 +74263,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["fresh, bloat, decay, skeletonization", "fresh, bloat, active decay, dry/skeletal"],
       },
       {
-        id: "for_600_01",
+        id: "sfr_600_01",
         categoryId: "sci_forensics",
         tier: 600,
         prompt: "Sir Alec Jeffreys developed DNA fingerprinting at the University of Leicester. What was the first criminal case it was used to solve, and what unexpected result did it produce?",
@@ -75563,7 +74272,7 @@ const CATEGORIES: Category[] = [
         explanation: "Richard Buckland had confessed but DNA cleared him — the first DNA exoneration. Colin Pitchfork was caught when he convinced someone to take the DNA test in his place.",
       },
       {
-        id: "for_600_02",
+        id: "sfr_600_02",
         categoryId: "sci_forensics",
         tier: 600,
         prompt: "The 'Body Farm' is a famous forensic research facility. What is its official name, where is it located, and what is studied there?",
@@ -75572,7 +74281,7 @@ const CATEGORIES: Category[] = [
         explanation: "Founded by William Bass in 1981, it was the first facility of its kind. Donated bodies are placed in various conditions and studied as they decompose.",
       },
       {
-        id: "for_600_03",
+        id: "sfr_600_03",
         categoryId: "sci_forensics",
         tier: 600,
         prompt: "Bite mark analysis was once considered reliable forensic evidence but has since been largely discredited. What was the landmark case that helped expose its unreliability?",
@@ -76529,7 +75238,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "",
     questions: [
       {
-        id: "reg_200_01",
+        id: "rgt_200_01",
         categoryId: "mu_reggae_roots",
         tier: 200,
         prompt: "Who is considered the 'King of Reggae' and brought the genre to worldwide attention with albums like 'Exodus'?",
@@ -76537,7 +75246,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: [],
       },
       {
-        id: "reg_200_02",
+        id: "rgt_200_02",
         categoryId: "mu_reggae_roots",
         tier: 200,
         prompt: "Reggae music is closely associated with which spiritual movement from Jamaica?",
@@ -76545,7 +75254,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Rastafarianism", "Rasta"],
       },
       {
-        id: "reg_200_03",
+        id: "rgt_200_03",
         categoryId: "mu_reggae_roots",
         tier: 200,
         prompt: "What is the characteristic rhythmic pattern of reggae guitar, where the emphasis falls on the offbeat?",
@@ -76553,7 +75262,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["offbeat rhythm", "the skank", "offbeat guitar"],
       },
       {
-        id: "reg_400_01",
+        id: "rgt_400_01",
         categoryId: "mu_reggae_roots",
         tier: 400,
         prompt: "Reggae evolved through two earlier Jamaican genres before taking its final form. What were they, and in what order did they develop?",
@@ -76561,7 +75270,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["ska then rocksteady then reggae", "ska and rocksteady"],
       },
       {
-        id: "reg_400_02",
+        id: "rgt_400_02",
         categoryId: "mu_reggae_roots",
         tier: 400,
         prompt: "What is dub music, and who is considered its pioneer?",
@@ -76569,7 +75278,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["remixed reggae with heavy effects, King Tubby", "King Tubby pioneered dub"],
       },
       {
-        id: "reg_400_03",
+        id: "rgt_400_03",
         categoryId: "mu_reggae_roots",
         tier: 400,
         prompt: "The sound system culture of Jamaica was crucial to reggae's development. What is a sound system?",
@@ -76577,7 +75286,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["mobile DJ setup with huge speakers for street parties", "large outdoor music system with DJs"],
       },
       {
-        id: "reg_600_01",
+        id: "rgt_600_01",
         categoryId: "mu_reggae_roots",
         tier: 600,
         prompt: "Lee 'Scratch' Perry is one of reggae's most influential and eccentric producers. What was the name of his famous studio, and what did he eventually do to it?",
@@ -76586,7 +75295,7 @@ const CATEGORIES: Category[] = [
         explanation: "Before its destruction, the Black Ark produced some of reggae's most innovative recordings using primitive equipment. Perry's production techniques influenced dub, punk, and hip-hop.",
       },
       {
-        id: "reg_600_02",
+        id: "rgt_600_02",
         categoryId: "mu_reggae_roots",
         tier: 600,
         prompt: "The Wailers (Bob Marley's band) originally included two other members who were stars in their own right. Who were they, and why did they eventually leave?",
@@ -76594,7 +75303,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Peter Tosh and Bunny Wailer", "Tosh and Bunny left over Marley getting more attention"],
       },
       {
-        id: "reg_600_03",
+        id: "rgt_600_03",
         categoryId: "mu_reggae_roots",
         tier: 600,
         prompt: "In 1976, an assassination attempt was made on Bob Marley just days before a planned 'Smile Jamaica' concert. What happened, and what did Marley do?",
@@ -77626,7 +76335,7 @@ const CATEGORIES: Category[] = [
     imageUrl: "",
     questions: [
       {
-        id: "ocd_200_01",
+        id: "ode_200_01",
         categoryId: "sci_ocean_depths",
         tier: 200,
         prompt: "What is the deepest point in the Earth's oceans, located in the Mariana Trench?",
@@ -77634,7 +76343,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: [],
       },
       {
-        id: "ocd_200_02",
+        id: "ode_200_02",
         categoryId: "sci_ocean_depths",
         tier: 200,
         prompt: "Approximately what percentage of the ocean floor has been mapped in high resolution?",
@@ -77642,7 +76351,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["about 20-25%", "less than 25%", "around 20%"],
       },
       {
-        id: "ocd_200_03",
+        id: "ode_200_03",
         categoryId: "sci_ocean_depths",
         tier: 200,
         prompt: "What do deep-sea creatures use to produce their own light in the pitch-black depths?",
@@ -77650,7 +76359,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: [],
       },
       {
-        id: "ocd_400_01",
+        id: "ode_400_01",
         categoryId: "sci_ocean_depths",
         tier: 400,
         prompt: "Hydrothermal vents, discovered in 1977, shattered a fundamental assumption about life on Earth. What did they prove?",
@@ -77658,7 +76367,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["life doesn't need sunlight", "chemosynthesis-based life", "life can survive without the sun"],
       },
       {
-        id: "ocd_400_02",
+        id: "ode_400_02",
         categoryId: "sci_ocean_depths",
         tier: 400,
         prompt: "The giant squid was considered a myth for centuries. When was the first footage of a living giant squid captured in its natural deep-sea habitat?",
@@ -77667,7 +76376,7 @@ const CATEGORIES: Category[] = [
         explanation: "Despite centuries of washed-up specimens and sperm whale stomach contents, no one had filmed a living giant squid in the deep ocean until a Japanese-led expedition succeeded.",
       },
       {
-        id: "ocd_400_03",
+        id: "ode_400_03",
         categoryId: "sci_ocean_depths",
         tier: 400,
         prompt: "What is the 'hadal zone' of the ocean?",
@@ -77675,7 +76384,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["ocean below 6000 meters", "the deepest zone, in ocean trenches"],
       },
       {
-        id: "ocd_600_01",
+        id: "ode_600_01",
         categoryId: "sci_ocean_depths",
         tier: 600,
         prompt: "Only three people have reached the bottom of Challenger Deep. Who were the first two, and in what year?",
@@ -77684,7 +76393,7 @@ const CATEGORIES: Category[] = [
         explanation: "Victor Vescovo later made multiple dives to Challenger Deep in 2019, but Piccard and Walsh's achievement in the Trieste — essentially a pressurized steel ball suspended under a gasoline-filled float — remains one of exploration's greatest feats.",
       },
       {
-        id: "ocd_600_02",
+        id: "ode_600_02",
         categoryId: "sci_ocean_depths",
         tier: 600,
         prompt: "The 'bloop' was a mysterious ultra-low-frequency sound detected by NOAA hydrophones in 1997. What was it eventually determined to be?",
@@ -77693,7 +76402,7 @@ const CATEGORIES: Category[] = [
         explanation: "The Bloop was originally mysterious because it was far louder than any known biological source. For years, it fueled speculation about undiscovered marine megafauna before NOAA matched it to ice seismology.",
       },
       {
-        id: "ocd_600_03",
+        id: "ode_600_03",
         categoryId: "sci_ocean_depths",
         tier: 600,
         prompt: "In 2020, scientists discovered plastic pollution had reached the deepest point of every ocean. What specific item was found at the bottom of the Mariana Trench?",
@@ -77871,25 +76580,6 @@ const CATEGORIES: Category[] = [
     ],
   },
 
-  {
-    id: "tv_peaky",
-    group: "tv",
-    name: "Peaky Blinders",
-    culture: "universal",
-    description: "By order of the Peaky Blinders — Shelby family empire from Small Heath to Parliament.",
-    imageUrl: "",
-    questions: [
-      { id: "pky_200_01", categoryId: "tv_peaky", tier: 200, prompt: "What city in England is the Shelby family based in?", answer: "Birmingham", acceptableAnswers: ["Birmingham, England"], explanation: "The Peaky Blinders operate out of Small Heath, Birmingham." },
-      { id: "pky_200_02", categoryId: "tv_peaky", tier: 200, prompt: "What is sewn into the peak of the Peaky Blinders' caps that gives them their name?", answer: "Razor blades", acceptableAnswers: ["Razors", "Razor blade"], explanation: "The gang's signature weapon, hidden in the brims of their flat caps." },
-      { id: "pky_200_03", categoryId: "tv_peaky", tier: 200, prompt: "Which actor plays Thomas Shelby?", answer: "Cillian Murphy", explanation: "Murphy's portrayal of the calculating gang leader became iconic." },
-      { id: "pky_400_01", categoryId: "tv_peaky", tier: 400, prompt: "What is the name of the gypsy curse that Polly and Tommy reference throughout the series?", answer: "The Sapphire", acceptableAnswers: ["Sapphire", "The Blue Sapphire"], explanation: "Romani mysticism runs through the Shelby family's beliefs." },
-      { id: "pky_400_02", categoryId: "tv_peaky", tier: 400, prompt: "Which real historical figure does Tommy Shelby meet at a boxing match, leading to a political alliance in Series 2?", answer: "Alfie Solomons", acceptableAnswers: ["Alfie"], explanation: "Tom Hardy's Alfie Solomons, the Camden Town gang leader, becomes a recurring frenemy." },
-      { id: "pky_400_03", categoryId: "tv_peaky", tier: 400, prompt: "What legitimate business does Tommy acquire to launder money and gain respectability in Series 1?", answer: "The Garrison pub", acceptableAnswers: ["The Garrison", "Garrison pub", "Garrison"], explanation: "The pub becomes the Shelbys' base and a symbol of their rise." },
-      { id: "pky_600_01", categoryId: "tv_peaky", tier: 600, prompt: "In Series 3, what is the name of the Russian duchess Tommy becomes involved with as part of a jewel heist plot?", answer: "Tatiana Petrovna", acceptableAnswers: ["Tatiana", "Duchess Tatiana"], explanation: "The Russian aristocrat draws Tommy into an international intrigue with stolen jewels." },
-      { id: "pky_600_02", categoryId: "tv_peaky", tier: 600, prompt: "What specific war trauma does Tommy experience that manifests as him digging tunnels in his sleep?", answer: "He was a tunneler (sapper) in France during WWI", acceptableAnswers: ["Tunneling", "Sapper", "Clay Kickers", "Tunneler in WWI"], explanation: "Tommy served as a sapper digging under enemy lines, leaving him with severe PTSD." },
-      { id: "pky_600_03", categoryId: "tv_peaky", tier: 600, prompt: "What is the name of Aberama Gold's son who is killed by the Billy Boys, sparking a vendetta in Series 5?", answer: "Bonnie Gold", acceptableAnswers: ["Bonnie"], explanation: "Bonnie's murder by the Scottish razor gang becomes a major plot catalyst." },
-    ],
-  },
   {
     id: "tv_fargo",
     group: "tv",
@@ -78357,15 +77047,15 @@ const CATEGORIES: Category[] = [
     description: "Miles, Coltrane, and the art of musical freedom.",
     imageUrl: "",
     questions: [
-      { id: "jzz_200_01", categoryId: "mu_jazz_legends", tier: 200, prompt: "What New Orleans-born trumpeter is often called the most important figure in jazz history and was known as 'Satchmo'?", answer: "Louis Armstrong", acceptableAnswers: ["Armstrong", "Satchmo"], explanation: "Armstrong's innovations in improvisation and vocal style shaped all of popular music." },
-      { id: "jzz_200_02", categoryId: "mu_jazz_legends", tier: 200, prompt: "What US city is considered the birthplace of jazz?", answer: "New Orleans", acceptableAnswers: ["New Orleans, Louisiana"], explanation: "Jazz emerged from New Orleans' unique cultural mix of African, Caribbean, and European traditions." },
-      { id: "jzz_200_03", categoryId: "mu_jazz_legends", tier: 200, prompt: "What legendary Miles Davis album, often called the best-selling jazz record of all time, features a modal approach to jazz composition?", answer: "Kind of Blue", explanation: "Kind of Blue (1959) has sold over 5 million copies and changed jazz forever." },
-      { id: "jzz_400_01", categoryId: "mu_jazz_legends", tier: 400, prompt: "What style of jazz, characterized by fast tempos and complex harmonies, emerged in the 1940s as a reaction against swing?", answer: "Bebop", acceptableAnswers: ["Bebop", "Bop"], explanation: "Charlie Parker and Dizzy Gillespie pioneered bebop, transforming jazz from dance music to art music." },
-      { id: "jzz_400_02", categoryId: "mu_jazz_legends", tier: 400, prompt: "What John Coltrane album, featuring extended spiritual improvisations, is considered one of the most important and influential jazz albums ever recorded?", answer: "A Love Supreme", explanation: "A Love Supreme (1964) is Coltrane's spiritual masterpiece, a four-part suite dedicated to God." },
-      { id: "jzz_400_03", categoryId: "mu_jazz_legends", tier: 400, prompt: "What female jazz vocalist, known as 'The First Lady of Song,' was famous for her scat singing and perfect pitch?", answer: "Ella Fitzgerald", acceptableAnswers: ["Fitzgerald", "Ella"], explanation: "Fitzgerald's vocal range and improvisational scat singing set the standard for jazz vocalists." },
-      { id: "jzz_600_01", categoryId: "mu_jazz_legends", tier: 600, prompt: "What was Miles Davis's 'electric period,' and why did it alienate jazz purists while influencing rock and funk?", answer: "Starting with 'Bitches Brew' (1970), Davis incorporated electric instruments, rock rhythms, and studio processing — jazz purists called it a betrayal, but it created jazz fusion and influenced bands like Radiohead", acceptableAnswers: ["Bitches Brew electric fusion", "Electric instruments starting with Bitches Brew", "Jazz-rock fusion era from 1970"], explanation: "Davis's refusal to look backward made him the genre's most restless innovator." },
-      { id: "jzz_600_02", categoryId: "mu_jazz_legends", tier: 600, prompt: "What is 'free jazz,' who pioneered it, and why did it cause literal fistfights at performances?", answer: "Ornette Coleman pioneered free jazz — improvisation with no predetermined chord changes, melody, or tempo. Its radical abandonment of structure caused audience fights and divided the jazz world", acceptableAnswers: ["Ornette Coleman's structureless improvisation", "Coleman's free improvisation without rules", "No-structure jazz by Ornette Coleman"], explanation: "Coleman's 1960 album 'Free Jazz' gave the movement its name and remains controversial." },
-      { id: "jzz_600_03", categoryId: "mu_jazz_legends", tier: 600, prompt: "What was Thelonious Monk's unique approach to piano technique that other musicians initially dismissed as incompetent?", answer: "Monk used dissonant clusters, angular melodies, and deliberate 'wrong' notes that sounded like mistakes but were precisely intentional — he'd lift his fingers flat and strike with unusual hand positions", acceptableAnswers: ["Deliberate dissonance and 'wrong' notes", "Angular playing dismissed as mistakes", "Intentional dissonant technique"], explanation: "What critics called incompetence was a revolutionary harmonic approach that influenced all modern jazz." },
+      { id: "jzl_200_01", categoryId: "mu_jazz_legends", tier: 200, prompt: "What New Orleans-born trumpeter is often called the most important figure in jazz history and was known as 'Satchmo'?", answer: "Louis Armstrong", acceptableAnswers: ["Armstrong", "Satchmo"], explanation: "Armstrong's innovations in improvisation and vocal style shaped all of popular music." },
+      { id: "jzl_200_02", categoryId: "mu_jazz_legends", tier: 200, prompt: "What US city is considered the birthplace of jazz?", answer: "New Orleans", acceptableAnswers: ["New Orleans, Louisiana"], explanation: "Jazz emerged from New Orleans' unique cultural mix of African, Caribbean, and European traditions." },
+      { id: "jzl_200_03", categoryId: "mu_jazz_legends", tier: 200, prompt: "What legendary Miles Davis album, often called the best-selling jazz record of all time, features a modal approach to jazz composition?", answer: "Kind of Blue", explanation: "Kind of Blue (1959) has sold over 5 million copies and changed jazz forever." },
+      { id: "jzl_400_01", categoryId: "mu_jazz_legends", tier: 400, prompt: "What style of jazz, characterized by fast tempos and complex harmonies, emerged in the 1940s as a reaction against swing?", answer: "Bebop", acceptableAnswers: ["Bebop", "Bop"], explanation: "Charlie Parker and Dizzy Gillespie pioneered bebop, transforming jazz from dance music to art music." },
+      { id: "jzl_400_02", categoryId: "mu_jazz_legends", tier: 400, prompt: "What John Coltrane album, featuring extended spiritual improvisations, is considered one of the most important and influential jazz albums ever recorded?", answer: "A Love Supreme", explanation: "A Love Supreme (1964) is Coltrane's spiritual masterpiece, a four-part suite dedicated to God." },
+      { id: "jzl_400_03", categoryId: "mu_jazz_legends", tier: 400, prompt: "What female jazz vocalist, known as 'The First Lady of Song,' was famous for her scat singing and perfect pitch?", answer: "Ella Fitzgerald", acceptableAnswers: ["Fitzgerald", "Ella"], explanation: "Fitzgerald's vocal range and improvisational scat singing set the standard for jazz vocalists." },
+      { id: "jzl_600_01", categoryId: "mu_jazz_legends", tier: 600, prompt: "What was Miles Davis's 'electric period,' and why did it alienate jazz purists while influencing rock and funk?", answer: "Starting with 'Bitches Brew' (1970), Davis incorporated electric instruments, rock rhythms, and studio processing — jazz purists called it a betrayal, but it created jazz fusion and influenced bands like Radiohead", acceptableAnswers: ["Bitches Brew electric fusion", "Electric instruments starting with Bitches Brew", "Jazz-rock fusion era from 1970"], explanation: "Davis's refusal to look backward made him the genre's most restless innovator." },
+      { id: "jzl_600_02", categoryId: "mu_jazz_legends", tier: 600, prompt: "What is 'free jazz,' who pioneered it, and why did it cause literal fistfights at performances?", answer: "Ornette Coleman pioneered free jazz — improvisation with no predetermined chord changes, melody, or tempo. Its radical abandonment of structure caused audience fights and divided the jazz world", acceptableAnswers: ["Ornette Coleman's structureless improvisation", "Coleman's free improvisation without rules", "No-structure jazz by Ornette Coleman"], explanation: "Coleman's 1960 album 'Free Jazz' gave the movement its name and remains controversial." },
+      { id: "jzl_600_03", categoryId: "mu_jazz_legends", tier: 600, prompt: "What was Thelonious Monk's unique approach to piano technique that other musicians initially dismissed as incompetent?", answer: "Monk used dissonant clusters, angular melodies, and deliberate 'wrong' notes that sounded like mistakes but were precisely intentional — he'd lift his fingers flat and strike with unusual hand positions", acceptableAnswers: ["Deliberate dissonance and 'wrong' notes", "Angular playing dismissed as mistakes", "Intentional dissonant technique"], explanation: "What critics called incompetence was a revolutionary harmonic approach that influenced all modern jazz." },
     ],
   },
   {
@@ -78404,25 +77094,6 @@ const CATEGORIES: Category[] = [
       { id: "pxr_600_01", categoryId: "mv_pixar", tier: 600, prompt: "What is the 'Pixar Braintrust,' and how does its feedback process differ from traditional studio notes?", answer: "A group of directors and storytellers who give candid feedback on films in development — crucially, the director is NOT obligated to take their advice, unlike traditional studio mandates", acceptableAnswers: ["Creative feedback group with non-binding notes", "Directors group giving optional candid feedback", "Feedback without authority to mandate changes"], explanation: "The key innovation is that feedback has no authority — the director decides what to use." },
       { id: "pxr_600_02", categoryId: "mv_pixar", tier: 600, prompt: "What is the 'Pixar theory' that connects every Pixar film into a single timeline, and what film is theorized to be the chronological endpoint?", answer: "A fan theory placing all Pixar films in one universe; Monsters, Inc. is theorized to take place in the far future where animals and objects evolved sentience (from Brave's magic) and humans are gone — the doors access past timelines", acceptableAnswers: ["Connected universe theory, Monsters Inc is the future", "All films linked, Monsters Inc as far future", "Pixar connected universe"], explanation: "Jon Negroni's theory maps an elaborate timeline from Brave (earliest) to Monsters, Inc. (latest)." },
       { id: "pxr_600_03", categoryId: "mv_pixar", tier: 600, prompt: "What was the production crisis behind 'Ratatouille' that resulted in director Brad Bird being brought in to essentially remake the film?", answer: "Original director Jan Pinkava was replaced after years of development; Brad Bird rewrote and redirected the film in a compressed timeline, keeping the rat-who-cooks concept but rebuilding virtually everything else", acceptableAnswers: ["Director replaced, Brad Bird rebuilt the film", "Jan Pinkava replaced by Brad Bird who remade it", "Director swap and complete overhaul"], explanation: "Bird's ability to rescue the troubled production while maintaining quality is considered a remarkable feat." },
-    ],
-  },
-  {
-    id: "his_world_war_2",
-    group: "history",
-    name: "World War II",
-    culture: "universal",
-    description: "The conflict that reshaped the world — 1939 to 1945.",
-    imageUrl: "",
-    questions: [
-      { id: "ww2_200_01", categoryId: "his_world_war_2", tier: 200, prompt: "What was D-Day, and on which beaches in what country did the Allied invasion take place?", answer: "June 6, 1944 — the Allied invasion of Normandy, France across five beaches (Utah, Omaha, Gold, Juno, Sword)", acceptableAnswers: ["Normandy invasion", "June 6 1944 Normandy France", "Allied invasion of France"], explanation: "D-Day was the largest amphibious military operation in history." },
-      { id: "ww2_200_02", categoryId: "his_world_war_2", tier: 200, prompt: "What event on December 7, 1941 brought the United States into World War II?", answer: "The Japanese attack on Pearl Harbor", acceptableAnswers: ["Pearl Harbor", "Attack on Pearl Harbor", "Pearl Harbor bombing"], explanation: "The surprise attack on the US naval base in Hawaii killed over 2,400 Americans." },
-      { id: "ww2_200_03", categoryId: "his_world_war_2", tier: 200, prompt: "What were the two atomic bombs dropped on Japan called, and on which cities?", answer: "Little Boy on Hiroshima and Fat Man on Nagasaki", acceptableAnswers: ["Hiroshima and Nagasaki", "Little Boy and Fat Man"], explanation: "The bombings in August 1945 led to Japan's surrender and the end of the war." },
-      { id: "ww2_400_01", categoryId: "his_world_war_2", tier: 400, prompt: "What was the Battle of Stalingrad, and why is it considered the turning point of the war on the Eastern Front?", answer: "A brutal 5-month battle (1942-43) where the Soviet Union surrounded and destroyed Germany's 6th Army — it was Germany's first major defeat and the beginning of their retreat", acceptableAnswers: ["Soviet victory destroying German 6th Army", "Germany's first major defeat", "5-month siege turning point"], explanation: "Stalingrad was the bloodiest battle in human history, with nearly 2 million casualties." },
-      { id: "ww2_400_02", categoryId: "his_world_war_2", tier: 400, prompt: "What was the Enigma machine, and how did its breaking affect the war?", answer: "A German cipher machine used to encrypt military communications; British codebreakers at Bletchley Park (led by Alan Turing) cracked it, giving the Allies access to German plans", acceptableAnswers: ["German code machine cracked by Turing", "Encryption machine broken at Bletchley Park", "Nazi cipher cracked by British"], explanation: "Breaking Enigma is estimated to have shortened the war by two years." },
-      { id: "ww2_400_03", categoryId: "his_world_war_2", tier: 400, prompt: "What was the Holocaust, and approximately how many people were systematically murdered?", answer: "The Nazi regime's systematic genocide of six million Jews and millions of others including Roma, disabled people, and political prisoners", acceptableAnswers: ["Nazi genocide of 6 million Jews", "Systematic murder of 6 million Jews and millions of others"], explanation: "The Holocaust was industrialized mass murder on an unprecedented scale." },
-      { id: "ww2_600_01", categoryId: "his_world_war_2", tier: 600, prompt: "What was Operation Mincemeat, and how did it use a dead body to deceive the Germans?", answer: "British intelligence dressed a corpse as a fictional officer carrying fake invasion plans suggesting the Allies would invade Greece and Sardinia instead of Sicily — Germany moved troops away from Sicily, enabling the real invasion", acceptableAnswers: ["Fake officer corpse with false invasion plans", "Dead body with fake plans fooled Germany", "Corpse deception for Sicily invasion"], explanation: "One of history's most audacious deceptions, using a dead homeless man to change the war." },
-      { id: "ww2_600_02", categoryId: "his_world_war_2", tier: 600, prompt: "What was the 'Ghost Army' in WWII, and what unconventional methods did they use?", answer: "The US 23rd Headquarters Special Troops used inflatable tanks, sound effects broadcast from speakers, and fake radio traffic to simulate entire army divisions and mislead German intelligence", acceptableAnswers: ["Inflatable tanks and fake army", "Deception unit with inflatable equipment", "US unit using rubber tanks and sound effects"], explanation: "The Ghost Army successfully fooled German forces multiple times using theatrical deception." },
-      { id: "ww2_600_03", categoryId: "his_world_war_2", tier: 600, prompt: "What was Japan's Unit 731, and why was its post-war handling considered one of history's greatest moral failures?", answer: "A secret Japanese biological warfare unit that conducted lethal human experiments on thousands of prisoners; after the war, the US granted immunity to its scientists in exchange for their research data", acceptableAnswers: ["Japanese biological warfare human experiments, US gave immunity", "Human experiments, scientists got immunity for data", "Biological warfare unit, US traded immunity for research"], explanation: "Unit 731's atrocities were covered up for decades because the US valued the research data." },
     ],
   },
   {
@@ -78614,25 +77285,6 @@ const CATEGORIES: Category[] = [
       { id: "tqd_600_01", categoryId: "mv_tarantino_deep", tier: 600, prompt: "What is Tarantino's stated plan for his career, and why does the number 10 matter?", answer: "Tarantino has said he will only direct 10 films total and then retire — he believes directors get worse with age and wants to quit while ahead. 'Once Upon a Time in Hollywood' was his 9th; 'The Movie Critic' was announced then shelved as his potential 10th", acceptableAnswers: ["Only 10 films then retire", "Retirement after 10 films", "10-film career limit"], explanation: "Whether he'll actually stop is debated, but the self-imposed limit reflects his philosophy about artistic decline." },
       { id: "tqd_600_02", categoryId: "mv_tarantino_deep", tier: 600, prompt: "What is the 'Sicilian scene' in 'True Romance' (written by Tarantino, directed by Tony Scott), and why is it considered a masterclass in screenwriting?", answer: "Dennis Hopper's character, knowing he's about to be killed by the mob, deliberately insults Sicilians with a false story about their Moorish ancestry to provoke Christopher Walken into killing him quickly — he turns his death into an act of defiance to protect his son", acceptableAnswers: ["Hopper insults Walken to provoke quick death", "Sicilian ancestry monologue to protect his son", "Suicidal insult scene to save his son"], explanation: "The scene is Tarantino's purest demonstration of how dialogue can be more violent than any gunfight." },
       { id: "tqd_600_03", categoryId: "mv_tarantino_deep", tier: 600, prompt: "In 'Once Upon a Time in Hollywood,' how does Tarantino's alternate ending to the Manson murders function as a statement about cinema's relationship to real-world violence?", answer: "Instead of murdering Sharon Tate, the Manson family members accidentally enter Rick Dalton's house and are violently killed by Dalton and Cliff Booth — Tarantino uses cinema to 'save' Tate, arguing that movies can create justice that reality denied. It echoes Inglourious Basterds' alternate WWII ending", acceptableAnswers: ["Manson family killed instead of Tate", "Cinema rewrites history to save Tate", "Movies create justice reality denied"], explanation: "Tarantino's revisionist history argues that cinema is powerful enough to rewrite our worst tragedies." },
-    ],
-  },
-  {
-    id: "sci_ocean",
-    group: "science",
-    name: "Ocean Science & Marine Biology",
-    culture: "universal",
-    description: "The deep blue — covering 71% of Earth and 95% unexplored.",
-    imageUrl: "",
-    questions: [
-      { id: "ocn_200_01", categoryId: "sci_ocean", tier: 200, prompt: "What percentage of Earth's surface is covered by ocean?", answer: "About 71%", acceptableAnswers: ["71%", "About 70%", "71 percent"], explanation: "Despite covering most of Earth, over 80% of the ocean remains unmapped and unexplored." },
-      { id: "ocn_200_02", categoryId: "sci_ocean", tier: 200, prompt: "What is the deepest known point in the ocean, located in the Mariana Trench?", answer: "Challenger Deep", acceptableAnswers: ["Challenger Deep", "The Challenger Deep"], explanation: "Challenger Deep reaches about 36,000 feet (11,000 meters) — deeper than Mount Everest is tall." },
-      { id: "ocn_200_03", categoryId: "sci_ocean", tier: 200, prompt: "What ocean phenomenon involves large-scale movement of warm or cold water that affects global weather patterns?", answer: "Ocean currents (such as El Niño/La Niña or the Gulf Stream)", acceptableAnswers: ["Ocean currents", "El Niño", "Gulf Stream", "Ocean circulation"], explanation: "Ocean currents distribute heat around the planet and drive weather patterns." },
-      { id: "ocn_400_01", categoryId: "sci_ocean", tier: 400, prompt: "What are hydrothermal vents, and why did their discovery change our understanding of where life can exist?", answer: "Volcanic openings on the ocean floor that emit superheated, mineral-rich water — they support entire ecosystems without sunlight, using chemosynthesis instead of photosynthesis", acceptableAnswers: ["Volcanic deep-sea vents supporting life without sunlight", "Deep-sea hot vents with chemosynthetic life", "Undersea volcanic vents with unique ecosystems"], explanation: "Their discovery proved life doesn't need sunlight, expanding the search for life on other worlds." },
-      { id: "ocn_400_02", categoryId: "sci_ocean", tier: 400, prompt: "What is bioluminescence, and approximately what percentage of deep-sea creatures can produce their own light?", answer: "The ability of organisms to produce light through chemical reactions — roughly 76% of deep-sea creatures are bioluminescent", acceptableAnswers: ["Chemical light production, about 76%", "Living things making light, majority of deep sea", "Biological light, most deep-sea animals"], explanation: "Bioluminescence is the norm, not the exception, in the deep ocean." },
-      { id: "ocn_400_03", categoryId: "sci_ocean", tier: 400, prompt: "What is the 'Great Pacific Garbage Patch,' and how big is it?", answer: "A massive concentration of floating plastic debris in the North Pacific, estimated at roughly twice the size of Texas — though most of it is microplastics invisible to the eye, not a solid island of trash", acceptableAnswers: ["Pacific plastic debris field, twice Texas size", "Huge plastic accumulation zone", "Plastic debris twice the size of Texas"], explanation: "The 'patch' is misleading — it's more like a dispersed plastic soup than a visible island." },
-      { id: "ocn_600_01", categoryId: "sci_ocean", tier: 600, prompt: "What is the 'biological pump' in oceanography, and why is it critical for climate regulation?", answer: "The process where marine organisms near the surface absorb CO2, die, and sink to the deep ocean — effectively sequestering carbon for centuries. Without this pump, atmospheric CO2 would be significantly higher", acceptableAnswers: ["Marine organisms sinking carbon to deep ocean", "Dead organisms sequestering CO2 in deep sea", "Biological carbon sequestration via sinking organisms"], explanation: "The biological pump is one of Earth's most important carbon sinks, removing billions of tons of CO2." },
-      { id: "ocn_600_02", categoryId: "sci_ocean", tier: 600, prompt: "What is 'ocean acidification,' and why is it sometimes called climate change's 'evil twin'?", answer: "The ocean absorbs about 30% of atmospheric CO2, which dissolves to form carbonic acid, lowering pH. This makes it harder for organisms like corals, shellfish, and plankton to build calcium carbonate shells — threatening the base of marine food chains", acceptableAnswers: ["CO2 absorption lowering ocean pH", "Dissolving shells from absorbed CO2", "Acid from CO2 destroying shell-building organisms"], explanation: "Ocean acidification is happening 100 times faster than any natural change in the past 55 million years." },
-      { id: "ocn_600_03", categoryId: "sci_ocean", tier: 600, prompt: "What is the 'thermohaline circulation' (sometimes called the global ocean conveyor belt), and what could cause it to collapse?", answer: "A global system of deep ocean currents driven by differences in water temperature and salinity — cold, salty water sinks in the North Atlantic, driving global circulation. Melting Arctic ice adds fresh water, potentially weakening or shutting down the system, which would dramatically alter European climate", acceptableAnswers: ["Global current system that could collapse from Arctic ice melt", "Temperature/salt driven circulation threatened by freshwater", "Conveyor belt shutdown from melting ice"], explanation: "AMOC (Atlantic Meridional Overturning Circulation) weakening is one of climate science's most concerning tipping points." },
     ],
   },
 
@@ -78827,25 +77479,6 @@ const CATEGORIES: Category[] = [
       { id: "ren_600_03", categoryId: "his_renaissance", tier: 600, prompt: "How did the Black Death (1347-1351) paradoxically help cause the Renaissance?", answer: "The plague killed 30-60% of Europe's population, creating labor shortages that gave survivors more economic power. Wealth concentrated among fewer people, the Church's authority weakened (it couldn't explain or stop the plague), and the trauma prompted a cultural shift toward humanism — valuing earthly life rather than just preparing for the afterlife", acceptableAnswers: ["Plague gave survivors more wealth and weakened Church authority", "Labor shortage plus weakened Church enabled humanism", "Death created wealth concentration and secular thinking"], explanation: "The Renaissance was partially born from catastrophe — the plague shattered medieval assumptions." },
     ],
   },
-  {
-    id: "sci_genetics",
-    group: "science",
-    name: "Genetics & DNA",
-    culture: "universal",
-    description: "The code of life — from Mendel's peas to CRISPR gene editing.",
-    imageUrl: "",
-    questions: [
-      { id: "gen_200_01", categoryId: "sci_genetics", tier: 200, prompt: "What molecule carries the genetic instructions for all living organisms?", answer: "DNA (deoxyribonucleic acid)", acceptableAnswers: ["DNA", "Deoxyribonucleic acid"], explanation: "DNA's double helix structure stores the blueprint for building and maintaining organisms." },
-      { id: "gen_200_02", categoryId: "sci_genetics", tier: 200, prompt: "What shape is a DNA molecule — the structure discovered by Watson and Crick?", answer: "A double helix (twisted ladder)", acceptableAnswers: ["Double helix", "Twisted ladder", "Spiral"], explanation: "Watson and Crick's 1953 discovery of the double helix was one of science's greatest breakthroughs." },
-      { id: "gen_200_03", categoryId: "sci_genetics", tier: 200, prompt: "What are genes, and approximately how many does a human have?", answer: "Segments of DNA that code for proteins/traits — humans have approximately 20,000-25,000 genes", acceptableAnswers: ["DNA segments for traits, about 20000-25000", "About 20000 genes", "20-25 thousand"], explanation: "Surprisingly, humans have roughly the same number of genes as a mouse." },
-      { id: "gen_400_01", categoryId: "sci_genetics", tier: 400, prompt: "What is CRISPR-Cas9, and why is it considered revolutionary for genetics?", answer: "A gene-editing tool that can precisely cut and modify DNA at specific locations — it's faster, cheaper, and more accurate than any previous method, enabling targeted treatment of genetic diseases", acceptableAnswers: ["Precise gene editing tool", "DNA cutting and editing technology", "Targeted gene modification tool"], explanation: "CRISPR has been compared to 'molecular scissors' that let scientists edit the code of life." },
-      { id: "gen_400_02", categoryId: "sci_genetics", tier: 400, prompt: "What did the Human Genome Project accomplish, and when was it completed?", answer: "It mapped the entire human genome (all 3 billion base pairs of human DNA) — completed in 2003 after 13 years of international collaboration", acceptableAnswers: ["Mapped all human DNA, completed 2003", "Sequenced 3 billion base pairs by 2003", "Complete human genome map in 2003"], explanation: "The project cost $2.7 billion; today the same sequencing costs under $1,000." },
-      { id: "gen_400_03", categoryId: "sci_genetics", tier: 400, prompt: "What is epigenetics, and how does it challenge the idea that 'DNA is destiny'?", answer: "Epigenetics studies how behaviors and environment can change the way genes are expressed without altering the DNA sequence — genes can be turned on or off by experiences, diet, stress, and even trauma, and some of these changes can be inherited", acceptableAnswers: ["Gene expression changes without DNA changes", "Environment affecting gene activation", "Genes turned on/off by experience"], explanation: "Epigenetics shows that nature AND nurture work together through gene expression." },
-      { id: "gen_600_01", categoryId: "sci_genetics", tier: 600, prompt: "What was Rosalind Franklin's contribution to discovering DNA's structure, and why is her story considered one of science's greatest injustices?", answer: "Franklin's X-ray crystallography image ('Photo 51') provided the crucial evidence for DNA's helical structure — Watson and Crick used her data (shown to them by her colleague Wilkins without her knowledge) but she received no credit. She died of cancer at 37, and the Nobel Prize went to Watson, Crick, and Wilkins", acceptableAnswers: ["Photo 51 used without credit, no Nobel", "X-ray image proving helix used without permission", "Franklin's data taken, Nobel went to Watson/Crick"], explanation: "Franklin's exclusion from recognition is one of the most cited examples of women's contributions being erased from science." },
-      { id: "gen_600_02", categoryId: "sci_genetics", tier: 600, prompt: "What is the 'junk DNA' controversy, and how did the ENCODE project challenge the idea that 98% of DNA is useless?", answer: "Only ~2% of DNA codes for proteins, so the rest was called 'junk.' The ENCODE project (2012) claimed ~80% of DNA has some biochemical function. This remains controversial — critics argue ENCODE's definition of 'function' was too broad, and much of the genome may indeed be non-functional evolutionary leftovers", acceptableAnswers: ["98% was called junk, ENCODE said 80% has function, still debated", "Non-coding DNA debate between junk and function", "ENCODE claimed most DNA functional, still controversial"], explanation: "The debate reveals how much we still don't understand about our own genome." },
-      { id: "gen_600_03", categoryId: "sci_genetics", tier: 600, prompt: "What was the 'He Jiankui affair' in 2018, and why did it shock the scientific world?", answer: "Chinese scientist He Jiankui used CRISPR to edit the embryos of twin girls (Lulu and Nana) to resist HIV — creating the world's first gene-edited humans. He was universally condemned because: the procedure was medically unnecessary, consent was questionable, the editing was imprecise with potential off-target effects, and he acted secretly without peer review. He was imprisoned for three years", acceptableAnswers: ["Created first gene-edited babies, was imprisoned", "CRISPR babies condemned as unethical", "Edited embryos for HIV resistance, imprisoned"], explanation: "The incident forced a global reckoning about the ethics of human germline editing." },
-    ],
-  },
 
   {
     id: "tv_house_of_dragon",
@@ -78874,15 +77507,15 @@ const CATEGORIES: Category[] = [
     description: "This is the way — a bounty hunter and a tiny green Force-user.",
     imageUrl: "",
     questions: [
-      { id: "mnd_200_01", categoryId: "tv_mandalorian", tier: 200, prompt: "What is the adorable green creature that the Mandalorian protects, initially known to fans as 'Baby Yoda'?", answer: "Grogu", acceptableAnswers: ["Grogu", "Baby Yoda", "The Child"], explanation: "Grogu's real name wasn't revealed until Season 2, after a year of 'Baby Yoda' mania." },
-      { id: "mnd_200_02", categoryId: "tv_mandalorian", tier: 200, prompt: "What is the Mandalorian's real name?", answer: "Din Djarin", acceptableAnswers: ["Din Djarin", "Din"], explanation: "Pedro Pascal plays Din Djarin, a Mandalorian bounty hunter." },
-      { id: "mnd_200_03", categoryId: "tv_mandalorian", tier: 200, prompt: "What phrase serves as the Mandalorian creed and is repeated throughout the series?", answer: "This is the way", explanation: "The phrase represents the Mandalorian code of conduct and honor." },
-      { id: "mnd_400_01", categoryId: "tv_mandalorian", tier: 400, prompt: "What is the Darksaber, and why is it significant to Mandalorian culture?", answer: "An ancient black-bladed lightsaber created by the first Mandalorian Jedi — whoever wields it has a legitimate claim to rule Mandalore, but it must be won in combat, not given", acceptableAnswers: ["Black lightsaber, ruler of Mandalore must win it in combat", "Ancient Mandalorian lightsaber granting leadership", "Black lightsaber won through combat for rulership"], explanation: "The Darksaber's rule of combat-earned succession creates major plot complications." },
-      { id: "mnd_400_02", categoryId: "tv_mandalorian", tier: 400, prompt: "What technology does the show use to create photorealistic virtual sets instead of green screens?", answer: "The Volume — a massive LED screen wall (StageCraft by ILM) that displays real-time rendered environments, allowing actors to interact with photorealistic backgrounds", acceptableAnswers: ["The Volume", "StageCraft LED walls", "LED virtual production"], explanation: "The Volume revolutionized film production and has been adopted across the industry." },
-      { id: "mnd_400_03", categoryId: "tv_mandalorian", tier: 400, prompt: "Which beloved Star Wars character makes a surprise appearance at the end of Season 2 to take Grogu for Jedi training?", answer: "Luke Skywalker (digitally de-aged Mark Hamill)", acceptableAnswers: ["Luke Skywalker", "Luke"], explanation: "The CGI Luke reveal became one of the most talked-about TV moments of 2020." },
-      { id: "mnd_600_01", categoryId: "tv_mandalorian", tier: 600, prompt: "What is the 'Children of the Watch' vs mainstream Mandalorian culture debate, and how does it recontextualize Din Djarin's beliefs?", answer: "Din's sect (Children of the Watch) follows extreme orthodox rules like never removing your helmet — most Mandalorians (like Bo-Katan) consider this a fringe cult. Din discovers his entire worldview is based on an extremist interpretation of Mandalorian culture", acceptableAnswers: ["Din's sect is extremist, mainstream Mandos remove helmets", "Children of the Watch are fundamentalists", "His helmet rule is cult-like, not mainstream"], explanation: "The reveal challenges Din's identity — everything he believed about being Mandalorian was a radical interpretation." },
-      { id: "mnd_600_02", categoryId: "tv_mandalorian", tier: 600, prompt: "How does the show's episodic 'adventure of the week' format deliberately mirror classic Westerns and samurai films?", answer: "Each episode follows a lone gunfighter arriving in a troubled town, solving problems, and moving on — directly referencing Kurosawa's 'Yojimbo,' Sergio Leone's 'Man with No Name' trilogy, and the TV show 'Kung Fu.' Jon Favreau has called it a 'space Western'", acceptableAnswers: ["Lone gunfighter Western/samurai format", "Space Western mirroring Kurosawa and Leone", "Adventure-of-week like classic Westerns"], explanation: "The Mandalorian revived the Star Wars franchise by returning to its Western and samurai roots." },
-      { id: "mnd_600_03", categoryId: "tv_mandalorian", tier: 600, prompt: "What was the production challenge of keeping Grogu's existence secret before the premiere, and how did Lucasfilm accomplish it?", answer: "No merchandise was produced before launch (sacrificing hundreds of millions in holiday sales), the character wasn't in any marketing materials, and the puppet was hidden on set under the code name 'the asset' — even many crew members didn't know what was under the blanket between takes", acceptableAnswers: ["No merch made, hidden from marketing and crew", "Sacrificed merchandise revenue for secrecy", "Code named 'the asset,' hidden from crew"], explanation: "Disney deliberately forfeited a holiday merchandise season to preserve the surprise — unprecedented for a franchise this size." },
+      { id: "mlo_200_01", categoryId: "tv_mandalorian", tier: 200, prompt: "What is the adorable green creature that the Mandalorian protects, initially known to fans as 'Baby Yoda'?", answer: "Grogu", acceptableAnswers: ["Grogu", "Baby Yoda", "The Child"], explanation: "Grogu's real name wasn't revealed until Season 2, after a year of 'Baby Yoda' mania." },
+      { id: "mlo_200_02", categoryId: "tv_mandalorian", tier: 200, prompt: "What is the Mandalorian's real name?", answer: "Din Djarin", acceptableAnswers: ["Din Djarin", "Din"], explanation: "Pedro Pascal plays Din Djarin, a Mandalorian bounty hunter." },
+      { id: "mlo_200_03", categoryId: "tv_mandalorian", tier: 200, prompt: "What phrase serves as the Mandalorian creed and is repeated throughout the series?", answer: "This is the way", explanation: "The phrase represents the Mandalorian code of conduct and honor." },
+      { id: "mlo_400_01", categoryId: "tv_mandalorian", tier: 400, prompt: "What is the Darksaber, and why is it significant to Mandalorian culture?", answer: "An ancient black-bladed lightsaber created by the first Mandalorian Jedi — whoever wields it has a legitimate claim to rule Mandalore, but it must be won in combat, not given", acceptableAnswers: ["Black lightsaber, ruler of Mandalore must win it in combat", "Ancient Mandalorian lightsaber granting leadership", "Black lightsaber won through combat for rulership"], explanation: "The Darksaber's rule of combat-earned succession creates major plot complications." },
+      { id: "mlo_400_02", categoryId: "tv_mandalorian", tier: 400, prompt: "What technology does the show use to create photorealistic virtual sets instead of green screens?", answer: "The Volume — a massive LED screen wall (StageCraft by ILM) that displays real-time rendered environments, allowing actors to interact with photorealistic backgrounds", acceptableAnswers: ["The Volume", "StageCraft LED walls", "LED virtual production"], explanation: "The Volume revolutionized film production and has been adopted across the industry." },
+      { id: "mlo_400_03", categoryId: "tv_mandalorian", tier: 400, prompt: "Which beloved Star Wars character makes a surprise appearance at the end of Season 2 to take Grogu for Jedi training?", answer: "Luke Skywalker (digitally de-aged Mark Hamill)", acceptableAnswers: ["Luke Skywalker", "Luke"], explanation: "The CGI Luke reveal became one of the most talked-about TV moments of 2020." },
+      { id: "mlo_600_01", categoryId: "tv_mandalorian", tier: 600, prompt: "What is the 'Children of the Watch' vs mainstream Mandalorian culture debate, and how does it recontextualize Din Djarin's beliefs?", answer: "Din's sect (Children of the Watch) follows extreme orthodox rules like never removing your helmet — most Mandalorians (like Bo-Katan) consider this a fringe cult. Din discovers his entire worldview is based on an extremist interpretation of Mandalorian culture", acceptableAnswers: ["Din's sect is extremist, mainstream Mandos remove helmets", "Children of the Watch are fundamentalists", "His helmet rule is cult-like, not mainstream"], explanation: "The reveal challenges Din's identity — everything he believed about being Mandalorian was a radical interpretation." },
+      { id: "mlo_600_02", categoryId: "tv_mandalorian", tier: 600, prompt: "How does the show's episodic 'adventure of the week' format deliberately mirror classic Westerns and samurai films?", answer: "Each episode follows a lone gunfighter arriving in a troubled town, solving problems, and moving on — directly referencing Kurosawa's 'Yojimbo,' Sergio Leone's 'Man with No Name' trilogy, and the TV show 'Kung Fu.' Jon Favreau has called it a 'space Western'", acceptableAnswers: ["Lone gunfighter Western/samurai format", "Space Western mirroring Kurosawa and Leone", "Adventure-of-week like classic Westerns"], explanation: "The Mandalorian revived the Star Wars franchise by returning to its Western and samurai roots." },
+      { id: "mlo_600_03", categoryId: "tv_mandalorian", tier: 600, prompt: "What was the production challenge of keeping Grogu's existence secret before the premiere, and how did Lucasfilm accomplish it?", answer: "No merchandise was produced before launch (sacrificing hundreds of millions in holiday sales), the character wasn't in any marketing materials, and the puppet was hidden on set under the code name 'the asset' — even many crew members didn't know what was under the blanket between takes", acceptableAnswers: ["No merch made, hidden from marketing and crew", "Sacrificed merchandise revenue for secrecy", "Code named 'the asset,' hidden from crew"], explanation: "Disney deliberately forfeited a holiday merchandise season to preserve the surprise — unprecedented for a franchise this size." },
     ],
   },
   {
@@ -79077,25 +77710,6 @@ const CATEGORIES: Category[] = [
     ],
   },
   {
-    id: "his_ottoman_empire",
-    group: "history",
-    name: "The Ottoman Empire",
-    culture: "universal",
-    description: "600 years — from Osman's dream to Atatürk's republic.",
-    imageUrl: "",
-    questions: [
-      { id: "ott_200_01", categoryId: "his_ottoman_empire", tier: 200, prompt: "What was the capital of the Ottoman Empire after the conquest of Constantinople in 1453?", answer: "Constantinople (later renamed Istanbul)", acceptableAnswers: ["Constantinople", "Istanbul", "Constantinople/Istanbul"], explanation: "The Ottomans renamed Constantinople to Istanbul, making it one of the world's great cities." },
-      { id: "ott_200_02", categoryId: "his_ottoman_empire", tier: 200, prompt: "What title did the Ottoman ruler hold, equivalent to emperor?", answer: "Sultan", explanation: "The Sultan held both political and religious authority as leader of the Islamic world." },
-      { id: "ott_200_03", categoryId: "his_ottoman_empire", tier: 200, prompt: "Approximately how long did the Ottoman Empire last?", answer: "About 600 years (1299-1922)", acceptableAnswers: ["600 years", "Over 600 years", "1299 to 1922"], explanation: "One of the longest-lasting empires in history, spanning three continents." },
-      { id: "ott_400_01", categoryId: "his_ottoman_empire", tier: 400, prompt: "What was the 'millet system,' and how did it allow the Ottoman Empire to govern diverse religious communities?", answer: "A system where non-Muslim communities (Christians, Jews) governed their own internal affairs — including education, religious practice, and family law — under their own religious leaders, while paying a special tax (jizya)", acceptableAnswers: ["Religious communities governing themselves under own leaders", "Self-governance for non-Muslim communities with tax", "Minority religious autonomy system"], explanation: "The millet system allowed remarkable religious diversity within an Islamic empire." },
-      { id: "ott_400_02", categoryId: "his_ottoman_empire", tier: 400, prompt: "What was the Janissary corps, and what controversial recruitment method created it?", answer: "The Sultan's elite infantry — originally recruited through the devshirme system, where Christian boys from the Balkans were taken, converted to Islam, and trained as soldiers or administrators. They became the empire's most powerful military force", acceptableAnswers: ["Christian boys taken and converted into elite soldiers", "Devshirme system creating elite troops", "Converted Christian boys as Sultan's army"], explanation: "The Janissaries evolved from slaves into the empire's most influential political-military force." },
-      { id: "ott_400_03", categoryId: "his_ottoman_empire", tier: 400, prompt: "Who was Suleiman the Magnificent, and why is his reign considered the Ottoman golden age?", answer: "Sultan who reigned 1520-1566, expanding the empire to its greatest extent, reforming law, and patronizing art and architecture — under him, the empire reached from Hungary to Yemen and North Africa", acceptableAnswers: ["Greatest sultan, expanded empire and reformed law", "Golden age ruler 1520-1566", "Sultan who brought empire to its peak"], explanation: "In the Islamic world, he's known as Suleiman the Lawgiver for his legal reforms." },
-      { id: "ott_600_01", categoryId: "his_ottoman_empire", tier: 600, prompt: "What was the 'Kafes' (the Cage), and how did it affect Ottoman succession?", answer: "After fratricide among princes became too destabilizing, later sultans locked potential heirs in isolated palace apartments (the Kafes) for years or decades. Many went insane from confinement. When a sultan died, the heir emerged from the Cage often mentally broken, contributing to the empire's decline", acceptableAnswers: ["Imprisoned princes in palace isolation causing insanity", "Heirs locked away going mad from confinement", "Royal cage system producing mentally broken sultans"], explanation: "The Kafes solved the problem of succession warfare but created a new one: insane rulers." },
-      { id: "ott_600_02", categoryId: "his_ottoman_empire", tier: 600, prompt: "What was the 'Tanzimat' reform period (1839-1876), and why did it ultimately fail to save the empire?", answer: "A series of modernizing reforms guaranteeing equality regardless of religion, modernizing education, and creating constitutional government. It failed because conservative religious elements resisted secularization, European powers used minority rights as pretexts for intervention, and reforms came too late to counter nationalist movements in the Balkans and Middle East", acceptableAnswers: ["Modernization reforms undermined by resistance and nationalism", "Failed modernization due to conservative and nationalist opposition", "Too-late reforms couldn't stop nationalist breakaway"], explanation: "The Tanzimat represents the empire's last serious attempt to reinvent itself before collapse." },
-      { id: "ott_600_03", categoryId: "his_ottoman_empire", tier: 600, prompt: "How did the Ottoman Empire's entry into World War I lead to its dissolution, and what modern nations emerged from its collapse?", answer: "The Ottomans allied with Germany and lost — the Treaty of Sèvres (1920) carved the empire into mandates and spheres of influence. Modern Turkey (under Atatürk), Iraq, Syria, Lebanon, Jordan, Palestine/Israel, Saudi Arabia, and others all emerged from Ottoman territory. The arbitrary borders drawn by Britain and France continue to cause conflict today", acceptableAnswers: ["Allied with Germany, lost, carved into modern nations", "WWI loss led to Middle East borders still causing conflict", "Empire carved into modern states with problematic borders"], explanation: "The Sykes-Picot Agreement and Sèvres partition created the modern Middle East's political geography." },
-    ],
-  },
-  {
     id: "tv_penny",
     group: "TV Shows",
     name: "Penny Dreadful",
@@ -79229,25 +77843,6 @@ const CATEGORIES: Category[] = [
     ]
   },
   {
-    id: "his_silk_d",
-    group: "History & Culture",
-    name: "The Silk Road (Deep Cut)",
-    culture: "universal",
-    description: "The ancient trade networks connecting East and West — beyond the basics",
-    imageUrl: "",
-    questions: [
-      { id: "srd_200_01", categoryId: "his_silk_d", tier: 200, prompt: "What Chinese dynasty first established formal Silk Road trade by sending Zhang Qian westward as an envoy?", answer: "Han Dynasty", acceptableAnswers: ["Han", "Han Dynasty"], explanation: "Zhang Qian's diplomatic mission in 138 BC opened trade routes that would define Eurasian commerce for centuries." },
-      { id: "srd_200_02", categoryId: "his_silk_d", tier: 200, prompt: "Besides silk, what other Chinese invention was carefully guarded as a trade secret for centuries along the Silk Road?", answer: "Paper / papermaking", acceptableAnswers: ["Paper", "Papermaking", "Paper making"], explanation: "The secret of papermaking was closely guarded until the Battle of Talas in 751 AD when Arab forces captured Chinese papermakers." },
-      { id: "srd_200_03", categoryId: "his_silk_d", tier: 200, prompt: "What ancient city in modern Uzbekistan was a major Silk Road hub known for its stunning Islamic architecture?", answer: "Samarkand", acceptableAnswers: ["Samarkand", "Samarqand"], explanation: "Samarkand sat at the crossroads of trade routes and became one of the wealthiest cities in Central Asia." },
-      { id: "srd_400_01", categoryId: "his_silk_d", tier: 400, prompt: "What devastating pandemic spread along Silk Road trade routes in the 14th century, killing roughly a third of Europe's population?", answer: "The Black Death / Bubonic Plague", acceptableAnswers: ["Black Death", "Bubonic Plague", "The Plague", "Black Plague"], explanation: "The plague traveled along trade routes from Central Asia to Europe, demonstrating how trade networks could spread disease." },
-      { id: "srd_400_02", categoryId: "his_silk_d", tier: 400, prompt: "What system did the Mongol Empire establish to protect and facilitate Silk Road trade, including relay stations every 25-30 miles?", answer: "The Yam / Örtöö postal relay system", acceptableAnswers: ["Yam", "Yam system", "Örtöö", "Postal relay system"], explanation: "The Yam system of relay stations provided fresh horses, food, and shelter, enabling rapid communication across the vast Mongol Empire." },
-      { id: "srd_400_03", categoryId: "his_silk_d", tier: 400, prompt: "What religion spread from India to China primarily via Silk Road missionaries and merchants, transforming East Asian culture?", answer: "Buddhism", explanation: "Buddhist monks and merchants carried their faith along the Silk Road, establishing monasteries and cave temples like Dunhuang." },
-      { id: "srd_600_01", categoryId: "his_silk_d", tier: 600, prompt: "What specific event at the Battle of Talas in 751 AD led to the spread of papermaking technology to the Islamic world?", answer: "Arab Abbasid forces captured Chinese papermakers/craftsmen who revealed the manufacturing process", acceptableAnswers: ["Captured Chinese papermakers", "Chinese craftsmen were captured", "Papermakers captured at Talas"], explanation: "Chinese prisoners of war skilled in papermaking shared their knowledge, leading to paper mills in Samarkand and eventually throughout the Islamic world." },
-      { id: "srd_600_02", categoryId: "his_silk_d", tier: 600, prompt: "What Sogdian merchant network dominated Silk Road trade from the 4th to 8th centuries, creating a commercial diaspora from China to Byzantium?", answer: "The Sogdian trade network / Sogdian merchants", acceptableAnswers: ["Sogdians", "Sogdian merchants", "Sogdian trade network"], explanation: "Sogdian merchants from modern-day Uzbekistan/Tajikistan created the most extensive commercial network on the ancient Silk Road, with colonies in every major city." },
-      { id: "srd_600_03", categoryId: "his_silk_d", tier: 600, prompt: "What cache of ancient manuscripts was discovered in Cave 17 at the Mogao Grottoes near Dunhuang in 1900, revealing centuries of Silk Road history?", answer: "The Dunhuang manuscripts / Library Cave", acceptableAnswers: ["Dunhuang manuscripts", "Library Cave", "Cave 17 manuscripts", "Dunhuang Library Cave"], explanation: "The sealed Library Cave contained over 40,000 manuscripts in multiple languages dating from the 5th to 11th centuries, including the oldest printed book (Diamond Sutra)." }
-    ]
-  },
-  {
     id: "sci_volcanoes",
     group: "Science & Nature",
     name: "Volcanoes & Geological Forces",
@@ -79344,25 +77939,6 @@ const CATEGORIES: Category[] = [
     ]
   },
   {
-    id: "vg_outer_wilds_d",
-    group: "Video Games",
-    name: "Outer Wilds (Deep Cut)",
-    culture: "universal",
-    description: "The time-loop space exploration mystery — for those who've solved it all",
-    imageUrl: "",
-    questions: [
-      { id: "owd_200_01", categoryId: "vg_outer_wilds_d", tier: 200, prompt: "What species are the player character and the other travelers in Outer Wilds?", answer: "Hearthians", acceptableAnswers: ["Hearthians", "Hearthian"], explanation: "The Hearthians are a four-eyed amphibian species who built a space program using wooden ships and determination." },
-      { id: "owd_200_02", categoryId: "vg_outer_wilds_d", tier: 200, prompt: "What event causes the time loop that resets every 22 minutes?", answer: "The sun goes supernova / explodes", acceptableAnswers: ["Sun explodes", "Supernova", "The sun goes supernova", "Sun supernova"], explanation: "Every loop ends with the sun exploding, killing the player and resetting time — the central mystery is discovering why." },
-      { id: "owd_200_03", categoryId: "vg_outer_wilds_d", tier: 200, prompt: "What ancient alien species left ruins and writings throughout the solar system?", answer: "The Nomai", acceptableAnswers: ["Nomai", "The Nomai"], explanation: "The Nomai were brilliant, curious aliens whose writings guide the player to understand the nature of the universe and the time loop." },
-      { id: "owd_400_01", categoryId: "vg_outer_wilds_d", tier: 400, prompt: "What is the Ash Twin Project and what role does it play in the time loop?", answer: "A Nomai facility on Ash Twin that sends memories back in time using the energy of the supernova, creating the time loop", acceptableAnswers: ["Sends memories back in time", "Memory projection using supernova", "Nomai facility creating the loop"], explanation: "The Ash Twin Project harnesses the supernova's energy to send the player's memories back 22 minutes, creating the subjective experience of a time loop." },
-      { id: "owd_400_02", categoryId: "vg_outer_wilds_d", tier: 400, prompt: "What is the Eye of the Universe, and why were the Nomai searching for it?", answer: "An ancient signal older than the universe itself that the Nomai detected and traveled to this solar system to find", acceptableAnswers: ["Signal older than the universe", "Ancient signal the Nomai tracked", "Quantum signal predating the universe"], explanation: "The Eye of the Universe sent a signal predating the Big Bang, and the Nomai's entire journey to this solar system was to locate and understand it." },
-      { id: "owd_400_03", categoryId: "vg_outer_wilds_d", tier: 400, prompt: "What happens to Dark Bramble's interior that makes it larger on the inside than the outside?", answer: "It exists in a pocket of warped spacetime / non-Euclidean space where interior dimensions exceed exterior ones", acceptableAnswers: ["Non-Euclidean space", "Larger on the inside", "Warped spacetime"], explanation: "Dark Bramble's seeds contain pocket dimensions larger than the seed itself, creating a terrifying labyrinth infested with anglerfish." },
-      { id: "owd_600_01", categoryId: "vg_outer_wilds_d", tier: 600, prompt: "What specific quantum mechanic rule governs the Quantum Moon — why does it change position when you look away?", answer: "It exists in superposition across all planets simultaneously and collapses to one location only when observed, following the game's quantum observation rules", acceptableAnswers: ["Quantum superposition", "Collapses when observed", "Superposition across all planets"], explanation: "The Quantum Moon orbits all planets simultaneously until observed, at which point it 'collapses' to one position — a game mechanic mirroring real quantum physics." },
-      { id: "owd_600_02", categoryId: "vg_outer_wilds_d", tier: 600, prompt: "What is the significance of the 'sixth location' of the Quantum Moon, and what do you find there?", answer: "The Eye of the Universe — reaching the Quantum Moon's sixth location (orbiting the Eye) reveals the Nomai Solanum and confirms the Eye's existence", acceptableAnswers: ["The Eye of the Universe", "Sixth location orbits the Eye", "Solanum at the Eye"], explanation: "By reaching the Quantum Moon's sixth location, you meet Solanum, a Nomai who exists in quantum superposition, and confirm the Eye of the Universe is real." },
-      { id: "owd_600_03", categoryId: "vg_outer_wilds_d", tier: 600, prompt: "In the Echoes of the Eye DLC, what is the Stranger, and what secret were the Owlks trying to hide from the universe?", answer: "A cloaked ringworld hiding a device that blocked the Eye's signal; the Owlks feared the Eye would end the universe and tried to prevent anyone from reaching it", acceptableAnswers: ["Cloaked ringworld blocking the Eye's signal", "Owlks blocking the Eye", "Device to block Eye signal"], explanation: "The Owlks built a signal blocker after seeing a vision of the universe ending at the Eye, then sealed themselves in a virtual afterlife to guard their secret forever." }
-    ]
-  },
-  {
     id: "mv_horror_mod",
     group: "Movies",
     name: "Modern Horror Cinema",
@@ -79408,15 +77984,15 @@ const CATEGORIES: Category[] = [
     description: "The organisms that live in, on, or at the expense of others — nature's most cunning survivors",
     imageUrl: "",
     questions: [
-      { id: "par_200_01", categoryId: "sci_parasites", tier: 200, prompt: "What single-celled parasite transmitted by mosquitoes causes malaria, killing hundreds of thousands annually?", answer: "Plasmodium", acceptableAnswers: ["Plasmodium", "Plasmodium falciparum"], explanation: "Plasmodium falciparum is the deadliest of five species causing human malaria, responsible for over 600,000 deaths per year." },
-      { id: "par_200_02", categoryId: "sci_parasites", tier: 200, prompt: "What common cat-associated parasite can infect humans and has been linked to behavioral changes in rodents and possibly people?", answer: "Toxoplasma gondii", acceptableAnswers: ["Toxoplasma", "Toxoplasma gondii", "Toxo"], explanation: "Toxoplasma gondii infects roughly one-third of humans worldwide and can only sexually reproduce in cat intestines." },
-      { id: "par_200_03", categoryId: "sci_parasites", tier: 200, prompt: "What is the term for an organism that benefits from a host without significantly harming it?", answer: "Commensal / commensalism", acceptableAnswers: ["Commensal", "Commensalism"], explanation: "Commensalism sits on the spectrum between mutualism (both benefit) and parasitism (one benefits at the other's expense)." },
-      { id: "par_400_01", categoryId: "sci_parasites", tier: 400, prompt: "What parasitic worm can grow up to 30 feet long inside the human intestine and is contracted from undercooked beef or pork?", answer: "Tapeworm (Taenia saginata or Taenia solium)", acceptableAnswers: ["Tapeworm", "Taenia", "Taenia saginata", "Taenia solium"], explanation: "Tapeworms can live in the human gut for decades, growing segments that are shed and continue the life cycle." },
-      { id: "par_400_02", categoryId: "sci_parasites", tier: 400, prompt: "What is the parasitic strategy called where a parasite manipulates its host's behavior to increase its own transmission to the next host?", answer: "Parasite-induced behavioral manipulation / adaptive manipulation", acceptableAnswers: ["Behavioral manipulation", "Parasite manipulation", "Adaptive manipulation", "Host manipulation"], explanation: "Classic examples include Toxoplasma making rats attracted to cats and hairworms driving crickets to drown themselves in water." },
-      { id: "par_400_03", categoryId: "sci_parasites", tier: 400, prompt: "What parasitic barnacle hijacks crabs by growing root-like tendrils throughout their body and controlling their behavior, even making male crabs care for parasite eggs?", answer: "Sacculina", acceptableAnswers: ["Sacculina", "Sacculina carcini"], explanation: "Sacculina feminizes male crabs and hijacks their reproductive behavior, making them nurture parasite egg sacs as if they were their own." },
-      { id: "par_600_01", categoryId: "sci_parasites", tier: 600, prompt: "What is the Red Queen hypothesis, and how does it explain the evolutionary arms race between parasites and hosts?", answer: "Hosts and parasites must constantly evolve just to maintain their relative fitness, like running to stay in place; this may explain why sexual reproduction persists despite its costs", acceptableAnswers: ["Constant evolution to maintain fitness", "Co-evolutionary arms race", "Running in place evolution"], explanation: "Named after Alice in Wonderland's Red Queen, the hypothesis suggests parasites drive the evolution of sexual reproduction by constantly selecting against common genotypes." },
-      { id: "par_600_02", categoryId: "sci_parasites", tier: 600, prompt: "How does the lancet liver fluke (Dicrocoelium dendriticum) complete its three-host life cycle, and what specific ant behavior does it induce?", answer: "It makes infected ants climb to the top of grass blades at night and clamp their jaws shut, making them more likely to be eaten by grazing cattle or sheep", acceptableAnswers: ["Ants climb grass and lock jaws", "Makes ants climb grass blades", "Ant jaw-locking on grass"], explanation: "The fluke's larval stage invades the ant's brain, specifically its subesophageal ganglion, hijacking motor control to position the ant for ingestion by the final host." },
-      { id: "par_600_03", categoryId: "sci_parasites", tier: 600, prompt: "What is the hygiene hypothesis in relation to parasites, and what evidence supports the idea that some parasitic infections may prevent autoimmune diseases?", answer: "The absence of parasitic worms in modern sanitized environments may cause the immune system to overreact to self-antigens; clinical trials with Trichuris suis (pig whipworm) showed improvement in inflammatory bowel disease", acceptableAnswers: ["Absence of parasites causes autoimmune overreaction", "Helminth therapy hypothesis", "Worm absence triggers autoimmunity"], explanation: "Helminth therapy trials suggest that co-evolved parasites modulate our immune system, and their absence in developed nations correlates with rising autoimmune diseases." }
+      { id: "sps_200_01", categoryId: "sci_parasites", tier: 200, prompt: "What single-celled parasite transmitted by mosquitoes causes malaria, killing hundreds of thousands annually?", answer: "Plasmodium", acceptableAnswers: ["Plasmodium", "Plasmodium falciparum"], explanation: "Plasmodium falciparum is the deadliest of five species causing human malaria, responsible for over 600,000 deaths per year." },
+      { id: "sps_200_02", categoryId: "sci_parasites", tier: 200, prompt: "What common cat-associated parasite can infect humans and has been linked to behavioral changes in rodents and possibly people?", answer: "Toxoplasma gondii", acceptableAnswers: ["Toxoplasma", "Toxoplasma gondii", "Toxo"], explanation: "Toxoplasma gondii infects roughly one-third of humans worldwide and can only sexually reproduce in cat intestines." },
+      { id: "sps_200_03", categoryId: "sci_parasites", tier: 200, prompt: "What is the term for an organism that benefits from a host without significantly harming it?", answer: "Commensal / commensalism", acceptableAnswers: ["Commensal", "Commensalism"], explanation: "Commensalism sits on the spectrum between mutualism (both benefit) and parasitism (one benefits at the other's expense)." },
+      { id: "sps_400_01", categoryId: "sci_parasites", tier: 400, prompt: "What parasitic worm can grow up to 30 feet long inside the human intestine and is contracted from undercooked beef or pork?", answer: "Tapeworm (Taenia saginata or Taenia solium)", acceptableAnswers: ["Tapeworm", "Taenia", "Taenia saginata", "Taenia solium"], explanation: "Tapeworms can live in the human gut for decades, growing segments that are shed and continue the life cycle." },
+      { id: "sps_400_02", categoryId: "sci_parasites", tier: 400, prompt: "What is the parasitic strategy called where a parasite manipulates its host's behavior to increase its own transmission to the next host?", answer: "Parasite-induced behavioral manipulation / adaptive manipulation", acceptableAnswers: ["Behavioral manipulation", "Parasite manipulation", "Adaptive manipulation", "Host manipulation"], explanation: "Classic examples include Toxoplasma making rats attracted to cats and hairworms driving crickets to drown themselves in water." },
+      { id: "sps_400_03", categoryId: "sci_parasites", tier: 400, prompt: "What parasitic barnacle hijacks crabs by growing root-like tendrils throughout their body and controlling their behavior, even making male crabs care for parasite eggs?", answer: "Sacculina", acceptableAnswers: ["Sacculina", "Sacculina carcini"], explanation: "Sacculina feminizes male crabs and hijacks their reproductive behavior, making them nurture parasite egg sacs as if they were their own." },
+      { id: "sps_600_01", categoryId: "sci_parasites", tier: 600, prompt: "What is the Red Queen hypothesis, and how does it explain the evolutionary arms race between parasites and hosts?", answer: "Hosts and parasites must constantly evolve just to maintain their relative fitness, like running to stay in place; this may explain why sexual reproduction persists despite its costs", acceptableAnswers: ["Constant evolution to maintain fitness", "Co-evolutionary arms race", "Running in place evolution"], explanation: "Named after Alice in Wonderland's Red Queen, the hypothesis suggests parasites drive the evolution of sexual reproduction by constantly selecting against common genotypes." },
+      { id: "sps_600_02", categoryId: "sci_parasites", tier: 600, prompt: "How does the lancet liver fluke (Dicrocoelium dendriticum) complete its three-host life cycle, and what specific ant behavior does it induce?", answer: "It makes infected ants climb to the top of grass blades at night and clamp their jaws shut, making them more likely to be eaten by grazing cattle or sheep", acceptableAnswers: ["Ants climb grass and lock jaws", "Makes ants climb grass blades", "Ant jaw-locking on grass"], explanation: "The fluke's larval stage invades the ant's brain, specifically its subesophageal ganglion, hijacking motor control to position the ant for ingestion by the final host." },
+      { id: "sps_600_03", categoryId: "sci_parasites", tier: 600, prompt: "What is the hygiene hypothesis in relation to parasites, and what evidence supports the idea that some parasitic infections may prevent autoimmune diseases?", answer: "The absence of parasitic worms in modern sanitized environments may cause the immune system to overreact to self-antigens; clinical trials with Trichuris suis (pig whipworm) showed improvement in inflammatory bowel disease", acceptableAnswers: ["Absence of parasites causes autoimmune overreaction", "Helminth therapy hypothesis", "Worm absence triggers autoimmunity"], explanation: "Helminth therapy trials suggest that co-evolved parasites modulate our immune system, and their absence in developed nations correlates with rising autoimmune diseases." }
     ]
   },
 
@@ -79650,25 +78226,6 @@ const CATEGORIES: Category[] = [
     ]
   },
   {
-    id: "vg_slay_spire",
-    group: "Video Games",
-    name: "Slay the Spire",
-    culture: "universal",
-    description: "The roguelike deckbuilder that created an entire genre",
-    imageUrl: "",
-    questions: [
-      { id: "sts_200_01", categoryId: "vg_slay_spire", tier: 200, prompt: "How many playable characters are in the base game of Slay the Spire?", answer: "Four (Ironclad, Silent, Defect, Watcher)", acceptableAnswers: ["4", "Four"], explanation: "Each character has a completely unique card pool and playstyle: Ironclad (strength/self-damage), Silent (poison/shiv), Defect (orbs), Watcher (stances)." },
-      { id: "sts_200_02", categoryId: "vg_slay_spire", tier: 200, prompt: "What are the three acts of a standard Slay the Spire run, culminating in which boss at the top?", answer: "Three acts with increasingly difficult bosses, with Act 3 bosses including the Awakened One, Donu and Deca, and the Time Eater", acceptableAnswers: ["Three acts", "3 acts with bosses"], explanation: "Each act ends with a boss fight, and reaching the top of the Spire reveals the heart — an optional final boss." },
-      { id: "sts_200_03", categoryId: "vg_slay_spire", tier: 200, prompt: "What game mechanic allows you to increase difficulty after winning, adding modifiers up to a maximum level?", answer: "Ascension levels (up to Ascension 20)", acceptableAnswers: ["Ascension", "Ascension levels", "Ascension 20"], explanation: "Each Ascension level adds cumulative difficulty modifiers, with Ascension 20 being an extremely challenging test of game mastery." },
-      { id: "sts_400_01", categoryId: "vg_slay_spire", tier: 400, prompt: "What is the Defect's core mechanic involving Orbs, and what are the four types of Orbs?", answer: "Lightning (damage), Frost (block), Dark (accumulating damage), and Plasma (energy); orbs passively trigger each turn and can be evoked for stronger effects", acceptableAnswers: ["Lightning Frost Dark Plasma", "Four orb types with passive and evoke effects"], explanation: "The Defect channels orbs in slots that passively trigger effects each turn, and evoking them triggers a more powerful one-time effect." },
-      { id: "sts_400_02", categoryId: "vg_slay_spire", tier: 400, prompt: "What is the Heart of the Spire, and what must you collect to access the fight against it?", answer: "The true final boss; you must collect three keys (Ruby, Emerald, Sapphire) during the run to unlock the Act 4 fight", acceptableAnswers: ["True final boss needing 3 keys", "Final boss requiring ruby emerald sapphire keys", "Heart requiring three keys"], explanation: "The Heart is the game's ultimate challenge — a hidden Act 4 boss that requires sacrificing rewards during the run to collect keys." },
-      { id: "sts_400_03", categoryId: "vg_slay_spire", tier: 400, prompt: "What is the concept of 'card removal' and why is removing cards from your deck sometimes more valuable than adding them?", answer: "Removing weak starter cards (Strikes/Defends) makes your deck smaller and more consistent, increasing the chance of drawing your powerful cards", acceptableAnswers: ["Deck thinning", "Removing weak cards for consistency", "Making deck smaller and more consistent"], explanation: "Deck thinning is a crucial strategy — a 15-card deck with all strong cards is often better than a 30-card deck with some powerful cards diluted by weak ones." },
-      { id: "sts_600_01", categoryId: "vg_slay_spire", tier: 600, prompt: "What is the 'infinite combo' archetype, and what specific card interaction allows the Ironclad to play unlimited attacks in a single turn?", answer: "Using Dropkick on a vulnerable enemy with 0-cost attacks and draw effects to create an infinite loop (Dropkick draws a card and gains energy when hitting a vulnerable enemy)", acceptableAnswers: ["Dropkick infinite loop", "Dropkick on vulnerable for infinite", "Dropkick draw and energy loop"], explanation: "The Dropkick infinite requires the enemy to be vulnerable and the deck to be thin enough that Dropkick keeps cycling back — illustrating the game's deep combo potential." },
-      { id: "sts_600_02", categoryId: "vg_slay_spire", tier: 600, prompt: "What seeding system does Slay the Spire use, and why did competitive players discover that certain seeds are mathematically unwinnable at Ascension 20?", answer: "Each run uses a numerical seed that determines all encounters, card rewards, and events; analysis showed some seeds have mathematically impossible combinations of challenges and available cards", acceptableAnswers: ["Numerical seed determining everything", "Deterministic seeding with some unwinnable seeds", "Seeds determine all RNG"], explanation: "The deterministic seeding means every run is technically 'solvable' like a puzzle, but some seeds at A20 present challenges that no possible decision tree can overcome." },
-      { id: "sts_600_03", categoryId: "vg_slay_spire", tier: 600, prompt: "What design philosophy did MegaCrit use for the Watcher's Stance mechanic that makes her simultaneously the most powerful and most dangerous character?", answer: "Wrath stance doubles damage dealt AND received; Divinity gives triple energy but ends immediately — requiring precise stance-switching to maximize offense without dying", acceptableAnswers: ["Wrath doubles both damage dealt and received", "Stance switching risk-reward", "Double damage both ways in Wrath"], explanation: "The Watcher's high-risk/high-reward stance system creates the most complex decision-making in the game, as a mistimed Wrath stance can mean instant death." }
-    ]
-  },
-  {
     id: "vg_bg3",
     group: "Video Games",
     name: "Baldur's Gate 3",
@@ -79695,15 +78252,15 @@ const CATEGORIES: Category[] = [
     description: "The perfectionist auteur's filmography — the deeper obsessions",
     imageUrl: "",
     questions: [
-      { id: "kub_200_01", categoryId: "mv_kubrick_d", tier: 200, prompt: "What Stephen King adaptation features the Overlook Hotel and Jack Nicholson's iconic 'Here's Johnny!' scene?", answer: "The Shining", acceptableAnswers: ["The Shining"], explanation: "The Shining is one of the most celebrated horror films ever made, though Stephen King famously disliked Kubrick's interpretation." },
-      { id: "kub_200_02", categoryId: "mv_kubrick_d", tier: 200, prompt: "What dystopian film features Alex DeLarge and his droogs committing 'ultraviolence' in a future Britain?", answer: "A Clockwork Orange", acceptableAnswers: ["A Clockwork Orange", "Clockwork Orange"], explanation: "A Clockwork Orange (1971) was so controversial that Kubrick himself withdrew it from UK distribution after receiving death threats." },
-      { id: "kub_200_03", categoryId: "mv_kubrick_d", tier: 200, prompt: "What groundbreaking sci-fi film features HAL 9000 and the mysterious monolith?", answer: "2001: A Space Odyssey", acceptableAnswers: ["2001: A Space Odyssey", "2001"], explanation: "2001 (1968) redefined science fiction cinema and remains one of the most influential films ever made." },
-      { id: "kub_400_01", categoryId: "mv_kubrick_d", tier: 400, prompt: "What special NASA lens did Kubrick use to film Barry Lyndon's famous candlelit scenes?", answer: "A Zeiss Planar 50mm f/0.7 lens, originally designed for NASA's Apollo program", acceptableAnswers: ["Zeiss Planar f/0.7", "NASA f/0.7 lens", "Zeiss f/0.7"], explanation: "Only ten of these lenses were ever made — three went to NASA, and Kubrick acquired three to shoot entirely by candlelight without artificial lighting." },
-      { id: "kub_400_02", categoryId: "mv_kubrick_d", tier: 400, prompt: "How many takes did Kubrick reportedly require for the baseball bat scene with Shelley Duvall in The Shining?", answer: "127 takes", acceptableAnswers: ["127", "127 takes"], explanation: "The 127 takes of the baseball bat scene hold a Guinness World Record and contributed to Duvall's well-documented psychological distress during filming." },
-      { id: "kub_400_03", categoryId: "mv_kubrick_d", tier: 400, prompt: "What was Kubrick's unfinished project about the Holocaust that he abandoned after learning Steven Spielberg was making Schindler's List?", answer: "Aryan Papers", acceptableAnswers: ["Aryan Papers", "The Aryan Papers"], explanation: "Kubrick had spent years developing Aryan Papers but shelved it, reportedly saying that Spielberg's film had 'done it already.'" },
-      { id: "kub_600_01", categoryId: "mv_kubrick_d", tier: 600, prompt: "What specific front-projection technique was used for the 'Dawn of Man' sequence in 2001, and why was it revolutionary?", answer: "8x10 transparency front-projected onto a massive 3M Scotchlite screen using a custom-built projector, creating seamless African backgrounds in a British studio", acceptableAnswers: ["Front projection with Scotchlite screen", "8x10 front projection", "3M Scotchlite front projection"], explanation: "The front projection was so convincing that many viewers assumed the scenes were filmed on location; the technique used a half-silvered mirror and highly reflective screen." },
-      { id: "kub_600_02", categoryId: "mv_kubrick_d", tier: 600, prompt: "What is the 'Room 237' conspiracy theory about hidden messages in The Shining, and what specific patterns do theorists point to?", answer: "Theories include: the film is about the genocide of Native Americans (Indian imagery), the Holocaust (the number 42), or Kubrick confessing to faking the Moon landing (Danny's Apollo 11 sweater)", acceptableAnswers: ["Multiple conspiracy theories about hidden messages", "Native American genocide, Holocaust, Moon landing theories", "Hidden meanings including Moon landing confession"], explanation: "The documentary Room 237 explored these theories, which range from plausible (Native American subtext) to conspiratorial (Moon landing confession)." },
-      { id: "kub_600_03", categoryId: "mv_kubrick_d", tier: 600, prompt: "What is the significance of the Ludovico Technique in A Clockwork Orange, and what real psychological treatment inspired it?", answer: "Aversion therapy using forced viewing of violence while chemically inducing nausea; inspired by real aversion therapy used to 'treat' homosexuality and other behaviors in the 1960s-70s", acceptableAnswers: ["Aversion therapy", "Forced violence viewing with chemical nausea", "Real aversion therapy inspiration"], explanation: "The Ludovico Technique is a cinematic exaggeration of real aversion therapies that used nausea-inducing drugs paired with stimuli to condition away 'undesirable' behaviors." }
+      { id: "kbd_200_01", categoryId: "mv_kubrick_d", tier: 200, prompt: "What Stephen King adaptation features the Overlook Hotel and Jack Nicholson's iconic 'Here's Johnny!' scene?", answer: "The Shining", acceptableAnswers: ["The Shining"], explanation: "The Shining is one of the most celebrated horror films ever made, though Stephen King famously disliked Kubrick's interpretation." },
+      { id: "kbd_200_02", categoryId: "mv_kubrick_d", tier: 200, prompt: "What dystopian film features Alex DeLarge and his droogs committing 'ultraviolence' in a future Britain?", answer: "A Clockwork Orange", acceptableAnswers: ["A Clockwork Orange", "Clockwork Orange"], explanation: "A Clockwork Orange (1971) was so controversial that Kubrick himself withdrew it from UK distribution after receiving death threats." },
+      { id: "kbd_200_03", categoryId: "mv_kubrick_d", tier: 200, prompt: "What groundbreaking sci-fi film features HAL 9000 and the mysterious monolith?", answer: "2001: A Space Odyssey", acceptableAnswers: ["2001: A Space Odyssey", "2001"], explanation: "2001 (1968) redefined science fiction cinema and remains one of the most influential films ever made." },
+      { id: "kbd_400_01", categoryId: "mv_kubrick_d", tier: 400, prompt: "What special NASA lens did Kubrick use to film Barry Lyndon's famous candlelit scenes?", answer: "A Zeiss Planar 50mm f/0.7 lens, originally designed for NASA's Apollo program", acceptableAnswers: ["Zeiss Planar f/0.7", "NASA f/0.7 lens", "Zeiss f/0.7"], explanation: "Only ten of these lenses were ever made — three went to NASA, and Kubrick acquired three to shoot entirely by candlelight without artificial lighting." },
+      { id: "kbd_400_02", categoryId: "mv_kubrick_d", tier: 400, prompt: "How many takes did Kubrick reportedly require for the baseball bat scene with Shelley Duvall in The Shining?", answer: "127 takes", acceptableAnswers: ["127", "127 takes"], explanation: "The 127 takes of the baseball bat scene hold a Guinness World Record and contributed to Duvall's well-documented psychological distress during filming." },
+      { id: "kbd_400_03", categoryId: "mv_kubrick_d", tier: 400, prompt: "What was Kubrick's unfinished project about the Holocaust that he abandoned after learning Steven Spielberg was making Schindler's List?", answer: "Aryan Papers", acceptableAnswers: ["Aryan Papers", "The Aryan Papers"], explanation: "Kubrick had spent years developing Aryan Papers but shelved it, reportedly saying that Spielberg's film had 'done it already.'" },
+      { id: "kbd_600_01", categoryId: "mv_kubrick_d", tier: 600, prompt: "What specific front-projection technique was used for the 'Dawn of Man' sequence in 2001, and why was it revolutionary?", answer: "8x10 transparency front-projected onto a massive 3M Scotchlite screen using a custom-built projector, creating seamless African backgrounds in a British studio", acceptableAnswers: ["Front projection with Scotchlite screen", "8x10 front projection", "3M Scotchlite front projection"], explanation: "The front projection was so convincing that many viewers assumed the scenes were filmed on location; the technique used a half-silvered mirror and highly reflective screen." },
+      { id: "kbd_600_02", categoryId: "mv_kubrick_d", tier: 600, prompt: "What is the 'Room 237' conspiracy theory about hidden messages in The Shining, and what specific patterns do theorists point to?", answer: "Theories include: the film is about the genocide of Native Americans (Indian imagery), the Holocaust (the number 42), or Kubrick confessing to faking the Moon landing (Danny's Apollo 11 sweater)", acceptableAnswers: ["Multiple conspiracy theories about hidden messages", "Native American genocide, Holocaust, Moon landing theories", "Hidden meanings including Moon landing confession"], explanation: "The documentary Room 237 explored these theories, which range from plausible (Native American subtext) to conspiratorial (Moon landing confession)." },
+      { id: "kbd_600_03", categoryId: "mv_kubrick_d", tier: 600, prompt: "What is the significance of the Ludovico Technique in A Clockwork Orange, and what real psychological treatment inspired it?", answer: "Aversion therapy using forced viewing of violence while chemically inducing nausea; inspired by real aversion therapy used to 'treat' homosexuality and other behaviors in the 1960s-70s", acceptableAnswers: ["Aversion therapy", "Forced violence viewing with chemical nausea", "Real aversion therapy inspiration"], explanation: "The Ludovico Technique is a cinematic exaggeration of real aversion therapies that used nausea-inducing drugs paired with stimuli to condition away 'undesirable' behaviors." }
     ]
   },
   {
@@ -79762,25 +78319,6 @@ const CATEGORIES: Category[] = [
       { id: "ylj_600_01", categoryId: "tv_yellowjackets", tier: 600, prompt: "What deliberate ambiguity does the show maintain about whether the wilderness events are supernatural or psychological, and what specific scenes support both interpretations?", answer: "Lottie's visions and the apparently ritualistic events could be genuine supernatural phenomena (she correctly predicts events) OR collective psychosis from starvation, isolation, and untreated mental illness", acceptableAnswers: ["Supernatural vs psychological ambiguity", "Could be real or mass psychosis", "Deliberate ambiguity about supernatural elements"], explanation: "The show's creators have intentionally maintained this ambiguity — every 'supernatural' event has a plausible psychological explanation, keeping viewers perpetually uncertain." },
       { id: "ylj_600_02", categoryId: "tv_yellowjackets", tier: 600, prompt: "What specific historical and fictional survival accounts did the showrunners cite as inspirations, beyond the obvious Donner Party comparison?", answer: "The 1972 Andes flight disaster (Alive), Lord of the Flies, the Donner Party, and real accounts of isolation-induced psychosis and group ritualism", acceptableAnswers: ["Andes crash, Lord of the Flies, Donner Party", "Alive, Lord of the Flies", "1972 Andes disaster and Lord of the Flies"], explanation: "The show synthesizes multiple survival narratives, but uniquely centers female experience in a genre typically dominated by male survival stories." },
       { id: "ylj_600_03", categoryId: "tv_yellowjackets", tier: 600, prompt: "What narrative technique does the show use with the pit girl cold open in the pilot, and how does it function as both flash-forward and misdirection?", answer: "The pilot opens with an unnamed girl being hunted and killed for a ritualistic feast; viewers assume it's the main timeline's future, but the show deliberately withholds who the girl is, using it as a structural Chekhov's gun", acceptableAnswers: ["Cold open with unnamed victim as misdirection", "Pit girl as structural mystery device", "Unknown victim opening as long-form mystery"], explanation: "The pit girl's identity becomes the show's ultimate mystery — every character relationship is viewed through the lens of 'could this be the person who falls?'" }
-    ]
-  },
-  {
-    id: "mu_radiohead_d",
-    group: "Music",
-    name: "Radiohead (Deep Deep Cut)",
-    culture: "universal",
-    description: "For those who've gone down every rabbit hole — the deepest Radiohead knowledge",
-    imageUrl: "",
-    questions: [
-      { id: "rhd_200_01", categoryId: "mu_radiohead_d", tier: 200, prompt: "What innovative release model did Radiohead use for 'In Rainbows' in 2007?", answer: "Pay-what-you-want digital download — fans could choose to pay any amount, including nothing", acceptableAnswers: ["Pay what you want", "Name your own price", "Pay-what-you-want"], explanation: "The pay-what-you-want model was revolutionary and made global headlines, though the band later released it through traditional channels as well." },
-      { id: "rhd_200_02", categoryId: "mu_radiohead_d", tier: 200, prompt: "What album followed OK Computer and featured a dramatic shift toward electronic and experimental music?", answer: "Kid A", explanation: "Kid A (2000) alienated many fans expecting another guitar-driven album but is now considered one of the greatest albums ever made." },
-      { id: "rhd_200_03", categoryId: "mu_radiohead_d", tier: 200, prompt: "What is the name of Thom Yorke's solo project that has released multiple albums?", answer: "The Eraser / Atoms for Peace / solo work under his own name", acceptableAnswers: ["Atoms for Peace", "The Eraser", "His solo work"], explanation: "Yorke has released solo albums (The Eraser, Tomorrow's Modern Boxes, ANIMA) and formed the supergroup Atoms for Peace with Flea." },
-      { id: "rhd_400_01", categoryId: "mu_radiohead_d", tier: 400, prompt: "What is the 'blip' theory about Radiohead's discography — the idea that albums exist in thematic pairs?", answer: "Each album pair shares thematic DNA: Pablo Honey/The Bends (guitar rock), OK Computer/Kid A (technology anxiety), Amnesiac/Hail to the Thief (paranoia), In Rainbows/The King of Limbs (rhythm-focused)", acceptableAnswers: ["Albums in thematic pairs", "Twin album theory", "Paired album concept"], explanation: "The pairing theory suggests albums are recorded in tandem and share sessions, themes, and approaches, with each pair representing a creative era." },
-      { id: "rhd_400_02", categoryId: "mu_radiohead_d", tier: 400, prompt: "What is the significance of the bear logo and the 'modified bear' artwork that appears throughout Radiohead's visual identity?", answer: "Created by Stanley Donwood (Dan Rickwood) and Thom Yorke together, the bear evolved from Kid A artwork and became the band's unofficial mascot", acceptableAnswers: ["Stanley Donwood creation", "Bear from Kid A artwork", "Donwood and Yorke's collaborative art"], explanation: "Stanley Donwood has created all Radiohead artwork since The Bends, working alongside Yorke as a full creative partnership." },
-      { id: "rhd_400_03", categoryId: "mu_radiohead_d", tier: 400, prompt: "What is 'Meeting People Is Easy,' and what period of the band's history does it document?", answer: "A 1998 documentary by Grant Gee following the grueling OK Computer world tour, showing the band's exhaustion and disillusionment with fame", acceptableAnswers: ["OK Computer tour documentary", "Documentary about OK Computer tour", "Grant Gee tour documentary"], explanation: "The film captures the alienation and media saturation that directly influenced the band's retreat from guitar rock into Kid A's experimentalism." },
-      { id: "rhd_600_01", categoryId: "mu_radiohead_d", tier: 600, prompt: "What specific Ondes Martenot technique does Jonny Greenwood use, and what classical influence led him to adopt this rare instrument?", answer: "Greenwood plays the Ondes Martenot (an early electronic instrument) inspired by Olivier Messiaen's Turangalîla-Symphonie; he uses its ring controller for the wavering tones heard on Kid A and later albums", acceptableAnswers: ["Ondes Martenot inspired by Messiaen", "Ring controller technique from Messiaen", "Messiaen influence on Ondes Martenot use"], explanation: "Greenwood's use of the Ondes Martenot connects Radiohead to early 20th-century electronic music, and his classical training heavily influences the band's arrangements." },
-      { id: "rhd_600_02", categoryId: "mu_radiohead_d", tier: 600, prompt: "What specific production technique on 'Everything in Its Right Place' involves Yorke's processed vocal becoming the song's primary harmonic instrument?", answer: "Yorke's vocals were sampled into a Prophet-5 synthesizer and played back chromatically as chord pads, making his voice the song's harmonic foundation rather than a melodic layer", acceptableAnswers: ["Voice sampled into Prophet-5", "Vocal samples as chord pads", "Voice fed into synthesizer as chords"], explanation: "This technique — feeding vocals into a synthesizer to be played as chords — created Kid A's opening sound and signaled the band's complete reinvention." },
-      { id: "rhd_600_03", categoryId: "mu_radiohead_d", tier: 600, prompt: "What is the 'A Moon Shaped Pool' connection to Thom Yorke's personal life, and which specific track is understood as an elegy?", answer: "'True Love Waits' — a song Yorke had played live since 1995 but only studio-recorded after his separation from partner Rachel Owen; the album was released shortly before her death from cancer", acceptableAnswers: ["True Love Waits as elegy", "True Love Waits about Rachel Owen", "Connection to Rachel Owen's death"], explanation: "The inclusion of 'True Love Waits' as the album's devastating closer — a 21-year-old song given new heartbreaking context — made A Moon Shaped Pool Radiohead's most personal album." }
     ]
   },
   {
@@ -79848,15 +78386,15 @@ const CATEGORIES: Category[] = [
     description: "How movable type changed civilization — from Gutenberg to the information age",
     imageUrl: "",
     questions: [
-      { id: "prt_200_01", categoryId: "his_printing", tier: 200, prompt: "Who invented the movable type printing press in Europe around 1440?", answer: "Johannes Gutenberg", acceptableAnswers: ["Gutenberg", "Johannes Gutenberg"], explanation: "Gutenberg's press combined movable metal type, oil-based ink, and a wooden screw press to revolutionize information dissemination." },
-      { id: "prt_200_02", categoryId: "his_printing", tier: 200, prompt: "What was the first major book printed using Gutenberg's press?", answer: "The Gutenberg Bible (42-line Bible)", acceptableAnswers: ["Gutenberg Bible", "The Bible", "42-line Bible"], explanation: "The Gutenberg Bible, printed around 1455, is considered the first major book produced with movable type in Europe." },
-      { id: "prt_200_03", categoryId: "his_printing", tier: 200, prompt: "What religious movement was dramatically accelerated by the printing press in the 16th century?", answer: "The Protestant Reformation", acceptableAnswers: ["Protestant Reformation", "The Reformation", "Reformation"], explanation: "Martin Luther's 95 Theses spread across Europe in weeks thanks to printing — without the press, the Reformation might have remained a local dispute." },
-      { id: "prt_400_01", categoryId: "his_printing", tier: 400, prompt: "What earlier East Asian invention of movable type predated Gutenberg by roughly 400 years?", answer: "Bi Sheng's ceramic movable type in China (around 1040 AD)", acceptableAnswers: ["Bi Sheng", "Chinese movable type", "Bi Sheng's ceramic type"], explanation: "Bi Sheng invented movable type using ceramic pieces during the Song Dynasty, though the thousands of Chinese characters made it less practical than alphabetic systems." },
-      { id: "prt_400_02", categoryId: "his_printing", tier: 400, prompt: "What specific innovation made Gutenberg's type different from earlier movable type — his method of mass-producing identical letters?", answer: "The hand mold / type mold system that allowed rapid, precise casting of identical metal letters from a matrix", acceptableAnswers: ["Hand mold", "Type mold", "Metal type casting mold", "Matrix and mold system"], explanation: "Gutenberg's key innovation was the hand mold — a device that could rapidly cast identical metal letters from a master matrix, enabling mass production of type." },
-      { id: "prt_400_03", categoryId: "his_printing", tier: 400, prompt: "What Venetian printer created the italic typeface and produced affordable pocket-sized books that democratized reading?", answer: "Aldus Manutius", acceptableAnswers: ["Aldus Manutius", "Aldo Manuzio"], explanation: "Manutius's Aldine Press invented italic type to fit more text per page, creating affordable octavo-format books that made classical literature accessible to the middle class." },
-      { id: "prt_600_01", categoryId: "his_printing", tier: 600, prompt: "What specific alloy did Gutenberg develop for his type metal, and why were its properties essential for mass printing?", answer: "A lead-tin-antimony alloy that had a low melting point, expanded slightly when cooling to fill the mold perfectly, and was durable enough for thousands of impressions", acceptableAnswers: ["Lead-tin-antimony alloy", "Type metal alloy", "Lead tin antimony"], explanation: "The alloy's slight expansion during cooling ensured sharp, consistent letterforms — too much expansion and the type wouldn't fit together; too little and letters would be blurry." },
-      { id: "prt_600_02", categoryId: "his_printing", tier: 600, prompt: "What was the 'Great Book Scare' phenomenon among European elites in the early decades of printing?", answer: "Established authorities (Church, guilds, universities) feared that cheap, uncontrolled information would undermine their gatekeeping power, leading to early censorship laws and the Index Librorum Prohibitorum", acceptableAnswers: ["Fear of uncontrolled information", "Censorship from information democratization", "Elites feared loss of information control"], explanation: "The printing press created history's first information revolution, and the response — censorship, book banning, licensing — mirrors modern debates about internet regulation." },
-      { id: "prt_600_03", categoryId: "his_printing", tier: 600, prompt: "How did the printing press standardize European languages, and what specific linguistic effect did this have on English?", answer: "Printing fixed spelling, grammar, and vocabulary in ways that had been fluid in manuscript culture; for English, Caxton's printing choices froze Middle English spellings even as pronunciation continued to evolve, creating modern English's notoriously inconsistent spelling", acceptableAnswers: ["Fixed spelling while pronunciation changed", "Caxton froze spelling conventions", "Standardized language with spelling inconsistencies"], explanation: "This is why English spelling is so irregular — Caxton printed words as they were pronounced in the 1470s, but the Great Vowel Shift then changed pronunciation while the printed spellings remained frozen." }
+      { id: "hpr_200_01", categoryId: "his_printing", tier: 200, prompt: "Who invented the movable type printing press in Europe around 1440?", answer: "Johannes Gutenberg", acceptableAnswers: ["Gutenberg", "Johannes Gutenberg"], explanation: "Gutenberg's press combined movable metal type, oil-based ink, and a wooden screw press to revolutionize information dissemination." },
+      { id: "hpr_200_02", categoryId: "his_printing", tier: 200, prompt: "What was the first major book printed using Gutenberg's press?", answer: "The Gutenberg Bible (42-line Bible)", acceptableAnswers: ["Gutenberg Bible", "The Bible", "42-line Bible"], explanation: "The Gutenberg Bible, printed around 1455, is considered the first major book produced with movable type in Europe." },
+      { id: "hpr_200_03", categoryId: "his_printing", tier: 200, prompt: "What religious movement was dramatically accelerated by the printing press in the 16th century?", answer: "The Protestant Reformation", acceptableAnswers: ["Protestant Reformation", "The Reformation", "Reformation"], explanation: "Martin Luther's 95 Theses spread across Europe in weeks thanks to printing — without the press, the Reformation might have remained a local dispute." },
+      { id: "hpr_400_01", categoryId: "his_printing", tier: 400, prompt: "What earlier East Asian invention of movable type predated Gutenberg by roughly 400 years?", answer: "Bi Sheng's ceramic movable type in China (around 1040 AD)", acceptableAnswers: ["Bi Sheng", "Chinese movable type", "Bi Sheng's ceramic type"], explanation: "Bi Sheng invented movable type using ceramic pieces during the Song Dynasty, though the thousands of Chinese characters made it less practical than alphabetic systems." },
+      { id: "hpr_400_02", categoryId: "his_printing", tier: 400, prompt: "What specific innovation made Gutenberg's type different from earlier movable type — his method of mass-producing identical letters?", answer: "The hand mold / type mold system that allowed rapid, precise casting of identical metal letters from a matrix", acceptableAnswers: ["Hand mold", "Type mold", "Metal type casting mold", "Matrix and mold system"], explanation: "Gutenberg's key innovation was the hand mold — a device that could rapidly cast identical metal letters from a master matrix, enabling mass production of type." },
+      { id: "hpr_400_03", categoryId: "his_printing", tier: 400, prompt: "What Venetian printer created the italic typeface and produced affordable pocket-sized books that democratized reading?", answer: "Aldus Manutius", acceptableAnswers: ["Aldus Manutius", "Aldo Manuzio"], explanation: "Manutius's Aldine Press invented italic type to fit more text per page, creating affordable octavo-format books that made classical literature accessible to the middle class." },
+      { id: "hpr_600_01", categoryId: "his_printing", tier: 600, prompt: "What specific alloy did Gutenberg develop for his type metal, and why were its properties essential for mass printing?", answer: "A lead-tin-antimony alloy that had a low melting point, expanded slightly when cooling to fill the mold perfectly, and was durable enough for thousands of impressions", acceptableAnswers: ["Lead-tin-antimony alloy", "Type metal alloy", "Lead tin antimony"], explanation: "The alloy's slight expansion during cooling ensured sharp, consistent letterforms — too much expansion and the type wouldn't fit together; too little and letters would be blurry." },
+      { id: "hpr_600_02", categoryId: "his_printing", tier: 600, prompt: "What was the 'Great Book Scare' phenomenon among European elites in the early decades of printing?", answer: "Established authorities (Church, guilds, universities) feared that cheap, uncontrolled information would undermine their gatekeeping power, leading to early censorship laws and the Index Librorum Prohibitorum", acceptableAnswers: ["Fear of uncontrolled information", "Censorship from information democratization", "Elites feared loss of information control"], explanation: "The printing press created history's first information revolution, and the response — censorship, book banning, licensing — mirrors modern debates about internet regulation." },
+      { id: "hpr_600_03", categoryId: "his_printing", tier: 600, prompt: "How did the printing press standardize European languages, and what specific linguistic effect did this have on English?", answer: "Printing fixed spelling, grammar, and vocabulary in ways that had been fluid in manuscript culture; for English, Caxton's printing choices froze Middle English spellings even as pronunciation continued to evolve, creating modern English's notoriously inconsistent spelling", acceptableAnswers: ["Fixed spelling while pronunciation changed", "Caxton froze spelling conventions", "Standardized language with spelling inconsistencies"], explanation: "This is why English spelling is so irregular — Caxton printed words as they were pronounced in the 1470s, but the Great Vowel Shift then changed pronunciation while the printed spellings remained frozen." }
     ]
   },
   {
