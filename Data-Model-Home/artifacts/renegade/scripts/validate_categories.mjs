@@ -80,3 +80,4 @@ r('Categories missing imageUrl', issues.missingImage, 5);
 
 const blocking = issues.dupCat.length+issues.dupQ.length+issues.catMismatch.length+issues.badTier.length+issues.badCulture.length+issues.emptyField.length+issues.dupPrompt.length;
 console.log(`\n${blocking? '✗ '+blocking+' blocking issue(s)':'✓ no blocking issues'}`);
+process.exit(blocking ? 1 : 0);   // non-zero on blocking issues so CI / pre-commit can gate on it
