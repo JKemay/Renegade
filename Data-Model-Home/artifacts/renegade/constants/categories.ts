@@ -8342,14 +8342,6 @@ const CATEGORIES: Category[] = [
     imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/The_Weeknd_Portrait_by_Brian_Ziff.jpg/500px-The_Weeknd_Portrait_by_Brian_Ziff.jpg",
     questions: [
       {
-        id: "wknd_200_01",
-        categoryId: "mu_weeknd",
-        tier: 200,
-        prompt: "What is The Weeknd's real name?",
-        answer: "Abel Tesfaye",
-        acceptableAnswers: ["Abel Tesfaye", "Abel Makkonen Tesfaye"],
-      },
-      {
         id: "wknd_200_02",
         categoryId: "mu_weeknd",
         tier: 200,
@@ -14178,14 +14170,6 @@ const CATEGORIES: Category[] = [
         ],
         explanation:
           "Juice WRLD signed to Interscope Records through Grade A Productions (Lil Bibby's label) — a deal that came quickly after 'Lucid Dreams' went viral.",
-      },
-      {
-        id: "jw_400_01",
-        categoryId: "mu_juice_wrld",
-        tier: 400,
-        prompt: "What is Juice WRLD's real name?",
-        answer: "Jarad Higgins",
-        acceptableAnswers: ["Jarad Higgins", "Jarad Armani Higgins"],
       },
       {
         id: "jw_400_02",
@@ -36399,7 +36383,7 @@ const CATEGORIES: Category[] = [
     description: "What massive websites originally started as.",
     questions: [
       {
-        id: "soc_400_01",
+        id: "soctp_400_01",
         categoryId: "soc_tech_pivots",
         tier: 400,
         prompt:
@@ -36408,7 +36392,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Justin.tv", "Justin tv"],
       },
       {
-        id: "soc_600_01",
+        id: "soctp_600_01",
         categoryId: "soc_tech_pivots",
         tier: 600,
         prompt:
@@ -36417,7 +36401,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ["Dating site", "Video dating", "A dating app", "Tune In Hook Up"],
       },
       {
-        id: "soc_600_02",
+        id: "soctp_600_02",
         categoryId: "soc_tech_pivots",
         tier: 600,
         prompt:
@@ -36470,7 +36454,7 @@ const CATEGORIES: Category[] = [
     description: 'Gridiron legends, massive upsets, and historic plays.',
     questions: [
       {
-        id: 'nfl_400_01',
+        id: "nflsb_400_01",
         categoryId: 'nfl_superbowl',
         tier: 400,
         prompt: 'Super Bowl LI (51) featured the largest comeback in Super Bowl history, with the Patriots recovering from a massive deficit against the Falcons. What was the infamous score before the comeback began?',
@@ -36478,7 +36462,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ['28-3', '28 to 3'],
       },
       {
-        id: 'nfl_600_01',
+        id: "nflsb_600_01",
         categoryId: 'nfl_superbowl',
         tier: 600,
         prompt: 'The only team in NFL history to complete a perfect, undefeated season (including the regular season and playoffs/Super Bowl) is the 1972 roster of which franchise?',
@@ -36486,7 +36470,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ['Miami Dolphins', 'Dolphins'],
       },
       {
-        id: 'nfl_600_02',
+        id: "nflsb_600_02",
         categoryId: 'nfl_superbowl',
         tier: 600,
         prompt: 'In 1968, the NFL and AFL staged a famous game called the "Heidi Game". Why is this regular-season game between the Jets and Raiders so infamous in television history?',
@@ -36505,7 +36489,7 @@ const CATEGORIES: Category[] = [
     description: 'Scream queens, practical effects, and terror.',
     questions: [
       {
-        id: 'hor_400_01',
+        id: "horc_400_01",
         categoryId: 'horror_classics',
         tier: 400,
         prompt: 'In John Carpenter\'s 1982 horror masterpiece "The Thing", they use a specific test to figure out who is human and who is the alien imitation. What do they do to the blood samples?',
@@ -36513,7 +36497,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ['Burn the blood', 'Put a hot wire in the blood', 'Heat the blood', 'Burn it'],
       },
       {
-        id: 'hor_600_01',
+        id: "horc_600_01",
         categoryId: 'horror_classics',
         tier: 400,
         prompt: 'What was the extremely low budget (approximately $60,000) 1999 found-footage horror film that utilized a massive, fake online marketing campaign to convince people the footage was real, grossing nearly $250 million worldwide?',
@@ -36521,7 +36505,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ['The Blair Witch Project', 'Blair Witch', 'Blair Witch Project'],
       },
       {
-        id: 'hor_600_02',
+        id: "horc_600_02",
         categoryId: 'horror_classics',
         tier: 600,
         prompt: 'The terrifying mask worn by Michael Myers in the 1978 film "Halloween" is actually a heavily modified, painted-white mask of which famous actor?',
@@ -36538,7 +36522,7 @@ const CATEGORIES: Category[] = [
     description: 'Disk drives, power gloves, and weird peripherals.',
     questions: [
       {
-        id: 'vgh_400_01',
+        id: "vgoh_400_01",
         categoryId: 'vg_obscure_hardware',
         tier: 400,
         prompt: 'Before optical discs were standard, Nintendo partnered with Sony to create a CD-ROM add-on for the Super Nintendo. The partnership famously fell apart, leading Sony to create what legendary console instead?',
@@ -36546,7 +36530,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ['PlayStation', 'PS1', 'Sony PlayStation'],
       },
       {
-        id: 'vgh_600_01',
+        id: "vgoh_600_01",
         categoryId: 'vg_obscure_hardware',
         tier: 600,
         prompt: 'Released in 1999 for the Nintendo 64, what was the name of the magnetic disk drive add-on that was only released in Japan and featured games like a Mario Artist suite?',
@@ -36554,7 +36538,7 @@ const CATEGORIES: Category[] = [
         acceptableAnswers: ['64DD', 'N64DD', 'Nintendo 64 Disk Drive'],
       },
       {
-        id: 'vgh_600_02',
+        id: "vgoh_600_02",
         categoryId: 'vg_obscure_hardware',
         tier: 600,
         prompt: 'Sega released a notoriously convoluted, mushroom-shaped add-on for the Sega Genesis that upgraded it to a 32-bit system, which ultimately failed. What was it called?',
@@ -71164,14 +71148,6 @@ const CATEGORIES: Category[] = [
     imageUrl: "",
     questions: [
       {
-        id: "pxd_200_01",
-        categoryId: "mv_pixar_deep",
-        tier: 200,
-        prompt: "What was Pixar's first feature-length film, released in 1995?",
-        answer: "Toy Story",
-        acceptableAnswers: [],
-      },
-      {
         id: "pxd_200_02",
         categoryId: "mv_pixar_deep",
         tier: 200,
@@ -77323,7 +77299,7 @@ const CATEGORIES: Category[] = [
       { id: "btl_400_03", categoryId: "mu_beatles", tier: 400, prompt: "What was the role of producer George Martin, often called 'the Fifth Beatle'?", answer: "Martin was their producer at Abbey Road Studios who arranged their orchestral elements, helped shape their experimental sound, and translated their ideas into reality — he was crucial to their evolution from pop to art", acceptableAnswers: ["Producer who shaped their sound", "Fifth Beatle producer at Abbey Road", "Arranged orchestrations and experimental production"], explanation: "Without Martin's classical music training and studio innovations, the Beatles' later work wouldn't have been possible." },
       { id: "btl_600_01", categoryId: "mu_beatles", tier: 600, prompt: "What studio techniques pioneered during the 'Revolver' and 'Sgt. Pepper's' sessions fundamentally changed recording technology?", answer: "Automatic double tracking (ADT), tape loops, backwards recording, varispeed tape manipulation, and close-miking techniques — many invented by engineer Ken Townsend and used for the first time on these albums", acceptableAnswers: ["ADT, tape loops, backwards recording", "Pioneering studio techniques with Ken Townsend", "Tape manipulation and recording innovations"], explanation: "The Beatles and their engineers essentially invented modern studio production during these sessions." },
       { id: "btl_600_02", categoryId: "mu_beatles", tier: 600, prompt: "What is the 'Paul is Dead' conspiracy theory, and what supposed 'clues' do believers point to?", answer: "A theory that Paul McCartney died in 1966 and was replaced by a lookalike — 'clues' include the Abbey Road cover (Paul barefoot = corpse), 'I buried Paul' heard in 'Strawberry Fields Forever' (actually 'cranberry sauce'), and backmasked messages", acceptableAnswers: ["Paul died and was replaced theory", "Replaced by lookalike, Abbey Road barefoot clue", "Death replacement conspiracy with album clues"], explanation: "Despite being thoroughly debunked, the conspiracy theory became one of rock's most enduring myths." },
-      { id: "btl_600_03", categoryId: "tv_fleabag", tier: 600, prompt: "What was the 'Get Back' project (now the Peter Jackson documentary), and what did it reveal about the Beatles' breakup that contradicted decades of narrative?", answer: "Let It Be film (1970) portrayed the sessions as miserable and the band falling apart. Peter Jackson's 'Get Back' (2021) used 60 hours of unseen footage to show the Beatles were often joyful, collaborative, and creative — the breakup narrative was largely an editing choice by the original filmmakers", acceptableAnswers: ["Jackson doc showed Beatles were happier than believed", "60 hours of footage contradicted breakup narrative", "Original Let It Be misrepresented the sessions"], explanation: "Get Back fundamentally changed how people understand the Beatles' final days together." },
+      { id: "btl_600_03", categoryId: "mu_beatles", tier: 600, prompt: "What was the 'Get Back' project (now the Peter Jackson documentary), and what did it reveal about the Beatles' breakup that contradicted decades of narrative?", answer: "Let It Be film (1970) portrayed the sessions as miserable and the band falling apart. Peter Jackson's 'Get Back' (2021) used 60 hours of unseen footage to show the Beatles were often joyful, collaborative, and creative — the breakup narrative was largely an editing choice by the original filmmakers", acceptableAnswers: ["Jackson doc showed Beatles were happier than believed", "60 hours of footage contradicted breakup narrative", "Original Let It Be misrepresented the sessions"], explanation: "Get Back fundamentally changed how people understand the Beatles' final days together." },
     ],
   },
   {
