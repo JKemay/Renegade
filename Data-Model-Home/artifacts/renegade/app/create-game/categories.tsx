@@ -95,6 +95,11 @@ export default function CategoriesScreen() {
   };
 
   const handleTap = (categoryId: string) => {
+    // Empty ("Coming soon") categories are not selectable — picking one would
+    // produce a dead board column ("No questions loaded yet…").
+    const cat = CATEGORIES.find((c) => c.id === categoryId);
+    if (!cat || cat.questions.length === 0) return;
+
     Haptics.selectionAsync();
     const ownedBy1 = team1Picks.includes(categoryId);
     const ownedBy2 = team2Picks.includes(categoryId);
@@ -159,7 +164,7 @@ export default function CategoriesScreen() {
           {
             backgroundColor: picked ? teamColor + "22" : colors.card,
             borderColor: picked ? teamColor : colors.border,
-            opacity: pressed ? 0.75 : 1,
+            opacity: noQuestions ? 0.45 : pressed ? 0.75 : 1,
           },
         ]}
       >
