@@ -39,3 +39,6 @@ yarn-error.*
 .vercel
 
 .env
+
+# Question bank — stored in Supabase, not the repo
+constants/categories.ts
