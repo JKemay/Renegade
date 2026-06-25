@@ -13,7 +13,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 import * as Haptics from "expo-haptics";
 
-import CATEGORIES from "@/constants/categories";
+import { useCategories } from "@/hooks/useCategories";
 import { useRenegade } from "@/context/RenegadeContext";
 import { useColors } from "@/hooks/useColors";
 import { getTimerSeconds } from "@/store/settings";
@@ -27,7 +27,7 @@ import {
   setPendingResult,
 } from "@/store/gameSession";
 import { recordSeenQuestion } from "@/store/seenQuestions";
-import { AidId } from "@/types/game";
+import { AidId, Question } from "@/types/game";
 
 // ---------------------------------------------------------------------------
 // Types / constants
@@ -67,6 +67,7 @@ export default function QuestionScreen() {
   const insets = useSafeAreaInsets();
   const router = useRouter();
   const { game } = useRenegade();
+  const { data: categories = [] } = useCategories();
 
   const params = useLocalSearchParams<{
     categoryId: string;
@@ -107,18 +108,21 @@ export default function QuestionScreen() {
     ? (game?.team2Aids ?? [])
     : (game?.team1Aids ?? []);
 
-  // --- Question lookup (locked on mount so timer re-renders can't re-pick) ---
-  const [question] = useState(() => {
-    const cat = CATEGORIES.find((c) => c.id === categoryId);
+  // --- Question lookup (locked once categories load — ref guards against re-picking) ---
+  const questionPicked = useRef(false);
+  const [question, setQuestion] = useState<Question | null>(null);
+  useEffect(() => {
+    if (!categories.length || questionPicked.current) return;
+    questionPicked.current = true;
+    const cat = categories.find((c) => c.id === categoryId);
     const tierQs = cat?.questions.filter((q) => q.tier === tier) ?? [];
     const unseen = tierQs.filter((q) => !isQuestionSeen(q.id));
     const pool = unseen.length > 0 ? unseen : tierQs;
     const picked = pool.length > 0 ? pool[(slotIndex + questionSeed) % pool.length] : null;
-    // Mark seen immediately so future screens won't re-pick this question
     if (picked) addSeenQuestion(picked.id);
-    return picked;
-  });
-  const category = CATEGORIES.find((c) => c.id === categoryId);
+    setQuestion(picked);
+  }, [categories, categoryId, tier, slotIndex, questionSeed]);
+  const category = categories.find((c) => c.id === categoryId);
 
   // --- Timer ---
   const [timeLeft, setTimeLeft] = useState(() => getBaseSeconds());
@@ -554,7 +558,7 @@ function AnswerPanel({
   onNobody,
   colors,
 }: {
-  question: (typeof CATEGORIES)[number]["questions"][number] | null;
+  question: Question | null;
   tier: Tier;
   doubleActive: boolean;
   activeTeamName: string;

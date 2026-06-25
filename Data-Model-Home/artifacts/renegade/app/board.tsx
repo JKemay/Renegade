@@ -13,7 +13,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 import * as Haptics from "expo-haptics";
 
-import CATEGORIES from "@/constants/categories";
+import { useCategories } from "@/hooks/useCategories";
 import { useRenegade } from "@/context/RenegadeContext";
 import { useColors } from "@/hooks/useColors";
 import {
@@ -32,6 +32,7 @@ import {
   tileKey,
 } from "@/store/gameSession";
 import { fetchSeenQuestionIds } from "@/store/seenQuestions";
+import type { Category } from "@/types/game";
 
 const TIERS = [200, 400, 600] as const;
 const SLOT_INDEXES = [0, 1] as const;
@@ -40,7 +41,7 @@ const TIER_SLOTS = TIERS.flatMap((tier) =>
 );
 
 type ColorTokens = ReturnType<typeof useColors>;
-type CategoryData = (typeof CATEGORIES)[number];
+type CategoryData = Category;
 
 function otherTeam(team: TeamKey): TeamKey {
   return team === "team1" ? "team2" : "team1";
@@ -56,6 +57,7 @@ export default function BoardScreen() {
   const insets = useSafeAreaInsets();
   const router = useRouter();
   const { game } = useRenegade();
+  const { data: categories = [] } = useCategories();
 
   const [session, setSession] = useState<BoardSession | null>(null);
 
@@ -123,8 +125,8 @@ export default function BoardScreen() {
   );
 
   const categoryLookup = useMemo(
-    () => Object.fromEntries(CATEGORIES.map((category) => [category.id, category])),
-    [],
+    () => Object.fromEntries(categories.map((category) => [category.id, category])),
+    [categories],
   );
 
   if (!game) return null;

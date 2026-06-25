@@ -14,7 +14,7 @@ import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 import * as Haptics from "expo-haptics";
 
-import CATEGORIES from "@/constants/categories";
+import { useCategories } from "@/hooks/useCategories";
 import { useRenegade } from "@/context/RenegadeContext";
 import { useColors } from "@/hooks/useColors";
 import { clearBoardSession } from "@/store/gameSession";
@@ -28,6 +28,7 @@ export default function CategoriesScreen() {
   const insets = useSafeAreaInsets();
   const router = useRouter();
   const { game, saveGame } = useRenegade();
+  const { data: categories = [], isLoading } = useCategories();
 
   const [team1Picks, setTeam1Picks] = useState<string[]>([]);
   const [team2Picks, setTeam2Picks] = useState<string[]>([]);
@@ -52,13 +53,13 @@ export default function CategoriesScreen() {
   const searchResults = useMemo(() => {
     const q = searchQuery.trim().toLowerCase();
     if (!q) return null;
-    return CATEGORIES.filter(
+    return categories.filter(
       (cat) =>
         cat.name.toLowerCase().includes(q) ||
         cat.group?.toLowerCase().includes(q) ||
         cat.description.toLowerCase().includes(q),
     );
-  }, [searchQuery]);
+  }, [searchQuery, categories]);
 
   // Derive groups + ungrouped lists
   const { groupedCategories, ungroupedCategories, groupOrder } = useMemo(() => {
@@ -66,7 +67,7 @@ export default function CategoriesScreen() {
     const ungrouped: Category[] = [];
     const order: string[] = [];
 
-    for (const cat of CATEGORIES) {
+    for (const cat of categories) {
       if (cat.group) {
         if (!groups[cat.group]) {
           groups[cat.group] = [];
@@ -83,7 +84,7 @@ export default function CategoriesScreen() {
       ungroupedCategories: ungrouped,
       groupOrder: order,
     };
-  }, []);
+  }, [categories]);
 
   const toggleGroup = (group: string) => {
     setExpandedGroups((prev) => {
