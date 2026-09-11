@@ -89,7 +89,7 @@ Manages the **board state** during gameplay.
 
 ```ts
 interface BoardSession {
-  tileStatuses: Record<string, TileStatus>  // open|answered|locked
+  tileStatuses: Record<string, TileStatus>  // played_won|played_lost (unset = open)
   team1Score: number
   team2Score: number
   currentTurn: TeamKey
@@ -166,14 +166,16 @@ Three tables:
 Completed game records for leaderboard/history.
 
 ```sql
+-- as created by supabase/migrations/20260521_rls_and_user_id.sql (RLS-scoped to auth.uid())
 CREATE TABLE games (
-  id UUID PRIMARY KEY,
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id UUID REFERENCES auth.users(id) DEFAULT auth.uid(),
   team1_name TEXT,
   team2_name TEXT,
   team1_score INT,
   team2_score INT,
   winner TEXT,
-  categories JSONB,
+  categories TEXT[],
   created_at TIMESTAMP DEFAULT now()
 );
 ```
@@ -182,12 +184,15 @@ CREATE TABLE games (
 Which questions have been shown (prevents repeats).
 
 ```sql
+-- as created by supabase/migrations/20260521_rls_and_user_id.sql (RLS-scoped to auth.uid())
 CREATE TABLE seen_questions (
-  id UUID PRIMARY KEY,
-  user_id UUID REFERENCES auth.users,
+  id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+  user_id UUID REFERENCES auth.users(id) DEFAULT auth.uid(),
   question_id TEXT,
-  seen_at TIMESTAMP DEFAULT now(),
-  UNIQUE(user_id, question_id)
+  played_at TIMESTAMP DEFAULT now()
+  -- NOTE: no UNIQUE(user_id, question_id) constraint exists in the actual
+  -- migration, so recordSeenQuestion()'s "23505 = already recorded" guard
+  -- in store/seenQuestions.ts is currently dead code (duplicates aren't rejected).
 );
 ```
 
