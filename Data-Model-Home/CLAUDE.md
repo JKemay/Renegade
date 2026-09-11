@@ -54,7 +54,8 @@ All app work happens inside `artifacts/renegade/`.
 
 ## Game Rules
 
-1. **Setup:** Each team picks 3 topic categories — and also picks the *opponent's* 3 categories.
+1. **Setup:** Each team picks 3 topic categories for itself, alternating turns (`app/create-game/categories.tsx`). The board therefore holds 6 categories total, 3 per team.
+   - Note: earlier design notes describe each team *also* drafting the opponent's 3 categories. That mechanic is **not implemented** — see "Planned / Not Yet Implemented" in `README.md`.
 2. **Aids:** Each team picks 3 Aids (one-use power-ups) from 7 options: `skip`, `split`, `steal`, `phone`, `double`, `veto`, `insider`.
 3. **Board:** 6 categories × 3 tiers (200/400/600) × 2 questions per tier = 36 tiles. Teams alternate turns.
 4. **Question:** 30-second countdown (configurable). Active team can use an Aid before or after answer reveal.
