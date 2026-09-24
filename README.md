@@ -15,17 +15,28 @@ Renegade is a competitive, real-time trivia game for groups. Two teams pick cate
 
 ### Install & Run
 
+The pnpm workspace root is `Data-Model-Home/`, not this directory — every
+command below runs from there.
+
 ```bash
+cd Data-Model-Home
+
 # Install dependencies (monorepo)
 pnpm install
 
-# Start the Expo dev server (from repo root)
-pnpm dev
+# Start the Expo dev server. There is no `dev` script at the workspace root;
+# it lives in the renegade package, so target it explicitly.
+pnpm --filter @workspace/renegade dev
 
 # In Expo Go app or simulator, scan the QR code
 ```
 
 The app will hot-reload as you save changes.
+
+> **Note:** `pnpm-workspace.yaml` overrides away every non-linux-x64 native
+> binary (esbuild, rollup, lightningcss, tailwind oxide), because the project
+> targets Replit. Installing on macOS or Windows will omit binaries the build
+> needs. Drop those overrides if you want to build locally.
 
 ---
 
@@ -210,14 +221,14 @@ See `ARCHITECTURE.md` for:
 
 ### App won't start
 ```bash
-pnpm install
+cd Data-Model-Home
 rm -rf node_modules .expo
 pnpm install
-pnpm dev
+pnpm --filter @workspace/renegade dev
 ```
 
 ### AsyncStorage errors
-- Clear Expo cache: `pnpm dev --clear`
+- Clear Expo cache: `pnpm --filter @workspace/renegade dev --clear`
 - Delete saved game state in Expo app Settings
 
 ### Supabase connection issues
@@ -226,7 +237,7 @@ pnpm dev
 
 ### Hot reload not working
 - Save the file again (sometimes takes 2 saves)
-- Restart Expo dev server: `Ctrl+C` then `pnpm dev`
+- Restart Expo dev server: `Ctrl+C` then `pnpm --filter @workspace/renegade dev`
 
 ---
 
