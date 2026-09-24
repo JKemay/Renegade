@@ -22,6 +22,5 @@ export function recordGame(game: GameRecord): void {
     })
     .then(({ error }) => {
       if (error) console.warn("Failed to record game:", error.message);
-    })
-    .catch((err: Error) => console.warn("Failed to record game:", err.message));
+    }, (err: Error) => console.warn("Failed to record game:", err.message));
 }
