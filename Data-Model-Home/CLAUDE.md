@@ -46,7 +46,7 @@ All app work happens inside `artifacts/renegade/`.
 | `store/games.ts` | `recordGame()` — inserts completed game to Supabase `games` table |
 | `store/seenQuestions.ts` | Tracks shown question IDs to prevent repeats across sessions |
 | `store/settings.ts` | Timer seconds (default 30). Loaded once at app start. |
-| `constants/categories.ts` | All question content as a static `CATEGORIES` array |
+| `hooks/useCategories.ts` | Fetches all categories + questions from the Supabase `categories`/`questions` tables |
 | `constants/colors.ts` | Color token definitions |
 | `lib/supabase.ts` | Supabase client initialization |
 
@@ -122,8 +122,8 @@ One logical change per commit.
 
 ## Common Tasks
 
-- **Add a question:** Append to the correct `Category.questions[]` in `constants/categories.ts`. Follow tier rules in `content/content_quality_system.md`.
-- **Add a category:** Add a `Category` object to `constants/categories.ts` with the correct `culture` tag (`circassian | jordanian | arabic | american | islamic | universal`).
+- **Add a question:** Insert a row into the Supabase `questions` table for the target `category_id`. Follow tier rules in `content/content_quality_system.md`.
+- **Add a category:** Insert a row into the Supabase `categories` table with the correct `culture` tag (`circassian | jordanian | arabic | american | islamic | universal`), then add its questions.
 - **Add an Aid:** Add to `AidId` union in `types/game.ts`, handle in `question.tsx` Aid logic, update `AID_LABEL` map.
 - **Change timer default:** Edit `store/settings.ts` initial value.
 

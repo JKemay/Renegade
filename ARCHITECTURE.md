@@ -305,36 +305,19 @@ Route params: `{ team1Score, team2Score }`
 
 ## Data & Content System
 
-### Static Content: `constants/categories.ts`
+### Live Content: Supabase `categories` / `questions` tables
 
-All questions are hard-coded in TypeScript:
+Questions are fetched at runtime via `hooks/useCategories.ts`, which queries Supabase and shapes the result into the app's `Category`/`Question` types (see `types/game.ts`):
 
 ```ts
-export const CATEGORIES: Category[] = [
-  {
-    id: "anime",
-    name: "Anime",
-    culture: "universal",
-    questions: [
-      {
-        id: "anime_001",
-        tier: 200,
-        prompt: "What is the name of the hero in Naruto?",
-        answer: "Naruto Uzumaki",
-        acceptableAnswers: ["Naruto", "Naruto Uzumaki", "Uzumaki"]
-      },
-      // ... more questions
-    ]
-  },
-  // ... more categories
-];
+const { data: categories = [] } = useCategories();
+// categories: Category[], each with a nested questions: Question[]
 ```
 
-**Why static?**
-- Simple (no network calls needed in dev)
-- Works offline
-- Fast queries
-- Easy to version control
+**Why Supabase, not a bundled file?**
+- Content can be fixed/added without shipping a new build
+- One source of truth shared across every client
+- `staleTime: Infinity` on the query means it's still fetched once per app session, not on every screen
 
 **Tier Philosophy:**
 - **200** = Casual fan (famous scenes, broad exposure)
@@ -343,7 +326,7 @@ export const CATEGORIES: Category[] = [
 
 ### Draft Content: `content/*.draft.ts`
 
-Separate packs (anime, movies, games) as drafts. Reviewed and merged into `constants/categories.ts` when ready.
+Separate packs (anime, movies, games) as drafts, pending review and insertion into Supabase.
 
 ---
 

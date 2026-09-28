@@ -140,7 +140,7 @@ Persisted under `renegade:board_session`. Contains:
 Managed via `store/gameSession.ts` (functions: `loadBoardSession`, `saveBoardSession`, `clearBoardSession`, etc.).
 
 ### Questions & Content
-All questions live in `constants/categories.ts` as static TypeScript arrays. Draft content packs (anime, movies, video games) are in `content/*.draft.ts`.
+All questions live in Supabase's `categories`/`questions` tables, fetched via `hooks/useCategories.ts`. Draft content packs (anime, movies, video games) are in `content/*.draft.ts` pending migration into Supabase.
 
 **Tier philosophy:**
 - **200** = casual fan (famous scenes, broad cultural exposure)
@@ -155,26 +155,18 @@ Categories are tagged: `circassian | jordanian | arabic | american | islamic | u
 ## Common Tasks
 
 ### Add a Question
-1. Open `constants/categories.ts`
-2. Find the category you want to add to
-3. Append a question object:
-   ```ts
-   {
-     id: "unique-id",
-     tier: 400,
-     prompt: "What is the name of...?",
-     answer: "Correct Answer",
-     acceptableAnswers: ["Correct Answer", "alt spelling", "common abbreviation"]
-   }
+1. Find the target category's `id` in the Supabase `categories` table
+2. Insert a row into the `questions` table:
+   ```sql
+   insert into questions (id, category_id, tier, prompt, answer, acceptable_answers)
+   values ('unique-id', 'category-id', 400, 'What is the name of...?', 'Correct Answer',
+           array['Correct Answer', 'alt spelling', 'common abbreviation']);
    ```
-4. Follow tier guidelines in `content/content_quality_system.md`
-5. Commit: `feat(content): add question to [category] category`
+3. Follow tier guidelines in `content/content_quality_system.md`
 
 ### Add a New Category
-1. Create a new `Category` object in `constants/categories.ts`
-2. Set `culture` tag appropriately
-3. Add questions following tier rules
-4. Commit: `feat(content): add [category] category with [N] questions`
+1. Insert a row into the Supabase `categories` table, setting `culture` appropriately
+2. Add its questions following tier rules
 
 ### Add an Aid Type
 1. Add to `AidId` union in `types/game.ts`
