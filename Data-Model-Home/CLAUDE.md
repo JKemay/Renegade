@@ -46,7 +46,7 @@ All app work happens inside `artifacts/renegade/`.
 | `store/games.ts` | `recordGame()` — inserts completed game to Supabase `games` table |
 | `store/seenQuestions.ts` | Tracks shown question IDs to prevent repeats across sessions |
 | `store/settings.ts` | Timer seconds (default 30). Loaded once at app start. |
-| `constants/categories.ts` | All question content as a static `CATEGORIES` array |
+| `hooks/useCategories.ts` | Fetches all categories + questions from the Supabase `categories`/`questions` tables |
 | `constants/colors.ts` | Color token definitions |
 | `lib/supabase.ts` | Supabase client initialization |
 
@@ -54,7 +54,8 @@ All app work happens inside `artifacts/renegade/`.
 
 ## Game Rules
 
-1. **Setup:** Each team picks 3 topic categories — and also picks the *opponent's* 3 categories.
+1. **Setup:** Each team picks 3 topic categories for itself, alternating turns (`app/create-game/categories.tsx`). The board therefore holds 6 categories total, 3 per team.
+   - Note: earlier design notes describe each team *also* drafting the opponent's 3 categories. That mechanic is **not implemented** — see "Planned / Not Yet Implemented" in `README.md`.
 2. **Aids:** Each team picks 3 Aids (one-use power-ups) from 7 options: `skip`, `split`, `steal`, `phone`, `double`, `veto`, `insider`.
 3. **Board:** 6 categories × 3 tiers (200/400/600) × 2 questions per tier = 36 tiles. Teams alternate turns.
 4. **Question:** 30-second countdown (configurable). Active team can use an Aid before or after answer reveal.
@@ -121,8 +122,8 @@ One logical change per commit.
 
 ## Common Tasks
 
-- **Add a question:** Append to the correct `Category.questions[]` in `constants/categories.ts`. Follow tier rules in `content/content_quality_system.md`.
-- **Add a category:** Add a `Category` object to `constants/categories.ts` with the correct `culture` tag (`circassian | jordanian | arabic | american | islamic | universal`).
+- **Add a question:** Insert a row into the Supabase `questions` table for the target `category_id`. Follow tier rules in `content/content_quality_system.md`.
+- **Add a category:** Insert a row into the Supabase `categories` table with the correct `culture` tag (`circassian | jordanian | arabic | american | islamic | universal`), then add its questions.
 - **Add an Aid:** Add to `AidId` union in `types/game.ts`, handle in `question.tsx` Aid logic, update `AID_LABEL` map.
 - **Change timer default:** Edit `store/settings.ts` initial value.
 

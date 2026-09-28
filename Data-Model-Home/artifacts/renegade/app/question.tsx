@@ -119,6 +119,7 @@ export default function QuestionScreen() {
     const unseen = tierQs.filter((q) => !isQuestionSeen(q.id));
     const pool = unseen.length > 0 ? unseen : tierQs;
     const picked = pool.length > 0 ? pool[(slotIndex + questionSeed) % pool.length] : null;
+    // Mark seen immediately so future screens won't re-pick this question
     if (picked) addSeenQuestion(picked.id);
     setQuestion(picked);
   }, [categories, categoryId, tier, slotIndex, questionSeed]);
