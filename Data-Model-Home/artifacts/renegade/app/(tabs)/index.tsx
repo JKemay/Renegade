@@ -23,7 +23,7 @@ export default function HomeScreen() {
   const { game, resetGame } = useRenegade();
 
   const [showIntro, setShowIntro] = useState(false);
-  const [stats, setStats] = useState<{ played: number; wins: number } | null>(null);
+  const [stats, setStats] = useState<{ played: number; decisive: number } | null>(null);
 
   useEffect(() => {
     AsyncStorage.getItem("renegade:intro_seen").then((val) => {
@@ -39,7 +39,9 @@ export default function HomeScreen() {
         if (!data) return;
         setStats({
           played: data.length,
-          wins: data.filter((g: { winner: string }) => g.winner !== "tie").length,
+          // Counts games that ended with a winner rather than a tie. This is NOT a
+          // per-team win rate: the app is shared-device and has no notion of "my team".
+          decisive: data.filter((g: { winner: string }) => g.winner !== "tie").length,
         });
       })
       .catch(() => {});
@@ -127,9 +129,9 @@ export default function HomeScreen() {
           <View style={[styles.statDivider, { backgroundColor: colors.border }]} />
           <Text style={[styles.statItem, { color: colors.mutedForeground, fontFamily: "Inter_400Regular" }]}>
             <Text style={[styles.statNum, { color: colors.foreground, fontFamily: "Inter_700Bold" }]}>
-              {stats.wins}
+              {stats.decisive}
             </Text>
-            {" wins"}
+            {" decided"}
           </Text>
         </View>
       )}

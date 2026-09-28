@@ -76,9 +76,9 @@ Data-Model-Home/                          ← monorepo root (pnpm workspaces)
 
 ## Game Rules (For Context)
 
-1. **Setup Phase:** Each team picks 3 category topics. Each team *also* picks the opponent's 3 categories (adds strategy). Then both teams pick 3 Aids (one-use power-ups).
+1. **Setup Phase:** Each team picks 3 category topics for itself, alternating turns (`app/create-game/categories.tsx`). Then both teams pick 3 Aids (one-use power-ups).
 
-2. **Board Phase:** 6 categories × 3 tiers (200/400/600 points) = 18 tiles per team. Teams alternate picking tiles to reveal questions.
+2. **Board Phase:** Each team's 3 categories × 3 tiers (200/400/600 points) × 2 questions per tier = 18 tiles per team (36 tiles total across both teams' columns). Teams alternate picking tiles to reveal questions.
 
 3. **Question Phase:** 
    - A countdown timer runs (default 30 seconds, configurable).
@@ -88,14 +88,23 @@ Data-Model-Home/                          ← monorepo root (pnpm workspaces)
 
 4. **Aids (Power-ups):**
    - **Skip** – Pass on the question (no points loss).
-   - **Split** – Both teams attempt; both score if correct.
+   - **Split** – Displays an in-game reminder banner ("announce two options: A correct, B your choice"). Does not change scoring or question flow — see "Planned / Not Yet Implemented" below.
    - **Steal** – Opponent attempts the question; if right, they score; if wrong, active team scores.
-   - **Phone** – Reveal one of the acceptable answers.
+   - **Phone** – +30 seconds added to the question timer.
    - **Double** – 2× points if correct.
-   - **Veto** – Block opponent's Aid next turn.
+   - **Veto** – Opponent's team skips their entire next tile-pick turn.
    - **Insider** – Reveal the category's theme hint.
 
 5. **End Game:** All tiles revealed → Results screen shows winner → game recorded to Supabase.
+
+### Planned / Not Yet Implemented
+
+These mechanics are described in earlier design notes / product intent but are **not** what the code currently does. Documented here so the intent isn't lost, not as a description of current behavior:
+
+- **Dual category draft** – Originally: each team also picks the *opponent's* 3 categories (for strategic denial), yielding a 6-category board. **Actual:** a simple alternating self-draft — each team picks 3 categories for itself only (`app/create-game/categories.tsx`, `team1Picks.length < 3` / `team2Picks.length < 3`). The board still ends up with 6 categories total (3 per team), so the category *count* matches, but the *drafting mechanic* does not.
+- **Phone-a-friend (answer reveal)** – Originally: reveals one of the question's acceptable answers. **Actual:** adds +30 seconds to the timer (`app/question.tsx` `handlePhone`). In-app copy (Aid picker and question screen) already reflects the +30s behavior.
+- **Veto (block opponent's Aid)** – Originally: blocks the opponent's next Aid use specifically. **Actual:** the opponent's entire next tile-pick turn is skipped (`app/question.tsx` `handleVeto`/`submitResult`, `app/board.tsx` `nextTurnAfter`, `app/create-game/teams.tsx` Aid description). In-app copy already reflects the turn-skip behavior.
+- **Split (co-op scoring)** – Originally (per this README, previously): both teams attempt the question and both score if correct. A different variant is described in the Aid picker's own copy ("host narrows it to two options, pick one"). **Actual:** neither is implemented — using Split only sets a `splitActive` flag that renders a reminder banner during the question (`app/question.tsx` line ~145, ~377). It is never read by `handleActiveCorrect`, `handleNobodyGotIt`, or `submitResult`, so there is no code path that awards points to the non-active team. **If you use Split, any points for the second team/option must be tracked manually, outside the app** — the app only scores the active team's normal answer.
 
 ---
 
