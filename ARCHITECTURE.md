@@ -4,6 +4,32 @@ This document describes the high-level design of the Renegade app: how data flow
 
 ---
 
+## Repo Structure (why everything is under `Data-Model-Home/`)
+
+This repository was scaffolded by Replit, which nests the entire project under a generated `Data-Model-Home/` directory. That folder is the **pnpm workspace root** (it holds `pnpm-workspace.yaml` and `pnpm-lock.yaml`), and it is a scaffolding artifact — not a meaningful part of the app's design.
+
+**The real app lives at `Data-Model-Home/artifacts/renegade/`.** Almost all development happens there. The surrounding workspace packages (`lib/api-client-react`, `lib/api-zod`, `lib/db`, `artifacts/api-server`, `artifacts/mockup-sandbox`) are generated/scaffolded support packages.
+
+```
+Data-Model-Home/                  ← pnpm workspace root (Replit scaffold artifact)
+├── pnpm-workspace.yaml
+├── pnpm-lock.yaml
+└── artifacts/
+    └── renegade/                 ← THE APP — work happens here
+```
+
+Because of this layout, all install and typecheck commands run from `Data-Model-Home/`:
+
+```bash
+# from Data-Model-Home/
+pnpm install --frozen-lockfile
+pnpm --filter @workspace/renegade run typecheck
+```
+
+CI (`.github/workflows/ci.yml`) does exactly this: it installs the workspace and runs `tsc --noEmit` for the renegade package on every push and pull request to `main`/`develop`.
+
+---
+
 ## Data Flow Overview
 
 ```

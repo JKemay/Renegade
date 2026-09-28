@@ -43,8 +43,7 @@ export default function HomeScreen() {
           // per-team win rate: the app is shared-device and has no notion of "my team".
           decisive: data.filter((g: { winner: string }) => g.winner !== "tie").length,
         });
-      })
-      .catch(() => {});
+      }, () => {});
   }, []);
 
   const dismissIntro = async () => {
